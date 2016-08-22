@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetAllowedOrderStates {
   private OmGetAllowedOrderStates() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetAllowedOrderStates.Parameters)
@@ -106,11 +112,11 @@ public final class OmGetAllowedOrderStates {
    * Protobuf type {@code dstore.engine.om_GetAllowedOrderStates.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetAllowedOrderStates.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -252,7 +258,7 @@ public final class OmGetAllowedOrderStates {
       return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -503,6 +509,102 @@ public final class OmGetAllowedOrderStates {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters other = (io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasFromOrderStateId() == other.hasFromOrderStateId());
+      if (hasFromOrderStateId()) {
+        result = result && getFromOrderStateId()
+            .equals(other.getFromOrderStateId());
+      }
+      result = result && (getFromOrderStateIdNull()
+          == other.getFromOrderStateIdNull());
+      result = result && (hasToOrderStateId() == other.hasToOrderStateId());
+      if (hasToOrderStateId()) {
+        result = result && getToOrderStateId()
+            .equals(other.getToOrderStateId());
+      }
+      result = result && (getToOrderStateIdNull()
+          == other.getToOrderStateIdNull());
+      result = result && (hasPaymentForShippingId() == other.hasPaymentForShippingId());
+      if (hasPaymentForShippingId()) {
+        result = result && getPaymentForShippingId()
+            .equals(other.getPaymentForShippingId());
+      }
+      result = result && (getPaymentForShippingIdNull()
+          == other.getPaymentForShippingIdNull());
+      result = result && (hasLanguageId() == other.hasLanguageId());
+      if (hasLanguageId()) {
+        result = result && getLanguageId()
+            .equals(other.getLanguageId());
+      }
+      result = result && (getLanguageIdNull()
+          == other.getLanguageIdNull());
+      result = result && (hasOnlyActive() == other.hasOnlyActive());
+      if (hasOnlyActive()) {
+        result = result && getOnlyActive()
+            .equals(other.getOnlyActive());
+      }
+      result = result && (getOnlyActiveNull()
+          == other.getOnlyActiveNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasFromOrderStateId()) {
+        hash = (37 * hash) + FROM_ORDER_STATE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getFromOrderStateId().hashCode();
+      }
+      hash = (37 * hash) + FROM_ORDER_STATE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromOrderStateIdNull());
+      if (hasToOrderStateId()) {
+        hash = (37 * hash) + TO_ORDER_STATE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getToOrderStateId().hashCode();
+      }
+      hash = (37 * hash) + TO_ORDER_STATE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToOrderStateIdNull());
+      if (hasPaymentForShippingId()) {
+        hash = (37 * hash) + PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPaymentForShippingId().hashCode();
+      }
+      hash = (37 * hash) + PAYMENT_FOR_SHIPPING_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPaymentForShippingIdNull());
+      if (hasLanguageId()) {
+        hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getLanguageId().hashCode();
+      }
+      hash = (37 * hash) + LANGUAGE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLanguageIdNull());
+      if (hasOnlyActive()) {
+        hash = (37 * hash) + ONLY_ACTIVE_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyActive().hashCode();
+      }
+      hash = (37 * hash) + ONLY_ACTIVE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyActiveNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -526,39 +628,39 @@ public final class OmGetAllowedOrderStates {
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -576,7 +678,7 @@ public final class OmGetAllowedOrderStates {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -584,7 +686,7 @@ public final class OmGetAllowedOrderStates {
      * Protobuf type {@code dstore.engine.om_GetAllowedOrderStates.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetAllowedOrderStates.Parameters)
         io.dstore.engine.procedures.OmGetAllowedOrderStates.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -592,7 +694,7 @@ public final class OmGetAllowedOrderStates {
         return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -605,12 +707,13 @@ public final class OmGetAllowedOrderStates {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -711,6 +814,32 @@ public final class OmGetAllowedOrderStates {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetAllowedOrderStates.Parameters)other);
@@ -779,7 +908,7 @@ public final class OmGetAllowedOrderStates {
       }
 
       private io.dstore.Values.integerValue fromOrderStateId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromOrderStateIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue from_order_state_id = 1;</code>
@@ -881,11 +1010,11 @@ public final class OmGetAllowedOrderStates {
       /**
        * <code>optional .dstore.values.integerValue from_order_state_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromOrderStateIdFieldBuilder() {
         if (fromOrderStateIdBuilder_ == null) {
-          fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromOrderStateId(),
                   getParentForChildren(),
@@ -922,7 +1051,7 @@ public final class OmGetAllowedOrderStates {
       }
 
       private io.dstore.Values.integerValue toOrderStateId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toOrderStateIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue to_order_state_id = 2;</code>
@@ -1024,11 +1153,11 @@ public final class OmGetAllowedOrderStates {
       /**
        * <code>optional .dstore.values.integerValue to_order_state_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getToOrderStateIdFieldBuilder() {
         if (toOrderStateIdBuilder_ == null) {
-          toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getToOrderStateId(),
                   getParentForChildren(),
@@ -1065,7 +1194,7 @@ public final class OmGetAllowedOrderStates {
       }
 
       private io.dstore.Values.integerValue paymentForShippingId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue payment_for_shipping_id = 3;</code>
@@ -1167,11 +1296,11 @@ public final class OmGetAllowedOrderStates {
       /**
        * <code>optional .dstore.values.integerValue payment_for_shipping_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPaymentForShippingIdFieldBuilder() {
         if (paymentForShippingIdBuilder_ == null) {
-          paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPaymentForShippingId(),
                   getParentForChildren(),
@@ -1208,7 +1337,7 @@ public final class OmGetAllowedOrderStates {
       }
 
       private io.dstore.Values.integerValue languageId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue language_id = 4;</code>
@@ -1310,11 +1439,11 @@ public final class OmGetAllowedOrderStates {
       /**
        * <code>optional .dstore.values.integerValue language_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
-          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
@@ -1351,7 +1480,7 @@ public final class OmGetAllowedOrderStates {
       }
 
       private io.dstore.Values.booleanValue onlyActive_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyActiveBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_active = 5;</code>
@@ -1453,11 +1582,11 @@ public final class OmGetAllowedOrderStates {
       /**
        * <code>optional .dstore.values.booleanValue only_active = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyActiveFieldBuilder() {
         if (onlyActiveBuilder_ == null) {
-          onlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyActive(),
                   getParentForChildren(),
@@ -1641,11 +1770,11 @@ public final class OmGetAllowedOrderStates {
    * Protobuf type {@code dstore.engine.om_GetAllowedOrderStates.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetAllowedOrderStates.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1684,7 +1813,8 @@ public final class OmGetAllowedOrderStates {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1692,7 +1822,8 @@ public final class OmGetAllowedOrderStates {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1700,7 +1831,8 @@ public final class OmGetAllowedOrderStates {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1728,7 +1860,7 @@ public final class OmGetAllowedOrderStates {
       return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1998,11 +2130,11 @@ public final class OmGetAllowedOrderStates {
      * Protobuf type {@code dstore.engine.om_GetAllowedOrderStates.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetAllowedOrderStates.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2185,7 +2317,7 @@ public final class OmGetAllowedOrderStates {
         return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2632,6 +2764,126 @@ public final class OmGetAllowedOrderStates {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row other = (io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasToPublicDescription() == other.hasToPublicDescription());
+        if (hasToPublicDescription()) {
+          result = result && getToPublicDescription()
+              .equals(other.getToPublicDescription());
+        }
+        result = result && (hasToOrderStateId() == other.hasToOrderStateId());
+        if (hasToOrderStateId()) {
+          result = result && getToOrderStateId()
+              .equals(other.getToOrderStateId());
+        }
+        result = result && (hasPaymentForShippingId() == other.hasPaymentForShippingId());
+        if (hasPaymentForShippingId()) {
+          result = result && getPaymentForShippingId()
+              .equals(other.getPaymentForShippingId());
+        }
+        result = result && (hasFromOrderStateId() == other.hasFromOrderStateId());
+        if (hasFromOrderStateId()) {
+          result = result && getFromOrderStateId()
+              .equals(other.getFromOrderStateId());
+        }
+        result = result && (hasFromPublicDescription() == other.hasFromPublicDescription());
+        if (hasFromPublicDescription()) {
+          result = result && getFromPublicDescription()
+              .equals(other.getFromPublicDescription());
+        }
+        result = result && (hasShippingTypeId() == other.hasShippingTypeId());
+        if (hasShippingTypeId()) {
+          result = result && getShippingTypeId()
+              .equals(other.getShippingTypeId());
+        }
+        result = result && (hasToOrderState() == other.hasToOrderState());
+        if (hasToOrderState()) {
+          result = result && getToOrderState()
+              .equals(other.getToOrderState());
+        }
+        result = result && (hasPaymentForShippingDescription() == other.hasPaymentForShippingDescription());
+        if (hasPaymentForShippingDescription()) {
+          result = result && getPaymentForShippingDescription()
+              .equals(other.getPaymentForShippingDescription());
+        }
+        result = result && (hasPaymentTypeId() == other.hasPaymentTypeId());
+        if (hasPaymentTypeId()) {
+          result = result && getPaymentTypeId()
+              .equals(other.getPaymentTypeId());
+        }
+        result = result && (hasFromOrderState() == other.hasFromOrderState());
+        if (hasFromOrderState()) {
+          result = result && getFromOrderState()
+              .equals(other.getFromOrderState());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasToPublicDescription()) {
+          hash = (37 * hash) + TO_PUBLIC_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getToPublicDescription().hashCode();
+        }
+        if (hasToOrderStateId()) {
+          hash = (37 * hash) + TO_ORDER_STATE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getToOrderStateId().hashCode();
+        }
+        if (hasPaymentForShippingId()) {
+          hash = (37 * hash) + PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentForShippingId().hashCode();
+        }
+        if (hasFromOrderStateId()) {
+          hash = (37 * hash) + FROM_ORDER_STATE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getFromOrderStateId().hashCode();
+        }
+        if (hasFromPublicDescription()) {
+          hash = (37 * hash) + FROM_PUBLIC_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getFromPublicDescription().hashCode();
+        }
+        if (hasShippingTypeId()) {
+          hash = (37 * hash) + SHIPPING_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getShippingTypeId().hashCode();
+        }
+        if (hasToOrderState()) {
+          hash = (37 * hash) + TO_ORDER_STATE_FIELD_NUMBER;
+          hash = (53 * hash) + getToOrderState().hashCode();
+        }
+        if (hasPaymentForShippingDescription()) {
+          hash = (37 * hash) + PAYMENT_FOR_SHIPPING_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentForShippingDescription().hashCode();
+        }
+        if (hasPaymentTypeId()) {
+          hash = (37 * hash) + PAYMENT_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentTypeId().hashCode();
+        }
+        if (hasFromOrderState()) {
+          hash = (37 * hash) + FROM_ORDER_STATE_FIELD_NUMBER;
+          hash = (53 * hash) + getFromOrderState().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2655,39 +2907,39 @@ public final class OmGetAllowedOrderStates {
       }
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2705,7 +2957,7 @@ public final class OmGetAllowedOrderStates {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2713,7 +2965,7 @@ public final class OmGetAllowedOrderStates {
        * Protobuf type {@code dstore.engine.om_GetAllowedOrderStates.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetAllowedOrderStates.Response.Row)
           io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2721,7 +2973,7 @@ public final class OmGetAllowedOrderStates {
           return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2734,12 +2986,13 @@ public final class OmGetAllowedOrderStates {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2883,6 +3136,32 @@ public final class OmGetAllowedOrderStates {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row)other);
@@ -2980,7 +3259,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.stringValue toPublicDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toPublicDescriptionBuilder_;
         /**
          * <pre>
@@ -3118,11 +3397,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.stringValue to_public_description = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getToPublicDescriptionFieldBuilder() {
           if (toPublicDescriptionBuilder_ == null) {
-            toPublicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toPublicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getToPublicDescription(),
                     getParentForChildren(),
@@ -3133,7 +3412,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.integerValue toOrderStateId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toOrderStateIdBuilder_;
         /**
          * <pre>
@@ -3271,11 +3550,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getToOrderStateIdFieldBuilder() {
           if (toOrderStateIdBuilder_ == null) {
-            toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getToOrderStateId(),
                     getParentForChildren(),
@@ -3286,7 +3565,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.integerValue paymentForShippingId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
         /**
          * <pre>
@@ -3424,11 +3703,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPaymentForShippingIdFieldBuilder() {
           if (paymentForShippingIdBuilder_ == null) {
-            paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPaymentForShippingId(),
                     getParentForChildren(),
@@ -3439,7 +3718,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.integerValue fromOrderStateId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromOrderStateIdBuilder_;
         /**
          * <pre>
@@ -3577,11 +3856,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.integerValue from_order_state_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFromOrderStateIdFieldBuilder() {
           if (fromOrderStateIdBuilder_ == null) {
-            fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFromOrderStateId(),
                     getParentForChildren(),
@@ -3592,7 +3871,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.stringValue fromPublicDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromPublicDescriptionBuilder_;
         /**
          * <pre>
@@ -3730,11 +4009,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.stringValue from_public_description = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFromPublicDescriptionFieldBuilder() {
           if (fromPublicDescriptionBuilder_ == null) {
-            fromPublicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromPublicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFromPublicDescription(),
                     getParentForChildren(),
@@ -3745,7 +4024,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.integerValue shippingTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
         /**
          * <pre>
@@ -3883,11 +4162,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getShippingTypeIdFieldBuilder() {
           if (shippingTypeIdBuilder_ == null) {
-            shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getShippingTypeId(),
                     getParentForChildren(),
@@ -3898,7 +4177,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.stringValue toOrderState_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toOrderStateBuilder_;
         /**
          * <pre>
@@ -4036,11 +4315,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.stringValue to_order_state = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getToOrderStateFieldBuilder() {
           if (toOrderStateBuilder_ == null) {
-            toOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getToOrderState(),
                     getParentForChildren(),
@@ -4051,7 +4330,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.stringValue paymentForShippingDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentForShippingDescriptionBuilder_;
         /**
          * <pre>
@@ -4189,11 +4468,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPaymentForShippingDescriptionFieldBuilder() {
           if (paymentForShippingDescriptionBuilder_ == null) {
-            paymentForShippingDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentForShippingDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPaymentForShippingDescription(),
                     getParentForChildren(),
@@ -4204,7 +4483,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.integerValue paymentTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
         /**
          * <pre>
@@ -4342,11 +4621,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.integerValue payment_type_id = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPaymentTypeIdFieldBuilder() {
           if (paymentTypeIdBuilder_ == null) {
-            paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPaymentTypeId(),
                     getParentForChildren(),
@@ -4357,7 +4636,7 @@ public final class OmGetAllowedOrderStates {
         }
 
         private io.dstore.Values.stringValue fromOrderState_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromOrderStateBuilder_;
         /**
          * <pre>
@@ -4495,11 +4774,11 @@ public final class OmGetAllowedOrderStates {
          *
          * <code>optional .dstore.values.stringValue from_order_state = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFromOrderStateFieldBuilder() {
           if (fromOrderStateBuilder_ == null) {
-            fromOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFromOrderState(),
                     getParentForChildren(),
@@ -4727,6 +5006,50 @@ public final class OmGetAllowedOrderStates {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetAllowedOrderStates.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetAllowedOrderStates.Response other = (io.dstore.engine.procedures.OmGetAllowedOrderStates.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4750,39 +5073,39 @@ public final class OmGetAllowedOrderStates {
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetAllowedOrderStates.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4800,7 +5123,7 @@ public final class OmGetAllowedOrderStates {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4808,7 +5131,7 @@ public final class OmGetAllowedOrderStates {
      * Protobuf type {@code dstore.engine.om_GetAllowedOrderStates.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetAllowedOrderStates.Response)
         io.dstore.engine.procedures.OmGetAllowedOrderStates.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4816,7 +5139,7 @@ public final class OmGetAllowedOrderStates {
         return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetAllowedOrderStates.internal_static_dstore_engine_om_GetAllowedOrderStates_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4829,12 +5152,13 @@ public final class OmGetAllowedOrderStates {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4914,6 +5238,32 @@ public final class OmGetAllowedOrderStates {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetAllowedOrderStates.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetAllowedOrderStates.Response)other);
@@ -4944,7 +5294,7 @@ public final class OmGetAllowedOrderStates {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4970,7 +5320,7 @@ public final class OmGetAllowedOrderStates {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4996,7 +5346,7 @@ public final class OmGetAllowedOrderStates {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5039,7 +5389,7 @@ public final class OmGetAllowedOrderStates {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5255,11 +5605,11 @@ public final class OmGetAllowedOrderStates {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5279,7 +5629,7 @@ public final class OmGetAllowedOrderStates {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5495,11 +5845,11 @@ public final class OmGetAllowedOrderStates {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5519,7 +5869,7 @@ public final class OmGetAllowedOrderStates {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row, io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row.Builder, io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5807,11 +6157,11 @@ public final class OmGetAllowedOrderStates {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row, io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row.Builder, io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row, io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.Row.Builder, io.dstore.engine.procedures.OmGetAllowedOrderStates.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5873,17 +6223,17 @@ public final class OmGetAllowedOrderStates {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetAllowedOrderStates_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetAllowedOrderStates_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5952,19 +6302,19 @@ public final class OmGetAllowedOrderStates {
     internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetAllowedOrderStates_Parameters_descriptor,
         new java.lang.String[] { "FromOrderStateId", "FromOrderStateIdNull", "ToOrderStateId", "ToOrderStateIdNull", "PaymentForShippingId", "PaymentForShippingIdNull", "LanguageId", "LanguageIdNull", "OnlyActive", "OnlyActiveNull", });
     internal_static_dstore_engine_om_GetAllowedOrderStates_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetAllowedOrderStates_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetAllowedOrderStates_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetAllowedOrderStates_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetAllowedOrderStates_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ToPublicDescription", "ToOrderStateId", "PaymentForShippingId", "FromOrderStateId", "FromPublicDescription", "ShippingTypeId", "ToOrderState", "PaymentForShippingDescription", "PaymentTypeId", "FromOrderState", });
     io.dstore.Values.getDescriptor();

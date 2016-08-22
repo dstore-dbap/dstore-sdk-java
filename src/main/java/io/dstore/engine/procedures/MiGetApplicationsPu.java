@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetApplicationsPu {
   private MiGetApplicationsPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetApplications_Pu.Parameters)
@@ -34,11 +40,11 @@ public final class MiGetApplicationsPu {
    * Protobuf type {@code dstore.engine.mi_GetApplications_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetApplications_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -104,7 +110,7 @@ public final class MiGetApplicationsPu {
       return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -179,6 +185,46 @@ public final class MiGetApplicationsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetApplicationsPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetApplicationsPu.Parameters other = (io.dstore.engine.procedures.MiGetApplicationsPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasApplicationName() == other.hasApplicationName());
+      if (hasApplicationName()) {
+        result = result && getApplicationName()
+            .equals(other.getApplicationName());
+      }
+      result = result && (getApplicationNameNull()
+          == other.getApplicationNameNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasApplicationName()) {
+        hash = (37 * hash) + APPLICATION_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getApplicationName().hashCode();
+      }
+      hash = (37 * hash) + APPLICATION_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getApplicationNameNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -202,39 +248,39 @@ public final class MiGetApplicationsPu {
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -252,7 +298,7 @@ public final class MiGetApplicationsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -260,7 +306,7 @@ public final class MiGetApplicationsPu {
      * Protobuf type {@code dstore.engine.mi_GetApplications_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetApplications_Pu.Parameters)
         io.dstore.engine.procedures.MiGetApplicationsPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -268,7 +314,7 @@ public final class MiGetApplicationsPu {
         return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -281,12 +327,13 @@ public final class MiGetApplicationsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -331,6 +378,32 @@ public final class MiGetApplicationsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetApplicationsPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetApplicationsPu.Parameters)other);
@@ -375,7 +448,7 @@ public final class MiGetApplicationsPu {
       }
 
       private io.dstore.Values.stringValue applicationName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> applicationNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue application_name = 1;</code>
@@ -477,11 +550,11 @@ public final class MiGetApplicationsPu {
       /**
        * <code>optional .dstore.values.stringValue application_name = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getApplicationNameFieldBuilder() {
         if (applicationNameBuilder_ == null) {
-          applicationNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          applicationNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getApplicationName(),
                   getParentForChildren(),
@@ -665,11 +738,11 @@ public final class MiGetApplicationsPu {
    * Protobuf type {@code dstore.engine.mi_GetApplications_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetApplications_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -708,7 +781,8 @@ public final class MiGetApplicationsPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -716,7 +790,8 @@ public final class MiGetApplicationsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -724,7 +799,8 @@ public final class MiGetApplicationsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -752,7 +828,7 @@ public final class MiGetApplicationsPu {
       return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -797,11 +873,11 @@ public final class MiGetApplicationsPu {
      * Protobuf type {@code dstore.engine.mi_GetApplications_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetApplications_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -867,7 +943,7 @@ public final class MiGetApplicationsPu {
         return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -954,6 +1030,45 @@ public final class MiGetApplicationsPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row other = (io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasApplicationId() == other.hasApplicationId());
+        if (hasApplicationId()) {
+          result = result && getApplicationId()
+              .equals(other.getApplicationId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasApplicationId()) {
+          hash = (37 * hash) + APPLICATION_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getApplicationId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -977,39 +1092,39 @@ public final class MiGetApplicationsPu {
       }
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1027,7 +1142,7 @@ public final class MiGetApplicationsPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1035,7 +1150,7 @@ public final class MiGetApplicationsPu {
        * Protobuf type {@code dstore.engine.mi_GetApplications_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetApplications_Pu.Response.Row)
           io.dstore.engine.procedures.MiGetApplicationsPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1043,7 +1158,7 @@ public final class MiGetApplicationsPu {
           return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1056,12 +1171,13 @@ public final class MiGetApplicationsPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1106,6 +1222,32 @@ public final class MiGetApplicationsPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row)other);
@@ -1176,7 +1318,7 @@ public final class MiGetApplicationsPu {
         }
 
         private io.dstore.Values.integerValue applicationId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationIdBuilder_;
         /**
          * <pre>
@@ -1314,11 +1456,11 @@ public final class MiGetApplicationsPu {
          *
          * <code>optional .dstore.values.integerValue application_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getApplicationIdFieldBuilder() {
           if (applicationIdBuilder_ == null) {
-            applicationIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            applicationIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getApplicationId(),
                     getParentForChildren(),
@@ -1546,6 +1688,50 @@ public final class MiGetApplicationsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetApplicationsPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetApplicationsPu.Response other = (io.dstore.engine.procedures.MiGetApplicationsPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1569,39 +1755,39 @@ public final class MiGetApplicationsPu {
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetApplicationsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1619,7 +1805,7 @@ public final class MiGetApplicationsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1627,7 +1813,7 @@ public final class MiGetApplicationsPu {
      * Protobuf type {@code dstore.engine.mi_GetApplications_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetApplications_Pu.Response)
         io.dstore.engine.procedures.MiGetApplicationsPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1635,7 +1821,7 @@ public final class MiGetApplicationsPu {
         return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetApplicationsPu.internal_static_dstore_engine_mi_GetApplications_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1648,12 +1834,13 @@ public final class MiGetApplicationsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -1733,6 +1920,32 @@ public final class MiGetApplicationsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetApplicationsPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetApplicationsPu.Response)other);
@@ -1763,7 +1976,7 @@ public final class MiGetApplicationsPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -1789,7 +2002,7 @@ public final class MiGetApplicationsPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -1815,7 +2028,7 @@ public final class MiGetApplicationsPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -1858,7 +2071,7 @@ public final class MiGetApplicationsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -2074,11 +2287,11 @@ public final class MiGetApplicationsPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -2098,7 +2311,7 @@ public final class MiGetApplicationsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -2314,11 +2527,11 @@ public final class MiGetApplicationsPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -2338,7 +2551,7 @@ public final class MiGetApplicationsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row, io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetApplicationsPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -2626,11 +2839,11 @@ public final class MiGetApplicationsPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row, io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetApplicationsPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row, io.dstore.engine.procedures.MiGetApplicationsPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetApplicationsPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -2692,17 +2905,17 @@ public final class MiGetApplicationsPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetApplications_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetApplications_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -2749,19 +2962,19 @@ public final class MiGetApplicationsPu {
     internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_descriptor,
         new java.lang.String[] { "ApplicationName", "ApplicationNameNull", });
     internal_static_dstore_engine_mi_GetApplications_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetApplications_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetApplications_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetApplications_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ApplicationId", });
     io.dstore.Values.getDescriptor();

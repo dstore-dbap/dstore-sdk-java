@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class StGetPageVisitsAd {
   private StGetPageVisitsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.st_GetPageVisits_Ad.Parameters)
@@ -178,11 +184,11 @@ public final class StGetPageVisitsAd {
    * Protobuf type {@code dstore.engine.st_GetPageVisits_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetPageVisits_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -400,7 +406,7 @@ public final class StGetPageVisitsAd {
       return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -827,6 +833,158 @@ public final class StGetPageVisitsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetPageVisitsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetPageVisitsAd.Parameters other = (io.dstore.engine.procedures.StGetPageVisitsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasComputeSum() == other.hasComputeSum());
+      if (hasComputeSum()) {
+        result = result && getComputeSum()
+            .equals(other.getComputeSum());
+      }
+      result = result && (getComputeSumNull()
+          == other.getComputeSumNull());
+      result = result && (hasDay() == other.hasDay());
+      if (hasDay()) {
+        result = result && getDay()
+            .equals(other.getDay());
+      }
+      result = result && (getDayNull()
+          == other.getDayNull());
+      result = result && (hasPageNo() == other.hasPageNo());
+      if (hasPageNo()) {
+        result = result && getPageNo()
+            .equals(other.getPageNo());
+      }
+      result = result && (getPageNoNull()
+          == other.getPageNoNull());
+      result = result && (hasFromDay() == other.hasFromDay());
+      if (hasFromDay()) {
+        result = result && getFromDay()
+            .equals(other.getFromDay());
+      }
+      result = result && (getFromDayNull()
+          == other.getFromDayNull());
+      result = result && (hasToDay() == other.hasToDay());
+      if (hasToDay()) {
+        result = result && getToDay()
+            .equals(other.getToDay());
+      }
+      result = result && (getToDayNull()
+          == other.getToDayNull());
+      result = result && (hasPageCategoryId() == other.hasPageCategoryId());
+      if (hasPageCategoryId()) {
+        result = result && getPageCategoryId()
+            .equals(other.getPageCategoryId());
+      }
+      result = result && (getPageCategoryIdNull()
+          == other.getPageCategoryIdNull());
+      result = result && (hasGroupByCategory() == other.hasGroupByCategory());
+      if (hasGroupByCategory()) {
+        result = result && getGroupByCategory()
+            .equals(other.getGroupByCategory());
+      }
+      result = result && (getGroupByCategoryNull()
+          == other.getGroupByCategoryNull());
+      result = result && (hasOrderByDay() == other.hasOrderByDay());
+      if (hasOrderByDay()) {
+        result = result && getOrderByDay()
+            .equals(other.getOrderByDay());
+      }
+      result = result && (getOrderByDayNull()
+          == other.getOrderByDayNull());
+      result = result && (hasGetSumOfAllPagesPerDay() == other.hasGetSumOfAllPagesPerDay());
+      if (hasGetSumOfAllPagesPerDay()) {
+        result = result && getGetSumOfAllPagesPerDay()
+            .equals(other.getGetSumOfAllPagesPerDay());
+      }
+      result = result && (getGetSumOfAllPagesPerDayNull()
+          == other.getGetSumOfAllPagesPerDayNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasComputeSum()) {
+        hash = (37 * hash) + COMPUTE_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getComputeSum().hashCode();
+      }
+      hash = (37 * hash) + COMPUTE_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getComputeSumNull());
+      if (hasDay()) {
+        hash = (37 * hash) + DAY_FIELD_NUMBER;
+        hash = (53 * hash) + getDay().hashCode();
+      }
+      hash = (37 * hash) + DAY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDayNull());
+      if (hasPageNo()) {
+        hash = (37 * hash) + PAGE_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getPageNo().hashCode();
+      }
+      hash = (37 * hash) + PAGE_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPageNoNull());
+      if (hasFromDay()) {
+        hash = (37 * hash) + FROM_DAY_FIELD_NUMBER;
+        hash = (53 * hash) + getFromDay().hashCode();
+      }
+      hash = (37 * hash) + FROM_DAY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromDayNull());
+      if (hasToDay()) {
+        hash = (37 * hash) + TO_DAY_FIELD_NUMBER;
+        hash = (53 * hash) + getToDay().hashCode();
+      }
+      hash = (37 * hash) + TO_DAY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToDayNull());
+      if (hasPageCategoryId()) {
+        hash = (37 * hash) + PAGE_CATEGORY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPageCategoryId().hashCode();
+      }
+      hash = (37 * hash) + PAGE_CATEGORY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPageCategoryIdNull());
+      if (hasGroupByCategory()) {
+        hash = (37 * hash) + GROUP_BY_CATEGORY_FIELD_NUMBER;
+        hash = (53 * hash) + getGroupByCategory().hashCode();
+      }
+      hash = (37 * hash) + GROUP_BY_CATEGORY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGroupByCategoryNull());
+      if (hasOrderByDay()) {
+        hash = (37 * hash) + ORDER_BY_DAY_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderByDay().hashCode();
+      }
+      hash = (37 * hash) + ORDER_BY_DAY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderByDayNull());
+      if (hasGetSumOfAllPagesPerDay()) {
+        hash = (37 * hash) + GET_SUM_OF_ALL_PAGES_PER_DAY_FIELD_NUMBER;
+        hash = (53 * hash) + getGetSumOfAllPagesPerDay().hashCode();
+      }
+      hash = (37 * hash) + GET_SUM_OF_ALL_PAGES_PER_DAY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetSumOfAllPagesPerDayNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -850,39 +1008,39 @@ public final class StGetPageVisitsAd {
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -900,7 +1058,7 @@ public final class StGetPageVisitsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -908,7 +1066,7 @@ public final class StGetPageVisitsAd {
      * Protobuf type {@code dstore.engine.st_GetPageVisits_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetPageVisits_Ad.Parameters)
         io.dstore.engine.procedures.StGetPageVisitsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -916,7 +1074,7 @@ public final class StGetPageVisitsAd {
         return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -929,12 +1087,13 @@ public final class StGetPageVisitsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1091,6 +1250,32 @@ public final class StGetPageVisitsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetPageVisitsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.StGetPageVisitsAd.Parameters)other);
@@ -1183,7 +1368,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.booleanValue computeSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> computeSumBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue compute_sum = 1;</code>
@@ -1285,11 +1470,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.booleanValue compute_sum = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getComputeSumFieldBuilder() {
         if (computeSumBuilder_ == null) {
-          computeSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          computeSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getComputeSum(),
                   getParentForChildren(),
@@ -1326,7 +1511,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.timestampValue day_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dayBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue day = 2;</code>
@@ -1428,11 +1613,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.timestampValue day = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDayFieldBuilder() {
         if (dayBuilder_ == null) {
-          dayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDay(),
                   getParentForChildren(),
@@ -1469,7 +1654,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.integerValue pageNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageNoBuilder_;
       /**
        * <code>optional .dstore.values.integerValue page_no = 3;</code>
@@ -1571,11 +1756,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.integerValue page_no = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPageNoFieldBuilder() {
         if (pageNoBuilder_ == null) {
-          pageNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          pageNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPageNo(),
                   getParentForChildren(),
@@ -1612,7 +1797,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.timestampValue fromDay_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDayBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_day = 4;</code>
@@ -1714,11 +1899,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.timestampValue from_day = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDayFieldBuilder() {
         if (fromDayBuilder_ == null) {
-          fromDayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromDayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDay(),
                   getParentForChildren(),
@@ -1755,7 +1940,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.timestampValue toDay_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDayBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_day = 5;</code>
@@ -1857,11 +2042,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.timestampValue to_day = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDayFieldBuilder() {
         if (toDayBuilder_ == null) {
-          toDayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toDayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDay(),
                   getParentForChildren(),
@@ -1898,7 +2083,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.integerValue pageCategoryId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue page_category_id = 6;</code>
@@ -2000,11 +2185,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.integerValue page_category_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPageCategoryIdFieldBuilder() {
         if (pageCategoryIdBuilder_ == null) {
-          pageCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          pageCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPageCategoryId(),
                   getParentForChildren(),
@@ -2041,7 +2226,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.booleanValue groupByCategory_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> groupByCategoryBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue group_by_category = 7;</code>
@@ -2143,11 +2328,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.booleanValue group_by_category = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGroupByCategoryFieldBuilder() {
         if (groupByCategoryBuilder_ == null) {
-          groupByCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          groupByCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGroupByCategory(),
                   getParentForChildren(),
@@ -2184,7 +2369,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.booleanValue orderByDay_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderByDayBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue order_by_day = 8;</code>
@@ -2286,11 +2471,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.booleanValue order_by_day = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOrderByDayFieldBuilder() {
         if (orderByDayBuilder_ == null) {
-          orderByDayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderByDayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOrderByDay(),
                   getParentForChildren(),
@@ -2327,7 +2512,7 @@ public final class StGetPageVisitsAd {
       }
 
       private io.dstore.Values.booleanValue getSumOfAllPagesPerDay_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getSumOfAllPagesPerDayBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_sum_of_all_pages_per_day = 9;</code>
@@ -2429,11 +2614,11 @@ public final class StGetPageVisitsAd {
       /**
        * <code>optional .dstore.values.booleanValue get_sum_of_all_pages_per_day = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetSumOfAllPagesPerDayFieldBuilder() {
         if (getSumOfAllPagesPerDayBuilder_ == null) {
-          getSumOfAllPagesPerDayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getSumOfAllPagesPerDayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetSumOfAllPagesPerDay(),
                   getParentForChildren(),
@@ -2617,11 +2802,11 @@ public final class StGetPageVisitsAd {
    * Protobuf type {@code dstore.engine.st_GetPageVisits_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetPageVisits_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2660,7 +2845,8 @@ public final class StGetPageVisitsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2668,7 +2854,8 @@ public final class StGetPageVisitsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2676,7 +2863,8 @@ public final class StGetPageVisitsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2704,7 +2892,7 @@ public final class StGetPageVisitsAd {
       return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2874,11 +3062,11 @@ public final class StGetPageVisitsAd {
      * Protobuf type {@code dstore.engine.st_GetPageVisits_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetPageVisits_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3009,7 +3197,7 @@ public final class StGetPageVisitsAd {
         return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3296,6 +3484,90 @@ public final class StGetPageVisitsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row other = (io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasCounter() == other.hasCounter());
+        if (hasCounter()) {
+          result = result && getCounter()
+              .equals(other.getCounter());
+        }
+        result = result && (hasPageNo() == other.hasPageNo());
+        if (hasPageNo()) {
+          result = result && getPageNo()
+              .equals(other.getPageNo());
+        }
+        result = result && (hasPage() == other.hasPage());
+        if (hasPage()) {
+          result = result && getPage()
+              .equals(other.getPage());
+        }
+        result = result && (hasDay() == other.hasDay());
+        if (hasDay()) {
+          result = result && getDay()
+              .equals(other.getDay());
+        }
+        result = result && (hasPageCategoryId() == other.hasPageCategoryId());
+        if (hasPageCategoryId()) {
+          result = result && getPageCategoryId()
+              .equals(other.getPageCategoryId());
+        }
+        result = result && (hasPageCategoryDescription() == other.hasPageCategoryDescription());
+        if (hasPageCategoryDescription()) {
+          result = result && getPageCategoryDescription()
+              .equals(other.getPageCategoryDescription());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasCounter()) {
+          hash = (37 * hash) + COUNTER_FIELD_NUMBER;
+          hash = (53 * hash) + getCounter().hashCode();
+        }
+        if (hasPageNo()) {
+          hash = (37 * hash) + PAGE_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getPageNo().hashCode();
+        }
+        if (hasPage()) {
+          hash = (37 * hash) + PAGE_FIELD_NUMBER;
+          hash = (53 * hash) + getPage().hashCode();
+        }
+        if (hasDay()) {
+          hash = (37 * hash) + DAY_FIELD_NUMBER;
+          hash = (53 * hash) + getDay().hashCode();
+        }
+        if (hasPageCategoryId()) {
+          hash = (37 * hash) + PAGE_CATEGORY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPageCategoryId().hashCode();
+        }
+        if (hasPageCategoryDescription()) {
+          hash = (37 * hash) + PAGE_CATEGORY_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getPageCategoryDescription().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3319,39 +3591,39 @@ public final class StGetPageVisitsAd {
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3369,7 +3641,7 @@ public final class StGetPageVisitsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3377,7 +3649,7 @@ public final class StGetPageVisitsAd {
        * Protobuf type {@code dstore.engine.st_GetPageVisits_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetPageVisits_Ad.Response.Row)
           io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3385,7 +3657,7 @@ public final class StGetPageVisitsAd {
           return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3398,12 +3670,13 @@ public final class StGetPageVisitsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3503,6 +3776,32 @@ public final class StGetPageVisitsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row)other);
@@ -3588,7 +3887,7 @@ public final class StGetPageVisitsAd {
         }
 
         private io.dstore.Values.integerValue counter_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> counterBuilder_;
         /**
          * <pre>
@@ -3726,11 +4025,11 @@ public final class StGetPageVisitsAd {
          *
          * <code>optional .dstore.values.integerValue counter = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCounterFieldBuilder() {
           if (counterBuilder_ == null) {
-            counterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            counterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCounter(),
                     getParentForChildren(),
@@ -3741,7 +4040,7 @@ public final class StGetPageVisitsAd {
         }
 
         private io.dstore.Values.integerValue pageNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageNoBuilder_;
         /**
          * <pre>
@@ -3879,11 +4178,11 @@ public final class StGetPageVisitsAd {
          *
          * <code>optional .dstore.values.integerValue page_no = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPageNoFieldBuilder() {
           if (pageNoBuilder_ == null) {
-            pageNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            pageNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPageNo(),
                     getParentForChildren(),
@@ -3894,7 +4193,7 @@ public final class StGetPageVisitsAd {
         }
 
         private io.dstore.Values.stringValue page_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageBuilder_;
         /**
          * <pre>
@@ -4032,11 +4331,11 @@ public final class StGetPageVisitsAd {
          *
          * <code>optional .dstore.values.stringValue page = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPageFieldBuilder() {
           if (pageBuilder_ == null) {
-            pageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            pageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPage(),
                     getParentForChildren(),
@@ -4047,7 +4346,7 @@ public final class StGetPageVisitsAd {
         }
 
         private io.dstore.Values.stringValue day_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dayBuilder_;
         /**
          * <pre>
@@ -4185,11 +4484,11 @@ public final class StGetPageVisitsAd {
          *
          * <code>optional .dstore.values.stringValue day = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDayFieldBuilder() {
           if (dayBuilder_ == null) {
-            dayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            dayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDay(),
                     getParentForChildren(),
@@ -4200,7 +4499,7 @@ public final class StGetPageVisitsAd {
         }
 
         private io.dstore.Values.integerValue pageCategoryId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> pageCategoryIdBuilder_;
         /**
          * <pre>
@@ -4338,11 +4637,11 @@ public final class StGetPageVisitsAd {
          *
          * <code>optional .dstore.values.integerValue page_category_id = 20002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPageCategoryIdFieldBuilder() {
           if (pageCategoryIdBuilder_ == null) {
-            pageCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            pageCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPageCategoryId(),
                     getParentForChildren(),
@@ -4353,7 +4652,7 @@ public final class StGetPageVisitsAd {
         }
 
         private io.dstore.Values.stringValue pageCategoryDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageCategoryDescriptionBuilder_;
         /**
          * <pre>
@@ -4491,11 +4790,11 @@ public final class StGetPageVisitsAd {
          *
          * <code>optional .dstore.values.stringValue page_category_description = 20003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPageCategoryDescriptionFieldBuilder() {
           if (pageCategoryDescriptionBuilder_ == null) {
-            pageCategoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            pageCategoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPageCategoryDescription(),
                     getParentForChildren(),
@@ -4723,6 +5022,50 @@ public final class StGetPageVisitsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetPageVisitsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetPageVisitsAd.Response other = (io.dstore.engine.procedures.StGetPageVisitsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4746,39 +5089,39 @@ public final class StGetPageVisitsAd {
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetPageVisitsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4796,7 +5139,7 @@ public final class StGetPageVisitsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4804,7 +5147,7 @@ public final class StGetPageVisitsAd {
      * Protobuf type {@code dstore.engine.st_GetPageVisits_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetPageVisits_Ad.Response)
         io.dstore.engine.procedures.StGetPageVisitsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4812,7 +5155,7 @@ public final class StGetPageVisitsAd {
         return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetPageVisitsAd.internal_static_dstore_engine_st_GetPageVisits_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4825,12 +5168,13 @@ public final class StGetPageVisitsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4910,6 +5254,32 @@ public final class StGetPageVisitsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetPageVisitsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.StGetPageVisitsAd.Response)other);
@@ -4940,7 +5310,7 @@ public final class StGetPageVisitsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4966,7 +5336,7 @@ public final class StGetPageVisitsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4992,7 +5362,7 @@ public final class StGetPageVisitsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5035,7 +5405,7 @@ public final class StGetPageVisitsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5251,11 +5621,11 @@ public final class StGetPageVisitsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5275,7 +5645,7 @@ public final class StGetPageVisitsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5491,11 +5861,11 @@ public final class StGetPageVisitsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5515,7 +5885,7 @@ public final class StGetPageVisitsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5803,11 +6173,11 @@ public final class StGetPageVisitsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row, io.dstore.engine.procedures.StGetPageVisitsAd.Response.Row.Builder, io.dstore.engine.procedures.StGetPageVisitsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5869,17 +6239,17 @@ public final class StGetPageVisitsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetPageVisits_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5948,19 +6318,19 @@ public final class StGetPageVisitsAd {
     internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetPageVisits_Ad_Parameters_descriptor,
         new java.lang.String[] { "ComputeSum", "ComputeSumNull", "Day", "DayNull", "PageNo", "PageNoNull", "FromDay", "FromDayNull", "ToDay", "ToDayNull", "PageCategoryId", "PageCategoryIdNull", "GroupByCategory", "GroupByCategoryNull", "OrderByDay", "OrderByDayNull", "GetSumOfAllPagesPerDay", "GetSumOfAllPagesPerDayNull", });
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_st_GetPageVisits_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetPageVisits_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Counter", "PageNo", "Page", "Day", "PageCategoryId", "PageCategoryDescription", });
     io.dstore.Values.getDescriptor();

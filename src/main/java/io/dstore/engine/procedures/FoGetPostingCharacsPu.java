@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class FoGetPostingCharacsPu {
   private FoGetPostingCharacsPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.fo_GetPostingCharacs_Pu.Parameters)
@@ -124,11 +130,11 @@ public final class FoGetPostingCharacsPu {
    * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingCharacs_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -289,7 +295,7 @@ public final class FoGetPostingCharacsPu {
       return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -584,6 +590,116 @@ public final class FoGetPostingCharacsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters other = (io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPersonIdentificationValues() == other.hasPersonIdentificationValues());
+      if (hasPersonIdentificationValues()) {
+        result = result && getPersonIdentificationValues()
+            .equals(other.getPersonIdentificationValues());
+      }
+      result = result && (getPersonIdentificationValuesNull()
+          == other.getPersonIdentificationValuesNull());
+      result = result && (hasPersonTypeId() == other.hasPersonTypeId());
+      if (hasPersonTypeId()) {
+        result = result && getPersonTypeId()
+            .equals(other.getPersonTypeId());
+      }
+      result = result && (getPersonTypeIdNull()
+          == other.getPersonTypeIdNull());
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasForumId() == other.hasForumId());
+      if (hasForumId()) {
+        result = result && getForumId()
+            .equals(other.getForumId());
+      }
+      result = result && (getForumIdNull()
+          == other.getForumIdNull());
+      result = result && (hasCharacteristicIdList() == other.hasCharacteristicIdList());
+      if (hasCharacteristicIdList()) {
+        result = result && getCharacteristicIdList()
+            .equals(other.getCharacteristicIdList());
+      }
+      result = result && (getCharacteristicIdListNull()
+          == other.getCharacteristicIdListNull());
+      result = result && (hasSeparatorInIdentVals() == other.hasSeparatorInIdentVals());
+      if (hasSeparatorInIdentVals()) {
+        result = result && getSeparatorInIdentVals()
+            .equals(other.getSeparatorInIdentVals());
+      }
+      result = result && (getSeparatorInIdentValsNull()
+          == other.getSeparatorInIdentValsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPersonIdentificationValues()) {
+        hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonIdentificationValues().hashCode();
+      }
+      hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdentificationValuesNull());
+      if (hasPersonTypeId()) {
+        hash = (37 * hash) + PERSON_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonTypeId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonTypeIdNull());
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasForumId()) {
+        hash = (37 * hash) + FORUM_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getForumId().hashCode();
+      }
+      hash = (37 * hash) + FORUM_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getForumIdNull());
+      if (hasCharacteristicIdList()) {
+        hash = (37 * hash) + CHARACTERISTIC_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCharacteristicIdList().hashCode();
+      }
+      hash = (37 * hash) + CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCharacteristicIdListNull());
+      if (hasSeparatorInIdentVals()) {
+        hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER;
+        hash = (53 * hash) + getSeparatorInIdentVals().hashCode();
+      }
+      hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSeparatorInIdentValsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -607,39 +723,39 @@ public final class FoGetPostingCharacsPu {
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -657,7 +773,7 @@ public final class FoGetPostingCharacsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -665,7 +781,7 @@ public final class FoGetPostingCharacsPu {
      * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.fo_GetPostingCharacs_Pu.Parameters)
         io.dstore.engine.procedures.FoGetPostingCharacsPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -673,7 +789,7 @@ public final class FoGetPostingCharacsPu {
         return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -686,12 +802,13 @@ public final class FoGetPostingCharacsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -806,6 +923,32 @@ public final class FoGetPostingCharacsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.FoGetPostingCharacsPu.Parameters)other);
@@ -880,7 +1023,7 @@ public final class FoGetPostingCharacsPu {
       }
 
       private io.dstore.Values.stringValue personIdentificationValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
@@ -982,11 +1125,11 @@ public final class FoGetPostingCharacsPu {
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
-          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
@@ -1023,7 +1166,7 @@ public final class FoGetPostingCharacsPu {
       }
 
       private io.dstore.Values.integerValue personTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
@@ -1125,11 +1268,11 @@ public final class FoGetPostingCharacsPu {
       /**
        * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
-          personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
@@ -1166,7 +1309,7 @@ public final class FoGetPostingCharacsPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 3;</code>
@@ -1268,11 +1411,11 @@ public final class FoGetPostingCharacsPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -1309,7 +1452,7 @@ public final class FoGetPostingCharacsPu {
       }
 
       private io.dstore.Values.integerValue forumId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue forum_id = 4;</code>
@@ -1411,11 +1554,11 @@ public final class FoGetPostingCharacsPu {
       /**
        * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
-          forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
@@ -1452,7 +1595,7 @@ public final class FoGetPostingCharacsPu {
       }
 
       private io.dstore.Values.stringValue characteristicIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
@@ -1554,11 +1697,11 @@ public final class FoGetPostingCharacsPu {
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCharacteristicIdListFieldBuilder() {
         if (characteristicIdListBuilder_ == null) {
-          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCharacteristicIdList(),
                   getParentForChildren(),
@@ -1595,7 +1738,7 @@ public final class FoGetPostingCharacsPu {
       }
 
       private io.dstore.Values.stringValue separatorInIdentVals_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
@@ -1697,11 +1840,11 @@ public final class FoGetPostingCharacsPu {
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
-          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
@@ -1885,11 +2028,11 @@ public final class FoGetPostingCharacsPu {
    * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingCharacs_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1928,7 +2071,8 @@ public final class FoGetPostingCharacsPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1936,7 +2080,8 @@ public final class FoGetPostingCharacsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1944,7 +2089,8 @@ public final class FoGetPostingCharacsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1972,7 +2118,7 @@ public final class FoGetPostingCharacsPu {
       return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2342,11 +2488,11 @@ public final class FoGetPostingCharacsPu {
      * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingCharacs_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2581,7 +2727,7 @@ public final class FoGetPostingCharacsPu {
         return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3188,6 +3334,162 @@ public final class FoGetPostingCharacsPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row other = (io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasCharacteristicDescription() == other.hasCharacteristicDescription());
+        if (hasCharacteristicDescription()) {
+          result = result && getCharacteristicDescription()
+              .equals(other.getCharacteristicDescription());
+        }
+        result = result && (hasFieldTypeId() == other.hasFieldTypeId());
+        if (hasFieldTypeId()) {
+          result = result && getFieldTypeId()
+              .equals(other.getFieldTypeId());
+        }
+        result = result && (hasPostingCharacteristicId() == other.hasPostingCharacteristicId());
+        if (hasPostingCharacteristicId()) {
+          result = result && getPostingCharacteristicId()
+              .equals(other.getPostingCharacteristicId());
+        }
+        result = result && (hasPrecisionValue() == other.hasPrecisionValue());
+        if (hasPrecisionValue()) {
+          result = result && getPrecisionValue()
+              .equals(other.getPrecisionValue());
+        }
+        result = result && (hasCommonCharacteristic() == other.hasCommonCharacteristic());
+        if (hasCommonCharacteristic()) {
+          result = result && getCommonCharacteristic()
+              .equals(other.getCommonCharacteristic());
+        }
+        result = result && (hasMaxLength() == other.hasMaxLength());
+        if (hasMaxLength()) {
+          result = result && getMaxLength()
+              .equals(other.getMaxLength());
+        }
+        result = result && (hasPredefinedValues() == other.hasPredefinedValues());
+        if (hasPredefinedValues()) {
+          result = result && getPredefinedValues()
+              .equals(other.getPredefinedValues());
+        }
+        result = result && (hasCheckPostingVisibility() == other.hasCheckPostingVisibility());
+        if (hasCheckPostingVisibility()) {
+          result = result && getCheckPostingVisibility()
+              .equals(other.getCheckPostingVisibility());
+        }
+        result = result && (hasFormat() == other.hasFormat());
+        if (hasFormat()) {
+          result = result && getFormat()
+              .equals(other.getFormat());
+        }
+        result = result && (hasBasicFieldType() == other.hasBasicFieldType());
+        if (hasBasicFieldType()) {
+          result = result && getBasicFieldType()
+              .equals(other.getBasicFieldType());
+        }
+        result = result && (hasFieldTypeDescription() == other.hasFieldTypeDescription());
+        if (hasFieldTypeDescription()) {
+          result = result && getFieldTypeDescription()
+              .equals(other.getFieldTypeDescription());
+        }
+        result = result && (hasBasicFieldTypeId() == other.hasBasicFieldTypeId());
+        if (hasBasicFieldTypeId()) {
+          result = result && getBasicFieldTypeId()
+              .equals(other.getBasicFieldTypeId());
+        }
+        result = result && (hasPropertyModificationAllowed() == other.hasPropertyModificationAllowed());
+        if (hasPropertyModificationAllowed()) {
+          result = result && getPropertyModificationAllowed()
+              .equals(other.getPropertyModificationAllowed());
+        }
+        result = result && (hasMaxNumberOfProperties() == other.hasMaxNumberOfProperties());
+        if (hasMaxNumberOfProperties()) {
+          result = result && getMaxNumberOfProperties()
+              .equals(other.getMaxNumberOfProperties());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasCharacteristicDescription()) {
+          hash = (37 * hash) + CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getCharacteristicDescription().hashCode();
+        }
+        if (hasFieldTypeId()) {
+          hash = (37 * hash) + FIELD_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getFieldTypeId().hashCode();
+        }
+        if (hasPostingCharacteristicId()) {
+          hash = (37 * hash) + POSTING_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPostingCharacteristicId().hashCode();
+        }
+        if (hasPrecisionValue()) {
+          hash = (37 * hash) + PRECISION_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getPrecisionValue().hashCode();
+        }
+        if (hasCommonCharacteristic()) {
+          hash = (37 * hash) + COMMON_CHARACTERISTIC_FIELD_NUMBER;
+          hash = (53 * hash) + getCommonCharacteristic().hashCode();
+        }
+        if (hasMaxLength()) {
+          hash = (37 * hash) + MAX_LENGTH_FIELD_NUMBER;
+          hash = (53 * hash) + getMaxLength().hashCode();
+        }
+        if (hasPredefinedValues()) {
+          hash = (37 * hash) + PREDEFINED_VALUES_FIELD_NUMBER;
+          hash = (53 * hash) + getPredefinedValues().hashCode();
+        }
+        if (hasCheckPostingVisibility()) {
+          hash = (37 * hash) + CHECK_POSTING_VISIBILITY_FIELD_NUMBER;
+          hash = (53 * hash) + getCheckPostingVisibility().hashCode();
+        }
+        if (hasFormat()) {
+          hash = (37 * hash) + FORMAT_FIELD_NUMBER;
+          hash = (53 * hash) + getFormat().hashCode();
+        }
+        if (hasBasicFieldType()) {
+          hash = (37 * hash) + BASIC_FIELD_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getBasicFieldType().hashCode();
+        }
+        if (hasFieldTypeDescription()) {
+          hash = (37 * hash) + FIELD_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getFieldTypeDescription().hashCode();
+        }
+        if (hasBasicFieldTypeId()) {
+          hash = (37 * hash) + BASIC_FIELD_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getBasicFieldTypeId().hashCode();
+        }
+        if (hasPropertyModificationAllowed()) {
+          hash = (37 * hash) + PROPERTY_MODIFICATION_ALLOWED_FIELD_NUMBER;
+          hash = (53 * hash) + getPropertyModificationAllowed().hashCode();
+        }
+        if (hasMaxNumberOfProperties()) {
+          hash = (37 * hash) + MAX_NUMBER_OF_PROPERTIES_FIELD_NUMBER;
+          hash = (53 * hash) + getMaxNumberOfProperties().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3211,39 +3513,39 @@ public final class FoGetPostingCharacsPu {
       }
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3261,7 +3563,7 @@ public final class FoGetPostingCharacsPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3269,7 +3571,7 @@ public final class FoGetPostingCharacsPu {
        * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.fo_GetPostingCharacs_Pu.Response.Row)
           io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3277,7 +3579,7 @@ public final class FoGetPostingCharacsPu {
           return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3290,12 +3592,13 @@ public final class FoGetPostingCharacsPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3483,6 +3786,32 @@ public final class FoGetPostingCharacsPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row)other);
@@ -3592,7 +3921,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.stringValue characteristicDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
@@ -3730,11 +4059,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
-            characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
@@ -3745,7 +4074,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue fieldTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
         /**
          * <pre>
@@ -3883,11 +4212,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue field_type_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFieldTypeIdFieldBuilder() {
           if (fieldTypeIdBuilder_ == null) {
-            fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFieldTypeId(),
                     getParentForChildren(),
@@ -3898,7 +4227,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue postingCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -4036,11 +4365,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue posting_characteristic_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingCharacteristicIdFieldBuilder() {
           if (postingCharacteristicIdBuilder_ == null) {
-            postingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            postingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingCharacteristicId(),
                     getParentForChildren(),
@@ -4051,7 +4380,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue precisionValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
@@ -4189,11 +4518,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
-            precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
@@ -4204,7 +4533,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue commonCharacteristic_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> commonCharacteristicBuilder_;
         /**
          * <pre>
@@ -4342,11 +4671,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue common_characteristic = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCommonCharacteristicFieldBuilder() {
           if (commonCharacteristicBuilder_ == null) {
-            commonCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            commonCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCommonCharacteristic(),
                     getParentForChildren(),
@@ -4357,7 +4686,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue maxLength_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxLengthBuilder_;
         /**
          * <pre>
@@ -4495,11 +4824,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue max_length = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMaxLengthFieldBuilder() {
           if (maxLengthBuilder_ == null) {
-            maxLengthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            maxLengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMaxLength(),
                     getParentForChildren(),
@@ -4510,7 +4839,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.booleanValue predefinedValues_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> predefinedValuesBuilder_;
         /**
          * <pre>
@@ -4648,11 +4977,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.booleanValue predefined_values = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getPredefinedValuesFieldBuilder() {
           if (predefinedValuesBuilder_ == null) {
-            predefinedValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            predefinedValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getPredefinedValues(),
                     getParentForChildren(),
@@ -4663,7 +4992,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.booleanValue checkPostingVisibility_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkPostingVisibilityBuilder_;
         /**
          * <pre>
@@ -4801,11 +5130,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.booleanValue check_posting_visibility = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getCheckPostingVisibilityFieldBuilder() {
           if (checkPostingVisibilityBuilder_ == null) {
-            checkPostingVisibilityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            checkPostingVisibilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getCheckPostingVisibility(),
                     getParentForChildren(),
@@ -4816,7 +5145,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.stringValue format_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> formatBuilder_;
         /**
          * <pre>
@@ -4954,11 +5283,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.stringValue format = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFormatFieldBuilder() {
           if (formatBuilder_ == null) {
-            formatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            formatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFormat(),
                     getParentForChildren(),
@@ -4969,7 +5298,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.stringValue basicFieldType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicFieldTypeBuilder_;
         /**
          * <pre>
@@ -5107,11 +5436,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.stringValue basic_field_type = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBasicFieldTypeFieldBuilder() {
           if (basicFieldTypeBuilder_ == null) {
-            basicFieldTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            basicFieldTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBasicFieldType(),
                     getParentForChildren(),
@@ -5122,7 +5451,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.stringValue fieldTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fieldTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -5260,11 +5589,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.stringValue field_type_description = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFieldTypeDescriptionFieldBuilder() {
           if (fieldTypeDescriptionBuilder_ == null) {
-            fieldTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fieldTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFieldTypeDescription(),
                     getParentForChildren(),
@@ -5275,7 +5604,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue basicFieldTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicFieldTypeIdBuilder_;
         /**
          * <pre>
@@ -5413,11 +5742,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue basic_field_type_id = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBasicFieldTypeIdFieldBuilder() {
           if (basicFieldTypeIdBuilder_ == null) {
-            basicFieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            basicFieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBasicFieldTypeId(),
                     getParentForChildren(),
@@ -5428,7 +5757,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue propertyModificationAllowed_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> propertyModificationAllowedBuilder_;
         /**
          * <pre>
@@ -5566,11 +5895,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue property_modification_allowed = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPropertyModificationAllowedFieldBuilder() {
           if (propertyModificationAllowedBuilder_ == null) {
-            propertyModificationAllowedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            propertyModificationAllowedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPropertyModificationAllowed(),
                     getParentForChildren(),
@@ -5581,7 +5910,7 @@ public final class FoGetPostingCharacsPu {
         }
 
         private io.dstore.Values.integerValue maxNumberOfProperties_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfPropertiesBuilder_;
         /**
          * <pre>
@@ -5719,11 +6048,11 @@ public final class FoGetPostingCharacsPu {
          *
          * <code>optional .dstore.values.integerValue max_number_of_properties = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMaxNumberOfPropertiesFieldBuilder() {
           if (maxNumberOfPropertiesBuilder_ == null) {
-            maxNumberOfPropertiesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            maxNumberOfPropertiesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMaxNumberOfProperties(),
                     getParentForChildren(),
@@ -5951,6 +6280,50 @@ public final class FoGetPostingCharacsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.FoGetPostingCharacsPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.FoGetPostingCharacsPu.Response other = (io.dstore.engine.procedures.FoGetPostingCharacsPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5974,39 +6347,39 @@ public final class FoGetPostingCharacsPu {
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetPostingCharacsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -6024,7 +6397,7 @@ public final class FoGetPostingCharacsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -6032,7 +6405,7 @@ public final class FoGetPostingCharacsPu {
      * Protobuf type {@code dstore.engine.fo_GetPostingCharacs_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.fo_GetPostingCharacs_Pu.Response)
         io.dstore.engine.procedures.FoGetPostingCharacsPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -6040,7 +6413,7 @@ public final class FoGetPostingCharacsPu {
         return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.FoGetPostingCharacsPu.internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -6053,12 +6426,13 @@ public final class FoGetPostingCharacsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -6138,6 +6512,32 @@ public final class FoGetPostingCharacsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.FoGetPostingCharacsPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.FoGetPostingCharacsPu.Response)other);
@@ -6168,7 +6568,7 @@ public final class FoGetPostingCharacsPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -6194,7 +6594,7 @@ public final class FoGetPostingCharacsPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -6220,7 +6620,7 @@ public final class FoGetPostingCharacsPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -6263,7 +6663,7 @@ public final class FoGetPostingCharacsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -6479,11 +6879,11 @@ public final class FoGetPostingCharacsPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -6503,7 +6903,7 @@ public final class FoGetPostingCharacsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -6719,11 +7119,11 @@ public final class FoGetPostingCharacsPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -6743,7 +7143,7 @@ public final class FoGetPostingCharacsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row, io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -7031,11 +7431,11 @@ public final class FoGetPostingCharacsPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row, io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row, io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetPostingCharacsPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -7097,17 +7497,17 @@ public final class FoGetPostingCharacsPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -7184,19 +7584,19 @@ public final class FoGetPostingCharacsPu {
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Parameters_descriptor,
         new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "ForumId", "ForumIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetPostingCharacs_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CharacteristicDescription", "FieldTypeId", "PostingCharacteristicId", "PrecisionValue", "CommonCharacteristic", "MaxLength", "PredefinedValues", "CheckPostingVisibility", "Format", "BasicFieldType", "FieldTypeDescription", "BasicFieldTypeId", "PropertyModificationAllowed", "MaxNumberOfProperties", });
     io.dstore.Values.getDescriptor();

@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiInsertTempCharacConditions {
   private MiInsertTempCharacConditions() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_InsertTemp_CharacConditions.Parameters)
@@ -196,11 +202,11 @@ public final class MiInsertTempCharacConditions {
    * Protobuf type {@code dstore.engine.mi_InsertTemp_CharacConditions.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_InsertTemp_CharacConditions.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -437,7 +443,7 @@ public final class MiInsertTempCharacConditions {
       return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -908,6 +914,172 @@ public final class MiInsertTempCharacConditions {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters other = (io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasCharacteristicIdList() == other.hasCharacteristicIdList());
+      if (hasCharacteristicIdList()) {
+        result = result && getCharacteristicIdList()
+            .equals(other.getCharacteristicIdList());
+      }
+      result = result && (getCharacteristicIdListNull()
+          == other.getCharacteristicIdListNull());
+      result = result && (hasBasicFieldTypeIdList() == other.hasBasicFieldTypeIdList());
+      if (hasBasicFieldTypeIdList()) {
+        result = result && getBasicFieldTypeIdList()
+            .equals(other.getBasicFieldTypeIdList());
+      }
+      result = result && (getBasicFieldTypeIdListNull()
+          == other.getBasicFieldTypeIdListNull());
+      result = result && (hasOperator1List() == other.hasOperator1List());
+      if (hasOperator1List()) {
+        result = result && getOperator1List()
+            .equals(other.getOperator1List());
+      }
+      result = result && (getOperator1ListNull()
+          == other.getOperator1ListNull());
+      result = result && (hasCondition1List() == other.hasCondition1List());
+      if (hasCondition1List()) {
+        result = result && getCondition1List()
+            .equals(other.getCondition1List());
+      }
+      result = result && (getCondition1ListNull()
+          == other.getCondition1ListNull());
+      result = result && (hasOperator2List() == other.hasOperator2List());
+      if (hasOperator2List()) {
+        result = result && getOperator2List()
+            .equals(other.getOperator2List());
+      }
+      result = result && (getOperator2ListNull()
+          == other.getOperator2ListNull());
+      result = result && (hasCondition2List() == other.hasCondition2List());
+      if (hasCondition2List()) {
+        result = result && getCondition2List()
+            .equals(other.getCondition2List());
+      }
+      result = result && (getCondition2ListNull()
+          == other.getCondition2ListNull());
+      result = result && (hasEstimatedRowsAffectedList() == other.hasEstimatedRowsAffectedList());
+      if (hasEstimatedRowsAffectedList()) {
+        result = result && getEstimatedRowsAffectedList()
+            .equals(other.getEstimatedRowsAffectedList());
+      }
+      result = result && (getEstimatedRowsAffectedListNull()
+          == other.getEstimatedRowsAffectedListNull());
+      result = result && (hasDelete() == other.hasDelete());
+      if (hasDelete()) {
+        result = result && getDelete()
+            .equals(other.getDelete());
+      }
+      result = result && (getDeleteNull()
+          == other.getDeleteNull());
+      result = result && (hasSeparator() == other.hasSeparator());
+      if (hasSeparator()) {
+        result = result && getSeparator()
+            .equals(other.getSeparator());
+      }
+      result = result && (getSeparatorNull()
+          == other.getSeparatorNull());
+      result = result && (hasCheckByteLengthForStrings() == other.hasCheckByteLengthForStrings());
+      if (hasCheckByteLengthForStrings()) {
+        result = result && getCheckByteLengthForStrings()
+            .equals(other.getCheckByteLengthForStrings());
+      }
+      result = result && (getCheckByteLengthForStringsNull()
+          == other.getCheckByteLengthForStringsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasCharacteristicIdList()) {
+        hash = (37 * hash) + CHARACTERISTIC_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCharacteristicIdList().hashCode();
+      }
+      hash = (37 * hash) + CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCharacteristicIdListNull());
+      if (hasBasicFieldTypeIdList()) {
+        hash = (37 * hash) + BASIC_FIELD_TYPE_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicFieldTypeIdList().hashCode();
+      }
+      hash = (37 * hash) + BASIC_FIELD_TYPE_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBasicFieldTypeIdListNull());
+      if (hasOperator1List()) {
+        hash = (37 * hash) + OPERATOR1_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOperator1List().hashCode();
+      }
+      hash = (37 * hash) + OPERATOR1_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOperator1ListNull());
+      if (hasCondition1List()) {
+        hash = (37 * hash) + CONDITION1_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCondition1List().hashCode();
+      }
+      hash = (37 * hash) + CONDITION1_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCondition1ListNull());
+      if (hasOperator2List()) {
+        hash = (37 * hash) + OPERATOR2_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOperator2List().hashCode();
+      }
+      hash = (37 * hash) + OPERATOR2_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOperator2ListNull());
+      if (hasCondition2List()) {
+        hash = (37 * hash) + CONDITION2_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCondition2List().hashCode();
+      }
+      hash = (37 * hash) + CONDITION2_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCondition2ListNull());
+      if (hasEstimatedRowsAffectedList()) {
+        hash = (37 * hash) + ESTIMATED_ROWS_AFFECTED_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getEstimatedRowsAffectedList().hashCode();
+      }
+      hash = (37 * hash) + ESTIMATED_ROWS_AFFECTED_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getEstimatedRowsAffectedListNull());
+      if (hasDelete()) {
+        hash = (37 * hash) + DELETE_FIELD_NUMBER;
+        hash = (53 * hash) + getDelete().hashCode();
+      }
+      hash = (37 * hash) + DELETE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeleteNull());
+      if (hasSeparator()) {
+        hash = (37 * hash) + SEPARATOR_FIELD_NUMBER;
+        hash = (53 * hash) + getSeparator().hashCode();
+      }
+      hash = (37 * hash) + SEPARATOR_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSeparatorNull());
+      if (hasCheckByteLengthForStrings()) {
+        hash = (37 * hash) + CHECK_BYTE_LENGTH_FOR_STRINGS_FIELD_NUMBER;
+        hash = (53 * hash) + getCheckByteLengthForStrings().hashCode();
+      }
+      hash = (37 * hash) + CHECK_BYTE_LENGTH_FOR_STRINGS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCheckByteLengthForStringsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -931,39 +1103,39 @@ public final class MiInsertTempCharacConditions {
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -981,7 +1153,7 @@ public final class MiInsertTempCharacConditions {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -989,7 +1161,7 @@ public final class MiInsertTempCharacConditions {
      * Protobuf type {@code dstore.engine.mi_InsertTemp_CharacConditions.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_InsertTemp_CharacConditions.Parameters)
         io.dstore.engine.procedures.MiInsertTempCharacConditions.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -997,7 +1169,7 @@ public final class MiInsertTempCharacConditions {
         return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1010,12 +1182,13 @@ public final class MiInsertTempCharacConditions {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1186,6 +1359,32 @@ public final class MiInsertTempCharacConditions {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiInsertTempCharacConditions.Parameters)other);
@@ -1284,7 +1483,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue characteristicIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 1;</code>
@@ -1386,11 +1585,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCharacteristicIdListFieldBuilder() {
         if (characteristicIdListBuilder_ == null) {
-          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCharacteristicIdList(),
                   getParentForChildren(),
@@ -1427,7 +1626,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue basicFieldTypeIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicFieldTypeIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue basic_field_type_id_list = 2;</code>
@@ -1529,11 +1728,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue basic_field_type_id_list = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getBasicFieldTypeIdListFieldBuilder() {
         if (basicFieldTypeIdListBuilder_ == null) {
-          basicFieldTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          basicFieldTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getBasicFieldTypeIdList(),
                   getParentForChildren(),
@@ -1570,7 +1769,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue operator1List_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator1ListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue operator1_list = 3;</code>
@@ -1672,11 +1871,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue operator1_list = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOperator1ListFieldBuilder() {
         if (operator1ListBuilder_ == null) {
-          operator1ListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          operator1ListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOperator1List(),
                   getParentForChildren(),
@@ -1713,7 +1912,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue condition1List_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition1ListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue condition1_list = 4;</code>
@@ -1815,11 +2014,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue condition1_list = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCondition1ListFieldBuilder() {
         if (condition1ListBuilder_ == null) {
-          condition1ListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          condition1ListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCondition1List(),
                   getParentForChildren(),
@@ -1856,7 +2055,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue operator2List_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator2ListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue operator2_list = 5;</code>
@@ -1958,11 +2157,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue operator2_list = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOperator2ListFieldBuilder() {
         if (operator2ListBuilder_ == null) {
-          operator2ListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          operator2ListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOperator2List(),
                   getParentForChildren(),
@@ -1999,7 +2198,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue condition2List_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition2ListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue condition2_list = 6;</code>
@@ -2101,11 +2300,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue condition2_list = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCondition2ListFieldBuilder() {
         if (condition2ListBuilder_ == null) {
-          condition2ListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          condition2ListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCondition2List(),
                   getParentForChildren(),
@@ -2142,7 +2341,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue estimatedRowsAffectedList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> estimatedRowsAffectedListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue estimated_rows_affected_list = 7;</code>
@@ -2244,11 +2443,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue estimated_rows_affected_list = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getEstimatedRowsAffectedListFieldBuilder() {
         if (estimatedRowsAffectedListBuilder_ == null) {
-          estimatedRowsAffectedListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          estimatedRowsAffectedListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getEstimatedRowsAffectedList(),
                   getParentForChildren(),
@@ -2285,7 +2484,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.booleanValue delete_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue delete = 8;</code>
@@ -2387,11 +2586,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.booleanValue delete = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
-          deleteBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
@@ -2428,7 +2627,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.stringValue separator_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorBuilder_;
       /**
        * <code>optional .dstore.values.stringValue separator = 9;</code>
@@ -2530,11 +2729,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.stringValue separator = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorFieldBuilder() {
         if (separatorBuilder_ == null) {
-          separatorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          separatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparator(),
                   getParentForChildren(),
@@ -2571,7 +2770,7 @@ public final class MiInsertTempCharacConditions {
       }
 
       private io.dstore.Values.booleanValue checkByteLengthForStrings_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkByteLengthForStringsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 10;</code>
@@ -2673,11 +2872,11 @@ public final class MiInsertTempCharacConditions {
       /**
        * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCheckByteLengthForStringsFieldBuilder() {
         if (checkByteLengthForStringsBuilder_ == null) {
-          checkByteLengthForStringsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          checkByteLengthForStringsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCheckByteLengthForStrings(),
                   getParentForChildren(),
@@ -2861,11 +3060,11 @@ public final class MiInsertTempCharacConditions {
    * Protobuf type {@code dstore.engine.mi_InsertTemp_CharacConditions.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_InsertTemp_CharacConditions.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2904,7 +3103,8 @@ public final class MiInsertTempCharacConditions {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2912,7 +3112,8 @@ public final class MiInsertTempCharacConditions {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2920,7 +3121,8 @@ public final class MiInsertTempCharacConditions {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2948,7 +3150,7 @@ public final class MiInsertTempCharacConditions {
       return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2968,11 +3170,11 @@ public final class MiInsertTempCharacConditions {
      * Protobuf type {@code dstore.engine.mi_InsertTemp_CharacConditions.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_InsertTemp_CharacConditions.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3025,7 +3227,7 @@ public final class MiInsertTempCharacConditions {
         return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3072,6 +3274,36 @@ public final class MiInsertTempCharacConditions {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row other = (io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3095,39 +3327,39 @@ public final class MiInsertTempCharacConditions {
       }
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3145,7 +3377,7 @@ public final class MiInsertTempCharacConditions {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3153,7 +3385,7 @@ public final class MiInsertTempCharacConditions {
        * Protobuf type {@code dstore.engine.mi_InsertTemp_CharacConditions.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_InsertTemp_CharacConditions.Response.Row)
           io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3161,7 +3393,7 @@ public final class MiInsertTempCharacConditions {
           return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3174,12 +3406,13 @@ public final class MiInsertTempCharacConditions {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3213,6 +3446,32 @@ public final class MiInsertTempCharacConditions {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row)other);
@@ -3497,6 +3756,50 @@ public final class MiInsertTempCharacConditions {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiInsertTempCharacConditions.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiInsertTempCharacConditions.Response other = (io.dstore.engine.procedures.MiInsertTempCharacConditions.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3520,39 +3823,39 @@ public final class MiInsertTempCharacConditions {
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiInsertTempCharacConditions.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3570,7 +3873,7 @@ public final class MiInsertTempCharacConditions {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3578,7 +3881,7 @@ public final class MiInsertTempCharacConditions {
      * Protobuf type {@code dstore.engine.mi_InsertTemp_CharacConditions.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_InsertTemp_CharacConditions.Response)
         io.dstore.engine.procedures.MiInsertTempCharacConditions.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3586,7 +3889,7 @@ public final class MiInsertTempCharacConditions {
         return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiInsertTempCharacConditions.internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3599,12 +3902,13 @@ public final class MiInsertTempCharacConditions {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3684,6 +3988,32 @@ public final class MiInsertTempCharacConditions {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiInsertTempCharacConditions.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiInsertTempCharacConditions.Response)other);
@@ -3714,7 +4044,7 @@ public final class MiInsertTempCharacConditions {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3740,7 +4070,7 @@ public final class MiInsertTempCharacConditions {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3766,7 +4096,7 @@ public final class MiInsertTempCharacConditions {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3809,7 +4139,7 @@ public final class MiInsertTempCharacConditions {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4025,11 +4355,11 @@ public final class MiInsertTempCharacConditions {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4049,7 +4379,7 @@ public final class MiInsertTempCharacConditions {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4265,11 +4595,11 @@ public final class MiInsertTempCharacConditions {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4289,7 +4619,7 @@ public final class MiInsertTempCharacConditions {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row, io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row.Builder, io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4577,11 +4907,11 @@ public final class MiInsertTempCharacConditions {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row, io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row.Builder, io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row, io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.Row.Builder, io.dstore.engine.procedures.MiInsertTempCharacConditions.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4643,17 +4973,17 @@ public final class MiInsertTempCharacConditions {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4720,19 +5050,19 @@ public final class MiInsertTempCharacConditions {
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Parameters_descriptor,
         new java.lang.String[] { "CharacteristicIdList", "CharacteristicIdListNull", "BasicFieldTypeIdList", "BasicFieldTypeIdListNull", "Operator1List", "Operator1ListNull", "Condition1List", "Condition1ListNull", "Operator2List", "Operator2ListNull", "Condition2List", "Condition2ListNull", "EstimatedRowsAffectedList", "EstimatedRowsAffectedListNull", "Delete", "DeleteNull", "Separator", "SeparatorNull", "CheckByteLengthForStrings", "CheckByteLengthForStringsNull", });
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_descriptor =
       internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_InsertTemp_CharacConditions_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

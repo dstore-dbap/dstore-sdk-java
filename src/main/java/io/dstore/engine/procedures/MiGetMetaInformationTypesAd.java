@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetMetaInformationTypesAd {
   private MiGetMetaInformationTypesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetMetaInformationTypes_Ad.Parameters)
@@ -34,11 +40,11 @@ public final class MiGetMetaInformationTypesAd {
    * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -104,7 +110,7 @@ public final class MiGetMetaInformationTypesAd {
       return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -179,6 +185,46 @@ public final class MiGetMetaInformationTypesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters other = (io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasTableId() == other.hasTableId());
+      if (hasTableId()) {
+        result = result && getTableId()
+            .equals(other.getTableId());
+      }
+      result = result && (getTableIdNull()
+          == other.getTableIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasTableId()) {
+        hash = (37 * hash) + TABLE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTableId().hashCode();
+      }
+      hash = (37 * hash) + TABLE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTableIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -202,39 +248,39 @@ public final class MiGetMetaInformationTypesAd {
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -252,7 +298,7 @@ public final class MiGetMetaInformationTypesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -260,7 +306,7 @@ public final class MiGetMetaInformationTypesAd {
      * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Parameters)
         io.dstore.engine.procedures.MiGetMetaInformationTypesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -268,7 +314,7 @@ public final class MiGetMetaInformationTypesAd {
         return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -281,12 +327,13 @@ public final class MiGetMetaInformationTypesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -331,6 +378,32 @@ public final class MiGetMetaInformationTypesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Parameters)other);
@@ -375,7 +448,7 @@ public final class MiGetMetaInformationTypesAd {
       }
 
       private io.dstore.Values.integerValue tableId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue table_id = 1;</code>
@@ -477,11 +550,11 @@ public final class MiGetMetaInformationTypesAd {
       /**
        * <code>optional .dstore.values.integerValue table_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
-          tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
@@ -665,11 +738,11 @@ public final class MiGetMetaInformationTypesAd {
    * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -708,7 +781,8 @@ public final class MiGetMetaInformationTypesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -716,7 +790,8 @@ public final class MiGetMetaInformationTypesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -724,7 +799,8 @@ public final class MiGetMetaInformationTypesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -752,7 +828,7 @@ public final class MiGetMetaInformationTypesAd {
       return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -897,11 +973,11 @@ public final class MiGetMetaInformationTypesAd {
      * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1019,7 +1095,7 @@ public final class MiGetMetaInformationTypesAd {
         return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1266,6 +1342,81 @@ public final class MiGetMetaInformationTypesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row other = (io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTableId() == other.hasTableId());
+        if (hasTableId()) {
+          result = result && getTableId()
+              .equals(other.getTableId());
+        }
+        result = result && (hasMetaInformationTypeId() == other.hasMetaInformationTypeId());
+        if (hasMetaInformationTypeId()) {
+          result = result && getMetaInformationTypeId()
+              .equals(other.getMetaInformationTypeId());
+        }
+        result = result && (hasTableName() == other.hasTableName());
+        if (hasTableName()) {
+          result = result && getTableName()
+              .equals(other.getTableName());
+        }
+        result = result && (hasDescription() == other.hasDescription());
+        if (hasDescription()) {
+          result = result && getDescription()
+              .equals(other.getDescription());
+        }
+        result = result && (hasMetaInformationType() == other.hasMetaInformationType());
+        if (hasMetaInformationType()) {
+          result = result && getMetaInformationType()
+              .equals(other.getMetaInformationType());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTableId()) {
+          hash = (37 * hash) + TABLE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTableId().hashCode();
+        }
+        if (hasMetaInformationTypeId()) {
+          hash = (37 * hash) + META_INFORMATION_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getMetaInformationTypeId().hashCode();
+        }
+        if (hasTableName()) {
+          hash = (37 * hash) + TABLE_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getTableName().hashCode();
+        }
+        if (hasDescription()) {
+          hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getDescription().hashCode();
+        }
+        if (hasMetaInformationType()) {
+          hash = (37 * hash) + META_INFORMATION_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getMetaInformationType().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1289,39 +1440,39 @@ public final class MiGetMetaInformationTypesAd {
       }
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1339,7 +1490,7 @@ public final class MiGetMetaInformationTypesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1347,7 +1498,7 @@ public final class MiGetMetaInformationTypesAd {
        * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Response.Row)
           io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1355,7 +1506,7 @@ public final class MiGetMetaInformationTypesAd {
           return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1368,12 +1519,13 @@ public final class MiGetMetaInformationTypesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1462,6 +1614,32 @@ public final class MiGetMetaInformationTypesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row)other);
@@ -1544,7 +1722,7 @@ public final class MiGetMetaInformationTypesAd {
         }
 
         private io.dstore.Values.integerValue tableId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
         /**
          * <pre>
@@ -1682,11 +1860,11 @@ public final class MiGetMetaInformationTypesAd {
          *
          * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableIdFieldBuilder() {
           if (tableIdBuilder_ == null) {
-            tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableId(),
                     getParentForChildren(),
@@ -1697,7 +1875,7 @@ public final class MiGetMetaInformationTypesAd {
         }
 
         private io.dstore.Values.integerValue metaInformationTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> metaInformationTypeIdBuilder_;
         /**
          * <pre>
@@ -1835,11 +2013,11 @@ public final class MiGetMetaInformationTypesAd {
          *
          * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMetaInformationTypeIdFieldBuilder() {
           if (metaInformationTypeIdBuilder_ == null) {
-            metaInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            metaInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMetaInformationTypeId(),
                     getParentForChildren(),
@@ -1850,7 +2028,7 @@ public final class MiGetMetaInformationTypesAd {
         }
 
         private io.dstore.Values.stringValue tableName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
          * <pre>
@@ -1988,11 +2166,11 @@ public final class MiGetMetaInformationTypesAd {
          *
          * <code>optional .dstore.values.stringValue table_name = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
-            tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
@@ -2003,7 +2181,7 @@ public final class MiGetMetaInformationTypesAd {
         }
 
         private io.dstore.Values.stringValue description_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
@@ -2141,11 +2319,11 @@ public final class MiGetMetaInformationTypesAd {
          *
          * <code>optional .dstore.values.stringValue description = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
-            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
@@ -2156,7 +2334,7 @@ public final class MiGetMetaInformationTypesAd {
         }
 
         private io.dstore.Values.stringValue metaInformationType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> metaInformationTypeBuilder_;
         /**
          * <pre>
@@ -2294,11 +2472,11 @@ public final class MiGetMetaInformationTypesAd {
          *
          * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getMetaInformationTypeFieldBuilder() {
           if (metaInformationTypeBuilder_ == null) {
-            metaInformationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            metaInformationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getMetaInformationType(),
                     getParentForChildren(),
@@ -2526,6 +2704,50 @@ public final class MiGetMetaInformationTypesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response other = (io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2549,39 +2771,39 @@ public final class MiGetMetaInformationTypesAd {
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2599,7 +2821,7 @@ public final class MiGetMetaInformationTypesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2607,7 +2829,7 @@ public final class MiGetMetaInformationTypesAd {
      * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Response)
         io.dstore.engine.procedures.MiGetMetaInformationTypesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2615,7 +2837,7 @@ public final class MiGetMetaInformationTypesAd {
         return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetMetaInformationTypesAd.internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2628,12 +2850,13 @@ public final class MiGetMetaInformationTypesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -2713,6 +2936,32 @@ public final class MiGetMetaInformationTypesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response)other);
@@ -2743,7 +2992,7 @@ public final class MiGetMetaInformationTypesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -2769,7 +3018,7 @@ public final class MiGetMetaInformationTypesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -2795,7 +3044,7 @@ public final class MiGetMetaInformationTypesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -2838,7 +3087,7 @@ public final class MiGetMetaInformationTypesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3054,11 +3303,11 @@ public final class MiGetMetaInformationTypesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3078,7 +3327,7 @@ public final class MiGetMetaInformationTypesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3294,11 +3543,11 @@ public final class MiGetMetaInformationTypesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3318,7 +3567,7 @@ public final class MiGetMetaInformationTypesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row, io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -3606,11 +3855,11 @@ public final class MiGetMetaInformationTypesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row, io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row, io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetMetaInformationTypesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -3672,17 +3921,17 @@ public final class MiGetMetaInformationTypesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -3735,19 +3984,19 @@ public final class MiGetMetaInformationTypesAd {
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_descriptor,
         new java.lang.String[] { "TableId", "TableIdNull", });
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableId", "MetaInformationTypeId", "TableName", "Description", "MetaInformationType", });
     io.dstore.Values.getDescriptor();

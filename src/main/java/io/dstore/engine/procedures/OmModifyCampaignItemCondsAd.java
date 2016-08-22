@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmModifyCampaignItemCondsAd {
   private OmModifyCampaignItemCondsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_ModifyCampaignItemConds_Ad.Parameters)
@@ -232,11 +238,11 @@ public final class OmModifyCampaignItemCondsAd {
    * Protobuf type {@code dstore.engine.om_ModifyCampaignItemConds_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -511,7 +517,7 @@ public final class OmModifyCampaignItemCondsAd {
       return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1070,6 +1076,200 @@ public final class OmModifyCampaignItemCondsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters other = (io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasConditionId() == other.hasConditionId());
+      if (hasConditionId()) {
+        result = result && getConditionId()
+            .equals(other.getConditionId());
+      }
+      result = result && (getConditionIdNull()
+          == other.getConditionIdNull());
+      result = result && (hasItemConditionId() == other.hasItemConditionId());
+      if (hasItemConditionId()) {
+        result = result && getItemConditionId()
+            .equals(other.getItemConditionId());
+      }
+      result = result && (getItemConditionIdNull()
+          == other.getItemConditionIdNull());
+      result = result && (hasConditionDescription() == other.hasConditionDescription());
+      if (hasConditionDescription()) {
+        result = result && getConditionDescription()
+            .equals(other.getConditionDescription());
+      }
+      result = result && (getConditionDescriptionNull()
+          == other.getConditionDescriptionNull());
+      result = result && (hasMinNumberOfItems() == other.hasMinNumberOfItems());
+      if (hasMinNumberOfItems()) {
+        result = result && getMinNumberOfItems()
+            .equals(other.getMinNumberOfItems());
+      }
+      result = result && (getMinNumberOfItemsNull()
+          == other.getMinNumberOfItemsNull());
+      result = result && (hasMaxNumberOfItems() == other.hasMaxNumberOfItems());
+      if (hasMaxNumberOfItems()) {
+        result = result && getMaxNumberOfItems()
+            .equals(other.getMaxNumberOfItems());
+      }
+      result = result && (getMaxNumberOfItemsNull()
+          == other.getMaxNumberOfItemsNull());
+      result = result && (hasFromQuantity() == other.hasFromQuantity());
+      if (hasFromQuantity()) {
+        result = result && getFromQuantity()
+            .equals(other.getFromQuantity());
+      }
+      result = result && (getFromQuantityNull()
+          == other.getFromQuantityNull());
+      result = result && (hasToQuantity() == other.hasToQuantity());
+      if (hasToQuantity()) {
+        result = result && getToQuantity()
+            .equals(other.getToQuantity());
+      }
+      result = result && (getToQuantityNull()
+          == other.getToQuantityNull());
+      result = result && (hasFromItemBasicPrice() == other.hasFromItemBasicPrice());
+      if (hasFromItemBasicPrice()) {
+        result = result && getFromItemBasicPrice()
+            .equals(other.getFromItemBasicPrice());
+      }
+      result = result && (getFromItemBasicPriceNull()
+          == other.getFromItemBasicPriceNull());
+      result = result && (hasToItemBasicPrice() == other.hasToItemBasicPrice());
+      if (hasToItemBasicPrice()) {
+        result = result && getToItemBasicPrice()
+            .equals(other.getToItemBasicPrice());
+      }
+      result = result && (getToItemBasicPriceNull()
+          == other.getToItemBasicPriceNull());
+      result = result && (hasFromBasicPriceSum() == other.hasFromBasicPriceSum());
+      if (hasFromBasicPriceSum()) {
+        result = result && getFromBasicPriceSum()
+            .equals(other.getFromBasicPriceSum());
+      }
+      result = result && (getFromBasicPriceSumNull()
+          == other.getFromBasicPriceSumNull());
+      result = result && (hasToBasicPriceSum() == other.hasToBasicPriceSum());
+      if (hasToBasicPriceSum()) {
+        result = result && getToBasicPriceSum()
+            .equals(other.getToBasicPriceSum());
+      }
+      result = result && (getToBasicPriceSumNull()
+          == other.getToBasicPriceSumNull());
+      result = result && (hasDeleteCondition() == other.hasDeleteCondition());
+      if (hasDeleteCondition()) {
+        result = result && getDeleteCondition()
+            .equals(other.getDeleteCondition());
+      }
+      result = result && (getDeleteConditionNull()
+          == other.getDeleteConditionNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasConditionId()) {
+        hash = (37 * hash) + CONDITION_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionId().hashCode();
+      }
+      hash = (37 * hash) + CONDITION_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConditionIdNull());
+      if (hasItemConditionId()) {
+        hash = (37 * hash) + ITEM_CONDITION_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getItemConditionId().hashCode();
+      }
+      hash = (37 * hash) + ITEM_CONDITION_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getItemConditionIdNull());
+      if (hasConditionDescription()) {
+        hash = (37 * hash) + CONDITION_DESCRIPTION_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionDescription().hashCode();
+      }
+      hash = (37 * hash) + CONDITION_DESCRIPTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConditionDescriptionNull());
+      if (hasMinNumberOfItems()) {
+        hash = (37 * hash) + MIN_NUMBER_OF_ITEMS_FIELD_NUMBER;
+        hash = (53 * hash) + getMinNumberOfItems().hashCode();
+      }
+      hash = (37 * hash) + MIN_NUMBER_OF_ITEMS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMinNumberOfItemsNull());
+      if (hasMaxNumberOfItems()) {
+        hash = (37 * hash) + MAX_NUMBER_OF_ITEMS_FIELD_NUMBER;
+        hash = (53 * hash) + getMaxNumberOfItems().hashCode();
+      }
+      hash = (37 * hash) + MAX_NUMBER_OF_ITEMS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMaxNumberOfItemsNull());
+      if (hasFromQuantity()) {
+        hash = (37 * hash) + FROM_QUANTITY_FIELD_NUMBER;
+        hash = (53 * hash) + getFromQuantity().hashCode();
+      }
+      hash = (37 * hash) + FROM_QUANTITY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromQuantityNull());
+      if (hasToQuantity()) {
+        hash = (37 * hash) + TO_QUANTITY_FIELD_NUMBER;
+        hash = (53 * hash) + getToQuantity().hashCode();
+      }
+      hash = (37 * hash) + TO_QUANTITY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToQuantityNull());
+      if (hasFromItemBasicPrice()) {
+        hash = (37 * hash) + FROM_ITEM_BASIC_PRICE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromItemBasicPrice().hashCode();
+      }
+      hash = (37 * hash) + FROM_ITEM_BASIC_PRICE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromItemBasicPriceNull());
+      if (hasToItemBasicPrice()) {
+        hash = (37 * hash) + TO_ITEM_BASIC_PRICE_FIELD_NUMBER;
+        hash = (53 * hash) + getToItemBasicPrice().hashCode();
+      }
+      hash = (37 * hash) + TO_ITEM_BASIC_PRICE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToItemBasicPriceNull());
+      if (hasFromBasicPriceSum()) {
+        hash = (37 * hash) + FROM_BASIC_PRICE_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getFromBasicPriceSum().hashCode();
+      }
+      hash = (37 * hash) + FROM_BASIC_PRICE_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromBasicPriceSumNull());
+      if (hasToBasicPriceSum()) {
+        hash = (37 * hash) + TO_BASIC_PRICE_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getToBasicPriceSum().hashCode();
+      }
+      hash = (37 * hash) + TO_BASIC_PRICE_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToBasicPriceSumNull());
+      if (hasDeleteCondition()) {
+        hash = (37 * hash) + DELETE_CONDITION_FIELD_NUMBER;
+        hash = (53 * hash) + getDeleteCondition().hashCode();
+      }
+      hash = (37 * hash) + DELETE_CONDITION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeleteConditionNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1093,39 +1293,39 @@ public final class OmModifyCampaignItemCondsAd {
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1143,7 +1343,7 @@ public final class OmModifyCampaignItemCondsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1151,7 +1351,7 @@ public final class OmModifyCampaignItemCondsAd {
      * Protobuf type {@code dstore.engine.om_ModifyCampaignItemConds_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Parameters)
         io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1159,7 +1359,7 @@ public final class OmModifyCampaignItemCondsAd {
         return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1172,12 +1372,13 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1376,6 +1577,32 @@ public final class OmModifyCampaignItemCondsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Parameters)other);
@@ -1486,7 +1713,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue conditionId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue condition_id = 1;</code>
@@ -1588,11 +1815,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue condition_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
-          conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
@@ -1629,7 +1856,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue itemConditionId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
@@ -1731,11 +1958,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue item_condition_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getItemConditionIdFieldBuilder() {
         if (itemConditionIdBuilder_ == null) {
-          itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getItemConditionId(),
                   getParentForChildren(),
@@ -1772,7 +1999,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.stringValue conditionDescription_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionDescriptionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue condition_description = 3;</code>
@@ -1874,11 +2101,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.stringValue condition_description = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getConditionDescriptionFieldBuilder() {
         if (conditionDescriptionBuilder_ == null) {
-          conditionDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getConditionDescription(),
                   getParentForChildren(),
@@ -1915,7 +2142,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue minNumberOfItems_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> minNumberOfItemsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
@@ -2017,11 +2244,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue min_number_of_items = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMinNumberOfItemsFieldBuilder() {
         if (minNumberOfItemsBuilder_ == null) {
-          minNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          minNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMinNumberOfItems(),
                   getParentForChildren(),
@@ -2058,7 +2285,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue maxNumberOfItems_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfItemsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
@@ -2160,11 +2387,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue max_number_of_items = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxNumberOfItemsFieldBuilder() {
         if (maxNumberOfItemsBuilder_ == null) {
-          maxNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          maxNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxNumberOfItems(),
                   getParentForChildren(),
@@ -2201,7 +2428,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue fromQuantity_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromQuantityBuilder_;
       /**
        * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
@@ -2303,11 +2530,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue from_quantity = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromQuantityFieldBuilder() {
         if (fromQuantityBuilder_ == null) {
-          fromQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromQuantity(),
                   getParentForChildren(),
@@ -2344,7 +2571,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue toQuantity_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toQuantityBuilder_;
       /**
        * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
@@ -2446,11 +2673,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue to_quantity = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getToQuantityFieldBuilder() {
         if (toQuantityBuilder_ == null) {
-          toQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getToQuantity(),
                   getParentForChildren(),
@@ -2487,7 +2714,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.decimalValue fromItemBasicPrice_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromItemBasicPriceBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
@@ -2589,11 +2816,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.decimalValue from_item_basic_price = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getFromItemBasicPriceFieldBuilder() {
         if (fromItemBasicPriceBuilder_ == null) {
-          fromItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getFromItemBasicPrice(),
                   getParentForChildren(),
@@ -2630,7 +2857,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.decimalValue toItemBasicPrice_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toItemBasicPriceBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
@@ -2732,11 +2959,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.decimalValue to_item_basic_price = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getToItemBasicPriceFieldBuilder() {
         if (toItemBasicPriceBuilder_ == null) {
-          toItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getToItemBasicPrice(),
                   getParentForChildren(),
@@ -2773,7 +3000,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.decimalValue fromBasicPriceSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromBasicPriceSumBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
@@ -2875,11 +3102,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getFromBasicPriceSumFieldBuilder() {
         if (fromBasicPriceSumBuilder_ == null) {
-          fromBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getFromBasicPriceSum(),
                   getParentForChildren(),
@@ -2916,7 +3143,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.decimalValue toBasicPriceSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toBasicPriceSumBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
@@ -3018,11 +3245,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.decimalValue to_basic_price_sum = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getToBasicPriceSumFieldBuilder() {
         if (toBasicPriceSumBuilder_ == null) {
-          toBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getToBasicPriceSum(),
                   getParentForChildren(),
@@ -3059,7 +3286,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue deleteCondition_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteConditionBuilder_;
       /**
        * <code>optional .dstore.values.integerValue delete_condition = 12;</code>
@@ -3161,11 +3388,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue delete_condition = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeleteConditionFieldBuilder() {
         if (deleteConditionBuilder_ == null) {
-          deleteConditionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deleteConditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeleteCondition(),
                   getParentForChildren(),
@@ -3342,11 +3569,11 @@ public final class OmModifyCampaignItemCondsAd {
    * Protobuf type {@code dstore.engine.om_ModifyCampaignItemConds_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3385,7 +3612,8 @@ public final class OmModifyCampaignItemCondsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3393,7 +3621,8 @@ public final class OmModifyCampaignItemCondsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3401,7 +3630,8 @@ public final class OmModifyCampaignItemCondsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3442,7 +3672,7 @@ public final class OmModifyCampaignItemCondsAd {
       return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3462,11 +3692,11 @@ public final class OmModifyCampaignItemCondsAd {
      * Protobuf type {@code dstore.engine.om_ModifyCampaignItemConds_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3519,7 +3749,7 @@ public final class OmModifyCampaignItemCondsAd {
         return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3566,6 +3796,36 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row other = (io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3589,39 +3849,39 @@ public final class OmModifyCampaignItemCondsAd {
       }
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3639,7 +3899,7 @@ public final class OmModifyCampaignItemCondsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3647,7 +3907,7 @@ public final class OmModifyCampaignItemCondsAd {
        * Protobuf type {@code dstore.engine.om_ModifyCampaignItemConds_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Response.Row)
           io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3655,7 +3915,7 @@ public final class OmModifyCampaignItemCondsAd {
           return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3668,12 +3928,13 @@ public final class OmModifyCampaignItemCondsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3707,6 +3968,32 @@ public final class OmModifyCampaignItemCondsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row)other);
@@ -4000,6 +4287,59 @@ public final class OmModifyCampaignItemCondsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response other = (io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasConditionId() == other.hasConditionId());
+      if (hasConditionId()) {
+        result = result && getConditionId()
+            .equals(other.getConditionId());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasConditionId()) {
+        hash = (37 * hash) + CONDITION_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionId().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4023,39 +4363,39 @@ public final class OmModifyCampaignItemCondsAd {
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4073,7 +4413,7 @@ public final class OmModifyCampaignItemCondsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4081,7 +4421,7 @@ public final class OmModifyCampaignItemCondsAd {
      * Protobuf type {@code dstore.engine.om_ModifyCampaignItemConds_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Response)
         io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4089,7 +4429,7 @@ public final class OmModifyCampaignItemCondsAd {
         return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4102,12 +4442,13 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4200,6 +4541,32 @@ public final class OmModifyCampaignItemCondsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response)other);
@@ -4230,7 +4597,7 @@ public final class OmModifyCampaignItemCondsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4256,7 +4623,7 @@ public final class OmModifyCampaignItemCondsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4282,7 +4649,7 @@ public final class OmModifyCampaignItemCondsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4328,7 +4695,7 @@ public final class OmModifyCampaignItemCondsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4544,11 +4911,11 @@ public final class OmModifyCampaignItemCondsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4568,7 +4935,7 @@ public final class OmModifyCampaignItemCondsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4784,11 +5151,11 @@ public final class OmModifyCampaignItemCondsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4808,7 +5175,7 @@ public final class OmModifyCampaignItemCondsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row, io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row.Builder, io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5024,11 +5391,11 @@ public final class OmModifyCampaignItemCondsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row, io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row.Builder, io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row, io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.Row.Builder, io.dstore.engine.procedures.OmModifyCampaignItemCondsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5040,7 +5407,7 @@ public final class OmModifyCampaignItemCondsAd {
       }
 
       private io.dstore.Values.integerValue conditionId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue condition_id = 101;</code>
@@ -5142,11 +5509,11 @@ public final class OmModifyCampaignItemCondsAd {
       /**
        * <code>optional .dstore.values.integerValue condition_id = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
-          conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
@@ -5207,17 +5574,17 @@ public final class OmModifyCampaignItemCondsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5289,19 +5656,19 @@ public final class OmModifyCampaignItemCondsAd {
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Parameters_descriptor,
         new java.lang.String[] { "ConditionId", "ConditionIdNull", "ItemConditionId", "ItemConditionIdNull", "ConditionDescription", "ConditionDescriptionNull", "MinNumberOfItems", "MinNumberOfItemsNull", "MaxNumberOfItems", "MaxNumberOfItemsNull", "FromQuantity", "FromQuantityNull", "ToQuantity", "ToQuantityNull", "FromItemBasicPrice", "FromItemBasicPriceNull", "ToItemBasicPrice", "ToItemBasicPriceNull", "FromBasicPriceSum", "FromBasicPriceSumNull", "ToBasicPriceSum", "ToBasicPriceSumNull", "DeleteCondition", "DeleteConditionNull", });
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "ConditionId", });
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampaignItemConds_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

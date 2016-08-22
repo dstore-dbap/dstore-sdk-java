@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmAcknowledgeOrdersAd {
   private OmAcknowledgeOrdersAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_AcknowledgeOrders_Ad.Parameters)
@@ -160,11 +166,11 @@ public final class OmAcknowledgeOrdersAd {
    * Protobuf type {@code dstore.engine.om_AcknowledgeOrders_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_AcknowledgeOrders_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -363,7 +369,7 @@ public final class OmAcknowledgeOrdersAd {
       return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -746,6 +752,144 @@ public final class OmAcknowledgeOrdersAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters other = (io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasAddOrderInformations() == other.hasAddOrderInformations());
+      if (hasAddOrderInformations()) {
+        result = result && getAddOrderInformations()
+            .equals(other.getAddOrderInformations());
+      }
+      result = result && (getAddOrderInformationsNull()
+          == other.getAddOrderInformationsNull());
+      result = result && (hasOrderId() == other.hasOrderId());
+      if (hasOrderId()) {
+        result = result && getOrderId()
+            .equals(other.getOrderId());
+      }
+      result = result && (getOrderIdNull()
+          == other.getOrderIdNull());
+      result = result && (hasOrderNo() == other.hasOrderNo());
+      if (hasOrderNo()) {
+        result = result && getOrderNo()
+            .equals(other.getOrderNo());
+      }
+      result = result && (getOrderNoNull()
+          == other.getOrderNoNull());
+      result = result && (hasCustomerNo() == other.hasCustomerNo());
+      if (hasCustomerNo()) {
+        result = result && getCustomerNo()
+            .equals(other.getCustomerNo());
+      }
+      result = result && (getCustomerNoNull()
+          == other.getCustomerNoNull());
+      result = result && (hasDeliveryCustomerNo() == other.hasDeliveryCustomerNo());
+      if (hasDeliveryCustomerNo()) {
+        result = result && getDeliveryCustomerNo()
+            .equals(other.getDeliveryCustomerNo());
+      }
+      result = result && (getDeliveryCustomerNoNull()
+          == other.getDeliveryCustomerNoNull());
+      result = result && (hasFireacAcknowledgeOrder() == other.hasFireacAcknowledgeOrder());
+      if (hasFireacAcknowledgeOrder()) {
+        result = result && getFireacAcknowledgeOrder()
+            .equals(other.getFireacAcknowledgeOrder());
+      }
+      result = result && (getFireacAcknowledgeOrderNull()
+          == other.getFireacAcknowledgeOrderNull());
+      result = result && (hasAddOrderInformation() == other.hasAddOrderInformation());
+      if (hasAddOrderInformation()) {
+        result = result && getAddOrderInformation()
+            .equals(other.getAddOrderInformation());
+      }
+      result = result && (getAddOrderInformationNull()
+          == other.getAddOrderInformationNull());
+      result = result && (hasAddOrderContentInformation() == other.hasAddOrderContentInformation());
+      if (hasAddOrderContentInformation()) {
+        result = result && getAddOrderContentInformation()
+            .equals(other.getAddOrderContentInformation());
+      }
+      result = result && (getAddOrderContentInformationNull()
+          == other.getAddOrderContentInformationNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasAddOrderInformations()) {
+        hash = (37 * hash) + ADD_ORDER_INFORMATIONS_FIELD_NUMBER;
+        hash = (53 * hash) + getAddOrderInformations().hashCode();
+      }
+      hash = (37 * hash) + ADD_ORDER_INFORMATIONS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAddOrderInformationsNull());
+      if (hasOrderId()) {
+        hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderId().hashCode();
+      }
+      hash = (37 * hash) + ORDER_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderIdNull());
+      if (hasOrderNo()) {
+        hash = (37 * hash) + ORDER_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderNo().hashCode();
+      }
+      hash = (37 * hash) + ORDER_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderNoNull());
+      if (hasCustomerNo()) {
+        hash = (37 * hash) + CUSTOMER_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getCustomerNo().hashCode();
+      }
+      hash = (37 * hash) + CUSTOMER_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCustomerNoNull());
+      if (hasDeliveryCustomerNo()) {
+        hash = (37 * hash) + DELIVERY_CUSTOMER_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getDeliveryCustomerNo().hashCode();
+      }
+      hash = (37 * hash) + DELIVERY_CUSTOMER_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeliveryCustomerNoNull());
+      if (hasFireacAcknowledgeOrder()) {
+        hash = (37 * hash) + FIREAC_ACKNOWLEDGE_ORDER_FIELD_NUMBER;
+        hash = (53 * hash) + getFireacAcknowledgeOrder().hashCode();
+      }
+      hash = (37 * hash) + FIREAC_ACKNOWLEDGE_ORDER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFireacAcknowledgeOrderNull());
+      if (hasAddOrderInformation()) {
+        hash = (37 * hash) + ADD_ORDER_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getAddOrderInformation().hashCode();
+      }
+      hash = (37 * hash) + ADD_ORDER_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAddOrderInformationNull());
+      if (hasAddOrderContentInformation()) {
+        hash = (37 * hash) + ADD_ORDER_CONTENT_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getAddOrderContentInformation().hashCode();
+      }
+      hash = (37 * hash) + ADD_ORDER_CONTENT_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAddOrderContentInformationNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -769,39 +913,39 @@ public final class OmAcknowledgeOrdersAd {
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -819,7 +963,7 @@ public final class OmAcknowledgeOrdersAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -827,7 +971,7 @@ public final class OmAcknowledgeOrdersAd {
      * Protobuf type {@code dstore.engine.om_AcknowledgeOrders_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_AcknowledgeOrders_Ad.Parameters)
         io.dstore.engine.procedures.OmAcknowledgeOrdersAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -835,7 +979,7 @@ public final class OmAcknowledgeOrdersAd {
         return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -848,12 +992,13 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -996,6 +1141,32 @@ public final class OmAcknowledgeOrdersAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Parameters)other);
@@ -1082,7 +1253,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.booleanValue addOrderInformations_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> addOrderInformationsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue add_order_informations = 1;</code>
@@ -1184,11 +1355,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.booleanValue add_order_informations = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAddOrderInformationsFieldBuilder() {
         if (addOrderInformationsBuilder_ == null) {
-          addOrderInformationsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          addOrderInformationsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAddOrderInformations(),
                   getParentForChildren(),
@@ -1225,7 +1396,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.integerValue orderId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue order_id = 2;</code>
@@ -1327,11 +1498,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.integerValue order_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderIdFieldBuilder() {
         if (orderIdBuilder_ == null) {
-          orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderId(),
                   getParentForChildren(),
@@ -1368,7 +1539,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.stringValue orderNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderNoBuilder_;
       /**
        * <code>optional .dstore.values.stringValue order_no = 3;</code>
@@ -1470,11 +1641,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.stringValue order_no = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderNoFieldBuilder() {
         if (orderNoBuilder_ == null) {
-          orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderNo(),
                   getParentForChildren(),
@@ -1511,7 +1682,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.stringValue customerNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> customerNoBuilder_;
       /**
        * <code>optional .dstore.values.stringValue customer_no = 4;</code>
@@ -1613,11 +1784,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.stringValue customer_no = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCustomerNoFieldBuilder() {
         if (customerNoBuilder_ == null) {
-          customerNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          customerNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCustomerNo(),
                   getParentForChildren(),
@@ -1654,7 +1825,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.stringValue deliveryCustomerNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> deliveryCustomerNoBuilder_;
       /**
        * <code>optional .dstore.values.stringValue delivery_customer_no = 5;</code>
@@ -1756,11 +1927,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.stringValue delivery_customer_no = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDeliveryCustomerNoFieldBuilder() {
         if (deliveryCustomerNoBuilder_ == null) {
-          deliveryCustomerNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deliveryCustomerNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDeliveryCustomerNo(),
                   getParentForChildren(),
@@ -1797,7 +1968,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.booleanValue fireacAcknowledgeOrder_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> fireacAcknowledgeOrderBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue fireac_acknowledge_order = 6;</code>
@@ -1899,11 +2070,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.booleanValue fireac_acknowledge_order = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getFireacAcknowledgeOrderFieldBuilder() {
         if (fireacAcknowledgeOrderBuilder_ == null) {
-          fireacAcknowledgeOrderBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fireacAcknowledgeOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getFireacAcknowledgeOrder(),
                   getParentForChildren(),
@@ -1940,7 +2111,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.integerValue addOrderInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> addOrderInformationBuilder_;
       /**
        * <code>optional .dstore.values.integerValue add_order_information = 7;</code>
@@ -2042,11 +2213,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.integerValue add_order_information = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getAddOrderInformationFieldBuilder() {
         if (addOrderInformationBuilder_ == null) {
-          addOrderInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          addOrderInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getAddOrderInformation(),
                   getParentForChildren(),
@@ -2083,7 +2254,7 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private io.dstore.Values.integerValue addOrderContentInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> addOrderContentInformationBuilder_;
       /**
        * <code>optional .dstore.values.integerValue add_order_content_information = 8;</code>
@@ -2185,11 +2356,11 @@ public final class OmAcknowledgeOrdersAd {
       /**
        * <code>optional .dstore.values.integerValue add_order_content_information = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getAddOrderContentInformationFieldBuilder() {
         if (addOrderContentInformationBuilder_ == null) {
-          addOrderContentInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          addOrderContentInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getAddOrderContentInformation(),
                   getParentForChildren(),
@@ -2373,11 +2544,11 @@ public final class OmAcknowledgeOrdersAd {
    * Protobuf type {@code dstore.engine.om_AcknowledgeOrders_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_AcknowledgeOrders_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2416,7 +2587,8 @@ public final class OmAcknowledgeOrdersAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2424,7 +2596,8 @@ public final class OmAcknowledgeOrdersAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2432,7 +2605,8 @@ public final class OmAcknowledgeOrdersAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2460,7 +2634,7 @@ public final class OmAcknowledgeOrdersAd {
       return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2480,11 +2654,11 @@ public final class OmAcknowledgeOrdersAd {
      * Protobuf type {@code dstore.engine.om_AcknowledgeOrders_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_AcknowledgeOrders_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2537,7 +2711,7 @@ public final class OmAcknowledgeOrdersAd {
         return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2584,6 +2758,36 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row other = (io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2607,39 +2811,39 @@ public final class OmAcknowledgeOrdersAd {
       }
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2657,7 +2861,7 @@ public final class OmAcknowledgeOrdersAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2665,7 +2869,7 @@ public final class OmAcknowledgeOrdersAd {
        * Protobuf type {@code dstore.engine.om_AcknowledgeOrders_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_AcknowledgeOrders_Ad.Response.Row)
           io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2673,7 +2877,7 @@ public final class OmAcknowledgeOrdersAd {
           return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2686,12 +2890,13 @@ public final class OmAcknowledgeOrdersAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2725,6 +2930,32 @@ public final class OmAcknowledgeOrdersAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row)other);
@@ -3009,6 +3240,50 @@ public final class OmAcknowledgeOrdersAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response other = (io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3032,39 +3307,39 @@ public final class OmAcknowledgeOrdersAd {
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3082,7 +3357,7 @@ public final class OmAcknowledgeOrdersAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3090,7 +3365,7 @@ public final class OmAcknowledgeOrdersAd {
      * Protobuf type {@code dstore.engine.om_AcknowledgeOrders_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_AcknowledgeOrders_Ad.Response)
         io.dstore.engine.procedures.OmAcknowledgeOrdersAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3098,7 +3373,7 @@ public final class OmAcknowledgeOrdersAd {
         return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmAcknowledgeOrdersAd.internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3111,12 +3386,13 @@ public final class OmAcknowledgeOrdersAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3196,6 +3472,32 @@ public final class OmAcknowledgeOrdersAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response)other);
@@ -3226,7 +3528,7 @@ public final class OmAcknowledgeOrdersAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3252,7 +3554,7 @@ public final class OmAcknowledgeOrdersAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3278,7 +3580,7 @@ public final class OmAcknowledgeOrdersAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3321,7 +3623,7 @@ public final class OmAcknowledgeOrdersAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3537,11 +3839,11 @@ public final class OmAcknowledgeOrdersAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3561,7 +3863,7 @@ public final class OmAcknowledgeOrdersAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3777,11 +4079,11 @@ public final class OmAcknowledgeOrdersAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3801,7 +4103,7 @@ public final class OmAcknowledgeOrdersAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row, io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row.Builder, io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4089,11 +4391,11 @@ public final class OmAcknowledgeOrdersAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row, io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row.Builder, io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row, io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.Row.Builder, io.dstore.engine.procedures.OmAcknowledgeOrdersAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4155,17 +4457,17 @@ public final class OmAcknowledgeOrdersAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4227,19 +4529,19 @@ public final class OmAcknowledgeOrdersAd {
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Parameters_descriptor,
         new java.lang.String[] { "AddOrderInformations", "AddOrderInformationsNull", "OrderId", "OrderIdNull", "OrderNo", "OrderNoNull", "CustomerNo", "CustomerNoNull", "DeliveryCustomerNo", "DeliveryCustomerNoNull", "FireacAcknowledgeOrder", "FireacAcknowledgeOrderNull", "AddOrderInformation", "AddOrderInformationNull", "AddOrderContentInformation", "AddOrderContentInformationNull", });
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_AcknowledgeOrders_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

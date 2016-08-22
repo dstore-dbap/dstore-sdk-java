@@ -6,7 +6,13 @@ package io.dstore.elastic;
 public final class Elasticservice {
   private Elasticservice() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
 
   public static com.google.protobuf.Descriptors.FileDescriptor

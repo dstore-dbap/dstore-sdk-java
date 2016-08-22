@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class StGetDirectSuccessorsTreeAd {
   private StGetDirectSuccessorsTreeAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Parameters)
@@ -214,11 +220,11 @@ public final class StGetDirectSuccessorsTreeAd {
    * Protobuf type {@code dstore.engine.st_GetDirectSuccessors_Tree_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -474,7 +480,7 @@ public final class StGetDirectSuccessorsTreeAd {
       return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -989,6 +995,186 @@ public final class StGetDirectSuccessorsTreeAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters other = (io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasHTreeNodeId() == other.hasHTreeNodeId());
+      if (hasHTreeNodeId()) {
+        result = result && getHTreeNodeId()
+            .equals(other.getHTreeNodeId());
+      }
+      result = result && (getHTreeNodeIdNull()
+          == other.getHTreeNodeIdNull());
+      result = result && (hasFromDate() == other.hasFromDate());
+      if (hasFromDate()) {
+        result = result && getFromDate()
+            .equals(other.getFromDate());
+      }
+      result = result && (getFromDateNull()
+          == other.getFromDateNull());
+      result = result && (hasToDate() == other.hasToDate());
+      if (hasToDate()) {
+        result = result && getToDate()
+            .equals(other.getToDate());
+      }
+      result = result && (getToDateNull()
+          == other.getToDateNull());
+      result = result && (hasBasicCharacteristicNo1() == other.hasBasicCharacteristicNo1());
+      if (hasBasicCharacteristicNo1()) {
+        result = result && getBasicCharacteristicNo1()
+            .equals(other.getBasicCharacteristicNo1());
+      }
+      result = result && (getBasicCharacteristicNo1Null()
+          == other.getBasicCharacteristicNo1Null());
+      result = result && (hasWeightBasicCharacteristicNo1() == other.hasWeightBasicCharacteristicNo1());
+      if (hasWeightBasicCharacteristicNo1()) {
+        result = result && getWeightBasicCharacteristicNo1()
+            .equals(other.getWeightBasicCharacteristicNo1());
+      }
+      result = result && (getWeightBasicCharacteristicNo1Null()
+          == other.getWeightBasicCharacteristicNo1Null());
+      result = result && (hasBasicCharacteristicNo2() == other.hasBasicCharacteristicNo2());
+      if (hasBasicCharacteristicNo2()) {
+        result = result && getBasicCharacteristicNo2()
+            .equals(other.getBasicCharacteristicNo2());
+      }
+      result = result && (getBasicCharacteristicNo2Null()
+          == other.getBasicCharacteristicNo2Null());
+      result = result && (hasWeightBasicCharacteristicNo2() == other.hasWeightBasicCharacteristicNo2());
+      if (hasWeightBasicCharacteristicNo2()) {
+        result = result && getWeightBasicCharacteristicNo2()
+            .equals(other.getWeightBasicCharacteristicNo2());
+      }
+      result = result && (getWeightBasicCharacteristicNo2Null()
+          == other.getWeightBasicCharacteristicNo2Null());
+      result = result && (hasBasicCharacteristicNo3() == other.hasBasicCharacteristicNo3());
+      if (hasBasicCharacteristicNo3()) {
+        result = result && getBasicCharacteristicNo3()
+            .equals(other.getBasicCharacteristicNo3());
+      }
+      result = result && (getBasicCharacteristicNo3Null()
+          == other.getBasicCharacteristicNo3Null());
+      result = result && (hasWeightBasicCharacteristicNo3() == other.hasWeightBasicCharacteristicNo3());
+      if (hasWeightBasicCharacteristicNo3()) {
+        result = result && getWeightBasicCharacteristicNo3()
+            .equals(other.getWeightBasicCharacteristicNo3());
+      }
+      result = result && (getWeightBasicCharacteristicNo3Null()
+          == other.getWeightBasicCharacteristicNo3Null());
+      result = result && (hasSourceTableForStatistics() == other.hasSourceTableForStatistics());
+      if (hasSourceTableForStatistics()) {
+        result = result && getSourceTableForStatistics()
+            .equals(other.getSourceTableForStatistics());
+      }
+      result = result && (getSourceTableForStatisticsNull()
+          == other.getSourceTableForStatisticsNull());
+      result = result && (hasDisplayOnlyActive() == other.hasDisplayOnlyActive());
+      if (hasDisplayOnlyActive()) {
+        result = result && getDisplayOnlyActive()
+            .equals(other.getDisplayOnlyActive());
+      }
+      result = result && (getDisplayOnlyActiveNull()
+          == other.getDisplayOnlyActiveNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasHTreeNodeId()) {
+        hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getHTreeNodeId().hashCode();
+      }
+      hash = (37 * hash) + H_TREE_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getHTreeNodeIdNull());
+      if (hasFromDate()) {
+        hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromDate().hashCode();
+      }
+      hash = (37 * hash) + FROM_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromDateNull());
+      if (hasToDate()) {
+        hash = (37 * hash) + TO_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getToDate().hashCode();
+      }
+      hash = (37 * hash) + TO_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToDateNull());
+      if (hasBasicCharacteristicNo1()) {
+        hash = (37 * hash) + BASIC_CHARACTERISTIC_NO1_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicCharacteristicNo1().hashCode();
+      }
+      hash = (37 * hash) + BASIC_CHARACTERISTIC_NO1_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBasicCharacteristicNo1Null());
+      if (hasWeightBasicCharacteristicNo1()) {
+        hash = (37 * hash) + WEIGHT_BASIC_CHARACTERISTIC_NO1_FIELD_NUMBER;
+        hash = (53 * hash) + getWeightBasicCharacteristicNo1().hashCode();
+      }
+      hash = (37 * hash) + WEIGHT_BASIC_CHARACTERISTIC_NO1_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getWeightBasicCharacteristicNo1Null());
+      if (hasBasicCharacteristicNo2()) {
+        hash = (37 * hash) + BASIC_CHARACTERISTIC_NO2_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicCharacteristicNo2().hashCode();
+      }
+      hash = (37 * hash) + BASIC_CHARACTERISTIC_NO2_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBasicCharacteristicNo2Null());
+      if (hasWeightBasicCharacteristicNo2()) {
+        hash = (37 * hash) + WEIGHT_BASIC_CHARACTERISTIC_NO2_FIELD_NUMBER;
+        hash = (53 * hash) + getWeightBasicCharacteristicNo2().hashCode();
+      }
+      hash = (37 * hash) + WEIGHT_BASIC_CHARACTERISTIC_NO2_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getWeightBasicCharacteristicNo2Null());
+      if (hasBasicCharacteristicNo3()) {
+        hash = (37 * hash) + BASIC_CHARACTERISTIC_NO3_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicCharacteristicNo3().hashCode();
+      }
+      hash = (37 * hash) + BASIC_CHARACTERISTIC_NO3_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBasicCharacteristicNo3Null());
+      if (hasWeightBasicCharacteristicNo3()) {
+        hash = (37 * hash) + WEIGHT_BASIC_CHARACTERISTIC_NO3_FIELD_NUMBER;
+        hash = (53 * hash) + getWeightBasicCharacteristicNo3().hashCode();
+      }
+      hash = (37 * hash) + WEIGHT_BASIC_CHARACTERISTIC_NO3_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getWeightBasicCharacteristicNo3Null());
+      if (hasSourceTableForStatistics()) {
+        hash = (37 * hash) + SOURCE_TABLE_FOR_STATISTICS_FIELD_NUMBER;
+        hash = (53 * hash) + getSourceTableForStatistics().hashCode();
+      }
+      hash = (37 * hash) + SOURCE_TABLE_FOR_STATISTICS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSourceTableForStatisticsNull());
+      if (hasDisplayOnlyActive()) {
+        hash = (37 * hash) + DISPLAY_ONLY_ACTIVE_FIELD_NUMBER;
+        hash = (53 * hash) + getDisplayOnlyActive().hashCode();
+      }
+      hash = (37 * hash) + DISPLAY_ONLY_ACTIVE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDisplayOnlyActiveNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1012,39 +1198,39 @@ public final class StGetDirectSuccessorsTreeAd {
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1062,7 +1248,7 @@ public final class StGetDirectSuccessorsTreeAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1070,7 +1256,7 @@ public final class StGetDirectSuccessorsTreeAd {
      * Protobuf type {@code dstore.engine.st_GetDirectSuccessors_Tree_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Parameters)
         io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1078,7 +1264,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1091,12 +1277,13 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1281,6 +1468,32 @@ public final class StGetDirectSuccessorsTreeAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Parameters)other);
@@ -1385,7 +1598,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.integerValue hTreeNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
@@ -1487,11 +1700,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getHTreeNodeIdFieldBuilder() {
         if (hTreeNodeIdBuilder_ == null) {
-          hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getHTreeNodeId(),
                   getParentForChildren(),
@@ -1528,7 +1741,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.timestampValue fromDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_date = 2;</code>
@@ -1630,11 +1843,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
-          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
@@ -1671,7 +1884,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.timestampValue toDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_date = 3;</code>
@@ -1773,11 +1986,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
-          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
@@ -1814,7 +2027,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.integerValue basicCharacteristicNo1_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNo1Builder_;
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no1 = 4;</code>
@@ -1916,11 +2129,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no1 = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBasicCharacteristicNo1FieldBuilder() {
         if (basicCharacteristicNo1Builder_ == null) {
-          basicCharacteristicNo1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          basicCharacteristicNo1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBasicCharacteristicNo1(),
                   getParentForChildren(),
@@ -1957,7 +2170,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.decimalValue weightBasicCharacteristicNo1_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightBasicCharacteristicNo1Builder_;
       /**
        * <code>optional .dstore.values.decimalValue weight_basic_characteristic_no1 = 5;</code>
@@ -2059,11 +2272,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.decimalValue weight_basic_characteristic_no1 = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightBasicCharacteristicNo1FieldBuilder() {
         if (weightBasicCharacteristicNo1Builder_ == null) {
-          weightBasicCharacteristicNo1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          weightBasicCharacteristicNo1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightBasicCharacteristicNo1(),
                   getParentForChildren(),
@@ -2100,7 +2313,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.integerValue basicCharacteristicNo2_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNo2Builder_;
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no2 = 6;</code>
@@ -2202,11 +2415,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no2 = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBasicCharacteristicNo2FieldBuilder() {
         if (basicCharacteristicNo2Builder_ == null) {
-          basicCharacteristicNo2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          basicCharacteristicNo2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBasicCharacteristicNo2(),
                   getParentForChildren(),
@@ -2243,7 +2456,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.decimalValue weightBasicCharacteristicNo2_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightBasicCharacteristicNo2Builder_;
       /**
        * <code>optional .dstore.values.decimalValue weight_basic_characteristic_no2 = 7;</code>
@@ -2345,11 +2558,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.decimalValue weight_basic_characteristic_no2 = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightBasicCharacteristicNo2FieldBuilder() {
         if (weightBasicCharacteristicNo2Builder_ == null) {
-          weightBasicCharacteristicNo2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          weightBasicCharacteristicNo2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightBasicCharacteristicNo2(),
                   getParentForChildren(),
@@ -2386,7 +2599,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.integerValue basicCharacteristicNo3_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNo3Builder_;
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no3 = 8;</code>
@@ -2488,11 +2701,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no3 = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBasicCharacteristicNo3FieldBuilder() {
         if (basicCharacteristicNo3Builder_ == null) {
-          basicCharacteristicNo3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          basicCharacteristicNo3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBasicCharacteristicNo3(),
                   getParentForChildren(),
@@ -2529,7 +2742,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.decimalValue weightBasicCharacteristicNo3_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightBasicCharacteristicNo3Builder_;
       /**
        * <code>optional .dstore.values.decimalValue weight_basic_characteristic_no3 = 9;</code>
@@ -2631,11 +2844,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.decimalValue weight_basic_characteristic_no3 = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightBasicCharacteristicNo3FieldBuilder() {
         if (weightBasicCharacteristicNo3Builder_ == null) {
-          weightBasicCharacteristicNo3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          weightBasicCharacteristicNo3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightBasicCharacteristicNo3(),
                   getParentForChildren(),
@@ -2672,7 +2885,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.integerValue sourceTableForStatistics_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sourceTableForStatisticsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue source_table_for_statistics = 10;</code>
@@ -2774,11 +2987,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.integerValue source_table_for_statistics = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSourceTableForStatisticsFieldBuilder() {
         if (sourceTableForStatisticsBuilder_ == null) {
-          sourceTableForStatisticsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sourceTableForStatisticsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSourceTableForStatistics(),
                   getParentForChildren(),
@@ -2815,7 +3028,7 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private io.dstore.Values.booleanValue displayOnlyActive_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> displayOnlyActiveBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue display_only_active = 11;</code>
@@ -2917,11 +3130,11 @@ public final class StGetDirectSuccessorsTreeAd {
       /**
        * <code>optional .dstore.values.booleanValue display_only_active = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDisplayOnlyActiveFieldBuilder() {
         if (displayOnlyActiveBuilder_ == null) {
-          displayOnlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          displayOnlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDisplayOnlyActive(),
                   getParentForChildren(),
@@ -3105,11 +3318,11 @@ public final class StGetDirectSuccessorsTreeAd {
    * Protobuf type {@code dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3148,7 +3361,8 @@ public final class StGetDirectSuccessorsTreeAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3156,7 +3370,8 @@ public final class StGetDirectSuccessorsTreeAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3164,7 +3379,8 @@ public final class StGetDirectSuccessorsTreeAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3192,7 +3408,7 @@ public final class StGetDirectSuccessorsTreeAd {
       return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3787,11 +4003,11 @@ public final class StGetDirectSuccessorsTreeAd {
      * Protobuf type {@code dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4143,7 +4359,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5110,6 +5326,243 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row other = (io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTreeLevel() == other.hasTreeLevel());
+        if (hasTreeLevel()) {
+          result = result && getTreeLevel()
+              .equals(other.getTreeLevel());
+        }
+        result = result && (hasPredecessor() == other.hasPredecessor());
+        if (hasPredecessor()) {
+          result = result && getPredecessor()
+              .equals(other.getPredecessor());
+        }
+        result = result && (hasLevelNo() == other.hasLevelNo());
+        if (hasLevelNo()) {
+          result = result && getLevelNo()
+              .equals(other.getLevelNo());
+        }
+        result = result && (hasRelativeValueBasicCharacNo3() == other.hasRelativeValueBasicCharacNo3());
+        if (hasRelativeValueBasicCharacNo3()) {
+          result = result && getRelativeValueBasicCharacNo3()
+              .equals(other.getRelativeValueBasicCharacNo3());
+        }
+        result = result && (hasRelativeValueBasicCharacNo2() == other.hasRelativeValueBasicCharacNo2());
+        if (hasRelativeValueBasicCharacNo2()) {
+          result = result && getRelativeValueBasicCharacNo2()
+              .equals(other.getRelativeValueBasicCharacNo2());
+        }
+        result = result && (hasRelativeValueBasicCharacNo1() == other.hasRelativeValueBasicCharacNo1());
+        if (hasRelativeValueBasicCharacNo1()) {
+          result = result && getRelativeValueBasicCharacNo1()
+              .equals(other.getRelativeValueBasicCharacNo1());
+        }
+        result = result && (hasTotalValueIndex() == other.hasTotalValueIndex());
+        if (hasTotalValueIndex()) {
+          result = result && getTotalValueIndex()
+              .equals(other.getTotalValueIndex());
+        }
+        result = result && (hasRelativeValueIndex() == other.hasRelativeValueIndex());
+        if (hasRelativeValueIndex()) {
+          result = result && getRelativeValueIndex()
+              .equals(other.getRelativeValueIndex());
+        }
+        result = result && (hasNodeDescription() == other.hasNodeDescription());
+        if (hasNodeDescription()) {
+          result = result && getNodeDescription()
+              .equals(other.getNodeDescription());
+        }
+        result = result && (hasActive() == other.hasActive());
+        if (hasActive()) {
+          result = result && getActive()
+              .equals(other.getActive());
+        }
+        result = result && (hasHasNextSibling() == other.hasHasNextSibling());
+        if (hasHasNextSibling()) {
+          result = result && getHasNextSibling()
+              .equals(other.getHasNextSibling());
+        }
+        result = result && (hasTotalValueBasicCharacNo1() == other.hasTotalValueBasicCharacNo1());
+        if (hasTotalValueBasicCharacNo1()) {
+          result = result && getTotalValueBasicCharacNo1()
+              .equals(other.getTotalValueBasicCharacNo1());
+        }
+        result = result && (hasHTreeNodeId() == other.hasHTreeNodeId());
+        if (hasHTreeNodeId()) {
+          result = result && getHTreeNodeId()
+              .equals(other.getHTreeNodeId());
+        }
+        result = result && (hasTotalValueBasicCharacNo2() == other.hasTotalValueBasicCharacNo2());
+        if (hasTotalValueBasicCharacNo2()) {
+          result = result && getTotalValueBasicCharacNo2()
+              .equals(other.getTotalValueBasicCharacNo2());
+        }
+        result = result && (hasTotalValueBasicCharacNo3() == other.hasTotalValueBasicCharacNo3());
+        if (hasTotalValueBasicCharacNo3()) {
+          result = result && getTotalValueBasicCharacNo3()
+              .equals(other.getTotalValueBasicCharacNo3());
+        }
+        result = result && (hasMaxRelativeValuePerPredecessor() == other.hasMaxRelativeValuePerPredecessor());
+        if (hasMaxRelativeValuePerPredecessor()) {
+          result = result && getMaxRelativeValuePerPredecessor()
+              .equals(other.getMaxRelativeValuePerPredecessor());
+        }
+        result = result && (hasTreeNodeId() == other.hasTreeNodeId());
+        if (hasTreeNodeId()) {
+          result = result && getTreeNodeId()
+              .equals(other.getTreeNodeId());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasMaxRelativeValueIndexPerPred() == other.hasMaxRelativeValueIndexPerPred());
+        if (hasMaxRelativeValueIndexPerPred()) {
+          result = result && getMaxRelativeValueIndexPerPred()
+              .equals(other.getMaxRelativeValueIndexPerPred());
+        }
+        result = result && (hasFromDate() == other.hasFromDate());
+        if (hasFromDate()) {
+          result = result && getFromDate()
+              .equals(other.getFromDate());
+        }
+        result = result && (hasToDate() == other.hasToDate());
+        if (hasToDate()) {
+          result = result && getToDate()
+              .equals(other.getToDate());
+        }
+        result = result && (hasHasSuccessors() == other.hasHasSuccessors());
+        if (hasHasSuccessors()) {
+          result = result && getHasSuccessors()
+              .equals(other.getHasSuccessors());
+        }
+        result = result && (hasDeleted() == other.hasDeleted());
+        if (hasDeleted()) {
+          result = result && getDeleted()
+              .equals(other.getDeleted());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTreeLevel()) {
+          hash = (37 * hash) + TREE_LEVEL_FIELD_NUMBER;
+          hash = (53 * hash) + getTreeLevel().hashCode();
+        }
+        if (hasPredecessor()) {
+          hash = (37 * hash) + PREDECESSOR_FIELD_NUMBER;
+          hash = (53 * hash) + getPredecessor().hashCode();
+        }
+        if (hasLevelNo()) {
+          hash = (37 * hash) + LEVEL_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getLevelNo().hashCode();
+        }
+        if (hasRelativeValueBasicCharacNo3()) {
+          hash = (37 * hash) + RELATIVE_VALUE_BASIC_CHARAC_NO3_FIELD_NUMBER;
+          hash = (53 * hash) + getRelativeValueBasicCharacNo3().hashCode();
+        }
+        if (hasRelativeValueBasicCharacNo2()) {
+          hash = (37 * hash) + RELATIVE_VALUE_BASIC_CHARAC_NO2_FIELD_NUMBER;
+          hash = (53 * hash) + getRelativeValueBasicCharacNo2().hashCode();
+        }
+        if (hasRelativeValueBasicCharacNo1()) {
+          hash = (37 * hash) + RELATIVE_VALUE_BASIC_CHARAC_NO1_FIELD_NUMBER;
+          hash = (53 * hash) + getRelativeValueBasicCharacNo1().hashCode();
+        }
+        if (hasTotalValueIndex()) {
+          hash = (37 * hash) + TOTAL_VALUE_INDEX_FIELD_NUMBER;
+          hash = (53 * hash) + getTotalValueIndex().hashCode();
+        }
+        if (hasRelativeValueIndex()) {
+          hash = (37 * hash) + RELATIVE_VALUE_INDEX_FIELD_NUMBER;
+          hash = (53 * hash) + getRelativeValueIndex().hashCode();
+        }
+        if (hasNodeDescription()) {
+          hash = (37 * hash) + NODE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeDescription().hashCode();
+        }
+        if (hasActive()) {
+          hash = (37 * hash) + ACTIVE_FIELD_NUMBER;
+          hash = (53 * hash) + getActive().hashCode();
+        }
+        if (hasHasNextSibling()) {
+          hash = (37 * hash) + HAS_NEXT_SIBLING_FIELD_NUMBER;
+          hash = (53 * hash) + getHasNextSibling().hashCode();
+        }
+        if (hasTotalValueBasicCharacNo1()) {
+          hash = (37 * hash) + TOTAL_VALUE_BASIC_CHARAC_NO1_FIELD_NUMBER;
+          hash = (53 * hash) + getTotalValueBasicCharacNo1().hashCode();
+        }
+        if (hasHTreeNodeId()) {
+          hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getHTreeNodeId().hashCode();
+        }
+        if (hasTotalValueBasicCharacNo2()) {
+          hash = (37 * hash) + TOTAL_VALUE_BASIC_CHARAC_NO2_FIELD_NUMBER;
+          hash = (53 * hash) + getTotalValueBasicCharacNo2().hashCode();
+        }
+        if (hasTotalValueBasicCharacNo3()) {
+          hash = (37 * hash) + TOTAL_VALUE_BASIC_CHARAC_NO3_FIELD_NUMBER;
+          hash = (53 * hash) + getTotalValueBasicCharacNo3().hashCode();
+        }
+        if (hasMaxRelativeValuePerPredecessor()) {
+          hash = (37 * hash) + MAX_RELATIVE_VALUE_PER_PREDECESSOR_FIELD_NUMBER;
+          hash = (53 * hash) + getMaxRelativeValuePerPredecessor().hashCode();
+        }
+        if (hasTreeNodeId()) {
+          hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTreeNodeId().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasMaxRelativeValueIndexPerPred()) {
+          hash = (37 * hash) + MAX_RELATIVE_VALUE_INDEX_PER_PRED_FIELD_NUMBER;
+          hash = (53 * hash) + getMaxRelativeValueIndexPerPred().hashCode();
+        }
+        if (hasFromDate()) {
+          hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
+          hash = (53 * hash) + getFromDate().hashCode();
+        }
+        if (hasToDate()) {
+          hash = (37 * hash) + TO_DATE_FIELD_NUMBER;
+          hash = (53 * hash) + getToDate().hashCode();
+        }
+        if (hasHasSuccessors()) {
+          hash = (37 * hash) + HAS_SUCCESSORS_FIELD_NUMBER;
+          hash = (53 * hash) + getHasSuccessors().hashCode();
+        }
+        if (hasDeleted()) {
+          hash = (37 * hash) + DELETED_FIELD_NUMBER;
+          hash = (53 * hash) + getDeleted().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5133,39 +5586,39 @@ public final class StGetDirectSuccessorsTreeAd {
       }
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -5183,7 +5636,7 @@ public final class StGetDirectSuccessorsTreeAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -5191,7 +5644,7 @@ public final class StGetDirectSuccessorsTreeAd {
        * Protobuf type {@code dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response.Row)
           io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -5199,7 +5652,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -5212,12 +5665,13 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -5504,6 +5958,32 @@ public final class StGetDirectSuccessorsTreeAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row)other);
@@ -5640,7 +6120,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.integerValue treeLevel_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeLevelBuilder_;
         /**
          * <pre>
@@ -5778,11 +6258,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.integerValue tree_level = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeLevelFieldBuilder() {
           if (treeLevelBuilder_ == null) {
-            treeLevelBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            treeLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeLevel(),
                     getParentForChildren(),
@@ -5793,7 +6273,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.integerValue predecessor_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorBuilder_;
         /**
          * <pre>
@@ -5931,11 +6411,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.integerValue predecessor = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPredecessorFieldBuilder() {
           if (predecessorBuilder_ == null) {
-            predecessorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            predecessorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPredecessor(),
                     getParentForChildren(),
@@ -5946,7 +6426,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.integerValue levelNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
         /**
          * <pre>
@@ -6084,11 +6564,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.integerValue level_no = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLevelNoFieldBuilder() {
           if (levelNoBuilder_ == null) {
-            levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLevelNo(),
                     getParentForChildren(),
@@ -6099,7 +6579,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue relativeValueBasicCharacNo3_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeValueBasicCharacNo3Builder_;
         /**
          * <pre>
@@ -6237,11 +6717,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getRelativeValueBasicCharacNo3FieldBuilder() {
           if (relativeValueBasicCharacNo3Builder_ == null) {
-            relativeValueBasicCharacNo3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            relativeValueBasicCharacNo3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getRelativeValueBasicCharacNo3(),
                     getParentForChildren(),
@@ -6252,7 +6732,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue relativeValueBasicCharacNo2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeValueBasicCharacNo2Builder_;
         /**
          * <pre>
@@ -6390,11 +6870,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getRelativeValueBasicCharacNo2FieldBuilder() {
           if (relativeValueBasicCharacNo2Builder_ == null) {
-            relativeValueBasicCharacNo2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            relativeValueBasicCharacNo2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getRelativeValueBasicCharacNo2(),
                     getParentForChildren(),
@@ -6405,7 +6885,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue relativeValueBasicCharacNo1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeValueBasicCharacNo1Builder_;
         /**
          * <pre>
@@ -6543,11 +7023,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getRelativeValueBasicCharacNo1FieldBuilder() {
           if (relativeValueBasicCharacNo1Builder_ == null) {
-            relativeValueBasicCharacNo1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            relativeValueBasicCharacNo1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getRelativeValueBasicCharacNo1(),
                     getParentForChildren(),
@@ -6558,7 +7038,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue totalValueIndex_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueIndexBuilder_;
         /**
          * <pre>
@@ -6696,11 +7176,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue total_value_index = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTotalValueIndexFieldBuilder() {
           if (totalValueIndexBuilder_ == null) {
-            totalValueIndexBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            totalValueIndexBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTotalValueIndex(),
                     getParentForChildren(),
@@ -6711,7 +7191,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue relativeValueIndex_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeValueIndexBuilder_;
         /**
          * <pre>
@@ -6849,11 +7329,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue relative_value_index = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getRelativeValueIndexFieldBuilder() {
           if (relativeValueIndexBuilder_ == null) {
-            relativeValueIndexBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            relativeValueIndexBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getRelativeValueIndex(),
                     getParentForChildren(),
@@ -6864,7 +7344,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.stringValue nodeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
@@ -7002,11 +7482,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.stringValue node_description = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
-            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
@@ -7017,7 +7497,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.booleanValue active_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
          * <pre>
@@ -7155,11 +7635,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.booleanValue active = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
-            activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
@@ -7170,7 +7650,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.booleanValue hasNextSibling_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasNextSiblingBuilder_;
         /**
          * <pre>
@@ -7308,11 +7788,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.booleanValue has_next_sibling = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasNextSiblingFieldBuilder() {
           if (hasNextSiblingBuilder_ == null) {
-            hasNextSiblingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hasNextSiblingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasNextSibling(),
                     getParentForChildren(),
@@ -7323,7 +7803,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue totalValueBasicCharacNo1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueBasicCharacNo1Builder_;
         /**
          * <pre>
@@ -7461,11 +7941,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTotalValueBasicCharacNo1FieldBuilder() {
           if (totalValueBasicCharacNo1Builder_ == null) {
-            totalValueBasicCharacNo1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            totalValueBasicCharacNo1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTotalValueBasicCharacNo1(),
                     getParentForChildren(),
@@ -7476,7 +7956,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.integerValue hTreeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
@@ -7614,11 +8094,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.integerValue h_tree_node_id = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
-            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
@@ -7629,7 +8109,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue totalValueBasicCharacNo2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueBasicCharacNo2Builder_;
         /**
          * <pre>
@@ -7767,11 +8247,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTotalValueBasicCharacNo2FieldBuilder() {
           if (totalValueBasicCharacNo2Builder_ == null) {
-            totalValueBasicCharacNo2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            totalValueBasicCharacNo2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTotalValueBasicCharacNo2(),
                     getParentForChildren(),
@@ -7782,7 +8262,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue totalValueBasicCharacNo3_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueBasicCharacNo3Builder_;
         /**
          * <pre>
@@ -7920,11 +8400,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTotalValueBasicCharacNo3FieldBuilder() {
           if (totalValueBasicCharacNo3Builder_ == null) {
-            totalValueBasicCharacNo3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            totalValueBasicCharacNo3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTotalValueBasicCharacNo3(),
                     getParentForChildren(),
@@ -7935,7 +8415,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue maxRelativeValuePerPredecessor_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> maxRelativeValuePerPredecessorBuilder_;
         /**
          * <pre>
@@ -8073,11 +8553,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue max_relative_value_per_predecessor = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getMaxRelativeValuePerPredecessorFieldBuilder() {
           if (maxRelativeValuePerPredecessorBuilder_ == null) {
-            maxRelativeValuePerPredecessorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            maxRelativeValuePerPredecessorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getMaxRelativeValuePerPredecessor(),
                     getParentForChildren(),
@@ -8088,7 +8568,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.integerValue treeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
@@ -8226,11 +8706,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.integerValue tree_node_id = 10017;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
-            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
@@ -8241,7 +8721,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -8379,11 +8859,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.integerValue node_id = 10018;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -8394,7 +8874,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.decimalValue maxRelativeValueIndexPerPred_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> maxRelativeValueIndexPerPredBuilder_;
         /**
          * <pre>
@@ -8532,11 +9012,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getMaxRelativeValueIndexPerPredFieldBuilder() {
           if (maxRelativeValueIndexPerPredBuilder_ == null) {
-            maxRelativeValueIndexPerPredBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            maxRelativeValueIndexPerPredBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getMaxRelativeValueIndexPerPred(),
                     getParentForChildren(),
@@ -8547,7 +9027,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.stringValue fromDate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromDateBuilder_;
         /**
          * <pre>
@@ -8685,11 +9165,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.stringValue from_date = 10020;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFromDateFieldBuilder() {
           if (fromDateBuilder_ == null) {
-            fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFromDate(),
                     getParentForChildren(),
@@ -8700,7 +9180,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.stringValue toDate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toDateBuilder_;
         /**
          * <pre>
@@ -8838,11 +9318,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.stringValue to_date = 10021;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getToDateFieldBuilder() {
           if (toDateBuilder_ == null) {
-            toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getToDate(),
                     getParentForChildren(),
@@ -8853,7 +9333,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.booleanValue hasSuccessors_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasSuccessorsBuilder_;
         /**
          * <pre>
@@ -8991,11 +9471,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.booleanValue has_successors = 10022;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasSuccessorsFieldBuilder() {
           if (hasSuccessorsBuilder_ == null) {
-            hasSuccessorsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hasSuccessorsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasSuccessors(),
                     getParentForChildren(),
@@ -9006,7 +9486,7 @@ public final class StGetDirectSuccessorsTreeAd {
         }
 
         private io.dstore.Values.booleanValue deleted_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deletedBuilder_;
         /**
          * <pre>
@@ -9144,11 +9624,11 @@ public final class StGetDirectSuccessorsTreeAd {
          *
          * <code>optional .dstore.values.booleanValue deleted = 10023;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getDeletedFieldBuilder() {
           if (deletedBuilder_ == null) {
-            deletedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            deletedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getDeleted(),
                     getParentForChildren(),
@@ -9376,6 +9856,50 @@ public final class StGetDirectSuccessorsTreeAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response other = (io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -9399,39 +9923,39 @@ public final class StGetDirectSuccessorsTreeAd {
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -9449,7 +9973,7 @@ public final class StGetDirectSuccessorsTreeAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -9457,7 +9981,7 @@ public final class StGetDirectSuccessorsTreeAd {
      * Protobuf type {@code dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response)
         io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -9465,7 +9989,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -9478,12 +10002,13 @@ public final class StGetDirectSuccessorsTreeAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -9563,6 +10088,32 @@ public final class StGetDirectSuccessorsTreeAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response)other);
@@ -9593,7 +10144,7 @@ public final class StGetDirectSuccessorsTreeAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -9619,7 +10170,7 @@ public final class StGetDirectSuccessorsTreeAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -9645,7 +10196,7 @@ public final class StGetDirectSuccessorsTreeAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -9688,7 +10239,7 @@ public final class StGetDirectSuccessorsTreeAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -9904,11 +10455,11 @@ public final class StGetDirectSuccessorsTreeAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -9928,7 +10479,7 @@ public final class StGetDirectSuccessorsTreeAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -10144,11 +10695,11 @@ public final class StGetDirectSuccessorsTreeAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -10168,7 +10719,7 @@ public final class StGetDirectSuccessorsTreeAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row, io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -10456,11 +11007,11 @@ public final class StGetDirectSuccessorsTreeAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row, io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row, io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDirectSuccessorsTreeAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -10522,17 +11073,17 @@ public final class StGetDirectSuccessorsTreeAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -10637,19 +11188,19 @@ public final class StGetDirectSuccessorsTreeAd {
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Parameters_descriptor,
         new java.lang.String[] { "HTreeNodeId", "HTreeNodeIdNull", "FromDate", "FromDateNull", "ToDate", "ToDateNull", "BasicCharacteristicNo1", "BasicCharacteristicNo1Null", "WeightBasicCharacteristicNo1", "WeightBasicCharacteristicNo1Null", "BasicCharacteristicNo2", "BasicCharacteristicNo2Null", "WeightBasicCharacteristicNo2", "WeightBasicCharacteristicNo2Null", "BasicCharacteristicNo3", "BasicCharacteristicNo3Null", "WeightBasicCharacteristicNo3", "WeightBasicCharacteristicNo3Null", "SourceTableForStatistics", "SourceTableForStatisticsNull", "DisplayOnlyActive", "DisplayOnlyActiveNull", });
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDirectSuccessors_Tree_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TreeLevel", "Predecessor", "LevelNo", "RelativeValueBasicCharacNo3", "RelativeValueBasicCharacNo2", "RelativeValueBasicCharacNo1", "TotalValueIndex", "RelativeValueIndex", "NodeDescription", "Active", "HasNextSibling", "TotalValueBasicCharacNo1", "HTreeNodeId", "TotalValueBasicCharacNo2", "TotalValueBasicCharacNo3", "MaxRelativeValuePerPredecessor", "TreeNodeId", "NodeId", "MaxRelativeValueIndexPerPred", "FromDate", "ToDate", "HasSuccessors", "Deleted", });
     io.dstore.Values.getDescriptor();

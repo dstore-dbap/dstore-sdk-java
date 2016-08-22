@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class StGetClickStreamAd {
   private StGetClickStreamAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.st_GetClickStream_Ad.Parameters)
@@ -142,11 +148,11 @@ public final class StGetClickStreamAd {
    * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetClickStream_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class StGetClickStreamAd {
       return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class StGetClickStreamAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetClickStreamAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetClickStreamAd.Parameters other = (io.dstore.engine.procedures.StGetClickStreamAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPersonId() == other.hasPersonId());
+      if (hasPersonId()) {
+        result = result && getPersonId()
+            .equals(other.getPersonId());
+      }
+      result = result && (getPersonIdNull()
+          == other.getPersonIdNull());
+      result = result && (hasFromDate() == other.hasFromDate());
+      if (hasFromDate()) {
+        result = result && getFromDate()
+            .equals(other.getFromDate());
+      }
+      result = result && (getFromDateNull()
+          == other.getFromDateNull());
+      result = result && (hasToDate() == other.hasToDate());
+      if (hasToDate()) {
+        result = result && getToDate()
+            .equals(other.getToDate());
+      }
+      result = result && (getToDateNull()
+          == other.getToDateNull());
+      result = result && (hasVisitorId() == other.hasVisitorId());
+      if (hasVisitorId()) {
+        result = result && getVisitorId()
+            .equals(other.getVisitorId());
+      }
+      result = result && (getVisitorIdNull()
+          == other.getVisitorIdNull());
+      result = result && (hasVisitorOrPersonIdsInOneId() == other.hasVisitorOrPersonIdsInOneId());
+      if (hasVisitorOrPersonIdsInOneId()) {
+        result = result && getVisitorOrPersonIdsInOneId()
+            .equals(other.getVisitorOrPersonIdsInOneId());
+      }
+      result = result && (getVisitorOrPersonIdsInOneIdNull()
+          == other.getVisitorOrPersonIdsInOneIdNull());
+      result = result && (hasConsiderOnlyRelationPeriod() == other.hasConsiderOnlyRelationPeriod());
+      if (hasConsiderOnlyRelationPeriod()) {
+        result = result && getConsiderOnlyRelationPeriod()
+            .equals(other.getConsiderOnlyRelationPeriod());
+      }
+      result = result && (getConsiderOnlyRelationPeriodNull()
+          == other.getConsiderOnlyRelationPeriodNull());
+      result = result && (hasBasicCharacteristicNumbers() == other.hasBasicCharacteristicNumbers());
+      if (hasBasicCharacteristicNumbers()) {
+        result = result && getBasicCharacteristicNumbers()
+            .equals(other.getBasicCharacteristicNumbers());
+      }
+      result = result && (getBasicCharacteristicNumbersNull()
+          == other.getBasicCharacteristicNumbersNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPersonId()) {
+        hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdNull());
+      if (hasFromDate()) {
+        hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromDate().hashCode();
+      }
+      hash = (37 * hash) + FROM_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromDateNull());
+      if (hasToDate()) {
+        hash = (37 * hash) + TO_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getToDate().hashCode();
+      }
+      hash = (37 * hash) + TO_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToDateNull());
+      if (hasVisitorId()) {
+        hash = (37 * hash) + VISITOR_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getVisitorId().hashCode();
+      }
+      hash = (37 * hash) + VISITOR_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getVisitorIdNull());
+      if (hasVisitorOrPersonIdsInOneId()) {
+        hash = (37 * hash) + VISITOR_OR_PERSON_IDS_IN_ONE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getVisitorOrPersonIdsInOneId().hashCode();
+      }
+      hash = (37 * hash) + VISITOR_OR_PERSON_IDS_IN_ONE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getVisitorOrPersonIdsInOneIdNull());
+      if (hasConsiderOnlyRelationPeriod()) {
+        hash = (37 * hash) + CONSIDER_ONLY_RELATION_PERIOD_FIELD_NUMBER;
+        hash = (53 * hash) + getConsiderOnlyRelationPeriod().hashCode();
+      }
+      hash = (37 * hash) + CONSIDER_ONLY_RELATION_PERIOD_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConsiderOnlyRelationPeriodNull());
+      if (hasBasicCharacteristicNumbers()) {
+        hash = (37 * hash) + BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicCharacteristicNumbers().hashCode();
+      }
+      hash = (37 * hash) + BASIC_CHARACTERISTIC_NUMBERS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBasicCharacteristicNumbersNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class StGetClickStreamAd {
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class StGetClickStreamAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class StGetClickStreamAd {
      * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetClickStream_Ad.Parameters)
         io.dstore.engine.procedures.StGetClickStreamAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class StGetClickStreamAd {
         return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class StGetClickStreamAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class StGetClickStreamAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetClickStreamAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.StGetClickStreamAd.Parameters)other);
@@ -981,7 +1138,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.integerValue personId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_id = 1;</code>
@@ -1083,11 +1240,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
-          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.timestampValue fromDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_date = 2;</code>
@@ -1226,11 +1383,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.timestampValue from_date = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
-          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.timestampValue toDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_date = 3;</code>
@@ -1369,11 +1526,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.timestampValue to_date = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
-          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.integerValue visitorId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
@@ -1512,11 +1669,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisitorIdFieldBuilder() {
         if (visitorIdBuilder_ == null) {
-          visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisitorId(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.integerValue visitorOrPersonIdsInOneId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorOrPersonIdsInOneIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
@@ -1655,11 +1812,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisitorOrPersonIdsInOneIdFieldBuilder() {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
-          visitorOrPersonIdsInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          visitorOrPersonIdsInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisitorOrPersonIdsInOneId(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.booleanValue considerOnlyRelationPeriod_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> considerOnlyRelationPeriodBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
@@ -1798,11 +1955,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getConsiderOnlyRelationPeriodFieldBuilder() {
         if (considerOnlyRelationPeriodBuilder_ == null) {
-          considerOnlyRelationPeriodBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          considerOnlyRelationPeriodBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getConsiderOnlyRelationPeriod(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class StGetClickStreamAd {
       }
 
       private io.dstore.Values.stringValue basicCharacteristicNumbers_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
        * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
@@ -1941,11 +2098,11 @@ public final class StGetClickStreamAd {
       /**
        * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getBasicCharacteristicNumbersFieldBuilder() {
         if (basicCharacteristicNumbersBuilder_ == null) {
-          basicCharacteristicNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          basicCharacteristicNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getBasicCharacteristicNumbers(),
                   getParentForChildren(),
@@ -2129,11 +2286,11 @@ public final class StGetClickStreamAd {
    * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetClickStream_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2172,7 +2329,8 @@ public final class StGetClickStreamAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2180,7 +2338,8 @@ public final class StGetClickStreamAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2188,7 +2347,8 @@ public final class StGetClickStreamAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.StGetClickStreamAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.StGetClickStreamAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.StGetClickStreamAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2216,7 +2376,7 @@ public final class StGetClickStreamAd {
       return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2536,11 +2696,11 @@ public final class StGetClickStreamAd {
      * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetClickStream_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2749,7 +2909,7 @@ public final class StGetClickStreamAd {
         return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3276,6 +3436,144 @@ public final class StGetClickStreamAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.StGetClickStreamAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.StGetClickStreamAd.Response.Row other = (io.dstore.engine.procedures.StGetClickStreamAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasValueBelongsToRelatedId() == other.hasValueBelongsToRelatedId());
+        if (hasValueBelongsToRelatedId()) {
+          result = result && getValueBelongsToRelatedId()
+              .equals(other.getValueBelongsToRelatedId());
+        }
+        result = result && (hasNodeDescription() == other.hasNodeDescription());
+        if (hasNodeDescription()) {
+          result = result && getNodeDescription()
+              .equals(other.getNodeDescription());
+        }
+        result = result && (hasVisitorOrPersonId() == other.hasVisitorOrPersonId());
+        if (hasVisitorOrPersonId()) {
+          result = result && getVisitorOrPersonId()
+              .equals(other.getVisitorOrPersonId());
+        }
+        result = result && (hasDateAndTimeChar() == other.hasDateAndTimeChar());
+        if (hasDateAndTimeChar()) {
+          result = result && getDateAndTimeChar()
+              .equals(other.getDateAndTimeChar());
+        }
+        result = result && (hasBasicCharacteristic() == other.hasBasicCharacteristic());
+        if (hasBasicCharacteristic()) {
+          result = result && getBasicCharacteristic()
+              .equals(other.getBasicCharacteristic());
+        }
+        result = result && (hasRelationExistsAtDateAndTime() == other.hasRelationExistsAtDateAndTime());
+        if (hasRelationExistsAtDateAndTime()) {
+          result = result && getRelationExistsAtDateAndTime()
+              .equals(other.getRelationExistsAtDateAndTime());
+        }
+        result = result && (hasHTreeNodeId() == other.hasHTreeNodeId());
+        if (hasHTreeNodeId()) {
+          result = result && getHTreeNodeId()
+              .equals(other.getHTreeNodeId());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (hasDateAndTime() == other.hasDateAndTime());
+        if (hasDateAndTime()) {
+          result = result && getDateAndTime()
+              .equals(other.getDateAndTime());
+        }
+        result = result && (hasRelatedId() == other.hasRelatedId());
+        if (hasRelatedId()) {
+          result = result && getRelatedId()
+              .equals(other.getRelatedId());
+        }
+        result = result && (hasBasicCharacteristicNumber() == other.hasBasicCharacteristicNumber());
+        if (hasBasicCharacteristicNumber()) {
+          result = result && getBasicCharacteristicNumber()
+              .equals(other.getBasicCharacteristicNumber());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasValueBelongsToRelatedId()) {
+          hash = (37 * hash) + VALUE_BELONGS_TO_RELATED_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getValueBelongsToRelatedId().hashCode();
+        }
+        if (hasNodeDescription()) {
+          hash = (37 * hash) + NODE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeDescription().hashCode();
+        }
+        if (hasVisitorOrPersonId()) {
+          hash = (37 * hash) + VISITOR_OR_PERSON_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getVisitorOrPersonId().hashCode();
+        }
+        if (hasDateAndTimeChar()) {
+          hash = (37 * hash) + DATE_AND_TIME_CHAR_FIELD_NUMBER;
+          hash = (53 * hash) + getDateAndTimeChar().hashCode();
+        }
+        if (hasBasicCharacteristic()) {
+          hash = (37 * hash) + BASIC_CHARACTERISTIC_FIELD_NUMBER;
+          hash = (53 * hash) + getBasicCharacteristic().hashCode();
+        }
+        if (hasRelationExistsAtDateAndTime()) {
+          hash = (37 * hash) + RELATION_EXISTS_AT_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getRelationExistsAtDateAndTime().hashCode();
+        }
+        if (hasHTreeNodeId()) {
+          hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getHTreeNodeId().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        if (hasDateAndTime()) {
+          hash = (37 * hash) + DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getDateAndTime().hashCode();
+        }
+        if (hasRelatedId()) {
+          hash = (37 * hash) + RELATED_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getRelatedId().hashCode();
+        }
+        if (hasBasicCharacteristicNumber()) {
+          hash = (37 * hash) + BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER;
+          hash = (53 * hash) + getBasicCharacteristicNumber().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3299,39 +3597,39 @@ public final class StGetClickStreamAd {
       }
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetClickStreamAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3349,7 +3647,7 @@ public final class StGetClickStreamAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3357,7 +3655,7 @@ public final class StGetClickStreamAd {
        * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetClickStream_Ad.Response.Row)
           io.dstore.engine.procedures.StGetClickStreamAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3365,7 +3663,7 @@ public final class StGetClickStreamAd {
           return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3378,12 +3676,13 @@ public final class StGetClickStreamAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3549,6 +3848,32 @@ public final class StGetClickStreamAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.StGetClickStreamAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.StGetClickStreamAd.Response.Row)other);
@@ -3652,7 +3977,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.booleanValue valueBelongsToRelatedId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueBelongsToRelatedIdBuilder_;
         /**
          * <pre>
@@ -3790,11 +4115,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getValueBelongsToRelatedIdFieldBuilder() {
           if (valueBelongsToRelatedIdBuilder_ == null) {
-            valueBelongsToRelatedIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBelongsToRelatedIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getValueBelongsToRelatedId(),
                     getParentForChildren(),
@@ -3805,7 +4130,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.stringValue nodeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
@@ -3943,11 +4268,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.stringValue node_description = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
-            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
@@ -3958,7 +4283,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.integerValue visitorOrPersonId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorOrPersonIdBuilder_;
         /**
          * <pre>
@@ -4096,11 +4421,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisitorOrPersonIdFieldBuilder() {
           if (visitorOrPersonIdBuilder_ == null) {
-            visitorOrPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            visitorOrPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisitorOrPersonId(),
                     getParentForChildren(),
@@ -4111,7 +4436,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.stringValue dateAndTimeChar_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dateAndTimeCharBuilder_;
         /**
          * <pre>
@@ -4249,11 +4574,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDateAndTimeCharFieldBuilder() {
           if (dateAndTimeCharBuilder_ == null) {
-            dateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            dateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDateAndTimeChar(),
                     getParentForChildren(),
@@ -4264,7 +4589,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.stringValue basicCharacteristic_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
         /**
          * <pre>
@@ -4402,11 +4727,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBasicCharacteristicFieldBuilder() {
           if (basicCharacteristicBuilder_ == null) {
-            basicCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            basicCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBasicCharacteristic(),
                     getParentForChildren(),
@@ -4417,7 +4742,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.booleanValue relationExistsAtDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> relationExistsAtDateAndTimeBuilder_;
         /**
          * <pre>
@@ -4555,11 +4880,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getRelationExistsAtDateAndTimeFieldBuilder() {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
-            relationExistsAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            relationExistsAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getRelationExistsAtDateAndTime(),
                     getParentForChildren(),
@@ -4570,7 +4895,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.integerValue hTreeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
@@ -4708,11 +5033,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
-            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
@@ -4723,7 +5048,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -4861,11 +5186,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.integerValue node_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -4876,7 +5201,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.decimalValue value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
         /**
          * <pre>
@@ -5014,11 +5339,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.decimalValue value = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -5029,7 +5354,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.timestampValue dateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateAndTimeBuilder_;
         /**
          * <pre>
@@ -5167,11 +5492,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getDateAndTimeFieldBuilder() {
           if (dateAndTimeBuilder_ == null) {
-            dateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            dateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getDateAndTime(),
                     getParentForChildren(),
@@ -5182,7 +5507,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.integerValue relatedId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relatedIdBuilder_;
         /**
          * <pre>
@@ -5320,11 +5645,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.integerValue related_id = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRelatedIdFieldBuilder() {
           if (relatedIdBuilder_ == null) {
-            relatedIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            relatedIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRelatedId(),
                     getParentForChildren(),
@@ -5335,7 +5660,7 @@ public final class StGetClickStreamAd {
         }
 
         private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
          * <pre>
@@ -5473,11 +5798,11 @@ public final class StGetClickStreamAd {
          *
          * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBasicCharacteristicNumberFieldBuilder() {
           if (basicCharacteristicNumberBuilder_ == null) {
-            basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBasicCharacteristicNumber(),
                     getParentForChildren(),
@@ -5705,6 +6030,50 @@ public final class StGetClickStreamAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetClickStreamAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetClickStreamAd.Response other = (io.dstore.engine.procedures.StGetClickStreamAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5728,39 +6097,39 @@ public final class StGetClickStreamAd {
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetClickStreamAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -5778,7 +6147,7 @@ public final class StGetClickStreamAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -5786,7 +6155,7 @@ public final class StGetClickStreamAd {
      * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetClickStream_Ad.Response)
         io.dstore.engine.procedures.StGetClickStreamAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -5794,7 +6163,7 @@ public final class StGetClickStreamAd {
         return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetClickStreamAd.internal_static_dstore_engine_st_GetClickStream_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5807,12 +6176,13 @@ public final class StGetClickStreamAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -5892,6 +6262,32 @@ public final class StGetClickStreamAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetClickStreamAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.StGetClickStreamAd.Response)other);
@@ -5922,7 +6318,7 @@ public final class StGetClickStreamAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -5948,7 +6344,7 @@ public final class StGetClickStreamAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -5974,7 +6370,7 @@ public final class StGetClickStreamAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -6017,7 +6413,7 @@ public final class StGetClickStreamAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -6233,11 +6629,11 @@ public final class StGetClickStreamAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -6257,7 +6653,7 @@ public final class StGetClickStreamAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -6473,11 +6869,11 @@ public final class StGetClickStreamAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -6497,7 +6893,7 @@ public final class StGetClickStreamAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetClickStreamAd.Response.Row, io.dstore.engine.procedures.StGetClickStreamAd.Response.Row.Builder, io.dstore.engine.procedures.StGetClickStreamAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -6785,11 +7181,11 @@ public final class StGetClickStreamAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetClickStreamAd.Response.Row, io.dstore.engine.procedures.StGetClickStreamAd.Response.Row.Builder, io.dstore.engine.procedures.StGetClickStreamAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.StGetClickStreamAd.Response.Row, io.dstore.engine.procedures.StGetClickStreamAd.Response.Row.Builder, io.dstore.engine.procedures.StGetClickStreamAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -6851,17 +7247,17 @@ public final class StGetClickStreamAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetClickStream_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetClickStream_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -6937,19 +7333,19 @@ public final class StGetClickStreamAd {
     internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_descriptor,
         new java.lang.String[] { "PersonId", "PersonIdNull", "FromDate", "FromDateNull", "ToDate", "ToDateNull", "VisitorId", "VisitorIdNull", "VisitorOrPersonIdsInOneId", "VisitorOrPersonIdsInOneIdNull", "ConsiderOnlyRelationPeriod", "ConsiderOnlyRelationPeriodNull", "BasicCharacteristicNumbers", "BasicCharacteristicNumbersNull", });
     internal_static_dstore_engine_st_GetClickStream_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_st_GetClickStream_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetClickStream_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_st_GetClickStream_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ValueBelongsToRelatedId", "NodeDescription", "VisitorOrPersonId", "DateAndTimeChar", "BasicCharacteristic", "RelationExistsAtDateAndTime", "HTreeNodeId", "NodeId", "Value", "DateAndTime", "RelatedId", "BasicCharacteristicNumber", });
     io.dstore.Values.getDescriptor();

@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiModifyTRITriggerAd {
   private MiModifyTRITriggerAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_ModifyTRITrigger_Ad.Parameters)
@@ -142,11 +148,11 @@ public final class MiModifyTRITriggerAd {
    * Protobuf type {@code dstore.engine.mi_ModifyTRITrigger_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_ModifyTRITrigger_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class MiModifyTRITriggerAd {
       return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class MiModifyTRITriggerAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters other = (io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasTriggerId() == other.hasTriggerId());
+      if (hasTriggerId()) {
+        result = result && getTriggerId()
+            .equals(other.getTriggerId());
+      }
+      result = result && (getTriggerIdNull()
+          == other.getTriggerIdNull());
+      result = result && (hasTriggerTypeId() == other.hasTriggerTypeId());
+      if (hasTriggerTypeId()) {
+        result = result && getTriggerTypeId()
+            .equals(other.getTriggerTypeId());
+      }
+      result = result && (getTriggerTypeIdNull()
+          == other.getTriggerTypeIdNull());
+      result = result && (hasTriggerName() == other.hasTriggerName());
+      if (hasTriggerName()) {
+        result = result && getTriggerName()
+            .equals(other.getTriggerName());
+      }
+      result = result && (getTriggerNameNull()
+          == other.getTriggerNameNull());
+      result = result && (hasTriggerDescription() == other.hasTriggerDescription());
+      if (hasTriggerDescription()) {
+        result = result && getTriggerDescription()
+            .equals(other.getTriggerDescription());
+      }
+      result = result && (getTriggerDescriptionNull()
+          == other.getTriggerDescriptionNull());
+      result = result && (hasExecuteProcedureName() == other.hasExecuteProcedureName());
+      if (hasExecuteProcedureName()) {
+        result = result && getExecuteProcedureName()
+            .equals(other.getExecuteProcedureName());
+      }
+      result = result && (getExecuteProcedureNameNull()
+          == other.getExecuteProcedureNameNull());
+      result = result && (hasDeleteTrigger() == other.hasDeleteTrigger());
+      if (hasDeleteTrigger()) {
+        result = result && getDeleteTrigger()
+            .equals(other.getDeleteTrigger());
+      }
+      result = result && (getDeleteTriggerNull()
+          == other.getDeleteTriggerNull());
+      result = result && (hasTRITriggerDefinition() == other.hasTRITriggerDefinition());
+      if (hasTRITriggerDefinition()) {
+        result = result && getTRITriggerDefinition()
+            .equals(other.getTRITriggerDefinition());
+      }
+      result = result && (getTRITriggerDefinitionNull()
+          == other.getTRITriggerDefinitionNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasTriggerId()) {
+        hash = (37 * hash) + TRIGGER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTriggerId().hashCode();
+      }
+      hash = (37 * hash) + TRIGGER_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTriggerIdNull());
+      if (hasTriggerTypeId()) {
+        hash = (37 * hash) + TRIGGER_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTriggerTypeId().hashCode();
+      }
+      hash = (37 * hash) + TRIGGER_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTriggerTypeIdNull());
+      if (hasTriggerName()) {
+        hash = (37 * hash) + TRIGGER_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getTriggerName().hashCode();
+      }
+      hash = (37 * hash) + TRIGGER_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTriggerNameNull());
+      if (hasTriggerDescription()) {
+        hash = (37 * hash) + TRIGGER_DESCRIPTION_FIELD_NUMBER;
+        hash = (53 * hash) + getTriggerDescription().hashCode();
+      }
+      hash = (37 * hash) + TRIGGER_DESCRIPTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTriggerDescriptionNull());
+      if (hasExecuteProcedureName()) {
+        hash = (37 * hash) + EXECUTE_PROCEDURE_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getExecuteProcedureName().hashCode();
+      }
+      hash = (37 * hash) + EXECUTE_PROCEDURE_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getExecuteProcedureNameNull());
+      if (hasDeleteTrigger()) {
+        hash = (37 * hash) + DELETE_TRIGGER_FIELD_NUMBER;
+        hash = (53 * hash) + getDeleteTrigger().hashCode();
+      }
+      hash = (37 * hash) + DELETE_TRIGGER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeleteTriggerNull());
+      if (hasTRITriggerDefinition()) {
+        hash = (37 * hash) + T_R_I_TRIGGER_DEFINITION_FIELD_NUMBER;
+        hash = (53 * hash) + getTRITriggerDefinition().hashCode();
+      }
+      hash = (37 * hash) + T_R_I_TRIGGER_DEFINITION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTRITriggerDefinitionNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class MiModifyTRITriggerAd {
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class MiModifyTRITriggerAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class MiModifyTRITriggerAd {
      * Protobuf type {@code dstore.engine.mi_ModifyTRITrigger_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_ModifyTRITrigger_Ad.Parameters)
         io.dstore.engine.procedures.MiModifyTRITriggerAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class MiModifyTRITriggerAd {
         return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class MiModifyTRITriggerAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class MiModifyTRITriggerAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiModifyTRITriggerAd.Parameters)other);
@@ -981,7 +1138,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.integerValue triggerId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
@@ -1083,11 +1240,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
-          triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.integerValue triggerTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue trigger_type_id = 2;</code>
@@ -1226,11 +1383,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.integerValue trigger_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTriggerTypeIdFieldBuilder() {
         if (triggerTypeIdBuilder_ == null) {
-          triggerTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          triggerTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTriggerTypeId(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.stringValue triggerName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> triggerNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue trigger_name = 3;</code>
@@ -1369,11 +1526,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.stringValue trigger_name = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTriggerNameFieldBuilder() {
         if (triggerNameBuilder_ == null) {
-          triggerNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          triggerNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTriggerName(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.stringValue triggerDescription_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> triggerDescriptionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue trigger_description = 4;</code>
@@ -1512,11 +1669,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.stringValue trigger_description = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTriggerDescriptionFieldBuilder() {
         if (triggerDescriptionBuilder_ == null) {
-          triggerDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          triggerDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTriggerDescription(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.stringValue executeProcedureName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> executeProcedureNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue execute_procedure_name = 5;</code>
@@ -1655,11 +1812,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.stringValue execute_procedure_name = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getExecuteProcedureNameFieldBuilder() {
         if (executeProcedureNameBuilder_ == null) {
-          executeProcedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          executeProcedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getExecuteProcedureName(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.booleanValue deleteTrigger_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteTriggerBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue delete_trigger = 6;</code>
@@ -1798,11 +1955,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.booleanValue delete_trigger = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteTriggerFieldBuilder() {
         if (deleteTriggerBuilder_ == null) {
-          deleteTriggerBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deleteTriggerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteTrigger(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.stringValue tRITriggerDefinition_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tRITriggerDefinitionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue t_r_i_trigger_definition = 7;</code>
@@ -1941,11 +2098,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.stringValue t_r_i_trigger_definition = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTRITriggerDefinitionFieldBuilder() {
         if (tRITriggerDefinitionBuilder_ == null) {
-          tRITriggerDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          tRITriggerDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTRITriggerDefinition(),
                   getParentForChildren(),
@@ -2122,11 +2279,11 @@ public final class MiModifyTRITriggerAd {
    * Protobuf type {@code dstore.engine.mi_ModifyTRITrigger_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_ModifyTRITrigger_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2165,7 +2322,8 @@ public final class MiModifyTRITriggerAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2173,7 +2331,8 @@ public final class MiModifyTRITriggerAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2181,7 +2340,8 @@ public final class MiModifyTRITriggerAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2222,7 +2382,7 @@ public final class MiModifyTRITriggerAd {
       return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2242,11 +2402,11 @@ public final class MiModifyTRITriggerAd {
      * Protobuf type {@code dstore.engine.mi_ModifyTRITrigger_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_ModifyTRITrigger_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2299,7 +2459,7 @@ public final class MiModifyTRITriggerAd {
         return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2346,6 +2506,36 @@ public final class MiModifyTRITriggerAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row other = (io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2369,39 +2559,39 @@ public final class MiModifyTRITriggerAd {
       }
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2419,7 +2609,7 @@ public final class MiModifyTRITriggerAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2427,7 +2617,7 @@ public final class MiModifyTRITriggerAd {
        * Protobuf type {@code dstore.engine.mi_ModifyTRITrigger_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_ModifyTRITrigger_Ad.Response.Row)
           io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2435,7 +2625,7 @@ public final class MiModifyTRITriggerAd {
           return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2448,12 +2638,13 @@ public final class MiModifyTRITriggerAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2487,6 +2678,32 @@ public final class MiModifyTRITriggerAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row)other);
@@ -2780,6 +2997,59 @@ public final class MiModifyTRITriggerAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiModifyTRITriggerAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiModifyTRITriggerAd.Response other = (io.dstore.engine.procedures.MiModifyTRITriggerAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasTriggerId() == other.hasTriggerId());
+      if (hasTriggerId()) {
+        result = result && getTriggerId()
+            .equals(other.getTriggerId());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasTriggerId()) {
+        hash = (37 * hash) + TRIGGER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTriggerId().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2803,39 +3073,39 @@ public final class MiModifyTRITriggerAd {
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiModifyTRITriggerAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2853,7 +3123,7 @@ public final class MiModifyTRITriggerAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2861,7 +3131,7 @@ public final class MiModifyTRITriggerAd {
      * Protobuf type {@code dstore.engine.mi_ModifyTRITrigger_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_ModifyTRITrigger_Ad.Response)
         io.dstore.engine.procedures.MiModifyTRITriggerAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2869,7 +3139,7 @@ public final class MiModifyTRITriggerAd {
         return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiModifyTRITriggerAd.internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2882,12 +3152,13 @@ public final class MiModifyTRITriggerAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -2980,6 +3251,32 @@ public final class MiModifyTRITriggerAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiModifyTRITriggerAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiModifyTRITriggerAd.Response)other);
@@ -3010,7 +3307,7 @@ public final class MiModifyTRITriggerAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3036,7 +3333,7 @@ public final class MiModifyTRITriggerAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3062,7 +3359,7 @@ public final class MiModifyTRITriggerAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3108,7 +3405,7 @@ public final class MiModifyTRITriggerAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3324,11 +3621,11 @@ public final class MiModifyTRITriggerAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3348,7 +3645,7 @@ public final class MiModifyTRITriggerAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3564,11 +3861,11 @@ public final class MiModifyTRITriggerAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3588,7 +3885,7 @@ public final class MiModifyTRITriggerAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row, io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row.Builder, io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -3804,11 +4101,11 @@ public final class MiModifyTRITriggerAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row, io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row.Builder, io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row, io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.Row.Builder, io.dstore.engine.procedures.MiModifyTRITriggerAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -3820,7 +4117,7 @@ public final class MiModifyTRITriggerAd {
       }
 
       private io.dstore.Values.integerValue triggerId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue trigger_id = 101;</code>
@@ -3922,11 +4219,11 @@ public final class MiModifyTRITriggerAd {
       /**
        * <code>optional .dstore.values.integerValue trigger_id = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
-          triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
@@ -3987,17 +4284,17 @@ public final class MiModifyTRITriggerAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4057,19 +4354,19 @@ public final class MiModifyTRITriggerAd {
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Parameters_descriptor,
         new java.lang.String[] { "TriggerId", "TriggerIdNull", "TriggerTypeId", "TriggerTypeIdNull", "TriggerName", "TriggerNameNull", "TriggerDescription", "TriggerDescriptionNull", "ExecuteProcedureName", "ExecuteProcedureNameNull", "DeleteTrigger", "DeleteTriggerNull", "TRITriggerDefinition", "TRITriggerDefinitionNull", });
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "TriggerId", });
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyTRITrigger_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

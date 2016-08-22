@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class PmGetPersonCharacsInCatsAd {
   private PmGetPersonCharacsInCatsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.pm_GetPersonCharacsInCats_Ad.Parameters)
@@ -52,11 +58,11 @@ public final class PmGetPersonCharacsInCatsAd {
    * Protobuf type {@code dstore.engine.pm_GetPersonCharacsInCats_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_GetPersonCharacsInCats_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -141,7 +147,7 @@ public final class PmGetPersonCharacsInCatsAd {
       return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -260,6 +266,60 @@ public final class PmGetPersonCharacsInCatsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters other = (io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPersonCharacCategoryId() == other.hasPersonCharacCategoryId());
+      if (hasPersonCharacCategoryId()) {
+        result = result && getPersonCharacCategoryId()
+            .equals(other.getPersonCharacCategoryId());
+      }
+      result = result && (getPersonCharacCategoryIdNull()
+          == other.getPersonCharacCategoryIdNull());
+      result = result && (hasCountry() == other.hasCountry());
+      if (hasCountry()) {
+        result = result && getCountry()
+            .equals(other.getCountry());
+      }
+      result = result && (getCountryNull()
+          == other.getCountryNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPersonCharacCategoryId()) {
+        hash = (37 * hash) + PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonCharacCategoryId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonCharacCategoryIdNull());
+      if (hasCountry()) {
+        hash = (37 * hash) + COUNTRY_FIELD_NUMBER;
+        hash = (53 * hash) + getCountry().hashCode();
+      }
+      hash = (37 * hash) + COUNTRY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCountryNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -283,39 +343,39 @@ public final class PmGetPersonCharacsInCatsAd {
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -333,7 +393,7 @@ public final class PmGetPersonCharacsInCatsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -341,7 +401,7 @@ public final class PmGetPersonCharacsInCatsAd {
      * Protobuf type {@code dstore.engine.pm_GetPersonCharacsInCats_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.pm_GetPersonCharacsInCats_Ad.Parameters)
         io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -349,7 +409,7 @@ public final class PmGetPersonCharacsInCatsAd {
         return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -362,12 +422,13 @@ public final class PmGetPersonCharacsInCatsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -426,6 +487,32 @@ public final class PmGetPersonCharacsInCatsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Parameters)other);
@@ -476,7 +563,7 @@ public final class PmGetPersonCharacsInCatsAd {
       }
 
       private io.dstore.Values.integerValue personCharacCategoryId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacCategoryIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
@@ -578,11 +665,11 @@ public final class PmGetPersonCharacsInCatsAd {
       /**
        * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonCharacCategoryIdFieldBuilder() {
         if (personCharacCategoryIdBuilder_ == null) {
-          personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonCharacCategoryId(),
                   getParentForChildren(),
@@ -619,7 +706,7 @@ public final class PmGetPersonCharacsInCatsAd {
       }
 
       private io.dstore.Values.stringValue country_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
        * <code>optional .dstore.values.stringValue country = 2;</code>
@@ -721,11 +808,11 @@ public final class PmGetPersonCharacsInCatsAd {
       /**
        * <code>optional .dstore.values.stringValue country = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
-          countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
@@ -909,11 +996,11 @@ public final class PmGetPersonCharacsInCatsAd {
    * Protobuf type {@code dstore.engine.pm_GetPersonCharacsInCats_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_GetPersonCharacsInCats_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -952,7 +1039,8 @@ public final class PmGetPersonCharacsInCatsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -960,7 +1048,8 @@ public final class PmGetPersonCharacsInCatsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -968,7 +1057,8 @@ public final class PmGetPersonCharacsInCatsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -996,7 +1086,7 @@ public final class PmGetPersonCharacsInCatsAd {
       return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1241,11 +1331,11 @@ public final class PmGetPersonCharacsInCatsAd {
      * Protobuf type {@code dstore.engine.pm_GetPersonCharacsInCats_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_GetPersonCharacsInCats_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1415,7 +1505,7 @@ public final class PmGetPersonCharacsInCatsAd {
         return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1822,6 +1912,117 @@ public final class PmGetPersonCharacsInCatsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row other = (io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasDefaultValue() == other.hasDefaultValue());
+        if (hasDefaultValue()) {
+          result = result && getDefaultValue()
+              .equals(other.getDefaultValue());
+        }
+        result = result && (hasRequired() == other.hasRequired());
+        if (hasRequired()) {
+          result = result && getRequired()
+              .equals(other.getRequired());
+        }
+        result = result && (hasCharacteristicDescription() == other.hasCharacteristicDescription());
+        if (hasCharacteristicDescription()) {
+          result = result && getCharacteristicDescription()
+              .equals(other.getCharacteristicDescription());
+        }
+        result = result && (hasPersonCharacteristicId() == other.hasPersonCharacteristicId());
+        if (hasPersonCharacteristicId()) {
+          result = result && getPersonCharacteristicId()
+              .equals(other.getPersonCharacteristicId());
+        }
+        result = result && (hasDescriptionForAdmin() == other.hasDescriptionForAdmin());
+        if (hasDescriptionForAdmin()) {
+          result = result && getDescriptionForAdmin()
+              .equals(other.getDescriptionForAdmin());
+        }
+        result = result && (hasCategoryDescription() == other.hasCategoryDescription());
+        if (hasCategoryDescription()) {
+          result = result && getCategoryDescription()
+              .equals(other.getCategoryDescription());
+        }
+        result = result && (hasKeepPropertiesHistoryInDays() == other.hasKeepPropertiesHistoryInDays());
+        if (hasKeepPropertiesHistoryInDays()) {
+          result = result && getKeepPropertiesHistoryInDays()
+              .equals(other.getKeepPropertiesHistoryInDays());
+        }
+        result = result && (hasDefValRestrictedByPattern() == other.hasDefValRestrictedByPattern());
+        if (hasDefValRestrictedByPattern()) {
+          result = result && getDefValRestrictedByPattern()
+              .equals(other.getDefValRestrictedByPattern());
+        }
+        result = result && (hasPersonCharacCategoryId() == other.hasPersonCharacCategoryId());
+        if (hasPersonCharacCategoryId()) {
+          result = result && getPersonCharacCategoryId()
+              .equals(other.getPersonCharacCategoryId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasDefaultValue()) {
+          hash = (37 * hash) + DEFAULT_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getDefaultValue().hashCode();
+        }
+        if (hasRequired()) {
+          hash = (37 * hash) + REQUIRED_FIELD_NUMBER;
+          hash = (53 * hash) + getRequired().hashCode();
+        }
+        if (hasCharacteristicDescription()) {
+          hash = (37 * hash) + CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getCharacteristicDescription().hashCode();
+        }
+        if (hasPersonCharacteristicId()) {
+          hash = (37 * hash) + PERSON_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonCharacteristicId().hashCode();
+        }
+        if (hasDescriptionForAdmin()) {
+          hash = (37 * hash) + DESCRIPTION_FOR_ADMIN_FIELD_NUMBER;
+          hash = (53 * hash) + getDescriptionForAdmin().hashCode();
+        }
+        if (hasCategoryDescription()) {
+          hash = (37 * hash) + CATEGORY_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getCategoryDescription().hashCode();
+        }
+        if (hasKeepPropertiesHistoryInDays()) {
+          hash = (37 * hash) + KEEP_PROPERTIES_HISTORY_IN_DAYS_FIELD_NUMBER;
+          hash = (53 * hash) + getKeepPropertiesHistoryInDays().hashCode();
+        }
+        if (hasDefValRestrictedByPattern()) {
+          hash = (37 * hash) + DEF_VAL_RESTRICTED_BY_PATTERN_FIELD_NUMBER;
+          hash = (53 * hash) + getDefValRestrictedByPattern().hashCode();
+        }
+        if (hasPersonCharacCategoryId()) {
+          hash = (37 * hash) + PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonCharacCategoryId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1845,39 +2046,39 @@ public final class PmGetPersonCharacsInCatsAd {
       }
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1895,7 +2096,7 @@ public final class PmGetPersonCharacsInCatsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1903,7 +2104,7 @@ public final class PmGetPersonCharacsInCatsAd {
        * Protobuf type {@code dstore.engine.pm_GetPersonCharacsInCats_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.pm_GetPersonCharacsInCats_Ad.Response.Row)
           io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1911,7 +2112,7 @@ public final class PmGetPersonCharacsInCatsAd {
           return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1924,12 +2125,13 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2062,6 +2264,32 @@ public final class PmGetPersonCharacsInCatsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row)other);
@@ -2156,7 +2384,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.stringValue defaultValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> defaultValueBuilder_;
         /**
          * <pre>
@@ -2294,11 +2522,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.stringValue default_value = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDefaultValueFieldBuilder() {
           if (defaultValueBuilder_ == null) {
-            defaultValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            defaultValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDefaultValue(),
                     getParentForChildren(),
@@ -2309,7 +2537,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.booleanValue required_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> requiredBuilder_;
         /**
          * <pre>
@@ -2447,11 +2675,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.booleanValue required = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getRequiredFieldBuilder() {
           if (requiredBuilder_ == null) {
-            requiredBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            requiredBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getRequired(),
                     getParentForChildren(),
@@ -2462,7 +2690,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.stringValue characteristicDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
@@ -2600,11 +2828,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
-            characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
@@ -2615,7 +2843,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.integerValue personCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -2753,11 +2981,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.integerValue person_characteristic_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
-            personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
@@ -2768,7 +2996,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.stringValue descriptionForAdmin_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionForAdminBuilder_;
         /**
          * <pre>
@@ -2906,11 +3134,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.stringValue description_for_admin = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionForAdminFieldBuilder() {
           if (descriptionForAdminBuilder_ == null) {
-            descriptionForAdminBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            descriptionForAdminBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescriptionForAdmin(),
                     getParentForChildren(),
@@ -2921,7 +3149,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.stringValue categoryDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
         /**
          * <pre>
@@ -3059,11 +3287,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.stringValue category_description = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCategoryDescriptionFieldBuilder() {
           if (categoryDescriptionBuilder_ == null) {
-            categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCategoryDescription(),
                     getParentForChildren(),
@@ -3074,7 +3302,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.integerValue keepPropertiesHistoryInDays_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepPropertiesHistoryInDaysBuilder_;
         /**
          * <pre>
@@ -3212,11 +3440,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.integerValue keep_properties_history_in_days = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getKeepPropertiesHistoryInDaysFieldBuilder() {
           if (keepPropertiesHistoryInDaysBuilder_ == null) {
-            keepPropertiesHistoryInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            keepPropertiesHistoryInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getKeepPropertiesHistoryInDays(),
                     getParentForChildren(),
@@ -3227,7 +3455,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.stringValue defValRestrictedByPattern_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> defValRestrictedByPatternBuilder_;
         /**
          * <pre>
@@ -3365,11 +3593,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.stringValue def_val_restricted_by_pattern = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDefValRestrictedByPatternFieldBuilder() {
           if (defValRestrictedByPatternBuilder_ == null) {
-            defValRestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            defValRestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDefValRestrictedByPattern(),
                     getParentForChildren(),
@@ -3380,7 +3608,7 @@ public final class PmGetPersonCharacsInCatsAd {
         }
 
         private io.dstore.Values.integerValue personCharacCategoryId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacCategoryIdBuilder_;
         /**
          * <pre>
@@ -3518,11 +3746,11 @@ public final class PmGetPersonCharacsInCatsAd {
          *
          * <code>optional .dstore.values.integerValue person_charac_category_id = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonCharacCategoryIdFieldBuilder() {
           if (personCharacCategoryIdBuilder_ == null) {
-            personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonCharacCategoryId(),
                     getParentForChildren(),
@@ -3750,6 +3978,50 @@ public final class PmGetPersonCharacsInCatsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response other = (io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3773,39 +4045,39 @@ public final class PmGetPersonCharacsInCatsAd {
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3823,7 +4095,7 @@ public final class PmGetPersonCharacsInCatsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3831,7 +4103,7 @@ public final class PmGetPersonCharacsInCatsAd {
      * Protobuf type {@code dstore.engine.pm_GetPersonCharacsInCats_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.pm_GetPersonCharacsInCats_Ad.Response)
         io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3839,7 +4111,7 @@ public final class PmGetPersonCharacsInCatsAd {
         return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3852,12 +4124,13 @@ public final class PmGetPersonCharacsInCatsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3937,6 +4210,32 @@ public final class PmGetPersonCharacsInCatsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response)other);
@@ -3967,7 +4266,7 @@ public final class PmGetPersonCharacsInCatsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3993,7 +4292,7 @@ public final class PmGetPersonCharacsInCatsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4019,7 +4318,7 @@ public final class PmGetPersonCharacsInCatsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4062,7 +4361,7 @@ public final class PmGetPersonCharacsInCatsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4278,11 +4577,11 @@ public final class PmGetPersonCharacsInCatsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4302,7 +4601,7 @@ public final class PmGetPersonCharacsInCatsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4518,11 +4817,11 @@ public final class PmGetPersonCharacsInCatsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4542,7 +4841,7 @@ public final class PmGetPersonCharacsInCatsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row, io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row.Builder, io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4830,11 +5129,11 @@ public final class PmGetPersonCharacsInCatsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row, io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row.Builder, io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row, io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.Row.Builder, io.dstore.engine.procedures.PmGetPersonCharacsInCatsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4896,17 +5195,17 @@ public final class PmGetPersonCharacsInCatsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4968,19 +5267,19 @@ public final class PmGetPersonCharacsInCatsAd {
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Parameters_descriptor,
         new java.lang.String[] { "PersonCharacCategoryId", "PersonCharacCategoryIdNull", "Country", "CountryNull", });
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonCharacsInCats_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "DefaultValue", "Required", "CharacteristicDescription", "PersonCharacteristicId", "DescriptionForAdmin", "CategoryDescription", "KeepPropertiesHistoryInDays", "DefValRestrictedByPattern", "PersonCharacCategoryId", });
     io.dstore.Values.getDescriptor();

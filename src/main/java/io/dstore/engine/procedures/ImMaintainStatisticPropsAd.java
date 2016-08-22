@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImMaintainStatisticPropsAd {
   private ImMaintainStatisticPropsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_MaintainStatisticProps_Ad.Parameters)
@@ -124,11 +130,11 @@ public final class ImMaintainStatisticPropsAd {
    * Protobuf type {@code dstore.engine.im_MaintainStatisticProps_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_MaintainStatisticProps_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -289,7 +295,7 @@ public final class ImMaintainStatisticPropsAd {
       return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -584,6 +590,116 @@ public final class ImMaintainStatisticPropsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters other = (io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+      if (hasNodeCharacteristicId()) {
+        result = result && getNodeCharacteristicId()
+            .equals(other.getNodeCharacteristicId());
+      }
+      result = result && (getNodeCharacteristicIdNull()
+          == other.getNodeCharacteristicIdNull());
+      result = result && (hasLevelId() == other.hasLevelId());
+      if (hasLevelId()) {
+        result = result && getLevelId()
+            .equals(other.getLevelId());
+      }
+      result = result && (getLevelIdNull()
+          == other.getLevelIdNull());
+      result = result && (hasNumberOfDays() == other.hasNumberOfDays());
+      if (hasNumberOfDays()) {
+        result = result && getNumberOfDays()
+            .equals(other.getNumberOfDays());
+      }
+      result = result && (getNumberOfDaysNull()
+          == other.getNumberOfDaysNull());
+      result = result && (hasDomainTreeNodeId() == other.hasDomainTreeNodeId());
+      if (hasDomainTreeNodeId()) {
+        result = result && getDomainTreeNodeId()
+            .equals(other.getDomainTreeNodeId());
+      }
+      result = result && (getDomainTreeNodeIdNull()
+          == other.getDomainTreeNodeIdNull());
+      result = result && (hasBasicCharacteristicNo() == other.hasBasicCharacteristicNo());
+      if (hasBasicCharacteristicNo()) {
+        result = result && getBasicCharacteristicNo()
+            .equals(other.getBasicCharacteristicNo());
+      }
+      result = result && (getBasicCharacteristicNoNull()
+          == other.getBasicCharacteristicNoNull());
+      result = result && (hasMaxNodesToProcess() == other.hasMaxNodesToProcess());
+      if (hasMaxNodesToProcess()) {
+        result = result && getMaxNodesToProcess()
+            .equals(other.getMaxNodesToProcess());
+      }
+      result = result && (getMaxNodesToProcessNull()
+          == other.getMaxNodesToProcessNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasNodeCharacteristicId()) {
+        hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacteristicIdNull());
+      if (hasLevelId()) {
+        hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getLevelId().hashCode();
+      }
+      hash = (37 * hash) + LEVEL_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLevelIdNull());
+      if (hasNumberOfDays()) {
+        hash = (37 * hash) + NUMBER_OF_DAYS_FIELD_NUMBER;
+        hash = (53 * hash) + getNumberOfDays().hashCode();
+      }
+      hash = (37 * hash) + NUMBER_OF_DAYS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNumberOfDaysNull());
+      if (hasDomainTreeNodeId()) {
+        hash = (37 * hash) + DOMAIN_TREE_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getDomainTreeNodeId().hashCode();
+      }
+      hash = (37 * hash) + DOMAIN_TREE_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDomainTreeNodeIdNull());
+      if (hasBasicCharacteristicNo()) {
+        hash = (37 * hash) + BASIC_CHARACTERISTIC_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getBasicCharacteristicNo().hashCode();
+      }
+      hash = (37 * hash) + BASIC_CHARACTERISTIC_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBasicCharacteristicNoNull());
+      if (hasMaxNodesToProcess()) {
+        hash = (37 * hash) + MAX_NODES_TO_PROCESS_FIELD_NUMBER;
+        hash = (53 * hash) + getMaxNodesToProcess().hashCode();
+      }
+      hash = (37 * hash) + MAX_NODES_TO_PROCESS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMaxNodesToProcessNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -607,39 +723,39 @@ public final class ImMaintainStatisticPropsAd {
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -657,7 +773,7 @@ public final class ImMaintainStatisticPropsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -665,7 +781,7 @@ public final class ImMaintainStatisticPropsAd {
      * Protobuf type {@code dstore.engine.im_MaintainStatisticProps_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_MaintainStatisticProps_Ad.Parameters)
         io.dstore.engine.procedures.ImMaintainStatisticPropsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -673,7 +789,7 @@ public final class ImMaintainStatisticPropsAd {
         return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -686,12 +802,13 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -806,6 +923,32 @@ public final class ImMaintainStatisticPropsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Parameters)other);
@@ -880,7 +1023,7 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
@@ -982,11 +1125,11 @@ public final class ImMaintainStatisticPropsAd {
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
@@ -1023,7 +1166,7 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private io.dstore.Values.integerValue levelId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue level_id = 2;</code>
@@ -1125,11 +1268,11 @@ public final class ImMaintainStatisticPropsAd {
       /**
        * <code>optional .dstore.values.integerValue level_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLevelIdFieldBuilder() {
         if (levelIdBuilder_ == null) {
-          levelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          levelIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLevelId(),
                   getParentForChildren(),
@@ -1166,7 +1309,7 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private io.dstore.Values.integerValue numberOfDays_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfDaysBuilder_;
       /**
        * <code>optional .dstore.values.integerValue number_of_days = 3;</code>
@@ -1268,11 +1411,11 @@ public final class ImMaintainStatisticPropsAd {
       /**
        * <code>optional .dstore.values.integerValue number_of_days = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfDaysFieldBuilder() {
         if (numberOfDaysBuilder_ == null) {
-          numberOfDaysBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          numberOfDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfDays(),
                   getParentForChildren(),
@@ -1309,7 +1452,7 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private io.dstore.Values.integerValue domainTreeNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
@@ -1411,11 +1554,11 @@ public final class ImMaintainStatisticPropsAd {
       /**
        * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDomainTreeNodeIdFieldBuilder() {
         if (domainTreeNodeIdBuilder_ == null) {
-          domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDomainTreeNodeId(),
                   getParentForChildren(),
@@ -1452,7 +1595,7 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private io.dstore.Values.integerValue basicCharacteristicNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNoBuilder_;
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no = 5;</code>
@@ -1554,11 +1697,11 @@ public final class ImMaintainStatisticPropsAd {
       /**
        * <code>optional .dstore.values.integerValue basic_characteristic_no = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBasicCharacteristicNoFieldBuilder() {
         if (basicCharacteristicNoBuilder_ == null) {
-          basicCharacteristicNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          basicCharacteristicNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBasicCharacteristicNo(),
                   getParentForChildren(),
@@ -1595,7 +1738,7 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private io.dstore.Values.integerValue maxNodesToProcess_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNodesToProcessBuilder_;
       /**
        * <code>optional .dstore.values.integerValue max_nodes_to_process = 6;</code>
@@ -1697,11 +1840,11 @@ public final class ImMaintainStatisticPropsAd {
       /**
        * <code>optional .dstore.values.integerValue max_nodes_to_process = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxNodesToProcessFieldBuilder() {
         if (maxNodesToProcessBuilder_ == null) {
-          maxNodesToProcessBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          maxNodesToProcessBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxNodesToProcess(),
                   getParentForChildren(),
@@ -1885,11 +2028,11 @@ public final class ImMaintainStatisticPropsAd {
    * Protobuf type {@code dstore.engine.im_MaintainStatisticProps_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_MaintainStatisticProps_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1928,7 +2071,8 @@ public final class ImMaintainStatisticPropsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1936,7 +2080,8 @@ public final class ImMaintainStatisticPropsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1944,7 +2089,8 @@ public final class ImMaintainStatisticPropsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1972,7 +2118,7 @@ public final class ImMaintainStatisticPropsAd {
       return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1992,11 +2138,11 @@ public final class ImMaintainStatisticPropsAd {
      * Protobuf type {@code dstore.engine.im_MaintainStatisticProps_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_MaintainStatisticProps_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2049,7 +2195,7 @@ public final class ImMaintainStatisticPropsAd {
         return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2096,6 +2242,36 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row other = (io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2119,39 +2295,39 @@ public final class ImMaintainStatisticPropsAd {
       }
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2169,7 +2345,7 @@ public final class ImMaintainStatisticPropsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2177,7 +2353,7 @@ public final class ImMaintainStatisticPropsAd {
        * Protobuf type {@code dstore.engine.im_MaintainStatisticProps_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_MaintainStatisticProps_Ad.Response.Row)
           io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2185,7 +2361,7 @@ public final class ImMaintainStatisticPropsAd {
           return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2198,12 +2374,13 @@ public final class ImMaintainStatisticPropsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2237,6 +2414,32 @@ public final class ImMaintainStatisticPropsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row)other);
@@ -2521,6 +2724,50 @@ public final class ImMaintainStatisticPropsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response other = (io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2544,39 +2791,39 @@ public final class ImMaintainStatisticPropsAd {
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2594,7 +2841,7 @@ public final class ImMaintainStatisticPropsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2602,7 +2849,7 @@ public final class ImMaintainStatisticPropsAd {
      * Protobuf type {@code dstore.engine.im_MaintainStatisticProps_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_MaintainStatisticProps_Ad.Response)
         io.dstore.engine.procedures.ImMaintainStatisticPropsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2610,7 +2857,7 @@ public final class ImMaintainStatisticPropsAd {
         return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImMaintainStatisticPropsAd.internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2623,12 +2870,13 @@ public final class ImMaintainStatisticPropsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -2708,6 +2956,32 @@ public final class ImMaintainStatisticPropsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response)other);
@@ -2738,7 +3012,7 @@ public final class ImMaintainStatisticPropsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -2764,7 +3038,7 @@ public final class ImMaintainStatisticPropsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -2790,7 +3064,7 @@ public final class ImMaintainStatisticPropsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -2833,7 +3107,7 @@ public final class ImMaintainStatisticPropsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3049,11 +3323,11 @@ public final class ImMaintainStatisticPropsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3073,7 +3347,7 @@ public final class ImMaintainStatisticPropsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3289,11 +3563,11 @@ public final class ImMaintainStatisticPropsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3313,7 +3587,7 @@ public final class ImMaintainStatisticPropsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row, io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row.Builder, io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -3601,11 +3875,11 @@ public final class ImMaintainStatisticPropsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row, io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row.Builder, io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row, io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.Row.Builder, io.dstore.engine.procedures.ImMaintainStatisticPropsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -3667,17 +3941,17 @@ public final class ImMaintainStatisticPropsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -3735,19 +4009,19 @@ public final class ImMaintainStatisticPropsAd {
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Parameters_descriptor,
         new java.lang.String[] { "NodeCharacteristicId", "NodeCharacteristicIdNull", "LevelId", "LevelIdNull", "NumberOfDays", "NumberOfDaysNull", "DomainTreeNodeId", "DomainTreeNodeIdNull", "BasicCharacteristicNo", "BasicCharacteristicNoNull", "MaxNodesToProcess", "MaxNodesToProcessNull", });
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_MaintainStatisticProps_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

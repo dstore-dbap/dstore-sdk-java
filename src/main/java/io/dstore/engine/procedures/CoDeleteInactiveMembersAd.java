@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class CoDeleteInactiveMembersAd {
   private CoDeleteInactiveMembersAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.co_DeleteInactiveMembers_Ad.Parameters)
@@ -142,11 +148,11 @@ public final class CoDeleteInactiveMembersAd {
    * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_DeleteInactiveMembers_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class CoDeleteInactiveMembersAd {
       return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters other = (io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasCommunityId() == other.hasCommunityId());
+      if (hasCommunityId()) {
+        result = result && getCommunityId()
+            .equals(other.getCommunityId());
+      }
+      result = result && (getCommunityIdNull()
+          == other.getCommunityIdNull());
+      result = result && (hasLastLoginXMonthAgo() == other.hasLastLoginXMonthAgo());
+      if (hasLastLoginXMonthAgo()) {
+        result = result && getLastLoginXMonthAgo()
+            .equals(other.getLastLoginXMonthAgo());
+      }
+      result = result && (getLastLoginXMonthAgoNull()
+          == other.getLastLoginXMonthAgoNull());
+      result = result && (hasDoNotDeleteButLogOnly() == other.hasDoNotDeleteButLogOnly());
+      if (hasDoNotDeleteButLogOnly()) {
+        result = result && getDoNotDeleteButLogOnly()
+            .equals(other.getDoNotDeleteButLogOnly());
+      }
+      result = result && (getDoNotDeleteButLogOnlyNull()
+          == other.getDoNotDeleteButLogOnlyNull());
+      result = result && (hasOnlyMembersWithoutLoginStats() == other.hasOnlyMembersWithoutLoginStats());
+      if (hasOnlyMembersWithoutLoginStats()) {
+        result = result && getOnlyMembersWithoutLoginStats()
+            .equals(other.getOnlyMembersWithoutLoginStats());
+      }
+      result = result && (getOnlyMembersWithoutLoginStatsNull()
+          == other.getOnlyMembersWithoutLoginStatsNull());
+      result = result && (hasMaxNumberOfMembersToDelete() == other.hasMaxNumberOfMembersToDelete());
+      if (hasMaxNumberOfMembersToDelete()) {
+        result = result && getMaxNumberOfMembersToDelete()
+            .equals(other.getMaxNumberOfMembersToDelete());
+      }
+      result = result && (getMaxNumberOfMembersToDeleteNull()
+          == other.getMaxNumberOfMembersToDeleteNull());
+      result = result && (hasPrintErrors() == other.hasPrintErrors());
+      if (hasPrintErrors()) {
+        result = result && getPrintErrors()
+            .equals(other.getPrintErrors());
+      }
+      result = result && (getPrintErrorsNull()
+          == other.getPrintErrorsNull());
+      result = result && (hasAdditionalInformation() == other.hasAdditionalInformation());
+      if (hasAdditionalInformation()) {
+        result = result && getAdditionalInformation()
+            .equals(other.getAdditionalInformation());
+      }
+      result = result && (getAdditionalInformationNull()
+          == other.getAdditionalInformationNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasCommunityId()) {
+        hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCommunityId().hashCode();
+      }
+      hash = (37 * hash) + COMMUNITY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCommunityIdNull());
+      if (hasLastLoginXMonthAgo()) {
+        hash = (37 * hash) + LAST_LOGIN_X_MONTH_AGO_FIELD_NUMBER;
+        hash = (53 * hash) + getLastLoginXMonthAgo().hashCode();
+      }
+      hash = (37 * hash) + LAST_LOGIN_X_MONTH_AGO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLastLoginXMonthAgoNull());
+      if (hasDoNotDeleteButLogOnly()) {
+        hash = (37 * hash) + DO_NOT_DELETE_BUT_LOG_ONLY_FIELD_NUMBER;
+        hash = (53 * hash) + getDoNotDeleteButLogOnly().hashCode();
+      }
+      hash = (37 * hash) + DO_NOT_DELETE_BUT_LOG_ONLY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDoNotDeleteButLogOnlyNull());
+      if (hasOnlyMembersWithoutLoginStats()) {
+        hash = (37 * hash) + ONLY_MEMBERS_WITHOUT_LOGIN_STATS_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyMembersWithoutLoginStats().hashCode();
+      }
+      hash = (37 * hash) + ONLY_MEMBERS_WITHOUT_LOGIN_STATS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyMembersWithoutLoginStatsNull());
+      if (hasMaxNumberOfMembersToDelete()) {
+        hash = (37 * hash) + MAX_NUMBER_OF_MEMBERS_TO_DELETE_FIELD_NUMBER;
+        hash = (53 * hash) + getMaxNumberOfMembersToDelete().hashCode();
+      }
+      hash = (37 * hash) + MAX_NUMBER_OF_MEMBERS_TO_DELETE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMaxNumberOfMembersToDeleteNull());
+      if (hasPrintErrors()) {
+        hash = (37 * hash) + PRINT_ERRORS_FIELD_NUMBER;
+        hash = (53 * hash) + getPrintErrors().hashCode();
+      }
+      hash = (37 * hash) + PRINT_ERRORS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPrintErrorsNull());
+      if (hasAdditionalInformation()) {
+        hash = (37 * hash) + ADDITIONAL_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getAdditionalInformation().hashCode();
+      }
+      hash = (37 * hash) + ADDITIONAL_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAdditionalInformationNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class CoDeleteInactiveMembersAd {
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class CoDeleteInactiveMembersAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class CoDeleteInactiveMembersAd {
      * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_DeleteInactiveMembers_Ad.Parameters)
         io.dstore.engine.procedures.CoDeleteInactiveMembersAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class CoDeleteInactiveMembersAd {
         return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class CoDeleteInactiveMembersAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Parameters)other);
@@ -981,7 +1138,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.integerValue communityId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue community_id = 1;</code>
@@ -1083,11 +1240,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.integerValue community_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
-          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.integerValue lastLoginXMonthAgo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastLoginXMonthAgoBuilder_;
       /**
        * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
@@ -1226,11 +1383,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLastLoginXMonthAgoFieldBuilder() {
         if (lastLoginXMonthAgoBuilder_ == null) {
-          lastLoginXMonthAgoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          lastLoginXMonthAgoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLastLoginXMonthAgo(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.booleanValue doNotDeleteButLogOnly_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> doNotDeleteButLogOnlyBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
@@ -1369,11 +1526,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDoNotDeleteButLogOnlyFieldBuilder() {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
-          doNotDeleteButLogOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          doNotDeleteButLogOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDoNotDeleteButLogOnly(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.booleanValue onlyMembersWithoutLoginStats_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyMembersWithoutLoginStatsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
@@ -1512,11 +1669,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyMembersWithoutLoginStatsFieldBuilder() {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
-          onlyMembersWithoutLoginStatsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyMembersWithoutLoginStatsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyMembersWithoutLoginStats(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.integerValue maxNumberOfMembersToDelete_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfMembersToDeleteBuilder_;
       /**
        * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
@@ -1655,11 +1812,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxNumberOfMembersToDeleteFieldBuilder() {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
-          maxNumberOfMembersToDeleteBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          maxNumberOfMembersToDeleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxNumberOfMembersToDelete(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.booleanValue printErrors_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> printErrorsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
@@ -1798,11 +1955,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getPrintErrorsFieldBuilder() {
         if (printErrorsBuilder_ == null) {
-          printErrorsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          printErrorsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getPrintErrors(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private io.dstore.Values.booleanValue additionalInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> additionalInformationBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
@@ -1941,11 +2098,11 @@ public final class CoDeleteInactiveMembersAd {
       /**
        * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAdditionalInformationFieldBuilder() {
         if (additionalInformationBuilder_ == null) {
-          additionalInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          additionalInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAdditionalInformation(),
                   getParentForChildren(),
@@ -2129,11 +2286,11 @@ public final class CoDeleteInactiveMembersAd {
    * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_DeleteInactiveMembers_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2172,7 +2329,8 @@ public final class CoDeleteInactiveMembersAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2180,7 +2338,8 @@ public final class CoDeleteInactiveMembersAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2188,7 +2347,8 @@ public final class CoDeleteInactiveMembersAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2216,7 +2376,7 @@ public final class CoDeleteInactiveMembersAd {
       return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2361,11 +2521,11 @@ public final class CoDeleteInactiveMembersAd {
      * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.co_DeleteInactiveMembers_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2483,7 +2643,7 @@ public final class CoDeleteInactiveMembersAd {
         return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2730,6 +2890,81 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row other = (io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasCommunityMemberId() == other.hasCommunityMemberId());
+        if (hasCommunityMemberId()) {
+          result = result && getCommunityMemberId()
+              .equals(other.getCommunityMemberId());
+        }
+        result = result && (hasLastLogin() == other.hasLastLogin());
+        if (hasLastLogin()) {
+          result = result && getLastLogin()
+              .equals(other.getLastLogin());
+        }
+        result = result && (hasNickname() == other.hasNickname());
+        if (hasNickname()) {
+          result = result && getNickname()
+              .equals(other.getNickname());
+        }
+        result = result && (hasCreationDateAndTime() == other.hasCreationDateAndTime());
+        if (hasCreationDateAndTime()) {
+          result = result && getCreationDateAndTime()
+              .equals(other.getCreationDateAndTime());
+        }
+        result = result && (hasNumberOfPostings() == other.hasNumberOfPostings());
+        if (hasNumberOfPostings()) {
+          result = result && getNumberOfPostings()
+              .equals(other.getNumberOfPostings());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasCommunityMemberId()) {
+          hash = (37 * hash) + COMMUNITY_MEMBER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCommunityMemberId().hashCode();
+        }
+        if (hasLastLogin()) {
+          hash = (37 * hash) + LAST_LOGIN_FIELD_NUMBER;
+          hash = (53 * hash) + getLastLogin().hashCode();
+        }
+        if (hasNickname()) {
+          hash = (37 * hash) + NICKNAME_FIELD_NUMBER;
+          hash = (53 * hash) + getNickname().hashCode();
+        }
+        if (hasCreationDateAndTime()) {
+          hash = (37 * hash) + CREATION_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getCreationDateAndTime().hashCode();
+        }
+        if (hasNumberOfPostings()) {
+          hash = (37 * hash) + NUMBER_OF_POSTINGS_FIELD_NUMBER;
+          hash = (53 * hash) + getNumberOfPostings().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2753,39 +2988,39 @@ public final class CoDeleteInactiveMembersAd {
       }
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2803,7 +3038,7 @@ public final class CoDeleteInactiveMembersAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2811,7 +3046,7 @@ public final class CoDeleteInactiveMembersAd {
        * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.co_DeleteInactiveMembers_Ad.Response.Row)
           io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2819,7 +3054,7 @@ public final class CoDeleteInactiveMembersAd {
           return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2832,12 +3067,13 @@ public final class CoDeleteInactiveMembersAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2926,6 +3162,32 @@ public final class CoDeleteInactiveMembersAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row)other);
@@ -3008,7 +3270,7 @@ public final class CoDeleteInactiveMembersAd {
         }
 
         private io.dstore.Values.integerValue communityMemberId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
         /**
          * <pre>
@@ -3146,11 +3408,11 @@ public final class CoDeleteInactiveMembersAd {
          *
          * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCommunityMemberIdFieldBuilder() {
           if (communityMemberIdBuilder_ == null) {
-            communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCommunityMemberId(),
                     getParentForChildren(),
@@ -3161,7 +3423,7 @@ public final class CoDeleteInactiveMembersAd {
         }
 
         private io.dstore.Values.timestampValue lastLogin_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastLoginBuilder_;
         /**
          * <pre>
@@ -3299,11 +3561,11 @@ public final class CoDeleteInactiveMembersAd {
          *
          * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getLastLoginFieldBuilder() {
           if (lastLoginBuilder_ == null) {
-            lastLoginBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            lastLoginBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getLastLogin(),
                     getParentForChildren(),
@@ -3314,7 +3576,7 @@ public final class CoDeleteInactiveMembersAd {
         }
 
         private io.dstore.Values.stringValue nickname_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
         /**
          * <pre>
@@ -3452,11 +3714,11 @@ public final class CoDeleteInactiveMembersAd {
          *
          * <code>optional .dstore.values.stringValue nickname = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNicknameFieldBuilder() {
           if (nicknameBuilder_ == null) {
-            nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNickname(),
                     getParentForChildren(),
@@ -3467,7 +3729,7 @@ public final class CoDeleteInactiveMembersAd {
         }
 
         private io.dstore.Values.timestampValue creationDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> creationDateAndTimeBuilder_;
         /**
          * <pre>
@@ -3605,11 +3867,11 @@ public final class CoDeleteInactiveMembersAd {
          *
          * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCreationDateAndTimeFieldBuilder() {
           if (creationDateAndTimeBuilder_ == null) {
-            creationDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            creationDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCreationDateAndTime(),
                     getParentForChildren(),
@@ -3620,7 +3882,7 @@ public final class CoDeleteInactiveMembersAd {
         }
 
         private io.dstore.Values.integerValue numberOfPostings_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfPostingsBuilder_;
         /**
          * <pre>
@@ -3758,11 +4020,11 @@ public final class CoDeleteInactiveMembersAd {
          *
          * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNumberOfPostingsFieldBuilder() {
           if (numberOfPostingsBuilder_ == null) {
-            numberOfPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            numberOfPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNumberOfPostings(),
                     getParentForChildren(),
@@ -3990,6 +4252,50 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response other = (io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4013,39 +4319,39 @@ public final class CoDeleteInactiveMembersAd {
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4063,7 +4369,7 @@ public final class CoDeleteInactiveMembersAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4071,7 +4377,7 @@ public final class CoDeleteInactiveMembersAd {
      * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_DeleteInactiveMembers_Ad.Response)
         io.dstore.engine.procedures.CoDeleteInactiveMembersAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4079,7 +4385,7 @@ public final class CoDeleteInactiveMembersAd {
         return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoDeleteInactiveMembersAd.internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4092,12 +4398,13 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4177,6 +4484,32 @@ public final class CoDeleteInactiveMembersAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response)other);
@@ -4207,7 +4540,7 @@ public final class CoDeleteInactiveMembersAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4233,7 +4566,7 @@ public final class CoDeleteInactiveMembersAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4259,7 +4592,7 @@ public final class CoDeleteInactiveMembersAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4302,7 +4635,7 @@ public final class CoDeleteInactiveMembersAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4518,11 +4851,11 @@ public final class CoDeleteInactiveMembersAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4542,7 +4875,7 @@ public final class CoDeleteInactiveMembersAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4758,11 +5091,11 @@ public final class CoDeleteInactiveMembersAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4782,7 +5115,7 @@ public final class CoDeleteInactiveMembersAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row, io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row.Builder, io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5070,11 +5403,11 @@ public final class CoDeleteInactiveMembersAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row, io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row.Builder, io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row, io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.Row.Builder, io.dstore.engine.procedures.CoDeleteInactiveMembersAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5136,17 +5469,17 @@ public final class CoDeleteInactiveMembersAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5214,19 +5547,19 @@ public final class CoDeleteInactiveMembersAd {
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_descriptor,
         new java.lang.String[] { "CommunityId", "CommunityIdNull", "LastLoginXMonthAgo", "LastLoginXMonthAgoNull", "DoNotDeleteButLogOnly", "DoNotDeleteButLogOnlyNull", "OnlyMembersWithoutLoginStats", "OnlyMembersWithoutLoginStatsNull", "MaxNumberOfMembersToDelete", "MaxNumberOfMembersToDeleteNull", "PrintErrors", "PrintErrorsNull", "AdditionalInformation", "AdditionalInformationNull", });
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CommunityMemberId", "LastLogin", "Nickname", "CreationDateAndTime", "NumberOfPostings", });
     io.dstore.Values.getDescriptor();

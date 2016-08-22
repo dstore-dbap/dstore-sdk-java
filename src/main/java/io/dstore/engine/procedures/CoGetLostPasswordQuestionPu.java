@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class CoGetLostPasswordQuestionPu {
   private CoGetLostPasswordQuestionPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.co_GetLostPasswordQuestion_Pu.Parameters)
@@ -88,11 +94,11 @@ public final class CoGetLostPasswordQuestionPu {
    * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetLostPasswordQuestion_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -215,7 +221,7 @@ public final class CoGetLostPasswordQuestionPu {
       return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -422,6 +428,88 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters other = (io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasQuestion() == other.hasQuestion());
+      if (hasQuestion()) {
+        result = result && getQuestion()
+            .equals(other.getQuestion());
+      }
+      result = result && (getQuestionNull()
+          == other.getQuestionNull());
+      result = result && (hasCommunityId() == other.hasCommunityId());
+      if (hasCommunityId()) {
+        result = result && getCommunityId()
+            .equals(other.getCommunityId());
+      }
+      result = result && (getCommunityIdNull()
+          == other.getCommunityIdNull());
+      result = result && (hasNickname() == other.hasNickname());
+      if (hasNickname()) {
+        result = result && getNickname()
+            .equals(other.getNickname());
+      }
+      result = result && (getNicknameNull()
+          == other.getNicknameNull());
+      result = result && (hasCaseSensitive() == other.hasCaseSensitive());
+      if (hasCaseSensitive()) {
+        result = result && getCaseSensitive()
+            .equals(other.getCaseSensitive());
+      }
+      result = result && (getCaseSensitiveNull()
+          == other.getCaseSensitiveNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasQuestion()) {
+        hash = (37 * hash) + QUESTION_FIELD_NUMBER;
+        hash = (53 * hash) + getQuestion().hashCode();
+      }
+      hash = (37 * hash) + QUESTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getQuestionNull());
+      if (hasCommunityId()) {
+        hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCommunityId().hashCode();
+      }
+      hash = (37 * hash) + COMMUNITY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCommunityIdNull());
+      if (hasNickname()) {
+        hash = (37 * hash) + NICKNAME_FIELD_NUMBER;
+        hash = (53 * hash) + getNickname().hashCode();
+      }
+      hash = (37 * hash) + NICKNAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNicknameNull());
+      if (hasCaseSensitive()) {
+        hash = (37 * hash) + CASE_SENSITIVE_FIELD_NUMBER;
+        hash = (53 * hash) + getCaseSensitive().hashCode();
+      }
+      hash = (37 * hash) + CASE_SENSITIVE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCaseSensitiveNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -445,39 +533,39 @@ public final class CoGetLostPasswordQuestionPu {
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -495,7 +583,7 @@ public final class CoGetLostPasswordQuestionPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -503,7 +591,7 @@ public final class CoGetLostPasswordQuestionPu {
      * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetLostPasswordQuestion_Pu.Parameters)
         io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -511,7 +599,7 @@ public final class CoGetLostPasswordQuestionPu {
         return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -524,12 +612,13 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -616,6 +705,32 @@ public final class CoGetLostPasswordQuestionPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Parameters)other);
@@ -678,7 +793,7 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private io.dstore.Values.stringValue question_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue question = 1;</code>
@@ -780,11 +895,11 @@ public final class CoGetLostPasswordQuestionPu {
       /**
        * <code>optional .dstore.values.stringValue question = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getQuestionFieldBuilder() {
         if (questionBuilder_ == null) {
-          questionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          questionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getQuestion(),
                   getParentForChildren(),
@@ -821,7 +936,7 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private io.dstore.Values.integerValue communityId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue community_id = 2;</code>
@@ -923,11 +1038,11 @@ public final class CoGetLostPasswordQuestionPu {
       /**
        * <code>optional .dstore.values.integerValue community_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
-          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
@@ -964,7 +1079,7 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private io.dstore.Values.stringValue nickname_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue nickname = 3;</code>
@@ -1066,11 +1181,11 @@ public final class CoGetLostPasswordQuestionPu {
       /**
        * <code>optional .dstore.values.stringValue nickname = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getNicknameFieldBuilder() {
         if (nicknameBuilder_ == null) {
-          nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getNickname(),
                   getParentForChildren(),
@@ -1107,7 +1222,7 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private io.dstore.Values.booleanValue caseSensitive_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
@@ -1209,11 +1324,11 @@ public final class CoGetLostPasswordQuestionPu {
       /**
        * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
-          caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
@@ -1390,11 +1505,11 @@ public final class CoGetLostPasswordQuestionPu {
    * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetLostPasswordQuestion_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1433,7 +1548,8 @@ public final class CoGetLostPasswordQuestionPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1441,7 +1557,8 @@ public final class CoGetLostPasswordQuestionPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1449,7 +1566,8 @@ public final class CoGetLostPasswordQuestionPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1490,7 +1608,7 @@ public final class CoGetLostPasswordQuestionPu {
       return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1560,11 +1678,11 @@ public final class CoGetLostPasswordQuestionPu {
      * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.co_GetLostPasswordQuestion_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1643,7 +1761,7 @@ public final class CoGetLostPasswordQuestionPu {
         return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1770,6 +1888,54 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row other = (io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasQuestion() == other.hasQuestion());
+        if (hasQuestion()) {
+          result = result && getQuestion()
+              .equals(other.getQuestion());
+        }
+        result = result && (hasNicknameCaseSensitive() == other.hasNicknameCaseSensitive());
+        if (hasNicknameCaseSensitive()) {
+          result = result && getNicknameCaseSensitive()
+              .equals(other.getNicknameCaseSensitive());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasQuestion()) {
+          hash = (37 * hash) + QUESTION_FIELD_NUMBER;
+          hash = (53 * hash) + getQuestion().hashCode();
+        }
+        if (hasNicknameCaseSensitive()) {
+          hash = (37 * hash) + NICKNAME_CASE_SENSITIVE_FIELD_NUMBER;
+          hash = (53 * hash) + getNicknameCaseSensitive().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1793,39 +1959,39 @@ public final class CoGetLostPasswordQuestionPu {
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1843,7 +2009,7 @@ public final class CoGetLostPasswordQuestionPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1851,7 +2017,7 @@ public final class CoGetLostPasswordQuestionPu {
        * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetLostPasswordQuestion_Pu.Response.Row)
           io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1859,7 +2025,7 @@ public final class CoGetLostPasswordQuestionPu {
           return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1872,12 +2038,13 @@ public final class CoGetLostPasswordQuestionPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1933,6 +2100,32 @@ public final class CoGetLostPasswordQuestionPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row)other);
@@ -2006,7 +2199,7 @@ public final class CoGetLostPasswordQuestionPu {
         }
 
         private io.dstore.Values.stringValue question_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
         /**
          * <pre>
@@ -2144,11 +2337,11 @@ public final class CoGetLostPasswordQuestionPu {
          *
          * <code>optional .dstore.values.stringValue question = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getQuestionFieldBuilder() {
           if (questionBuilder_ == null) {
-            questionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            questionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getQuestion(),
                     getParentForChildren(),
@@ -2159,7 +2352,7 @@ public final class CoGetLostPasswordQuestionPu {
         }
 
         private io.dstore.Values.stringValue nicknameCaseSensitive_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameCaseSensitiveBuilder_;
         /**
          * <pre>
@@ -2297,11 +2490,11 @@ public final class CoGetLostPasswordQuestionPu {
          *
          * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNicknameCaseSensitiveFieldBuilder() {
           if (nicknameCaseSensitiveBuilder_ == null) {
-            nicknameCaseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nicknameCaseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNicknameCaseSensitive(),
                     getParentForChildren(),
@@ -2538,6 +2731,59 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response other = (io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasQuestion() == other.hasQuestion());
+      if (hasQuestion()) {
+        result = result && getQuestion()
+            .equals(other.getQuestion());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasQuestion()) {
+        hash = (37 * hash) + QUESTION_FIELD_NUMBER;
+        hash = (53 * hash) + getQuestion().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2561,39 +2807,39 @@ public final class CoGetLostPasswordQuestionPu {
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2611,7 +2857,7 @@ public final class CoGetLostPasswordQuestionPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2619,7 +2865,7 @@ public final class CoGetLostPasswordQuestionPu {
      * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetLostPasswordQuestion_Pu.Response)
         io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2627,7 +2873,7 @@ public final class CoGetLostPasswordQuestionPu {
         return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2640,12 +2886,13 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -2738,6 +2985,32 @@ public final class CoGetLostPasswordQuestionPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response)other);
@@ -2768,7 +3041,7 @@ public final class CoGetLostPasswordQuestionPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -2794,7 +3067,7 @@ public final class CoGetLostPasswordQuestionPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -2820,7 +3093,7 @@ public final class CoGetLostPasswordQuestionPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -2866,7 +3139,7 @@ public final class CoGetLostPasswordQuestionPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3082,11 +3355,11 @@ public final class CoGetLostPasswordQuestionPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3106,7 +3379,7 @@ public final class CoGetLostPasswordQuestionPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3322,11 +3595,11 @@ public final class CoGetLostPasswordQuestionPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3346,7 +3619,7 @@ public final class CoGetLostPasswordQuestionPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row, io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row.Builder, io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -3562,11 +3835,11 @@ public final class CoGetLostPasswordQuestionPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row, io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row.Builder, io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row, io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.Row.Builder, io.dstore.engine.procedures.CoGetLostPasswordQuestionPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -3578,7 +3851,7 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       private io.dstore.Values.stringValue question_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue question = 101;</code>
@@ -3680,11 +3953,11 @@ public final class CoGetLostPasswordQuestionPu {
       /**
        * <code>optional .dstore.values.stringValue question = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getQuestionFieldBuilder() {
         if (questionBuilder_ == null) {
-          questionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          questionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getQuestion(),
                   getParentForChildren(),
@@ -3745,17 +4018,17 @@ public final class CoGetLostPasswordQuestionPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -3811,19 +4084,19 @@ public final class CoGetLostPasswordQuestionPu {
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor,
         new java.lang.String[] { "Question", "QuestionNull", "CommunityId", "CommunityIdNull", "Nickname", "NicknameNull", "CaseSensitive", "CaseSensitiveNull", });
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "Question", });
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Question", "NicknameCaseSensitive", });
     io.dstore.Values.getDescriptor();

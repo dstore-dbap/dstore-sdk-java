@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetCampaignsAd {
   private OmGetCampaignsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetCampaigns_Ad.Parameters)
@@ -106,11 +112,11 @@ public final class OmGetCampaignsAd {
    * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaigns_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -252,7 +258,7 @@ public final class OmGetCampaignsAd {
       return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -503,6 +509,102 @@ public final class OmGetCampaignsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetCampaignsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetCampaignsAd.Parameters other = (io.dstore.engine.procedures.OmGetCampaignsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasCampaignId() == other.hasCampaignId());
+      if (hasCampaignId()) {
+        result = result && getCampaignId()
+            .equals(other.getCampaignId());
+      }
+      result = result && (getCampaignIdNull()
+          == other.getCampaignIdNull());
+      result = result && (hasCampaignTypeId() == other.hasCampaignTypeId());
+      if (hasCampaignTypeId()) {
+        result = result && getCampaignTypeId()
+            .equals(other.getCampaignTypeId());
+      }
+      result = result && (getCampaignTypeIdNull()
+          == other.getCampaignTypeIdNull());
+      result = result && (hasActive() == other.hasActive());
+      if (hasActive()) {
+        result = result && getActive()
+            .equals(other.getActive());
+      }
+      result = result && (getActiveNull()
+          == other.getActiveNull());
+      result = result && (hasFilterByPeriodStartMinDate() == other.hasFilterByPeriodStartMinDate());
+      if (hasFilterByPeriodStartMinDate()) {
+        result = result && getFilterByPeriodStartMinDate()
+            .equals(other.getFilterByPeriodStartMinDate());
+      }
+      result = result && (getFilterByPeriodStartMinDateNull()
+          == other.getFilterByPeriodStartMinDateNull());
+      result = result && (hasFilterByPeriodStartMaxDate() == other.hasFilterByPeriodStartMaxDate());
+      if (hasFilterByPeriodStartMaxDate()) {
+        result = result && getFilterByPeriodStartMaxDate()
+            .equals(other.getFilterByPeriodStartMaxDate());
+      }
+      result = result && (getFilterByPeriodStartMaxDateNull()
+          == other.getFilterByPeriodStartMaxDateNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasCampaignId()) {
+        hash = (37 * hash) + CAMPAIGN_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCampaignId().hashCode();
+      }
+      hash = (37 * hash) + CAMPAIGN_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCampaignIdNull());
+      if (hasCampaignTypeId()) {
+        hash = (37 * hash) + CAMPAIGN_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCampaignTypeId().hashCode();
+      }
+      hash = (37 * hash) + CAMPAIGN_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCampaignTypeIdNull());
+      if (hasActive()) {
+        hash = (37 * hash) + ACTIVE_FIELD_NUMBER;
+        hash = (53 * hash) + getActive().hashCode();
+      }
+      hash = (37 * hash) + ACTIVE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getActiveNull());
+      if (hasFilterByPeriodStartMinDate()) {
+        hash = (37 * hash) + FILTER_BY_PERIOD_START_MIN_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFilterByPeriodStartMinDate().hashCode();
+      }
+      hash = (37 * hash) + FILTER_BY_PERIOD_START_MIN_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFilterByPeriodStartMinDateNull());
+      if (hasFilterByPeriodStartMaxDate()) {
+        hash = (37 * hash) + FILTER_BY_PERIOD_START_MAX_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFilterByPeriodStartMaxDate().hashCode();
+      }
+      hash = (37 * hash) + FILTER_BY_PERIOD_START_MAX_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFilterByPeriodStartMaxDateNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -526,39 +628,39 @@ public final class OmGetCampaignsAd {
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -576,7 +678,7 @@ public final class OmGetCampaignsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -584,7 +686,7 @@ public final class OmGetCampaignsAd {
      * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCampaigns_Ad.Parameters)
         io.dstore.engine.procedures.OmGetCampaignsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -592,7 +694,7 @@ public final class OmGetCampaignsAd {
         return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -605,12 +707,13 @@ public final class OmGetCampaignsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -711,6 +814,32 @@ public final class OmGetCampaignsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetCampaignsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetCampaignsAd.Parameters)other);
@@ -779,7 +908,7 @@ public final class OmGetCampaignsAd {
       }
 
       private io.dstore.Values.integerValue campaignId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
@@ -881,11 +1010,11 @@ public final class OmGetCampaignsAd {
       /**
        * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
-          campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
@@ -922,7 +1051,7 @@ public final class OmGetCampaignsAd {
       }
 
       private io.dstore.Values.integerValue campaignTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
@@ -1024,11 +1153,11 @@ public final class OmGetCampaignsAd {
       /**
        * <code>optional .dstore.values.integerValue campaign_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCampaignTypeIdFieldBuilder() {
         if (campaignTypeIdBuilder_ == null) {
-          campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCampaignTypeId(),
                   getParentForChildren(),
@@ -1065,7 +1194,7 @@ public final class OmGetCampaignsAd {
       }
 
       private io.dstore.Values.integerValue active_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
       /**
        * <code>optional .dstore.values.integerValue active = 3;</code>
@@ -1167,11 +1296,11 @@ public final class OmGetCampaignsAd {
       /**
        * <code>optional .dstore.values.integerValue active = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getActiveFieldBuilder() {
         if (activeBuilder_ == null) {
-          activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getActive(),
                   getParentForChildren(),
@@ -1208,7 +1337,7 @@ public final class OmGetCampaignsAd {
       }
 
       private io.dstore.Values.timestampValue filterByPeriodStartMinDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> filterByPeriodStartMinDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
@@ -1310,11 +1439,11 @@ public final class OmGetCampaignsAd {
       /**
        * <code>optional .dstore.values.timestampValue filter_by_period_start_min_date = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFilterByPeriodStartMinDateFieldBuilder() {
         if (filterByPeriodStartMinDateBuilder_ == null) {
-          filterByPeriodStartMinDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          filterByPeriodStartMinDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFilterByPeriodStartMinDate(),
                   getParentForChildren(),
@@ -1351,7 +1480,7 @@ public final class OmGetCampaignsAd {
       }
 
       private io.dstore.Values.timestampValue filterByPeriodStartMaxDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> filterByPeriodStartMaxDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
@@ -1453,11 +1582,11 @@ public final class OmGetCampaignsAd {
       /**
        * <code>optional .dstore.values.timestampValue filter_by_period_start_max_date = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFilterByPeriodStartMaxDateFieldBuilder() {
         if (filterByPeriodStartMaxDateBuilder_ == null) {
-          filterByPeriodStartMaxDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          filterByPeriodStartMaxDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFilterByPeriodStartMaxDate(),
                   getParentForChildren(),
@@ -1641,11 +1770,11 @@ public final class OmGetCampaignsAd {
    * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaigns_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1684,7 +1813,8 @@ public final class OmGetCampaignsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1692,7 +1822,8 @@ public final class OmGetCampaignsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1700,7 +1831,8 @@ public final class OmGetCampaignsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1728,7 +1860,7 @@ public final class OmGetCampaignsAd {
       return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1898,11 +2030,11 @@ public final class OmGetCampaignsAd {
      * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaigns_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2033,7 +2165,7 @@ public final class OmGetCampaignsAd {
         return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2320,6 +2452,90 @@ public final class OmGetCampaignsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row other = (io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasActive() == other.hasActive());
+        if (hasActive()) {
+          result = result && getActive()
+              .equals(other.getActive());
+        }
+        result = result && (hasCampaignId() == other.hasCampaignId());
+        if (hasCampaignId()) {
+          result = result && getCampaignId()
+              .equals(other.getCampaignId());
+        }
+        result = result && (hasCampaignDescription() == other.hasCampaignDescription());
+        if (hasCampaignDescription()) {
+          result = result && getCampaignDescription()
+              .equals(other.getCampaignDescription());
+        }
+        result = result && (hasCampaignTypeId() == other.hasCampaignTypeId());
+        if (hasCampaignTypeId()) {
+          result = result && getCampaignTypeId()
+              .equals(other.getCampaignTypeId());
+        }
+        result = result && (hasCampaignName() == other.hasCampaignName());
+        if (hasCampaignName()) {
+          result = result && getCampaignName()
+              .equals(other.getCampaignName());
+        }
+        result = result && (hasCampaignType() == other.hasCampaignType());
+        if (hasCampaignType()) {
+          result = result && getCampaignType()
+              .equals(other.getCampaignType());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasActive()) {
+          hash = (37 * hash) + ACTIVE_FIELD_NUMBER;
+          hash = (53 * hash) + getActive().hashCode();
+        }
+        if (hasCampaignId()) {
+          hash = (37 * hash) + CAMPAIGN_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCampaignId().hashCode();
+        }
+        if (hasCampaignDescription()) {
+          hash = (37 * hash) + CAMPAIGN_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getCampaignDescription().hashCode();
+        }
+        if (hasCampaignTypeId()) {
+          hash = (37 * hash) + CAMPAIGN_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCampaignTypeId().hashCode();
+        }
+        if (hasCampaignName()) {
+          hash = (37 * hash) + CAMPAIGN_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getCampaignName().hashCode();
+        }
+        if (hasCampaignType()) {
+          hash = (37 * hash) + CAMPAIGN_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getCampaignType().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2343,39 +2559,39 @@ public final class OmGetCampaignsAd {
       }
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2393,7 +2609,7 @@ public final class OmGetCampaignsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2401,7 +2617,7 @@ public final class OmGetCampaignsAd {
        * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCampaigns_Ad.Response.Row)
           io.dstore.engine.procedures.OmGetCampaignsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2409,7 +2625,7 @@ public final class OmGetCampaignsAd {
           return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2422,12 +2638,13 @@ public final class OmGetCampaignsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2527,6 +2744,32 @@ public final class OmGetCampaignsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row)other);
@@ -2612,7 +2855,7 @@ public final class OmGetCampaignsAd {
         }
 
         private io.dstore.Values.integerValue active_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
         /**
          * <pre>
@@ -2750,11 +2993,11 @@ public final class OmGetCampaignsAd {
          *
          * <code>optional .dstore.values.integerValue active = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
-            activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
@@ -2765,7 +3008,7 @@ public final class OmGetCampaignsAd {
         }
 
         private io.dstore.Values.integerValue campaignId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
         /**
          * <pre>
@@ -2903,11 +3146,11 @@ public final class OmGetCampaignsAd {
          *
          * <code>optional .dstore.values.integerValue campaign_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCampaignIdFieldBuilder() {
           if (campaignIdBuilder_ == null) {
-            campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCampaignId(),
                     getParentForChildren(),
@@ -2918,7 +3161,7 @@ public final class OmGetCampaignsAd {
         }
 
         private io.dstore.Values.stringValue campaignDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignDescriptionBuilder_;
         /**
          * <pre>
@@ -3056,11 +3299,11 @@ public final class OmGetCampaignsAd {
          *
          * <code>optional .dstore.values.stringValue campaign_description = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCampaignDescriptionFieldBuilder() {
           if (campaignDescriptionBuilder_ == null) {
-            campaignDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            campaignDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCampaignDescription(),
                     getParentForChildren(),
@@ -3071,7 +3314,7 @@ public final class OmGetCampaignsAd {
         }
 
         private io.dstore.Values.integerValue campaignTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
         /**
          * <pre>
@@ -3209,11 +3452,11 @@ public final class OmGetCampaignsAd {
          *
          * <code>optional .dstore.values.integerValue campaign_type_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCampaignTypeIdFieldBuilder() {
           if (campaignTypeIdBuilder_ == null) {
-            campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCampaignTypeId(),
                     getParentForChildren(),
@@ -3224,7 +3467,7 @@ public final class OmGetCampaignsAd {
         }
 
         private io.dstore.Values.stringValue campaignName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignNameBuilder_;
         /**
          * <pre>
@@ -3362,11 +3605,11 @@ public final class OmGetCampaignsAd {
          *
          * <code>optional .dstore.values.stringValue campaign_name = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCampaignNameFieldBuilder() {
           if (campaignNameBuilder_ == null) {
-            campaignNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            campaignNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCampaignName(),
                     getParentForChildren(),
@@ -3377,7 +3620,7 @@ public final class OmGetCampaignsAd {
         }
 
         private io.dstore.Values.stringValue campaignType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignTypeBuilder_;
         /**
          * <pre>
@@ -3515,11 +3758,11 @@ public final class OmGetCampaignsAd {
          *
          * <code>optional .dstore.values.stringValue campaign_type = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCampaignTypeFieldBuilder() {
           if (campaignTypeBuilder_ == null) {
-            campaignTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            campaignTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCampaignType(),
                     getParentForChildren(),
@@ -3747,6 +3990,50 @@ public final class OmGetCampaignsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetCampaignsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetCampaignsAd.Response other = (io.dstore.engine.procedures.OmGetCampaignsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3770,39 +4057,39 @@ public final class OmGetCampaignsAd {
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3820,7 +4107,7 @@ public final class OmGetCampaignsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3828,7 +4115,7 @@ public final class OmGetCampaignsAd {
      * Protobuf type {@code dstore.engine.om_GetCampaigns_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCampaigns_Ad.Response)
         io.dstore.engine.procedures.OmGetCampaignsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3836,7 +4123,7 @@ public final class OmGetCampaignsAd {
         return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCampaignsAd.internal_static_dstore_engine_om_GetCampaigns_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3849,12 +4136,13 @@ public final class OmGetCampaignsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3934,6 +4222,32 @@ public final class OmGetCampaignsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetCampaignsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetCampaignsAd.Response)other);
@@ -3964,7 +4278,7 @@ public final class OmGetCampaignsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3990,7 +4304,7 @@ public final class OmGetCampaignsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4016,7 +4330,7 @@ public final class OmGetCampaignsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4059,7 +4373,7 @@ public final class OmGetCampaignsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4275,11 +4589,11 @@ public final class OmGetCampaignsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4299,7 +4613,7 @@ public final class OmGetCampaignsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4515,11 +4829,11 @@ public final class OmGetCampaignsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4539,7 +4853,7 @@ public final class OmGetCampaignsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row, io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4827,11 +5141,11 @@ public final class OmGetCampaignsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row, io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row, io.dstore.engine.procedures.OmGetCampaignsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4893,17 +5207,17 @@ public final class OmGetCampaignsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaigns_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaigns_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4966,19 +5280,19 @@ public final class OmGetCampaignsAd {
     internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaigns_Ad_Parameters_descriptor,
         new java.lang.String[] { "CampaignId", "CampaignIdNull", "CampaignTypeId", "CampaignTypeIdNull", "Active", "ActiveNull", "FilterByPeriodStartMinDate", "FilterByPeriodStartMinDateNull", "FilterByPeriodStartMaxDate", "FilterByPeriodStartMaxDateNull", });
     internal_static_dstore_engine_om_GetCampaigns_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetCampaigns_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaigns_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetCampaigns_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaigns_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Active", "CampaignId", "CampaignDescription", "CampaignTypeId", "CampaignName", "CampaignType", });
     io.dstore.Values.getDescriptor();

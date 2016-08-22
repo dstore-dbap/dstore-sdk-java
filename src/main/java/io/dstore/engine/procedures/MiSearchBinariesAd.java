@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiSearchBinariesAd {
   private MiSearchBinariesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_SearchBinaries_Ad.Parameters)
@@ -196,11 +202,11 @@ public final class MiSearchBinariesAd {
    * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchBinaries_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -437,7 +443,7 @@ public final class MiSearchBinariesAd {
       return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -908,6 +914,172 @@ public final class MiSearchBinariesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiSearchBinariesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiSearchBinariesAd.Parameters other = (io.dstore.engine.procedures.MiSearchBinariesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasInputNestLevelConds() == other.hasInputNestLevelConds());
+      if (hasInputNestLevelConds()) {
+        result = result && getInputNestLevelConds()
+            .equals(other.getInputNestLevelConds());
+      }
+      result = result && (getInputNestLevelCondsNull()
+          == other.getInputNestLevelCondsNull());
+      result = result && (hasValueSeparatorINOperator() == other.hasValueSeparatorINOperator());
+      if (hasValueSeparatorINOperator()) {
+        result = result && getValueSeparatorINOperator()
+            .equals(other.getValueSeparatorINOperator());
+      }
+      result = result && (getValueSeparatorINOperatorNull()
+          == other.getValueSeparatorINOperatorNull());
+      result = result && (hasStartAtRowNo() == other.hasStartAtRowNo());
+      if (hasStartAtRowNo()) {
+        result = result && getStartAtRowNo()
+            .equals(other.getStartAtRowNo());
+      }
+      result = result && (getStartAtRowNoNull()
+          == other.getStartAtRowNoNull());
+      result = result && (hasRowCount() == other.hasRowCount());
+      if (hasRowCount()) {
+        result = result && getRowCount()
+            .equals(other.getRowCount());
+      }
+      result = result && (getRowCountNull()
+          == other.getRowCountNull());
+      result = result && (hasNumberOfElementsInResult() == other.hasNumberOfElementsInResult());
+      if (hasNumberOfElementsInResult()) {
+        result = result && getNumberOfElementsInResult()
+            .equals(other.getNumberOfElementsInResult());
+      }
+      result = result && (getNumberOfElementsInResultNull()
+          == other.getNumberOfElementsInResultNull());
+      result = result && (hasOnlyUsedInTableBitmap() == other.hasOnlyUsedInTableBitmap());
+      if (hasOnlyUsedInTableBitmap()) {
+        result = result && getOnlyUsedInTableBitmap()
+            .equals(other.getOnlyUsedInTableBitmap());
+      }
+      result = result && (getOnlyUsedInTableBitmapNull()
+          == other.getOnlyUsedInTableBitmapNull());
+      result = result && (hasIncludeBinaryCode() == other.hasIncludeBinaryCode());
+      if (hasIncludeBinaryCode()) {
+        result = result && getIncludeBinaryCode()
+            .equals(other.getIncludeBinaryCode());
+      }
+      result = result && (getIncludeBinaryCodeNull()
+          == other.getIncludeBinaryCodeNull());
+      result = result && (hasOutputBinaryCharacId1() == other.hasOutputBinaryCharacId1());
+      if (hasOutputBinaryCharacId1()) {
+        result = result && getOutputBinaryCharacId1()
+            .equals(other.getOutputBinaryCharacId1());
+      }
+      result = result && (getOutputBinaryCharacId1Null()
+          == other.getOutputBinaryCharacId1Null());
+      result = result && (hasOutputBinaryCharacId2() == other.hasOutputBinaryCharacId2());
+      if (hasOutputBinaryCharacId2()) {
+        result = result && getOutputBinaryCharacId2()
+            .equals(other.getOutputBinaryCharacId2());
+      }
+      result = result && (getOutputBinaryCharacId2Null()
+          == other.getOutputBinaryCharacId2Null());
+      result = result && (hasOutputBinaryCharacId3() == other.hasOutputBinaryCharacId3());
+      if (hasOutputBinaryCharacId3()) {
+        result = result && getOutputBinaryCharacId3()
+            .equals(other.getOutputBinaryCharacId3());
+      }
+      result = result && (getOutputBinaryCharacId3Null()
+          == other.getOutputBinaryCharacId3Null());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasInputNestLevelConds()) {
+        hash = (37 * hash) + INPUT_NEST_LEVEL_CONDS_FIELD_NUMBER;
+        hash = (53 * hash) + getInputNestLevelConds().hashCode();
+      }
+      hash = (37 * hash) + INPUT_NEST_LEVEL_CONDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInputNestLevelCondsNull());
+      if (hasValueSeparatorINOperator()) {
+        hash = (37 * hash) + VALUE_SEPARATOR_I_N_OPERATOR_FIELD_NUMBER;
+        hash = (53 * hash) + getValueSeparatorINOperator().hashCode();
+      }
+      hash = (37 * hash) + VALUE_SEPARATOR_I_N_OPERATOR_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueSeparatorINOperatorNull());
+      if (hasStartAtRowNo()) {
+        hash = (37 * hash) + START_AT_ROW_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getStartAtRowNo().hashCode();
+      }
+      hash = (37 * hash) + START_AT_ROW_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getStartAtRowNoNull());
+      if (hasRowCount()) {
+        hash = (37 * hash) + ROW_COUNT_FIELD_NUMBER;
+        hash = (53 * hash) + getRowCount().hashCode();
+      }
+      hash = (37 * hash) + ROW_COUNT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRowCountNull());
+      if (hasNumberOfElementsInResult()) {
+        hash = (37 * hash) + NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getNumberOfElementsInResult().hashCode();
+      }
+      hash = (37 * hash) + NUMBER_OF_ELEMENTS_IN_RESULT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNumberOfElementsInResultNull());
+      if (hasOnlyUsedInTableBitmap()) {
+        hash = (37 * hash) + ONLY_USED_IN_TABLE_BITMAP_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyUsedInTableBitmap().hashCode();
+      }
+      hash = (37 * hash) + ONLY_USED_IN_TABLE_BITMAP_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyUsedInTableBitmapNull());
+      if (hasIncludeBinaryCode()) {
+        hash = (37 * hash) + INCLUDE_BINARY_CODE_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeBinaryCode().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_BINARY_CODE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludeBinaryCodeNull());
+      if (hasOutputBinaryCharacId1()) {
+        hash = (37 * hash) + OUTPUT_BINARY_CHARAC_ID1_FIELD_NUMBER;
+        hash = (53 * hash) + getOutputBinaryCharacId1().hashCode();
+      }
+      hash = (37 * hash) + OUTPUT_BINARY_CHARAC_ID1_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOutputBinaryCharacId1Null());
+      if (hasOutputBinaryCharacId2()) {
+        hash = (37 * hash) + OUTPUT_BINARY_CHARAC_ID2_FIELD_NUMBER;
+        hash = (53 * hash) + getOutputBinaryCharacId2().hashCode();
+      }
+      hash = (37 * hash) + OUTPUT_BINARY_CHARAC_ID2_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOutputBinaryCharacId2Null());
+      if (hasOutputBinaryCharacId3()) {
+        hash = (37 * hash) + OUTPUT_BINARY_CHARAC_ID3_FIELD_NUMBER;
+        hash = (53 * hash) + getOutputBinaryCharacId3().hashCode();
+      }
+      hash = (37 * hash) + OUTPUT_BINARY_CHARAC_ID3_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOutputBinaryCharacId3Null());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -931,39 +1103,39 @@ public final class MiSearchBinariesAd {
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -981,7 +1153,7 @@ public final class MiSearchBinariesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -989,7 +1161,7 @@ public final class MiSearchBinariesAd {
      * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_SearchBinaries_Ad.Parameters)
         io.dstore.engine.procedures.MiSearchBinariesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -997,7 +1169,7 @@ public final class MiSearchBinariesAd {
         return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1010,12 +1182,13 @@ public final class MiSearchBinariesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1186,6 +1359,32 @@ public final class MiSearchBinariesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiSearchBinariesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiSearchBinariesAd.Parameters)other);
@@ -1284,7 +1483,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue inputNestLevelConds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inputNestLevelCondsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue input_nest_level_conds = 1;</code>
@@ -1386,11 +1585,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue input_nest_level_conds = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInputNestLevelCondsFieldBuilder() {
         if (inputNestLevelCondsBuilder_ == null) {
-          inputNestLevelCondsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          inputNestLevelCondsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInputNestLevelConds(),
                   getParentForChildren(),
@@ -1427,7 +1626,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.stringValue valueSeparatorINOperator_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueSeparatorINOperatorBuilder_;
       /**
        * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 2;</code>
@@ -1529,11 +1728,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueSeparatorINOperatorFieldBuilder() {
         if (valueSeparatorINOperatorBuilder_ == null) {
-          valueSeparatorINOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueSeparatorINOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValueSeparatorINOperator(),
                   getParentForChildren(),
@@ -1570,7 +1769,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue startAtRowNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> startAtRowNoBuilder_;
       /**
        * <code>optional .dstore.values.integerValue start_at_row_no = 3;</code>
@@ -1672,11 +1871,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue start_at_row_no = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getStartAtRowNoFieldBuilder() {
         if (startAtRowNoBuilder_ == null) {
-          startAtRowNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          startAtRowNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getStartAtRowNo(),
                   getParentForChildren(),
@@ -1713,7 +1912,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue rowCount_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowCountBuilder_;
       /**
        * <code>optional .dstore.values.integerValue row_count = 4;</code>
@@ -1815,11 +2014,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue row_count = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRowCountFieldBuilder() {
         if (rowCountBuilder_ == null) {
-          rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRowCount(),
                   getParentForChildren(),
@@ -1856,7 +2055,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue numberOfElementsInResult_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfElementsInResultBuilder_;
       /**
        * <code>optional .dstore.values.integerValue number_of_elements_in_result = 5;</code>
@@ -1958,11 +2157,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue number_of_elements_in_result = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfElementsInResultFieldBuilder() {
         if (numberOfElementsInResultBuilder_ == null) {
-          numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfElementsInResult(),
                   getParentForChildren(),
@@ -1999,7 +2198,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue onlyUsedInTableBitmap_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlyUsedInTableBitmapBuilder_;
       /**
        * <code>optional .dstore.values.integerValue only_used_in_table_bitmap = 6;</code>
@@ -2101,11 +2300,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue only_used_in_table_bitmap = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOnlyUsedInTableBitmapFieldBuilder() {
         if (onlyUsedInTableBitmapBuilder_ == null) {
-          onlyUsedInTableBitmapBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyUsedInTableBitmapBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOnlyUsedInTableBitmap(),
                   getParentForChildren(),
@@ -2142,7 +2341,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.booleanValue includeBinaryCode_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeBinaryCodeBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue include_binary_code = 7;</code>
@@ -2244,11 +2443,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.booleanValue include_binary_code = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeBinaryCodeFieldBuilder() {
         if (includeBinaryCodeBuilder_ == null) {
-          includeBinaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includeBinaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeBinaryCode(),
                   getParentForChildren(),
@@ -2285,7 +2484,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue outputBinaryCharacId1_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId1Builder_;
       /**
        * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 8;</code>
@@ -2387,11 +2586,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputBinaryCharacId1FieldBuilder() {
         if (outputBinaryCharacId1Builder_ == null) {
-          outputBinaryCharacId1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          outputBinaryCharacId1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputBinaryCharacId1(),
                   getParentForChildren(),
@@ -2428,7 +2627,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue outputBinaryCharacId2_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId2Builder_;
       /**
        * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 9;</code>
@@ -2530,11 +2729,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputBinaryCharacId2FieldBuilder() {
         if (outputBinaryCharacId2Builder_ == null) {
-          outputBinaryCharacId2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          outputBinaryCharacId2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputBinaryCharacId2(),
                   getParentForChildren(),
@@ -2571,7 +2770,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue outputBinaryCharacId3_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId3Builder_;
       /**
        * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 10;</code>
@@ -2673,11 +2872,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputBinaryCharacId3FieldBuilder() {
         if (outputBinaryCharacId3Builder_ == null) {
-          outputBinaryCharacId3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          outputBinaryCharacId3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputBinaryCharacId3(),
                   getParentForChildren(),
@@ -2854,11 +3053,11 @@ public final class MiSearchBinariesAd {
    * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchBinaries_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2897,7 +3096,8 @@ public final class MiSearchBinariesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2905,7 +3105,8 @@ public final class MiSearchBinariesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2913,7 +3114,8 @@ public final class MiSearchBinariesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2954,7 +3156,7 @@ public final class MiSearchBinariesAd {
       return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3149,11 +3351,11 @@ public final class MiSearchBinariesAd {
      * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchBinaries_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3297,7 +3499,7 @@ public final class MiSearchBinariesAd {
         return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3624,6 +3826,99 @@ public final class MiSearchBinariesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row other = (io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasBinaryCodeId() == other.hasBinaryCodeId());
+        if (hasBinaryCodeId()) {
+          result = result && getBinaryCodeId()
+              .equals(other.getBinaryCodeId());
+        }
+        result = result && (hasBinaryValue1() == other.hasBinaryValue1());
+        if (hasBinaryValue1()) {
+          result = result && getBinaryValue1()
+              .equals(other.getBinaryValue1());
+        }
+        result = result && (hasBinaryValue3() == other.hasBinaryValue3());
+        if (hasBinaryValue3()) {
+          result = result && getBinaryValue3()
+              .equals(other.getBinaryValue3());
+        }
+        result = result && (hasThumbnailCode() == other.hasThumbnailCode());
+        if (hasThumbnailCode()) {
+          result = result && getThumbnailCode()
+              .equals(other.getThumbnailCode());
+        }
+        result = result && (hasBinaryValue2() == other.hasBinaryValue2());
+        if (hasBinaryValue2()) {
+          result = result && getBinaryValue2()
+              .equals(other.getBinaryValue2());
+        }
+        result = result && (hasUsedInTableBitmap() == other.hasUsedInTableBitmap());
+        if (hasUsedInTableBitmap()) {
+          result = result && getUsedInTableBitmap()
+              .equals(other.getUsedInTableBitmap());
+        }
+        result = result && (hasBinaryCode() == other.hasBinaryCode());
+        if (hasBinaryCode()) {
+          result = result && getBinaryCode()
+              .equals(other.getBinaryCode());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasBinaryCodeId()) {
+          hash = (37 * hash) + BINARY_CODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryCodeId().hashCode();
+        }
+        if (hasBinaryValue1()) {
+          hash = (37 * hash) + BINARY_VALUE1_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryValue1().hashCode();
+        }
+        if (hasBinaryValue3()) {
+          hash = (37 * hash) + BINARY_VALUE3_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryValue3().hashCode();
+        }
+        if (hasThumbnailCode()) {
+          hash = (37 * hash) + THUMBNAIL_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getThumbnailCode().hashCode();
+        }
+        if (hasBinaryValue2()) {
+          hash = (37 * hash) + BINARY_VALUE2_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryValue2().hashCode();
+        }
+        if (hasUsedInTableBitmap()) {
+          hash = (37 * hash) + USED_IN_TABLE_BITMAP_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInTableBitmap().hashCode();
+        }
+        if (hasBinaryCode()) {
+          hash = (37 * hash) + BINARY_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryCode().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3647,39 +3942,39 @@ public final class MiSearchBinariesAd {
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3697,7 +3992,7 @@ public final class MiSearchBinariesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3705,7 +4000,7 @@ public final class MiSearchBinariesAd {
        * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_SearchBinaries_Ad.Response.Row)
           io.dstore.engine.procedures.MiSearchBinariesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3713,7 +4008,7 @@ public final class MiSearchBinariesAd {
           return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3726,12 +4021,13 @@ public final class MiSearchBinariesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3842,6 +4138,32 @@ public final class MiSearchBinariesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row)other);
@@ -3930,7 +4252,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.integerValue binaryCodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
@@ -4068,11 +4390,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
-            binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
@@ -4083,7 +4405,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.stringValue binaryValue1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue1Builder_;
         /**
          * <pre>
@@ -4221,11 +4543,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.stringValue binary_value1 = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBinaryValue1FieldBuilder() {
           if (binaryValue1Builder_ == null) {
-            binaryValue1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryValue1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBinaryValue1(),
                     getParentForChildren(),
@@ -4236,7 +4558,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.stringValue binaryValue3_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue3Builder_;
         /**
          * <pre>
@@ -4374,11 +4696,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.stringValue binary_value3 = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBinaryValue3FieldBuilder() {
           if (binaryValue3Builder_ == null) {
-            binaryValue3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryValue3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBinaryValue3(),
                     getParentForChildren(),
@@ -4389,7 +4711,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.bytesValue thumbnailCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
          * <pre>
@@ -4527,11 +4849,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
-            thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
@@ -4542,7 +4864,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.stringValue binaryValue2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue2Builder_;
         /**
          * <pre>
@@ -4680,11 +5002,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.stringValue binary_value2 = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBinaryValue2FieldBuilder() {
           if (binaryValue2Builder_ == null) {
-            binaryValue2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryValue2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBinaryValue2(),
                     getParentForChildren(),
@@ -4695,7 +5017,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.integerValue usedInTableBitmap_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInTableBitmapBuilder_;
         /**
          * <pre>
@@ -4833,11 +5155,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.integerValue used_in_table_bitmap = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUsedInTableBitmapFieldBuilder() {
           if (usedInTableBitmapBuilder_ == null) {
-            usedInTableBitmapBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInTableBitmapBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUsedInTableBitmap(),
                     getParentForChildren(),
@@ -4848,7 +5170,7 @@ public final class MiSearchBinariesAd {
         }
 
         private io.dstore.Values.bytesValue binaryCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
          * <pre>
@@ -4986,11 +5308,11 @@ public final class MiSearchBinariesAd {
          *
          * <code>optional .dstore.values.bytesValue binary_code = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
-            binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
@@ -5227,6 +5549,59 @@ public final class MiSearchBinariesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiSearchBinariesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiSearchBinariesAd.Response other = (io.dstore.engine.procedures.MiSearchBinariesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasNumberOfElementsInResult() == other.hasNumberOfElementsInResult());
+      if (hasNumberOfElementsInResult()) {
+        result = result && getNumberOfElementsInResult()
+            .equals(other.getNumberOfElementsInResult());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasNumberOfElementsInResult()) {
+        hash = (37 * hash) + NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getNumberOfElementsInResult().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5250,39 +5625,39 @@ public final class MiSearchBinariesAd {
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchBinariesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -5300,7 +5675,7 @@ public final class MiSearchBinariesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -5308,7 +5683,7 @@ public final class MiSearchBinariesAd {
      * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_SearchBinaries_Ad.Response)
         io.dstore.engine.procedures.MiSearchBinariesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -5316,7 +5691,7 @@ public final class MiSearchBinariesAd {
         return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiSearchBinariesAd.internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5329,12 +5704,13 @@ public final class MiSearchBinariesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -5427,6 +5803,32 @@ public final class MiSearchBinariesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiSearchBinariesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiSearchBinariesAd.Response)other);
@@ -5457,7 +5859,7 @@ public final class MiSearchBinariesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -5483,7 +5885,7 @@ public final class MiSearchBinariesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -5509,7 +5911,7 @@ public final class MiSearchBinariesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5555,7 +5957,7 @@ public final class MiSearchBinariesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5771,11 +6173,11 @@ public final class MiSearchBinariesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5795,7 +6197,7 @@ public final class MiSearchBinariesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -6011,11 +6413,11 @@ public final class MiSearchBinariesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -6035,7 +6437,7 @@ public final class MiSearchBinariesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row, io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row.Builder, io.dstore.engine.procedures.MiSearchBinariesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -6251,11 +6653,11 @@ public final class MiSearchBinariesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row, io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row.Builder, io.dstore.engine.procedures.MiSearchBinariesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row, io.dstore.engine.procedures.MiSearchBinariesAd.Response.Row.Builder, io.dstore.engine.procedures.MiSearchBinariesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -6267,7 +6669,7 @@ public final class MiSearchBinariesAd {
       }
 
       private io.dstore.Values.integerValue numberOfElementsInResult_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfElementsInResultBuilder_;
       /**
        * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
@@ -6369,11 +6771,11 @@ public final class MiSearchBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfElementsInResultFieldBuilder() {
         if (numberOfElementsInResultBuilder_ == null) {
-          numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfElementsInResult(),
                   getParentForChildren(),
@@ -6434,17 +6836,17 @@ public final class MiSearchBinariesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -6523,19 +6925,19 @@ public final class MiSearchBinariesAd {
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchBinaries_Ad_Parameters_descriptor,
         new java.lang.String[] { "InputNestLevelConds", "InputNestLevelCondsNull", "ValueSeparatorINOperator", "ValueSeparatorINOperatorNull", "StartAtRowNo", "StartAtRowNoNull", "RowCount", "RowCountNull", "NumberOfElementsInResult", "NumberOfElementsInResultNull", "OnlyUsedInTableBitmap", "OnlyUsedInTableBitmapNull", "IncludeBinaryCode", "IncludeBinaryCodeNull", "OutputBinaryCharacId1", "OutputBinaryCharacId1Null", "OutputBinaryCharacId2", "OutputBinaryCharacId2Null", "OutputBinaryCharacId3", "OutputBinaryCharacId3Null", });
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "NumberOfElementsInResult", });
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchBinaries_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryCodeId", "BinaryValue1", "BinaryValue3", "ThumbnailCode", "BinaryValue2", "UsedInTableBitmap", "BinaryCode", });
     io.dstore.Values.getDescriptor();

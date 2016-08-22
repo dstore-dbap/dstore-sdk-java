@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetCurrentDate {
   private MiGetCurrentDate() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetCurrentDate.Parameters)
@@ -52,11 +58,11 @@ public final class MiGetCurrentDate {
    * Protobuf type {@code dstore.engine.mi_GetCurrentDate.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetCurrentDate.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -141,7 +147,7 @@ public final class MiGetCurrentDate {
       return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -260,6 +266,60 @@ public final class MiGetCurrentDate {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetCurrentDate.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetCurrentDate.Parameters other = (io.dstore.engine.procedures.MiGetCurrentDate.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasDateAndTimeFormat() == other.hasDateAndTimeFormat());
+      if (hasDateAndTimeFormat()) {
+        result = result && getDateAndTimeFormat()
+            .equals(other.getDateAndTimeFormat());
+      }
+      result = result && (getDateAndTimeFormatNull()
+          == other.getDateAndTimeFormatNull());
+      result = result && (hasIncludeTime() == other.hasIncludeTime());
+      if (hasIncludeTime()) {
+        result = result && getIncludeTime()
+            .equals(other.getIncludeTime());
+      }
+      result = result && (getIncludeTimeNull()
+          == other.getIncludeTimeNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasDateAndTimeFormat()) {
+        hash = (37 * hash) + DATE_AND_TIME_FORMAT_FIELD_NUMBER;
+        hash = (53 * hash) + getDateAndTimeFormat().hashCode();
+      }
+      hash = (37 * hash) + DATE_AND_TIME_FORMAT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDateAndTimeFormatNull());
+      if (hasIncludeTime()) {
+        hash = (37 * hash) + INCLUDE_TIME_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeTime().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_TIME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludeTimeNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -283,39 +343,39 @@ public final class MiGetCurrentDate {
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -333,7 +393,7 @@ public final class MiGetCurrentDate {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -341,7 +401,7 @@ public final class MiGetCurrentDate {
      * Protobuf type {@code dstore.engine.mi_GetCurrentDate.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetCurrentDate.Parameters)
         io.dstore.engine.procedures.MiGetCurrentDate.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -349,7 +409,7 @@ public final class MiGetCurrentDate {
         return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -362,12 +422,13 @@ public final class MiGetCurrentDate {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -426,6 +487,32 @@ public final class MiGetCurrentDate {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetCurrentDate.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetCurrentDate.Parameters)other);
@@ -476,7 +563,7 @@ public final class MiGetCurrentDate {
       }
 
       private io.dstore.Values.integerValue dateAndTimeFormat_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> dateAndTimeFormatBuilder_;
       /**
        * <code>optional .dstore.values.integerValue date_and_time_format = 1;</code>
@@ -578,11 +665,11 @@ public final class MiGetCurrentDate {
       /**
        * <code>optional .dstore.values.integerValue date_and_time_format = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDateAndTimeFormatFieldBuilder() {
         if (dateAndTimeFormatBuilder_ == null) {
-          dateAndTimeFormatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dateAndTimeFormatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDateAndTimeFormat(),
                   getParentForChildren(),
@@ -619,7 +706,7 @@ public final class MiGetCurrentDate {
       }
 
       private io.dstore.Values.integerValue includeTime_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> includeTimeBuilder_;
       /**
        * <code>optional .dstore.values.integerValue include_time = 2;</code>
@@ -721,11 +808,11 @@ public final class MiGetCurrentDate {
       /**
        * <code>optional .dstore.values.integerValue include_time = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getIncludeTimeFieldBuilder() {
         if (includeTimeBuilder_ == null) {
-          includeTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includeTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getIncludeTime(),
                   getParentForChildren(),
@@ -909,11 +996,11 @@ public final class MiGetCurrentDate {
    * Protobuf type {@code dstore.engine.mi_GetCurrentDate.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetCurrentDate.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -952,7 +1039,8 @@ public final class MiGetCurrentDate {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -960,7 +1048,8 @@ public final class MiGetCurrentDate {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -968,7 +1057,8 @@ public final class MiGetCurrentDate {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetCurrentDate.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetCurrentDate.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetCurrentDate.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -996,7 +1086,7 @@ public final class MiGetCurrentDate {
       return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1091,11 +1181,11 @@ public final class MiGetCurrentDate {
      * Protobuf type {@code dstore.engine.mi_GetCurrentDate.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetCurrentDate.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1187,7 +1277,7 @@ public final class MiGetCurrentDate {
         return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1354,6 +1444,63 @@ public final class MiGetCurrentDate {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetCurrentDate.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetCurrentDate.Response.Row other = (io.dstore.engine.procedures.MiGetCurrentDate.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasCurrentDateChar() == other.hasCurrentDateChar());
+        if (hasCurrentDateChar()) {
+          result = result && getCurrentDateChar()
+              .equals(other.getCurrentDateChar());
+        }
+        result = result && (hasTimestamp() == other.hasTimestamp());
+        if (hasTimestamp()) {
+          result = result && getTimestamp()
+              .equals(other.getTimestamp());
+        }
+        result = result && (hasCurrentDate() == other.hasCurrentDate());
+        if (hasCurrentDate()) {
+          result = result && getCurrentDate()
+              .equals(other.getCurrentDate());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasCurrentDateChar()) {
+          hash = (37 * hash) + CURRENT_DATE_CHAR_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrentDateChar().hashCode();
+        }
+        if (hasTimestamp()) {
+          hash = (37 * hash) + TIMESTAMP_FIELD_NUMBER;
+          hash = (53 * hash) + getTimestamp().hashCode();
+        }
+        if (hasCurrentDate()) {
+          hash = (37 * hash) + CURRENT_DATE_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrentDate().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1377,39 +1524,39 @@ public final class MiGetCurrentDate {
       }
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetCurrentDate.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1427,7 +1574,7 @@ public final class MiGetCurrentDate {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1435,7 +1582,7 @@ public final class MiGetCurrentDate {
        * Protobuf type {@code dstore.engine.mi_GetCurrentDate.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetCurrentDate.Response.Row)
           io.dstore.engine.procedures.MiGetCurrentDate.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1443,7 +1590,7 @@ public final class MiGetCurrentDate {
           return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1456,12 +1603,13 @@ public final class MiGetCurrentDate {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1528,6 +1676,32 @@ public final class MiGetCurrentDate {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetCurrentDate.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetCurrentDate.Response.Row)other);
@@ -1604,7 +1778,7 @@ public final class MiGetCurrentDate {
         }
 
         private io.dstore.Values.stringValue currentDateChar_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currentDateCharBuilder_;
         /**
          * <pre>
@@ -1742,11 +1916,11 @@ public final class MiGetCurrentDate {
          *
          * <code>optional .dstore.values.stringValue current_date_char = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCurrentDateCharFieldBuilder() {
           if (currentDateCharBuilder_ == null) {
-            currentDateCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currentDateCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCurrentDateChar(),
                     getParentForChildren(),
@@ -1757,7 +1931,7 @@ public final class MiGetCurrentDate {
         }
 
         private io.dstore.Values.decimalValue timestamp_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> timestampBuilder_;
         /**
          * <pre>
@@ -1895,11 +2069,11 @@ public final class MiGetCurrentDate {
          *
          * <code>optional .dstore.values.decimalValue timestamp = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTimestampFieldBuilder() {
           if (timestampBuilder_ == null) {
-            timestampBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            timestampBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTimestamp(),
                     getParentForChildren(),
@@ -1910,7 +2084,7 @@ public final class MiGetCurrentDate {
         }
 
         private io.dstore.Values.timestampValue currentDate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> currentDateBuilder_;
         /**
          * <pre>
@@ -2048,11 +2222,11 @@ public final class MiGetCurrentDate {
          *
          * <code>optional .dstore.values.timestampValue current_date = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCurrentDateFieldBuilder() {
           if (currentDateBuilder_ == null) {
-            currentDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currentDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCurrentDate(),
                     getParentForChildren(),
@@ -2280,6 +2454,50 @@ public final class MiGetCurrentDate {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetCurrentDate.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetCurrentDate.Response other = (io.dstore.engine.procedures.MiGetCurrentDate.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2303,39 +2521,39 @@ public final class MiGetCurrentDate {
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetCurrentDate.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2353,7 +2571,7 @@ public final class MiGetCurrentDate {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2361,7 +2579,7 @@ public final class MiGetCurrentDate {
      * Protobuf type {@code dstore.engine.mi_GetCurrentDate.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetCurrentDate.Response)
         io.dstore.engine.procedures.MiGetCurrentDate.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2369,7 +2587,7 @@ public final class MiGetCurrentDate {
         return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetCurrentDate.internal_static_dstore_engine_mi_GetCurrentDate_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2382,12 +2600,13 @@ public final class MiGetCurrentDate {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -2467,6 +2686,32 @@ public final class MiGetCurrentDate {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetCurrentDate.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetCurrentDate.Response)other);
@@ -2497,7 +2742,7 @@ public final class MiGetCurrentDate {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -2523,7 +2768,7 @@ public final class MiGetCurrentDate {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -2549,7 +2794,7 @@ public final class MiGetCurrentDate {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -2592,7 +2837,7 @@ public final class MiGetCurrentDate {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -2808,11 +3053,11 @@ public final class MiGetCurrentDate {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -2832,7 +3077,7 @@ public final class MiGetCurrentDate {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3048,11 +3293,11 @@ public final class MiGetCurrentDate {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3072,7 +3317,7 @@ public final class MiGetCurrentDate {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetCurrentDate.Response.Row, io.dstore.engine.procedures.MiGetCurrentDate.Response.Row.Builder, io.dstore.engine.procedures.MiGetCurrentDate.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -3360,11 +3605,11 @@ public final class MiGetCurrentDate {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetCurrentDate.Response.Row, io.dstore.engine.procedures.MiGetCurrentDate.Response.Row.Builder, io.dstore.engine.procedures.MiGetCurrentDate.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetCurrentDate.Response.Row, io.dstore.engine.procedures.MiGetCurrentDate.Response.Row.Builder, io.dstore.engine.procedures.MiGetCurrentDate.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -3426,17 +3671,17 @@ public final class MiGetCurrentDate {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetCurrentDate_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetCurrentDate_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetCurrentDate_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetCurrentDate_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -3487,19 +3732,19 @@ public final class MiGetCurrentDate {
     internal_static_dstore_engine_mi_GetCurrentDate_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetCurrentDate_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetCurrentDate_Parameters_descriptor,
         new java.lang.String[] { "DateAndTimeFormat", "DateAndTimeFormatNull", "IncludeTime", "IncludeTimeNull", });
     internal_static_dstore_engine_mi_GetCurrentDate_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetCurrentDate_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetCurrentDate_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetCurrentDate_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetCurrentDate_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CurrentDateChar", "Timestamp", "CurrentDate", });
     io.dstore.Values.getDescriptor();

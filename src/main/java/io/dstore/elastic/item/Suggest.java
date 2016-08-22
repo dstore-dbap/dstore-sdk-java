@@ -6,7 +6,13 @@ package io.dstore.elastic.item;
 public final class Suggest {
   private Suggest() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface RequestOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.elastic.suggest.Request)
@@ -25,7 +31,7 @@ public final class Suggest {
     /**
      * <code>repeated string field_name = 2;</code>
      */
-    com.google.protobuf.ProtocolStringList
+    java.util.List<java.lang.String>
         getFieldNameList();
     /**
      * <code>repeated string field_name = 2;</code>
@@ -90,11 +96,11 @@ public final class Suggest {
    * Protobuf type {@code dstore.elastic.suggest.Request}
    */
   public  static final class Request extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.elastic.suggest.Request)
       RequestOrBuilder {
     // Use Request.newBuilder() to construct.
-    private Request(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Request(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Request() {
@@ -198,7 +204,7 @@ public final class Suggest {
       return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -351,10 +357,10 @@ public final class Suggest {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getInputBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 1, input_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, input_);
       }
       for (int i = 0; i < fieldName_.size(); i++) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 2, fieldName_.getRaw(i));
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, fieldName_.getRaw(i));
       }
       if (baseQuery_ != null) {
         output.writeMessage(3, getBaseQuery());
@@ -379,7 +385,7 @@ public final class Suggest {
 
       size = 0;
       if (!getInputBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, input_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, input_);
       }
       {
         int dataSize = 0;
@@ -414,6 +420,69 @@ public final class Suggest {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.elastic.item.Suggest.Request)) {
+        return super.equals(obj);
+      }
+      io.dstore.elastic.item.Suggest.Request other = (io.dstore.elastic.item.Suggest.Request) obj;
+
+      boolean result = true;
+      result = result && getInput()
+          .equals(other.getInput());
+      result = result && getFieldNameList()
+          .equals(other.getFieldNameList());
+      result = result && (hasBaseQuery() == other.hasBaseQuery());
+      if (hasBaseQuery()) {
+        result = result && getBaseQuery()
+            .equals(other.getBaseQuery());
+      }
+      result = result && (getMaxItems()
+          == other.getMaxItems());
+      result = result && (getMaxSuggests()
+          == other.getMaxSuggests());
+      result = result && (getFuzzy()
+          == other.getFuzzy());
+      result = result && (getUseAndOperator()
+          == other.getUseAndOperator());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + INPUT_FIELD_NUMBER;
+      hash = (53 * hash) + getInput().hashCode();
+      if (getFieldNameCount() > 0) {
+        hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getFieldNameList().hashCode();
+      }
+      if (hasBaseQuery()) {
+        hash = (37 * hash) + BASE_QUERY_FIELD_NUMBER;
+        hash = (53 * hash) + getBaseQuery().hashCode();
+      }
+      hash = (37 * hash) + MAX_ITEMS_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxItems();
+      hash = (37 * hash) + MAX_SUGGESTS_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxSuggests();
+      hash = (37 * hash) + FUZZY_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFuzzy());
+      hash = (37 * hash) + USE_AND_OPERATOR_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUseAndOperator());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -437,39 +506,39 @@ public final class Suggest {
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Request parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Request parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Request parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -487,7 +556,7 @@ public final class Suggest {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -495,7 +564,7 @@ public final class Suggest {
      * Protobuf type {@code dstore.elastic.suggest.Request}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.elastic.suggest.Request)
         io.dstore.elastic.item.Suggest.RequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -503,7 +572,7 @@ public final class Suggest {
         return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -516,12 +585,13 @@ public final class Suggest {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -588,6 +658,32 @@ public final class Suggest {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.elastic.item.Suggest.Request) {
           return mergeFrom((io.dstore.elastic.item.Suggest.Request)other);
@@ -819,7 +915,7 @@ public final class Suggest {
       }
 
       private io.dstore.elastic.Elastic.BoolQuery baseQuery_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> baseQueryBuilder_;
       /**
        * <pre>
@@ -957,11 +1053,11 @@ public final class Suggest {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
           getBaseQueryFieldBuilder() {
         if (baseQueryBuilder_ == null) {
-          baseQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          baseQueryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder>(
                   getBaseQuery(),
                   getParentForChildren(),
@@ -1189,11 +1285,11 @@ public final class Suggest {
    * Protobuf type {@code dstore.elastic.suggest.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.elastic.suggest.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1232,7 +1328,8 @@ public final class Suggest {
                 suggestion_ = new java.util.ArrayList<io.dstore.elastic.item.Suggest.Response.Suggestion>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              suggestion_.add(input.readMessage(io.dstore.elastic.item.Suggest.Response.Suggestion.parser(), extensionRegistry));
+              suggestion_.add(
+                  input.readMessage(io.dstore.elastic.item.Suggest.Response.Suggestion.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1240,7 +1337,8 @@ public final class Suggest {
                 matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              matchingItem_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
+              matchingItem_.add(
+                  input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
               break;
             }
             case 42: {
@@ -1271,7 +1369,7 @@ public final class Suggest {
       return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1311,11 +1409,11 @@ public final class Suggest {
      * Protobuf type {@code dstore.elastic.suggest.Response.Suggestion}
      */
     public  static final class Suggestion extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.elastic.suggest.Response.Suggestion)
         SuggestionOrBuilder {
       // Use Suggestion.newBuilder() to construct.
-      private Suggestion(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Suggestion(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Suggestion() {
@@ -1382,7 +1480,7 @@ public final class Suggest {
         return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1479,13 +1577,13 @@ public final class Suggest {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (!getFieldNameBytes().isEmpty()) {
-          com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, fieldName_);
         }
         if (count_ != 0) {
           output.writeInt32(2, count_);
         }
         if (!getValueBytes().isEmpty()) {
-          com.google.protobuf.GeneratedMessage.writeString(output, 3, value_);
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 3, value_);
         }
       }
 
@@ -1495,20 +1593,58 @@ public final class Suggest {
 
         size = 0;
         if (!getFieldNameBytes().isEmpty()) {
-          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, fieldName_);
         }
         if (count_ != 0) {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(2, count_);
         }
         if (!getValueBytes().isEmpty()) {
-          size += com.google.protobuf.GeneratedMessage.computeStringSize(3, value_);
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, value_);
         }
         memoizedSize = size;
         return size;
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.elastic.item.Suggest.Response.Suggestion)) {
+          return super.equals(obj);
+        }
+        io.dstore.elastic.item.Suggest.Response.Suggestion other = (io.dstore.elastic.item.Suggest.Response.Suggestion) obj;
+
+        boolean result = true;
+        result = result && getFieldName()
+            .equals(other.getFieldName());
+        result = result && (getCount()
+            == other.getCount());
+        result = result && getValue()
+            .equals(other.getValue());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getFieldName().hashCode();
+        hash = (37 * hash) + COUNT_FIELD_NUMBER;
+        hash = (53 * hash) + getCount();
+        hash = (37 * hash) + VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + getValue().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1532,39 +1668,39 @@ public final class Suggest {
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.Suggest.Response.Suggestion parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1582,7 +1718,7 @@ public final class Suggest {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1590,7 +1726,7 @@ public final class Suggest {
        * Protobuf type {@code dstore.elastic.suggest.Response.Suggestion}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.elastic.suggest.Response.Suggestion)
           io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1598,7 +1734,7 @@ public final class Suggest {
           return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1611,12 +1747,13 @@ public final class Suggest {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1656,6 +1793,32 @@ public final class Suggest {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.elastic.item.Suggest.Response.Suggestion) {
             return mergeFrom((io.dstore.elastic.item.Suggest.Response.Suggestion)other);
@@ -2040,7 +2203,7 @@ public final class Suggest {
         output.writeMessage(3, matchingItem_.get(i));
       }
       if (!getElasticQueryStringBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 5, elasticQueryString_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, elasticQueryString_);
       }
     }
 
@@ -2058,13 +2221,55 @@ public final class Suggest {
           .computeMessageSize(3, matchingItem_.get(i));
       }
       if (!getElasticQueryStringBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(5, elasticQueryString_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, elasticQueryString_);
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.elastic.item.Suggest.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.elastic.item.Suggest.Response other = (io.dstore.elastic.item.Suggest.Response) obj;
+
+      boolean result = true;
+      result = result && getSuggestionList()
+          .equals(other.getSuggestionList());
+      result = result && getMatchingItemList()
+          .equals(other.getMatchingItemList());
+      result = result && getElasticQueryString()
+          .equals(other.getElasticQueryString());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getSuggestionCount() > 0) {
+        hash = (37 * hash) + SUGGESTION_FIELD_NUMBER;
+        hash = (53 * hash) + getSuggestionList().hashCode();
+      }
+      if (getMatchingItemCount() > 0) {
+        hash = (37 * hash) + MATCHING_ITEM_FIELD_NUMBER;
+        hash = (53 * hash) + getMatchingItemList().hashCode();
+      }
+      hash = (37 * hash) + ELASTIC_QUERY_STRING_FIELD_NUMBER;
+      hash = (53 * hash) + getElasticQueryString().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2088,39 +2293,39 @@ public final class Suggest {
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.Suggest.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2138,7 +2343,7 @@ public final class Suggest {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2146,7 +2351,7 @@ public final class Suggest {
      * Protobuf type {@code dstore.elastic.suggest.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.elastic.suggest.Response)
         io.dstore.elastic.item.Suggest.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2154,7 +2359,7 @@ public final class Suggest {
         return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2167,12 +2372,13 @@ public final class Suggest {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getSuggestionFieldBuilder();
           getMatchingItemFieldBuilder();
         }
@@ -2241,6 +2447,32 @@ public final class Suggest {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.elastic.item.Suggest.Response) {
           return mergeFrom((io.dstore.elastic.item.Suggest.Response)other);
@@ -2271,7 +2503,7 @@ public final class Suggest {
               suggestion_ = other.suggestion_;
               bitField0_ = (bitField0_ & ~0x00000001);
               suggestionBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getSuggestionFieldBuilder() : null;
             } else {
               suggestionBuilder_.addAllMessages(other.suggestion_);
@@ -2297,7 +2529,7 @@ public final class Suggest {
               matchingItem_ = other.matchingItem_;
               bitField0_ = (bitField0_ & ~0x00000002);
               matchingItemBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMatchingItemFieldBuilder() : null;
             } else {
               matchingItemBuilder_.addAllMessages(other.matchingItem_);
@@ -2344,7 +2576,7 @@ public final class Suggest {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.Suggest.Response.Suggestion, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder, io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder> suggestionBuilder_;
 
       /**
@@ -2560,11 +2792,11 @@ public final class Suggest {
            getSuggestionBuilderList() {
         return getSuggestionFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.Suggest.Response.Suggestion, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder, io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder> 
           getSuggestionFieldBuilder() {
         if (suggestionBuilder_ == null) {
-          suggestionBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          suggestionBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.Suggest.Response.Suggestion, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder, io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder>(
                   suggestion_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -2584,7 +2816,7 @@ public final class Suggest {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> matchingItemBuilder_;
 
       /**
@@ -2800,11 +3032,11 @@ public final class Suggest {
            getMatchingItemBuilderList() {
         return getMatchingItemFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
           getMatchingItemFieldBuilder() {
         if (matchingItemBuilder_ == null) {
-          matchingItemBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          matchingItemBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder>(
                   matchingItem_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -2935,17 +3167,17 @@ public final class Suggest {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_suggest_Request_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_suggest_Request_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_suggest_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_suggest_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -2989,19 +3221,19 @@ public final class Suggest {
     internal_static_dstore_elastic_suggest_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_elastic_suggest_Request_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_suggest_Request_descriptor,
         new java.lang.String[] { "Input", "FieldName", "BaseQuery", "MaxItems", "MaxSuggests", "Fuzzy", "UseAndOperator", });
     internal_static_dstore_elastic_suggest_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_elastic_suggest_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_suggest_Response_descriptor,
         new java.lang.String[] { "Suggestion", "MatchingItem", "ElasticQueryString", });
     internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor =
       internal_static_dstore_elastic_suggest_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor,
         new java.lang.String[] { "FieldName", "Count", "Value", });
     io.dstore.elastic.Elastic.getDescriptor();

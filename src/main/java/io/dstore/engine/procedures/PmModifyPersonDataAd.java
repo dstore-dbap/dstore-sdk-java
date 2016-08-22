@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class PmModifyPersonDataAd {
   private PmModifyPersonDataAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.pm_ModifyPersonData_Ad.Parameters)
@@ -214,11 +220,11 @@ public final class PmModifyPersonDataAd {
    * Protobuf type {@code dstore.engine.pm_ModifyPersonData_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_ModifyPersonData_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -474,7 +480,7 @@ public final class PmModifyPersonDataAd {
       return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -989,6 +995,186 @@ public final class PmModifyPersonDataAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters other = (io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPersonId() == other.hasPersonId());
+      if (hasPersonId()) {
+        result = result && getPersonId()
+            .equals(other.getPersonId());
+      }
+      result = result && (getPersonIdNull()
+          == other.getPersonIdNull());
+      result = result && (hasCharacteristicIdList() == other.hasCharacteristicIdList());
+      if (hasCharacteristicIdList()) {
+        result = result && getCharacteristicIdList()
+            .equals(other.getCharacteristicIdList());
+      }
+      result = result && (getCharacteristicIdListNull()
+          == other.getCharacteristicIdListNull());
+      result = result && (hasValueList() == other.hasValueList());
+      if (hasValueList()) {
+        result = result && getValueList()
+            .equals(other.getValueList());
+      }
+      result = result && (getValueListNull()
+          == other.getValueListNull());
+      result = result && (hasErrorIdList() == other.hasErrorIdList());
+      if (hasErrorIdList()) {
+        result = result && getErrorIdList()
+            .equals(other.getErrorIdList());
+      }
+      result = result && (getErrorIdListNull()
+          == other.getErrorIdListNull());
+      result = result && (hasPersonCharacCategoryId() == other.hasPersonCharacCategoryId());
+      if (hasPersonCharacCategoryId()) {
+        result = result && getPersonCharacCategoryId()
+            .equals(other.getPersonCharacCategoryId());
+      }
+      result = result && (getPersonCharacCategoryIdNull()
+          == other.getPersonCharacCategoryIdNull());
+      result = result && (hasDeleteCharacCategoryId() == other.hasDeleteCharacCategoryId());
+      if (hasDeleteCharacCategoryId()) {
+        result = result && getDeleteCharacCategoryId()
+            .equals(other.getDeleteCharacCategoryId());
+      }
+      result = result && (getDeleteCharacCategoryIdNull()
+          == other.getDeleteCharacCategoryIdNull());
+      result = result && (hasResultInErrorIdList() == other.hasResultInErrorIdList());
+      if (hasResultInErrorIdList()) {
+        result = result && getResultInErrorIdList()
+            .equals(other.getResultInErrorIdList());
+      }
+      result = result && (getResultInErrorIdListNull()
+          == other.getResultInErrorIdListNull());
+      result = result && (hasValueIdsForPredefinedCharacs() == other.hasValueIdsForPredefinedCharacs());
+      if (hasValueIdsForPredefinedCharacs()) {
+        result = result && getValueIdsForPredefinedCharacs()
+            .equals(other.getValueIdsForPredefinedCharacs());
+      }
+      result = result && (getValueIdsForPredefinedCharacsNull()
+          == other.getValueIdsForPredefinedCharacsNull());
+      result = result && (hasChangeAllOrNothing() == other.hasChangeAllOrNothing());
+      if (hasChangeAllOrNothing()) {
+        result = result && getChangeAllOrNothing()
+            .equals(other.getChangeAllOrNothing());
+      }
+      result = result && (getChangeAllOrNothingNull()
+          == other.getChangeAllOrNothingNull());
+      result = result && (hasCountry() == other.hasCountry());
+      if (hasCountry()) {
+        result = result && getCountry()
+            .equals(other.getCountry());
+      }
+      result = result && (getCountryNull()
+          == other.getCountryNull());
+      result = result && (hasSeparatorInValueList() == other.hasSeparatorInValueList());
+      if (hasSeparatorInValueList()) {
+        result = result && getSeparatorInValueList()
+            .equals(other.getSeparatorInValueList());
+      }
+      result = result && (getSeparatorInValueListNull()
+          == other.getSeparatorInValueListNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPersonId()) {
+        hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdNull());
+      if (hasCharacteristicIdList()) {
+        hash = (37 * hash) + CHARACTERISTIC_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCharacteristicIdList().hashCode();
+      }
+      hash = (37 * hash) + CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCharacteristicIdListNull());
+      if (hasValueList()) {
+        hash = (37 * hash) + VALUE_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getValueList().hashCode();
+      }
+      hash = (37 * hash) + VALUE_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueListNull());
+      if (hasErrorIdList()) {
+        hash = (37 * hash) + ERROR_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getErrorIdList().hashCode();
+      }
+      hash = (37 * hash) + ERROR_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getErrorIdListNull());
+      if (hasPersonCharacCategoryId()) {
+        hash = (37 * hash) + PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonCharacCategoryId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonCharacCategoryIdNull());
+      if (hasDeleteCharacCategoryId()) {
+        hash = (37 * hash) + DELETE_CHARAC_CATEGORY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getDeleteCharacCategoryId().hashCode();
+      }
+      hash = (37 * hash) + DELETE_CHARAC_CATEGORY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeleteCharacCategoryIdNull());
+      if (hasResultInErrorIdList()) {
+        hash = (37 * hash) + RESULT_IN_ERROR_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getResultInErrorIdList().hashCode();
+      }
+      hash = (37 * hash) + RESULT_IN_ERROR_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getResultInErrorIdListNull());
+      if (hasValueIdsForPredefinedCharacs()) {
+        hash = (37 * hash) + VALUE_IDS_FOR_PREDEFINED_CHARACS_FIELD_NUMBER;
+        hash = (53 * hash) + getValueIdsForPredefinedCharacs().hashCode();
+      }
+      hash = (37 * hash) + VALUE_IDS_FOR_PREDEFINED_CHARACS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueIdsForPredefinedCharacsNull());
+      if (hasChangeAllOrNothing()) {
+        hash = (37 * hash) + CHANGE_ALL_OR_NOTHING_FIELD_NUMBER;
+        hash = (53 * hash) + getChangeAllOrNothing().hashCode();
+      }
+      hash = (37 * hash) + CHANGE_ALL_OR_NOTHING_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getChangeAllOrNothingNull());
+      if (hasCountry()) {
+        hash = (37 * hash) + COUNTRY_FIELD_NUMBER;
+        hash = (53 * hash) + getCountry().hashCode();
+      }
+      hash = (37 * hash) + COUNTRY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCountryNull());
+      if (hasSeparatorInValueList()) {
+        hash = (37 * hash) + SEPARATOR_IN_VALUE_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getSeparatorInValueList().hashCode();
+      }
+      hash = (37 * hash) + SEPARATOR_IN_VALUE_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSeparatorInValueListNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1012,39 +1198,39 @@ public final class PmModifyPersonDataAd {
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1062,7 +1248,7 @@ public final class PmModifyPersonDataAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1070,7 +1256,7 @@ public final class PmModifyPersonDataAd {
      * Protobuf type {@code dstore.engine.pm_ModifyPersonData_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.pm_ModifyPersonData_Ad.Parameters)
         io.dstore.engine.procedures.PmModifyPersonDataAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1078,7 +1264,7 @@ public final class PmModifyPersonDataAd {
         return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1091,12 +1277,13 @@ public final class PmModifyPersonDataAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1281,6 +1468,32 @@ public final class PmModifyPersonDataAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.PmModifyPersonDataAd.Parameters)other);
@@ -1385,7 +1598,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.integerValue personId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_id = 1;</code>
@@ -1487,11 +1700,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.integerValue person_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
-          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
@@ -1528,7 +1741,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.stringValue characteristicIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 2;</code>
@@ -1630,11 +1843,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCharacteristicIdListFieldBuilder() {
         if (characteristicIdListBuilder_ == null) {
-          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCharacteristicIdList(),
                   getParentForChildren(),
@@ -1671,7 +1884,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.stringValue valueList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue value_list = 3;</code>
@@ -1773,11 +1986,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.stringValue value_list = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueListFieldBuilder() {
         if (valueListBuilder_ == null) {
-          valueListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValueList(),
                   getParentForChildren(),
@@ -1814,7 +2027,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.stringValue errorIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> errorIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
@@ -1916,11 +2129,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.stringValue error_id_list = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getErrorIdListFieldBuilder() {
         if (errorIdListBuilder_ == null) {
-          errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getErrorIdList(),
                   getParentForChildren(),
@@ -1957,7 +2170,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.integerValue personCharacCategoryId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacCategoryIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
@@ -2059,11 +2272,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonCharacCategoryIdFieldBuilder() {
         if (personCharacCategoryIdBuilder_ == null) {
-          personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonCharacCategoryId(),
                   getParentForChildren(),
@@ -2100,7 +2313,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.booleanValue deleteCharacCategoryId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCharacCategoryIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
@@ -2202,11 +2415,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.booleanValue delete_charac_category_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteCharacCategoryIdFieldBuilder() {
         if (deleteCharacCategoryIdBuilder_ == null) {
-          deleteCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deleteCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteCharacCategoryId(),
                   getParentForChildren(),
@@ -2243,7 +2456,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.booleanValue resultInErrorIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> resultInErrorIdListBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
@@ -2345,11 +2558,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.booleanValue result_in_error_id_list = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getResultInErrorIdListFieldBuilder() {
         if (resultInErrorIdListBuilder_ == null) {
-          resultInErrorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          resultInErrorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getResultInErrorIdList(),
                   getParentForChildren(),
@@ -2386,7 +2599,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.booleanValue valueIdsForPredefinedCharacs_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueIdsForPredefinedCharacsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
@@ -2488,11 +2701,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getValueIdsForPredefinedCharacsFieldBuilder() {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
-          valueIdsForPredefinedCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueIdsForPredefinedCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getValueIdsForPredefinedCharacs(),
                   getParentForChildren(),
@@ -2529,7 +2742,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.booleanValue changeAllOrNothing_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> changeAllOrNothingBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
@@ -2631,11 +2844,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.booleanValue change_all_or_nothing = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getChangeAllOrNothingFieldBuilder() {
         if (changeAllOrNothingBuilder_ == null) {
-          changeAllOrNothingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          changeAllOrNothingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getChangeAllOrNothing(),
                   getParentForChildren(),
@@ -2672,7 +2885,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.stringValue country_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
        * <code>optional .dstore.values.stringValue country = 10;</code>
@@ -2774,11 +2987,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.stringValue country = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
-          countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
@@ -2815,7 +3028,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.stringValue separatorInValueList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInValueListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
@@ -2917,11 +3130,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.stringValue separator_in_value_list = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInValueListFieldBuilder() {
         if (separatorInValueListBuilder_ == null) {
-          separatorInValueListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          separatorInValueListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInValueList(),
                   getParentForChildren(),
@@ -3098,11 +3311,11 @@ public final class PmModifyPersonDataAd {
    * Protobuf type {@code dstore.engine.pm_ModifyPersonData_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_ModifyPersonData_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3141,7 +3354,8 @@ public final class PmModifyPersonDataAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3149,7 +3363,8 @@ public final class PmModifyPersonDataAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3157,7 +3372,8 @@ public final class PmModifyPersonDataAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3198,7 +3414,7 @@ public final class PmModifyPersonDataAd {
       return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3268,11 +3484,11 @@ public final class PmModifyPersonDataAd {
      * Protobuf type {@code dstore.engine.pm_ModifyPersonData_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_ModifyPersonData_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3351,7 +3567,7 @@ public final class PmModifyPersonDataAd {
         return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3478,6 +3694,54 @@ public final class PmModifyPersonDataAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row other = (io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasPersonCharacteristicId() == other.hasPersonCharacteristicId());
+        if (hasPersonCharacteristicId()) {
+          result = result && getPersonCharacteristicId()
+              .equals(other.getPersonCharacteristicId());
+        }
+        result = result && (hasResultCode() == other.hasResultCode());
+        if (hasResultCode()) {
+          result = result && getResultCode()
+              .equals(other.getResultCode());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasPersonCharacteristicId()) {
+          hash = (37 * hash) + PERSON_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonCharacteristicId().hashCode();
+        }
+        if (hasResultCode()) {
+          hash = (37 * hash) + RESULT_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getResultCode().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3501,39 +3765,39 @@ public final class PmModifyPersonDataAd {
       }
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3551,7 +3815,7 @@ public final class PmModifyPersonDataAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3559,7 +3823,7 @@ public final class PmModifyPersonDataAd {
        * Protobuf type {@code dstore.engine.pm_ModifyPersonData_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.pm_ModifyPersonData_Ad.Response.Row)
           io.dstore.engine.procedures.PmModifyPersonDataAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3567,7 +3831,7 @@ public final class PmModifyPersonDataAd {
           return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3580,12 +3844,13 @@ public final class PmModifyPersonDataAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3641,6 +3906,32 @@ public final class PmModifyPersonDataAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row)other);
@@ -3714,7 +4005,7 @@ public final class PmModifyPersonDataAd {
         }
 
         private io.dstore.Values.integerValue personCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -3852,11 +4143,11 @@ public final class PmModifyPersonDataAd {
          *
          * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
-            personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
@@ -3867,7 +4158,7 @@ public final class PmModifyPersonDataAd {
         }
 
         private io.dstore.Values.integerValue resultCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultCodeBuilder_;
         /**
          * <pre>
@@ -4005,11 +4296,11 @@ public final class PmModifyPersonDataAd {
          *
          * <code>optional .dstore.values.integerValue result_code = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getResultCodeFieldBuilder() {
           if (resultCodeBuilder_ == null) {
-            resultCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            resultCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getResultCode(),
                     getParentForChildren(),
@@ -4246,6 +4537,59 @@ public final class PmModifyPersonDataAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.PmModifyPersonDataAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.PmModifyPersonDataAd.Response other = (io.dstore.engine.procedures.PmModifyPersonDataAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasErrorIdList() == other.hasErrorIdList());
+      if (hasErrorIdList()) {
+        result = result && getErrorIdList()
+            .equals(other.getErrorIdList());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasErrorIdList()) {
+        hash = (37 * hash) + ERROR_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getErrorIdList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4269,39 +4613,39 @@ public final class PmModifyPersonDataAd {
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.PmModifyPersonDataAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4319,7 +4663,7 @@ public final class PmModifyPersonDataAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4327,7 +4671,7 @@ public final class PmModifyPersonDataAd {
      * Protobuf type {@code dstore.engine.pm_ModifyPersonData_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.pm_ModifyPersonData_Ad.Response)
         io.dstore.engine.procedures.PmModifyPersonDataAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4335,7 +4679,7 @@ public final class PmModifyPersonDataAd {
         return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.PmModifyPersonDataAd.internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4348,12 +4692,13 @@ public final class PmModifyPersonDataAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4446,6 +4791,32 @@ public final class PmModifyPersonDataAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.PmModifyPersonDataAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.PmModifyPersonDataAd.Response)other);
@@ -4476,7 +4847,7 @@ public final class PmModifyPersonDataAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4502,7 +4873,7 @@ public final class PmModifyPersonDataAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4528,7 +4899,7 @@ public final class PmModifyPersonDataAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4574,7 +4945,7 @@ public final class PmModifyPersonDataAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4790,11 +5161,11 @@ public final class PmModifyPersonDataAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4814,7 +5185,7 @@ public final class PmModifyPersonDataAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5030,11 +5401,11 @@ public final class PmModifyPersonDataAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5054,7 +5425,7 @@ public final class PmModifyPersonDataAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row, io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row.Builder, io.dstore.engine.procedures.PmModifyPersonDataAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5270,11 +5641,11 @@ public final class PmModifyPersonDataAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row, io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row.Builder, io.dstore.engine.procedures.PmModifyPersonDataAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row, io.dstore.engine.procedures.PmModifyPersonDataAd.Response.Row.Builder, io.dstore.engine.procedures.PmModifyPersonDataAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5286,7 +5657,7 @@ public final class PmModifyPersonDataAd {
       }
 
       private io.dstore.Values.stringValue errorIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> errorIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue error_id_list = 101;</code>
@@ -5388,11 +5759,11 @@ public final class PmModifyPersonDataAd {
       /**
        * <code>optional .dstore.values.stringValue error_id_list = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getErrorIdListFieldBuilder() {
         if (errorIdListBuilder_ == null) {
-          errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getErrorIdList(),
                   getParentForChildren(),
@@ -5453,17 +5824,17 @@ public final class PmModifyPersonDataAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5536,19 +5907,19 @@ public final class PmModifyPersonDataAd {
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonData_Ad_Parameters_descriptor,
         new java.lang.String[] { "PersonId", "PersonIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "ValueList", "ValueListNull", "ErrorIdList", "ErrorIdListNull", "PersonCharacCategoryId", "PersonCharacCategoryIdNull", "DeleteCharacCategoryId", "DeleteCharacCategoryIdNull", "ResultInErrorIdList", "ResultInErrorIdListNull", "ValueIdsForPredefinedCharacs", "ValueIdsForPredefinedCharacsNull", "ChangeAllOrNothing", "ChangeAllOrNothingNull", "Country", "CountryNull", "SeparatorInValueList", "SeparatorInValueListNull", });
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "ErrorIdList", });
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonData_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonCharacteristicId", "ResultCode", });
     io.dstore.Values.getDescriptor();

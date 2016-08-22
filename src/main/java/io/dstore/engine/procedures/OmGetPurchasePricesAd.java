@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetPurchasePricesAd {
   private OmGetPurchasePricesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetPurchasePrices_Ad.Parameters)
@@ -124,11 +130,11 @@ public final class OmGetPurchasePricesAd {
    * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPurchasePrices_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -289,7 +295,7 @@ public final class OmGetPurchasePricesAd {
       return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -584,6 +590,116 @@ public final class OmGetPurchasePricesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters other = (io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasTreeNodeOrNodeId() == other.hasTreeNodeOrNodeId());
+      if (hasTreeNodeOrNodeId()) {
+        result = result && getTreeNodeOrNodeId()
+            .equals(other.getTreeNodeOrNodeId());
+      }
+      result = result && (getTreeNodeOrNodeIdNull()
+          == other.getTreeNodeOrNodeIdNull());
+      result = result && (hasIsTreeNodeId() == other.hasIsTreeNodeId());
+      if (hasIsTreeNodeId()) {
+        result = result && getIsTreeNodeId()
+            .equals(other.getIsTreeNodeId());
+      }
+      result = result && (getIsTreeNodeIdNull()
+          == other.getIsTreeNodeIdNull());
+      result = result && (hasQuantity() == other.hasQuantity());
+      if (hasQuantity()) {
+        result = result && getQuantity()
+            .equals(other.getQuantity());
+      }
+      result = result && (getQuantityNull()
+          == other.getQuantityNull());
+      result = result && (hasSupplierId() == other.hasSupplierId());
+      if (hasSupplierId()) {
+        result = result && getSupplierId()
+            .equals(other.getSupplierId());
+      }
+      result = result && (getSupplierIdNull()
+          == other.getSupplierIdNull());
+      result = result && (hasDateForPropertyDetermination() == other.hasDateForPropertyDetermination());
+      if (hasDateForPropertyDetermination()) {
+        result = result && getDateForPropertyDetermination()
+            .equals(other.getDateForPropertyDetermination());
+      }
+      result = result && (getDateForPropertyDeterminationNull()
+          == other.getDateForPropertyDeterminationNull());
+      result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+      if (hasNodeCharacteristicId()) {
+        result = result && getNodeCharacteristicId()
+            .equals(other.getNodeCharacteristicId());
+      }
+      result = result && (getNodeCharacteristicIdNull()
+          == other.getNodeCharacteristicIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasTreeNodeOrNodeId()) {
+        hash = (37 * hash) + TREE_NODE_OR_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTreeNodeOrNodeId().hashCode();
+      }
+      hash = (37 * hash) + TREE_NODE_OR_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTreeNodeOrNodeIdNull());
+      if (hasIsTreeNodeId()) {
+        hash = (37 * hash) + IS_TREE_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getIsTreeNodeId().hashCode();
+      }
+      hash = (37 * hash) + IS_TREE_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsTreeNodeIdNull());
+      if (hasQuantity()) {
+        hash = (37 * hash) + QUANTITY_FIELD_NUMBER;
+        hash = (53 * hash) + getQuantity().hashCode();
+      }
+      hash = (37 * hash) + QUANTITY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getQuantityNull());
+      if (hasSupplierId()) {
+        hash = (37 * hash) + SUPPLIER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getSupplierId().hashCode();
+      }
+      hash = (37 * hash) + SUPPLIER_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSupplierIdNull());
+      if (hasDateForPropertyDetermination()) {
+        hash = (37 * hash) + DATE_FOR_PROPERTY_DETERMINATION_FIELD_NUMBER;
+        hash = (53 * hash) + getDateForPropertyDetermination().hashCode();
+      }
+      hash = (37 * hash) + DATE_FOR_PROPERTY_DETERMINATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDateForPropertyDeterminationNull());
+      if (hasNodeCharacteristicId()) {
+        hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacteristicIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -607,39 +723,39 @@ public final class OmGetPurchasePricesAd {
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -657,7 +773,7 @@ public final class OmGetPurchasePricesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -665,7 +781,7 @@ public final class OmGetPurchasePricesAd {
      * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPurchasePrices_Ad.Parameters)
         io.dstore.engine.procedures.OmGetPurchasePricesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -673,7 +789,7 @@ public final class OmGetPurchasePricesAd {
         return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -686,12 +802,13 @@ public final class OmGetPurchasePricesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -806,6 +923,32 @@ public final class OmGetPurchasePricesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetPurchasePricesAd.Parameters)other);
@@ -880,7 +1023,7 @@ public final class OmGetPurchasePricesAd {
       }
 
       private io.dstore.Values.integerValue treeNodeOrNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeOrNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
@@ -982,11 +1125,11 @@ public final class OmGetPurchasePricesAd {
       /**
        * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTreeNodeOrNodeIdFieldBuilder() {
         if (treeNodeOrNodeIdBuilder_ == null) {
-          treeNodeOrNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          treeNodeOrNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTreeNodeOrNodeId(),
                   getParentForChildren(),
@@ -1023,7 +1166,7 @@ public final class OmGetPurchasePricesAd {
       }
 
       private io.dstore.Values.booleanValue isTreeNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isTreeNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
@@ -1125,11 +1268,11 @@ public final class OmGetPurchasePricesAd {
       /**
        * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIsTreeNodeIdFieldBuilder() {
         if (isTreeNodeIdBuilder_ == null) {
-          isTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          isTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIsTreeNodeId(),
                   getParentForChildren(),
@@ -1166,7 +1309,7 @@ public final class OmGetPurchasePricesAd {
       }
 
       private io.dstore.Values.integerValue quantity_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
       /**
        * <code>optional .dstore.values.integerValue quantity = 3;</code>
@@ -1268,11 +1411,11 @@ public final class OmGetPurchasePricesAd {
       /**
        * <code>optional .dstore.values.integerValue quantity = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getQuantityFieldBuilder() {
         if (quantityBuilder_ == null) {
-          quantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getQuantity(),
                   getParentForChildren(),
@@ -1309,7 +1452,7 @@ public final class OmGetPurchasePricesAd {
       }
 
       private io.dstore.Values.integerValue supplierId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> supplierIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
@@ -1411,11 +1554,11 @@ public final class OmGetPurchasePricesAd {
       /**
        * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSupplierIdFieldBuilder() {
         if (supplierIdBuilder_ == null) {
-          supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSupplierId(),
                   getParentForChildren(),
@@ -1452,7 +1595,7 @@ public final class OmGetPurchasePricesAd {
       }
 
       private io.dstore.Values.timestampValue dateForPropertyDetermination_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateForPropertyDeterminationBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
@@ -1554,11 +1697,11 @@ public final class OmGetPurchasePricesAd {
       /**
        * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getDateForPropertyDeterminationFieldBuilder() {
         if (dateForPropertyDeterminationBuilder_ == null) {
-          dateForPropertyDeterminationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dateForPropertyDeterminationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getDateForPropertyDetermination(),
                   getParentForChildren(),
@@ -1595,7 +1738,7 @@ public final class OmGetPurchasePricesAd {
       }
 
       private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
@@ -1697,11 +1840,11 @@ public final class OmGetPurchasePricesAd {
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
@@ -1885,11 +2028,11 @@ public final class OmGetPurchasePricesAd {
    * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPurchasePrices_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1928,7 +2071,8 @@ public final class OmGetPurchasePricesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1936,7 +2080,8 @@ public final class OmGetPurchasePricesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1944,7 +2089,8 @@ public final class OmGetPurchasePricesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1972,7 +2118,7 @@ public final class OmGetPurchasePricesAd {
       return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2392,11 +2538,11 @@ public final class OmGetPurchasePricesAd {
      * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPurchasePrices_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2657,7 +2803,7 @@ public final class OmGetPurchasePricesAd {
         return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3344,6 +3490,180 @@ public final class OmGetPurchasePricesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row other = (io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasSupplCharacVal2RestrByPattern() == other.hasSupplCharacVal2RestrByPattern());
+        if (hasSupplCharacVal2RestrByPattern()) {
+          result = result && getSupplCharacVal2RestrByPattern()
+              .equals(other.getSupplCharacVal2RestrByPattern());
+        }
+        result = result && (hasItemProperty() == other.hasItemProperty());
+        if (hasItemProperty()) {
+          result = result && getItemProperty()
+              .equals(other.getItemProperty());
+        }
+        result = result && (hasSupplierCharacteristicValue2() == other.hasSupplierCharacteristicValue2());
+        if (hasSupplierCharacteristicValue2()) {
+          result = result && getSupplierCharacteristicValue2()
+              .equals(other.getSupplierCharacteristicValue2());
+        }
+        result = result && (hasTotalNetPrice() == other.hasTotalNetPrice());
+        if (hasTotalNetPrice()) {
+          result = result && getTotalNetPrice()
+              .equals(other.getTotalNetPrice());
+        }
+        result = result && (hasQuantity() == other.hasQuantity());
+        if (hasQuantity()) {
+          result = result && getQuantity()
+              .equals(other.getQuantity());
+        }
+        result = result && (hasSupplierCharacteristicValue1() == other.hasSupplierCharacteristicValue1());
+        if (hasSupplierCharacteristicValue1()) {
+          result = result && getSupplierCharacteristicValue1()
+              .equals(other.getSupplierCharacteristicValue1());
+        }
+        result = result && (hasCurrencyId() == other.hasCurrencyId());
+        if (hasCurrencyId()) {
+          result = result && getCurrencyId()
+              .equals(other.getCurrencyId());
+        }
+        result = result && (hasCurrencySymbol() == other.hasCurrencySymbol());
+        if (hasCurrencySymbol()) {
+          result = result && getCurrencySymbol()
+              .equals(other.getCurrencySymbol());
+        }
+        result = result && (hasSupplierId() == other.hasSupplierId());
+        if (hasSupplierId()) {
+          result = result && getSupplierId()
+              .equals(other.getSupplierId());
+        }
+        result = result && (hasNodeDescription() == other.hasNodeDescription());
+        if (hasNodeDescription()) {
+          result = result && getNodeDescription()
+              .equals(other.getNodeDescription());
+        }
+        result = result && (hasUnitNetPrice() == other.hasUnitNetPrice());
+        if (hasUnitNetPrice()) {
+          result = result && getUnitNetPrice()
+              .equals(other.getUnitNetPrice());
+        }
+        result = result && (hasHTreeNodeId() == other.hasHTreeNodeId());
+        if (hasHTreeNodeId()) {
+          result = result && getHTreeNodeId()
+              .equals(other.getHTreeNodeId());
+        }
+        result = result && (hasItemNo() == other.hasItemNo());
+        if (hasItemNo()) {
+          result = result && getItemNo()
+              .equals(other.getItemNo());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasTreeNodeId() == other.hasTreeNodeId());
+        if (hasTreeNodeId()) {
+          result = result && getTreeNodeId()
+              .equals(other.getTreeNodeId());
+        }
+        result = result && (hasSupplCharacVal1RestrByPattern() == other.hasSupplCharacVal1RestrByPattern());
+        if (hasSupplCharacVal1RestrByPattern()) {
+          result = result && getSupplCharacVal1RestrByPattern()
+              .equals(other.getSupplCharacVal1RestrByPattern());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasSupplCharacVal2RestrByPattern()) {
+          hash = (37 * hash) + SUPPL_CHARAC_VAL2_RESTR_BY_PATTERN_FIELD_NUMBER;
+          hash = (53 * hash) + getSupplCharacVal2RestrByPattern().hashCode();
+        }
+        if (hasItemProperty()) {
+          hash = (37 * hash) + ITEM_PROPERTY_FIELD_NUMBER;
+          hash = (53 * hash) + getItemProperty().hashCode();
+        }
+        if (hasSupplierCharacteristicValue2()) {
+          hash = (37 * hash) + SUPPLIER_CHARACTERISTIC_VALUE2_FIELD_NUMBER;
+          hash = (53 * hash) + getSupplierCharacteristicValue2().hashCode();
+        }
+        if (hasTotalNetPrice()) {
+          hash = (37 * hash) + TOTAL_NET_PRICE_FIELD_NUMBER;
+          hash = (53 * hash) + getTotalNetPrice().hashCode();
+        }
+        if (hasQuantity()) {
+          hash = (37 * hash) + QUANTITY_FIELD_NUMBER;
+          hash = (53 * hash) + getQuantity().hashCode();
+        }
+        if (hasSupplierCharacteristicValue1()) {
+          hash = (37 * hash) + SUPPLIER_CHARACTERISTIC_VALUE1_FIELD_NUMBER;
+          hash = (53 * hash) + getSupplierCharacteristicValue1().hashCode();
+        }
+        if (hasCurrencyId()) {
+          hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrencyId().hashCode();
+        }
+        if (hasCurrencySymbol()) {
+          hash = (37 * hash) + CURRENCY_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrencySymbol().hashCode();
+        }
+        if (hasSupplierId()) {
+          hash = (37 * hash) + SUPPLIER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getSupplierId().hashCode();
+        }
+        if (hasNodeDescription()) {
+          hash = (37 * hash) + NODE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeDescription().hashCode();
+        }
+        if (hasUnitNetPrice()) {
+          hash = (37 * hash) + UNIT_NET_PRICE_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitNetPrice().hashCode();
+        }
+        if (hasHTreeNodeId()) {
+          hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getHTreeNodeId().hashCode();
+        }
+        if (hasItemNo()) {
+          hash = (37 * hash) + ITEM_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getItemNo().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasTreeNodeId()) {
+          hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTreeNodeId().hashCode();
+        }
+        if (hasSupplCharacVal1RestrByPattern()) {
+          hash = (37 * hash) + SUPPL_CHARAC_VAL1_RESTR_BY_PATTERN_FIELD_NUMBER;
+          hash = (53 * hash) + getSupplCharacVal1RestrByPattern().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3367,39 +3687,39 @@ public final class OmGetPurchasePricesAd {
       }
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3417,7 +3737,7 @@ public final class OmGetPurchasePricesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3425,7 +3745,7 @@ public final class OmGetPurchasePricesAd {
        * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPurchasePrices_Ad.Response.Row)
           io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3433,7 +3753,7 @@ public final class OmGetPurchasePricesAd {
           return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3446,12 +3766,13 @@ public final class OmGetPurchasePricesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3661,6 +3982,32 @@ public final class OmGetPurchasePricesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row)other);
@@ -3776,7 +4123,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue supplCharacVal2RestrByPattern_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplCharacVal2RestrByPatternBuilder_;
         /**
          * <pre>
@@ -3914,11 +4261,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSupplCharacVal2RestrByPatternFieldBuilder() {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
-            supplCharacVal2RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            supplCharacVal2RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSupplCharacVal2RestrByPattern(),
                     getParentForChildren(),
@@ -3929,7 +4276,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue itemProperty_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemPropertyBuilder_;
         /**
          * <pre>
@@ -4067,11 +4414,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue item_property = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getItemPropertyFieldBuilder() {
           if (itemPropertyBuilder_ == null) {
-            itemPropertyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemPropertyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getItemProperty(),
                     getParentForChildren(),
@@ -4082,7 +4429,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue supplierCharacteristicValue2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplierCharacteristicValue2Builder_;
         /**
          * <pre>
@@ -4220,11 +4567,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSupplierCharacteristicValue2FieldBuilder() {
           if (supplierCharacteristicValue2Builder_ == null) {
-            supplierCharacteristicValue2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            supplierCharacteristicValue2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSupplierCharacteristicValue2(),
                     getParentForChildren(),
@@ -4235,7 +4582,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.decimalValue totalNetPrice_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalNetPriceBuilder_;
         /**
          * <pre>
@@ -4373,11 +4720,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTotalNetPriceFieldBuilder() {
           if (totalNetPriceBuilder_ == null) {
-            totalNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            totalNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTotalNetPrice(),
                     getParentForChildren(),
@@ -4388,7 +4735,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.integerValue quantity_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
         /**
          * <pre>
@@ -4526,11 +4873,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.integerValue quantity = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getQuantityFieldBuilder() {
           if (quantityBuilder_ == null) {
-            quantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getQuantity(),
                     getParentForChildren(),
@@ -4541,7 +4888,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue supplierCharacteristicValue1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplierCharacteristicValue1Builder_;
         /**
          * <pre>
@@ -4679,11 +5026,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSupplierCharacteristicValue1FieldBuilder() {
           if (supplierCharacteristicValue1Builder_ == null) {
-            supplierCharacteristicValue1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            supplierCharacteristicValue1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSupplierCharacteristicValue1(),
                     getParentForChildren(),
@@ -4694,7 +5041,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.integerValue currencyId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
@@ -4832,11 +5179,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
-            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
@@ -4847,7 +5194,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue currencySymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currencySymbolBuilder_;
         /**
          * <pre>
@@ -4985,11 +5332,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCurrencySymbolFieldBuilder() {
           if (currencySymbolBuilder_ == null) {
-            currencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCurrencySymbol(),
                     getParentForChildren(),
@@ -5000,7 +5347,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.integerValue supplierId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> supplierIdBuilder_;
         /**
          * <pre>
@@ -5138,11 +5485,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSupplierIdFieldBuilder() {
           if (supplierIdBuilder_ == null) {
-            supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSupplierId(),
                     getParentForChildren(),
@@ -5153,7 +5500,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue nodeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
@@ -5291,11 +5638,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue node_description = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
-            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
@@ -5306,7 +5653,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.decimalValue unitNetPrice_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitNetPriceBuilder_;
         /**
          * <pre>
@@ -5444,11 +5791,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getUnitNetPriceFieldBuilder() {
           if (unitNetPriceBuilder_ == null) {
-            unitNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getUnitNetPrice(),
                     getParentForChildren(),
@@ -5459,7 +5806,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.integerValue hTreeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
@@ -5597,11 +5944,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
-            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
@@ -5612,7 +5959,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue itemNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemNoBuilder_;
         /**
          * <pre>
@@ -5750,11 +6097,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue item_no = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getItemNoFieldBuilder() {
           if (itemNoBuilder_ == null) {
-            itemNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getItemNo(),
                     getParentForChildren(),
@@ -5765,7 +6112,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -5903,11 +6250,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.integerValue node_id = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -5918,7 +6265,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.integerValue treeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
@@ -6056,11 +6403,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
-            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
@@ -6071,7 +6418,7 @@ public final class OmGetPurchasePricesAd {
         }
 
         private io.dstore.Values.stringValue supplCharacVal1RestrByPattern_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplCharacVal1RestrByPatternBuilder_;
         /**
          * <pre>
@@ -6209,11 +6556,11 @@ public final class OmGetPurchasePricesAd {
          *
          * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSupplCharacVal1RestrByPatternFieldBuilder() {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
-            supplCharacVal1RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            supplCharacVal1RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSupplCharacVal1RestrByPattern(),
                     getParentForChildren(),
@@ -6441,6 +6788,50 @@ public final class OmGetPurchasePricesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetPurchasePricesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetPurchasePricesAd.Response other = (io.dstore.engine.procedures.OmGetPurchasePricesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -6464,39 +6855,39 @@ public final class OmGetPurchasePricesAd {
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPurchasePricesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -6514,7 +6905,7 @@ public final class OmGetPurchasePricesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -6522,7 +6913,7 @@ public final class OmGetPurchasePricesAd {
      * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPurchasePrices_Ad.Response)
         io.dstore.engine.procedures.OmGetPurchasePricesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -6530,7 +6921,7 @@ public final class OmGetPurchasePricesAd {
         return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPurchasePricesAd.internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -6543,12 +6934,13 @@ public final class OmGetPurchasePricesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -6628,6 +7020,32 @@ public final class OmGetPurchasePricesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetPurchasePricesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetPurchasePricesAd.Response)other);
@@ -6658,7 +7076,7 @@ public final class OmGetPurchasePricesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -6684,7 +7102,7 @@ public final class OmGetPurchasePricesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -6710,7 +7128,7 @@ public final class OmGetPurchasePricesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -6753,7 +7171,7 @@ public final class OmGetPurchasePricesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -6969,11 +7387,11 @@ public final class OmGetPurchasePricesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -6993,7 +7411,7 @@ public final class OmGetPurchasePricesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -7209,11 +7627,11 @@ public final class OmGetPurchasePricesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -7233,7 +7651,7 @@ public final class OmGetPurchasePricesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row, io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -7521,11 +7939,11 @@ public final class OmGetPurchasePricesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row, io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row, io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPurchasePricesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -7587,17 +8005,17 @@ public final class OmGetPurchasePricesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -7677,19 +8095,19 @@ public final class OmGetPurchasePricesAd {
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_descriptor,
         new java.lang.String[] { "TreeNodeOrNodeId", "TreeNodeOrNodeIdNull", "IsTreeNodeId", "IsTreeNodeIdNull", "Quantity", "QuantityNull", "SupplierId", "SupplierIdNull", "DateForPropertyDetermination", "DateForPropertyDeterminationNull", "NodeCharacteristicId", "NodeCharacteristicIdNull", });
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "SupplCharacVal2RestrByPattern", "ItemProperty", "SupplierCharacteristicValue2", "TotalNetPrice", "Quantity", "SupplierCharacteristicValue1", "CurrencyId", "CurrencySymbol", "SupplierId", "NodeDescription", "UnitNetPrice", "HTreeNodeId", "ItemNo", "NodeId", "TreeNodeId", "SupplCharacVal1RestrByPattern", });
     io.dstore.Values.getDescriptor();

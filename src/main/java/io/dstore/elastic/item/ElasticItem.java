@@ -6,7 +6,13 @@ package io.dstore.elastic.item;
 public final class ElasticItem {
   private ElasticItem() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ItemOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.elastic.item.Item)
@@ -91,11 +97,11 @@ public final class ElasticItem {
    * Protobuf type {@code dstore.elastic.item.Item}
    */
   public  static final class Item extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.elastic.item.Item)
       ItemOrBuilder {
     // Use Item.newBuilder() to construct.
-    private Item(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Item(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Item() {
@@ -148,7 +154,8 @@ public final class ElasticItem {
                 variantNode_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticNode.Node>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              variantNode_.add(input.readMessage(io.dstore.elastic.item.ElasticNode.Node.parser(), extensionRegistry));
+              variantNode_.add(
+                  input.readMessage(io.dstore.elastic.item.ElasticNode.Node.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -200,7 +207,7 @@ public final class ElasticItem {
       return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Item_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Item_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -387,10 +394,10 @@ public final class ElasticItem {
         output.writeDouble(10, score_);
       }
       if (!getIndexNameBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 11, indexName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, indexName_);
       }
       if (!getDocumentIdBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 12, documentId_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, documentId_);
       }
     }
 
@@ -416,16 +423,81 @@ public final class ElasticItem {
           .computeDoubleSize(10, score_);
       }
       if (!getIndexNameBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(11, indexName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, indexName_);
       }
       if (!getDocumentIdBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(12, documentId_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, documentId_);
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.elastic.item.ElasticItem.Item)) {
+        return super.equals(obj);
+      }
+      io.dstore.elastic.item.ElasticItem.Item other = (io.dstore.elastic.item.ElasticItem.Item) obj;
+
+      boolean result = true;
+      result = result && (hasNode() == other.hasNode());
+      if (hasNode()) {
+        result = result && getNode()
+            .equals(other.getNode());
+      }
+      result = result && getVariantNodeList()
+          .equals(other.getVariantNodeList());
+      result = result && (hasLastUpdated() == other.hasLastUpdated());
+      if (hasLastUpdated()) {
+        result = result && getLastUpdated()
+            .equals(other.getLastUpdated());
+      }
+      result = result && (
+          java.lang.Double.doubleToLongBits(getScore())
+          == java.lang.Double.doubleToLongBits(
+              other.getScore()));
+      result = result && getIndexName()
+          .equals(other.getIndexName());
+      result = result && getDocumentId()
+          .equals(other.getDocumentId());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasNode()) {
+        hash = (37 * hash) + NODE_FIELD_NUMBER;
+        hash = (53 * hash) + getNode().hashCode();
+      }
+      if (getVariantNodeCount() > 0) {
+        hash = (37 * hash) + VARIANT_NODE_FIELD_NUMBER;
+        hash = (53 * hash) + getVariantNodeList().hashCode();
+      }
+      if (hasLastUpdated()) {
+        hash = (37 * hash) + LAST_UPDATED_FIELD_NUMBER;
+        hash = (53 * hash) + getLastUpdated().hashCode();
+      }
+      hash = (37 * hash) + SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          java.lang.Double.doubleToLongBits(getScore()));
+      hash = (37 * hash) + INDEX_NAME_FIELD_NUMBER;
+      hash = (53 * hash) + getIndexName().hashCode();
+      hash = (37 * hash) + DOCUMENT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getDocumentId().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -449,39 +521,39 @@ public final class ElasticItem {
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Item parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -499,7 +571,7 @@ public final class ElasticItem {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -507,7 +579,7 @@ public final class ElasticItem {
      * Protobuf type {@code dstore.elastic.item.Item}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Item)
         io.dstore.elastic.item.ElasticItem.ItemOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -515,7 +587,7 @@ public final class ElasticItem {
         return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Item_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Item_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -528,12 +600,13 @@ public final class ElasticItem {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getVariantNodeFieldBuilder();
         }
       }
@@ -614,6 +687,32 @@ public final class ElasticItem {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.elastic.item.ElasticItem.Item) {
           return mergeFrom((io.dstore.elastic.item.ElasticItem.Item)other);
@@ -647,7 +746,7 @@ public final class ElasticItem {
               variantNode_ = other.variantNode_;
               bitField0_ = (bitField0_ & ~0x00000002);
               variantNodeBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getVariantNodeFieldBuilder() : null;
             } else {
               variantNodeBuilder_.addAllMessages(other.variantNode_);
@@ -696,7 +795,7 @@ public final class ElasticItem {
       private int bitField0_;
 
       private io.dstore.elastic.item.ElasticNode.Node node_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.item.ElasticNode.Node, io.dstore.elastic.item.ElasticNode.Node.Builder, io.dstore.elastic.item.ElasticNode.NodeOrBuilder> nodeBuilder_;
       /**
        * <code>optional .dstore.elastic.node.Node node = 1;</code>
@@ -798,11 +897,11 @@ public final class ElasticItem {
       /**
        * <code>optional .dstore.elastic.node.Node node = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.item.ElasticNode.Node, io.dstore.elastic.item.ElasticNode.Node.Builder, io.dstore.elastic.item.ElasticNode.NodeOrBuilder> 
           getNodeFieldBuilder() {
         if (nodeBuilder_ == null) {
-          nodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.elastic.item.ElasticNode.Node, io.dstore.elastic.item.ElasticNode.Node.Builder, io.dstore.elastic.item.ElasticNode.NodeOrBuilder>(
                   getNode(),
                   getParentForChildren(),
@@ -821,7 +920,7 @@ public final class ElasticItem {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticNode.Node, io.dstore.elastic.item.ElasticNode.Node.Builder, io.dstore.elastic.item.ElasticNode.NodeOrBuilder> variantNodeBuilder_;
 
       /**
@@ -1037,11 +1136,11 @@ public final class ElasticItem {
            getVariantNodeBuilderList() {
         return getVariantNodeFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticNode.Node, io.dstore.elastic.item.ElasticNode.Node.Builder, io.dstore.elastic.item.ElasticNode.NodeOrBuilder> 
           getVariantNodeFieldBuilder() {
         if (variantNodeBuilder_ == null) {
-          variantNodeBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          variantNodeBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.ElasticNode.Node, io.dstore.elastic.item.ElasticNode.Node.Builder, io.dstore.elastic.item.ElasticNode.NodeOrBuilder>(
                   variantNode_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -1053,7 +1152,7 @@ public final class ElasticItem {
       }
 
       private io.dstore.Values.timestampValue lastUpdated_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastUpdatedBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
@@ -1155,11 +1254,11 @@ public final class ElasticItem {
       /**
        * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getLastUpdatedFieldBuilder() {
         if (lastUpdatedBuilder_ == null) {
-          lastUpdatedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          lastUpdatedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getLastUpdated(),
                   getParentForChildren(),
@@ -1441,11 +1540,11 @@ public final class ElasticItem {
    * Protobuf type {@code dstore.elastic.item.Facet}
    */
   public  static final class Facet extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.elastic.item.Facet)
       FacetOrBuilder {
     // Use Facet.newBuilder() to construct.
-    private Facet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Facet(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Facet() {
@@ -1491,7 +1590,8 @@ public final class ElasticItem {
                 facetValue_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet.FacetValue>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              facetValue_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.FacetValue.parser(), extensionRegistry));
+              facetValue_.add(
+                  input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.FacetValue.parser(), extensionRegistry));
               break;
             }
             case 81: {
@@ -1523,7 +1623,7 @@ public final class ElasticItem {
       return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1588,11 +1688,11 @@ public final class ElasticItem {
      * Protobuf type {@code dstore.elastic.item.Facet.FacetValue}
      */
     public  static final class FacetValue extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.elastic.item.Facet.FacetValue)
         FacetValueOrBuilder {
       // Use FacetValue.newBuilder() to construct.
-      private FacetValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private FacetValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private FacetValue() {
@@ -1682,7 +1782,7 @@ public final class ElasticItem {
         return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1833,6 +1933,68 @@ public final class ElasticItem {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.elastic.item.ElasticItem.Facet.FacetValue)) {
+          return super.equals(obj);
+        }
+        io.dstore.elastic.item.ElasticItem.Facet.FacetValue other = (io.dstore.elastic.item.ElasticItem.Facet.FacetValue) obj;
+
+        boolean result = true;
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (getTotalItemCount()
+            == other.getTotalItemCount());
+        result = result && (getMatchingItemCount()
+            == other.getMatchingItemCount());
+        result = result && (getActive()
+            == other.getActive());
+        result = result && (
+            java.lang.Double.doubleToLongBits(getMinValue())
+            == java.lang.Double.doubleToLongBits(
+                other.getMinValue()));
+        result = result && (
+            java.lang.Double.doubleToLongBits(getMaxValue())
+            == java.lang.Double.doubleToLongBits(
+                other.getMaxValue()));
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        hash = (37 * hash) + TOTAL_ITEM_COUNT_FIELD_NUMBER;
+        hash = (53 * hash) + getTotalItemCount();
+        hash = (37 * hash) + MATCHING_ITEM_COUNT_FIELD_NUMBER;
+        hash = (53 * hash) + getMatchingItemCount();
+        hash = (37 * hash) + ACTIVE_FIELD_NUMBER;
+        hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+            getActive());
+        hash = (37 * hash) + MIN_VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+            java.lang.Double.doubleToLongBits(getMinValue()));
+        hash = (37 * hash) + MAX_VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+            java.lang.Double.doubleToLongBits(getMaxValue()));
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1856,39 +2018,39 @@ public final class ElasticItem {
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1906,7 +2068,7 @@ public final class ElasticItem {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1914,7 +2076,7 @@ public final class ElasticItem {
        * Protobuf type {@code dstore.elastic.item.Facet.FacetValue}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Facet.FacetValue)
           io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1922,7 +2084,7 @@ public final class ElasticItem {
           return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1935,12 +2097,13 @@ public final class ElasticItem {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1997,6 +2160,32 @@ public final class ElasticItem {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.elastic.item.ElasticItem.Facet.FacetValue) {
             return mergeFrom((io.dstore.elastic.item.ElasticItem.Facet.FacetValue)other);
@@ -2053,7 +2242,7 @@ public final class ElasticItem {
         }
 
         private io.dstore.Values.Value value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> valueBuilder_;
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
@@ -2155,11 +2344,11 @@ public final class ElasticItem {
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -2492,7 +2681,7 @@ public final class ElasticItem {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getFieldNameBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, fieldName_);
       }
       for (int i = 0; i < facetValue_.size(); i++) {
         output.writeMessage(2, facetValue_.get(i));
@@ -2511,7 +2700,7 @@ public final class ElasticItem {
 
       size = 0;
       if (!getFieldNameBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, fieldName_);
       }
       for (int i = 0; i < facetValue_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -2530,6 +2719,56 @@ public final class ElasticItem {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.elastic.item.ElasticItem.Facet)) {
+        return super.equals(obj);
+      }
+      io.dstore.elastic.item.ElasticItem.Facet other = (io.dstore.elastic.item.ElasticItem.Facet) obj;
+
+      boolean result = true;
+      result = result && getFieldName()
+          .equals(other.getFieldName());
+      result = result && getFacetValueList()
+          .equals(other.getFacetValueList());
+      result = result && (
+          java.lang.Double.doubleToLongBits(getRangeFrom())
+          == java.lang.Double.doubleToLongBits(
+              other.getRangeFrom()));
+      result = result && (
+          java.lang.Double.doubleToLongBits(getRangeTo())
+          == java.lang.Double.doubleToLongBits(
+              other.getRangeTo()));
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
+      hash = (53 * hash) + getFieldName().hashCode();
+      if (getFacetValueCount() > 0) {
+        hash = (37 * hash) + FACET_VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + getFacetValueList().hashCode();
+      }
+      hash = (37 * hash) + RANGE_FROM_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          java.lang.Double.doubleToLongBits(getRangeFrom()));
+      hash = (37 * hash) + RANGE_TO_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          java.lang.Double.doubleToLongBits(getRangeTo()));
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2553,39 +2792,39 @@ public final class ElasticItem {
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2603,7 +2842,7 @@ public final class ElasticItem {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2611,7 +2850,7 @@ public final class ElasticItem {
      * Protobuf type {@code dstore.elastic.item.Facet}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Facet)
         io.dstore.elastic.item.ElasticItem.FacetOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2619,7 +2858,7 @@ public final class ElasticItem {
         return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2632,12 +2871,13 @@ public final class ElasticItem {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getFacetValueFieldBuilder();
         }
       }
@@ -2696,6 +2936,32 @@ public final class ElasticItem {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.elastic.item.ElasticItem.Facet) {
           return mergeFrom((io.dstore.elastic.item.ElasticItem.Facet)other);
@@ -2730,7 +2996,7 @@ public final class ElasticItem {
               facetValue_ = other.facetValue_;
               bitField0_ = (bitField0_ & ~0x00000002);
               facetValueBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFacetValueFieldBuilder() : null;
             } else {
               facetValueBuilder_.addAllMessages(other.facetValue_);
@@ -2848,7 +3114,7 @@ public final class ElasticItem {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Facet.FacetValue, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder, io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> facetValueBuilder_;
 
       /**
@@ -3064,11 +3330,11 @@ public final class ElasticItem {
            getFacetValueBuilderList() {
         return getFacetValueFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Facet.FacetValue, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder, io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> 
           getFacetValueFieldBuilder() {
         if (facetValueBuilder_ == null) {
-          facetValueBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          facetValueBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.ElasticItem.Facet.FacetValue, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder, io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder>(
                   facetValue_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3206,17 +3472,17 @@ public final class ElasticItem {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_item_Item_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_item_Item_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_item_Facet_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_item_Facet_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -3265,19 +3531,19 @@ public final class ElasticItem {
     internal_static_dstore_elastic_item_Item_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_elastic_item_Item_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_item_Item_descriptor,
         new java.lang.String[] { "Node", "VariantNode", "LastUpdated", "Score", "IndexName", "DocumentId", });
     internal_static_dstore_elastic_item_Facet_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_elastic_item_Facet_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_item_Facet_descriptor,
         new java.lang.String[] { "FieldName", "FacetValue", "RangeFrom", "RangeTo", });
     internal_static_dstore_elastic_item_Facet_FacetValue_descriptor =
       internal_static_dstore_elastic_item_Facet_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_item_Facet_FacetValue_descriptor,
         new java.lang.String[] { "Value", "TotalItemCount", "MatchingItemCount", "Active", "MinValue", "MaxValue", });
     io.dstore.elastic.Elastic.getDescriptor();

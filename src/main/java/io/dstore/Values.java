@@ -6,7 +6,13 @@ package io.dstore;
 public final class Values {
   private Values() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface integerValueOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.values.integerValue)
@@ -21,11 +27,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.integerValue}
    */
   public  static final class integerValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.integerValue)
       integerValueOrBuilder {
     // Use integerValue.newBuilder() to construct.
-    private integerValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private integerValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private integerValue() {
@@ -78,7 +84,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_integerValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_integerValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -125,6 +131,36 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.integerValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.integerValue other = (io.dstore.Values.integerValue) obj;
+
+      boolean result = true;
+      result = result && (getValue()
+          == other.getValue());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + getValue();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.integerValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -148,39 +184,39 @@ public final class Values {
     }
     public static io.dstore.Values.integerValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.integerValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.integerValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.integerValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.integerValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.integerValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -198,7 +234,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -206,7 +242,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.integerValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.integerValue)
         io.dstore.Values.integerValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -214,7 +250,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_integerValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_integerValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -227,12 +263,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -266,6 +303,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.integerValue) {
           return mergeFrom((io.dstore.Values.integerValue)other);
@@ -398,11 +461,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.stringValue}
    */
   public  static final class stringValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.stringValue)
       stringValueOrBuilder {
     // Use stringValue.newBuilder() to construct.
-    private stringValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private stringValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private stringValue() {
@@ -456,7 +519,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_stringValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_stringValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -510,7 +573,7 @@ public final class Values {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getValueBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 1, value_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, value_);
       }
     }
 
@@ -520,13 +583,43 @@ public final class Values {
 
       size = 0;
       if (!getValueBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, value_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, value_);
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.stringValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.stringValue other = (io.dstore.Values.stringValue) obj;
+
+      boolean result = true;
+      result = result && getValue()
+          .equals(other.getValue());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + getValue().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.stringValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -550,39 +643,39 @@ public final class Values {
     }
     public static io.dstore.Values.stringValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.stringValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.stringValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.stringValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.stringValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.stringValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -600,7 +693,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -608,7 +701,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.stringValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.stringValue)
         io.dstore.Values.stringValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -616,7 +709,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_stringValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_stringValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -629,12 +722,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -668,6 +762,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.stringValue) {
           return mergeFrom((io.dstore.Values.stringValue)other);
@@ -839,11 +959,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.bytesValue}
    */
   public  static final class bytesValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.bytesValue)
       bytesValueOrBuilder {
     // Use bytesValue.newBuilder() to construct.
-    private bytesValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private bytesValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private bytesValue() {
@@ -896,7 +1016,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_bytesValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_bytesValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -943,6 +1063,36 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.bytesValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.bytesValue other = (io.dstore.Values.bytesValue) obj;
+
+      boolean result = true;
+      result = result && getValue()
+          .equals(other.getValue());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + getValue().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.bytesValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -966,39 +1116,39 @@ public final class Values {
     }
     public static io.dstore.Values.bytesValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.bytesValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.bytesValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.bytesValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.bytesValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.bytesValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1016,7 +1166,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1024,7 +1174,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.bytesValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.bytesValue)
         io.dstore.Values.bytesValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1032,7 +1182,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_bytesValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_bytesValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1045,12 +1195,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1084,6 +1235,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.bytesValue) {
           return mergeFrom((io.dstore.Values.bytesValue)other);
@@ -1214,11 +1391,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.doubleValue}
    */
   public  static final class doubleValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.doubleValue)
       doubleValueOrBuilder {
     // Use doubleValue.newBuilder() to construct.
-    private doubleValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private doubleValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private doubleValue() {
@@ -1271,7 +1448,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_doubleValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_doubleValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1318,6 +1495,39 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.doubleValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.doubleValue other = (io.dstore.Values.doubleValue) obj;
+
+      boolean result = true;
+      result = result && (
+          java.lang.Double.doubleToLongBits(getValue())
+          == java.lang.Double.doubleToLongBits(
+              other.getValue()));
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          java.lang.Double.doubleToLongBits(getValue()));
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.doubleValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1341,39 +1551,39 @@ public final class Values {
     }
     public static io.dstore.Values.doubleValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.doubleValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.doubleValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.doubleValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.doubleValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.doubleValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1391,7 +1601,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1399,7 +1609,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.doubleValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.doubleValue)
         io.dstore.Values.doubleValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1407,7 +1617,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_doubleValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_doubleValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1420,12 +1630,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1459,6 +1670,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.doubleValue) {
           return mergeFrom((io.dstore.Values.doubleValue)other);
@@ -1586,11 +1823,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.booleanValue}
    */
   public  static final class booleanValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.booleanValue)
       booleanValueOrBuilder {
     // Use booleanValue.newBuilder() to construct.
-    private booleanValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private booleanValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private booleanValue() {
@@ -1643,7 +1880,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_booleanValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_booleanValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1690,6 +1927,37 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.booleanValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.booleanValue other = (io.dstore.Values.booleanValue) obj;
+
+      boolean result = true;
+      result = result && (getValue()
+          == other.getValue());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValue());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.booleanValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1713,39 +1981,39 @@ public final class Values {
     }
     public static io.dstore.Values.booleanValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.booleanValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.booleanValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.booleanValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.booleanValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.booleanValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1763,7 +2031,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1771,7 +2039,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.booleanValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.booleanValue)
         io.dstore.Values.booleanValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1779,7 +2047,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_booleanValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_booleanValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1792,12 +2060,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1831,6 +2100,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.booleanValue) {
           return mergeFrom((io.dstore.Values.booleanValue)other);
@@ -1971,11 +2266,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.decimalValue}
    */
   public  static final class decimalValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.decimalValue)
       decimalValueOrBuilder {
     // Use decimalValue.newBuilder() to construct.
-    private decimalValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private decimalValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private decimalValue() {
@@ -2029,7 +2324,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_decimalValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_decimalValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2091,7 +2386,7 @@ public final class Values {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getValueBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 1, value_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, value_);
       }
     }
 
@@ -2101,13 +2396,43 @@ public final class Values {
 
       size = 0;
       if (!getValueBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, value_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, value_);
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.decimalValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.decimalValue other = (io.dstore.Values.decimalValue) obj;
+
+      boolean result = true;
+      result = result && getValue()
+          .equals(other.getValue());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + getValue().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.decimalValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2131,39 +2456,39 @@ public final class Values {
     }
     public static io.dstore.Values.decimalValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.decimalValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.decimalValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.decimalValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.decimalValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.decimalValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2181,7 +2506,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2189,7 +2514,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.decimalValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.decimalValue)
         io.dstore.Values.decimalValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2197,7 +2522,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_decimalValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_decimalValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2210,12 +2535,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -2249,6 +2575,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.decimalValue) {
           return mergeFrom((io.dstore.Values.decimalValue)other);
@@ -2448,11 +2800,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.timestampValue}
    */
   public  static final class timestampValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.timestampValue)
       timestampValueOrBuilder {
     // Use timestampValue.newBuilder() to construct.
-    private timestampValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private timestampValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private timestampValue() {
@@ -2512,7 +2864,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_timestampValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_timestampValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2571,6 +2923,41 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.timestampValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.timestampValue other = (io.dstore.Values.timestampValue) obj;
+
+      boolean result = true;
+      result = result && (hasValue() == other.hasValue());
+      if (hasValue()) {
+        result = result && getValue()
+            .equals(other.getValue());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasValue()) {
+        hash = (37 * hash) + VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + getValue().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.timestampValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2594,39 +2981,39 @@ public final class Values {
     }
     public static io.dstore.Values.timestampValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.timestampValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.timestampValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.timestampValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.timestampValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.timestampValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2644,7 +3031,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2652,7 +3039,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.timestampValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.timestampValue)
         io.dstore.Values.timestampValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2660,7 +3047,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_timestampValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_timestampValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2673,12 +3060,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -2720,6 +3108,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.timestampValue) {
           return mergeFrom((io.dstore.Values.timestampValue)other);
@@ -2761,7 +3175,7 @@ public final class Values {
       }
 
       private com.google.protobuf.Timestamp value_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> valueBuilder_;
       /**
        * <code>optional .google.protobuf.Timestamp value = 1;</code>
@@ -2863,11 +3277,11 @@ public final class Values {
       /**
        * <code>optional .google.protobuf.Timestamp value = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
-          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder>(
                   getValue(),
                   getParentForChildren(),
@@ -2938,11 +3352,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.longValue}
    */
   public  static final class longValue extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.longValue)
       longValueOrBuilder {
     // Use longValue.newBuilder() to construct.
-    private longValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private longValue(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private longValue() {
@@ -2995,7 +3409,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_longValue_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_longValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3042,6 +3456,37 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.longValue)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.longValue other = (io.dstore.Values.longValue) obj;
+
+      boolean result = true;
+      result = result && (getValue()
+          == other.getValue());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + VALUE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getValue());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.longValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3065,39 +3510,39 @@ public final class Values {
     }
     public static io.dstore.Values.longValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.longValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.longValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.longValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.longValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.longValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3115,7 +3560,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3123,7 +3568,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.longValue}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.longValue)
         io.dstore.Values.longValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3131,7 +3576,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_longValue_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_longValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3144,12 +3589,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -3183,6 +3629,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.longValue) {
           return mergeFrom((io.dstore.Values.longValue)other);
@@ -3379,11 +3851,11 @@ public final class Values {
    * Protobuf type {@code dstore.values.Value}
    */
   public  static final class Value extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.values.Value)
       ValueOrBuilder {
     // Use Value.newBuilder() to construct.
-    private Value(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Value(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Value() {
@@ -3542,7 +4014,7 @@ public final class Values {
       return io.dstore.Values.internal_static_dstore_values_Value_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.Values.internal_static_dstore_values_Value_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3839,6 +4311,107 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.Values.Value)) {
+        return super.equals(obj);
+      }
+      io.dstore.Values.Value other = (io.dstore.Values.Value) obj;
+
+      boolean result = true;
+      result = result && getValueCase().equals(
+          other.getValueCase());
+      if (!result) return false;
+      switch (valueCase_) {
+        case 10:
+          result = result && getIntegerValue()
+              .equals(other.getIntegerValue());
+          break;
+        case 11:
+          result = result && getStringValue()
+              .equals(other.getStringValue());
+          break;
+        case 12:
+          result = result && getByteValue()
+              .equals(other.getByteValue());
+          break;
+        case 13:
+          result = result && getDoubleValue()
+              .equals(other.getDoubleValue());
+          break;
+        case 14:
+          result = result && getBooleanValue()
+              .equals(other.getBooleanValue());
+          break;
+        case 15:
+          result = result && getDecimalValue()
+              .equals(other.getDecimalValue());
+          break;
+        case 16:
+          result = result && getTimestampValue()
+              .equals(other.getTimestampValue());
+          break;
+        case 17:
+          result = result && getLongValue()
+              .equals(other.getLongValue());
+          break;
+        case 0:
+        default:
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      switch (valueCase_) {
+        case 10:
+          hash = (37 * hash) + INTEGER_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getIntegerValue().hashCode();
+          break;
+        case 11:
+          hash = (37 * hash) + STRING_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getStringValue().hashCode();
+          break;
+        case 12:
+          hash = (37 * hash) + BYTE_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getByteValue().hashCode();
+          break;
+        case 13:
+          hash = (37 * hash) + DOUBLE_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getDoubleValue().hashCode();
+          break;
+        case 14:
+          hash = (37 * hash) + BOOLEAN_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getBooleanValue().hashCode();
+          break;
+        case 15:
+          hash = (37 * hash) + DECIMAL_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getDecimalValue().hashCode();
+          break;
+        case 16:
+          hash = (37 * hash) + TIMESTAMP_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getTimestampValue().hashCode();
+          break;
+        case 17:
+          hash = (37 * hash) + LONG_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getLongValue().hashCode();
+          break;
+        case 0:
+        default:
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.Values.Value parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3862,39 +4435,39 @@ public final class Values {
     }
     public static io.dstore.Values.Value parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.Value parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.Value parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.Values.Value parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.Values.Value parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.Values.Value parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3912,7 +4485,7 @@ public final class Values {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3920,7 +4493,7 @@ public final class Values {
      * Protobuf type {@code dstore.values.Value}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.values.Value)
         io.dstore.Values.ValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3928,7 +4501,7 @@ public final class Values {
         return io.dstore.Values.internal_static_dstore_values_Value_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.Values.internal_static_dstore_values_Value_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3941,12 +4514,13 @@ public final class Values {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -4036,6 +4610,32 @@ public final class Values {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.Values.Value) {
           return mergeFrom((io.dstore.Values.Value)other);
@@ -4125,7 +4725,7 @@ public final class Values {
       }
 
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> integerValueBuilder_;
       /**
        * <code>optional .dstore.values.integerValue integer_value = 10;</code>
@@ -4236,14 +4836,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.integerValue integer_value = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getIntegerValueFieldBuilder() {
         if (integerValueBuilder_ == null) {
           if (!(valueCase_ == 10)) {
             value_ = io.dstore.Values.integerValue.getDefaultInstance();
           }
-          integerValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          integerValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   (io.dstore.Values.integerValue) value_,
                   getParentForChildren(),
@@ -4255,7 +4855,7 @@ public final class Values {
         return integerValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> stringValueBuilder_;
       /**
        * <code>optional .dstore.values.stringValue string_value = 11;</code>
@@ -4366,14 +4966,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.stringValue string_value = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getStringValueFieldBuilder() {
         if (stringValueBuilder_ == null) {
           if (!(valueCase_ == 11)) {
             value_ = io.dstore.Values.stringValue.getDefaultInstance();
           }
-          stringValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          stringValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   (io.dstore.Values.stringValue) value_,
                   getParentForChildren(),
@@ -4385,7 +4985,7 @@ public final class Values {
         return stringValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> byteValueBuilder_;
       /**
        * <code>optional .dstore.values.bytesValue byte_value = 12;</code>
@@ -4496,14 +5096,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.bytesValue byte_value = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
           getByteValueFieldBuilder() {
         if (byteValueBuilder_ == null) {
           if (!(valueCase_ == 12)) {
             value_ = io.dstore.Values.bytesValue.getDefaultInstance();
           }
-          byteValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          byteValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                   (io.dstore.Values.bytesValue) value_,
                   getParentForChildren(),
@@ -4515,7 +5115,7 @@ public final class Values {
         return byteValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.doubleValue, io.dstore.Values.doubleValue.Builder, io.dstore.Values.doubleValueOrBuilder> doubleValueBuilder_;
       /**
        * <code>optional .dstore.values.doubleValue double_value = 13;</code>
@@ -4626,14 +5226,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.doubleValue double_value = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.doubleValue, io.dstore.Values.doubleValue.Builder, io.dstore.Values.doubleValueOrBuilder> 
           getDoubleValueFieldBuilder() {
         if (doubleValueBuilder_ == null) {
           if (!(valueCase_ == 13)) {
             value_ = io.dstore.Values.doubleValue.getDefaultInstance();
           }
-          doubleValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          doubleValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.doubleValue, io.dstore.Values.doubleValue.Builder, io.dstore.Values.doubleValueOrBuilder>(
                   (io.dstore.Values.doubleValue) value_,
                   getParentForChildren(),
@@ -4645,7 +5245,7 @@ public final class Values {
         return doubleValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> booleanValueBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue boolean_value = 14;</code>
@@ -4756,14 +5356,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.booleanValue boolean_value = 14;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getBooleanValueFieldBuilder() {
         if (booleanValueBuilder_ == null) {
           if (!(valueCase_ == 14)) {
             value_ = io.dstore.Values.booleanValue.getDefaultInstance();
           }
-          booleanValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          booleanValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   (io.dstore.Values.booleanValue) value_,
                   getParentForChildren(),
@@ -4775,7 +5375,7 @@ public final class Values {
         return booleanValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> decimalValueBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue decimal_value = 15;</code>
@@ -4886,14 +5486,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.decimalValue decimal_value = 15;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getDecimalValueFieldBuilder() {
         if (decimalValueBuilder_ == null) {
           if (!(valueCase_ == 15)) {
             value_ = io.dstore.Values.decimalValue.getDefaultInstance();
           }
-          decimalValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          decimalValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   (io.dstore.Values.decimalValue) value_,
                   getParentForChildren(),
@@ -4905,7 +5505,7 @@ public final class Values {
         return decimalValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> timestampValueBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue timestamp_value = 16;</code>
@@ -5016,14 +5616,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.timestampValue timestamp_value = 16;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getTimestampValueFieldBuilder() {
         if (timestampValueBuilder_ == null) {
           if (!(valueCase_ == 16)) {
             value_ = io.dstore.Values.timestampValue.getDefaultInstance();
           }
-          timestampValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          timestampValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   (io.dstore.Values.timestampValue) value_,
                   getParentForChildren(),
@@ -5035,7 +5635,7 @@ public final class Values {
         return timestampValueBuilder_;
       }
 
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> longValueBuilder_;
       /**
        * <code>optional .dstore.values.longValue long_value = 17;</code>
@@ -5146,14 +5746,14 @@ public final class Values {
       /**
        * <code>optional .dstore.values.longValue long_value = 17;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
           getLongValueFieldBuilder() {
         if (longValueBuilder_ == null) {
           if (!(valueCase_ == 17)) {
             value_ = io.dstore.Values.longValue.getDefaultInstance();
           }
-          longValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          longValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder>(
                   (io.dstore.Values.longValue) value_,
                   getParentForChildren(),
@@ -5216,47 +5816,47 @@ public final class Values {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_integerValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_integerValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_stringValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_stringValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_bytesValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_bytesValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_doubleValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_doubleValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_booleanValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_booleanValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_decimalValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_decimalValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_timestampValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_timestampValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_longValue_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_longValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_values_Value_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_values_Value_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5305,55 +5905,55 @@ public final class Values {
     internal_static_dstore_values_integerValue_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_values_integerValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_integerValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_stringValue_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_values_stringValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_stringValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_bytesValue_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_dstore_values_bytesValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_bytesValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_doubleValue_descriptor =
       getDescriptor().getMessageTypes().get(3);
     internal_static_dstore_values_doubleValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_doubleValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_booleanValue_descriptor =
       getDescriptor().getMessageTypes().get(4);
     internal_static_dstore_values_booleanValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_booleanValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_decimalValue_descriptor =
       getDescriptor().getMessageTypes().get(5);
     internal_static_dstore_values_decimalValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_decimalValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_timestampValue_descriptor =
       getDescriptor().getMessageTypes().get(6);
     internal_static_dstore_values_timestampValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_timestampValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_longValue_descriptor =
       getDescriptor().getMessageTypes().get(7);
     internal_static_dstore_values_longValue_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_longValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_values_Value_descriptor =
       getDescriptor().getMessageTypes().get(8);
     internal_static_dstore_values_Value_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_values_Value_descriptor,
         new java.lang.String[] { "IntegerValue", "StringValue", "ByteValue", "DoubleValue", "BooleanValue", "DecimalValue", "TimestampValue", "LongValue", "Value", });
     com.google.protobuf.TimestampProto.getDescriptor();

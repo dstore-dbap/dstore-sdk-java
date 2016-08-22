@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImSynchronizeItemBinariesAd {
   private ImSynchronizeItemBinariesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_SynchronizeItemBinaries_Ad.Parameters)
@@ -88,11 +94,11 @@ public final class ImSynchronizeItemBinariesAd {
    * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_SynchronizeItemBinaries_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -215,7 +221,7 @@ public final class ImSynchronizeItemBinariesAd {
       return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -422,6 +428,88 @@ public final class ImSynchronizeItemBinariesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters other = (io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasCharacIdForSynchronization() == other.hasCharacIdForSynchronization());
+      if (hasCharacIdForSynchronization()) {
+        result = result && getCharacIdForSynchronization()
+            .equals(other.getCharacIdForSynchronization());
+      }
+      result = result && (getCharacIdForSynchronizationNull()
+          == other.getCharacIdForSynchronizationNull());
+      result = result && (hasReportOnly() == other.hasReportOnly());
+      if (hasReportOnly()) {
+        result = result && getReportOnly()
+            .equals(other.getReportOnly());
+      }
+      result = result && (getReportOnlyNull()
+          == other.getReportOnlyNull());
+      result = result && (hasOnlyDirectSuccessorsOfId() == other.hasOnlyDirectSuccessorsOfId());
+      if (hasOnlyDirectSuccessorsOfId()) {
+        result = result && getOnlyDirectSuccessorsOfId()
+            .equals(other.getOnlyDirectSuccessorsOfId());
+      }
+      result = result && (getOnlyDirectSuccessorsOfIdNull()
+          == other.getOnlyDirectSuccessorsOfIdNull());
+      result = result && (hasProcessValuesInChunksWithSize() == other.hasProcessValuesInChunksWithSize());
+      if (hasProcessValuesInChunksWithSize()) {
+        result = result && getProcessValuesInChunksWithSize()
+            .equals(other.getProcessValuesInChunksWithSize());
+      }
+      result = result && (getProcessValuesInChunksWithSizeNull()
+          == other.getProcessValuesInChunksWithSizeNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasCharacIdForSynchronization()) {
+        hash = (37 * hash) + CHARAC_ID_FOR_SYNCHRONIZATION_FIELD_NUMBER;
+        hash = (53 * hash) + getCharacIdForSynchronization().hashCode();
+      }
+      hash = (37 * hash) + CHARAC_ID_FOR_SYNCHRONIZATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCharacIdForSynchronizationNull());
+      if (hasReportOnly()) {
+        hash = (37 * hash) + REPORT_ONLY_FIELD_NUMBER;
+        hash = (53 * hash) + getReportOnly().hashCode();
+      }
+      hash = (37 * hash) + REPORT_ONLY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getReportOnlyNull());
+      if (hasOnlyDirectSuccessorsOfId()) {
+        hash = (37 * hash) + ONLY_DIRECT_SUCCESSORS_OF_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyDirectSuccessorsOfId().hashCode();
+      }
+      hash = (37 * hash) + ONLY_DIRECT_SUCCESSORS_OF_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyDirectSuccessorsOfIdNull());
+      if (hasProcessValuesInChunksWithSize()) {
+        hash = (37 * hash) + PROCESS_VALUES_IN_CHUNKS_WITH_SIZE_FIELD_NUMBER;
+        hash = (53 * hash) + getProcessValuesInChunksWithSize().hashCode();
+      }
+      hash = (37 * hash) + PROCESS_VALUES_IN_CHUNKS_WITH_SIZE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getProcessValuesInChunksWithSizeNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -445,39 +533,39 @@ public final class ImSynchronizeItemBinariesAd {
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -495,7 +583,7 @@ public final class ImSynchronizeItemBinariesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -503,7 +591,7 @@ public final class ImSynchronizeItemBinariesAd {
      * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_SynchronizeItemBinaries_Ad.Parameters)
         io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -511,7 +599,7 @@ public final class ImSynchronizeItemBinariesAd {
         return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -524,12 +612,13 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -616,6 +705,32 @@ public final class ImSynchronizeItemBinariesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Parameters)other);
@@ -678,7 +793,7 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private io.dstore.Values.integerValue characIdForSynchronization_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characIdForSynchronizationBuilder_;
       /**
        * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
@@ -780,11 +895,11 @@ public final class ImSynchronizeItemBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCharacIdForSynchronizationFieldBuilder() {
         if (characIdForSynchronizationBuilder_ == null) {
-          characIdForSynchronizationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          characIdForSynchronizationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCharacIdForSynchronization(),
                   getParentForChildren(),
@@ -821,7 +936,7 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private io.dstore.Values.booleanValue reportOnly_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> reportOnlyBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue report_only = 2;</code>
@@ -923,11 +1038,11 @@ public final class ImSynchronizeItemBinariesAd {
       /**
        * <code>optional .dstore.values.booleanValue report_only = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getReportOnlyFieldBuilder() {
         if (reportOnlyBuilder_ == null) {
-          reportOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          reportOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getReportOnly(),
                   getParentForChildren(),
@@ -964,7 +1079,7 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private io.dstore.Values.integerValue onlyDirectSuccessorsOfId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlyDirectSuccessorsOfIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
@@ -1066,11 +1181,11 @@ public final class ImSynchronizeItemBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOnlyDirectSuccessorsOfIdFieldBuilder() {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
-          onlyDirectSuccessorsOfIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyDirectSuccessorsOfIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOnlyDirectSuccessorsOfId(),
                   getParentForChildren(),
@@ -1107,7 +1222,7 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private io.dstore.Values.integerValue processValuesInChunksWithSize_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> processValuesInChunksWithSizeBuilder_;
       /**
        * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
@@ -1209,11 +1324,11 @@ public final class ImSynchronizeItemBinariesAd {
       /**
        * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getProcessValuesInChunksWithSizeFieldBuilder() {
         if (processValuesInChunksWithSizeBuilder_ == null) {
-          processValuesInChunksWithSizeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          processValuesInChunksWithSizeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getProcessValuesInChunksWithSize(),
                   getParentForChildren(),
@@ -1397,11 +1512,11 @@ public final class ImSynchronizeItemBinariesAd {
    * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_SynchronizeItemBinaries_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1440,7 +1555,8 @@ public final class ImSynchronizeItemBinariesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1448,7 +1564,8 @@ public final class ImSynchronizeItemBinariesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1456,7 +1573,8 @@ public final class ImSynchronizeItemBinariesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1484,7 +1602,7 @@ public final class ImSynchronizeItemBinariesAd {
       return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1654,11 +1772,11 @@ public final class ImSynchronizeItemBinariesAd {
      * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_SynchronizeItemBinaries_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1789,7 +1907,7 @@ public final class ImSynchronizeItemBinariesAd {
         return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2076,6 +2194,90 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row other = (io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTimeIntervallId() == other.hasTimeIntervallId());
+        if (hasTimeIntervallId()) {
+          result = result && getTimeIntervallId()
+              .equals(other.getTimeIntervallId());
+        }
+        result = result && (hasDateIntervallId() == other.hasDateIntervallId());
+        if (hasDateIntervallId()) {
+          result = result && getDateIntervallId()
+              .equals(other.getDateIntervallId());
+        }
+        result = result && (hasBinaryCodeId() == other.hasBinaryCodeId());
+        if (hasBinaryCodeId()) {
+          result = result && getBinaryCodeId()
+              .equals(other.getBinaryCodeId());
+        }
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasSortNo() == other.hasSortNo());
+        if (hasSortNo()) {
+          result = result && getSortNo()
+              .equals(other.getSortNo());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTimeIntervallId()) {
+          hash = (37 * hash) + TIME_INTERVALL_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTimeIntervallId().hashCode();
+        }
+        if (hasDateIntervallId()) {
+          hash = (37 * hash) + DATE_INTERVALL_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getDateIntervallId().hashCode();
+        }
+        if (hasBinaryCodeId()) {
+          hash = (37 * hash) + BINARY_CODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryCodeId().hashCode();
+        }
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasSortNo()) {
+          hash = (37 * hash) + SORT_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getSortNo().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2099,39 +2301,39 @@ public final class ImSynchronizeItemBinariesAd {
       }
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2149,7 +2351,7 @@ public final class ImSynchronizeItemBinariesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2157,7 +2359,7 @@ public final class ImSynchronizeItemBinariesAd {
        * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_SynchronizeItemBinaries_Ad.Response.Row)
           io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2165,7 +2367,7 @@ public final class ImSynchronizeItemBinariesAd {
           return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2178,12 +2380,13 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2283,6 +2486,32 @@ public final class ImSynchronizeItemBinariesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row)other);
@@ -2368,7 +2597,7 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private io.dstore.Values.integerValue timeIntervallId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> timeIntervallIdBuilder_;
         /**
          * <pre>
@@ -2506,11 +2735,11 @@ public final class ImSynchronizeItemBinariesAd {
          *
          * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTimeIntervallIdFieldBuilder() {
           if (timeIntervallIdBuilder_ == null) {
-            timeIntervallIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            timeIntervallIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTimeIntervallId(),
                     getParentForChildren(),
@@ -2521,7 +2750,7 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private io.dstore.Values.integerValue dateIntervallId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> dateIntervallIdBuilder_;
         /**
          * <pre>
@@ -2659,11 +2888,11 @@ public final class ImSynchronizeItemBinariesAd {
          *
          * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getDateIntervallIdFieldBuilder() {
           if (dateIntervallIdBuilder_ == null) {
-            dateIntervallIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            dateIntervallIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getDateIntervallId(),
                     getParentForChildren(),
@@ -2674,7 +2903,7 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private io.dstore.Values.integerValue binaryCodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
@@ -2812,11 +3041,11 @@ public final class ImSynchronizeItemBinariesAd {
          *
          * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
-            binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
@@ -2827,7 +3056,7 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private io.dstore.Values.stringValue value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
@@ -2965,11 +3194,11 @@ public final class ImSynchronizeItemBinariesAd {
          *
          * <code>optional .dstore.values.stringValue value = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -2980,7 +3209,7 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -3118,11 +3347,11 @@ public final class ImSynchronizeItemBinariesAd {
          *
          * <code>optional .dstore.values.integerValue node_id = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -3133,7 +3362,7 @@ public final class ImSynchronizeItemBinariesAd {
         }
 
         private io.dstore.Values.integerValue sortNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
@@ -3271,11 +3500,11 @@ public final class ImSynchronizeItemBinariesAd {
          *
          * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
-            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
@@ -3503,6 +3732,50 @@ public final class ImSynchronizeItemBinariesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response other = (io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3526,39 +3799,39 @@ public final class ImSynchronizeItemBinariesAd {
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3576,7 +3849,7 @@ public final class ImSynchronizeItemBinariesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3584,7 +3857,7 @@ public final class ImSynchronizeItemBinariesAd {
      * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_SynchronizeItemBinaries_Ad.Response)
         io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3592,7 +3865,7 @@ public final class ImSynchronizeItemBinariesAd {
         return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3605,12 +3878,13 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3690,6 +3964,32 @@ public final class ImSynchronizeItemBinariesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response)other);
@@ -3720,7 +4020,7 @@ public final class ImSynchronizeItemBinariesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3746,7 +4046,7 @@ public final class ImSynchronizeItemBinariesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3772,7 +4072,7 @@ public final class ImSynchronizeItemBinariesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3815,7 +4115,7 @@ public final class ImSynchronizeItemBinariesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4031,11 +4331,11 @@ public final class ImSynchronizeItemBinariesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4055,7 +4355,7 @@ public final class ImSynchronizeItemBinariesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4271,11 +4571,11 @@ public final class ImSynchronizeItemBinariesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4295,7 +4595,7 @@ public final class ImSynchronizeItemBinariesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row, io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row.Builder, io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4583,11 +4883,11 @@ public final class ImSynchronizeItemBinariesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row, io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row.Builder, io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row, io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.Row.Builder, io.dstore.engine.procedures.ImSynchronizeItemBinariesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4649,17 +4949,17 @@ public final class ImSynchronizeItemBinariesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4721,19 +5021,19 @@ public final class ImSynchronizeItemBinariesAd {
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_descriptor,
         new java.lang.String[] { "CharacIdForSynchronization", "CharacIdForSynchronizationNull", "ReportOnly", "ReportOnlyNull", "OnlyDirectSuccessorsOfId", "OnlyDirectSuccessorsOfIdNull", "ProcessValuesInChunksWithSize", "ProcessValuesInChunksWithSizeNull", });
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TimeIntervallId", "DateIntervallId", "BinaryCodeId", "Value", "NodeId", "SortNo", });
     io.dstore.Values.getDescriptor();

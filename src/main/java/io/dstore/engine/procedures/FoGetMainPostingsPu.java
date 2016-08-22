@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class FoGetMainPostingsPu {
   private FoGetMainPostingsPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.fo_GetMainPostings_Pu.Parameters)
@@ -286,11 +292,11 @@ public final class FoGetMainPostingsPu {
    * Protobuf type {@code dstore.engine.fo_GetMainPostings_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetMainPostings_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -622,7 +628,7 @@ public final class FoGetMainPostingsPu {
       return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1313,6 +1319,242 @@ public final class FoGetMainPostingsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters other = (io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPersonIdentificationValues() == other.hasPersonIdentificationValues());
+      if (hasPersonIdentificationValues()) {
+        result = result && getPersonIdentificationValues()
+            .equals(other.getPersonIdentificationValues());
+      }
+      result = result && (getPersonIdentificationValuesNull()
+          == other.getPersonIdentificationValuesNull());
+      result = result && (hasPersonTypeId() == other.hasPersonTypeId());
+      if (hasPersonTypeId()) {
+        result = result && getPersonTypeId()
+            .equals(other.getPersonTypeId());
+      }
+      result = result && (getPersonTypeIdNull()
+          == other.getPersonTypeIdNull());
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasForumId() == other.hasForumId());
+      if (hasForumId()) {
+        result = result && getForumId()
+            .equals(other.getForumId());
+      }
+      result = result && (getForumIdNull()
+          == other.getForumIdNull());
+      result = result && (hasSortCriteria() == other.hasSortCriteria());
+      if (hasSortCriteria()) {
+        result = result && getSortCriteria()
+            .equals(other.getSortCriteria());
+      }
+      result = result && (getSortCriteriaNull()
+          == other.getSortCriteriaNull());
+      result = result && (hasFromMainPosting() == other.hasFromMainPosting());
+      if (hasFromMainPosting()) {
+        result = result && getFromMainPosting()
+            .equals(other.getFromMainPosting());
+      }
+      result = result && (getFromMainPostingNull()
+          == other.getFromMainPostingNull());
+      result = result && (hasMaxNumberOfThreads() == other.hasMaxNumberOfThreads());
+      if (hasMaxNumberOfThreads()) {
+        result = result && getMaxNumberOfThreads()
+            .equals(other.getMaxNumberOfThreads());
+      }
+      result = result && (getMaxNumberOfThreadsNull()
+          == other.getMaxNumberOfThreadsNull());
+      result = result && (hasIncludePostingBodies() == other.hasIncludePostingBodies());
+      if (hasIncludePostingBodies()) {
+        result = result && getIncludePostingBodies()
+            .equals(other.getIncludePostingBodies());
+      }
+      result = result && (getIncludePostingBodiesNull()
+          == other.getIncludePostingBodiesNull());
+      result = result && (hasVisibility() == other.hasVisibility());
+      if (hasVisibility()) {
+        result = result && getVisibility()
+            .equals(other.getVisibility());
+      }
+      result = result && (getVisibilityNull()
+          == other.getVisibilityNull());
+      result = result && (hasShowPostDateOfMainPosting() == other.hasShowPostDateOfMainPosting());
+      if (hasShowPostDateOfMainPosting()) {
+        result = result && getShowPostDateOfMainPosting()
+            .equals(other.getShowPostDateOfMainPosting());
+      }
+      result = result && (getShowPostDateOfMainPostingNull()
+          == other.getShowPostDateOfMainPostingNull());
+      result = result && (hasGetOwnNotApprovedPostings() == other.hasGetOwnNotApprovedPostings());
+      if (hasGetOwnNotApprovedPostings()) {
+        result = result && getGetOwnNotApprovedPostings()
+            .equals(other.getGetOwnNotApprovedPostings());
+      }
+      result = result && (getGetOwnNotApprovedPostingsNull()
+          == other.getGetOwnNotApprovedPostingsNull());
+      result = result && (hasOutputIntoOneId() == other.hasOutputIntoOneId());
+      if (hasOutputIntoOneId()) {
+        result = result && getOutputIntoOneId()
+            .equals(other.getOutputIntoOneId());
+      }
+      result = result && (getOutputIntoOneIdNull()
+          == other.getOutputIntoOneIdNull());
+      result = result && (hasSortingCriteriaNo() == other.hasSortingCriteriaNo());
+      if (hasSortingCriteriaNo()) {
+        result = result && getSortingCriteriaNo()
+            .equals(other.getSortingCriteriaNo());
+      }
+      result = result && (getSortingCriteriaNoNull()
+          == other.getSortingCriteriaNoNull());
+      result = result && (hasReverseOrderOfSorting() == other.hasReverseOrderOfSorting());
+      if (hasReverseOrderOfSorting()) {
+        result = result && getReverseOrderOfSorting()
+            .equals(other.getReverseOrderOfSorting());
+      }
+      result = result && (getReverseOrderOfSortingNull()
+          == other.getReverseOrderOfSortingNull());
+      result = result && (hasSeparatorInIdentVals() == other.hasSeparatorInIdentVals());
+      if (hasSeparatorInIdentVals()) {
+        result = result && getSeparatorInIdentVals()
+            .equals(other.getSeparatorInIdentVals());
+      }
+      result = result && (getSeparatorInIdentValsNull()
+          == other.getSeparatorInIdentValsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPersonIdentificationValues()) {
+        hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonIdentificationValues().hashCode();
+      }
+      hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdentificationValuesNull());
+      if (hasPersonTypeId()) {
+        hash = (37 * hash) + PERSON_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonTypeId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonTypeIdNull());
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasForumId()) {
+        hash = (37 * hash) + FORUM_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getForumId().hashCode();
+      }
+      hash = (37 * hash) + FORUM_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getForumIdNull());
+      if (hasSortCriteria()) {
+        hash = (37 * hash) + SORT_CRITERIA_FIELD_NUMBER;
+        hash = (53 * hash) + getSortCriteria().hashCode();
+      }
+      hash = (37 * hash) + SORT_CRITERIA_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortCriteriaNull());
+      if (hasFromMainPosting()) {
+        hash = (37 * hash) + FROM_MAIN_POSTING_FIELD_NUMBER;
+        hash = (53 * hash) + getFromMainPosting().hashCode();
+      }
+      hash = (37 * hash) + FROM_MAIN_POSTING_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromMainPostingNull());
+      if (hasMaxNumberOfThreads()) {
+        hash = (37 * hash) + MAX_NUMBER_OF_THREADS_FIELD_NUMBER;
+        hash = (53 * hash) + getMaxNumberOfThreads().hashCode();
+      }
+      hash = (37 * hash) + MAX_NUMBER_OF_THREADS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMaxNumberOfThreadsNull());
+      if (hasIncludePostingBodies()) {
+        hash = (37 * hash) + INCLUDE_POSTING_BODIES_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludePostingBodies().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_POSTING_BODIES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludePostingBodiesNull());
+      if (hasVisibility()) {
+        hash = (37 * hash) + VISIBILITY_FIELD_NUMBER;
+        hash = (53 * hash) + getVisibility().hashCode();
+      }
+      hash = (37 * hash) + VISIBILITY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getVisibilityNull());
+      if (hasShowPostDateOfMainPosting()) {
+        hash = (37 * hash) + SHOW_POST_DATE_OF_MAIN_POSTING_FIELD_NUMBER;
+        hash = (53 * hash) + getShowPostDateOfMainPosting().hashCode();
+      }
+      hash = (37 * hash) + SHOW_POST_DATE_OF_MAIN_POSTING_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getShowPostDateOfMainPostingNull());
+      if (hasGetOwnNotApprovedPostings()) {
+        hash = (37 * hash) + GET_OWN_NOT_APPROVED_POSTINGS_FIELD_NUMBER;
+        hash = (53 * hash) + getGetOwnNotApprovedPostings().hashCode();
+      }
+      hash = (37 * hash) + GET_OWN_NOT_APPROVED_POSTINGS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetOwnNotApprovedPostingsNull());
+      if (hasOutputIntoOneId()) {
+        hash = (37 * hash) + OUTPUT_INTO_ONE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getOutputIntoOneId().hashCode();
+      }
+      hash = (37 * hash) + OUTPUT_INTO_ONE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOutputIntoOneIdNull());
+      if (hasSortingCriteriaNo()) {
+        hash = (37 * hash) + SORTING_CRITERIA_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getSortingCriteriaNo().hashCode();
+      }
+      hash = (37 * hash) + SORTING_CRITERIA_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortingCriteriaNoNull());
+      if (hasReverseOrderOfSorting()) {
+        hash = (37 * hash) + REVERSE_ORDER_OF_SORTING_FIELD_NUMBER;
+        hash = (53 * hash) + getReverseOrderOfSorting().hashCode();
+      }
+      hash = (37 * hash) + REVERSE_ORDER_OF_SORTING_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getReverseOrderOfSortingNull());
+      if (hasSeparatorInIdentVals()) {
+        hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER;
+        hash = (53 * hash) + getSeparatorInIdentVals().hashCode();
+      }
+      hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSeparatorInIdentValsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1336,39 +1578,39 @@ public final class FoGetMainPostingsPu {
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1386,7 +1628,7 @@ public final class FoGetMainPostingsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1394,7 +1636,7 @@ public final class FoGetMainPostingsPu {
      * Protobuf type {@code dstore.engine.fo_GetMainPostings_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.fo_GetMainPostings_Pu.Parameters)
         io.dstore.engine.procedures.FoGetMainPostingsPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1402,7 +1644,7 @@ public final class FoGetMainPostingsPu {
         return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1415,12 +1657,13 @@ public final class FoGetMainPostingsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1661,6 +1904,32 @@ public final class FoGetMainPostingsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.FoGetMainPostingsPu.Parameters)other);
@@ -1789,7 +2058,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.stringValue personIdentificationValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
@@ -1891,11 +2160,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
-          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
@@ -1932,7 +2201,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue personTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
@@ -2034,11 +2303,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
-          personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
@@ -2075,7 +2344,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 3;</code>
@@ -2177,11 +2446,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -2218,7 +2487,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue forumId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue forum_id = 4;</code>
@@ -2320,11 +2589,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue forum_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
-          forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
@@ -2361,7 +2630,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue sortCriteria_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortCriteriaBuilder_;
       /**
        * <code>optional .dstore.values.integerValue sort_criteria = 5;</code>
@@ -2463,11 +2732,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue sort_criteria = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSortCriteriaFieldBuilder() {
         if (sortCriteriaBuilder_ == null) {
-          sortCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSortCriteria(),
                   getParentForChildren(),
@@ -2504,7 +2773,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue fromMainPosting_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromMainPostingBuilder_;
       /**
        * <code>optional .dstore.values.integerValue from_main_posting = 6;</code>
@@ -2606,11 +2875,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue from_main_posting = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFromMainPostingFieldBuilder() {
         if (fromMainPostingBuilder_ == null) {
-          fromMainPostingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromMainPostingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFromMainPosting(),
                   getParentForChildren(),
@@ -2647,7 +2916,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue maxNumberOfThreads_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfThreadsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue max_number_of_threads = 7;</code>
@@ -2749,11 +3018,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue max_number_of_threads = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMaxNumberOfThreadsFieldBuilder() {
         if (maxNumberOfThreadsBuilder_ == null) {
-          maxNumberOfThreadsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          maxNumberOfThreadsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMaxNumberOfThreads(),
                   getParentForChildren(),
@@ -2790,7 +3059,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.booleanValue includePostingBodies_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includePostingBodiesBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue include_posting_bodies = 8;</code>
@@ -2892,11 +3161,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.booleanValue include_posting_bodies = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludePostingBodiesFieldBuilder() {
         if (includePostingBodiesBuilder_ == null) {
-          includePostingBodiesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includePostingBodiesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludePostingBodies(),
                   getParentForChildren(),
@@ -2933,7 +3202,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue visibility_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibilityBuilder_;
       /**
        * <code>optional .dstore.values.integerValue visibility = 9;</code>
@@ -3035,11 +3304,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue visibility = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVisibilityFieldBuilder() {
         if (visibilityBuilder_ == null) {
-          visibilityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          visibilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVisibility(),
                   getParentForChildren(),
@@ -3076,7 +3345,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.booleanValue showPostDateOfMainPosting_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> showPostDateOfMainPostingBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue show_post_date_of_main_posting = 10;</code>
@@ -3178,11 +3447,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.booleanValue show_post_date_of_main_posting = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getShowPostDateOfMainPostingFieldBuilder() {
         if (showPostDateOfMainPostingBuilder_ == null) {
-          showPostDateOfMainPostingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          showPostDateOfMainPostingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getShowPostDateOfMainPosting(),
                   getParentForChildren(),
@@ -3219,7 +3488,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.booleanValue getOwnNotApprovedPostings_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getOwnNotApprovedPostingsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 11;</code>
@@ -3321,11 +3590,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.booleanValue get_own_not_approved_postings = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetOwnNotApprovedPostingsFieldBuilder() {
         if (getOwnNotApprovedPostingsBuilder_ == null) {
-          getOwnNotApprovedPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getOwnNotApprovedPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetOwnNotApprovedPostings(),
                   getParentForChildren(),
@@ -3362,7 +3631,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue outputIntoOneId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputIntoOneIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue output_into_one_id = 12;</code>
@@ -3464,11 +3733,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue output_into_one_id = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOutputIntoOneIdFieldBuilder() {
         if (outputIntoOneIdBuilder_ == null) {
-          outputIntoOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          outputIntoOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOutputIntoOneId(),
                   getParentForChildren(),
@@ -3505,7 +3774,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.integerValue sortingCriteriaNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingCriteriaNoBuilder_;
       /**
        * <code>optional .dstore.values.integerValue sorting_criteria_no = 13;</code>
@@ -3607,11 +3876,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.integerValue sorting_criteria_no = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSortingCriteriaNoFieldBuilder() {
         if (sortingCriteriaNoBuilder_ == null) {
-          sortingCriteriaNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortingCriteriaNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSortingCriteriaNo(),
                   getParentForChildren(),
@@ -3648,7 +3917,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.booleanValue reverseOrderOfSorting_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> reverseOrderOfSortingBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue reverse_order_of_sorting = 14;</code>
@@ -3750,11 +4019,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.booleanValue reverse_order_of_sorting = 14;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getReverseOrderOfSortingFieldBuilder() {
         if (reverseOrderOfSortingBuilder_ == null) {
-          reverseOrderOfSortingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          reverseOrderOfSortingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getReverseOrderOfSorting(),
                   getParentForChildren(),
@@ -3791,7 +4060,7 @@ public final class FoGetMainPostingsPu {
       }
 
       private io.dstore.Values.stringValue separatorInIdentVals_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
@@ -3893,11 +4162,11 @@ public final class FoGetMainPostingsPu {
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 15;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
-          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
@@ -4081,11 +4350,11 @@ public final class FoGetMainPostingsPu {
    * Protobuf type {@code dstore.engine.fo_GetMainPostings_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetMainPostings_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -4124,7 +4393,8 @@ public final class FoGetMainPostingsPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -4132,7 +4402,8 @@ public final class FoGetMainPostingsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -4140,7 +4411,8 @@ public final class FoGetMainPostingsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -4168,7 +4440,7 @@ public final class FoGetMainPostingsPu {
       return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -4588,11 +4860,11 @@ public final class FoGetMainPostingsPu {
      * Protobuf type {@code dstore.engine.fo_GetMainPostings_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetMainPostings_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4853,7 +5125,7 @@ public final class FoGetMainPostingsPu {
         return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5540,6 +5812,180 @@ public final class FoGetMainPostingsPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row other = (io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasAlreadyRead() == other.hasAlreadyRead());
+        if (hasAlreadyRead()) {
+          result = result && getAlreadyRead()
+              .equals(other.getAlreadyRead());
+        }
+        result = result && (hasSmallBody() == other.hasSmallBody());
+        if (hasSmallBody()) {
+          result = result && getSmallBody()
+              .equals(other.getSmallBody());
+        }
+        result = result && (hasPostingId() == other.hasPostingId());
+        if (hasPostingId()) {
+          result = result && getPostingId()
+              .equals(other.getPostingId());
+        }
+        result = result && (hasPostingIdOfLatestPosting() == other.hasPostingIdOfLatestPosting());
+        if (hasPostingIdOfLatestPosting()) {
+          result = result && getPostingIdOfLatestPosting()
+              .equals(other.getPostingIdOfLatestPosting());
+        }
+        result = result && (hasSubject() == other.hasSubject());
+        if (hasSubject()) {
+          result = result && getSubject()
+              .equals(other.getSubject());
+        }
+        result = result && (hasPostingsInThread() == other.hasPostingsInThread());
+        if (hasPostingsInThread()) {
+          result = result && getPostingsInThread()
+              .equals(other.getPostingsInThread());
+        }
+        result = result && (hasEMailOfAuthor() == other.hasEMailOfAuthor());
+        if (hasEMailOfAuthor()) {
+          result = result && getEMailOfAuthor()
+              .equals(other.getEMailOfAuthor());
+        }
+        result = result && (hasAuthorPersonId() == other.hasAuthorPersonId());
+        if (hasAuthorPersonId()) {
+          result = result && getAuthorPersonId()
+              .equals(other.getAuthorPersonId());
+        }
+        result = result && (hasVisible() == other.hasVisible());
+        if (hasVisible()) {
+          result = result && getVisible()
+              .equals(other.getVisible());
+        }
+        result = result && (hasHasBinaries() == other.hasHasBinaries());
+        if (hasHasBinaries()) {
+          result = result && getHasBinaries()
+              .equals(other.getHasBinaries());
+        }
+        result = result && (hasAuthor() == other.hasAuthor());
+        if (hasAuthor()) {
+          result = result && getAuthor()
+              .equals(other.getAuthor());
+        }
+        result = result && (hasMainPostingPostDate() == other.hasMainPostingPostDate());
+        if (hasMainPostingPostDate()) {
+          result = result && getMainPostingPostDate()
+              .equals(other.getMainPostingPostDate());
+        }
+        result = result && (hasLatestPostingPostDate() == other.hasLatestPostingPostDate());
+        if (hasLatestPostingPostDate()) {
+          result = result && getLatestPostingPostDate()
+              .equals(other.getLatestPostingPostDate());
+        }
+        result = result && (hasPostDate() == other.hasPostDate());
+        if (hasPostDate()) {
+          result = result && getPostDate()
+              .equals(other.getPostDate());
+        }
+        result = result && (hasNewPostingsInThread() == other.hasNewPostingsInThread());
+        if (hasNewPostingsInThread()) {
+          result = result && getNewPostingsInThread()
+              .equals(other.getNewPostingsInThread());
+        }
+        result = result && (hasBody() == other.hasBody());
+        if (hasBody()) {
+          result = result && getBody()
+              .equals(other.getBody());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasAlreadyRead()) {
+          hash = (37 * hash) + ALREADY_READ_FIELD_NUMBER;
+          hash = (53 * hash) + getAlreadyRead().hashCode();
+        }
+        if (hasSmallBody()) {
+          hash = (37 * hash) + SMALL_BODY_FIELD_NUMBER;
+          hash = (53 * hash) + getSmallBody().hashCode();
+        }
+        if (hasPostingId()) {
+          hash = (37 * hash) + POSTING_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPostingId().hashCode();
+        }
+        if (hasPostingIdOfLatestPosting()) {
+          hash = (37 * hash) + POSTING_ID_OF_LATEST_POSTING_FIELD_NUMBER;
+          hash = (53 * hash) + getPostingIdOfLatestPosting().hashCode();
+        }
+        if (hasSubject()) {
+          hash = (37 * hash) + SUBJECT_FIELD_NUMBER;
+          hash = (53 * hash) + getSubject().hashCode();
+        }
+        if (hasPostingsInThread()) {
+          hash = (37 * hash) + POSTINGS_IN_THREAD_FIELD_NUMBER;
+          hash = (53 * hash) + getPostingsInThread().hashCode();
+        }
+        if (hasEMailOfAuthor()) {
+          hash = (37 * hash) + E_MAIL_OF_AUTHOR_FIELD_NUMBER;
+          hash = (53 * hash) + getEMailOfAuthor().hashCode();
+        }
+        if (hasAuthorPersonId()) {
+          hash = (37 * hash) + AUTHOR_PERSON_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getAuthorPersonId().hashCode();
+        }
+        if (hasVisible()) {
+          hash = (37 * hash) + VISIBLE_FIELD_NUMBER;
+          hash = (53 * hash) + getVisible().hashCode();
+        }
+        if (hasHasBinaries()) {
+          hash = (37 * hash) + HAS_BINARIES_FIELD_NUMBER;
+          hash = (53 * hash) + getHasBinaries().hashCode();
+        }
+        if (hasAuthor()) {
+          hash = (37 * hash) + AUTHOR_FIELD_NUMBER;
+          hash = (53 * hash) + getAuthor().hashCode();
+        }
+        if (hasMainPostingPostDate()) {
+          hash = (37 * hash) + MAIN_POSTING_POST_DATE_FIELD_NUMBER;
+          hash = (53 * hash) + getMainPostingPostDate().hashCode();
+        }
+        if (hasLatestPostingPostDate()) {
+          hash = (37 * hash) + LATEST_POSTING_POST_DATE_FIELD_NUMBER;
+          hash = (53 * hash) + getLatestPostingPostDate().hashCode();
+        }
+        if (hasPostDate()) {
+          hash = (37 * hash) + POST_DATE_FIELD_NUMBER;
+          hash = (53 * hash) + getPostDate().hashCode();
+        }
+        if (hasNewPostingsInThread()) {
+          hash = (37 * hash) + NEW_POSTINGS_IN_THREAD_FIELD_NUMBER;
+          hash = (53 * hash) + getNewPostingsInThread().hashCode();
+        }
+        if (hasBody()) {
+          hash = (37 * hash) + BODY_FIELD_NUMBER;
+          hash = (53 * hash) + getBody().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5563,39 +6009,39 @@ public final class FoGetMainPostingsPu {
       }
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -5613,7 +6059,7 @@ public final class FoGetMainPostingsPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -5621,7 +6067,7 @@ public final class FoGetMainPostingsPu {
        * Protobuf type {@code dstore.engine.fo_GetMainPostings_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.fo_GetMainPostings_Pu.Response.Row)
           io.dstore.engine.procedures.FoGetMainPostingsPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -5629,7 +6075,7 @@ public final class FoGetMainPostingsPu {
           return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -5642,12 +6088,13 @@ public final class FoGetMainPostingsPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -5857,6 +6304,32 @@ public final class FoGetMainPostingsPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row)other);
@@ -5972,7 +6445,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.booleanValue alreadyRead_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> alreadyReadBuilder_;
         /**
          * <pre>
@@ -6110,11 +6583,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.booleanValue already_read = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getAlreadyReadFieldBuilder() {
           if (alreadyReadBuilder_ == null) {
-            alreadyReadBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            alreadyReadBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getAlreadyRead(),
                     getParentForChildren(),
@@ -6125,7 +6598,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue smallBody_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> smallBodyBuilder_;
         /**
          * <pre>
@@ -6263,11 +6736,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue small_body = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSmallBodyFieldBuilder() {
           if (smallBodyBuilder_ == null) {
-            smallBodyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            smallBodyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSmallBody(),
                     getParentForChildren(),
@@ -6278,7 +6751,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.integerValue postingId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingIdBuilder_;
         /**
          * <pre>
@@ -6416,11 +6889,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.integerValue posting_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingIdFieldBuilder() {
           if (postingIdBuilder_ == null) {
-            postingIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            postingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingId(),
                     getParentForChildren(),
@@ -6431,7 +6904,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.integerValue postingIdOfLatestPosting_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingIdOfLatestPostingBuilder_;
         /**
          * <pre>
@@ -6569,11 +7042,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.integerValue posting_id_of_latest_posting = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingIdOfLatestPostingFieldBuilder() {
           if (postingIdOfLatestPostingBuilder_ == null) {
-            postingIdOfLatestPostingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            postingIdOfLatestPostingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingIdOfLatestPosting(),
                     getParentForChildren(),
@@ -6584,7 +7057,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue subject_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> subjectBuilder_;
         /**
          * <pre>
@@ -6722,11 +7195,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue subject = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSubjectFieldBuilder() {
           if (subjectBuilder_ == null) {
-            subjectBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            subjectBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSubject(),
                     getParentForChildren(),
@@ -6737,7 +7210,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.integerValue postingsInThread_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingsInThreadBuilder_;
         /**
          * <pre>
@@ -6875,11 +7348,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.integerValue postings_in_thread = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPostingsInThreadFieldBuilder() {
           if (postingsInThreadBuilder_ == null) {
-            postingsInThreadBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            postingsInThreadBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPostingsInThread(),
                     getParentForChildren(),
@@ -6890,7 +7363,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue eMailOfAuthor_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> eMailOfAuthorBuilder_;
         /**
          * <pre>
@@ -7028,11 +7501,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue e_mail_of_author = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getEMailOfAuthorFieldBuilder() {
           if (eMailOfAuthorBuilder_ == null) {
-            eMailOfAuthorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            eMailOfAuthorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getEMailOfAuthor(),
                     getParentForChildren(),
@@ -7043,7 +7516,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.integerValue authorPersonId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> authorPersonIdBuilder_;
         /**
          * <pre>
@@ -7181,11 +7654,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.integerValue author_person_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getAuthorPersonIdFieldBuilder() {
           if (authorPersonIdBuilder_ == null) {
-            authorPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            authorPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getAuthorPersonId(),
                     getParentForChildren(),
@@ -7196,7 +7669,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.integerValue visible_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibleBuilder_;
         /**
          * <pre>
@@ -7334,11 +7807,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.integerValue visible = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisibleFieldBuilder() {
           if (visibleBuilder_ == null) {
-            visibleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            visibleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisible(),
                     getParentForChildren(),
@@ -7349,7 +7822,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.booleanValue hasBinaries_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasBinariesBuilder_;
         /**
          * <pre>
@@ -7487,11 +7960,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.booleanValue has_binaries = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasBinariesFieldBuilder() {
           if (hasBinariesBuilder_ == null) {
-            hasBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hasBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasBinaries(),
                     getParentForChildren(),
@@ -7502,7 +7975,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue author_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> authorBuilder_;
         /**
          * <pre>
@@ -7640,11 +8113,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue author = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getAuthorFieldBuilder() {
           if (authorBuilder_ == null) {
-            authorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            authorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getAuthor(),
                     getParentForChildren(),
@@ -7655,7 +8128,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue mainPostingPostDate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> mainPostingPostDateBuilder_;
         /**
          * <pre>
@@ -7793,11 +8266,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue main_posting_post_date = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getMainPostingPostDateFieldBuilder() {
           if (mainPostingPostDateBuilder_ == null) {
-            mainPostingPostDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            mainPostingPostDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getMainPostingPostDate(),
                     getParentForChildren(),
@@ -7808,7 +8281,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue latestPostingPostDate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> latestPostingPostDateBuilder_;
         /**
          * <pre>
@@ -7946,11 +8419,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue latest_posting_post_date = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLatestPostingPostDateFieldBuilder() {
           if (latestPostingPostDateBuilder_ == null) {
-            latestPostingPostDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            latestPostingPostDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLatestPostingPostDate(),
                     getParentForChildren(),
@@ -7961,7 +8434,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue postDate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> postDateBuilder_;
         /**
          * <pre>
@@ -8099,11 +8572,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue post_date = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPostDateFieldBuilder() {
           if (postDateBuilder_ == null) {
-            postDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            postDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPostDate(),
                     getParentForChildren(),
@@ -8114,7 +8587,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.integerValue newPostingsInThread_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newPostingsInThreadBuilder_;
         /**
          * <pre>
@@ -8252,11 +8725,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.integerValue new_postings_in_thread = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNewPostingsInThreadFieldBuilder() {
           if (newPostingsInThreadBuilder_ == null) {
-            newPostingsInThreadBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            newPostingsInThreadBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNewPostingsInThread(),
                     getParentForChildren(),
@@ -8267,7 +8740,7 @@ public final class FoGetMainPostingsPu {
         }
 
         private io.dstore.Values.stringValue body_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> bodyBuilder_;
         /**
          * <pre>
@@ -8405,11 +8878,11 @@ public final class FoGetMainPostingsPu {
          *
          * <code>optional .dstore.values.stringValue body = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBodyFieldBuilder() {
           if (bodyBuilder_ == null) {
-            bodyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            bodyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBody(),
                     getParentForChildren(),
@@ -8637,6 +9110,50 @@ public final class FoGetMainPostingsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.FoGetMainPostingsPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.FoGetMainPostingsPu.Response other = (io.dstore.engine.procedures.FoGetMainPostingsPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -8660,39 +9177,39 @@ public final class FoGetMainPostingsPu {
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.FoGetMainPostingsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -8710,7 +9227,7 @@ public final class FoGetMainPostingsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -8718,7 +9235,7 @@ public final class FoGetMainPostingsPu {
      * Protobuf type {@code dstore.engine.fo_GetMainPostings_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.fo_GetMainPostings_Pu.Response)
         io.dstore.engine.procedures.FoGetMainPostingsPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -8726,7 +9243,7 @@ public final class FoGetMainPostingsPu {
         return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.FoGetMainPostingsPu.internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -8739,12 +9256,13 @@ public final class FoGetMainPostingsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -8824,6 +9342,32 @@ public final class FoGetMainPostingsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.FoGetMainPostingsPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.FoGetMainPostingsPu.Response)other);
@@ -8854,7 +9398,7 @@ public final class FoGetMainPostingsPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -8880,7 +9424,7 @@ public final class FoGetMainPostingsPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -8906,7 +9450,7 @@ public final class FoGetMainPostingsPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -8949,7 +9493,7 @@ public final class FoGetMainPostingsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -9165,11 +9709,11 @@ public final class FoGetMainPostingsPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -9189,7 +9733,7 @@ public final class FoGetMainPostingsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -9405,11 +9949,11 @@ public final class FoGetMainPostingsPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -9429,7 +9973,7 @@ public final class FoGetMainPostingsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row, io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetMainPostingsPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -9717,11 +10261,11 @@ public final class FoGetMainPostingsPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row, io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetMainPostingsPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row, io.dstore.engine.procedures.FoGetMainPostingsPu.Response.Row.Builder, io.dstore.engine.procedures.FoGetMainPostingsPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -9783,17 +10327,17 @@ public final class FoGetMainPostingsPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -9893,19 +10437,19 @@ public final class FoGetMainPostingsPu {
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetMainPostings_Pu_Parameters_descriptor,
         new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "ForumId", "ForumIdNull", "SortCriteria", "SortCriteriaNull", "FromMainPosting", "FromMainPostingNull", "MaxNumberOfThreads", "MaxNumberOfThreadsNull", "IncludePostingBodies", "IncludePostingBodiesNull", "Visibility", "VisibilityNull", "ShowPostDateOfMainPosting", "ShowPostDateOfMainPostingNull", "GetOwnNotApprovedPostings", "GetOwnNotApprovedPostingsNull", "OutputIntoOneId", "OutputIntoOneIdNull", "SortingCriteriaNo", "SortingCriteriaNoNull", "ReverseOrderOfSorting", "ReverseOrderOfSortingNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetMainPostings_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "AlreadyRead", "SmallBody", "PostingId", "PostingIdOfLatestPosting", "Subject", "PostingsInThread", "EMailOfAuthor", "AuthorPersonId", "Visible", "HasBinaries", "Author", "MainPostingPostDate", "LatestPostingPostDate", "PostDate", "NewPostingsInThread", "Body", });
     io.dstore.Values.getDescriptor();

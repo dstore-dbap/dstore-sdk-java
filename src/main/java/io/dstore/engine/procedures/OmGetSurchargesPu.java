@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetSurchargesPu {
   private OmGetSurchargesPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetSurcharges_Pu.Parameters)
@@ -70,11 +76,11 @@ public final class OmGetSurchargesPu {
    * Protobuf type {@code dstore.engine.om_GetSurcharges_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetSurcharges_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -178,7 +184,7 @@ public final class OmGetSurchargesPu {
       return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -341,6 +347,74 @@ public final class OmGetSurchargesPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetSurchargesPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetSurchargesPu.Parameters other = (io.dstore.engine.procedures.OmGetSurchargesPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasNodeIds() == other.hasNodeIds());
+      if (hasNodeIds()) {
+        result = result && getNodeIds()
+            .equals(other.getNodeIds());
+      }
+      result = result && (getNodeIdsNull()
+          == other.getNodeIdsNull());
+      result = result && (hasCurrencyId() == other.hasCurrencyId());
+      if (hasCurrencyId()) {
+        result = result && getCurrencyId()
+            .equals(other.getCurrencyId());
+      }
+      result = result && (getCurrencyIdNull()
+          == other.getCurrencyIdNull());
+      result = result && (hasPersonId() == other.hasPersonId());
+      if (hasPersonId()) {
+        result = result && getPersonId()
+            .equals(other.getPersonId());
+      }
+      result = result && (getPersonIdNull()
+          == other.getPersonIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasNodeIds()) {
+        hash = (37 * hash) + NODE_IDS_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeIds().hashCode();
+      }
+      hash = (37 * hash) + NODE_IDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeIdsNull());
+      if (hasCurrencyId()) {
+        hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCurrencyId().hashCode();
+      }
+      hash = (37 * hash) + CURRENCY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCurrencyIdNull());
+      if (hasPersonId()) {
+        hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -364,39 +438,39 @@ public final class OmGetSurchargesPu {
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -414,7 +488,7 @@ public final class OmGetSurchargesPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -422,7 +496,7 @@ public final class OmGetSurchargesPu {
      * Protobuf type {@code dstore.engine.om_GetSurcharges_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetSurcharges_Pu.Parameters)
         io.dstore.engine.procedures.OmGetSurchargesPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -430,7 +504,7 @@ public final class OmGetSurchargesPu {
         return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -443,12 +517,13 @@ public final class OmGetSurchargesPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -521,6 +596,32 @@ public final class OmGetSurchargesPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetSurchargesPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetSurchargesPu.Parameters)other);
@@ -577,7 +678,7 @@ public final class OmGetSurchargesPu {
       }
 
       private io.dstore.Values.stringValue nodeIds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeIdsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue node_ids = 1;</code>
@@ -679,11 +780,11 @@ public final class OmGetSurchargesPu {
       /**
        * <code>optional .dstore.values.stringValue node_ids = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getNodeIdsFieldBuilder() {
         if (nodeIdsBuilder_ == null) {
-          nodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getNodeIds(),
                   getParentForChildren(),
@@ -720,7 +821,7 @@ public final class OmGetSurchargesPu {
       }
 
       private io.dstore.Values.integerValue currencyId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue currency_id = 2;</code>
@@ -822,11 +923,11 @@ public final class OmGetSurchargesPu {
       /**
        * <code>optional .dstore.values.integerValue currency_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
-          currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
@@ -863,7 +964,7 @@ public final class OmGetSurchargesPu {
       }
 
       private io.dstore.Values.integerValue personId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_id = 3;</code>
@@ -965,11 +1066,11 @@ public final class OmGetSurchargesPu {
       /**
        * <code>optional .dstore.values.integerValue person_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
-          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
@@ -1153,11 +1254,11 @@ public final class OmGetSurchargesPu {
    * Protobuf type {@code dstore.engine.om_GetSurcharges_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetSurcharges_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1196,7 +1297,8 @@ public final class OmGetSurchargesPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1204,7 +1306,8 @@ public final class OmGetSurchargesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1212,7 +1315,8 @@ public final class OmGetSurchargesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1240,7 +1344,7 @@ public final class OmGetSurchargesPu {
       return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1460,11 +1564,11 @@ public final class OmGetSurchargesPu {
      * Protobuf type {@code dstore.engine.om_GetSurcharges_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetSurcharges_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1621,7 +1725,7 @@ public final class OmGetSurchargesPu {
         return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1988,6 +2092,108 @@ public final class OmGetSurchargesPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row other = (io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasRelative() == other.hasRelative());
+        if (hasRelative()) {
+          result = result && getRelative()
+              .equals(other.getRelative());
+        }
+        result = result && (hasUnitId() == other.hasUnitId());
+        if (hasUnitId()) {
+          result = result && getUnitId()
+              .equals(other.getUnitId());
+        }
+        result = result && (hasBrutto() == other.hasBrutto());
+        if (hasBrutto()) {
+          result = result && getBrutto()
+              .equals(other.getBrutto());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasUnitSymbol() == other.hasUnitSymbol());
+        if (hasUnitSymbol()) {
+          result = result && getUnitSymbol()
+              .equals(other.getUnitSymbol());
+        }
+        result = result && (hasSurchargeTypeDescription() == other.hasSurchargeTypeDescription());
+        if (hasSurchargeTypeDescription()) {
+          result = result && getSurchargeTypeDescription()
+              .equals(other.getSurchargeTypeDescription());
+        }
+        result = result && (hasSurchargeValue() == other.hasSurchargeValue());
+        if (hasSurchargeValue()) {
+          result = result && getSurchargeValue()
+              .equals(other.getSurchargeValue());
+        }
+        result = result && (hasSurchargeTypeId() == other.hasSurchargeTypeId());
+        if (hasSurchargeTypeId()) {
+          result = result && getSurchargeTypeId()
+              .equals(other.getSurchargeTypeId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasRelative()) {
+          hash = (37 * hash) + RELATIVE_FIELD_NUMBER;
+          hash = (53 * hash) + getRelative().hashCode();
+        }
+        if (hasUnitId()) {
+          hash = (37 * hash) + UNIT_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitId().hashCode();
+        }
+        if (hasBrutto()) {
+          hash = (37 * hash) + BRUTTO_FIELD_NUMBER;
+          hash = (53 * hash) + getBrutto().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasUnitSymbol()) {
+          hash = (37 * hash) + UNIT_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitSymbol().hashCode();
+        }
+        if (hasSurchargeTypeDescription()) {
+          hash = (37 * hash) + SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeTypeDescription().hashCode();
+        }
+        if (hasSurchargeValue()) {
+          hash = (37 * hash) + SURCHARGE_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeValue().hashCode();
+        }
+        if (hasSurchargeTypeId()) {
+          hash = (37 * hash) + SURCHARGE_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeTypeId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2011,39 +2217,39 @@ public final class OmGetSurchargesPu {
       }
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2061,7 +2267,7 @@ public final class OmGetSurchargesPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2069,7 +2275,7 @@ public final class OmGetSurchargesPu {
        * Protobuf type {@code dstore.engine.om_GetSurcharges_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetSurcharges_Pu.Response.Row)
           io.dstore.engine.procedures.OmGetSurchargesPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2077,7 +2283,7 @@ public final class OmGetSurchargesPu {
           return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2090,12 +2296,13 @@ public final class OmGetSurchargesPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2217,6 +2424,32 @@ public final class OmGetSurchargesPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row)other);
@@ -2308,7 +2541,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.booleanValue relative_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> relativeBuilder_;
         /**
          * <pre>
@@ -2446,11 +2679,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.booleanValue relative = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getRelativeFieldBuilder() {
           if (relativeBuilder_ == null) {
-            relativeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            relativeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getRelative(),
                     getParentForChildren(),
@@ -2461,7 +2694,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.integerValue unitId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
         /**
          * <pre>
@@ -2599,11 +2832,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUnitIdFieldBuilder() {
           if (unitIdBuilder_ == null) {
-            unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUnitId(),
                     getParentForChildren(),
@@ -2614,7 +2847,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.booleanValue brutto_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bruttoBuilder_;
         /**
          * <pre>
@@ -2752,11 +2985,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.booleanValue brutto = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getBruttoFieldBuilder() {
           if (bruttoBuilder_ == null) {
-            bruttoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            bruttoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getBrutto(),
                     getParentForChildren(),
@@ -2767,7 +3000,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -2905,11 +3138,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.integerValue node_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -2920,7 +3153,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.stringValue unitSymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
          * <pre>
@@ -3058,11 +3291,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.stringValue unit_symbol = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
-            unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
@@ -3073,7 +3306,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -3211,11 +3444,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.stringValue surcharge_type_description = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeTypeDescriptionFieldBuilder() {
           if (surchargeTypeDescriptionBuilder_ == null) {
-            surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeTypeDescription(),
                     getParentForChildren(),
@@ -3226,7 +3459,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.decimalValue surchargeValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
          * <pre>
@@ -3364,11 +3597,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.decimalValue surcharge_value = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getSurchargeValueFieldBuilder() {
           if (surchargeValueBuilder_ == null) {
-            surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getSurchargeValue(),
                     getParentForChildren(),
@@ -3379,7 +3612,7 @@ public final class OmGetSurchargesPu {
         }
 
         private io.dstore.Values.integerValue surchargeTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
          * <pre>
@@ -3517,11 +3750,11 @@ public final class OmGetSurchargesPu {
          *
          * <code>optional .dstore.values.integerValue surcharge_type_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeTypeIdFieldBuilder() {
           if (surchargeTypeIdBuilder_ == null) {
-            surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeTypeId(),
                     getParentForChildren(),
@@ -3749,6 +3982,50 @@ public final class OmGetSurchargesPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetSurchargesPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetSurchargesPu.Response other = (io.dstore.engine.procedures.OmGetSurchargesPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3772,39 +4049,39 @@ public final class OmGetSurchargesPu {
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetSurchargesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3822,7 +4099,7 @@ public final class OmGetSurchargesPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3830,7 +4107,7 @@ public final class OmGetSurchargesPu {
      * Protobuf type {@code dstore.engine.om_GetSurcharges_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetSurcharges_Pu.Response)
         io.dstore.engine.procedures.OmGetSurchargesPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3838,7 +4115,7 @@ public final class OmGetSurchargesPu {
         return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetSurchargesPu.internal_static_dstore_engine_om_GetSurcharges_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3851,12 +4128,13 @@ public final class OmGetSurchargesPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3936,6 +4214,32 @@ public final class OmGetSurchargesPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetSurchargesPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetSurchargesPu.Response)other);
@@ -3966,7 +4270,7 @@ public final class OmGetSurchargesPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3992,7 +4296,7 @@ public final class OmGetSurchargesPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4018,7 +4322,7 @@ public final class OmGetSurchargesPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4061,7 +4365,7 @@ public final class OmGetSurchargesPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4277,11 +4581,11 @@ public final class OmGetSurchargesPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4301,7 +4605,7 @@ public final class OmGetSurchargesPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4517,11 +4821,11 @@ public final class OmGetSurchargesPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4541,7 +4845,7 @@ public final class OmGetSurchargesPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row, io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetSurchargesPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4829,11 +5133,11 @@ public final class OmGetSurchargesPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row, io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetSurchargesPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row, io.dstore.engine.procedures.OmGetSurchargesPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetSurchargesPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4895,17 +5199,17 @@ public final class OmGetSurchargesPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetSurcharges_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4964,19 +5268,19 @@ public final class OmGetSurchargesPu {
     internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetSurcharges_Pu_Parameters_descriptor,
         new java.lang.String[] { "NodeIds", "NodeIdsNull", "CurrencyId", "CurrencyIdNull", "PersonId", "PersonIdNull", });
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetSurcharges_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetSurcharges_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetSurcharges_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Relative", "UnitId", "Brutto", "NodeId", "UnitSymbol", "SurchargeTypeDescription", "SurchargeValue", "SurchargeTypeId", });
     io.dstore.Values.getDescriptor();

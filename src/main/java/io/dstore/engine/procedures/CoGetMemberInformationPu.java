@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class CoGetMemberInformationPu {
   private CoGetMemberInformationPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.co_GetMemberInformation_Pu.Parameters)
@@ -178,11 +184,11 @@ public final class CoGetMemberInformationPu {
    * Protobuf type {@code dstore.engine.co_GetMemberInformation_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetMemberInformation_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -400,7 +406,7 @@ public final class CoGetMemberInformationPu {
       return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -827,6 +833,158 @@ public final class CoGetMemberInformationPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters other = (io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasPersonIdentificationValues() == other.hasPersonIdentificationValues());
+      if (hasPersonIdentificationValues()) {
+        result = result && getPersonIdentificationValues()
+            .equals(other.getPersonIdentificationValues());
+      }
+      result = result && (getPersonIdentificationValuesNull()
+          == other.getPersonIdentificationValuesNull());
+      result = result && (hasCommunityId() == other.hasCommunityId());
+      if (hasCommunityId()) {
+        result = result && getCommunityId()
+            .equals(other.getCommunityId());
+      }
+      result = result && (getCommunityIdNull()
+          == other.getCommunityIdNull());
+      result = result && (hasGetInfoForCommunityMemberId() == other.hasGetInfoForCommunityMemberId());
+      if (hasGetInfoForCommunityMemberId()) {
+        result = result && getGetInfoForCommunityMemberId()
+            .equals(other.getGetInfoForCommunityMemberId());
+      }
+      result = result && (getGetInfoForCommunityMemberIdNull()
+          == other.getGetInfoForCommunityMemberIdNull());
+      result = result && (hasCharacteristicIdList() == other.hasCharacteristicIdList());
+      if (hasCharacteristicIdList()) {
+        result = result && getCharacteristicIdList()
+            .equals(other.getCharacteristicIdList());
+      }
+      result = result && (getCharacteristicIdListNull()
+          == other.getCharacteristicIdListNull());
+      result = result && (hasSortedResult() == other.hasSortedResult());
+      if (hasSortedResult()) {
+        result = result && getSortedResult()
+            .equals(other.getSortedResult());
+      }
+      result = result && (getSortedResultNull()
+          == other.getSortedResultNull());
+      result = result && (hasDateFormat() == other.hasDateFormat());
+      if (hasDateFormat()) {
+        result = result && getDateFormat()
+            .equals(other.getDateFormat());
+      }
+      result = result && (getDateFormatNull()
+          == other.getDateFormatNull());
+      result = result && (hasGetDetails() == other.hasGetDetails());
+      if (hasGetDetails()) {
+        result = result && getGetDetails()
+            .equals(other.getGetDetails());
+      }
+      result = result && (getGetDetailsNull()
+          == other.getGetDetailsNull());
+      result = result && (hasSeparatorInIdentVals() == other.hasSeparatorInIdentVals());
+      if (hasSeparatorInIdentVals()) {
+        result = result && getSeparatorInIdentVals()
+            .equals(other.getSeparatorInIdentVals());
+      }
+      result = result && (getSeparatorInIdentValsNull()
+          == other.getSeparatorInIdentValsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasPersonIdentificationValues()) {
+        hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonIdentificationValues().hashCode();
+      }
+      hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdentificationValuesNull());
+      if (hasCommunityId()) {
+        hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCommunityId().hashCode();
+      }
+      hash = (37 * hash) + COMMUNITY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCommunityIdNull());
+      if (hasGetInfoForCommunityMemberId()) {
+        hash = (37 * hash) + GET_INFO_FOR_COMMUNITY_MEMBER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getGetInfoForCommunityMemberId().hashCode();
+      }
+      hash = (37 * hash) + GET_INFO_FOR_COMMUNITY_MEMBER_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetInfoForCommunityMemberIdNull());
+      if (hasCharacteristicIdList()) {
+        hash = (37 * hash) + CHARACTERISTIC_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getCharacteristicIdList().hashCode();
+      }
+      hash = (37 * hash) + CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCharacteristicIdListNull());
+      if (hasSortedResult()) {
+        hash = (37 * hash) + SORTED_RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getSortedResult().hashCode();
+      }
+      hash = (37 * hash) + SORTED_RESULT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortedResultNull());
+      if (hasDateFormat()) {
+        hash = (37 * hash) + DATE_FORMAT_FIELD_NUMBER;
+        hash = (53 * hash) + getDateFormat().hashCode();
+      }
+      hash = (37 * hash) + DATE_FORMAT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDateFormatNull());
+      if (hasGetDetails()) {
+        hash = (37 * hash) + GET_DETAILS_FIELD_NUMBER;
+        hash = (53 * hash) + getGetDetails().hashCode();
+      }
+      hash = (37 * hash) + GET_DETAILS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetDetailsNull());
+      if (hasSeparatorInIdentVals()) {
+        hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER;
+        hash = (53 * hash) + getSeparatorInIdentVals().hashCode();
+      }
+      hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSeparatorInIdentValsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -850,39 +1008,39 @@ public final class CoGetMemberInformationPu {
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -900,7 +1058,7 @@ public final class CoGetMemberInformationPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -908,7 +1066,7 @@ public final class CoGetMemberInformationPu {
      * Protobuf type {@code dstore.engine.co_GetMemberInformation_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetMemberInformation_Pu.Parameters)
         io.dstore.engine.procedures.CoGetMemberInformationPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -916,7 +1074,7 @@ public final class CoGetMemberInformationPu {
         return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -929,12 +1087,13 @@ public final class CoGetMemberInformationPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1091,6 +1250,32 @@ public final class CoGetMemberInformationPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.CoGetMemberInformationPu.Parameters)other);
@@ -1183,7 +1368,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
@@ -1285,11 +1470,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -1326,7 +1511,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.stringValue personIdentificationValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
@@ -1428,11 +1613,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
-          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
@@ -1469,7 +1654,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.integerValue communityId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue community_id = 3;</code>
@@ -1571,11 +1756,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.integerValue community_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
-          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
@@ -1612,7 +1797,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.integerValue getInfoForCommunityMemberId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getInfoForCommunityMemberIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue get_info_for_community_member_id = 4;</code>
@@ -1714,11 +1899,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.integerValue get_info_for_community_member_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGetInfoForCommunityMemberIdFieldBuilder() {
         if (getInfoForCommunityMemberIdBuilder_ == null) {
-          getInfoForCommunityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getInfoForCommunityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGetInfoForCommunityMemberId(),
                   getParentForChildren(),
@@ -1755,7 +1940,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.stringValue characteristicIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
@@ -1857,11 +2042,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCharacteristicIdListFieldBuilder() {
         if (characteristicIdListBuilder_ == null) {
-          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCharacteristicIdList(),
                   getParentForChildren(),
@@ -1898,7 +2083,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.booleanValue sortedResult_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> sortedResultBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue sorted_result = 6;</code>
@@ -2000,11 +2185,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.booleanValue sorted_result = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSortedResultFieldBuilder() {
         if (sortedResultBuilder_ == null) {
-          sortedResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortedResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSortedResult(),
                   getParentForChildren(),
@@ -2041,7 +2226,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.stringValue dateFormat_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dateFormatBuilder_;
       /**
        * <code>optional .dstore.values.stringValue date_format = 7;</code>
@@ -2143,11 +2328,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.stringValue date_format = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDateFormatFieldBuilder() {
         if (dateFormatBuilder_ == null) {
-          dateFormatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dateFormatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDateFormat(),
                   getParentForChildren(),
@@ -2184,7 +2369,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.booleanValue getDetails_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getDetailsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_details = 8;</code>
@@ -2286,11 +2471,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.booleanValue get_details = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetDetailsFieldBuilder() {
         if (getDetailsBuilder_ == null) {
-          getDetailsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getDetailsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetDetails(),
                   getParentForChildren(),
@@ -2327,7 +2512,7 @@ public final class CoGetMemberInformationPu {
       }
 
       private io.dstore.Values.stringValue separatorInIdentVals_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
@@ -2429,11 +2614,11 @@ public final class CoGetMemberInformationPu {
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
-          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
@@ -2617,11 +2802,11 @@ public final class CoGetMemberInformationPu {
    * Protobuf type {@code dstore.engine.co_GetMemberInformation_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetMemberInformation_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2660,7 +2845,8 @@ public final class CoGetMemberInformationPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2668,7 +2854,8 @@ public final class CoGetMemberInformationPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2676,7 +2863,8 @@ public final class CoGetMemberInformationPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2704,7 +2892,7 @@ public final class CoGetMemberInformationPu {
       return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2874,11 +3062,11 @@ public final class CoGetMemberInformationPu {
      * Protobuf type {@code dstore.engine.co_GetMemberInformation_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.co_GetMemberInformation_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3009,7 +3197,7 @@ public final class CoGetMemberInformationPu {
         return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3296,6 +3484,90 @@ public final class CoGetMemberInformationPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row other = (io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasValueRestrictedByPattern() == other.hasValueRestrictedByPattern());
+        if (hasValueRestrictedByPattern()) {
+          result = result && getValueRestrictedByPattern()
+              .equals(other.getValueRestrictedByPattern());
+        }
+        result = result && (hasCharacteristicDescription() == other.hasCharacteristicDescription());
+        if (hasCharacteristicDescription()) {
+          result = result && getCharacteristicDescription()
+              .equals(other.getCharacteristicDescription());
+        }
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (hasCharacteristicId() == other.hasCharacteristicId());
+        if (hasCharacteristicId()) {
+          result = result && getCharacteristicId()
+              .equals(other.getCharacteristicId());
+        }
+        result = result && (hasValueId() == other.hasValueId());
+        if (hasValueId()) {
+          result = result && getValueId()
+              .equals(other.getValueId());
+        }
+        result = result && (hasDetails() == other.hasDetails());
+        if (hasDetails()) {
+          result = result && getDetails()
+              .equals(other.getDetails());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasValueRestrictedByPattern()) {
+          hash = (37 * hash) + VALUE_RESTRICTED_BY_PATTERN_FIELD_NUMBER;
+          hash = (53 * hash) + getValueRestrictedByPattern().hashCode();
+        }
+        if (hasCharacteristicDescription()) {
+          hash = (37 * hash) + CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getCharacteristicDescription().hashCode();
+        }
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        if (hasCharacteristicId()) {
+          hash = (37 * hash) + CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCharacteristicId().hashCode();
+        }
+        if (hasValueId()) {
+          hash = (37 * hash) + VALUE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getValueId().hashCode();
+        }
+        if (hasDetails()) {
+          hash = (37 * hash) + DETAILS_FIELD_NUMBER;
+          hash = (53 * hash) + getDetails().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3319,39 +3591,39 @@ public final class CoGetMemberInformationPu {
       }
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3369,7 +3641,7 @@ public final class CoGetMemberInformationPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3377,7 +3649,7 @@ public final class CoGetMemberInformationPu {
        * Protobuf type {@code dstore.engine.co_GetMemberInformation_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetMemberInformation_Pu.Response.Row)
           io.dstore.engine.procedures.CoGetMemberInformationPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3385,7 +3657,7 @@ public final class CoGetMemberInformationPu {
           return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3398,12 +3670,13 @@ public final class CoGetMemberInformationPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3503,6 +3776,32 @@ public final class CoGetMemberInformationPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row)other);
@@ -3588,7 +3887,7 @@ public final class CoGetMemberInformationPu {
         }
 
         private io.dstore.Values.stringValue valueRestrictedByPattern_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueRestrictedByPatternBuilder_;
         /**
          * <pre>
@@ -3726,11 +4025,11 @@ public final class CoGetMemberInformationPu {
          *
          * <code>optional .dstore.values.stringValue value_restricted_by_pattern = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueRestrictedByPatternFieldBuilder() {
           if (valueRestrictedByPatternBuilder_ == null) {
-            valueRestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueRestrictedByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValueRestrictedByPattern(),
                     getParentForChildren(),
@@ -3741,7 +4040,7 @@ public final class CoGetMemberInformationPu {
         }
 
         private io.dstore.Values.stringValue characteristicDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
@@ -3879,11 +4178,11 @@ public final class CoGetMemberInformationPu {
          *
          * <code>optional .dstore.values.stringValue characteristic_description = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
-            characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
@@ -3894,7 +4193,7 @@ public final class CoGetMemberInformationPu {
         }
 
         private io.dstore.Values.stringValue value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
@@ -4032,11 +4331,11 @@ public final class CoGetMemberInformationPu {
          *
          * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -4047,7 +4346,7 @@ public final class CoGetMemberInformationPu {
         }
 
         private io.dstore.Values.integerValue characteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
         /**
          * <pre>
@@ -4185,11 +4484,11 @@ public final class CoGetMemberInformationPu {
          *
          * <code>optional .dstore.values.integerValue characteristic_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCharacteristicIdFieldBuilder() {
           if (characteristicIdBuilder_ == null) {
-            characteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            characteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCharacteristicId(),
                     getParentForChildren(),
@@ -4200,7 +4499,7 @@ public final class CoGetMemberInformationPu {
         }
 
         private io.dstore.Values.integerValue valueId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
@@ -4338,11 +4637,11 @@ public final class CoGetMemberInformationPu {
          *
          * <code>optional .dstore.values.integerValue value_id = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
-            valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
@@ -4353,7 +4652,7 @@ public final class CoGetMemberInformationPu {
         }
 
         private io.dstore.Values.stringValue details_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailsBuilder_;
         /**
          * <pre>
@@ -4491,11 +4790,11 @@ public final class CoGetMemberInformationPu {
          *
          * <code>optional .dstore.values.stringValue details = 20001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDetailsFieldBuilder() {
           if (detailsBuilder_ == null) {
-            detailsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            detailsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDetails(),
                     getParentForChildren(),
@@ -4723,6 +5022,50 @@ public final class CoGetMemberInformationPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoGetMemberInformationPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoGetMemberInformationPu.Response other = (io.dstore.engine.procedures.CoGetMemberInformationPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4746,39 +5089,39 @@ public final class CoGetMemberInformationPu {
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetMemberInformationPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4796,7 +5139,7 @@ public final class CoGetMemberInformationPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4804,7 +5147,7 @@ public final class CoGetMemberInformationPu {
      * Protobuf type {@code dstore.engine.co_GetMemberInformation_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetMemberInformation_Pu.Response)
         io.dstore.engine.procedures.CoGetMemberInformationPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4812,7 +5155,7 @@ public final class CoGetMemberInformationPu {
         return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetMemberInformationPu.internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4825,12 +5168,13 @@ public final class CoGetMemberInformationPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4910,6 +5254,32 @@ public final class CoGetMemberInformationPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoGetMemberInformationPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.CoGetMemberInformationPu.Response)other);
@@ -4940,7 +5310,7 @@ public final class CoGetMemberInformationPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4966,7 +5336,7 @@ public final class CoGetMemberInformationPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4992,7 +5362,7 @@ public final class CoGetMemberInformationPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5035,7 +5405,7 @@ public final class CoGetMemberInformationPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5251,11 +5621,11 @@ public final class CoGetMemberInformationPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5275,7 +5645,7 @@ public final class CoGetMemberInformationPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5491,11 +5861,11 @@ public final class CoGetMemberInformationPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5515,7 +5885,7 @@ public final class CoGetMemberInformationPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row, io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row.Builder, io.dstore.engine.procedures.CoGetMemberInformationPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5803,11 +6173,11 @@ public final class CoGetMemberInformationPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row, io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row.Builder, io.dstore.engine.procedures.CoGetMemberInformationPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row, io.dstore.engine.procedures.CoGetMemberInformationPu.Response.Row.Builder, io.dstore.engine.procedures.CoGetMemberInformationPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5869,17 +6239,17 @@ public final class CoGetMemberInformationPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5951,19 +6321,19 @@ public final class CoGetMemberInformationPu {
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetMemberInformation_Pu_Parameters_descriptor,
         new java.lang.String[] { "UniqueId", "UniqueIdNull", "PersonIdentificationValues", "PersonIdentificationValuesNull", "CommunityId", "CommunityIdNull", "GetInfoForCommunityMemberId", "GetInfoForCommunityMemberIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "SortedResult", "SortedResultNull", "DateFormat", "DateFormatNull", "GetDetails", "GetDetailsNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", });
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetMemberInformation_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ValueRestrictedByPattern", "CharacteristicDescription", "Value", "CharacteristicId", "ValueId", "Details", });
     io.dstore.Values.getDescriptor();

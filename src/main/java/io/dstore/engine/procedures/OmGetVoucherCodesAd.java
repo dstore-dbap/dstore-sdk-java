@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetVoucherCodesAd {
   private OmGetVoucherCodesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetVoucherCodes_Ad.Parameters)
@@ -106,11 +112,11 @@ public final class OmGetVoucherCodesAd {
    * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetVoucherCodes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -252,7 +258,7 @@ public final class OmGetVoucherCodesAd {
       return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -503,6 +509,102 @@ public final class OmGetVoucherCodesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters other = (io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasFromCreationDate() == other.hasFromCreationDate());
+      if (hasFromCreationDate()) {
+        result = result && getFromCreationDate()
+            .equals(other.getFromCreationDate());
+      }
+      result = result && (getFromCreationDateNull()
+          == other.getFromCreationDateNull());
+      result = result && (hasToCreationDate() == other.hasToCreationDate());
+      if (hasToCreationDate()) {
+        result = result && getToCreationDate()
+            .equals(other.getToCreationDate());
+      }
+      result = result && (getToCreationDateNull()
+          == other.getToCreationDateNull());
+      result = result && (hasVoucherCode() == other.hasVoucherCode());
+      if (hasVoucherCode()) {
+        result = result && getVoucherCode()
+            .equals(other.getVoucherCode());
+      }
+      result = result && (getVoucherCodeNull()
+          == other.getVoucherCodeNull());
+      result = result && (hasVoucherTypeId() == other.hasVoucherTypeId());
+      if (hasVoucherTypeId()) {
+        result = result && getVoucherTypeId()
+            .equals(other.getVoucherTypeId());
+      }
+      result = result && (getVoucherTypeIdNull()
+          == other.getVoucherTypeIdNull());
+      result = result && (hasGetUsedCodes() == other.hasGetUsedCodes());
+      if (hasGetUsedCodes()) {
+        result = result && getGetUsedCodes()
+            .equals(other.getGetUsedCodes());
+      }
+      result = result && (getGetUsedCodesNull()
+          == other.getGetUsedCodesNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasFromCreationDate()) {
+        hash = (37 * hash) + FROM_CREATION_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromCreationDate().hashCode();
+      }
+      hash = (37 * hash) + FROM_CREATION_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromCreationDateNull());
+      if (hasToCreationDate()) {
+        hash = (37 * hash) + TO_CREATION_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getToCreationDate().hashCode();
+      }
+      hash = (37 * hash) + TO_CREATION_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToCreationDateNull());
+      if (hasVoucherCode()) {
+        hash = (37 * hash) + VOUCHER_CODE_FIELD_NUMBER;
+        hash = (53 * hash) + getVoucherCode().hashCode();
+      }
+      hash = (37 * hash) + VOUCHER_CODE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getVoucherCodeNull());
+      if (hasVoucherTypeId()) {
+        hash = (37 * hash) + VOUCHER_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getVoucherTypeId().hashCode();
+      }
+      hash = (37 * hash) + VOUCHER_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getVoucherTypeIdNull());
+      if (hasGetUsedCodes()) {
+        hash = (37 * hash) + GET_USED_CODES_FIELD_NUMBER;
+        hash = (53 * hash) + getGetUsedCodes().hashCode();
+      }
+      hash = (37 * hash) + GET_USED_CODES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetUsedCodesNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -526,39 +628,39 @@ public final class OmGetVoucherCodesAd {
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -576,7 +678,7 @@ public final class OmGetVoucherCodesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -584,7 +686,7 @@ public final class OmGetVoucherCodesAd {
      * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetVoucherCodes_Ad.Parameters)
         io.dstore.engine.procedures.OmGetVoucherCodesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -592,7 +694,7 @@ public final class OmGetVoucherCodesAd {
         return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -605,12 +707,13 @@ public final class OmGetVoucherCodesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -711,6 +814,32 @@ public final class OmGetVoucherCodesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetVoucherCodesAd.Parameters)other);
@@ -779,7 +908,7 @@ public final class OmGetVoucherCodesAd {
       }
 
       private io.dstore.Values.timestampValue fromCreationDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromCreationDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
@@ -881,11 +1010,11 @@ public final class OmGetVoucherCodesAd {
       /**
        * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromCreationDateFieldBuilder() {
         if (fromCreationDateBuilder_ == null) {
-          fromCreationDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromCreationDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromCreationDate(),
                   getParentForChildren(),
@@ -922,7 +1051,7 @@ public final class OmGetVoucherCodesAd {
       }
 
       private io.dstore.Values.timestampValue toCreationDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toCreationDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
@@ -1024,11 +1153,11 @@ public final class OmGetVoucherCodesAd {
       /**
        * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToCreationDateFieldBuilder() {
         if (toCreationDateBuilder_ == null) {
-          toCreationDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toCreationDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToCreationDate(),
                   getParentForChildren(),
@@ -1065,7 +1194,7 @@ public final class OmGetVoucherCodesAd {
       }
 
       private io.dstore.Values.stringValue voucherCode_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherCodeBuilder_;
       /**
        * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
@@ -1167,11 +1296,11 @@ public final class OmGetVoucherCodesAd {
       /**
        * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getVoucherCodeFieldBuilder() {
         if (voucherCodeBuilder_ == null) {
-          voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getVoucherCode(),
                   getParentForChildren(),
@@ -1208,7 +1337,7 @@ public final class OmGetVoucherCodesAd {
       }
 
       private io.dstore.Values.integerValue voucherTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
@@ -1310,11 +1439,11 @@ public final class OmGetVoucherCodesAd {
       /**
        * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getVoucherTypeIdFieldBuilder() {
         if (voucherTypeIdBuilder_ == null) {
-          voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getVoucherTypeId(),
                   getParentForChildren(),
@@ -1351,7 +1480,7 @@ public final class OmGetVoucherCodesAd {
       }
 
       private io.dstore.Values.integerValue getUsedCodes_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getUsedCodesBuilder_;
       /**
        * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
@@ -1453,11 +1582,11 @@ public final class OmGetVoucherCodesAd {
       /**
        * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGetUsedCodesFieldBuilder() {
         if (getUsedCodesBuilder_ == null) {
-          getUsedCodesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getUsedCodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGetUsedCodes(),
                   getParentForChildren(),
@@ -1641,11 +1770,11 @@ public final class OmGetVoucherCodesAd {
    * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetVoucherCodes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1684,7 +1813,8 @@ public final class OmGetVoucherCodesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1692,7 +1822,8 @@ public final class OmGetVoucherCodesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1700,7 +1831,8 @@ public final class OmGetVoucherCodesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1728,7 +1860,7 @@ public final class OmGetVoucherCodesAd {
       return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1948,11 +2080,11 @@ public final class OmGetVoucherCodesAd {
      * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetVoucherCodes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2109,7 +2241,7 @@ public final class OmGetVoucherCodesAd {
         return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2476,6 +2608,108 @@ public final class OmGetVoucherCodesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row other = (io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasCreatedByUserId() == other.hasCreatedByUserId());
+        if (hasCreatedByUserId()) {
+          result = result && getCreatedByUserId()
+              .equals(other.getCreatedByUserId());
+        }
+        result = result && (hasVoucherCode() == other.hasVoucherCode());
+        if (hasVoucherCode()) {
+          result = result && getVoucherCode()
+              .equals(other.getVoucherCode());
+        }
+        result = result && (hasVoucherTypeId() == other.hasVoucherTypeId());
+        if (hasVoucherTypeId()) {
+          result = result && getVoucherTypeId()
+              .equals(other.getVoucherTypeId());
+        }
+        result = result && (hasVoucherTypeDescription() == other.hasVoucherTypeDescription());
+        if (hasVoucherTypeDescription()) {
+          result = result && getVoucherTypeDescription()
+              .equals(other.getVoucherTypeDescription());
+        }
+        result = result && (hasCodeValidUntil() == other.hasCodeValidUntil());
+        if (hasCodeValidUntil()) {
+          result = result && getCodeValidUntil()
+              .equals(other.getCodeValidUntil());
+        }
+        result = result && (hasLastUsageAtDateAndTime() == other.hasLastUsageAtDateAndTime());
+        if (hasLastUsageAtDateAndTime()) {
+          result = result && getLastUsageAtDateAndTime()
+              .equals(other.getLastUsageAtDateAndTime());
+        }
+        result = result && (hasUsageCount() == other.hasUsageCount());
+        if (hasUsageCount()) {
+          result = result && getUsageCount()
+              .equals(other.getUsageCount());
+        }
+        result = result && (hasCreatedAtDateAndTime() == other.hasCreatedAtDateAndTime());
+        if (hasCreatedAtDateAndTime()) {
+          result = result && getCreatedAtDateAndTime()
+              .equals(other.getCreatedAtDateAndTime());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasCreatedByUserId()) {
+          hash = (37 * hash) + CREATED_BY_USER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCreatedByUserId().hashCode();
+        }
+        if (hasVoucherCode()) {
+          hash = (37 * hash) + VOUCHER_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getVoucherCode().hashCode();
+        }
+        if (hasVoucherTypeId()) {
+          hash = (37 * hash) + VOUCHER_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getVoucherTypeId().hashCode();
+        }
+        if (hasVoucherTypeDescription()) {
+          hash = (37 * hash) + VOUCHER_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getVoucherTypeDescription().hashCode();
+        }
+        if (hasCodeValidUntil()) {
+          hash = (37 * hash) + CODE_VALID_UNTIL_FIELD_NUMBER;
+          hash = (53 * hash) + getCodeValidUntil().hashCode();
+        }
+        if (hasLastUsageAtDateAndTime()) {
+          hash = (37 * hash) + LAST_USAGE_AT_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getLastUsageAtDateAndTime().hashCode();
+        }
+        if (hasUsageCount()) {
+          hash = (37 * hash) + USAGE_COUNT_FIELD_NUMBER;
+          hash = (53 * hash) + getUsageCount().hashCode();
+        }
+        if (hasCreatedAtDateAndTime()) {
+          hash = (37 * hash) + CREATED_AT_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getCreatedAtDateAndTime().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2499,39 +2733,39 @@ public final class OmGetVoucherCodesAd {
       }
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2549,7 +2783,7 @@ public final class OmGetVoucherCodesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2557,7 +2791,7 @@ public final class OmGetVoucherCodesAd {
        * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetVoucherCodes_Ad.Response.Row)
           io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2565,7 +2799,7 @@ public final class OmGetVoucherCodesAd {
           return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2578,12 +2812,13 @@ public final class OmGetVoucherCodesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2705,6 +2940,32 @@ public final class OmGetVoucherCodesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row)other);
@@ -2796,7 +3057,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.integerValue createdByUserId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> createdByUserIdBuilder_;
         /**
          * <pre>
@@ -2934,11 +3195,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCreatedByUserIdFieldBuilder() {
           if (createdByUserIdBuilder_ == null) {
-            createdByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            createdByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCreatedByUserId(),
                     getParentForChildren(),
@@ -2949,7 +3210,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.stringValue voucherCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherCodeBuilder_;
         /**
          * <pre>
@@ -3087,11 +3348,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getVoucherCodeFieldBuilder() {
           if (voucherCodeBuilder_ == null) {
-            voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getVoucherCode(),
                     getParentForChildren(),
@@ -3102,7 +3363,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.integerValue voucherTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
         /**
          * <pre>
@@ -3240,11 +3501,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVoucherTypeIdFieldBuilder() {
           if (voucherTypeIdBuilder_ == null) {
-            voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVoucherTypeId(),
                     getParentForChildren(),
@@ -3255,7 +3516,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.stringValue voucherTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -3393,11 +3654,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getVoucherTypeDescriptionFieldBuilder() {
           if (voucherTypeDescriptionBuilder_ == null) {
-            voucherTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            voucherTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getVoucherTypeDescription(),
                     getParentForChildren(),
@@ -3408,7 +3669,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.timestampValue codeValidUntil_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> codeValidUntilBuilder_;
         /**
          * <pre>
@@ -3546,11 +3807,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCodeValidUntilFieldBuilder() {
           if (codeValidUntilBuilder_ == null) {
-            codeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            codeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCodeValidUntil(),
                     getParentForChildren(),
@@ -3561,7 +3822,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.timestampValue lastUsageAtDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastUsageAtDateAndTimeBuilder_;
         /**
          * <pre>
@@ -3699,11 +3960,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getLastUsageAtDateAndTimeFieldBuilder() {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
-            lastUsageAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            lastUsageAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getLastUsageAtDateAndTime(),
                     getParentForChildren(),
@@ -3714,7 +3975,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.integerValue usageCount_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usageCountBuilder_;
         /**
          * <pre>
@@ -3852,11 +4113,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUsageCountFieldBuilder() {
           if (usageCountBuilder_ == null) {
-            usageCountBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usageCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUsageCount(),
                     getParentForChildren(),
@@ -3867,7 +4128,7 @@ public final class OmGetVoucherCodesAd {
         }
 
         private io.dstore.Values.timestampValue createdAtDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
          * <pre>
@@ -4005,11 +4266,11 @@ public final class OmGetVoucherCodesAd {
          *
          * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCreatedAtDateAndTimeFieldBuilder() {
           if (createdAtDateAndTimeBuilder_ == null) {
-            createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCreatedAtDateAndTime(),
                     getParentForChildren(),
@@ -4237,6 +4498,50 @@ public final class OmGetVoucherCodesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetVoucherCodesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetVoucherCodesAd.Response other = (io.dstore.engine.procedures.OmGetVoucherCodesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4260,39 +4565,39 @@ public final class OmGetVoucherCodesAd {
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetVoucherCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4310,7 +4615,7 @@ public final class OmGetVoucherCodesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4318,7 +4623,7 @@ public final class OmGetVoucherCodesAd {
      * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetVoucherCodes_Ad.Response)
         io.dstore.engine.procedures.OmGetVoucherCodesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4326,7 +4631,7 @@ public final class OmGetVoucherCodesAd {
         return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetVoucherCodesAd.internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4339,12 +4644,13 @@ public final class OmGetVoucherCodesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4424,6 +4730,32 @@ public final class OmGetVoucherCodesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetVoucherCodesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetVoucherCodesAd.Response)other);
@@ -4454,7 +4786,7 @@ public final class OmGetVoucherCodesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4480,7 +4812,7 @@ public final class OmGetVoucherCodesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4506,7 +4838,7 @@ public final class OmGetVoucherCodesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4549,7 +4881,7 @@ public final class OmGetVoucherCodesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4765,11 +5097,11 @@ public final class OmGetVoucherCodesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4789,7 +5121,7 @@ public final class OmGetVoucherCodesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5005,11 +5337,11 @@ public final class OmGetVoucherCodesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5029,7 +5361,7 @@ public final class OmGetVoucherCodesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row, io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5317,11 +5649,11 @@ public final class OmGetVoucherCodesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row, io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row, io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetVoucherCodesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5383,17 +5715,17 @@ public final class OmGetVoucherCodesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5459,19 +5791,19 @@ public final class OmGetVoucherCodesAd {
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_descriptor,
         new java.lang.String[] { "FromCreationDate", "FromCreationDateNull", "ToCreationDate", "ToCreationDateNull", "VoucherCode", "VoucherCodeNull", "VoucherTypeId", "VoucherTypeIdNull", "GetUsedCodes", "GetUsedCodesNull", });
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CreatedByUserId", "VoucherCode", "VoucherTypeId", "VoucherTypeDescription", "CodeValidUntil", "LastUsageAtDateAndTime", "UsageCount", "CreatedAtDateAndTime", });
     io.dstore.Values.getDescriptor();

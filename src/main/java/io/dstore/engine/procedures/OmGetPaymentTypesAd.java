@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetPaymentTypesAd {
   private OmGetPaymentTypesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetPaymentTypes_Ad.Parameters)
@@ -88,11 +94,11 @@ public final class OmGetPaymentTypesAd {
    * Protobuf type {@code dstore.engine.om_GetPaymentTypes_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPaymentTypes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -215,7 +221,7 @@ public final class OmGetPaymentTypesAd {
       return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -422,6 +428,88 @@ public final class OmGetPaymentTypesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters other = (io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasLanguageId() == other.hasLanguageId());
+      if (hasLanguageId()) {
+        result = result && getLanguageId()
+            .equals(other.getLanguageId());
+      }
+      result = result && (getLanguageIdNull()
+          == other.getLanguageIdNull());
+      result = result && (hasPaymentTypeId() == other.hasPaymentTypeId());
+      if (hasPaymentTypeId()) {
+        result = result && getPaymentTypeId()
+            .equals(other.getPaymentTypeId());
+      }
+      result = result && (getPaymentTypeIdNull()
+          == other.getPaymentTypeIdNull());
+      result = result && (hasOnlyActive() == other.hasOnlyActive());
+      if (hasOnlyActive()) {
+        result = result && getOnlyActive()
+            .equals(other.getOnlyActive());
+      }
+      result = result && (getOnlyActiveNull()
+          == other.getOnlyActiveNull());
+      result = result && (hasValidAtDateAndTime() == other.hasValidAtDateAndTime());
+      if (hasValidAtDateAndTime()) {
+        result = result && getValidAtDateAndTime()
+            .equals(other.getValidAtDateAndTime());
+      }
+      result = result && (getValidAtDateAndTimeNull()
+          == other.getValidAtDateAndTimeNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasLanguageId()) {
+        hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getLanguageId().hashCode();
+      }
+      hash = (37 * hash) + LANGUAGE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLanguageIdNull());
+      if (hasPaymentTypeId()) {
+        hash = (37 * hash) + PAYMENT_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPaymentTypeId().hashCode();
+      }
+      hash = (37 * hash) + PAYMENT_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPaymentTypeIdNull());
+      if (hasOnlyActive()) {
+        hash = (37 * hash) + ONLY_ACTIVE_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyActive().hashCode();
+      }
+      hash = (37 * hash) + ONLY_ACTIVE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyActiveNull());
+      if (hasValidAtDateAndTime()) {
+        hash = (37 * hash) + VALID_AT_DATE_AND_TIME_FIELD_NUMBER;
+        hash = (53 * hash) + getValidAtDateAndTime().hashCode();
+      }
+      hash = (37 * hash) + VALID_AT_DATE_AND_TIME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValidAtDateAndTimeNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -445,39 +533,39 @@ public final class OmGetPaymentTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -495,7 +583,7 @@ public final class OmGetPaymentTypesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -503,7 +591,7 @@ public final class OmGetPaymentTypesAd {
      * Protobuf type {@code dstore.engine.om_GetPaymentTypes_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPaymentTypes_Ad.Parameters)
         io.dstore.engine.procedures.OmGetPaymentTypesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -511,7 +599,7 @@ public final class OmGetPaymentTypesAd {
         return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -524,12 +612,13 @@ public final class OmGetPaymentTypesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -616,6 +705,32 @@ public final class OmGetPaymentTypesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetPaymentTypesAd.Parameters)other);
@@ -678,7 +793,7 @@ public final class OmGetPaymentTypesAd {
       }
 
       private io.dstore.Values.integerValue languageId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue language_id = 1;</code>
@@ -780,11 +895,11 @@ public final class OmGetPaymentTypesAd {
       /**
        * <code>optional .dstore.values.integerValue language_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
-          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
@@ -821,7 +936,7 @@ public final class OmGetPaymentTypesAd {
       }
 
       private io.dstore.Values.integerValue paymentTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue payment_type_id = 2;</code>
@@ -923,11 +1038,11 @@ public final class OmGetPaymentTypesAd {
       /**
        * <code>optional .dstore.values.integerValue payment_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPaymentTypeIdFieldBuilder() {
         if (paymentTypeIdBuilder_ == null) {
-          paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPaymentTypeId(),
                   getParentForChildren(),
@@ -964,7 +1079,7 @@ public final class OmGetPaymentTypesAd {
       }
 
       private io.dstore.Values.booleanValue onlyActive_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyActiveBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_active = 3;</code>
@@ -1066,11 +1181,11 @@ public final class OmGetPaymentTypesAd {
       /**
        * <code>optional .dstore.values.booleanValue only_active = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyActiveFieldBuilder() {
         if (onlyActiveBuilder_ == null) {
-          onlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyActiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyActive(),
                   getParentForChildren(),
@@ -1107,7 +1222,7 @@ public final class OmGetPaymentTypesAd {
       }
 
       private io.dstore.Values.timestampValue validAtDateAndTime_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validAtDateAndTimeBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue valid_at_date_and_time = 4;</code>
@@ -1209,11 +1324,11 @@ public final class OmGetPaymentTypesAd {
       /**
        * <code>optional .dstore.values.timestampValue valid_at_date_and_time = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidAtDateAndTimeFieldBuilder() {
         if (validAtDateAndTimeBuilder_ == null) {
-          validAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          validAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidAtDateAndTime(),
                   getParentForChildren(),
@@ -1397,11 +1512,11 @@ public final class OmGetPaymentTypesAd {
    * Protobuf type {@code dstore.engine.om_GetPaymentTypes_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPaymentTypes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1440,7 +1555,8 @@ public final class OmGetPaymentTypesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1448,7 +1564,8 @@ public final class OmGetPaymentTypesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1456,7 +1573,8 @@ public final class OmGetPaymentTypesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1484,7 +1602,7 @@ public final class OmGetPaymentTypesAd {
       return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2079,11 +2197,11 @@ public final class OmGetPaymentTypesAd {
      * Protobuf type {@code dstore.engine.om_GetPaymentTypes_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPaymentTypes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2435,7 +2553,7 @@ public final class OmGetPaymentTypesAd {
         return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3402,6 +3520,243 @@ public final class OmGetPaymentTypesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row other = (io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasBruttoSumTo() == other.hasBruttoSumTo());
+        if (hasBruttoSumTo()) {
+          result = result && getBruttoSumTo()
+              .equals(other.getBruttoSumTo());
+        }
+        result = result && (hasPriorityNo() == other.hasPriorityNo());
+        if (hasPriorityNo()) {
+          result = result && getPriorityNo()
+              .equals(other.getPriorityNo());
+        }
+        result = result && (hasSurchargeUnitSymbol() == other.hasSurchargeUnitSymbol());
+        if (hasSurchargeUnitSymbol()) {
+          result = result && getSurchargeUnitSymbol()
+              .equals(other.getSurchargeUnitSymbol());
+        }
+        result = result && (hasBruttoSumFrom() == other.hasBruttoSumFrom());
+        if (hasBruttoSumFrom()) {
+          result = result && getBruttoSumFrom()
+              .equals(other.getBruttoSumFrom());
+        }
+        result = result && (hasSurchargeValue() == other.hasSurchargeValue());
+        if (hasSurchargeValue()) {
+          result = result && getSurchargeValue()
+              .equals(other.getSurchargeValue());
+        }
+        result = result && (hasCost() == other.hasCost());
+        if (hasCost()) {
+          result = result && getCost()
+              .equals(other.getCost());
+        }
+        result = result && (hasGrossSumTo() == other.hasGrossSumTo());
+        if (hasGrossSumTo()) {
+          result = result && getGrossSumTo()
+              .equals(other.getGrossSumTo());
+        }
+        result = result && (hasCurrencyId() == other.hasCurrencyId());
+        if (hasCurrencyId()) {
+          result = result && getCurrencyId()
+              .equals(other.getCurrencyId());
+        }
+        result = result && (hasCurrencySymbol() == other.hasCurrencySymbol());
+        if (hasCurrencySymbol()) {
+          result = result && getCurrencySymbol()
+              .equals(other.getCurrencySymbol());
+        }
+        result = result && (hasCreatedAtDateAndTime() == other.hasCreatedAtDateAndTime());
+        if (hasCreatedAtDateAndTime()) {
+          result = result && getCreatedAtDateAndTime()
+              .equals(other.getCreatedAtDateAndTime());
+        }
+        result = result && (hasActive() == other.hasActive());
+        if (hasActive()) {
+          result = result && getActive()
+              .equals(other.getActive());
+        }
+        result = result && (hasCostCurrencyId() == other.hasCostCurrencyId());
+        if (hasCostCurrencyId()) {
+          result = result && getCostCurrencyId()
+              .equals(other.getCostCurrencyId());
+        }
+        result = result && (hasPaymentTypeDescription() == other.hasPaymentTypeDescription());
+        if (hasPaymentTypeDescription()) {
+          result = result && getPaymentTypeDescription()
+              .equals(other.getPaymentTypeDescription());
+        }
+        result = result && (hasTranslatedDescription() == other.hasTranslatedDescription());
+        if (hasTranslatedDescription()) {
+          result = result && getTranslatedDescription()
+              .equals(other.getTranslatedDescription());
+        }
+        result = result && (hasGrossSumFrom() == other.hasGrossSumFrom());
+        if (hasGrossSumFrom()) {
+          result = result && getGrossSumFrom()
+              .equals(other.getGrossSumFrom());
+        }
+        result = result && (hasRegion() == other.hasRegion());
+        if (hasRegion()) {
+          result = result && getRegion()
+              .equals(other.getRegion());
+        }
+        result = result && (hasSurchargeIsAbsoluteValue() == other.hasSurchargeIsAbsoluteValue());
+        if (hasSurchargeIsAbsoluteValue()) {
+          result = result && getSurchargeIsAbsoluteValue()
+              .equals(other.getSurchargeIsAbsoluteValue());
+        }
+        result = result && (hasCostCurrencySymbol() == other.hasCostCurrencySymbol());
+        if (hasCostCurrencySymbol()) {
+          result = result && getCostCurrencySymbol()
+              .equals(other.getCostCurrencySymbol());
+        }
+        result = result && (hasRegionId() == other.hasRegionId());
+        if (hasRegionId()) {
+          result = result && getRegionId()
+              .equals(other.getRegionId());
+        }
+        result = result && (hasSurchargeTypeDescription() == other.hasSurchargeTypeDescription());
+        if (hasSurchargeTypeDescription()) {
+          result = result && getSurchargeTypeDescription()
+              .equals(other.getSurchargeTypeDescription());
+        }
+        result = result && (hasPaymentTypeId() == other.hasPaymentTypeId());
+        if (hasPaymentTypeId()) {
+          result = result && getPaymentTypeId()
+              .equals(other.getPaymentTypeId());
+        }
+        result = result && (hasSurchargeTypeId() == other.hasSurchargeTypeId());
+        if (hasSurchargeTypeId()) {
+          result = result && getSurchargeTypeId()
+              .equals(other.getSurchargeTypeId());
+        }
+        result = result && (hasSurchargeUnitId() == other.hasSurchargeUnitId());
+        if (hasSurchargeUnitId()) {
+          result = result && getSurchargeUnitId()
+              .equals(other.getSurchargeUnitId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasBruttoSumTo()) {
+          hash = (37 * hash) + BRUTTO_SUM_TO_FIELD_NUMBER;
+          hash = (53 * hash) + getBruttoSumTo().hashCode();
+        }
+        if (hasPriorityNo()) {
+          hash = (37 * hash) + PRIORITY_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getPriorityNo().hashCode();
+        }
+        if (hasSurchargeUnitSymbol()) {
+          hash = (37 * hash) + SURCHARGE_UNIT_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeUnitSymbol().hashCode();
+        }
+        if (hasBruttoSumFrom()) {
+          hash = (37 * hash) + BRUTTO_SUM_FROM_FIELD_NUMBER;
+          hash = (53 * hash) + getBruttoSumFrom().hashCode();
+        }
+        if (hasSurchargeValue()) {
+          hash = (37 * hash) + SURCHARGE_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeValue().hashCode();
+        }
+        if (hasCost()) {
+          hash = (37 * hash) + COST_FIELD_NUMBER;
+          hash = (53 * hash) + getCost().hashCode();
+        }
+        if (hasGrossSumTo()) {
+          hash = (37 * hash) + GROSS_SUM_TO_FIELD_NUMBER;
+          hash = (53 * hash) + getGrossSumTo().hashCode();
+        }
+        if (hasCurrencyId()) {
+          hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrencyId().hashCode();
+        }
+        if (hasCurrencySymbol()) {
+          hash = (37 * hash) + CURRENCY_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrencySymbol().hashCode();
+        }
+        if (hasCreatedAtDateAndTime()) {
+          hash = (37 * hash) + CREATED_AT_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getCreatedAtDateAndTime().hashCode();
+        }
+        if (hasActive()) {
+          hash = (37 * hash) + ACTIVE_FIELD_NUMBER;
+          hash = (53 * hash) + getActive().hashCode();
+        }
+        if (hasCostCurrencyId()) {
+          hash = (37 * hash) + COST_CURRENCY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCostCurrencyId().hashCode();
+        }
+        if (hasPaymentTypeDescription()) {
+          hash = (37 * hash) + PAYMENT_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentTypeDescription().hashCode();
+        }
+        if (hasTranslatedDescription()) {
+          hash = (37 * hash) + TRANSLATED_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getTranslatedDescription().hashCode();
+        }
+        if (hasGrossSumFrom()) {
+          hash = (37 * hash) + GROSS_SUM_FROM_FIELD_NUMBER;
+          hash = (53 * hash) + getGrossSumFrom().hashCode();
+        }
+        if (hasRegion()) {
+          hash = (37 * hash) + REGION_FIELD_NUMBER;
+          hash = (53 * hash) + getRegion().hashCode();
+        }
+        if (hasSurchargeIsAbsoluteValue()) {
+          hash = (37 * hash) + SURCHARGE_IS_ABSOLUTE_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeIsAbsoluteValue().hashCode();
+        }
+        if (hasCostCurrencySymbol()) {
+          hash = (37 * hash) + COST_CURRENCY_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getCostCurrencySymbol().hashCode();
+        }
+        if (hasRegionId()) {
+          hash = (37 * hash) + REGION_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getRegionId().hashCode();
+        }
+        if (hasSurchargeTypeDescription()) {
+          hash = (37 * hash) + SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeTypeDescription().hashCode();
+        }
+        if (hasPaymentTypeId()) {
+          hash = (37 * hash) + PAYMENT_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentTypeId().hashCode();
+        }
+        if (hasSurchargeTypeId()) {
+          hash = (37 * hash) + SURCHARGE_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeTypeId().hashCode();
+        }
+        if (hasSurchargeUnitId()) {
+          hash = (37 * hash) + SURCHARGE_UNIT_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeUnitId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3425,39 +3780,39 @@ public final class OmGetPaymentTypesAd {
       }
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3475,7 +3830,7 @@ public final class OmGetPaymentTypesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3483,7 +3838,7 @@ public final class OmGetPaymentTypesAd {
        * Protobuf type {@code dstore.engine.om_GetPaymentTypes_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPaymentTypes_Ad.Response.Row)
           io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3491,7 +3846,7 @@ public final class OmGetPaymentTypesAd {
           return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3504,12 +3859,13 @@ public final class OmGetPaymentTypesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3796,6 +4152,32 @@ public final class OmGetPaymentTypesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row)other);
@@ -3932,7 +4314,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.decimalValue bruttoSumTo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoSumToBuilder_;
         /**
          * <pre>
@@ -4070,11 +4452,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.decimalValue brutto_sum_to = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getBruttoSumToFieldBuilder() {
           if (bruttoSumToBuilder_ == null) {
-            bruttoSumToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            bruttoSumToBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getBruttoSumTo(),
                     getParentForChildren(),
@@ -4085,7 +4467,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue priorityNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priorityNoBuilder_;
         /**
          * <pre>
@@ -4223,11 +4605,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue priority_no = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPriorityNoFieldBuilder() {
           if (priorityNoBuilder_ == null) {
-            priorityNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            priorityNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPriorityNo(),
                     getParentForChildren(),
@@ -4238,7 +4620,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue surchargeUnitSymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeUnitSymbolBuilder_;
         /**
          * <pre>
@@ -4376,11 +4758,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue surcharge_unit_symbol = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeUnitSymbolFieldBuilder() {
           if (surchargeUnitSymbolBuilder_ == null) {
-            surchargeUnitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeUnitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeUnitSymbol(),
                     getParentForChildren(),
@@ -4391,7 +4773,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.decimalValue bruttoSumFrom_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoSumFromBuilder_;
         /**
          * <pre>
@@ -4529,11 +4911,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.decimalValue brutto_sum_from = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getBruttoSumFromFieldBuilder() {
           if (bruttoSumFromBuilder_ == null) {
-            bruttoSumFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            bruttoSumFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getBruttoSumFrom(),
                     getParentForChildren(),
@@ -4544,7 +4926,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.decimalValue surchargeValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
         /**
          * <pre>
@@ -4682,11 +5064,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.decimalValue surcharge_value = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getSurchargeValueFieldBuilder() {
           if (surchargeValueBuilder_ == null) {
-            surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getSurchargeValue(),
                     getParentForChildren(),
@@ -4697,7 +5079,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.decimalValue cost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> costBuilder_;
         /**
          * <pre>
@@ -4835,11 +5217,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.decimalValue cost = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getCostFieldBuilder() {
           if (costBuilder_ == null) {
-            costBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            costBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getCost(),
                     getParentForChildren(),
@@ -4850,7 +5232,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.decimalValue grossSumTo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumToBuilder_;
         /**
          * <pre>
@@ -4988,11 +5370,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.decimalValue gross_sum_to = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getGrossSumToFieldBuilder() {
           if (grossSumToBuilder_ == null) {
-            grossSumToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            grossSumToBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getGrossSumTo(),
                     getParentForChildren(),
@@ -5003,7 +5385,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue currencyId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
@@ -5141,11 +5523,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
-            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
@@ -5156,7 +5538,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue currencySymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currencySymbolBuilder_;
         /**
          * <pre>
@@ -5294,11 +5676,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue currency_symbol = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCurrencySymbolFieldBuilder() {
           if (currencySymbolBuilder_ == null) {
-            currencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCurrencySymbol(),
                     getParentForChildren(),
@@ -5309,7 +5691,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.timestampValue createdAtDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
          * <pre>
@@ -5447,11 +5829,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCreatedAtDateAndTimeFieldBuilder() {
           if (createdAtDateAndTimeBuilder_ == null) {
-            createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCreatedAtDateAndTime(),
                     getParentForChildren(),
@@ -5462,7 +5844,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.booleanValue active_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
         /**
          * <pre>
@@ -5600,11 +5982,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.booleanValue active = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
-            activeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
@@ -5615,7 +5997,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue costCurrencyId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> costCurrencyIdBuilder_;
         /**
          * <pre>
@@ -5753,11 +6135,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue cost_currency_id = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCostCurrencyIdFieldBuilder() {
           if (costCurrencyIdBuilder_ == null) {
-            costCurrencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            costCurrencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCostCurrencyId(),
                     getParentForChildren(),
@@ -5768,7 +6150,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue paymentTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -5906,11 +6288,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue payment_type_description = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPaymentTypeDescriptionFieldBuilder() {
           if (paymentTypeDescriptionBuilder_ == null) {
-            paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPaymentTypeDescription(),
                     getParentForChildren(),
@@ -5921,7 +6303,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue translatedDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> translatedDescriptionBuilder_;
         /**
          * <pre>
@@ -6059,11 +6441,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue translated_description = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTranslatedDescriptionFieldBuilder() {
           if (translatedDescriptionBuilder_ == null) {
-            translatedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            translatedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTranslatedDescription(),
                     getParentForChildren(),
@@ -6074,7 +6456,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.decimalValue grossSumFrom_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumFromBuilder_;
         /**
          * <pre>
@@ -6212,11 +6594,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.decimalValue gross_sum_from = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getGrossSumFromFieldBuilder() {
           if (grossSumFromBuilder_ == null) {
-            grossSumFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            grossSumFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getGrossSumFrom(),
                     getParentForChildren(),
@@ -6227,7 +6609,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue region_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> regionBuilder_;
         /**
          * <pre>
@@ -6365,11 +6747,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue region = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getRegionFieldBuilder() {
           if (regionBuilder_ == null) {
-            regionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            regionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getRegion(),
                     getParentForChildren(),
@@ -6380,7 +6762,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue surchargeIsAbsoluteValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
         /**
          * <pre>
@@ -6518,11 +6900,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10017;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeIsAbsoluteValueFieldBuilder() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
-            surchargeIsAbsoluteValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeIsAbsoluteValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeIsAbsoluteValue(),
                     getParentForChildren(),
@@ -6533,7 +6915,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue costCurrencySymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> costCurrencySymbolBuilder_;
         /**
          * <pre>
@@ -6671,11 +7053,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue cost_currency_symbol = 10018;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCostCurrencySymbolFieldBuilder() {
           if (costCurrencySymbolBuilder_ == null) {
-            costCurrencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            costCurrencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCostCurrencySymbol(),
                     getParentForChildren(),
@@ -6686,7 +7068,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue regionId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> regionIdBuilder_;
         /**
          * <pre>
@@ -6824,11 +7206,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue region_id = 10019;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRegionIdFieldBuilder() {
           if (regionIdBuilder_ == null) {
-            regionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            regionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRegionId(),
                     getParentForChildren(),
@@ -6839,7 +7221,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -6977,11 +7359,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.stringValue surcharge_type_description = 10020;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeTypeDescriptionFieldBuilder() {
           if (surchargeTypeDescriptionBuilder_ == null) {
-            surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeTypeDescription(),
                     getParentForChildren(),
@@ -6992,7 +7374,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue paymentTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
         /**
          * <pre>
@@ -7130,11 +7512,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue payment_type_id = 10021;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPaymentTypeIdFieldBuilder() {
           if (paymentTypeIdBuilder_ == null) {
-            paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPaymentTypeId(),
                     getParentForChildren(),
@@ -7145,7 +7527,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue surchargeTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
          * <pre>
@@ -7283,11 +7665,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue surcharge_type_id = 10022;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeTypeIdFieldBuilder() {
           if (surchargeTypeIdBuilder_ == null) {
-            surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeTypeId(),
                     getParentForChildren(),
@@ -7298,7 +7680,7 @@ public final class OmGetPaymentTypesAd {
         }
 
         private io.dstore.Values.integerValue surchargeUnitId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeUnitIdBuilder_;
         /**
          * <pre>
@@ -7436,11 +7818,11 @@ public final class OmGetPaymentTypesAd {
          *
          * <code>optional .dstore.values.integerValue surcharge_unit_id = 10023;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSurchargeUnitIdFieldBuilder() {
           if (surchargeUnitIdBuilder_ == null) {
-            surchargeUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSurchargeUnitId(),
                     getParentForChildren(),
@@ -7668,6 +8050,50 @@ public final class OmGetPaymentTypesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetPaymentTypesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetPaymentTypesAd.Response other = (io.dstore.engine.procedures.OmGetPaymentTypesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -7691,39 +8117,39 @@ public final class OmGetPaymentTypesAd {
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPaymentTypesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -7741,7 +8167,7 @@ public final class OmGetPaymentTypesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -7749,7 +8175,7 @@ public final class OmGetPaymentTypesAd {
      * Protobuf type {@code dstore.engine.om_GetPaymentTypes_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPaymentTypes_Ad.Response)
         io.dstore.engine.procedures.OmGetPaymentTypesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -7757,7 +8183,7 @@ public final class OmGetPaymentTypesAd {
         return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPaymentTypesAd.internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -7770,12 +8196,13 @@ public final class OmGetPaymentTypesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -7855,6 +8282,32 @@ public final class OmGetPaymentTypesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetPaymentTypesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetPaymentTypesAd.Response)other);
@@ -7885,7 +8338,7 @@ public final class OmGetPaymentTypesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -7911,7 +8364,7 @@ public final class OmGetPaymentTypesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -7937,7 +8390,7 @@ public final class OmGetPaymentTypesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -7980,7 +8433,7 @@ public final class OmGetPaymentTypesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -8196,11 +8649,11 @@ public final class OmGetPaymentTypesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -8220,7 +8673,7 @@ public final class OmGetPaymentTypesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -8436,11 +8889,11 @@ public final class OmGetPaymentTypesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -8460,7 +8913,7 @@ public final class OmGetPaymentTypesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row, io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -8748,11 +9201,11 @@ public final class OmGetPaymentTypesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row, io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row, io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPaymentTypesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -8814,17 +9267,17 @@ public final class OmGetPaymentTypesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -8908,19 +9361,19 @@ public final class OmGetPaymentTypesAd {
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_descriptor,
         new java.lang.String[] { "LanguageId", "LanguageIdNull", "PaymentTypeId", "PaymentTypeIdNull", "OnlyActive", "OnlyActiveNull", "ValidAtDateAndTime", "ValidAtDateAndTimeNull", });
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BruttoSumTo", "PriorityNo", "SurchargeUnitSymbol", "BruttoSumFrom", "SurchargeValue", "Cost", "GrossSumTo", "CurrencyId", "CurrencySymbol", "CreatedAtDateAndTime", "Active", "CostCurrencyId", "PaymentTypeDescription", "TranslatedDescription", "GrossSumFrom", "Region", "SurchargeIsAbsoluteValue", "CostCurrencySymbol", "RegionId", "SurchargeTypeDescription", "PaymentTypeId", "SurchargeTypeId", "SurchargeUnitId", });
     io.dstore.Values.getDescriptor();

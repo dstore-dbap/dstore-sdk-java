@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetTabsRefInOtherTabsAd {
   private MiGetTabsRefInOtherTabsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Parameters)
@@ -178,11 +184,11 @@ public final class MiGetTabsRefInOtherTabsAd {
    * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -400,7 +406,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -827,6 +833,158 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters other = (io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasTableId() == other.hasTableId());
+      if (hasTableId()) {
+        result = result && getTableId()
+            .equals(other.getTableId());
+      }
+      result = result && (getTableIdNull()
+          == other.getTableIdNull());
+      result = result && (hasUsedInSearchItems() == other.hasUsedInSearchItems());
+      if (hasUsedInSearchItems()) {
+        result = result && getUsedInSearchItems()
+            .equals(other.getUsedInSearchItems());
+      }
+      result = result && (getUsedInSearchItemsNull()
+          == other.getUsedInSearchItemsNull());
+      result = result && (hasUsedInSearchItemLacks() == other.hasUsedInSearchItemLacks());
+      if (hasUsedInSearchItemLacks()) {
+        result = result && getUsedInSearchItemLacks()
+            .equals(other.getUsedInSearchItemLacks());
+      }
+      result = result && (getUsedInSearchItemLacksNull()
+          == other.getUsedInSearchItemLacksNull());
+      result = result && (hasUsedInRatingValues() == other.hasUsedInRatingValues());
+      if (hasUsedInRatingValues()) {
+        result = result && getUsedInRatingValues()
+            .equals(other.getUsedInRatingValues());
+      }
+      result = result && (getUsedInRatingValuesNull()
+          == other.getUsedInRatingValuesNull());
+      result = result && (hasUsedInRatingSubjects() == other.hasUsedInRatingSubjects());
+      if (hasUsedInRatingSubjects()) {
+        result = result && getUsedInRatingSubjects()
+            .equals(other.getUsedInRatingSubjects());
+      }
+      result = result && (getUsedInRatingSubjectsNull()
+          == other.getUsedInRatingSubjectsNull());
+      result = result && (hasUsedInMetaInformationTypes() == other.hasUsedInMetaInformationTypes());
+      if (hasUsedInMetaInformationTypes()) {
+        result = result && getUsedInMetaInformationTypes()
+            .equals(other.getUsedInMetaInformationTypes());
+      }
+      result = result && (getUsedInMetaInformationTypesNull()
+          == other.getUsedInMetaInformationTypesNull());
+      result = result && (hasUsedInPersonCharacValueRefs() == other.hasUsedInPersonCharacValueRefs());
+      if (hasUsedInPersonCharacValueRefs()) {
+        result = result && getUsedInPersonCharacValueRefs()
+            .equals(other.getUsedInPersonCharacValueRefs());
+      }
+      result = result && (getUsedInPersonCharacValueRefsNull()
+          == other.getUsedInPersonCharacValueRefsNull());
+      result = result && (hasUsedInPredefinedBillContent() == other.hasUsedInPredefinedBillContent());
+      if (hasUsedInPredefinedBillContent()) {
+        result = result && getUsedInPredefinedBillContent()
+            .equals(other.getUsedInPredefinedBillContent());
+      }
+      result = result && (getUsedInPredefinedBillContentNull()
+          == other.getUsedInPredefinedBillContentNull());
+      result = result && (hasUsedInCashAccTransactions() == other.hasUsedInCashAccTransactions());
+      if (hasUsedInCashAccTransactions()) {
+        result = result && getUsedInCashAccTransactions()
+            .equals(other.getUsedInCashAccTransactions());
+      }
+      result = result && (getUsedInCashAccTransactionsNull()
+          == other.getUsedInCashAccTransactionsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasTableId()) {
+        hash = (37 * hash) + TABLE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTableId().hashCode();
+      }
+      hash = (37 * hash) + TABLE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTableIdNull());
+      if (hasUsedInSearchItems()) {
+        hash = (37 * hash) + USED_IN_SEARCH_ITEMS_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInSearchItems().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_SEARCH_ITEMS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInSearchItemsNull());
+      if (hasUsedInSearchItemLacks()) {
+        hash = (37 * hash) + USED_IN_SEARCH_ITEM_LACKS_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInSearchItemLacks().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_SEARCH_ITEM_LACKS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInSearchItemLacksNull());
+      if (hasUsedInRatingValues()) {
+        hash = (37 * hash) + USED_IN_RATING_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInRatingValues().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_RATING_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInRatingValuesNull());
+      if (hasUsedInRatingSubjects()) {
+        hash = (37 * hash) + USED_IN_RATING_SUBJECTS_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInRatingSubjects().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_RATING_SUBJECTS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInRatingSubjectsNull());
+      if (hasUsedInMetaInformationTypes()) {
+        hash = (37 * hash) + USED_IN_META_INFORMATION_TYPES_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInMetaInformationTypes().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_META_INFORMATION_TYPES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInMetaInformationTypesNull());
+      if (hasUsedInPersonCharacValueRefs()) {
+        hash = (37 * hash) + USED_IN_PERSON_CHARAC_VALUE_REFS_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInPersonCharacValueRefs().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_PERSON_CHARAC_VALUE_REFS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInPersonCharacValueRefsNull());
+      if (hasUsedInPredefinedBillContent()) {
+        hash = (37 * hash) + USED_IN_PREDEFINED_BILL_CONTENT_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInPredefinedBillContent().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_PREDEFINED_BILL_CONTENT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInPredefinedBillContentNull());
+      if (hasUsedInCashAccTransactions()) {
+        hash = (37 * hash) + USED_IN_CASH_ACC_TRANSACTIONS_FIELD_NUMBER;
+        hash = (53 * hash) + getUsedInCashAccTransactions().hashCode();
+      }
+      hash = (37 * hash) + USED_IN_CASH_ACC_TRANSACTIONS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUsedInCashAccTransactionsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -850,39 +1008,39 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -900,7 +1058,7 @@ public final class MiGetTabsRefInOtherTabsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -908,7 +1066,7 @@ public final class MiGetTabsRefInOtherTabsAd {
      * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Parameters)
         io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -916,7 +1074,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -929,12 +1087,13 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1091,6 +1250,32 @@ public final class MiGetTabsRefInOtherTabsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Parameters)other);
@@ -1183,7 +1368,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue tableId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue table_id = 1;</code>
@@ -1285,11 +1470,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue table_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
-          tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
@@ -1326,7 +1511,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInSearchItems_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInSearchItemsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
@@ -1428,11 +1613,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInSearchItemsFieldBuilder() {
         if (usedInSearchItemsBuilder_ == null) {
-          usedInSearchItemsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInSearchItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInSearchItems(),
                   getParentForChildren(),
@@ -1469,7 +1654,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInSearchItemLacks_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInSearchItemLacksBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
@@ -1571,11 +1756,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInSearchItemLacksFieldBuilder() {
         if (usedInSearchItemLacksBuilder_ == null) {
-          usedInSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInSearchItemLacks(),
                   getParentForChildren(),
@@ -1612,7 +1797,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInRatingValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInRatingValuesBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
@@ -1714,11 +1899,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInRatingValuesFieldBuilder() {
         if (usedInRatingValuesBuilder_ == null) {
-          usedInRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInRatingValues(),
                   getParentForChildren(),
@@ -1755,7 +1940,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInRatingSubjects_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInRatingSubjectsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
@@ -1857,11 +2042,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInRatingSubjectsFieldBuilder() {
         if (usedInRatingSubjectsBuilder_ == null) {
-          usedInRatingSubjectsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInRatingSubjectsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInRatingSubjects(),
                   getParentForChildren(),
@@ -1898,7 +2083,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInMetaInformationTypes_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInMetaInformationTypesBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
@@ -2000,11 +2185,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInMetaInformationTypesFieldBuilder() {
         if (usedInMetaInformationTypesBuilder_ == null) {
-          usedInMetaInformationTypesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInMetaInformationTypesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInMetaInformationTypes(),
                   getParentForChildren(),
@@ -2041,7 +2226,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInPersonCharacValueRefs_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInPersonCharacValueRefsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
@@ -2143,11 +2328,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInPersonCharacValueRefsFieldBuilder() {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
-          usedInPersonCharacValueRefsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInPersonCharacValueRefsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInPersonCharacValueRefs(),
                   getParentForChildren(),
@@ -2184,7 +2369,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInPredefinedBillContent_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInPredefinedBillContentBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
@@ -2286,11 +2471,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInPredefinedBillContentFieldBuilder() {
         if (usedInPredefinedBillContentBuilder_ == null) {
-          usedInPredefinedBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInPredefinedBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInPredefinedBillContent(),
                   getParentForChildren(),
@@ -2327,7 +2512,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private io.dstore.Values.integerValue usedInCashAccTransactions_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInCashAccTransactionsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
@@ -2429,11 +2614,11 @@ public final class MiGetTabsRefInOtherTabsAd {
       /**
        * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUsedInCashAccTransactionsFieldBuilder() {
         if (usedInCashAccTransactionsBuilder_ == null) {
-          usedInCashAccTransactionsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          usedInCashAccTransactionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUsedInCashAccTransactions(),
                   getParentForChildren(),
@@ -2617,11 +2802,11 @@ public final class MiGetTabsRefInOtherTabsAd {
    * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2660,7 +2845,8 @@ public final class MiGetTabsRefInOtherTabsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2668,7 +2854,8 @@ public final class MiGetTabsRefInOtherTabsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2676,7 +2863,8 @@ public final class MiGetTabsRefInOtherTabsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2704,7 +2892,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2999,11 +3187,11 @@ public final class MiGetTabsRefInOtherTabsAd {
      * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3199,7 +3387,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3686,6 +3874,135 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row other = (io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTableId() == other.hasTableId());
+        if (hasTableId()) {
+          result = result && getTableId()
+              .equals(other.getTableId());
+        }
+        result = result && (hasUsedInSearchItemLacks() == other.hasUsedInSearchItemLacks());
+        if (hasUsedInSearchItemLacks()) {
+          result = result && getUsedInSearchItemLacks()
+              .equals(other.getUsedInSearchItemLacks());
+        }
+        result = result && (hasUsedInRatingValues() == other.hasUsedInRatingValues());
+        if (hasUsedInRatingValues()) {
+          result = result && getUsedInRatingValues()
+              .equals(other.getUsedInRatingValues());
+        }
+        result = result && (hasUsedInPredefinedBillContent() == other.hasUsedInPredefinedBillContent());
+        if (hasUsedInPredefinedBillContent()) {
+          result = result && getUsedInPredefinedBillContent()
+              .equals(other.getUsedInPredefinedBillContent());
+        }
+        result = result && (hasTableName() == other.hasTableName());
+        if (hasTableName()) {
+          result = result && getTableName()
+              .equals(other.getTableName());
+        }
+        result = result && (hasPrimaryKeyColumnName() == other.hasPrimaryKeyColumnName());
+        if (hasPrimaryKeyColumnName()) {
+          result = result && getPrimaryKeyColumnName()
+              .equals(other.getPrimaryKeyColumnName());
+        }
+        result = result && (hasUsedInSearchItems() == other.hasUsedInSearchItems());
+        if (hasUsedInSearchItems()) {
+          result = result && getUsedInSearchItems()
+              .equals(other.getUsedInSearchItems());
+        }
+        result = result && (hasUsedInPersonCharacValueRefs() == other.hasUsedInPersonCharacValueRefs());
+        if (hasUsedInPersonCharacValueRefs()) {
+          result = result && getUsedInPersonCharacValueRefs()
+              .equals(other.getUsedInPersonCharacValueRefs());
+        }
+        result = result && (hasUsedInMetaInformationTypes() == other.hasUsedInMetaInformationTypes());
+        if (hasUsedInMetaInformationTypes()) {
+          result = result && getUsedInMetaInformationTypes()
+              .equals(other.getUsedInMetaInformationTypes());
+        }
+        result = result && (hasUsedInRatingSubjects() == other.hasUsedInRatingSubjects());
+        if (hasUsedInRatingSubjects()) {
+          result = result && getUsedInRatingSubjects()
+              .equals(other.getUsedInRatingSubjects());
+        }
+        result = result && (hasUsedInCashAccTransactions() == other.hasUsedInCashAccTransactions());
+        if (hasUsedInCashAccTransactions()) {
+          result = result && getUsedInCashAccTransactions()
+              .equals(other.getUsedInCashAccTransactions());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTableId()) {
+          hash = (37 * hash) + TABLE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTableId().hashCode();
+        }
+        if (hasUsedInSearchItemLacks()) {
+          hash = (37 * hash) + USED_IN_SEARCH_ITEM_LACKS_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInSearchItemLacks().hashCode();
+        }
+        if (hasUsedInRatingValues()) {
+          hash = (37 * hash) + USED_IN_RATING_VALUES_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInRatingValues().hashCode();
+        }
+        if (hasUsedInPredefinedBillContent()) {
+          hash = (37 * hash) + USED_IN_PREDEFINED_BILL_CONTENT_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInPredefinedBillContent().hashCode();
+        }
+        if (hasTableName()) {
+          hash = (37 * hash) + TABLE_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getTableName().hashCode();
+        }
+        if (hasPrimaryKeyColumnName()) {
+          hash = (37 * hash) + PRIMARY_KEY_COLUMN_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getPrimaryKeyColumnName().hashCode();
+        }
+        if (hasUsedInSearchItems()) {
+          hash = (37 * hash) + USED_IN_SEARCH_ITEMS_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInSearchItems().hashCode();
+        }
+        if (hasUsedInPersonCharacValueRefs()) {
+          hash = (37 * hash) + USED_IN_PERSON_CHARAC_VALUE_REFS_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInPersonCharacValueRefs().hashCode();
+        }
+        if (hasUsedInMetaInformationTypes()) {
+          hash = (37 * hash) + USED_IN_META_INFORMATION_TYPES_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInMetaInformationTypes().hashCode();
+        }
+        if (hasUsedInRatingSubjects()) {
+          hash = (37 * hash) + USED_IN_RATING_SUBJECTS_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInRatingSubjects().hashCode();
+        }
+        if (hasUsedInCashAccTransactions()) {
+          hash = (37 * hash) + USED_IN_CASH_ACC_TRANSACTIONS_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedInCashAccTransactions().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3709,39 +4026,39 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3759,7 +4076,7 @@ public final class MiGetTabsRefInOtherTabsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3767,7 +4084,7 @@ public final class MiGetTabsRefInOtherTabsAd {
        * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response.Row)
           io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3775,7 +4092,7 @@ public final class MiGetTabsRefInOtherTabsAd {
           return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3788,12 +4105,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3948,6 +4266,32 @@ public final class MiGetTabsRefInOtherTabsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row)other);
@@ -4048,7 +4392,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.integerValue tableId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
         /**
          * <pre>
@@ -4186,11 +4530,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableIdFieldBuilder() {
           if (tableIdBuilder_ == null) {
-            tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableId(),
                     getParentForChildren(),
@@ -4201,7 +4545,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInSearchItemLacks_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInSearchItemLacksBuilder_;
         /**
          * <pre>
@@ -4339,11 +4683,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInSearchItemLacksFieldBuilder() {
           if (usedInSearchItemLacksBuilder_ == null) {
-            usedInSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInSearchItemLacks(),
                     getParentForChildren(),
@@ -4354,7 +4698,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInRatingValues_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInRatingValuesBuilder_;
         /**
          * <pre>
@@ -4492,11 +4836,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInRatingValuesFieldBuilder() {
           if (usedInRatingValuesBuilder_ == null) {
-            usedInRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInRatingValues(),
                     getParentForChildren(),
@@ -4507,7 +4851,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInPredefinedBillContent_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInPredefinedBillContentBuilder_;
         /**
          * <pre>
@@ -4645,11 +4989,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInPredefinedBillContentFieldBuilder() {
           if (usedInPredefinedBillContentBuilder_ == null) {
-            usedInPredefinedBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInPredefinedBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInPredefinedBillContent(),
                     getParentForChildren(),
@@ -4660,7 +5004,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.stringValue tableName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
         /**
          * <pre>
@@ -4798,11 +5142,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.stringValue table_name = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
-            tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
@@ -4813,7 +5157,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.stringValue primaryKeyColumnName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> primaryKeyColumnNameBuilder_;
         /**
          * <pre>
@@ -4951,11 +5295,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPrimaryKeyColumnNameFieldBuilder() {
           if (primaryKeyColumnNameBuilder_ == null) {
-            primaryKeyColumnNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            primaryKeyColumnNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPrimaryKeyColumnName(),
                     getParentForChildren(),
@@ -4966,7 +5310,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInSearchItems_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInSearchItemsBuilder_;
         /**
          * <pre>
@@ -5104,11 +5448,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInSearchItemsFieldBuilder() {
           if (usedInSearchItemsBuilder_ == null) {
-            usedInSearchItemsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInSearchItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInSearchItems(),
                     getParentForChildren(),
@@ -5119,7 +5463,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInPersonCharacValueRefs_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInPersonCharacValueRefsBuilder_;
         /**
          * <pre>
@@ -5257,11 +5601,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInPersonCharacValueRefsFieldBuilder() {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
-            usedInPersonCharacValueRefsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInPersonCharacValueRefsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInPersonCharacValueRefs(),
                     getParentForChildren(),
@@ -5272,7 +5616,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInMetaInformationTypes_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInMetaInformationTypesBuilder_;
         /**
          * <pre>
@@ -5410,11 +5754,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInMetaInformationTypesFieldBuilder() {
           if (usedInMetaInformationTypesBuilder_ == null) {
-            usedInMetaInformationTypesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInMetaInformationTypesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInMetaInformationTypes(),
                     getParentForChildren(),
@@ -5425,7 +5769,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInRatingSubjects_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInRatingSubjectsBuilder_;
         /**
          * <pre>
@@ -5563,11 +5907,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInRatingSubjectsFieldBuilder() {
           if (usedInRatingSubjectsBuilder_ == null) {
-            usedInRatingSubjectsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInRatingSubjectsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInRatingSubjects(),
                     getParentForChildren(),
@@ -5578,7 +5922,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         }
 
         private io.dstore.Values.booleanValue usedInCashAccTransactions_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInCashAccTransactionsBuilder_;
         /**
          * <pre>
@@ -5716,11 +6060,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          *
          * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getUsedInCashAccTransactionsFieldBuilder() {
           if (usedInCashAccTransactionsBuilder_ == null) {
-            usedInCashAccTransactionsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedInCashAccTransactionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getUsedInCashAccTransactions(),
                     getParentForChildren(),
@@ -5948,6 +6292,50 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response other = (io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5971,39 +6359,39 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -6021,7 +6409,7 @@ public final class MiGetTabsRefInOtherTabsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -6029,7 +6417,7 @@ public final class MiGetTabsRefInOtherTabsAd {
      * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response)
         io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -6037,7 +6425,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -6050,12 +6438,13 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -6135,6 +6524,32 @@ public final class MiGetTabsRefInOtherTabsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response)other);
@@ -6165,7 +6580,7 @@ public final class MiGetTabsRefInOtherTabsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -6191,7 +6606,7 @@ public final class MiGetTabsRefInOtherTabsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -6217,7 +6632,7 @@ public final class MiGetTabsRefInOtherTabsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -6260,7 +6675,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -6476,11 +6891,11 @@ public final class MiGetTabsRefInOtherTabsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -6500,7 +6915,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -6716,11 +7131,11 @@ public final class MiGetTabsRefInOtherTabsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -6740,7 +7155,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row, io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -7028,11 +7443,11 @@ public final class MiGetTabsRefInOtherTabsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row, io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row, io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTabsRefInOtherTabsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -7094,17 +7509,17 @@ public final class MiGetTabsRefInOtherTabsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -7189,19 +7604,19 @@ public final class MiGetTabsRefInOtherTabsAd {
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_descriptor,
         new java.lang.String[] { "TableId", "TableIdNull", "UsedInSearchItems", "UsedInSearchItemsNull", "UsedInSearchItemLacks", "UsedInSearchItemLacksNull", "UsedInRatingValues", "UsedInRatingValuesNull", "UsedInRatingSubjects", "UsedInRatingSubjectsNull", "UsedInMetaInformationTypes", "UsedInMetaInformationTypesNull", "UsedInPersonCharacValueRefs", "UsedInPersonCharacValueRefsNull", "UsedInPredefinedBillContent", "UsedInPredefinedBillContentNull", "UsedInCashAccTransactions", "UsedInCashAccTransactionsNull", });
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableId", "UsedInSearchItemLacks", "UsedInRatingValues", "UsedInPredefinedBillContent", "TableName", "PrimaryKeyColumnName", "UsedInSearchItems", "UsedInPersonCharacValueRefs", "UsedInMetaInformationTypes", "UsedInRatingSubjects", "UsedInCashAccTransactions", });
     io.dstore.Values.getDescriptor();

@@ -6,7 +6,13 @@ package io.dstore.elastic.item;
 public final class FacetedNavigation {
   private FacetedNavigation() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface RequestOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.elastic.facetednavigation.Request)
@@ -181,11 +187,11 @@ public final class FacetedNavigation {
    * Protobuf type {@code dstore.elastic.facetednavigation.Request}
    */
   public  static final class Request extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Request)
       RequestOrBuilder {
     // Use Request.newBuilder() to construct.
-    private Request(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Request(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Request() {
@@ -254,7 +260,8 @@ public final class FacetedNavigation {
                 facet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.Facet>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              facet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.Facet.parser(), extensionRegistry));
+              facet_.add(
+                  input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.Facet.parser(), extensionRegistry));
               break;
             }
             case 42: {
@@ -262,7 +269,8 @@ public final class FacetedNavigation {
                 rangeFacet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet>();
                 mutable_bitField0_ |= 0x00000008;
               }
-              rangeFacet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
+              rangeFacet_.add(
+                  input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
               break;
             }
             case 50: {
@@ -270,7 +278,8 @@ public final class FacetedNavigation {
                 dateRangeFacet_ = new java.util.ArrayList<io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet>();
                 mutable_bitField0_ |= 0x00000010;
               }
-              dateRangeFacet_.add(input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
+              dateRangeFacet_.add(
+                  input.readMessage(io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.parser(), extensionRegistry));
               break;
             }
             case 56: {
@@ -293,7 +302,8 @@ public final class FacetedNavigation {
                 sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>();
                 mutable_bitField0_ |= 0x00000100;
               }
-              sort_.add(input.readMessage(io.dstore.elastic.Elastic.Sort.parser(), extensionRegistry));
+              sort_.add(
+                  input.readMessage(io.dstore.elastic.Elastic.Sort.parser(), extensionRegistry));
               break;
             }
           }
@@ -324,7 +334,7 @@ public final class FacetedNavigation {
       return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -373,11 +383,11 @@ public final class FacetedNavigation {
      * Protobuf type {@code dstore.elastic.facetednavigation.Request.RangeFacet}
      */
     public  static final class RangeFacet extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Request.RangeFacet)
         RangeFacetOrBuilder {
       // Use RangeFacet.newBuilder() to construct.
-      private RangeFacet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private RangeFacet(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private RangeFacet() {
@@ -421,7 +431,8 @@ public final class FacetedNavigation {
                   range_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Range>();
                   mutable_bitField0_ |= 0x00000002;
                 }
-                range_.add(input.readMessage(io.dstore.elastic.Elastic.Range.parser(), extensionRegistry));
+                range_.add(
+                    input.readMessage(io.dstore.elastic.Elastic.Range.parser(), extensionRegistry));
                 break;
               }
             }
@@ -443,7 +454,7 @@ public final class FacetedNavigation {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -533,7 +544,7 @@ public final class FacetedNavigation {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (!getFieldNameBytes().isEmpty()) {
-          com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, fieldName_);
         }
         for (int i = 0; i < range_.size(); i++) {
           output.writeMessage(2, range_.get(i));
@@ -546,7 +557,7 @@ public final class FacetedNavigation {
 
         size = 0;
         if (!getFieldNameBytes().isEmpty()) {
-          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, fieldName_);
         }
         for (int i = 0; i < range_.size(); i++) {
           size += com.google.protobuf.CodedOutputStream
@@ -557,6 +568,42 @@ public final class FacetedNavigation {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet)) {
+          return super.equals(obj);
+        }
+        io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet other = (io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet) obj;
+
+        boolean result = true;
+        result = result && getFieldName()
+            .equals(other.getFieldName());
+        result = result && getRangeList()
+            .equals(other.getRangeList());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getFieldName().hashCode();
+        if (getRangeCount() > 0) {
+          hash = (37 * hash) + RANGE_FIELD_NUMBER;
+          hash = (53 * hash) + getRangeList().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -580,39 +627,39 @@ public final class FacetedNavigation {
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -630,7 +677,7 @@ public final class FacetedNavigation {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -638,7 +685,7 @@ public final class FacetedNavigation {
        * Protobuf type {@code dstore.elastic.facetednavigation.Request.RangeFacet}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Request.RangeFacet)
           io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -646,7 +693,7 @@ public final class FacetedNavigation {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -659,12 +706,13 @@ public final class FacetedNavigation {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
             getRangeFieldBuilder();
           }
         }
@@ -717,6 +765,32 @@ public final class FacetedNavigation {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet) {
             return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet)other);
@@ -751,7 +825,7 @@ public final class FacetedNavigation {
                 range_ = other.range_;
                 bitField0_ = (bitField0_ & ~0x00000002);
                 rangeBuilder_ = 
-                  com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                  com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                      getRangeFieldBuilder() : null;
               } else {
                 rangeBuilder_.addAllMessages(other.range_);
@@ -863,7 +937,7 @@ public final class FacetedNavigation {
            }
         }
 
-        private com.google.protobuf.RepeatedFieldBuilder<
+        private com.google.protobuf.RepeatedFieldBuilderV3<
             io.dstore.elastic.Elastic.Range, io.dstore.elastic.Elastic.Range.Builder, io.dstore.elastic.Elastic.RangeOrBuilder> rangeBuilder_;
 
         /**
@@ -1079,11 +1153,11 @@ public final class FacetedNavigation {
              getRangeBuilderList() {
           return getRangeFieldBuilder().getBuilderList();
         }
-        private com.google.protobuf.RepeatedFieldBuilder<
+        private com.google.protobuf.RepeatedFieldBuilderV3<
             io.dstore.elastic.Elastic.Range, io.dstore.elastic.Elastic.Range.Builder, io.dstore.elastic.Elastic.RangeOrBuilder> 
             getRangeFieldBuilder() {
           if (rangeBuilder_ == null) {
-            rangeBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+            rangeBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
                 io.dstore.elastic.Elastic.Range, io.dstore.elastic.Elastic.Range.Builder, io.dstore.elastic.Elastic.RangeOrBuilder>(
                     range_,
                     ((bitField0_ & 0x00000002) == 0x00000002),
@@ -1180,11 +1254,11 @@ public final class FacetedNavigation {
      * Protobuf type {@code dstore.elastic.facetednavigation.Request.Facet}
      */
     public  static final class Facet extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Request.Facet)
         FacetOrBuilder {
       // Use Facet.newBuilder() to construct.
-      private Facet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Facet(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Facet() {
@@ -1266,7 +1340,7 @@ public final class FacetedNavigation {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1290,11 +1364,11 @@ public final class FacetedNavigation {
        * Protobuf type {@code dstore.elastic.facetednavigation.Request.Facet.SortNoSort}
        */
       public  static final class SortNoSort extends
-          com.google.protobuf.GeneratedMessage implements
+          com.google.protobuf.GeneratedMessageV3 implements
           // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Request.Facet.SortNoSort)
           SortNoSortOrBuilder {
         // Use SortNoSort.newBuilder() to construct.
-        private SortNoSort(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        private SortNoSort(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
           super(builder);
         }
         private SortNoSort() {
@@ -1348,7 +1422,7 @@ public final class FacetedNavigation {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1367,7 +1441,7 @@ public final class FacetedNavigation {
          * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
+          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
         }
 
@@ -1402,6 +1476,35 @@ public final class FacetedNavigation {
         }
 
         private static final long serialVersionUID = 0L;
+        @java.lang.Override
+        public boolean equals(final java.lang.Object obj) {
+          if (obj == this) {
+           return true;
+          }
+          if (!(obj instanceof io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort)) {
+            return super.equals(obj);
+          }
+          io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort other = (io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort) obj;
+
+          boolean result = true;
+          result = result && sortOrder_ == other.sortOrder_;
+          return result;
+        }
+
+        @java.lang.Override
+        public int hashCode() {
+          if (memoizedHashCode != 0) {
+            return memoizedHashCode;
+          }
+          int hash = 41;
+          hash = (19 * hash) + getDescriptorForType().hashCode();
+          hash = (37 * hash) + SORT_ORDER_FIELD_NUMBER;
+          hash = (53 * hash) + sortOrder_;
+          hash = (29 * hash) + unknownFields.hashCode();
+          memoizedHashCode = hash;
+          return hash;
+        }
+
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             com.google.protobuf.ByteString data)
             throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1425,39 +1528,39 @@ public final class FacetedNavigation {
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseDelimitedFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseDelimitedWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseDelimitedFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             com.google.protobuf.CodedInputStream input)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort parseFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input, extensionRegistry);
         }
 
@@ -1475,7 +1578,7 @@ public final class FacetedNavigation {
 
         @java.lang.Override
         protected Builder newBuilderForType(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           Builder builder = new Builder(parent);
           return builder;
         }
@@ -1483,7 +1586,7 @@ public final class FacetedNavigation {
          * Protobuf type {@code dstore.elastic.facetednavigation.Request.Facet.SortNoSort}
          */
         public static final class Builder extends
-            com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+            com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
             // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Request.Facet.SortNoSort)
             io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSortOrBuilder {
           public static final com.google.protobuf.Descriptors.Descriptor
@@ -1491,7 +1594,7 @@ public final class FacetedNavigation {
             return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_descriptor;
           }
 
-          protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
               internalGetFieldAccessorTable() {
             return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_fieldAccessorTable
                 .ensureFieldAccessorsInitialized(
@@ -1504,12 +1607,13 @@ public final class FacetedNavigation {
           }
 
           private Builder(
-              com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+              com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
             super(parent);
             maybeForceBuilderInitialization();
           }
           private void maybeForceBuilderInitialization() {
-            if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+            if (com.google.protobuf.GeneratedMessageV3
+                    .alwaysUseFieldBuilders) {
             }
           }
           public Builder clear() {
@@ -1543,6 +1647,32 @@ public final class FacetedNavigation {
             return result;
           }
 
+          public Builder clone() {
+            return (Builder) super.clone();
+          }
+          public Builder setField(
+              com.google.protobuf.Descriptors.FieldDescriptor field,
+              Object value) {
+            return (Builder) super.setField(field, value);
+          }
+          public Builder clearField(
+              com.google.protobuf.Descriptors.FieldDescriptor field) {
+            return (Builder) super.clearField(field);
+          }
+          public Builder clearOneof(
+              com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+            return (Builder) super.clearOneof(oneof);
+          }
+          public Builder setRepeatedField(
+              com.google.protobuf.Descriptors.FieldDescriptor field,
+              int index, Object value) {
+            return (Builder) super.setRepeatedField(field, index, value);
+          }
+          public Builder addRepeatedField(
+              com.google.protobuf.Descriptors.FieldDescriptor field,
+              Object value) {
+            return (Builder) super.addRepeatedField(field, value);
+          }
           public Builder mergeFrom(com.google.protobuf.Message other) {
             if (other instanceof io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort) {
               return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort)other);
@@ -1602,7 +1732,7 @@ public final class FacetedNavigation {
            * <code>optional .dstore.elastic.Sort.Order sort_order = 1;</code>
            */
           public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
+            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
             return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
           }
           /**
@@ -1711,11 +1841,11 @@ public final class FacetedNavigation {
        * Protobuf type {@code dstore.elastic.facetednavigation.Request.Facet.FieldSort}
        */
       public  static final class FieldSort extends
-          com.google.protobuf.GeneratedMessage implements
+          com.google.protobuf.GeneratedMessageV3 implements
           // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Request.Facet.FieldSort)
           FieldSortOrBuilder {
         // Use FieldSort.newBuilder() to construct.
-        private FieldSort(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        private FieldSort(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
           super(builder);
         }
         private FieldSort() {
@@ -1783,7 +1913,7 @@ public final class FacetedNavigation {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1836,7 +1966,7 @@ public final class FacetedNavigation {
          * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
+          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
         }
 
@@ -1852,7 +1982,7 @@ public final class FacetedNavigation {
          * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
          */
         public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.forNumber(sortMode_);
+          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
           return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
         }
 
@@ -1869,7 +1999,7 @@ public final class FacetedNavigation {
         public void writeTo(com.google.protobuf.CodedOutputStream output)
                             throws java.io.IOException {
           if (!getFieldNameBytes().isEmpty()) {
-            com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+            com.google.protobuf.GeneratedMessageV3.writeString(output, 1, fieldName_);
           }
           if (sortOrder_ != io.dstore.elastic.Elastic.Sort.Order.ASCENDING.getNumber()) {
             output.writeEnum(2, sortOrder_);
@@ -1885,7 +2015,7 @@ public final class FacetedNavigation {
 
           size = 0;
           if (!getFieldNameBytes().isEmpty()) {
-            size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, fieldName_);
           }
           if (sortOrder_ != io.dstore.elastic.Elastic.Sort.Order.ASCENDING.getNumber()) {
             size += com.google.protobuf.CodedOutputStream
@@ -1900,6 +2030,42 @@ public final class FacetedNavigation {
         }
 
         private static final long serialVersionUID = 0L;
+        @java.lang.Override
+        public boolean equals(final java.lang.Object obj) {
+          if (obj == this) {
+           return true;
+          }
+          if (!(obj instanceof io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort)) {
+            return super.equals(obj);
+          }
+          io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort other = (io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort) obj;
+
+          boolean result = true;
+          result = result && getFieldName()
+              .equals(other.getFieldName());
+          result = result && sortOrder_ == other.sortOrder_;
+          result = result && sortMode_ == other.sortMode_;
+          return result;
+        }
+
+        @java.lang.Override
+        public int hashCode() {
+          if (memoizedHashCode != 0) {
+            return memoizedHashCode;
+          }
+          int hash = 41;
+          hash = (19 * hash) + getDescriptorForType().hashCode();
+          hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getFieldName().hashCode();
+          hash = (37 * hash) + SORT_ORDER_FIELD_NUMBER;
+          hash = (53 * hash) + sortOrder_;
+          hash = (37 * hash) + SORT_MODE_FIELD_NUMBER;
+          hash = (53 * hash) + sortMode_;
+          hash = (29 * hash) + unknownFields.hashCode();
+          memoizedHashCode = hash;
+          return hash;
+        }
+
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             com.google.protobuf.ByteString data)
             throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1923,39 +2089,39 @@ public final class FacetedNavigation {
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseDelimitedFrom(java.io.InputStream input)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseDelimitedWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseDelimitedFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             com.google.protobuf.CodedInputStream input)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input);
         }
         public static io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort parseFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          return com.google.protobuf.GeneratedMessage
+          return com.google.protobuf.GeneratedMessageV3
               .parseWithIOException(PARSER, input, extensionRegistry);
         }
 
@@ -1973,7 +2139,7 @@ public final class FacetedNavigation {
 
         @java.lang.Override
         protected Builder newBuilderForType(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           Builder builder = new Builder(parent);
           return builder;
         }
@@ -1981,7 +2147,7 @@ public final class FacetedNavigation {
          * Protobuf type {@code dstore.elastic.facetednavigation.Request.Facet.FieldSort}
          */
         public static final class Builder extends
-            com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+            com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
             // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Request.Facet.FieldSort)
             io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSortOrBuilder {
           public static final com.google.protobuf.Descriptors.Descriptor
@@ -1989,7 +2155,7 @@ public final class FacetedNavigation {
             return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_descriptor;
           }
 
-          protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
               internalGetFieldAccessorTable() {
             return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_fieldAccessorTable
                 .ensureFieldAccessorsInitialized(
@@ -2002,12 +2168,13 @@ public final class FacetedNavigation {
           }
 
           private Builder(
-              com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+              com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
             super(parent);
             maybeForceBuilderInitialization();
           }
           private void maybeForceBuilderInitialization() {
-            if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+            if (com.google.protobuf.GeneratedMessageV3
+                    .alwaysUseFieldBuilders) {
             }
           }
           public Builder clear() {
@@ -2047,6 +2214,32 @@ public final class FacetedNavigation {
             return result;
           }
 
+          public Builder clone() {
+            return (Builder) super.clone();
+          }
+          public Builder setField(
+              com.google.protobuf.Descriptors.FieldDescriptor field,
+              Object value) {
+            return (Builder) super.setField(field, value);
+          }
+          public Builder clearField(
+              com.google.protobuf.Descriptors.FieldDescriptor field) {
+            return (Builder) super.clearField(field);
+          }
+          public Builder clearOneof(
+              com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+            return (Builder) super.clearOneof(oneof);
+          }
+          public Builder setRepeatedField(
+              com.google.protobuf.Descriptors.FieldDescriptor field,
+              int index, Object value) {
+            return (Builder) super.setRepeatedField(field, index, value);
+          }
+          public Builder addRepeatedField(
+              com.google.protobuf.Descriptors.FieldDescriptor field,
+              Object value) {
+            return (Builder) super.addRepeatedField(field, value);
+          }
           public Builder mergeFrom(com.google.protobuf.Message other) {
             if (other instanceof io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort) {
               return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort)other);
@@ -2182,7 +2375,7 @@ public final class FacetedNavigation {
            * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
            */
           public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.forNumber(sortOrder_);
+            io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
             return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
           }
           /**
@@ -2226,7 +2419,7 @@ public final class FacetedNavigation {
            * <code>optional .dstore.elastic.Sort.Mode sort_mode = 3;</code>
            */
           public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-            io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.forNumber(sortMode_);
+            io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
             return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
           }
           /**
@@ -2424,7 +2617,7 @@ public final class FacetedNavigation {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (!getFieldNameBytes().isEmpty()) {
-          com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, fieldName_);
         }
         if (sortByCase_ == 2) {
           output.writeMessage(2, (io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort) sortBy_);
@@ -2440,7 +2633,7 @@ public final class FacetedNavigation {
 
         size = 0;
         if (!getFieldNameBytes().isEmpty()) {
-          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, fieldName_);
         }
         if (sortByCase_ == 2) {
           size += com.google.protobuf.CodedOutputStream
@@ -2455,6 +2648,63 @@ public final class FacetedNavigation {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.elastic.item.FacetedNavigation.Request.Facet)) {
+          return super.equals(obj);
+        }
+        io.dstore.elastic.item.FacetedNavigation.Request.Facet other = (io.dstore.elastic.item.FacetedNavigation.Request.Facet) obj;
+
+        boolean result = true;
+        result = result && getFieldName()
+            .equals(other.getFieldName());
+        result = result && getSortByCase().equals(
+            other.getSortByCase());
+        if (!result) return false;
+        switch (sortByCase_) {
+          case 2:
+            result = result && getSortNoSort()
+                .equals(other.getSortNoSort());
+            break;
+          case 3:
+            result = result && getFieldSort()
+                .equals(other.getFieldSort());
+            break;
+          case 0:
+          default:
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + FIELD_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getFieldName().hashCode();
+        switch (sortByCase_) {
+          case 2:
+            hash = (37 * hash) + SORT_NO_SORT_FIELD_NUMBER;
+            hash = (53 * hash) + getSortNoSort().hashCode();
+            break;
+          case 3:
+            hash = (37 * hash) + FIELD_SORT_FIELD_NUMBER;
+            hash = (53 * hash) + getFieldSort().hashCode();
+            break;
+          case 0:
+          default:
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2478,39 +2728,39 @@ public final class FacetedNavigation {
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.elastic.item.FacetedNavigation.Request.Facet parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2528,7 +2778,7 @@ public final class FacetedNavigation {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2536,7 +2786,7 @@ public final class FacetedNavigation {
        * Protobuf type {@code dstore.elastic.facetednavigation.Request.Facet}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Request.Facet)
           io.dstore.elastic.item.FacetedNavigation.Request.FacetOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2544,7 +2794,7 @@ public final class FacetedNavigation {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_Facet_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2557,12 +2807,13 @@ public final class FacetedNavigation {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2613,6 +2864,32 @@ public final class FacetedNavigation {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.elastic.item.FacetedNavigation.Request.Facet) {
             return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Request.Facet)other);
@@ -2751,7 +3028,7 @@ public final class FacetedNavigation {
           return this;
         }
 
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort, io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort.Builder, io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSortOrBuilder> sortNoSortBuilder_;
         /**
          * <code>optional .dstore.elastic.facetednavigation.Request.Facet.SortNoSort sort_no_sort = 2;</code>
@@ -2862,14 +3139,14 @@ public final class FacetedNavigation {
         /**
          * <code>optional .dstore.elastic.facetednavigation.Request.Facet.SortNoSort sort_no_sort = 2;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort, io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort.Builder, io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSortOrBuilder> 
             getSortNoSortFieldBuilder() {
           if (sortNoSortBuilder_ == null) {
             if (!(sortByCase_ == 2)) {
               sortBy_ = io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort.getDefaultInstance();
             }
-            sortNoSortBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            sortNoSortBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort, io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort.Builder, io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSortOrBuilder>(
                     (io.dstore.elastic.item.FacetedNavigation.Request.Facet.SortNoSort) sortBy_,
                     getParentForChildren(),
@@ -2881,7 +3158,7 @@ public final class FacetedNavigation {
           return sortNoSortBuilder_;
         }
 
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort, io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort.Builder, io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSortOrBuilder> fieldSortBuilder_;
         /**
          * <code>optional .dstore.elastic.facetednavigation.Request.Facet.FieldSort field_sort = 3;</code>
@@ -2992,14 +3269,14 @@ public final class FacetedNavigation {
         /**
          * <code>optional .dstore.elastic.facetednavigation.Request.Facet.FieldSort field_sort = 3;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort, io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort.Builder, io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSortOrBuilder> 
             getFieldSortFieldBuilder() {
           if (fieldSortBuilder_ == null) {
             if (!(sortByCase_ == 3)) {
               sortBy_ = io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort.getDefaultInstance();
             }
-            fieldSortBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fieldSortBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort, io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort.Builder, io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSortOrBuilder>(
                     (io.dstore.elastic.item.FacetedNavigation.Request.Facet.FieldSort) sortBy_,
                     getParentForChildren(),
@@ -3384,6 +3661,87 @@ public final class FacetedNavigation {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.elastic.item.FacetedNavigation.Request)) {
+        return super.equals(obj);
+      }
+      io.dstore.elastic.item.FacetedNavigation.Request other = (io.dstore.elastic.item.FacetedNavigation.Request) obj;
+
+      boolean result = true;
+      result = result && (hasBaseQuery() == other.hasBaseQuery());
+      if (hasBaseQuery()) {
+        result = result && getBaseQuery()
+            .equals(other.getBaseQuery());
+      }
+      result = result && (hasPostQuery() == other.hasPostQuery());
+      if (hasPostQuery()) {
+        result = result && getPostQuery()
+            .equals(other.getPostQuery());
+      }
+      result = result && getFacetList()
+          .equals(other.getFacetList());
+      result = result && getRangeFacetList()
+          .equals(other.getRangeFacetList());
+      result = result && getDateRangeFacetList()
+          .equals(other.getDateRangeFacetList());
+      result = result && (getOnlyMatchingVariants()
+          == other.getOnlyMatchingVariants());
+      result = result && (getFrom()
+          == other.getFrom());
+      result = result && (getSize()
+          == other.getSize());
+      result = result && getSortList()
+          .equals(other.getSortList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasBaseQuery()) {
+        hash = (37 * hash) + BASE_QUERY_FIELD_NUMBER;
+        hash = (53 * hash) + getBaseQuery().hashCode();
+      }
+      if (hasPostQuery()) {
+        hash = (37 * hash) + POST_QUERY_FIELD_NUMBER;
+        hash = (53 * hash) + getPostQuery().hashCode();
+      }
+      if (getFacetCount() > 0) {
+        hash = (37 * hash) + FACET_FIELD_NUMBER;
+        hash = (53 * hash) + getFacetList().hashCode();
+      }
+      if (getRangeFacetCount() > 0) {
+        hash = (37 * hash) + RANGE_FACET_FIELD_NUMBER;
+        hash = (53 * hash) + getRangeFacetList().hashCode();
+      }
+      if (getDateRangeFacetCount() > 0) {
+        hash = (37 * hash) + DATE_RANGE_FACET_FIELD_NUMBER;
+        hash = (53 * hash) + getDateRangeFacetList().hashCode();
+      }
+      hash = (37 * hash) + ONLYMATCHINGVARIANTS_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyMatchingVariants());
+      hash = (37 * hash) + FROM_FIELD_NUMBER;
+      hash = (53 * hash) + getFrom();
+      hash = (37 * hash) + SIZE_FIELD_NUMBER;
+      hash = (53 * hash) + getSize();
+      if (getSortCount() > 0) {
+        hash = (37 * hash) + SORT_FIELD_NUMBER;
+        hash = (53 * hash) + getSortList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3407,39 +3765,39 @@ public final class FacetedNavigation {
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Request parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3457,7 +3815,7 @@ public final class FacetedNavigation {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3465,7 +3823,7 @@ public final class FacetedNavigation {
      * Protobuf type {@code dstore.elastic.facetednavigation.Request}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Request)
         io.dstore.elastic.item.FacetedNavigation.RequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3473,7 +3831,7 @@ public final class FacetedNavigation {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3486,12 +3844,13 @@ public final class FacetedNavigation {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getFacetFieldBuilder();
           getRangeFacetFieldBuilder();
           getDateRangeFacetFieldBuilder();
@@ -3620,6 +3979,32 @@ public final class FacetedNavigation {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.elastic.item.FacetedNavigation.Request) {
           return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Request)other);
@@ -3656,7 +4041,7 @@ public final class FacetedNavigation {
               facet_ = other.facet_;
               bitField0_ = (bitField0_ & ~0x00000004);
               facetBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFacetFieldBuilder() : null;
             } else {
               facetBuilder_.addAllMessages(other.facet_);
@@ -3682,7 +4067,7 @@ public final class FacetedNavigation {
               rangeFacet_ = other.rangeFacet_;
               bitField0_ = (bitField0_ & ~0x00000008);
               rangeFacetBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRangeFacetFieldBuilder() : null;
             } else {
               rangeFacetBuilder_.addAllMessages(other.rangeFacet_);
@@ -3708,7 +4093,7 @@ public final class FacetedNavigation {
               dateRangeFacet_ = other.dateRangeFacet_;
               bitField0_ = (bitField0_ & ~0x00000010);
               dateRangeFacetBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDateRangeFacetFieldBuilder() : null;
             } else {
               dateRangeFacetBuilder_.addAllMessages(other.dateRangeFacet_);
@@ -3743,7 +4128,7 @@ public final class FacetedNavigation {
               sort_ = other.sort_;
               bitField0_ = (bitField0_ & ~0x00000100);
               sortBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getSortFieldBuilder() : null;
             } else {
               sortBuilder_.addAllMessages(other.sort_);
@@ -3778,7 +4163,7 @@ public final class FacetedNavigation {
       private int bitField0_;
 
       private io.dstore.elastic.Elastic.BoolQuery baseQuery_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> baseQueryBuilder_;
       /**
        * <pre>
@@ -3916,11 +4301,11 @@ public final class FacetedNavigation {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
           getBaseQueryFieldBuilder() {
         if (baseQueryBuilder_ == null) {
-          baseQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          baseQueryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder>(
                   getBaseQuery(),
                   getParentForChildren(),
@@ -3931,7 +4316,7 @@ public final class FacetedNavigation {
       }
 
       private io.dstore.elastic.Elastic.BoolQuery postQuery_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> postQueryBuilder_;
       /**
        * <pre>
@@ -4069,11 +4454,11 @@ public final class FacetedNavigation {
        *
        * <code>optional .dstore.elastic.BoolQuery post_query = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
           getPostQueryFieldBuilder() {
         if (postQueryBuilder_ == null) {
-          postQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          postQueryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder>(
                   getPostQuery(),
                   getParentForChildren(),
@@ -4092,7 +4477,7 @@ public final class FacetedNavigation {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.FacetedNavigation.Request.Facet, io.dstore.elastic.item.FacetedNavigation.Request.Facet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.FacetOrBuilder> facetBuilder_;
 
       /**
@@ -4308,11 +4693,11 @@ public final class FacetedNavigation {
            getFacetBuilderList() {
         return getFacetFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.FacetedNavigation.Request.Facet, io.dstore.elastic.item.FacetedNavigation.Request.Facet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.FacetOrBuilder> 
           getFacetFieldBuilder() {
         if (facetBuilder_ == null) {
-          facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.FacetedNavigation.Request.Facet, io.dstore.elastic.item.FacetedNavigation.Request.Facet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.FacetOrBuilder>(
                   facet_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4332,7 +4717,7 @@ public final class FacetedNavigation {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> rangeFacetBuilder_;
 
       /**
@@ -4548,11 +4933,11 @@ public final class FacetedNavigation {
            getRangeFacetBuilderList() {
         return getRangeFacetFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
           getRangeFacetFieldBuilder() {
         if (rangeFacetBuilder_ == null) {
-          rangeFacetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rangeFacetBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder>(
                   rangeFacet_,
                   ((bitField0_ & 0x00000008) == 0x00000008),
@@ -4572,7 +4957,7 @@ public final class FacetedNavigation {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> dateRangeFacetBuilder_;
 
       /**
@@ -4788,11 +5173,11 @@ public final class FacetedNavigation {
            getDateRangeFacetBuilderList() {
         return getDateRangeFacetFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder> 
           getDateRangeFacetFieldBuilder() {
         if (dateRangeFacetBuilder_ == null) {
-          dateRangeFacetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          dateRangeFacetBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacet.Builder, io.dstore.elastic.item.FacetedNavigation.Request.RangeFacetOrBuilder>(
                   dateRangeFacet_,
                   ((bitField0_ & 0x00000010) == 0x00000010),
@@ -4902,7 +5287,7 @@ public final class FacetedNavigation {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder> sortBuilder_;
 
       /**
@@ -5118,11 +5503,11 @@ public final class FacetedNavigation {
            getSortBuilderList() {
         return getSortFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder> 
           getSortFieldBuilder() {
         if (sortBuilder_ == null) {
-          sortBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          sortBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder>(
                   sort_,
                   ((bitField0_ & 0x00000100) == 0x00000100),
@@ -5252,11 +5637,11 @@ public final class FacetedNavigation {
    * Protobuf type {@code dstore.elastic.facetednavigation.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.elastic.facetednavigation.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -5301,7 +5686,8 @@ public final class FacetedNavigation {
                 item_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              item_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
+              item_.add(
+                  input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -5309,7 +5695,8 @@ public final class FacetedNavigation {
                 facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              facet_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.parser(), extensionRegistry));
+              facet_.add(
+                  input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.parser(), extensionRegistry));
               break;
             }
             case 42: {
@@ -5340,7 +5727,7 @@ public final class FacetedNavigation {
       return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -5483,7 +5870,7 @@ public final class FacetedNavigation {
         output.writeMessage(4, facet_.get(i));
       }
       if (!getElasticQueryStringBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 5, elasticQueryString_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, elasticQueryString_);
       }
     }
 
@@ -5505,13 +5892,59 @@ public final class FacetedNavigation {
           .computeMessageSize(4, facet_.get(i));
       }
       if (!getElasticQueryStringBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(5, elasticQueryString_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, elasticQueryString_);
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.elastic.item.FacetedNavigation.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.elastic.item.FacetedNavigation.Response other = (io.dstore.elastic.item.FacetedNavigation.Response) obj;
+
+      boolean result = true;
+      result = result && (getTotalHits()
+          == other.getTotalHits());
+      result = result && getItemList()
+          .equals(other.getItemList());
+      result = result && getFacetList()
+          .equals(other.getFacetList());
+      result = result && getElasticQueryString()
+          .equals(other.getElasticQueryString());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + TOTAL_HITS_FIELD_NUMBER;
+      hash = (53 * hash) + getTotalHits();
+      if (getItemCount() > 0) {
+        hash = (37 * hash) + ITEM_FIELD_NUMBER;
+        hash = (53 * hash) + getItemList().hashCode();
+      }
+      if (getFacetCount() > 0) {
+        hash = (37 * hash) + FACET_FIELD_NUMBER;
+        hash = (53 * hash) + getFacetList().hashCode();
+      }
+      hash = (37 * hash) + ELASTIC_QUERY_STRING_FIELD_NUMBER;
+      hash = (53 * hash) + getElasticQueryString().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5535,39 +5968,39 @@ public final class FacetedNavigation {
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.elastic.item.FacetedNavigation.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -5585,7 +6018,7 @@ public final class FacetedNavigation {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -5593,7 +6026,7 @@ public final class FacetedNavigation {
      * Protobuf type {@code dstore.elastic.facetednavigation.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.elastic.facetednavigation.Response)
         io.dstore.elastic.item.FacetedNavigation.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -5601,7 +6034,7 @@ public final class FacetedNavigation {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.item.FacetedNavigation.internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5614,12 +6047,13 @@ public final class FacetedNavigation {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getItemFieldBuilder();
           getFacetFieldBuilder();
         }
@@ -5691,6 +6125,32 @@ public final class FacetedNavigation {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.elastic.item.FacetedNavigation.Response) {
           return mergeFrom((io.dstore.elastic.item.FacetedNavigation.Response)other);
@@ -5724,7 +6184,7 @@ public final class FacetedNavigation {
               item_ = other.item_;
               bitField0_ = (bitField0_ & ~0x00000002);
               itemBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemFieldBuilder() : null;
             } else {
               itemBuilder_.addAllMessages(other.item_);
@@ -5750,7 +6210,7 @@ public final class FacetedNavigation {
               facet_ = other.facet_;
               bitField0_ = (bitField0_ & ~0x00000004);
               facetBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFacetFieldBuilder() : null;
             } else {
               facetBuilder_.addAllMessages(other.facet_);
@@ -5823,7 +6283,7 @@ public final class FacetedNavigation {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> itemBuilder_;
 
       /**
@@ -6039,11 +6499,11 @@ public final class FacetedNavigation {
            getItemBuilderList() {
         return getItemFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
           getItemFieldBuilder() {
         if (itemBuilder_ == null) {
-          itemBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          itemBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder>(
                   item_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -6063,7 +6523,7 @@ public final class FacetedNavigation {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder> facetBuilder_;
 
       /**
@@ -6279,11 +6739,11 @@ public final class FacetedNavigation {
            getFacetBuilderList() {
         return getFacetFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder> 
           getFacetFieldBuilder() {
         if (facetBuilder_ == null) {
-          facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder>(
                   facet_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -6414,32 +6874,32 @@ public final class FacetedNavigation {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_Facet_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_facetednavigation_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -6500,37 +6960,37 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_descriptor,
         new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "RangeFacet", "DateRangeFacet", "OnlyMatchingVariants", "From", "Size", "Sort", });
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor,
         new java.lang.String[] { "FieldName", "Range", });
     internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_descriptor.getNestedTypes().get(1);
     internal_static_dstore_elastic_facetednavigation_Request_Facet_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor,
         new java.lang.String[] { "FieldName", "SortNoSort", "FieldSort", "SortBy", });
     internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_Facet_SortNoSort_descriptor,
         new java.lang.String[] { "SortOrder", });
     internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_Facet_descriptor.getNestedTypes().get(1);
     internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_Facet_FieldSort_descriptor,
         new java.lang.String[] { "FieldName", "SortOrder", "SortMode", });
     internal_static_dstore_elastic_facetednavigation_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Response_descriptor,
         new java.lang.String[] { "TotalHits", "Item", "Facet", "ElasticQueryString", });
     io.dstore.elastic.Elastic.getDescriptor();

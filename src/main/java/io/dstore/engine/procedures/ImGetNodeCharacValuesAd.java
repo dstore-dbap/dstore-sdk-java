@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImGetNodeCharacValuesAd {
   private ImGetNodeCharacValuesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_GetNodeCharacValues_Ad.Parameters)
@@ -124,11 +130,11 @@ public final class ImGetNodeCharacValuesAd {
    * Protobuf type {@code dstore.engine.im_GetNodeCharacValues_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNodeCharacValues_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -289,7 +295,7 @@ public final class ImGetNodeCharacValuesAd {
       return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -584,6 +590,116 @@ public final class ImGetNodeCharacValuesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters other = (io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+      if (hasNodeCharacteristicId()) {
+        result = result && getNodeCharacteristicId()
+            .equals(other.getNodeCharacteristicId());
+      }
+      result = result && (getNodeCharacteristicIdNull()
+          == other.getNodeCharacteristicIdNull());
+      result = result && (hasValueCategoryId() == other.hasValueCategoryId());
+      if (hasValueCategoryId()) {
+        result = result && getValueCategoryId()
+            .equals(other.getValueCategoryId());
+      }
+      result = result && (getValueCategoryIdNull()
+          == other.getValueCategoryIdNull());
+      result = result && (hasRecursiveEvaluation() == other.hasRecursiveEvaluation());
+      if (hasRecursiveEvaluation()) {
+        result = result && getRecursiveEvaluation()
+            .equals(other.getRecursiveEvaluation());
+      }
+      result = result && (getRecursiveEvaluationNull()
+          == other.getRecursiveEvaluationNull());
+      result = result && (hasValue() == other.hasValue());
+      if (hasValue()) {
+        result = result && getValue()
+            .equals(other.getValue());
+      }
+      result = result && (getValueNull()
+          == other.getValueNull());
+      result = result && (hasValueId() == other.hasValueId());
+      if (hasValueId()) {
+        result = result && getValueId()
+            .equals(other.getValueId());
+      }
+      result = result && (getValueIdNull()
+          == other.getValueIdNull());
+      result = result && (hasGetValuesLike() == other.hasGetValuesLike());
+      if (hasGetValuesLike()) {
+        result = result && getGetValuesLike()
+            .equals(other.getGetValuesLike());
+      }
+      result = result && (getGetValuesLikeNull()
+          == other.getGetValuesLikeNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasNodeCharacteristicId()) {
+        hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacteristicIdNull());
+      if (hasValueCategoryId()) {
+        hash = (37 * hash) + VALUE_CATEGORY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getValueCategoryId().hashCode();
+      }
+      hash = (37 * hash) + VALUE_CATEGORY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueCategoryIdNull());
+      if (hasRecursiveEvaluation()) {
+        hash = (37 * hash) + RECURSIVE_EVALUATION_FIELD_NUMBER;
+        hash = (53 * hash) + getRecursiveEvaluation().hashCode();
+      }
+      hash = (37 * hash) + RECURSIVE_EVALUATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRecursiveEvaluationNull());
+      if (hasValue()) {
+        hash = (37 * hash) + VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + getValue().hashCode();
+      }
+      hash = (37 * hash) + VALUE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueNull());
+      if (hasValueId()) {
+        hash = (37 * hash) + VALUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getValueId().hashCode();
+      }
+      hash = (37 * hash) + VALUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueIdNull());
+      if (hasGetValuesLike()) {
+        hash = (37 * hash) + GET_VALUES_LIKE_FIELD_NUMBER;
+        hash = (53 * hash) + getGetValuesLike().hashCode();
+      }
+      hash = (37 * hash) + GET_VALUES_LIKE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetValuesLikeNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -607,39 +723,39 @@ public final class ImGetNodeCharacValuesAd {
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -657,7 +773,7 @@ public final class ImGetNodeCharacValuesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -665,7 +781,7 @@ public final class ImGetNodeCharacValuesAd {
      * Protobuf type {@code dstore.engine.im_GetNodeCharacValues_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetNodeCharacValues_Ad.Parameters)
         io.dstore.engine.procedures.ImGetNodeCharacValuesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -673,7 +789,7 @@ public final class ImGetNodeCharacValuesAd {
         return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -686,12 +802,13 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -806,6 +923,32 @@ public final class ImGetNodeCharacValuesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Parameters)other);
@@ -880,7 +1023,7 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
@@ -982,11 +1125,11 @@ public final class ImGetNodeCharacValuesAd {
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
@@ -1023,7 +1166,7 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private io.dstore.Values.integerValue valueCategoryId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueCategoryIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
@@ -1125,11 +1268,11 @@ public final class ImGetNodeCharacValuesAd {
       /**
        * <code>optional .dstore.values.integerValue value_category_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueCategoryIdFieldBuilder() {
         if (valueCategoryIdBuilder_ == null) {
-          valueCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueCategoryId(),
                   getParentForChildren(),
@@ -1166,7 +1309,7 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private io.dstore.Values.booleanValue recursiveEvaluation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> recursiveEvaluationBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue recursive_evaluation = 3;</code>
@@ -1268,11 +1411,11 @@ public final class ImGetNodeCharacValuesAd {
       /**
        * <code>optional .dstore.values.booleanValue recursive_evaluation = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getRecursiveEvaluationFieldBuilder() {
         if (recursiveEvaluationBuilder_ == null) {
-          recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getRecursiveEvaluation(),
                   getParentForChildren(),
@@ -1309,7 +1452,7 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private io.dstore.Values.stringValue value_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
       /**
        * <code>optional .dstore.values.stringValue value = 4;</code>
@@ -1411,11 +1554,11 @@ public final class ImGetNodeCharacValuesAd {
       /**
        * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
-          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
@@ -1452,7 +1595,7 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private io.dstore.Values.integerValue valueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue value_id = 5;</code>
@@ -1554,11 +1697,11 @@ public final class ImGetNodeCharacValuesAd {
       /**
        * <code>optional .dstore.values.integerValue value_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueIdFieldBuilder() {
         if (valueIdBuilder_ == null) {
-          valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueId(),
                   getParentForChildren(),
@@ -1595,7 +1738,7 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private io.dstore.Values.stringValue getValuesLike_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> getValuesLikeBuilder_;
       /**
        * <code>optional .dstore.values.stringValue get_values_like = 6;</code>
@@ -1697,11 +1840,11 @@ public final class ImGetNodeCharacValuesAd {
       /**
        * <code>optional .dstore.values.stringValue get_values_like = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getGetValuesLikeFieldBuilder() {
         if (getValuesLikeBuilder_ == null) {
-          getValuesLikeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getValuesLikeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getGetValuesLike(),
                   getParentForChildren(),
@@ -1885,11 +2028,11 @@ public final class ImGetNodeCharacValuesAd {
    * Protobuf type {@code dstore.engine.im_GetNodeCharacValues_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNodeCharacValues_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1928,7 +2071,8 @@ public final class ImGetNodeCharacValuesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1936,7 +2080,8 @@ public final class ImGetNodeCharacValuesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1944,7 +2089,8 @@ public final class ImGetNodeCharacValuesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1972,7 +2118,7 @@ public final class ImGetNodeCharacValuesAd {
       return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2167,11 +2313,11 @@ public final class ImGetNodeCharacValuesAd {
      * Protobuf type {@code dstore.engine.im_GetNodeCharacValues_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNodeCharacValues_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2315,7 +2461,7 @@ public final class ImGetNodeCharacValuesAd {
         return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2642,6 +2788,99 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row other = (io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasHasDetails() == other.hasHasDetails());
+        if (hasHasDetails()) {
+          result = result && getHasDetails()
+              .equals(other.getHasDetails());
+        }
+        result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+        if (hasNodeCharacteristicId()) {
+          result = result && getNodeCharacteristicId()
+              .equals(other.getNodeCharacteristicId());
+        }
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (hasHasBinaries() == other.hasHasBinaries());
+        if (hasHasBinaries()) {
+          result = result && getHasBinaries()
+              .equals(other.getHasBinaries());
+        }
+        result = result && (hasIsUsed() == other.hasIsUsed());
+        if (hasIsUsed()) {
+          result = result && getIsUsed()
+              .equals(other.getIsUsed());
+        }
+        result = result && (hasValueId() == other.hasValueId());
+        if (hasValueId()) {
+          result = result && getValueId()
+              .equals(other.getValueId());
+        }
+        result = result && (hasSortNo() == other.hasSortNo());
+        if (hasSortNo()) {
+          result = result && getSortNo()
+              .equals(other.getSortNo());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasHasDetails()) {
+          hash = (37 * hash) + HAS_DETAILS_FIELD_NUMBER;
+          hash = (53 * hash) + getHasDetails().hashCode();
+        }
+        if (hasNodeCharacteristicId()) {
+          hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+        }
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        if (hasHasBinaries()) {
+          hash = (37 * hash) + HAS_BINARIES_FIELD_NUMBER;
+          hash = (53 * hash) + getHasBinaries().hashCode();
+        }
+        if (hasIsUsed()) {
+          hash = (37 * hash) + IS_USED_FIELD_NUMBER;
+          hash = (53 * hash) + getIsUsed().hashCode();
+        }
+        if (hasValueId()) {
+          hash = (37 * hash) + VALUE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getValueId().hashCode();
+        }
+        if (hasSortNo()) {
+          hash = (37 * hash) + SORT_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getSortNo().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2665,39 +2904,39 @@ public final class ImGetNodeCharacValuesAd {
       }
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2715,7 +2954,7 @@ public final class ImGetNodeCharacValuesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2723,7 +2962,7 @@ public final class ImGetNodeCharacValuesAd {
        * Protobuf type {@code dstore.engine.im_GetNodeCharacValues_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetNodeCharacValues_Ad.Response.Row)
           io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2731,7 +2970,7 @@ public final class ImGetNodeCharacValuesAd {
           return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2744,12 +2983,13 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2860,6 +3100,32 @@ public final class ImGetNodeCharacValuesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row)other);
@@ -2948,7 +3214,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.booleanValue hasDetails_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasDetailsBuilder_;
         /**
          * <pre>
@@ -3086,11 +3352,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.booleanValue has_details = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasDetailsFieldBuilder() {
           if (hasDetailsBuilder_ == null) {
-            hasDetailsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hasDetailsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasDetails(),
                     getParentForChildren(),
@@ -3101,7 +3367,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -3239,11 +3505,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
@@ -3254,7 +3520,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.stringValue value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
@@ -3392,11 +3658,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.stringValue value = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -3407,7 +3673,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.booleanValue hasBinaries_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasBinariesBuilder_;
         /**
          * <pre>
@@ -3545,11 +3811,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.booleanValue has_binaries = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasBinariesFieldBuilder() {
           if (hasBinariesBuilder_ == null) {
-            hasBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hasBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasBinaries(),
                     getParentForChildren(),
@@ -3560,7 +3826,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.booleanValue isUsed_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isUsedBuilder_;
         /**
          * <pre>
@@ -3698,11 +3964,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.booleanValue is_used = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getIsUsedFieldBuilder() {
           if (isUsedBuilder_ == null) {
-            isUsedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            isUsedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getIsUsed(),
                     getParentForChildren(),
@@ -3713,7 +3979,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.integerValue valueId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
@@ -3851,11 +4117,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
-            valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
@@ -3866,7 +4132,7 @@ public final class ImGetNodeCharacValuesAd {
         }
 
         private io.dstore.Values.integerValue sortNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
@@ -4004,11 +4270,11 @@ public final class ImGetNodeCharacValuesAd {
          *
          * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
-            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
@@ -4236,6 +4502,50 @@ public final class ImGetNodeCharacValuesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response other = (io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4259,39 +4569,39 @@ public final class ImGetNodeCharacValuesAd {
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4309,7 +4619,7 @@ public final class ImGetNodeCharacValuesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4317,7 +4627,7 @@ public final class ImGetNodeCharacValuesAd {
      * Protobuf type {@code dstore.engine.im_GetNodeCharacValues_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetNodeCharacValues_Ad.Response)
         io.dstore.engine.procedures.ImGetNodeCharacValuesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4325,7 +4635,7 @@ public final class ImGetNodeCharacValuesAd {
         return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetNodeCharacValuesAd.internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4338,12 +4648,13 @@ public final class ImGetNodeCharacValuesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4423,6 +4734,32 @@ public final class ImGetNodeCharacValuesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response)other);
@@ -4453,7 +4790,7 @@ public final class ImGetNodeCharacValuesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4479,7 +4816,7 @@ public final class ImGetNodeCharacValuesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4505,7 +4842,7 @@ public final class ImGetNodeCharacValuesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4548,7 +4885,7 @@ public final class ImGetNodeCharacValuesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4764,11 +5101,11 @@ public final class ImGetNodeCharacValuesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4788,7 +5125,7 @@ public final class ImGetNodeCharacValuesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5004,11 +5341,11 @@ public final class ImGetNodeCharacValuesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5028,7 +5365,7 @@ public final class ImGetNodeCharacValuesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row, io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row.Builder, io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5316,11 +5653,11 @@ public final class ImGetNodeCharacValuesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row, io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row.Builder, io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row, io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.Row.Builder, io.dstore.engine.procedures.ImGetNodeCharacValuesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5382,17 +5719,17 @@ public final class ImGetNodeCharacValuesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5457,19 +5794,19 @@ public final class ImGetNodeCharacValuesAd {
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Parameters_descriptor,
         new java.lang.String[] { "NodeCharacteristicId", "NodeCharacteristicIdNull", "ValueCategoryId", "ValueCategoryIdNull", "RecursiveEvaluation", "RecursiveEvaluationNull", "Value", "ValueNull", "ValueId", "ValueIdNull", "GetValuesLike", "GetValuesLikeNull", });
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeCharacValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "HasDetails", "NodeCharacteristicId", "Value", "HasBinaries", "IsUsed", "ValueId", "SortNo", });
     io.dstore.Values.getDescriptor();

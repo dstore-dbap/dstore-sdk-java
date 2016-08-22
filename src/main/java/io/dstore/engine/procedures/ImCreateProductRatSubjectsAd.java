@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImCreateProductRatSubjectsAd {
   private ImCreateProductRatSubjectsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_CreateProductRatSubjects_Ad.Parameters)
@@ -178,11 +184,11 @@ public final class ImCreateProductRatSubjectsAd {
    * Protobuf type {@code dstore.engine.im_CreateProductRatSubjects_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_CreateProductRatSubjects_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -400,7 +406,7 @@ public final class ImCreateProductRatSubjectsAd {
       return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -827,6 +833,158 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters other = (io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasDescription() == other.hasDescription());
+      if (hasDescription()) {
+        result = result && getDescription()
+            .equals(other.getDescription());
+      }
+      result = result && (getDescriptionNull()
+          == other.getDescriptionNull());
+      result = result && (hasKeepRatingsInHours() == other.hasKeepRatingsInHours());
+      if (hasKeepRatingsInHours()) {
+        result = result && getKeepRatingsInHours()
+            .equals(other.getKeepRatingsInHours());
+      }
+      result = result && (getKeepRatingsInHoursNull()
+          == other.getKeepRatingsInHoursNull());
+      result = result && (hasKeepRatingStatisticsInDays() == other.hasKeepRatingStatisticsInDays());
+      if (hasKeepRatingStatisticsInDays()) {
+        result = result && getKeepRatingStatisticsInDays()
+            .equals(other.getKeepRatingStatisticsInDays());
+      }
+      result = result && (getKeepRatingStatisticsInDaysNull()
+          == other.getKeepRatingStatisticsInDaysNull());
+      result = result && (hasLockCriteria() == other.hasLockCriteria());
+      if (hasLockCriteria()) {
+        result = result && getLockCriteria()
+            .equals(other.getLockCriteria());
+      }
+      result = result && (getLockCriteriaNull()
+          == other.getLockCriteriaNull());
+      result = result && (hasLockPeriodInMinutes() == other.hasLockPeriodInMinutes());
+      if (hasLockPeriodInMinutes()) {
+        result = result && getLockPeriodInMinutes()
+            .equals(other.getLockPeriodInMinutes());
+      }
+      result = result && (getLockPeriodInMinutesNull()
+          == other.getLockPeriodInMinutesNull());
+      result = result && (hasCreateForAllProducts() == other.hasCreateForAllProducts());
+      if (hasCreateForAllProducts()) {
+        result = result && getCreateForAllProducts()
+            .equals(other.getCreateForAllProducts());
+      }
+      result = result && (getCreateForAllProductsNull()
+          == other.getCreateForAllProductsNull());
+      result = result && (hasOnlyActiveProducts() == other.hasOnlyActiveProducts());
+      if (hasOnlyActiveProducts()) {
+        result = result && getOnlyActiveProducts()
+            .equals(other.getOnlyActiveProducts());
+      }
+      result = result && (getOnlyActiveProductsNull()
+          == other.getOnlyActiveProductsNull());
+      result = result && (hasRatingSubjectSetId() == other.hasRatingSubjectSetId());
+      if (hasRatingSubjectSetId()) {
+        result = result && getRatingSubjectSetId()
+            .equals(other.getRatingSubjectSetId());
+      }
+      result = result && (getRatingSubjectSetIdNull()
+          == other.getRatingSubjectSetIdNull());
+      result = result && (hasNodeCharacIdForRatingValues() == other.hasNodeCharacIdForRatingValues());
+      if (hasNodeCharacIdForRatingValues()) {
+        result = result && getNodeCharacIdForRatingValues()
+            .equals(other.getNodeCharacIdForRatingValues());
+      }
+      result = result && (getNodeCharacIdForRatingValuesNull()
+          == other.getNodeCharacIdForRatingValuesNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasDescription()) {
+        hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
+        hash = (53 * hash) + getDescription().hashCode();
+      }
+      hash = (37 * hash) + DESCRIPTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDescriptionNull());
+      if (hasKeepRatingsInHours()) {
+        hash = (37 * hash) + KEEP_RATINGS_IN_HOURS_FIELD_NUMBER;
+        hash = (53 * hash) + getKeepRatingsInHours().hashCode();
+      }
+      hash = (37 * hash) + KEEP_RATINGS_IN_HOURS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getKeepRatingsInHoursNull());
+      if (hasKeepRatingStatisticsInDays()) {
+        hash = (37 * hash) + KEEP_RATING_STATISTICS_IN_DAYS_FIELD_NUMBER;
+        hash = (53 * hash) + getKeepRatingStatisticsInDays().hashCode();
+      }
+      hash = (37 * hash) + KEEP_RATING_STATISTICS_IN_DAYS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getKeepRatingStatisticsInDaysNull());
+      if (hasLockCriteria()) {
+        hash = (37 * hash) + LOCK_CRITERIA_FIELD_NUMBER;
+        hash = (53 * hash) + getLockCriteria().hashCode();
+      }
+      hash = (37 * hash) + LOCK_CRITERIA_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLockCriteriaNull());
+      if (hasLockPeriodInMinutes()) {
+        hash = (37 * hash) + LOCK_PERIOD_IN_MINUTES_FIELD_NUMBER;
+        hash = (53 * hash) + getLockPeriodInMinutes().hashCode();
+      }
+      hash = (37 * hash) + LOCK_PERIOD_IN_MINUTES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLockPeriodInMinutesNull());
+      if (hasCreateForAllProducts()) {
+        hash = (37 * hash) + CREATE_FOR_ALL_PRODUCTS_FIELD_NUMBER;
+        hash = (53 * hash) + getCreateForAllProducts().hashCode();
+      }
+      hash = (37 * hash) + CREATE_FOR_ALL_PRODUCTS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCreateForAllProductsNull());
+      if (hasOnlyActiveProducts()) {
+        hash = (37 * hash) + ONLY_ACTIVE_PRODUCTS_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyActiveProducts().hashCode();
+      }
+      hash = (37 * hash) + ONLY_ACTIVE_PRODUCTS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyActiveProductsNull());
+      if (hasRatingSubjectSetId()) {
+        hash = (37 * hash) + RATING_SUBJECT_SET_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRatingSubjectSetId().hashCode();
+      }
+      hash = (37 * hash) + RATING_SUBJECT_SET_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRatingSubjectSetIdNull());
+      if (hasNodeCharacIdForRatingValues()) {
+        hash = (37 * hash) + NODE_CHARAC_ID_FOR_RATING_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacIdForRatingValues().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARAC_ID_FOR_RATING_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacIdForRatingValuesNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -850,39 +1008,39 @@ public final class ImCreateProductRatSubjectsAd {
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -900,7 +1058,7 @@ public final class ImCreateProductRatSubjectsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -908,7 +1066,7 @@ public final class ImCreateProductRatSubjectsAd {
      * Protobuf type {@code dstore.engine.im_CreateProductRatSubjects_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_CreateProductRatSubjects_Ad.Parameters)
         io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -916,7 +1074,7 @@ public final class ImCreateProductRatSubjectsAd {
         return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -929,12 +1087,13 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1091,6 +1250,32 @@ public final class ImCreateProductRatSubjectsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Parameters)other);
@@ -1183,7 +1368,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.stringValue description_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue description = 1;</code>
@@ -1285,11 +1470,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.stringValue description = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDescriptionFieldBuilder() {
         if (descriptionBuilder_ == null) {
-          descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDescription(),
                   getParentForChildren(),
@@ -1326,7 +1511,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.integerValue keepRatingsInHours_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepRatingsInHoursBuilder_;
       /**
        * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
@@ -1428,11 +1613,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getKeepRatingsInHoursFieldBuilder() {
         if (keepRatingsInHoursBuilder_ == null) {
-          keepRatingsInHoursBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          keepRatingsInHoursBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getKeepRatingsInHours(),
                   getParentForChildren(),
@@ -1469,7 +1654,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.integerValue keepRatingStatisticsInDays_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepRatingStatisticsInDaysBuilder_;
       /**
        * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
@@ -1571,11 +1756,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getKeepRatingStatisticsInDaysFieldBuilder() {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
-          keepRatingStatisticsInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          keepRatingStatisticsInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getKeepRatingStatisticsInDays(),
                   getParentForChildren(),
@@ -1612,7 +1797,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.integerValue lockCriteria_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockCriteriaBuilder_;
       /**
        * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
@@ -1714,11 +1899,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLockCriteriaFieldBuilder() {
         if (lockCriteriaBuilder_ == null) {
-          lockCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          lockCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLockCriteria(),
                   getParentForChildren(),
@@ -1755,7 +1940,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.integerValue lockPeriodInMinutes_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockPeriodInMinutesBuilder_;
       /**
        * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
@@ -1857,11 +2042,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLockPeriodInMinutesFieldBuilder() {
         if (lockPeriodInMinutesBuilder_ == null) {
-          lockPeriodInMinutesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          lockPeriodInMinutesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLockPeriodInMinutes(),
                   getParentForChildren(),
@@ -1898,7 +2083,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.booleanValue createForAllProducts_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> createForAllProductsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
@@ -2000,11 +2185,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCreateForAllProductsFieldBuilder() {
         if (createForAllProductsBuilder_ == null) {
-          createForAllProductsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          createForAllProductsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCreateForAllProducts(),
                   getParentForChildren(),
@@ -2041,7 +2226,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.booleanValue onlyActiveProducts_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyActiveProductsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
@@ -2143,11 +2328,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyActiveProductsFieldBuilder() {
         if (onlyActiveProductsBuilder_ == null) {
-          onlyActiveProductsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyActiveProductsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyActiveProducts(),
                   getParentForChildren(),
@@ -2184,7 +2369,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.integerValue ratingSubjectSetId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> ratingSubjectSetIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
@@ -2286,11 +2471,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRatingSubjectSetIdFieldBuilder() {
         if (ratingSubjectSetIdBuilder_ == null) {
-          ratingSubjectSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          ratingSubjectSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRatingSubjectSetId(),
                   getParentForChildren(),
@@ -2327,7 +2512,7 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private io.dstore.Values.integerValue nodeCharacIdForRatingValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacIdForRatingValuesBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
@@ -2429,11 +2614,11 @@ public final class ImCreateProductRatSubjectsAd {
       /**
        * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacIdForRatingValuesFieldBuilder() {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
-          nodeCharacIdForRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacIdForRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacIdForRatingValues(),
                   getParentForChildren(),
@@ -2617,11 +2802,11 @@ public final class ImCreateProductRatSubjectsAd {
    * Protobuf type {@code dstore.engine.im_CreateProductRatSubjects_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_CreateProductRatSubjects_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2660,7 +2845,8 @@ public final class ImCreateProductRatSubjectsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2668,7 +2854,8 @@ public final class ImCreateProductRatSubjectsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2676,7 +2863,8 @@ public final class ImCreateProductRatSubjectsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2704,7 +2892,7 @@ public final class ImCreateProductRatSubjectsAd {
       return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2724,11 +2912,11 @@ public final class ImCreateProductRatSubjectsAd {
      * Protobuf type {@code dstore.engine.im_CreateProductRatSubjects_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_CreateProductRatSubjects_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2781,7 +2969,7 @@ public final class ImCreateProductRatSubjectsAd {
         return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2828,6 +3016,36 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row other = (io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2851,39 +3069,39 @@ public final class ImCreateProductRatSubjectsAd {
       }
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2901,7 +3119,7 @@ public final class ImCreateProductRatSubjectsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2909,7 +3127,7 @@ public final class ImCreateProductRatSubjectsAd {
        * Protobuf type {@code dstore.engine.im_CreateProductRatSubjects_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_CreateProductRatSubjects_Ad.Response.Row)
           io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2917,7 +3135,7 @@ public final class ImCreateProductRatSubjectsAd {
           return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2930,12 +3148,13 @@ public final class ImCreateProductRatSubjectsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2969,6 +3188,32 @@ public final class ImCreateProductRatSubjectsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row)other);
@@ -3253,6 +3498,50 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response other = (io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3276,39 +3565,39 @@ public final class ImCreateProductRatSubjectsAd {
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3326,7 +3615,7 @@ public final class ImCreateProductRatSubjectsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3334,7 +3623,7 @@ public final class ImCreateProductRatSubjectsAd {
      * Protobuf type {@code dstore.engine.im_CreateProductRatSubjects_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_CreateProductRatSubjects_Ad.Response)
         io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3342,7 +3631,7 @@ public final class ImCreateProductRatSubjectsAd {
         return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3355,12 +3644,13 @@ public final class ImCreateProductRatSubjectsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3440,6 +3730,32 @@ public final class ImCreateProductRatSubjectsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response)other);
@@ -3470,7 +3786,7 @@ public final class ImCreateProductRatSubjectsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3496,7 +3812,7 @@ public final class ImCreateProductRatSubjectsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3522,7 +3838,7 @@ public final class ImCreateProductRatSubjectsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3565,7 +3881,7 @@ public final class ImCreateProductRatSubjectsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3781,11 +4097,11 @@ public final class ImCreateProductRatSubjectsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3805,7 +4121,7 @@ public final class ImCreateProductRatSubjectsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4021,11 +4337,11 @@ public final class ImCreateProductRatSubjectsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4045,7 +4361,7 @@ public final class ImCreateProductRatSubjectsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row, io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row.Builder, io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4333,11 +4649,11 @@ public final class ImCreateProductRatSubjectsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row, io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row.Builder, io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row, io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.Row.Builder, io.dstore.engine.procedures.ImCreateProductRatSubjectsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4399,17 +4715,17 @@ public final class ImCreateProductRatSubjectsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4475,19 +4791,19 @@ public final class ImCreateProductRatSubjectsAd {
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_descriptor,
         new java.lang.String[] { "Description", "DescriptionNull", "KeepRatingsInHours", "KeepRatingsInHoursNull", "KeepRatingStatisticsInDays", "KeepRatingStatisticsInDaysNull", "LockCriteria", "LockCriteriaNull", "LockPeriodInMinutes", "LockPeriodInMinutesNull", "CreateForAllProducts", "CreateForAllProductsNull", "OnlyActiveProducts", "OnlyActiveProductsNull", "RatingSubjectSetId", "RatingSubjectSetIdNull", "NodeCharacIdForRatingValues", "NodeCharacIdForRatingValuesNull", });
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

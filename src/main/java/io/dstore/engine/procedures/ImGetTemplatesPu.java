@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImGetTemplatesPu {
   private ImGetTemplatesPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_GetTemplates_Pu.Parameters)
@@ -106,11 +112,11 @@ public final class ImGetTemplatesPu {
    * Protobuf type {@code dstore.engine.im_GetTemplates_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetTemplates_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -252,7 +258,7 @@ public final class ImGetTemplatesPu {
       return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -503,6 +509,102 @@ public final class ImGetTemplatesPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImGetTemplatesPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImGetTemplatesPu.Parameters other = (io.dstore.engine.procedures.ImGetTemplatesPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasParameter() == other.hasParameter());
+      if (hasParameter()) {
+        result = result && getParameter()
+            .equals(other.getParameter());
+      }
+      result = result && (getParameterNull()
+          == other.getParameterNull());
+      result = result && (hasType() == other.hasType());
+      if (hasType()) {
+        result = result && getType()
+            .equals(other.getType());
+      }
+      result = result && (getTypeNull()
+          == other.getTypeNull());
+      result = result && (hasLanguageId() == other.hasLanguageId());
+      if (hasLanguageId()) {
+        result = result && getLanguageId()
+            .equals(other.getLanguageId());
+      }
+      result = result && (getLanguageIdNull()
+          == other.getLanguageIdNull());
+      result = result && (hasSourceTemplateId() == other.hasSourceTemplateId());
+      if (hasSourceTemplateId()) {
+        result = result && getSourceTemplateId()
+            .equals(other.getSourceTemplateId());
+      }
+      result = result && (getSourceTemplateIdNull()
+          == other.getSourceTemplateIdNull());
+      result = result && (hasFrameName() == other.hasFrameName());
+      if (hasFrameName()) {
+        result = result && getFrameName()
+            .equals(other.getFrameName());
+      }
+      result = result && (getFrameNameNull()
+          == other.getFrameNameNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasParameter()) {
+        hash = (37 * hash) + PARAMETER_FIELD_NUMBER;
+        hash = (53 * hash) + getParameter().hashCode();
+      }
+      hash = (37 * hash) + PARAMETER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getParameterNull());
+      if (hasType()) {
+        hash = (37 * hash) + TYPE_FIELD_NUMBER;
+        hash = (53 * hash) + getType().hashCode();
+      }
+      hash = (37 * hash) + TYPE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTypeNull());
+      if (hasLanguageId()) {
+        hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getLanguageId().hashCode();
+      }
+      hash = (37 * hash) + LANGUAGE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLanguageIdNull());
+      if (hasSourceTemplateId()) {
+        hash = (37 * hash) + SOURCE_TEMPLATE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getSourceTemplateId().hashCode();
+      }
+      hash = (37 * hash) + SOURCE_TEMPLATE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSourceTemplateIdNull());
+      if (hasFrameName()) {
+        hash = (37 * hash) + FRAME_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getFrameName().hashCode();
+      }
+      hash = (37 * hash) + FRAME_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFrameNameNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -526,39 +628,39 @@ public final class ImGetTemplatesPu {
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -576,7 +678,7 @@ public final class ImGetTemplatesPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -584,7 +686,7 @@ public final class ImGetTemplatesPu {
      * Protobuf type {@code dstore.engine.im_GetTemplates_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetTemplates_Pu.Parameters)
         io.dstore.engine.procedures.ImGetTemplatesPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -592,7 +694,7 @@ public final class ImGetTemplatesPu {
         return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -605,12 +707,13 @@ public final class ImGetTemplatesPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -711,6 +814,32 @@ public final class ImGetTemplatesPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImGetTemplatesPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImGetTemplatesPu.Parameters)other);
@@ -779,7 +908,7 @@ public final class ImGetTemplatesPu {
       }
 
       private io.dstore.Values.stringValue parameter_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterBuilder_;
       /**
        * <code>optional .dstore.values.stringValue parameter = 1;</code>
@@ -881,11 +1010,11 @@ public final class ImGetTemplatesPu {
       /**
        * <code>optional .dstore.values.stringValue parameter = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getParameterFieldBuilder() {
         if (parameterBuilder_ == null) {
-          parameterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          parameterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getParameter(),
                   getParentForChildren(),
@@ -922,7 +1051,7 @@ public final class ImGetTemplatesPu {
       }
 
       private io.dstore.Values.stringValue type_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> typeBuilder_;
       /**
        * <code>optional .dstore.values.stringValue type = 2;</code>
@@ -1024,11 +1153,11 @@ public final class ImGetTemplatesPu {
       /**
        * <code>optional .dstore.values.stringValue type = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTypeFieldBuilder() {
         if (typeBuilder_ == null) {
-          typeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          typeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getType(),
                   getParentForChildren(),
@@ -1065,7 +1194,7 @@ public final class ImGetTemplatesPu {
       }
 
       private io.dstore.Values.integerValue languageId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue language_id = 3;</code>
@@ -1167,11 +1296,11 @@ public final class ImGetTemplatesPu {
       /**
        * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
-          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
@@ -1208,7 +1337,7 @@ public final class ImGetTemplatesPu {
       }
 
       private io.dstore.Values.integerValue sourceTemplateId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sourceTemplateIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue source_template_id = 4;</code>
@@ -1310,11 +1439,11 @@ public final class ImGetTemplatesPu {
       /**
        * <code>optional .dstore.values.integerValue source_template_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getSourceTemplateIdFieldBuilder() {
         if (sourceTemplateIdBuilder_ == null) {
-          sourceTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sourceTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getSourceTemplateId(),
                   getParentForChildren(),
@@ -1351,7 +1480,7 @@ public final class ImGetTemplatesPu {
       }
 
       private io.dstore.Values.stringValue frameName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> frameNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue frame_name = 5;</code>
@@ -1453,11 +1582,11 @@ public final class ImGetTemplatesPu {
       /**
        * <code>optional .dstore.values.stringValue frame_name = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFrameNameFieldBuilder() {
         if (frameNameBuilder_ == null) {
-          frameNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          frameNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFrameName(),
                   getParentForChildren(),
@@ -1641,11 +1770,11 @@ public final class ImGetTemplatesPu {
    * Protobuf type {@code dstore.engine.im_GetTemplates_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetTemplates_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1684,7 +1813,8 @@ public final class ImGetTemplatesPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1692,7 +1822,8 @@ public final class ImGetTemplatesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1700,7 +1831,8 @@ public final class ImGetTemplatesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1728,7 +1860,7 @@ public final class ImGetTemplatesPu {
       return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1948,11 +2080,11 @@ public final class ImGetTemplatesPu {
      * Protobuf type {@code dstore.engine.im_GetTemplates_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetTemplates_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2109,7 +2241,7 @@ public final class ImGetTemplatesPu {
         return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2476,6 +2608,108 @@ public final class ImGetTemplatesPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row other = (io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasDescription() == other.hasDescription());
+        if (hasDescription()) {
+          result = result && getDescription()
+              .equals(other.getDescription());
+        }
+        result = result && (hasFrameName() == other.hasFrameName());
+        if (hasFrameName()) {
+          result = result && getFrameName()
+              .equals(other.getFrameName());
+        }
+        result = result && (hasFileName() == other.hasFileName());
+        if (hasFileName()) {
+          result = result && getFileName()
+              .equals(other.getFileName());
+        }
+        result = result && (hasTreeNodeId() == other.hasTreeNodeId());
+        if (hasTreeNodeId()) {
+          result = result && getTreeNodeId()
+              .equals(other.getTreeNodeId());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasIsRealTimeTemplate() == other.hasIsRealTimeTemplate());
+        if (hasIsRealTimeTemplate()) {
+          result = result && getIsRealTimeTemplate()
+              .equals(other.getIsRealTimeTemplate());
+        }
+        result = result && (hasTemplateId() == other.hasTemplateId());
+        if (hasTemplateId()) {
+          result = result && getTemplateId()
+              .equals(other.getTemplateId());
+        }
+        result = result && (hasLanguageId() == other.hasLanguageId());
+        if (hasLanguageId()) {
+          result = result && getLanguageId()
+              .equals(other.getLanguageId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasDescription()) {
+          hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getDescription().hashCode();
+        }
+        if (hasFrameName()) {
+          hash = (37 * hash) + FRAME_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getFrameName().hashCode();
+        }
+        if (hasFileName()) {
+          hash = (37 * hash) + FILE_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getFileName().hashCode();
+        }
+        if (hasTreeNodeId()) {
+          hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTreeNodeId().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasIsRealTimeTemplate()) {
+          hash = (37 * hash) + IS_REAL_TIME_TEMPLATE_FIELD_NUMBER;
+          hash = (53 * hash) + getIsRealTimeTemplate().hashCode();
+        }
+        if (hasTemplateId()) {
+          hash = (37 * hash) + TEMPLATE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTemplateId().hashCode();
+        }
+        if (hasLanguageId()) {
+          hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getLanguageId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2499,39 +2733,39 @@ public final class ImGetTemplatesPu {
       }
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2549,7 +2783,7 @@ public final class ImGetTemplatesPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2557,7 +2791,7 @@ public final class ImGetTemplatesPu {
        * Protobuf type {@code dstore.engine.im_GetTemplates_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetTemplates_Pu.Response.Row)
           io.dstore.engine.procedures.ImGetTemplatesPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2565,7 +2799,7 @@ public final class ImGetTemplatesPu {
           return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2578,12 +2812,13 @@ public final class ImGetTemplatesPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2705,6 +2940,32 @@ public final class ImGetTemplatesPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row)other);
@@ -2796,7 +3057,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.stringValue description_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
@@ -2934,11 +3195,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
-            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
@@ -2949,7 +3210,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.stringValue frameName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> frameNameBuilder_;
         /**
          * <pre>
@@ -3087,11 +3348,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.stringValue frame_name = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFrameNameFieldBuilder() {
           if (frameNameBuilder_ == null) {
-            frameNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            frameNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFrameName(),
                     getParentForChildren(),
@@ -3102,7 +3363,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.stringValue fileName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fileNameBuilder_;
         /**
          * <pre>
@@ -3240,11 +3501,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.stringValue file_name = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFileNameFieldBuilder() {
           if (fileNameBuilder_ == null) {
-            fileNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fileNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFileName(),
                     getParentForChildren(),
@@ -3255,7 +3516,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.integerValue treeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
@@ -3393,11 +3654,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
-            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
@@ -3408,7 +3669,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -3546,11 +3807,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.integerValue node_id = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -3561,7 +3822,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.booleanValue isRealTimeTemplate_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isRealTimeTemplateBuilder_;
         /**
          * <pre>
@@ -3699,11 +3960,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.booleanValue is_real_time_template = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getIsRealTimeTemplateFieldBuilder() {
           if (isRealTimeTemplateBuilder_ == null) {
-            isRealTimeTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            isRealTimeTemplateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getIsRealTimeTemplate(),
                     getParentForChildren(),
@@ -3714,7 +3975,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.integerValue templateId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> templateIdBuilder_;
         /**
          * <pre>
@@ -3852,11 +4113,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.integerValue template_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTemplateIdFieldBuilder() {
           if (templateIdBuilder_ == null) {
-            templateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            templateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTemplateId(),
                     getParentForChildren(),
@@ -3867,7 +4128,7 @@ public final class ImGetTemplatesPu {
         }
 
         private io.dstore.Values.integerValue languageId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
         /**
          * <pre>
@@ -4005,11 +4266,11 @@ public final class ImGetTemplatesPu {
          *
          * <code>optional .dstore.values.integerValue language_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
-            languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
@@ -4237,6 +4498,50 @@ public final class ImGetTemplatesPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImGetTemplatesPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImGetTemplatesPu.Response other = (io.dstore.engine.procedures.ImGetTemplatesPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4260,39 +4565,39 @@ public final class ImGetTemplatesPu {
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetTemplatesPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4310,7 +4615,7 @@ public final class ImGetTemplatesPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4318,7 +4623,7 @@ public final class ImGetTemplatesPu {
      * Protobuf type {@code dstore.engine.im_GetTemplates_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetTemplates_Pu.Response)
         io.dstore.engine.procedures.ImGetTemplatesPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4326,7 +4631,7 @@ public final class ImGetTemplatesPu {
         return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetTemplatesPu.internal_static_dstore_engine_im_GetTemplates_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4339,12 +4644,13 @@ public final class ImGetTemplatesPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4424,6 +4730,32 @@ public final class ImGetTemplatesPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImGetTemplatesPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImGetTemplatesPu.Response)other);
@@ -4454,7 +4786,7 @@ public final class ImGetTemplatesPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4480,7 +4812,7 @@ public final class ImGetTemplatesPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4506,7 +4838,7 @@ public final class ImGetTemplatesPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4549,7 +4881,7 @@ public final class ImGetTemplatesPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4765,11 +5097,11 @@ public final class ImGetTemplatesPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4789,7 +5121,7 @@ public final class ImGetTemplatesPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5005,11 +5337,11 @@ public final class ImGetTemplatesPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5029,7 +5361,7 @@ public final class ImGetTemplatesPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row, io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row.Builder, io.dstore.engine.procedures.ImGetTemplatesPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5317,11 +5649,11 @@ public final class ImGetTemplatesPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row, io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row.Builder, io.dstore.engine.procedures.ImGetTemplatesPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row, io.dstore.engine.procedures.ImGetTemplatesPu.Response.Row.Builder, io.dstore.engine.procedures.ImGetTemplatesPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5383,17 +5715,17 @@ public final class ImGetTemplatesPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetTemplates_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetTemplates_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5456,19 +5788,19 @@ public final class ImGetTemplatesPu {
     internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetTemplates_Pu_Parameters_descriptor,
         new java.lang.String[] { "Parameter", "ParameterNull", "Type", "TypeNull", "LanguageId", "LanguageIdNull", "SourceTemplateId", "SourceTemplateIdNull", "FrameName", "FrameNameNull", });
     internal_static_dstore_engine_im_GetTemplates_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_GetTemplates_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetTemplates_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_im_GetTemplates_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetTemplates_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "FrameName", "FileName", "TreeNodeId", "NodeId", "IsRealTimeTemplate", "TemplateId", "LanguageId", });
     io.dstore.Values.getDescriptor();

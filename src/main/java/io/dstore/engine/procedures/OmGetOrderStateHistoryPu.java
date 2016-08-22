@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetOrderStateHistoryPu {
   private OmGetOrderStateHistoryPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetOrderStateHistory_Pu.Parameters)
@@ -70,11 +76,11 @@ public final class OmGetOrderStateHistoryPu {
    * Protobuf type {@code dstore.engine.om_GetOrderStateHistory_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderStateHistory_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -178,7 +184,7 @@ public final class OmGetOrderStateHistoryPu {
       return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -341,6 +347,74 @@ public final class OmGetOrderStateHistoryPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters other = (io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+      if (hasInformationTypeId()) {
+        result = result && getInformationTypeId()
+            .equals(other.getInformationTypeId());
+      }
+      result = result && (getInformationTypeIdNull()
+          == other.getInformationTypeIdNull());
+      result = result && (hasInformation() == other.hasInformation());
+      if (hasInformation()) {
+        result = result && getInformation()
+            .equals(other.getInformation());
+      }
+      result = result && (getInformationNull()
+          == other.getInformationNull());
+      result = result && (hasLanguageId() == other.hasLanguageId());
+      if (hasLanguageId()) {
+        result = result && getLanguageId()
+            .equals(other.getLanguageId());
+      }
+      result = result && (getLanguageIdNull()
+          == other.getLanguageIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasInformationTypeId()) {
+        hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getInformationTypeId().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationTypeIdNull());
+      if (hasInformation()) {
+        hash = (37 * hash) + INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getInformation().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationNull());
+      if (hasLanguageId()) {
+        hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getLanguageId().hashCode();
+      }
+      hash = (37 * hash) + LANGUAGE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLanguageIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -364,39 +438,39 @@ public final class OmGetOrderStateHistoryPu {
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -414,7 +488,7 @@ public final class OmGetOrderStateHistoryPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -422,7 +496,7 @@ public final class OmGetOrderStateHistoryPu {
      * Protobuf type {@code dstore.engine.om_GetOrderStateHistory_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetOrderStateHistory_Pu.Parameters)
         io.dstore.engine.procedures.OmGetOrderStateHistoryPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -430,7 +504,7 @@ public final class OmGetOrderStateHistoryPu {
         return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -443,12 +517,13 @@ public final class OmGetOrderStateHistoryPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -521,6 +596,32 @@ public final class OmGetOrderStateHistoryPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Parameters)other);
@@ -577,7 +678,7 @@ public final class OmGetOrderStateHistoryPu {
       }
 
       private io.dstore.Values.integerValue informationTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
@@ -679,11 +780,11 @@ public final class OmGetOrderStateHistoryPu {
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
-          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
@@ -720,7 +821,7 @@ public final class OmGetOrderStateHistoryPu {
       }
 
       private io.dstore.Values.stringValue information_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
       /**
        * <code>optional .dstore.values.stringValue information = 2;</code>
@@ -822,11 +923,11 @@ public final class OmGetOrderStateHistoryPu {
       /**
        * <code>optional .dstore.values.stringValue information = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInformationFieldBuilder() {
         if (informationBuilder_ == null) {
-          informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInformation(),
                   getParentForChildren(),
@@ -863,7 +964,7 @@ public final class OmGetOrderStateHistoryPu {
       }
 
       private io.dstore.Values.integerValue languageId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue language_id = 3;</code>
@@ -965,11 +1066,11 @@ public final class OmGetOrderStateHistoryPu {
       /**
        * <code>optional .dstore.values.integerValue language_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
-          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
@@ -1153,11 +1254,11 @@ public final class OmGetOrderStateHistoryPu {
    * Protobuf type {@code dstore.engine.om_GetOrderStateHistory_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderStateHistory_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1196,7 +1297,8 @@ public final class OmGetOrderStateHistoryPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1204,7 +1306,8 @@ public final class OmGetOrderStateHistoryPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1212,7 +1315,8 @@ public final class OmGetOrderStateHistoryPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1240,7 +1344,7 @@ public final class OmGetOrderStateHistoryPu {
       return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1585,11 +1689,11 @@ public final class OmGetOrderStateHistoryPu {
      * Protobuf type {@code dstore.engine.om_GetOrderStateHistory_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderStateHistory_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1811,7 +1915,7 @@ public final class OmGetOrderStateHistoryPu {
         return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2378,6 +2482,153 @@ public final class OmGetOrderStateHistoryPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row other = (io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasChangingDateAndTime() == other.hasChangingDateAndTime());
+        if (hasChangingDateAndTime()) {
+          result = result && getChangingDateAndTime()
+              .equals(other.getChangingDateAndTime());
+        }
+        result = result && (hasToOrderStateId() == other.hasToOrderStateId());
+        if (hasToOrderStateId()) {
+          result = result && getToOrderStateId()
+              .equals(other.getToOrderStateId());
+        }
+        result = result && (hasUserName() == other.hasUserName());
+        if (hasUserName()) {
+          result = result && getUserName()
+              .equals(other.getUserName());
+        }
+        result = result && (hasToOrderStateIdPublicDescr() == other.hasToOrderStateIdPublicDescr());
+        if (hasToOrderStateIdPublicDescr()) {
+          result = result && getToOrderStateIdPublicDescr()
+              .equals(other.getToOrderStateIdPublicDescr());
+        }
+        result = result && (hasOrderId() == other.hasOrderId());
+        if (hasOrderId()) {
+          result = result && getOrderId()
+              .equals(other.getOrderId());
+        }
+        result = result && (hasToOrderState() == other.hasToOrderState());
+        if (hasToOrderState()) {
+          result = result && getToOrderState()
+              .equals(other.getToOrderState());
+        }
+        result = result && (hasOrderContentId() == other.hasOrderContentId());
+        if (hasOrderContentId()) {
+          result = result && getOrderContentId()
+              .equals(other.getOrderContentId());
+        }
+        result = result && (hasFromOrderStatePublicDesc() == other.hasFromOrderStatePublicDesc());
+        if (hasFromOrderStatePublicDesc()) {
+          result = result && getFromOrderStatePublicDesc()
+              .equals(other.getFromOrderStatePublicDesc());
+        }
+        result = result && (hasFromOrderState() == other.hasFromOrderState());
+        if (hasFromOrderState()) {
+          result = result && getFromOrderState()
+              .equals(other.getFromOrderState());
+        }
+        result = result && (hasUserId() == other.hasUserId());
+        if (hasUserId()) {
+          result = result && getUserId()
+              .equals(other.getUserId());
+        }
+        result = result && (hasCompleteOrder() == other.hasCompleteOrder());
+        if (hasCompleteOrder()) {
+          result = result && getCompleteOrder()
+              .equals(other.getCompleteOrder());
+        }
+        result = result && (hasFromOrderStateId() == other.hasFromOrderStateId());
+        if (hasFromOrderStateId()) {
+          result = result && getFromOrderStateId()
+              .equals(other.getFromOrderStateId());
+        }
+        result = result && (hasChangingDateAndTimeChar() == other.hasChangingDateAndTimeChar());
+        if (hasChangingDateAndTimeChar()) {
+          result = result && getChangingDateAndTimeChar()
+              .equals(other.getChangingDateAndTimeChar());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasChangingDateAndTime()) {
+          hash = (37 * hash) + CHANGING_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getChangingDateAndTime().hashCode();
+        }
+        if (hasToOrderStateId()) {
+          hash = (37 * hash) + TO_ORDER_STATE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getToOrderStateId().hashCode();
+        }
+        if (hasUserName()) {
+          hash = (37 * hash) + USER_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getUserName().hashCode();
+        }
+        if (hasToOrderStateIdPublicDescr()) {
+          hash = (37 * hash) + TO_ORDER_STATE_ID_PUBLIC_DESCR_FIELD_NUMBER;
+          hash = (53 * hash) + getToOrderStateIdPublicDescr().hashCode();
+        }
+        if (hasOrderId()) {
+          hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderId().hashCode();
+        }
+        if (hasToOrderState()) {
+          hash = (37 * hash) + TO_ORDER_STATE_FIELD_NUMBER;
+          hash = (53 * hash) + getToOrderState().hashCode();
+        }
+        if (hasOrderContentId()) {
+          hash = (37 * hash) + ORDER_CONTENT_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderContentId().hashCode();
+        }
+        if (hasFromOrderStatePublicDesc()) {
+          hash = (37 * hash) + FROM_ORDER_STATE_PUBLIC_DESC_FIELD_NUMBER;
+          hash = (53 * hash) + getFromOrderStatePublicDesc().hashCode();
+        }
+        if (hasFromOrderState()) {
+          hash = (37 * hash) + FROM_ORDER_STATE_FIELD_NUMBER;
+          hash = (53 * hash) + getFromOrderState().hashCode();
+        }
+        if (hasUserId()) {
+          hash = (37 * hash) + USER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getUserId().hashCode();
+        }
+        if (hasCompleteOrder()) {
+          hash = (37 * hash) + COMPLETE_ORDER_FIELD_NUMBER;
+          hash = (53 * hash) + getCompleteOrder().hashCode();
+        }
+        if (hasFromOrderStateId()) {
+          hash = (37 * hash) + FROM_ORDER_STATE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getFromOrderStateId().hashCode();
+        }
+        if (hasChangingDateAndTimeChar()) {
+          hash = (37 * hash) + CHANGING_DATE_AND_TIME_CHAR_FIELD_NUMBER;
+          hash = (53 * hash) + getChangingDateAndTimeChar().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2401,39 +2652,39 @@ public final class OmGetOrderStateHistoryPu {
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2451,7 +2702,7 @@ public final class OmGetOrderStateHistoryPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2459,7 +2710,7 @@ public final class OmGetOrderStateHistoryPu {
        * Protobuf type {@code dstore.engine.om_GetOrderStateHistory_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetOrderStateHistory_Pu.Response.Row)
           io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2467,7 +2718,7 @@ public final class OmGetOrderStateHistoryPu {
           return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2480,12 +2731,13 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2662,6 +2914,32 @@ public final class OmGetOrderStateHistoryPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row)other);
@@ -2768,7 +3046,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.timestampValue changingDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> changingDateAndTimeBuilder_;
         /**
          * <pre>
@@ -2906,11 +3184,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.timestampValue changing_date_and_time = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getChangingDateAndTimeFieldBuilder() {
           if (changingDateAndTimeBuilder_ == null) {
-            changingDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            changingDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getChangingDateAndTime(),
                     getParentForChildren(),
@@ -2921,7 +3199,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.integerValue toOrderStateId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toOrderStateIdBuilder_;
         /**
          * <pre>
@@ -3059,11 +3337,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.integerValue to_order_state_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getToOrderStateIdFieldBuilder() {
           if (toOrderStateIdBuilder_ == null) {
-            toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getToOrderStateId(),
                     getParentForChildren(),
@@ -3074,7 +3352,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.stringValue userName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
         /**
          * <pre>
@@ -3212,11 +3490,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.stringValue user_name = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
-            userNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
@@ -3227,7 +3505,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.stringValue toOrderStateIdPublicDescr_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toOrderStateIdPublicDescrBuilder_;
         /**
          * <pre>
@@ -3365,11 +3643,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.stringValue to_order_state_id_public_descr = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getToOrderStateIdPublicDescrFieldBuilder() {
           if (toOrderStateIdPublicDescrBuilder_ == null) {
-            toOrderStateIdPublicDescrBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toOrderStateIdPublicDescrBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getToOrderStateIdPublicDescr(),
                     getParentForChildren(),
@@ -3380,7 +3658,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.integerValue orderId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
          * <pre>
@@ -3518,11 +3796,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.integerValue order_id = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOrderIdFieldBuilder() {
           if (orderIdBuilder_ == null) {
-            orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOrderId(),
                     getParentForChildren(),
@@ -3533,7 +3811,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.stringValue toOrderState_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toOrderStateBuilder_;
         /**
          * <pre>
@@ -3671,11 +3949,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.stringValue to_order_state = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getToOrderStateFieldBuilder() {
           if (toOrderStateBuilder_ == null) {
-            toOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            toOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getToOrderState(),
                     getParentForChildren(),
@@ -3686,7 +3964,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.integerValue orderContentId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderContentIdBuilder_;
         /**
          * <pre>
@@ -3824,11 +4102,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.integerValue order_content_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOrderContentIdFieldBuilder() {
           if (orderContentIdBuilder_ == null) {
-            orderContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOrderContentId(),
                     getParentForChildren(),
@@ -3839,7 +4117,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.stringValue fromOrderStatePublicDesc_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromOrderStatePublicDescBuilder_;
         /**
          * <pre>
@@ -3977,11 +4255,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.stringValue from_order_state_public_desc = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFromOrderStatePublicDescFieldBuilder() {
           if (fromOrderStatePublicDescBuilder_ == null) {
-            fromOrderStatePublicDescBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromOrderStatePublicDescBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFromOrderStatePublicDesc(),
                     getParentForChildren(),
@@ -3992,7 +4270,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.stringValue fromOrderState_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromOrderStateBuilder_;
         /**
          * <pre>
@@ -4130,11 +4408,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.stringValue from_order_state = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFromOrderStateFieldBuilder() {
           if (fromOrderStateBuilder_ == null) {
-            fromOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFromOrderState(),
                     getParentForChildren(),
@@ -4145,7 +4423,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.integerValue userId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
         /**
          * <pre>
@@ -4283,11 +4561,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.integerValue user_id = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
-            userIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
@@ -4298,7 +4576,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.booleanValue completeOrder_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> completeOrderBuilder_;
         /**
          * <pre>
@@ -4436,11 +4714,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.booleanValue complete_order = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getCompleteOrderFieldBuilder() {
           if (completeOrderBuilder_ == null) {
-            completeOrderBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            completeOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getCompleteOrder(),
                     getParentForChildren(),
@@ -4451,7 +4729,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.integerValue fromOrderStateId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromOrderStateIdBuilder_;
         /**
          * <pre>
@@ -4589,11 +4867,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.integerValue from_order_state_id = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getFromOrderStateIdFieldBuilder() {
           if (fromOrderStateIdBuilder_ == null) {
-            fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getFromOrderStateId(),
                     getParentForChildren(),
@@ -4604,7 +4882,7 @@ public final class OmGetOrderStateHistoryPu {
         }
 
         private io.dstore.Values.stringValue changingDateAndTimeChar_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> changingDateAndTimeCharBuilder_;
         /**
          * <pre>
@@ -4742,11 +5020,11 @@ public final class OmGetOrderStateHistoryPu {
          *
          * <code>optional .dstore.values.stringValue changing_date_and_time_char = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getChangingDateAndTimeCharFieldBuilder() {
           if (changingDateAndTimeCharBuilder_ == null) {
-            changingDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            changingDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getChangingDateAndTimeChar(),
                     getParentForChildren(),
@@ -4974,6 +5252,50 @@ public final class OmGetOrderStateHistoryPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response other = (io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4997,39 +5319,39 @@ public final class OmGetOrderStateHistoryPu {
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -5047,7 +5369,7 @@ public final class OmGetOrderStateHistoryPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -5055,7 +5377,7 @@ public final class OmGetOrderStateHistoryPu {
      * Protobuf type {@code dstore.engine.om_GetOrderStateHistory_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetOrderStateHistory_Pu.Response)
         io.dstore.engine.procedures.OmGetOrderStateHistoryPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -5063,7 +5385,7 @@ public final class OmGetOrderStateHistoryPu {
         return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetOrderStateHistoryPu.internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5076,12 +5398,13 @@ public final class OmGetOrderStateHistoryPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -5161,6 +5484,32 @@ public final class OmGetOrderStateHistoryPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response)other);
@@ -5191,7 +5540,7 @@ public final class OmGetOrderStateHistoryPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -5217,7 +5566,7 @@ public final class OmGetOrderStateHistoryPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -5243,7 +5592,7 @@ public final class OmGetOrderStateHistoryPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5286,7 +5635,7 @@ public final class OmGetOrderStateHistoryPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5502,11 +5851,11 @@ public final class OmGetOrderStateHistoryPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5526,7 +5875,7 @@ public final class OmGetOrderStateHistoryPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5742,11 +6091,11 @@ public final class OmGetOrderStateHistoryPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5766,7 +6115,7 @@ public final class OmGetOrderStateHistoryPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row, io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -6054,11 +6403,11 @@ public final class OmGetOrderStateHistoryPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row, io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row, io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrderStateHistoryPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -6120,17 +6469,17 @@ public final class OmGetOrderStateHistoryPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -6199,19 +6548,19 @@ public final class OmGetOrderStateHistoryPu {
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Parameters_descriptor,
         new java.lang.String[] { "InformationTypeId", "InformationTypeIdNull", "Information", "InformationNull", "LanguageId", "LanguageIdNull", });
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrderStateHistory_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ChangingDateAndTime", "ToOrderStateId", "UserName", "ToOrderStateIdPublicDescr", "OrderId", "ToOrderState", "OrderContentId", "FromOrderStatePublicDesc", "FromOrderState", "UserId", "CompleteOrder", "FromOrderStateId", "ChangingDateAndTimeChar", });
     io.dstore.Values.getDescriptor();

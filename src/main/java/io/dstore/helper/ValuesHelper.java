@@ -1,7 +1,7 @@
 package io.dstore.helper;
 
 import com.google.protobuf.ByteString;
-import com.google.protobuf.util.TimeUtil;
+import com.google.protobuf.util.Timestamps;
 import io.dstore.Values;
 
 import java.io.IOException;
@@ -39,7 +39,7 @@ public class ValuesHelper {
     }
 
     public static Values.timestampValue value(Date value) {
-        return Values.timestampValue.newBuilder().setValue(TimeUtil.createTimestampFromMillis(value.getTime())).build();
+        return Values.timestampValue.newBuilder().setValue(Timestamps.fromMillis(value.getTime())).build();
     }
 
     public static Values.bytesValue value(byte[] value) {
@@ -47,7 +47,7 @@ public class ValuesHelper {
     }
 
     public static Date toDate(Values.timestampValue value) {
-        return new Date(TimeUtil.toMillis(value.getValue()));
+        return new Date(Timestamps.toMillis(value.getValue()));
     }
 
     public static BigDecimal toBigDecimal(Values.decimalValue value) {

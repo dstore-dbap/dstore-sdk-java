@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class StGetDSSIndexTrendAd {
   private StGetDSSIndexTrendAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.st_GetDSS_Index_Trend_Ad.Parameters)
@@ -268,11 +274,11 @@ public final class StGetDSSIndexTrendAd {
    * Protobuf type {@code dstore.engine.st_GetDSS_Index_Trend_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -585,7 +591,7 @@ public final class StGetDSSIndexTrendAd {
       return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1232,6 +1238,228 @@ public final class StGetDSSIndexTrendAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters other = (io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasDomainTreeNodeId() == other.hasDomainTreeNodeId());
+      if (hasDomainTreeNodeId()) {
+        result = result && getDomainTreeNodeId()
+            .equals(other.getDomainTreeNodeId());
+      }
+      result = result && (getDomainTreeNodeIdNull()
+          == other.getDomainTreeNodeIdNull());
+      result = result && (hasIntervalls() == other.hasIntervalls());
+      if (hasIntervalls()) {
+        result = result && getIntervalls()
+            .equals(other.getIntervalls());
+      }
+      result = result && (getIntervallsNull()
+          == other.getIntervallsNull());
+      result = result && (hasMinutesPerIntervall() == other.hasMinutesPerIntervall());
+      if (hasMinutesPerIntervall()) {
+        result = result && getMinutesPerIntervall()
+            .equals(other.getMinutesPerIntervall());
+      }
+      result = result && (getMinutesPerIntervallNull()
+          == other.getMinutesPerIntervallNull());
+      result = result && (hasGroupByNodesOnLevel() == other.hasGroupByNodesOnLevel());
+      if (hasGroupByNodesOnLevel()) {
+        result = result && getGroupByNodesOnLevel()
+            .equals(other.getGroupByNodesOnLevel());
+      }
+      result = result && (getGroupByNodesOnLevelNull()
+          == other.getGroupByNodesOnLevelNull());
+      result = result && (hasIsLevelId() == other.hasIsLevelId());
+      if (hasIsLevelId()) {
+        result = result && getIsLevelId()
+            .equals(other.getIsLevelId());
+      }
+      result = result && (getIsLevelIdNull()
+          == other.getIsLevelIdNull());
+      result = result && (hasGroupByNodeCharacteristicId() == other.hasGroupByNodeCharacteristicId());
+      if (hasGroupByNodeCharacteristicId()) {
+        result = result && getGroupByNodeCharacteristicId()
+            .equals(other.getGroupByNodeCharacteristicId());
+      }
+      result = result && (getGroupByNodeCharacteristicIdNull()
+          == other.getGroupByNodeCharacteristicIdNull());
+      result = result && (hasOnlyValuesInOneId() == other.hasOnlyValuesInOneId());
+      if (hasOnlyValuesInOneId()) {
+        result = result && getOnlyValuesInOneId()
+            .equals(other.getOnlyValuesInOneId());
+      }
+      result = result && (getOnlyValuesInOneIdNull()
+          == other.getOnlyValuesInOneIdNull());
+      result = result && (hasIdsInOneIdAreTreeNodeIds() == other.hasIdsInOneIdAreTreeNodeIds());
+      if (hasIdsInOneIdAreTreeNodeIds()) {
+        result = result && getIdsInOneIdAreTreeNodeIds()
+            .equals(other.getIdsInOneIdAreTreeNodeIds());
+      }
+      result = result && (getIdsInOneIdAreTreeNodeIdsNull()
+          == other.getIdsInOneIdAreTreeNodeIdsNull());
+      result = result && (hasWeightViews() == other.hasWeightViews());
+      if (hasWeightViews()) {
+        result = result && getWeightViews()
+            .equals(other.getWeightViews());
+      }
+      result = result && (getWeightViewsNull()
+          == other.getWeightViewsNull());
+      result = result && (hasWeightBuyingInterest() == other.hasWeightBuyingInterest());
+      if (hasWeightBuyingInterest()) {
+        result = result && getWeightBuyingInterest()
+            .equals(other.getWeightBuyingInterest());
+      }
+      result = result && (getWeightBuyingInterestNull()
+          == other.getWeightBuyingInterestNull());
+      result = result && (hasWeightOrder() == other.hasWeightOrder());
+      if (hasWeightOrder()) {
+        result = result && getWeightOrder()
+            .equals(other.getWeightOrder());
+      }
+      result = result && (getWeightOrderNull()
+          == other.getWeightOrderNull());
+      result = result && (hasIncludeDeactivatedNodes() == other.hasIncludeDeactivatedNodes());
+      if (hasIncludeDeactivatedNodes()) {
+        result = result && getIncludeDeactivatedNodes()
+            .equals(other.getIncludeDeactivatedNodes());
+      }
+      result = result && (getIncludeDeactivatedNodesNull()
+          == other.getIncludeDeactivatedNodesNull());
+      result = result && (hasIncludeNodesWithoutTreeNodeId() == other.hasIncludeNodesWithoutTreeNodeId());
+      if (hasIncludeNodesWithoutTreeNodeId()) {
+        result = result && getIncludeNodesWithoutTreeNodeId()
+            .equals(other.getIncludeNodesWithoutTreeNodeId());
+      }
+      result = result && (getIncludeNodesWithoutTreeNodeIdNull()
+          == other.getIncludeNodesWithoutTreeNodeIdNull());
+      result = result && (hasOrderResultByIntervall() == other.hasOrderResultByIntervall());
+      if (hasOrderResultByIntervall()) {
+        result = result && getOrderResultByIntervall()
+            .equals(other.getOrderResultByIntervall());
+      }
+      result = result && (getOrderResultByIntervallNull()
+          == other.getOrderResultByIntervallNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasDomainTreeNodeId()) {
+        hash = (37 * hash) + DOMAIN_TREE_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getDomainTreeNodeId().hashCode();
+      }
+      hash = (37 * hash) + DOMAIN_TREE_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDomainTreeNodeIdNull());
+      if (hasIntervalls()) {
+        hash = (37 * hash) + INTERVALLS_FIELD_NUMBER;
+        hash = (53 * hash) + getIntervalls().hashCode();
+      }
+      hash = (37 * hash) + INTERVALLS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIntervallsNull());
+      if (hasMinutesPerIntervall()) {
+        hash = (37 * hash) + MINUTES_PER_INTERVALL_FIELD_NUMBER;
+        hash = (53 * hash) + getMinutesPerIntervall().hashCode();
+      }
+      hash = (37 * hash) + MINUTES_PER_INTERVALL_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMinutesPerIntervallNull());
+      if (hasGroupByNodesOnLevel()) {
+        hash = (37 * hash) + GROUP_BY_NODES_ON_LEVEL_FIELD_NUMBER;
+        hash = (53 * hash) + getGroupByNodesOnLevel().hashCode();
+      }
+      hash = (37 * hash) + GROUP_BY_NODES_ON_LEVEL_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGroupByNodesOnLevelNull());
+      if (hasIsLevelId()) {
+        hash = (37 * hash) + IS_LEVEL_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getIsLevelId().hashCode();
+      }
+      hash = (37 * hash) + IS_LEVEL_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsLevelIdNull());
+      if (hasGroupByNodeCharacteristicId()) {
+        hash = (37 * hash) + GROUP_BY_NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getGroupByNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + GROUP_BY_NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGroupByNodeCharacteristicIdNull());
+      if (hasOnlyValuesInOneId()) {
+        hash = (37 * hash) + ONLY_VALUES_IN_ONE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyValuesInOneId().hashCode();
+      }
+      hash = (37 * hash) + ONLY_VALUES_IN_ONE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyValuesInOneIdNull());
+      if (hasIdsInOneIdAreTreeNodeIds()) {
+        hash = (37 * hash) + IDS_IN_ONE_ID_ARE_TREE_NODE_IDS_FIELD_NUMBER;
+        hash = (53 * hash) + getIdsInOneIdAreTreeNodeIds().hashCode();
+      }
+      hash = (37 * hash) + IDS_IN_ONE_ID_ARE_TREE_NODE_IDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIdsInOneIdAreTreeNodeIdsNull());
+      if (hasWeightViews()) {
+        hash = (37 * hash) + WEIGHT_VIEWS_FIELD_NUMBER;
+        hash = (53 * hash) + getWeightViews().hashCode();
+      }
+      hash = (37 * hash) + WEIGHT_VIEWS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getWeightViewsNull());
+      if (hasWeightBuyingInterest()) {
+        hash = (37 * hash) + WEIGHT_BUYING_INTEREST_FIELD_NUMBER;
+        hash = (53 * hash) + getWeightBuyingInterest().hashCode();
+      }
+      hash = (37 * hash) + WEIGHT_BUYING_INTEREST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getWeightBuyingInterestNull());
+      if (hasWeightOrder()) {
+        hash = (37 * hash) + WEIGHT_ORDER_FIELD_NUMBER;
+        hash = (53 * hash) + getWeightOrder().hashCode();
+      }
+      hash = (37 * hash) + WEIGHT_ORDER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getWeightOrderNull());
+      if (hasIncludeDeactivatedNodes()) {
+        hash = (37 * hash) + INCLUDE_DEACTIVATED_NODES_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeDeactivatedNodes().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_DEACTIVATED_NODES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludeDeactivatedNodesNull());
+      if (hasIncludeNodesWithoutTreeNodeId()) {
+        hash = (37 * hash) + INCLUDE_NODES_WITHOUT_TREE_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeNodesWithoutTreeNodeId().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_NODES_WITHOUT_TREE_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludeNodesWithoutTreeNodeIdNull());
+      if (hasOrderResultByIntervall()) {
+        hash = (37 * hash) + ORDER_RESULT_BY_INTERVALL_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderResultByIntervall().hashCode();
+      }
+      hash = (37 * hash) + ORDER_RESULT_BY_INTERVALL_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderResultByIntervallNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1255,39 +1483,39 @@ public final class StGetDSSIndexTrendAd {
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1305,7 +1533,7 @@ public final class StGetDSSIndexTrendAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1313,7 +1541,7 @@ public final class StGetDSSIndexTrendAd {
      * Protobuf type {@code dstore.engine.st_GetDSS_Index_Trend_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Parameters)
         io.dstore.engine.procedures.StGetDSSIndexTrendAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1321,7 +1549,7 @@ public final class StGetDSSIndexTrendAd {
         return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1334,12 +1562,13 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1566,6 +1795,32 @@ public final class StGetDSSIndexTrendAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.StGetDSSIndexTrendAd.Parameters)other);
@@ -1688,7 +1943,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.integerValue domainTreeNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
@@ -1790,11 +2045,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.integerValue domain_tree_node_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDomainTreeNodeIdFieldBuilder() {
         if (domainTreeNodeIdBuilder_ == null) {
-          domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDomainTreeNodeId(),
                   getParentForChildren(),
@@ -1831,7 +2086,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.integerValue intervalls_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> intervallsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue intervalls = 2;</code>
@@ -1933,11 +2188,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.integerValue intervalls = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getIntervallsFieldBuilder() {
         if (intervallsBuilder_ == null) {
-          intervallsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          intervallsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getIntervalls(),
                   getParentForChildren(),
@@ -1974,7 +2229,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.integerValue minutesPerIntervall_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> minutesPerIntervallBuilder_;
       /**
        * <code>optional .dstore.values.integerValue minutes_per_intervall = 3;</code>
@@ -2076,11 +2331,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.integerValue minutes_per_intervall = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getMinutesPerIntervallFieldBuilder() {
         if (minutesPerIntervallBuilder_ == null) {
-          minutesPerIntervallBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          minutesPerIntervallBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getMinutesPerIntervall(),
                   getParentForChildren(),
@@ -2117,7 +2372,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.integerValue groupByNodesOnLevel_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupByNodesOnLevelBuilder_;
       /**
        * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
@@ -2219,11 +2474,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.integerValue group_by_nodes_on_level = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGroupByNodesOnLevelFieldBuilder() {
         if (groupByNodesOnLevelBuilder_ == null) {
-          groupByNodesOnLevelBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          groupByNodesOnLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGroupByNodesOnLevel(),
                   getParentForChildren(),
@@ -2260,7 +2515,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.booleanValue isLevelId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isLevelIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
@@ -2362,11 +2617,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.booleanValue is_level_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIsLevelIdFieldBuilder() {
         if (isLevelIdBuilder_ == null) {
-          isLevelIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          isLevelIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIsLevelId(),
                   getParentForChildren(),
@@ -2403,7 +2658,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.integerValue groupByNodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupByNodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
@@ -2505,11 +2760,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.integerValue group_by_node_characteristic_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGroupByNodeCharacteristicIdFieldBuilder() {
         if (groupByNodeCharacteristicIdBuilder_ == null) {
-          groupByNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          groupByNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGroupByNodeCharacteristicId(),
                   getParentForChildren(),
@@ -2546,7 +2801,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.booleanValue onlyValuesInOneId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyValuesInOneIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
@@ -2648,11 +2903,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.booleanValue only_values_in_one_id = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyValuesInOneIdFieldBuilder() {
         if (onlyValuesInOneIdBuilder_ == null) {
-          onlyValuesInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyValuesInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyValuesInOneId(),
                   getParentForChildren(),
@@ -2689,7 +2944,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.booleanValue idsInOneIdAreTreeNodeIds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> idsInOneIdAreTreeNodeIdsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
@@ -2791,11 +3046,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.booleanValue ids_in_one_id_are_tree_node_ids = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIdsInOneIdAreTreeNodeIdsFieldBuilder() {
         if (idsInOneIdAreTreeNodeIdsBuilder_ == null) {
-          idsInOneIdAreTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          idsInOneIdAreTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIdsInOneIdAreTreeNodeIds(),
                   getParentForChildren(),
@@ -2832,7 +3087,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.decimalValue weightViews_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightViewsBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue weight_views = 9;</code>
@@ -2934,11 +3189,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.decimalValue weight_views = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightViewsFieldBuilder() {
         if (weightViewsBuilder_ == null) {
-          weightViewsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          weightViewsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightViews(),
                   getParentForChildren(),
@@ -2975,7 +3230,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.decimalValue weightBuyingInterest_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightBuyingInterestBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue weight_buying_interest = 10;</code>
@@ -3077,11 +3332,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.decimalValue weight_buying_interest = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightBuyingInterestFieldBuilder() {
         if (weightBuyingInterestBuilder_ == null) {
-          weightBuyingInterestBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          weightBuyingInterestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightBuyingInterest(),
                   getParentForChildren(),
@@ -3118,7 +3373,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.decimalValue weightOrder_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> weightOrderBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue weight_order = 11;</code>
@@ -3220,11 +3475,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.decimalValue weight_order = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getWeightOrderFieldBuilder() {
         if (weightOrderBuilder_ == null) {
-          weightOrderBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          weightOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getWeightOrder(),
                   getParentForChildren(),
@@ -3261,7 +3516,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.booleanValue includeDeactivatedNodes_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeDeactivatedNodesBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 12;</code>
@@ -3363,11 +3618,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.booleanValue include_deactivated_nodes = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeDeactivatedNodesFieldBuilder() {
         if (includeDeactivatedNodesBuilder_ == null) {
-          includeDeactivatedNodesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includeDeactivatedNodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeDeactivatedNodes(),
                   getParentForChildren(),
@@ -3404,7 +3659,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.booleanValue includeNodesWithoutTreeNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeNodesWithoutTreeNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 13;</code>
@@ -3506,11 +3761,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.booleanValue include_nodes_without_tree_node_id = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeNodesWithoutTreeNodeIdFieldBuilder() {
         if (includeNodesWithoutTreeNodeIdBuilder_ == null) {
-          includeNodesWithoutTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includeNodesWithoutTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeNodesWithoutTreeNodeId(),
                   getParentForChildren(),
@@ -3547,7 +3802,7 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private io.dstore.Values.integerValue orderResultByIntervall_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderResultByIntervallBuilder_;
       /**
        * <code>optional .dstore.values.integerValue order_result_by_intervall = 14;</code>
@@ -3649,11 +3904,11 @@ public final class StGetDSSIndexTrendAd {
       /**
        * <code>optional .dstore.values.integerValue order_result_by_intervall = 14;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderResultByIntervallFieldBuilder() {
         if (orderResultByIntervallBuilder_ == null) {
-          orderResultByIntervallBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderResultByIntervallBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderResultByIntervall(),
                   getParentForChildren(),
@@ -3837,11 +4092,11 @@ public final class StGetDSSIndexTrendAd {
    * Protobuf type {@code dstore.engine.st_GetDSS_Index_Trend_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3880,7 +4135,8 @@ public final class StGetDSSIndexTrendAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3888,7 +4144,8 @@ public final class StGetDSSIndexTrendAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3896,7 +4153,8 @@ public final class StGetDSSIndexTrendAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3924,7 +4182,7 @@ public final class StGetDSSIndexTrendAd {
       return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -4144,11 +4402,11 @@ public final class StGetDSSIndexTrendAd {
      * Protobuf type {@code dstore.engine.st_GetDSS_Index_Trend_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4305,7 +4563,7 @@ public final class StGetDSSIndexTrendAd {
         return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4672,6 +4930,108 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row other = (io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasIntervallStart() == other.hasIntervallStart());
+        if (hasIntervallStart()) {
+          result = result && getIntervallStart()
+              .equals(other.getIntervallStart());
+        }
+        result = result && (hasOrders() == other.hasOrders());
+        if (hasOrders()) {
+          result = result && getOrders()
+              .equals(other.getOrders());
+        }
+        result = result && (hasVBOIndex() == other.hasVBOIndex());
+        if (hasVBOIndex()) {
+          result = result && getVBOIndex()
+              .equals(other.getVBOIndex());
+        }
+        result = result && (hasTrendOfId() == other.hasTrendOfId());
+        if (hasTrendOfId()) {
+          result = result && getTrendOfId()
+              .equals(other.getTrendOfId());
+        }
+        result = result && (hasViews() == other.hasViews());
+        if (hasViews()) {
+          result = result && getViews()
+              .equals(other.getViews());
+        }
+        result = result && (hasTrendOfDescription() == other.hasTrendOfDescription());
+        if (hasTrendOfDescription()) {
+          result = result && getTrendOfDescription()
+              .equals(other.getTrendOfDescription());
+        }
+        result = result && (hasIntervall() == other.hasIntervall());
+        if (hasIntervall()) {
+          result = result && getIntervall()
+              .equals(other.getIntervall());
+        }
+        result = result && (hasBuyingInterests() == other.hasBuyingInterests());
+        if (hasBuyingInterests()) {
+          result = result && getBuyingInterests()
+              .equals(other.getBuyingInterests());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasIntervallStart()) {
+          hash = (37 * hash) + INTERVALL_START_FIELD_NUMBER;
+          hash = (53 * hash) + getIntervallStart().hashCode();
+        }
+        if (hasOrders()) {
+          hash = (37 * hash) + ORDERS_FIELD_NUMBER;
+          hash = (53 * hash) + getOrders().hashCode();
+        }
+        if (hasVBOIndex()) {
+          hash = (37 * hash) + V_B_O_INDEX_FIELD_NUMBER;
+          hash = (53 * hash) + getVBOIndex().hashCode();
+        }
+        if (hasTrendOfId()) {
+          hash = (37 * hash) + TREND_OF_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTrendOfId().hashCode();
+        }
+        if (hasViews()) {
+          hash = (37 * hash) + VIEWS_FIELD_NUMBER;
+          hash = (53 * hash) + getViews().hashCode();
+        }
+        if (hasTrendOfDescription()) {
+          hash = (37 * hash) + TREND_OF_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getTrendOfDescription().hashCode();
+        }
+        if (hasIntervall()) {
+          hash = (37 * hash) + INTERVALL_FIELD_NUMBER;
+          hash = (53 * hash) + getIntervall().hashCode();
+        }
+        if (hasBuyingInterests()) {
+          hash = (37 * hash) + BUYING_INTERESTS_FIELD_NUMBER;
+          hash = (53 * hash) + getBuyingInterests().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4695,39 +5055,39 @@ public final class StGetDSSIndexTrendAd {
       }
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -4745,7 +5105,7 @@ public final class StGetDSSIndexTrendAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -4753,7 +5113,7 @@ public final class StGetDSSIndexTrendAd {
        * Protobuf type {@code dstore.engine.st_GetDSS_Index_Trend_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Response.Row)
           io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -4761,7 +5121,7 @@ public final class StGetDSSIndexTrendAd {
           return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -4774,12 +5134,13 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -4901,6 +5262,32 @@ public final class StGetDSSIndexTrendAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row)other);
@@ -4992,7 +5379,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.timestampValue intervallStart_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> intervallStartBuilder_;
         /**
          * <pre>
@@ -5130,11 +5517,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.timestampValue intervall_start = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getIntervallStartFieldBuilder() {
           if (intervallStartBuilder_ == null) {
-            intervallStartBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            intervallStartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getIntervallStart(),
                     getParentForChildren(),
@@ -5145,7 +5532,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.decimalValue orders_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> ordersBuilder_;
         /**
          * <pre>
@@ -5283,11 +5670,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.decimalValue orders = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getOrdersFieldBuilder() {
           if (ordersBuilder_ == null) {
-            ordersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            ordersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getOrders(),
                     getParentForChildren(),
@@ -5298,7 +5685,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.decimalValue vBOIndex_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> vBOIndexBuilder_;
         /**
          * <pre>
@@ -5436,11 +5823,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.decimalValue v_b_o_index = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getVBOIndexFieldBuilder() {
           if (vBOIndexBuilder_ == null) {
-            vBOIndexBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            vBOIndexBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getVBOIndex(),
                     getParentForChildren(),
@@ -5451,7 +5838,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.integerValue trendOfId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> trendOfIdBuilder_;
         /**
          * <pre>
@@ -5589,11 +5976,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.integerValue trend_of_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTrendOfIdFieldBuilder() {
           if (trendOfIdBuilder_ == null) {
-            trendOfIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            trendOfIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTrendOfId(),
                     getParentForChildren(),
@@ -5604,7 +5991,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.decimalValue views_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> viewsBuilder_;
         /**
          * <pre>
@@ -5742,11 +6129,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.decimalValue views = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getViewsFieldBuilder() {
           if (viewsBuilder_ == null) {
-            viewsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            viewsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getViews(),
                     getParentForChildren(),
@@ -5757,7 +6144,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.stringValue trendOfDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> trendOfDescriptionBuilder_;
         /**
          * <pre>
@@ -5895,11 +6282,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.stringValue trend_of_description = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTrendOfDescriptionFieldBuilder() {
           if (trendOfDescriptionBuilder_ == null) {
-            trendOfDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            trendOfDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTrendOfDescription(),
                     getParentForChildren(),
@@ -5910,7 +6297,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.integerValue intervall_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> intervallBuilder_;
         /**
          * <pre>
@@ -6048,11 +6435,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.integerValue intervall = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getIntervallFieldBuilder() {
           if (intervallBuilder_ == null) {
-            intervallBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            intervallBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getIntervall(),
                     getParentForChildren(),
@@ -6063,7 +6450,7 @@ public final class StGetDSSIndexTrendAd {
         }
 
         private io.dstore.Values.decimalValue buyingInterests_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> buyingInterestsBuilder_;
         /**
          * <pre>
@@ -6201,11 +6588,11 @@ public final class StGetDSSIndexTrendAd {
          *
          * <code>optional .dstore.values.decimalValue buying_interests = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getBuyingInterestsFieldBuilder() {
           if (buyingInterestsBuilder_ == null) {
-            buyingInterestsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            buyingInterestsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getBuyingInterests(),
                     getParentForChildren(),
@@ -6433,6 +6820,50 @@ public final class StGetDSSIndexTrendAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response other = (io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -6456,39 +6887,39 @@ public final class StGetDSSIndexTrendAd {
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -6506,7 +6937,7 @@ public final class StGetDSSIndexTrendAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -6514,7 +6945,7 @@ public final class StGetDSSIndexTrendAd {
      * Protobuf type {@code dstore.engine.st_GetDSS_Index_Trend_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Response)
         io.dstore.engine.procedures.StGetDSSIndexTrendAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -6522,7 +6953,7 @@ public final class StGetDSSIndexTrendAd {
         return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetDSSIndexTrendAd.internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -6535,12 +6966,13 @@ public final class StGetDSSIndexTrendAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -6620,6 +7052,32 @@ public final class StGetDSSIndexTrendAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response)other);
@@ -6650,7 +7108,7 @@ public final class StGetDSSIndexTrendAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -6676,7 +7134,7 @@ public final class StGetDSSIndexTrendAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -6702,7 +7160,7 @@ public final class StGetDSSIndexTrendAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -6745,7 +7203,7 @@ public final class StGetDSSIndexTrendAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -6961,11 +7419,11 @@ public final class StGetDSSIndexTrendAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -6985,7 +7443,7 @@ public final class StGetDSSIndexTrendAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -7201,11 +7659,11 @@ public final class StGetDSSIndexTrendAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -7225,7 +7683,7 @@ public final class StGetDSSIndexTrendAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row, io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -7513,11 +7971,11 @@ public final class StGetDSSIndexTrendAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row, io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row, io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.Row.Builder, io.dstore.engine.procedures.StGetDSSIndexTrendAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -7579,17 +8037,17 @@ public final class StGetDSSIndexTrendAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -7677,19 +8135,19 @@ public final class StGetDSSIndexTrendAd {
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Parameters_descriptor,
         new java.lang.String[] { "DomainTreeNodeId", "DomainTreeNodeIdNull", "Intervalls", "IntervallsNull", "MinutesPerIntervall", "MinutesPerIntervallNull", "GroupByNodesOnLevel", "GroupByNodesOnLevelNull", "IsLevelId", "IsLevelIdNull", "GroupByNodeCharacteristicId", "GroupByNodeCharacteristicIdNull", "OnlyValuesInOneId", "OnlyValuesInOneIdNull", "IdsInOneIdAreTreeNodeIds", "IdsInOneIdAreTreeNodeIdsNull", "WeightViews", "WeightViewsNull", "WeightBuyingInterest", "WeightBuyingInterestNull", "WeightOrder", "WeightOrderNull", "IncludeDeactivatedNodes", "IncludeDeactivatedNodesNull", "IncludeNodesWithoutTreeNodeId", "IncludeNodesWithoutTreeNodeIdNull", "OrderResultByIntervall", "OrderResultByIntervallNull", });
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetDSS_Index_Trend_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IntervallStart", "Orders", "VBOIndex", "TrendOfId", "Views", "TrendOfDescription", "Intervall", "BuyingInterests", });
     io.dstore.Values.getDescriptor();

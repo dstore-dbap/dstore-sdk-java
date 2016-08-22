@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiSearchSourceCodeAd {
   private MiSearchSourceCodeAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_SearchSourceCode_Ad.Parameters)
@@ -142,11 +148,11 @@ public final class MiSearchSourceCodeAd {
    * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchSourceCode_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class MiSearchSourceCodeAd {
       return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class MiSearchSourceCodeAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters other = (io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasSearchPattern() == other.hasSearchPattern());
+      if (hasSearchPattern()) {
+        result = result && getSearchPattern()
+            .equals(other.getSearchPattern());
+      }
+      result = result && (getSearchPatternNull()
+          == other.getSearchPatternNull());
+      result = result && (hasCaseSensitive() == other.hasCaseSensitive());
+      if (hasCaseSensitive()) {
+        result = result && getCaseSensitive()
+            .equals(other.getCaseSensitive());
+      }
+      result = result && (getCaseSensitiveNull()
+          == other.getCaseSensitiveNull());
+      result = result && (hasDoNotSearchInCommentPart() == other.hasDoNotSearchInCommentPart());
+      if (hasDoNotSearchInCommentPart()) {
+        result = result && getDoNotSearchInCommentPart()
+            .equals(other.getDoNotSearchInCommentPart());
+      }
+      result = result && (getDoNotSearchInCommentPartNull()
+          == other.getDoNotSearchInCommentPartNull());
+      result = result && (hasSearchOnlyThisObjectName() == other.hasSearchOnlyThisObjectName());
+      if (hasSearchOnlyThisObjectName()) {
+        result = result && getSearchOnlyThisObjectName()
+            .equals(other.getSearchOnlyThisObjectName());
+      }
+      result = result && (getSearchOnlyThisObjectNameNull()
+          == other.getSearchOnlyThisObjectNameNull());
+      result = result && (hasSearchOnlyObjectType() == other.hasSearchOnlyObjectType());
+      if (hasSearchOnlyObjectType()) {
+        result = result && getSearchOnlyObjectType()
+            .equals(other.getSearchOnlyObjectType());
+      }
+      result = result && (getSearchOnlyObjectTypeNull()
+          == other.getSearchOnlyObjectTypeNull());
+      result = result && (hasGetDistinctObjectNamesOnly() == other.hasGetDistinctObjectNamesOnly());
+      if (hasGetDistinctObjectNamesOnly()) {
+        result = result && getGetDistinctObjectNamesOnly()
+            .equals(other.getGetDistinctObjectNamesOnly());
+      }
+      result = result && (getGetDistinctObjectNamesOnlyNull()
+          == other.getGetDistinctObjectNamesOnlyNull());
+      result = result && (hasSearchObjectsWithNameLike() == other.hasSearchObjectsWithNameLike());
+      if (hasSearchObjectsWithNameLike()) {
+        result = result && getSearchObjectsWithNameLike()
+            .equals(other.getSearchObjectsWithNameLike());
+      }
+      result = result && (getSearchObjectsWithNameLikeNull()
+          == other.getSearchObjectsWithNameLikeNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasSearchPattern()) {
+        hash = (37 * hash) + SEARCH_PATTERN_FIELD_NUMBER;
+        hash = (53 * hash) + getSearchPattern().hashCode();
+      }
+      hash = (37 * hash) + SEARCH_PATTERN_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSearchPatternNull());
+      if (hasCaseSensitive()) {
+        hash = (37 * hash) + CASE_SENSITIVE_FIELD_NUMBER;
+        hash = (53 * hash) + getCaseSensitive().hashCode();
+      }
+      hash = (37 * hash) + CASE_SENSITIVE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCaseSensitiveNull());
+      if (hasDoNotSearchInCommentPart()) {
+        hash = (37 * hash) + DO_NOT_SEARCH_IN_COMMENT_PART_FIELD_NUMBER;
+        hash = (53 * hash) + getDoNotSearchInCommentPart().hashCode();
+      }
+      hash = (37 * hash) + DO_NOT_SEARCH_IN_COMMENT_PART_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDoNotSearchInCommentPartNull());
+      if (hasSearchOnlyThisObjectName()) {
+        hash = (37 * hash) + SEARCH_ONLY_THIS_OBJECT_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getSearchOnlyThisObjectName().hashCode();
+      }
+      hash = (37 * hash) + SEARCH_ONLY_THIS_OBJECT_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSearchOnlyThisObjectNameNull());
+      if (hasSearchOnlyObjectType()) {
+        hash = (37 * hash) + SEARCH_ONLY_OBJECT_TYPE_FIELD_NUMBER;
+        hash = (53 * hash) + getSearchOnlyObjectType().hashCode();
+      }
+      hash = (37 * hash) + SEARCH_ONLY_OBJECT_TYPE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSearchOnlyObjectTypeNull());
+      if (hasGetDistinctObjectNamesOnly()) {
+        hash = (37 * hash) + GET_DISTINCT_OBJECT_NAMES_ONLY_FIELD_NUMBER;
+        hash = (53 * hash) + getGetDistinctObjectNamesOnly().hashCode();
+      }
+      hash = (37 * hash) + GET_DISTINCT_OBJECT_NAMES_ONLY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetDistinctObjectNamesOnlyNull());
+      if (hasSearchObjectsWithNameLike()) {
+        hash = (37 * hash) + SEARCH_OBJECTS_WITH_NAME_LIKE_FIELD_NUMBER;
+        hash = (53 * hash) + getSearchObjectsWithNameLike().hashCode();
+      }
+      hash = (37 * hash) + SEARCH_OBJECTS_WITH_NAME_LIKE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSearchObjectsWithNameLikeNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class MiSearchSourceCodeAd {
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class MiSearchSourceCodeAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class MiSearchSourceCodeAd {
      * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_SearchSourceCode_Ad.Parameters)
         io.dstore.engine.procedures.MiSearchSourceCodeAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class MiSearchSourceCodeAd {
         return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class MiSearchSourceCodeAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class MiSearchSourceCodeAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiSearchSourceCodeAd.Parameters)other);
@@ -981,7 +1138,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.stringValue searchPattern_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchPatternBuilder_;
       /**
        * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
@@ -1083,11 +1240,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSearchPatternFieldBuilder() {
         if (searchPatternBuilder_ == null) {
-          searchPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          searchPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSearchPattern(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.booleanValue caseSensitive_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
@@ -1226,11 +1383,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
-          caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.integerValue doNotSearchInCommentPart_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> doNotSearchInCommentPartBuilder_;
       /**
        * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
@@ -1369,11 +1526,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDoNotSearchInCommentPartFieldBuilder() {
         if (doNotSearchInCommentPartBuilder_ == null) {
-          doNotSearchInCommentPartBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          doNotSearchInCommentPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDoNotSearchInCommentPart(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.stringValue searchOnlyThisObjectName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchOnlyThisObjectNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
@@ -1512,11 +1669,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSearchOnlyThisObjectNameFieldBuilder() {
         if (searchOnlyThisObjectNameBuilder_ == null) {
-          searchOnlyThisObjectNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          searchOnlyThisObjectNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSearchOnlyThisObjectName(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.stringValue searchOnlyObjectType_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchOnlyObjectTypeBuilder_;
       /**
        * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
@@ -1655,11 +1812,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSearchOnlyObjectTypeFieldBuilder() {
         if (searchOnlyObjectTypeBuilder_ == null) {
-          searchOnlyObjectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          searchOnlyObjectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSearchOnlyObjectType(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.booleanValue getDistinctObjectNamesOnly_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getDistinctObjectNamesOnlyBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
@@ -1798,11 +1955,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetDistinctObjectNamesOnlyFieldBuilder() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
-          getDistinctObjectNamesOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getDistinctObjectNamesOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetDistinctObjectNamesOnly(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class MiSearchSourceCodeAd {
       }
 
       private io.dstore.Values.stringValue searchObjectsWithNameLike_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchObjectsWithNameLikeBuilder_;
       /**
        * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
@@ -1941,11 +2098,11 @@ public final class MiSearchSourceCodeAd {
       /**
        * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSearchObjectsWithNameLikeFieldBuilder() {
         if (searchObjectsWithNameLikeBuilder_ == null) {
-          searchObjectsWithNameLikeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          searchObjectsWithNameLikeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSearchObjectsWithNameLike(),
                   getParentForChildren(),
@@ -2129,11 +2286,11 @@ public final class MiSearchSourceCodeAd {
    * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchSourceCode_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2172,7 +2329,8 @@ public final class MiSearchSourceCodeAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2180,7 +2338,8 @@ public final class MiSearchSourceCodeAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2188,7 +2347,8 @@ public final class MiSearchSourceCodeAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2216,7 +2376,7 @@ public final class MiSearchSourceCodeAd {
       return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2336,11 +2496,11 @@ public final class MiSearchSourceCodeAd {
      * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchSourceCode_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2445,7 +2605,7 @@ public final class MiSearchSourceCodeAd {
         return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2652,6 +2812,72 @@ public final class MiSearchSourceCodeAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row other = (io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasObjectType() == other.hasObjectType());
+        if (hasObjectType()) {
+          result = result && getObjectType()
+              .equals(other.getObjectType());
+        }
+        result = result && (hasCodeLineNumber() == other.hasCodeLineNumber());
+        if (hasCodeLineNumber()) {
+          result = result && getCodeLineNumber()
+              .equals(other.getCodeLineNumber());
+        }
+        result = result && (hasCodeLine() == other.hasCodeLine());
+        if (hasCodeLine()) {
+          result = result && getCodeLine()
+              .equals(other.getCodeLine());
+        }
+        result = result && (hasObjectName() == other.hasObjectName());
+        if (hasObjectName()) {
+          result = result && getObjectName()
+              .equals(other.getObjectName());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasObjectType()) {
+          hash = (37 * hash) + OBJECT_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getObjectType().hashCode();
+        }
+        if (hasCodeLineNumber()) {
+          hash = (37 * hash) + CODE_LINE_NUMBER_FIELD_NUMBER;
+          hash = (53 * hash) + getCodeLineNumber().hashCode();
+        }
+        if (hasCodeLine()) {
+          hash = (37 * hash) + CODE_LINE_FIELD_NUMBER;
+          hash = (53 * hash) + getCodeLine().hashCode();
+        }
+        if (hasObjectName()) {
+          hash = (37 * hash) + OBJECT_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getObjectName().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2675,39 +2901,39 @@ public final class MiSearchSourceCodeAd {
       }
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2725,7 +2951,7 @@ public final class MiSearchSourceCodeAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2733,7 +2959,7 @@ public final class MiSearchSourceCodeAd {
        * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_SearchSourceCode_Ad.Response.Row)
           io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2741,7 +2967,7 @@ public final class MiSearchSourceCodeAd {
           return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2754,12 +2980,13 @@ public final class MiSearchSourceCodeAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2837,6 +3064,32 @@ public final class MiSearchSourceCodeAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row)other);
@@ -2916,7 +3169,7 @@ public final class MiSearchSourceCodeAd {
         }
 
         private io.dstore.Values.stringValue objectType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectTypeBuilder_;
         /**
          * <pre>
@@ -3054,11 +3307,11 @@ public final class MiSearchSourceCodeAd {
          *
          * <code>optional .dstore.values.stringValue object_type = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getObjectTypeFieldBuilder() {
           if (objectTypeBuilder_ == null) {
-            objectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            objectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getObjectType(),
                     getParentForChildren(),
@@ -3069,7 +3322,7 @@ public final class MiSearchSourceCodeAd {
         }
 
         private io.dstore.Values.integerValue codeLineNumber_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
         /**
          * <pre>
@@ -3207,11 +3460,11 @@ public final class MiSearchSourceCodeAd {
          *
          * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCodeLineNumberFieldBuilder() {
           if (codeLineNumberBuilder_ == null) {
-            codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCodeLineNumber(),
                     getParentForChildren(),
@@ -3222,7 +3475,7 @@ public final class MiSearchSourceCodeAd {
         }
 
         private io.dstore.Values.stringValue codeLine_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
         /**
          * <pre>
@@ -3360,11 +3613,11 @@ public final class MiSearchSourceCodeAd {
          *
          * <code>optional .dstore.values.stringValue code_line = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCodeLineFieldBuilder() {
           if (codeLineBuilder_ == null) {
-            codeLineBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            codeLineBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCodeLine(),
                     getParentForChildren(),
@@ -3375,7 +3628,7 @@ public final class MiSearchSourceCodeAd {
         }
 
         private io.dstore.Values.stringValue objectName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
         /**
          * <pre>
@@ -3513,11 +3766,11 @@ public final class MiSearchSourceCodeAd {
          *
          * <code>optional .dstore.values.stringValue object_name = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getObjectNameFieldBuilder() {
           if (objectNameBuilder_ == null) {
-            objectNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            objectNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getObjectName(),
                     getParentForChildren(),
@@ -3745,6 +3998,50 @@ public final class MiSearchSourceCodeAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiSearchSourceCodeAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiSearchSourceCodeAd.Response other = (io.dstore.engine.procedures.MiSearchSourceCodeAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3768,39 +4065,39 @@ public final class MiSearchSourceCodeAd {
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiSearchSourceCodeAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3818,7 +4115,7 @@ public final class MiSearchSourceCodeAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3826,7 +4123,7 @@ public final class MiSearchSourceCodeAd {
      * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_SearchSourceCode_Ad.Response)
         io.dstore.engine.procedures.MiSearchSourceCodeAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3834,7 +4131,7 @@ public final class MiSearchSourceCodeAd {
         return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiSearchSourceCodeAd.internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3847,12 +4144,13 @@ public final class MiSearchSourceCodeAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3932,6 +4230,32 @@ public final class MiSearchSourceCodeAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiSearchSourceCodeAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiSearchSourceCodeAd.Response)other);
@@ -3962,7 +4286,7 @@ public final class MiSearchSourceCodeAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3988,7 +4312,7 @@ public final class MiSearchSourceCodeAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4014,7 +4338,7 @@ public final class MiSearchSourceCodeAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4057,7 +4381,7 @@ public final class MiSearchSourceCodeAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4273,11 +4597,11 @@ public final class MiSearchSourceCodeAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4297,7 +4621,7 @@ public final class MiSearchSourceCodeAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4513,11 +4837,11 @@ public final class MiSearchSourceCodeAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4537,7 +4861,7 @@ public final class MiSearchSourceCodeAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row, io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row.Builder, io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4825,11 +5149,11 @@ public final class MiSearchSourceCodeAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row, io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row.Builder, io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row, io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.Row.Builder, io.dstore.engine.procedures.MiSearchSourceCodeAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4891,17 +5215,17 @@ public final class MiSearchSourceCodeAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4967,19 +5291,19 @@ public final class MiSearchSourceCodeAd {
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_descriptor,
         new java.lang.String[] { "SearchPattern", "SearchPatternNull", "CaseSensitive", "CaseSensitiveNull", "DoNotSearchInCommentPart", "DoNotSearchInCommentPartNull", "SearchOnlyThisObjectName", "SearchOnlyThisObjectNameNull", "SearchOnlyObjectType", "SearchOnlyObjectTypeNull", "GetDistinctObjectNamesOnly", "GetDistinctObjectNamesOnlyNull", "SearchObjectsWithNameLike", "SearchObjectsWithNameLikeNull", });
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ObjectType", "CodeLineNumber", "CodeLine", "ObjectName", });
     io.dstore.Values.getDescriptor();

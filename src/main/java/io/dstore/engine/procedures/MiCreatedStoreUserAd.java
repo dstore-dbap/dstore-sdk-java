@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiCreatedStoreUserAd {
   private MiCreatedStoreUserAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_CreatedStoreUser_Ad.Parameters)
@@ -178,11 +184,11 @@ public final class MiCreatedStoreUserAd {
    * Protobuf type {@code dstore.engine.mi_CreatedStoreUser_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_CreatedStoreUser_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -400,7 +406,7 @@ public final class MiCreatedStoreUserAd {
       return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -827,6 +833,158 @@ public final class MiCreatedStoreUserAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters other = (io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasUserName() == other.hasUserName());
+      if (hasUserName()) {
+        result = result && getUserName()
+            .equals(other.getUserName());
+      }
+      result = result && (getUserNameNull()
+          == other.getUserNameNull());
+      result = result && (hasDBLogin() == other.hasDBLogin());
+      if (hasDBLogin()) {
+        result = result && getDBLogin()
+            .equals(other.getDBLogin());
+      }
+      result = result && (getDBLoginNull()
+          == other.getDBLoginNull());
+      result = result && (hasDBPassword() == other.hasDBPassword());
+      if (hasDBPassword()) {
+        result = result && getDBPassword()
+            .equals(other.getDBPassword());
+      }
+      result = result && (getDBPasswordNull()
+          == other.getDBPasswordNull());
+      result = result && (hasDBLoginDescription() == other.hasDBLoginDescription());
+      if (hasDBLoginDescription()) {
+        result = result && getDBLoginDescription()
+            .equals(other.getDBLoginDescription());
+      }
+      result = result && (getDBLoginDescriptionNull()
+          == other.getDBLoginDescriptionNull());
+      result = result && (hasDBGroupAdmin() == other.hasDBGroupAdmin());
+      if (hasDBGroupAdmin()) {
+        result = result && getDBGroupAdmin()
+            .equals(other.getDBGroupAdmin());
+      }
+      result = result && (getDBGroupAdminNull()
+          == other.getDBGroupAdminNull());
+      result = result && (hasUserGroupId() == other.hasUserGroupId());
+      if (hasUserGroupId()) {
+        result = result && getUserGroupId()
+            .equals(other.getUserGroupId());
+      }
+      result = result && (getUserGroupIdNull()
+          == other.getUserGroupIdNull());
+      result = result && (hasCreatePersonWithPassword() == other.hasCreatePersonWithPassword());
+      if (hasCreatePersonWithPassword()) {
+        result = result && getCreatePersonWithPassword()
+            .equals(other.getCreatePersonWithPassword());
+      }
+      result = result && (getCreatePersonWithPasswordNull()
+          == other.getCreatePersonWithPasswordNull());
+      result = result && (hasUserMayCreateNewUsers() == other.hasUserMayCreateNewUsers());
+      if (hasUserMayCreateNewUsers()) {
+        result = result && getUserMayCreateNewUsers()
+            .equals(other.getUserMayCreateNewUsers());
+      }
+      result = result && (getUserMayCreateNewUsersNull()
+          == other.getUserMayCreateNewUsersNull());
+      result = result && (hasAbortIfLoginAlreadyExists() == other.hasAbortIfLoginAlreadyExists());
+      if (hasAbortIfLoginAlreadyExists()) {
+        result = result && getAbortIfLoginAlreadyExists()
+            .equals(other.getAbortIfLoginAlreadyExists());
+      }
+      result = result && (getAbortIfLoginAlreadyExistsNull()
+          == other.getAbortIfLoginAlreadyExistsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasUserName()) {
+        hash = (37 * hash) + USER_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getUserName().hashCode();
+      }
+      hash = (37 * hash) + USER_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUserNameNull());
+      if (hasDBLogin()) {
+        hash = (37 * hash) + D_B_LOGIN_FIELD_NUMBER;
+        hash = (53 * hash) + getDBLogin().hashCode();
+      }
+      hash = (37 * hash) + D_B_LOGIN_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDBLoginNull());
+      if (hasDBPassword()) {
+        hash = (37 * hash) + D_B_PASSWORD_FIELD_NUMBER;
+        hash = (53 * hash) + getDBPassword().hashCode();
+      }
+      hash = (37 * hash) + D_B_PASSWORD_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDBPasswordNull());
+      if (hasDBLoginDescription()) {
+        hash = (37 * hash) + D_B_LOGIN_DESCRIPTION_FIELD_NUMBER;
+        hash = (53 * hash) + getDBLoginDescription().hashCode();
+      }
+      hash = (37 * hash) + D_B_LOGIN_DESCRIPTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDBLoginDescriptionNull());
+      if (hasDBGroupAdmin()) {
+        hash = (37 * hash) + D_B_GROUP_ADMIN_FIELD_NUMBER;
+        hash = (53 * hash) + getDBGroupAdmin().hashCode();
+      }
+      hash = (37 * hash) + D_B_GROUP_ADMIN_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDBGroupAdminNull());
+      if (hasUserGroupId()) {
+        hash = (37 * hash) + USER_GROUP_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUserGroupId().hashCode();
+      }
+      hash = (37 * hash) + USER_GROUP_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUserGroupIdNull());
+      if (hasCreatePersonWithPassword()) {
+        hash = (37 * hash) + CREATE_PERSON_WITH_PASSWORD_FIELD_NUMBER;
+        hash = (53 * hash) + getCreatePersonWithPassword().hashCode();
+      }
+      hash = (37 * hash) + CREATE_PERSON_WITH_PASSWORD_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCreatePersonWithPasswordNull());
+      if (hasUserMayCreateNewUsers()) {
+        hash = (37 * hash) + USER_MAY_CREATE_NEW_USERS_FIELD_NUMBER;
+        hash = (53 * hash) + getUserMayCreateNewUsers().hashCode();
+      }
+      hash = (37 * hash) + USER_MAY_CREATE_NEW_USERS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUserMayCreateNewUsersNull());
+      if (hasAbortIfLoginAlreadyExists()) {
+        hash = (37 * hash) + ABORT_IF_LOGIN_ALREADY_EXISTS_FIELD_NUMBER;
+        hash = (53 * hash) + getAbortIfLoginAlreadyExists().hashCode();
+      }
+      hash = (37 * hash) + ABORT_IF_LOGIN_ALREADY_EXISTS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAbortIfLoginAlreadyExistsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -850,39 +1008,39 @@ public final class MiCreatedStoreUserAd {
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -900,7 +1058,7 @@ public final class MiCreatedStoreUserAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -908,7 +1066,7 @@ public final class MiCreatedStoreUserAd {
      * Protobuf type {@code dstore.engine.mi_CreatedStoreUser_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_CreatedStoreUser_Ad.Parameters)
         io.dstore.engine.procedures.MiCreatedStoreUserAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -916,7 +1074,7 @@ public final class MiCreatedStoreUserAd {
         return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -929,12 +1087,13 @@ public final class MiCreatedStoreUserAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1091,6 +1250,32 @@ public final class MiCreatedStoreUserAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiCreatedStoreUserAd.Parameters)other);
@@ -1183,7 +1368,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.stringValue userName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue user_name = 1;</code>
@@ -1285,11 +1470,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.stringValue user_name = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUserNameFieldBuilder() {
         if (userNameBuilder_ == null) {
-          userNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUserName(),
                   getParentForChildren(),
@@ -1326,7 +1511,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.stringValue dBLogin_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBLoginBuilder_;
       /**
        * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
@@ -1428,11 +1613,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDBLoginFieldBuilder() {
         if (dBLoginBuilder_ == null) {
-          dBLoginBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dBLoginBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDBLogin(),
                   getParentForChildren(),
@@ -1469,7 +1654,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.stringValue dBPassword_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBPasswordBuilder_;
       /**
        * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
@@ -1571,11 +1756,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDBPasswordFieldBuilder() {
         if (dBPasswordBuilder_ == null) {
-          dBPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dBPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDBPassword(),
                   getParentForChildren(),
@@ -1612,7 +1797,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.stringValue dBLoginDescription_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBLoginDescriptionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
@@ -1714,11 +1899,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDBLoginDescriptionFieldBuilder() {
         if (dBLoginDescriptionBuilder_ == null) {
-          dBLoginDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dBLoginDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDBLoginDescription(),
                   getParentForChildren(),
@@ -1755,7 +1940,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.booleanValue dBGroupAdmin_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> dBGroupAdminBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
@@ -1857,11 +2042,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDBGroupAdminFieldBuilder() {
         if (dBGroupAdminBuilder_ == null) {
-          dBGroupAdminBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dBGroupAdminBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDBGroupAdmin(),
                   getParentForChildren(),
@@ -1898,7 +2083,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.integerValue userGroupId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
@@ -2000,11 +2185,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getUserGroupIdFieldBuilder() {
         if (userGroupIdBuilder_ == null) {
-          userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getUserGroupId(),
                   getParentForChildren(),
@@ -2041,7 +2226,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.stringValue createPersonWithPassword_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> createPersonWithPasswordBuilder_;
       /**
        * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
@@ -2143,11 +2328,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCreatePersonWithPasswordFieldBuilder() {
         if (createPersonWithPasswordBuilder_ == null) {
-          createPersonWithPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          createPersonWithPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCreatePersonWithPassword(),
                   getParentForChildren(),
@@ -2184,7 +2369,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.booleanValue userMayCreateNewUsers_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> userMayCreateNewUsersBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
@@ -2286,11 +2471,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getUserMayCreateNewUsersFieldBuilder() {
         if (userMayCreateNewUsersBuilder_ == null) {
-          userMayCreateNewUsersBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          userMayCreateNewUsersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getUserMayCreateNewUsers(),
                   getParentForChildren(),
@@ -2327,7 +2512,7 @@ public final class MiCreatedStoreUserAd {
       }
 
       private io.dstore.Values.booleanValue abortIfLoginAlreadyExists_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> abortIfLoginAlreadyExistsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
@@ -2429,11 +2614,11 @@ public final class MiCreatedStoreUserAd {
       /**
        * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAbortIfLoginAlreadyExistsFieldBuilder() {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
-          abortIfLoginAlreadyExistsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          abortIfLoginAlreadyExistsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAbortIfLoginAlreadyExists(),
                   getParentForChildren(),
@@ -2617,11 +2802,11 @@ public final class MiCreatedStoreUserAd {
    * Protobuf type {@code dstore.engine.mi_CreatedStoreUser_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_CreatedStoreUser_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2660,7 +2845,8 @@ public final class MiCreatedStoreUserAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2668,7 +2854,8 @@ public final class MiCreatedStoreUserAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2676,7 +2863,8 @@ public final class MiCreatedStoreUserAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2704,7 +2892,7 @@ public final class MiCreatedStoreUserAd {
       return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2724,11 +2912,11 @@ public final class MiCreatedStoreUserAd {
      * Protobuf type {@code dstore.engine.mi_CreatedStoreUser_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_CreatedStoreUser_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2781,7 +2969,7 @@ public final class MiCreatedStoreUserAd {
         return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2828,6 +3016,36 @@ public final class MiCreatedStoreUserAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row other = (io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2851,39 +3069,39 @@ public final class MiCreatedStoreUserAd {
       }
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2901,7 +3119,7 @@ public final class MiCreatedStoreUserAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2909,7 +3127,7 @@ public final class MiCreatedStoreUserAd {
        * Protobuf type {@code dstore.engine.mi_CreatedStoreUser_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_CreatedStoreUser_Ad.Response.Row)
           io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2917,7 +3135,7 @@ public final class MiCreatedStoreUserAd {
           return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2930,12 +3148,13 @@ public final class MiCreatedStoreUserAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2969,6 +3188,32 @@ public final class MiCreatedStoreUserAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row)other);
@@ -3253,6 +3498,50 @@ public final class MiCreatedStoreUserAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiCreatedStoreUserAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiCreatedStoreUserAd.Response other = (io.dstore.engine.procedures.MiCreatedStoreUserAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3276,39 +3565,39 @@ public final class MiCreatedStoreUserAd {
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiCreatedStoreUserAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3326,7 +3615,7 @@ public final class MiCreatedStoreUserAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3334,7 +3623,7 @@ public final class MiCreatedStoreUserAd {
      * Protobuf type {@code dstore.engine.mi_CreatedStoreUser_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_CreatedStoreUser_Ad.Response)
         io.dstore.engine.procedures.MiCreatedStoreUserAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3342,7 +3631,7 @@ public final class MiCreatedStoreUserAd {
         return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiCreatedStoreUserAd.internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3355,12 +3644,13 @@ public final class MiCreatedStoreUserAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3440,6 +3730,32 @@ public final class MiCreatedStoreUserAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiCreatedStoreUserAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiCreatedStoreUserAd.Response)other);
@@ -3470,7 +3786,7 @@ public final class MiCreatedStoreUserAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3496,7 +3812,7 @@ public final class MiCreatedStoreUserAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3522,7 +3838,7 @@ public final class MiCreatedStoreUserAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3565,7 +3881,7 @@ public final class MiCreatedStoreUserAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3781,11 +4097,11 @@ public final class MiCreatedStoreUserAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3805,7 +4121,7 @@ public final class MiCreatedStoreUserAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4021,11 +4337,11 @@ public final class MiCreatedStoreUserAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4045,7 +4361,7 @@ public final class MiCreatedStoreUserAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row, io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row.Builder, io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4333,11 +4649,11 @@ public final class MiCreatedStoreUserAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row, io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row.Builder, io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row, io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.Row.Builder, io.dstore.engine.procedures.MiCreatedStoreUserAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4399,17 +4715,17 @@ public final class MiCreatedStoreUserAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4473,19 +4789,19 @@ public final class MiCreatedStoreUserAd {
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_descriptor,
         new java.lang.String[] { "UserName", "UserNameNull", "DBLogin", "DBLoginNull", "DBPassword", "DBPasswordNull", "DBLoginDescription", "DBLoginDescriptionNull", "DBGroupAdmin", "DBGroupAdminNull", "UserGroupId", "UserGroupIdNull", "CreatePersonWithPassword", "CreatePersonWithPasswordNull", "UserMayCreateNewUsers", "UserMayCreateNewUsersNull", "AbortIfLoginAlreadyExists", "AbortIfLoginAlreadyExistsNull", });
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

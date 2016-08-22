@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class CoGetCommunityStatisticsAd {
   private CoGetCommunityStatisticsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.co_GetCommunityStatistics_Ad.Parameters)
@@ -106,11 +112,11 @@ public final class CoGetCommunityStatisticsAd {
    * Protobuf type {@code dstore.engine.co_GetCommunityStatistics_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetCommunityStatistics_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -252,7 +258,7 @@ public final class CoGetCommunityStatisticsAd {
       return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -503,6 +509,102 @@ public final class CoGetCommunityStatisticsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters other = (io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasCommunityId() == other.hasCommunityId());
+      if (hasCommunityId()) {
+        result = result && getCommunityId()
+            .equals(other.getCommunityId());
+      }
+      result = result && (getCommunityIdNull()
+          == other.getCommunityIdNull());
+      result = result && (hasStatisticInformationIdList() == other.hasStatisticInformationIdList());
+      if (hasStatisticInformationIdList()) {
+        result = result && getStatisticInformationIdList()
+            .equals(other.getStatisticInformationIdList());
+      }
+      result = result && (getStatisticInformationIdListNull()
+          == other.getStatisticInformationIdListNull());
+      result = result && (hasFromDate() == other.hasFromDate());
+      if (hasFromDate()) {
+        result = result && getFromDate()
+            .equals(other.getFromDate());
+      }
+      result = result && (getFromDateNull()
+          == other.getFromDateNull());
+      result = result && (hasToDate() == other.hasToDate());
+      if (hasToDate()) {
+        result = result && getToDate()
+            .equals(other.getToDate());
+      }
+      result = result && (getToDateNull()
+          == other.getToDateNull());
+      result = result && (hasCalculateSum() == other.hasCalculateSum());
+      if (hasCalculateSum()) {
+        result = result && getCalculateSum()
+            .equals(other.getCalculateSum());
+      }
+      result = result && (getCalculateSumNull()
+          == other.getCalculateSumNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasCommunityId()) {
+        hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCommunityId().hashCode();
+      }
+      hash = (37 * hash) + COMMUNITY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCommunityIdNull());
+      if (hasStatisticInformationIdList()) {
+        hash = (37 * hash) + STATISTIC_INFORMATION_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getStatisticInformationIdList().hashCode();
+      }
+      hash = (37 * hash) + STATISTIC_INFORMATION_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getStatisticInformationIdListNull());
+      if (hasFromDate()) {
+        hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromDate().hashCode();
+      }
+      hash = (37 * hash) + FROM_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromDateNull());
+      if (hasToDate()) {
+        hash = (37 * hash) + TO_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getToDate().hashCode();
+      }
+      hash = (37 * hash) + TO_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToDateNull());
+      if (hasCalculateSum()) {
+        hash = (37 * hash) + CALCULATE_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getCalculateSum().hashCode();
+      }
+      hash = (37 * hash) + CALCULATE_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCalculateSumNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -526,39 +628,39 @@ public final class CoGetCommunityStatisticsAd {
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -576,7 +678,7 @@ public final class CoGetCommunityStatisticsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -584,7 +686,7 @@ public final class CoGetCommunityStatisticsAd {
      * Protobuf type {@code dstore.engine.co_GetCommunityStatistics_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetCommunityStatistics_Ad.Parameters)
         io.dstore.engine.procedures.CoGetCommunityStatisticsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -592,7 +694,7 @@ public final class CoGetCommunityStatisticsAd {
         return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -605,12 +707,13 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -711,6 +814,32 @@ public final class CoGetCommunityStatisticsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Parameters)other);
@@ -779,7 +908,7 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private io.dstore.Values.integerValue communityId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue community_id = 1;</code>
@@ -881,11 +1010,11 @@ public final class CoGetCommunityStatisticsAd {
       /**
        * <code>optional .dstore.values.integerValue community_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
-          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
@@ -922,7 +1051,7 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private io.dstore.Values.stringValue statisticInformationIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statisticInformationIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue statistic_information_id_list = 2;</code>
@@ -1024,11 +1153,11 @@ public final class CoGetCommunityStatisticsAd {
       /**
        * <code>optional .dstore.values.stringValue statistic_information_id_list = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getStatisticInformationIdListFieldBuilder() {
         if (statisticInformationIdListBuilder_ == null) {
-          statisticInformationIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          statisticInformationIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getStatisticInformationIdList(),
                   getParentForChildren(),
@@ -1065,7 +1194,7 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private io.dstore.Values.timestampValue fromDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_date = 3;</code>
@@ -1167,11 +1296,11 @@ public final class CoGetCommunityStatisticsAd {
       /**
        * <code>optional .dstore.values.timestampValue from_date = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
-          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
@@ -1208,7 +1337,7 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private io.dstore.Values.timestampValue toDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_date = 4;</code>
@@ -1310,11 +1439,11 @@ public final class CoGetCommunityStatisticsAd {
       /**
        * <code>optional .dstore.values.timestampValue to_date = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
-          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
@@ -1351,7 +1480,7 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private io.dstore.Values.booleanValue calculateSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> calculateSumBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue calculate_sum = 5;</code>
@@ -1453,11 +1582,11 @@ public final class CoGetCommunityStatisticsAd {
       /**
        * <code>optional .dstore.values.booleanValue calculate_sum = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCalculateSumFieldBuilder() {
         if (calculateSumBuilder_ == null) {
-          calculateSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          calculateSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCalculateSum(),
                   getParentForChildren(),
@@ -1641,11 +1770,11 @@ public final class CoGetCommunityStatisticsAd {
    * Protobuf type {@code dstore.engine.co_GetCommunityStatistics_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetCommunityStatistics_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1684,7 +1813,8 @@ public final class CoGetCommunityStatisticsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1692,7 +1822,8 @@ public final class CoGetCommunityStatisticsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1700,7 +1831,8 @@ public final class CoGetCommunityStatisticsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1728,7 +1860,7 @@ public final class CoGetCommunityStatisticsAd {
       return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1948,11 +2080,11 @@ public final class CoGetCommunityStatisticsAd {
      * Protobuf type {@code dstore.engine.co_GetCommunityStatistics_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.co_GetCommunityStatistics_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2109,7 +2241,7 @@ public final class CoGetCommunityStatisticsAd {
         return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2476,6 +2608,108 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row other = (io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasDescription() == other.hasDescription());
+        if (hasDescription()) {
+          result = result && getDescription()
+              .equals(other.getDescription());
+        }
+        result = result && (hasCommunityId() == other.hasCommunityId());
+        if (hasCommunityId()) {
+          result = result && getCommunityId()
+              .equals(other.getCommunityId());
+        }
+        result = result && (hasIsPublic() == other.hasIsPublic());
+        if (hasIsPublic()) {
+          result = result && getIsPublic()
+              .equals(other.getIsPublic());
+        }
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (hasCommunityName() == other.hasCommunityName());
+        if (hasCommunityName()) {
+          result = result && getCommunityName()
+              .equals(other.getCommunityName());
+        }
+        result = result && (hasStatisticInformationId() == other.hasStatisticInformationId());
+        if (hasStatisticInformationId()) {
+          result = result && getStatisticInformationId()
+              .equals(other.getStatisticInformationId());
+        }
+        result = result && (hasStatisticInformation() == other.hasStatisticInformation());
+        if (hasStatisticInformation()) {
+          result = result && getStatisticInformation()
+              .equals(other.getStatisticInformation());
+        }
+        result = result && (hasDay() == other.hasDay());
+        if (hasDay()) {
+          result = result && getDay()
+              .equals(other.getDay());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasDescription()) {
+          hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getDescription().hashCode();
+        }
+        if (hasCommunityId()) {
+          hash = (37 * hash) + COMMUNITY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCommunityId().hashCode();
+        }
+        if (hasIsPublic()) {
+          hash = (37 * hash) + IS_PUBLIC_FIELD_NUMBER;
+          hash = (53 * hash) + getIsPublic().hashCode();
+        }
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        if (hasCommunityName()) {
+          hash = (37 * hash) + COMMUNITY_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getCommunityName().hashCode();
+        }
+        if (hasStatisticInformationId()) {
+          hash = (37 * hash) + STATISTIC_INFORMATION_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getStatisticInformationId().hashCode();
+        }
+        if (hasStatisticInformation()) {
+          hash = (37 * hash) + STATISTIC_INFORMATION_FIELD_NUMBER;
+          hash = (53 * hash) + getStatisticInformation().hashCode();
+        }
+        if (hasDay()) {
+          hash = (37 * hash) + DAY_FIELD_NUMBER;
+          hash = (53 * hash) + getDay().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2499,39 +2733,39 @@ public final class CoGetCommunityStatisticsAd {
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2549,7 +2783,7 @@ public final class CoGetCommunityStatisticsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2557,7 +2791,7 @@ public final class CoGetCommunityStatisticsAd {
        * Protobuf type {@code dstore.engine.co_GetCommunityStatistics_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetCommunityStatistics_Ad.Response.Row)
           io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2565,7 +2799,7 @@ public final class CoGetCommunityStatisticsAd {
           return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2578,12 +2812,13 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2705,6 +2940,32 @@ public final class CoGetCommunityStatisticsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row)other);
@@ -2796,7 +3057,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.stringValue description_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
@@ -2934,11 +3195,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
-            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
@@ -2949,7 +3210,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.integerValue communityId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
         /**
          * <pre>
@@ -3087,11 +3348,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.integerValue community_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCommunityIdFieldBuilder() {
           if (communityIdBuilder_ == null) {
-            communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCommunityId(),
                     getParentForChildren(),
@@ -3102,7 +3363,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.booleanValue isPublic_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isPublicBuilder_;
         /**
          * <pre>
@@ -3240,11 +3501,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.booleanValue is_public = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getIsPublicFieldBuilder() {
           if (isPublicBuilder_ == null) {
-            isPublicBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            isPublicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getIsPublic(),
                     getParentForChildren(),
@@ -3255,7 +3516,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.decimalValue value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
         /**
          * <pre>
@@ -3393,11 +3654,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.decimalValue value = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -3408,7 +3669,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.stringValue communityName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityNameBuilder_;
         /**
          * <pre>
@@ -3546,11 +3807,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.stringValue community_name = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCommunityNameFieldBuilder() {
           if (communityNameBuilder_ == null) {
-            communityNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            communityNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCommunityName(),
                     getParentForChildren(),
@@ -3561,7 +3822,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.integerValue statisticInformationId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statisticInformationIdBuilder_;
         /**
          * <pre>
@@ -3699,11 +3960,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.integerValue statistic_information_id = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getStatisticInformationIdFieldBuilder() {
           if (statisticInformationIdBuilder_ == null) {
-            statisticInformationIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            statisticInformationIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getStatisticInformationId(),
                     getParentForChildren(),
@@ -3714,7 +3975,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.stringValue statisticInformation_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statisticInformationBuilder_;
         /**
          * <pre>
@@ -3852,11 +4113,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.stringValue statistic_information = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getStatisticInformationFieldBuilder() {
           if (statisticInformationBuilder_ == null) {
-            statisticInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            statisticInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getStatisticInformation(),
                     getParentForChildren(),
@@ -3867,7 +4128,7 @@ public final class CoGetCommunityStatisticsAd {
         }
 
         private io.dstore.Values.timestampValue day_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dayBuilder_;
         /**
          * <pre>
@@ -4005,11 +4266,11 @@ public final class CoGetCommunityStatisticsAd {
          *
          * <code>optional .dstore.values.timestampValue day = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getDayFieldBuilder() {
           if (dayBuilder_ == null) {
-            dayBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            dayBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getDay(),
                     getParentForChildren(),
@@ -4237,6 +4498,50 @@ public final class CoGetCommunityStatisticsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response other = (io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4260,39 +4565,39 @@ public final class CoGetCommunityStatisticsAd {
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4310,7 +4615,7 @@ public final class CoGetCommunityStatisticsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4318,7 +4623,7 @@ public final class CoGetCommunityStatisticsAd {
      * Protobuf type {@code dstore.engine.co_GetCommunityStatistics_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.co_GetCommunityStatistics_Ad.Response)
         io.dstore.engine.procedures.CoGetCommunityStatisticsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4326,7 +4631,7 @@ public final class CoGetCommunityStatisticsAd {
         return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.CoGetCommunityStatisticsAd.internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4339,12 +4644,13 @@ public final class CoGetCommunityStatisticsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4424,6 +4730,32 @@ public final class CoGetCommunityStatisticsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response)other);
@@ -4454,7 +4786,7 @@ public final class CoGetCommunityStatisticsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4480,7 +4812,7 @@ public final class CoGetCommunityStatisticsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4506,7 +4838,7 @@ public final class CoGetCommunityStatisticsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4549,7 +4881,7 @@ public final class CoGetCommunityStatisticsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4765,11 +5097,11 @@ public final class CoGetCommunityStatisticsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4789,7 +5121,7 @@ public final class CoGetCommunityStatisticsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5005,11 +5337,11 @@ public final class CoGetCommunityStatisticsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5029,7 +5361,7 @@ public final class CoGetCommunityStatisticsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5317,11 +5649,11 @@ public final class CoGetCommunityStatisticsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.Row.Builder, io.dstore.engine.procedures.CoGetCommunityStatisticsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5383,17 +5715,17 @@ public final class CoGetCommunityStatisticsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5458,19 +5790,19 @@ public final class CoGetCommunityStatisticsAd {
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Parameters_descriptor,
         new java.lang.String[] { "CommunityId", "CommunityIdNull", "StatisticInformationIdList", "StatisticInformationIdListNull", "FromDate", "FromDateNull", "ToDate", "ToDateNull", "CalculateSum", "CalculateSumNull", });
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetCommunityStatistics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "CommunityId", "IsPublic", "Value", "CommunityName", "StatisticInformationId", "StatisticInformation", "Day", });
     io.dstore.Values.getDescriptor();

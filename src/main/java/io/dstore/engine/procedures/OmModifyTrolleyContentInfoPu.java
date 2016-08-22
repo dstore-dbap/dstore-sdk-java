@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmModifyTrolleyContentInfoPu {
   private OmModifyTrolleyContentInfoPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Parameters)
@@ -160,11 +166,11 @@ public final class OmModifyTrolleyContentInfoPu {
    * Protobuf type {@code dstore.engine.om_ModifyTrolleyContentInfo_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -363,7 +369,7 @@ public final class OmModifyTrolleyContentInfoPu {
       return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -746,6 +752,144 @@ public final class OmModifyTrolleyContentInfoPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters other = (io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasNestingLevelForInputData() == other.hasNestingLevelForInputData());
+      if (hasNestingLevelForInputData()) {
+        result = result && getNestingLevelForInputData()
+            .equals(other.getNestingLevelForInputData());
+      }
+      result = result && (getNestingLevelForInputDataNull()
+          == other.getNestingLevelForInputDataNull());
+      result = result && (hasChangeAllOrNothing() == other.hasChangeAllOrNothing());
+      if (hasChangeAllOrNothing()) {
+        result = result && getChangeAllOrNothing()
+            .equals(other.getChangeAllOrNothing());
+      }
+      result = result && (getChangeAllOrNothingNull()
+          == other.getChangeAllOrNothingNull());
+      result = result && (hasOnlyNewData() == other.hasOnlyNewData());
+      if (hasOnlyNewData()) {
+        result = result && getOnlyNewData()
+            .equals(other.getOnlyNewData());
+      }
+      result = result && (getOnlyNewDataNull()
+          == other.getOnlyNewDataNull());
+      result = result && (hasCountry() == other.hasCountry());
+      if (hasCountry()) {
+        result = result && getCountry()
+            .equals(other.getCountry());
+      }
+      result = result && (getCountryNull()
+          == other.getCountryNull());
+      result = result && (hasHTreeNodeId() == other.hasHTreeNodeId());
+      if (hasHTreeNodeId()) {
+        result = result && getHTreeNodeId()
+            .equals(other.getHTreeNodeId());
+      }
+      result = result && (getHTreeNodeIdNull()
+          == other.getHTreeNodeIdNull());
+      result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+      if (hasInformationTypeId()) {
+        result = result && getInformationTypeId()
+            .equals(other.getInformationTypeId());
+      }
+      result = result && (getInformationTypeIdNull()
+          == other.getInformationTypeIdNull());
+      result = result && (hasInformation() == other.hasInformation());
+      if (hasInformation()) {
+        result = result && getInformation()
+            .equals(other.getInformation());
+      }
+      result = result && (getInformationNull()
+          == other.getInformationNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasNestingLevelForInputData()) {
+        hash = (37 * hash) + NESTING_LEVEL_FOR_INPUT_DATA_FIELD_NUMBER;
+        hash = (53 * hash) + getNestingLevelForInputData().hashCode();
+      }
+      hash = (37 * hash) + NESTING_LEVEL_FOR_INPUT_DATA_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNestingLevelForInputDataNull());
+      if (hasChangeAllOrNothing()) {
+        hash = (37 * hash) + CHANGE_ALL_OR_NOTHING_FIELD_NUMBER;
+        hash = (53 * hash) + getChangeAllOrNothing().hashCode();
+      }
+      hash = (37 * hash) + CHANGE_ALL_OR_NOTHING_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getChangeAllOrNothingNull());
+      if (hasOnlyNewData()) {
+        hash = (37 * hash) + ONLY_NEW_DATA_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyNewData().hashCode();
+      }
+      hash = (37 * hash) + ONLY_NEW_DATA_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyNewDataNull());
+      if (hasCountry()) {
+        hash = (37 * hash) + COUNTRY_FIELD_NUMBER;
+        hash = (53 * hash) + getCountry().hashCode();
+      }
+      hash = (37 * hash) + COUNTRY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCountryNull());
+      if (hasHTreeNodeId()) {
+        hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getHTreeNodeId().hashCode();
+      }
+      hash = (37 * hash) + H_TREE_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getHTreeNodeIdNull());
+      if (hasInformationTypeId()) {
+        hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getInformationTypeId().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationTypeIdNull());
+      if (hasInformation()) {
+        hash = (37 * hash) + INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getInformation().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -769,39 +913,39 @@ public final class OmModifyTrolleyContentInfoPu {
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -819,7 +963,7 @@ public final class OmModifyTrolleyContentInfoPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -827,7 +971,7 @@ public final class OmModifyTrolleyContentInfoPu {
      * Protobuf type {@code dstore.engine.om_ModifyTrolleyContentInfo_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Parameters)
         io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -835,7 +979,7 @@ public final class OmModifyTrolleyContentInfoPu {
         return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -848,12 +992,13 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -996,6 +1141,32 @@ public final class OmModifyTrolleyContentInfoPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Parameters)other);
@@ -1082,7 +1253,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
@@ -1184,11 +1355,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -1225,7 +1396,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.integerValue nestingLevelForInputData_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nestingLevelForInputDataBuilder_;
       /**
        * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
@@ -1327,11 +1498,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.integerValue nesting_level_for_input_data = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNestingLevelForInputDataFieldBuilder() {
         if (nestingLevelForInputDataBuilder_ == null) {
-          nestingLevelForInputDataBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nestingLevelForInputDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNestingLevelForInputData(),
                   getParentForChildren(),
@@ -1368,7 +1539,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.booleanValue changeAllOrNothing_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> changeAllOrNothingBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
@@ -1470,11 +1641,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.booleanValue change_all_or_nothing = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getChangeAllOrNothingFieldBuilder() {
         if (changeAllOrNothingBuilder_ == null) {
-          changeAllOrNothingBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          changeAllOrNothingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getChangeAllOrNothing(),
                   getParentForChildren(),
@@ -1511,7 +1682,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.booleanValue onlyNewData_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyNewDataBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
@@ -1613,11 +1784,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.booleanValue only_new_data = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyNewDataFieldBuilder() {
         if (onlyNewDataBuilder_ == null) {
-          onlyNewDataBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyNewDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyNewData(),
                   getParentForChildren(),
@@ -1654,7 +1825,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.stringValue country_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
        * <code>optional .dstore.values.stringValue country = 5;</code>
@@ -1756,11 +1927,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.stringValue country = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
-          countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
@@ -1797,7 +1968,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.integerValue hTreeNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue h_tree_node_id = 6;</code>
@@ -1899,11 +2070,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.integerValue h_tree_node_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getHTreeNodeIdFieldBuilder() {
         if (hTreeNodeIdBuilder_ == null) {
-          hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getHTreeNodeId(),
                   getParentForChildren(),
@@ -1940,7 +2111,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.integerValue informationTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 7;</code>
@@ -2042,11 +2213,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
-          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
@@ -2083,7 +2254,7 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private io.dstore.Values.stringValue information_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
       /**
        * <code>optional .dstore.values.stringValue information = 8;</code>
@@ -2185,11 +2356,11 @@ public final class OmModifyTrolleyContentInfoPu {
       /**
        * <code>optional .dstore.values.stringValue information = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInformationFieldBuilder() {
         if (informationBuilder_ == null) {
-          informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInformation(),
                   getParentForChildren(),
@@ -2373,11 +2544,11 @@ public final class OmModifyTrolleyContentInfoPu {
    * Protobuf type {@code dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2416,7 +2587,8 @@ public final class OmModifyTrolleyContentInfoPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2424,7 +2596,8 @@ public final class OmModifyTrolleyContentInfoPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2432,7 +2605,8 @@ public final class OmModifyTrolleyContentInfoPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2460,7 +2634,7 @@ public final class OmModifyTrolleyContentInfoPu {
       return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2555,11 +2729,11 @@ public final class OmModifyTrolleyContentInfoPu {
      * Protobuf type {@code dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2651,7 +2825,7 @@ public final class OmModifyTrolleyContentInfoPu {
         return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2818,6 +2992,63 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row other = (io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+        if (hasInformationTypeId()) {
+          result = result && getInformationTypeId()
+              .equals(other.getInformationTypeId());
+        }
+        result = result && (hasHTreeNodeId() == other.hasHTreeNodeId());
+        if (hasHTreeNodeId()) {
+          result = result && getHTreeNodeId()
+              .equals(other.getHTreeNodeId());
+        }
+        result = result && (hasErrorCode() == other.hasErrorCode());
+        if (hasErrorCode()) {
+          result = result && getErrorCode()
+              .equals(other.getErrorCode());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasInformationTypeId()) {
+          hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getInformationTypeId().hashCode();
+        }
+        if (hasHTreeNodeId()) {
+          hash = (37 * hash) + H_TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getHTreeNodeId().hashCode();
+        }
+        if (hasErrorCode()) {
+          hash = (37 * hash) + ERROR_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getErrorCode().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2841,39 +3072,39 @@ public final class OmModifyTrolleyContentInfoPu {
       }
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2891,7 +3122,7 @@ public final class OmModifyTrolleyContentInfoPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2899,7 +3130,7 @@ public final class OmModifyTrolleyContentInfoPu {
        * Protobuf type {@code dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response.Row)
           io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2907,7 +3138,7 @@ public final class OmModifyTrolleyContentInfoPu {
           return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2920,12 +3151,13 @@ public final class OmModifyTrolleyContentInfoPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2992,6 +3224,32 @@ public final class OmModifyTrolleyContentInfoPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row)other);
@@ -3068,7 +3326,7 @@ public final class OmModifyTrolleyContentInfoPu {
         }
 
         private io.dstore.Values.integerValue informationTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
@@ -3206,11 +3464,11 @@ public final class OmModifyTrolleyContentInfoPu {
          *
          * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
-            informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
@@ -3221,7 +3479,7 @@ public final class OmModifyTrolleyContentInfoPu {
         }
 
         private io.dstore.Values.integerValue hTreeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
@@ -3359,11 +3617,11 @@ public final class OmModifyTrolleyContentInfoPu {
          *
          * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
-            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
@@ -3374,7 +3632,7 @@ public final class OmModifyTrolleyContentInfoPu {
         }
 
         private io.dstore.Values.integerValue errorCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
          * <pre>
@@ -3512,11 +3770,11 @@ public final class OmModifyTrolleyContentInfoPu {
          *
          * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
-            errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
@@ -3744,6 +4002,50 @@ public final class OmModifyTrolleyContentInfoPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response other = (io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3767,39 +4069,39 @@ public final class OmModifyTrolleyContentInfoPu {
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3817,7 +4119,7 @@ public final class OmModifyTrolleyContentInfoPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3825,7 +4127,7 @@ public final class OmModifyTrolleyContentInfoPu {
      * Protobuf type {@code dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_ModifyTrolleyContentInfo_Pu.Response)
         io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3833,7 +4135,7 @@ public final class OmModifyTrolleyContentInfoPu {
         return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3846,12 +4148,13 @@ public final class OmModifyTrolleyContentInfoPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3931,6 +4234,32 @@ public final class OmModifyTrolleyContentInfoPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response)other);
@@ -3961,7 +4290,7 @@ public final class OmModifyTrolleyContentInfoPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3987,7 +4316,7 @@ public final class OmModifyTrolleyContentInfoPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4013,7 +4342,7 @@ public final class OmModifyTrolleyContentInfoPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4056,7 +4385,7 @@ public final class OmModifyTrolleyContentInfoPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4272,11 +4601,11 @@ public final class OmModifyTrolleyContentInfoPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4296,7 +4625,7 @@ public final class OmModifyTrolleyContentInfoPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4512,11 +4841,11 @@ public final class OmModifyTrolleyContentInfoPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4536,7 +4865,7 @@ public final class OmModifyTrolleyContentInfoPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row, io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row.Builder, io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4824,11 +5153,11 @@ public final class OmModifyTrolleyContentInfoPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row, io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row.Builder, io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row, io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.Row.Builder, io.dstore.engine.procedures.OmModifyTrolleyContentInfoPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4890,17 +5219,17 @@ public final class OmModifyTrolleyContentInfoPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4965,19 +5294,19 @@ public final class OmModifyTrolleyContentInfoPu {
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Parameters_descriptor,
         new java.lang.String[] { "UniqueId", "UniqueIdNull", "NestingLevelForInputData", "NestingLevelForInputDataNull", "ChangeAllOrNothing", "ChangeAllOrNothingNull", "OnlyNewData", "OnlyNewDataNull", "Country", "CountryNull", "HTreeNodeId", "HTreeNodeIdNull", "InformationTypeId", "InformationTypeIdNull", "Information", "InformationNull", });
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyTrolleyContentInfo_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "InformationTypeId", "HTreeNodeId", "ErrorCode", });
     io.dstore.Values.getDescriptor();

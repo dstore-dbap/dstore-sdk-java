@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetTableDDLAd {
   private MiGetTableDDLAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetTableDDL_Ad.Parameters)
@@ -88,11 +94,11 @@ public final class MiGetTableDDLAd {
    * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTableDDL_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -215,7 +221,7 @@ public final class MiGetTableDDLAd {
       return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -422,6 +428,88 @@ public final class MiGetTableDDLAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetTableDDLAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetTableDDLAd.Parameters other = (io.dstore.engine.procedures.MiGetTableDDLAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasOnlyTableName() == other.hasOnlyTableName());
+      if (hasOnlyTableName()) {
+        result = result && getOnlyTableName()
+            .equals(other.getOnlyTableName());
+      }
+      result = result && (getOnlyTableNameNull()
+          == other.getOnlyTableNameNull());
+      result = result && (hasDatabaseName() == other.hasDatabaseName());
+      if (hasDatabaseName()) {
+        result = result && getDatabaseName()
+            .equals(other.getDatabaseName());
+      }
+      result = result && (getDatabaseNameNull()
+          == other.getDatabaseNameNull());
+      result = result && (hasGetOnlyColumnDefAsResult() == other.hasGetOnlyColumnDefAsResult());
+      if (hasGetOnlyColumnDefAsResult()) {
+        result = result && getGetOnlyColumnDefAsResult()
+            .equals(other.getGetOnlyColumnDefAsResult());
+      }
+      result = result && (getGetOnlyColumnDefAsResultNull()
+          == other.getGetOnlyColumnDefAsResultNull());
+      result = result && (hasFullyQualifiedNameInOutput() == other.hasFullyQualifiedNameInOutput());
+      if (hasFullyQualifiedNameInOutput()) {
+        result = result && getFullyQualifiedNameInOutput()
+            .equals(other.getFullyQualifiedNameInOutput());
+      }
+      result = result && (getFullyQualifiedNameInOutputNull()
+          == other.getFullyQualifiedNameInOutputNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasOnlyTableName()) {
+        hash = (37 * hash) + ONLY_TABLE_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyTableName().hashCode();
+      }
+      hash = (37 * hash) + ONLY_TABLE_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyTableNameNull());
+      if (hasDatabaseName()) {
+        hash = (37 * hash) + DATABASE_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getDatabaseName().hashCode();
+      }
+      hash = (37 * hash) + DATABASE_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDatabaseNameNull());
+      if (hasGetOnlyColumnDefAsResult()) {
+        hash = (37 * hash) + GET_ONLY_COLUMN_DEF_AS_RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getGetOnlyColumnDefAsResult().hashCode();
+      }
+      hash = (37 * hash) + GET_ONLY_COLUMN_DEF_AS_RESULT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetOnlyColumnDefAsResultNull());
+      if (hasFullyQualifiedNameInOutput()) {
+        hash = (37 * hash) + FULLY_QUALIFIED_NAME_IN_OUTPUT_FIELD_NUMBER;
+        hash = (53 * hash) + getFullyQualifiedNameInOutput().hashCode();
+      }
+      hash = (37 * hash) + FULLY_QUALIFIED_NAME_IN_OUTPUT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFullyQualifiedNameInOutputNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -445,39 +533,39 @@ public final class MiGetTableDDLAd {
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -495,7 +583,7 @@ public final class MiGetTableDDLAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -503,7 +591,7 @@ public final class MiGetTableDDLAd {
      * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTableDDL_Ad.Parameters)
         io.dstore.engine.procedures.MiGetTableDDLAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -511,7 +599,7 @@ public final class MiGetTableDDLAd {
         return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -524,12 +612,13 @@ public final class MiGetTableDDLAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -616,6 +705,32 @@ public final class MiGetTableDDLAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetTableDDLAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetTableDDLAd.Parameters)other);
@@ -678,7 +793,7 @@ public final class MiGetTableDDLAd {
       }
 
       private io.dstore.Values.stringValue onlyTableName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> onlyTableNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
@@ -780,11 +895,11 @@ public final class MiGetTableDDLAd {
       /**
        * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOnlyTableNameFieldBuilder() {
         if (onlyTableNameBuilder_ == null) {
-          onlyTableNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyTableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOnlyTableName(),
                   getParentForChildren(),
@@ -821,7 +936,7 @@ public final class MiGetTableDDLAd {
       }
 
       private io.dstore.Values.stringValue databaseName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue database_name = 2;</code>
@@ -923,11 +1038,11 @@ public final class MiGetTableDDLAd {
       /**
        * <code>optional .dstore.values.stringValue database_name = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
-          databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
@@ -964,7 +1079,7 @@ public final class MiGetTableDDLAd {
       }
 
       private io.dstore.Values.booleanValue getOnlyColumnDefAsResult_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getOnlyColumnDefAsResultBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
@@ -1066,11 +1181,11 @@ public final class MiGetTableDDLAd {
       /**
        * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetOnlyColumnDefAsResultFieldBuilder() {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
-          getOnlyColumnDefAsResultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getOnlyColumnDefAsResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetOnlyColumnDefAsResult(),
                   getParentForChildren(),
@@ -1107,7 +1222,7 @@ public final class MiGetTableDDLAd {
       }
 
       private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> fullyQualifiedNameInOutputBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
@@ -1209,11 +1324,11 @@ public final class MiGetTableDDLAd {
       /**
        * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getFullyQualifiedNameInOutputFieldBuilder() {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
-          fullyQualifiedNameInOutputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fullyQualifiedNameInOutputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getFullyQualifiedNameInOutput(),
                   getParentForChildren(),
@@ -1397,11 +1512,11 @@ public final class MiGetTableDDLAd {
    * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTableDDL_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1440,7 +1555,8 @@ public final class MiGetTableDDLAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1448,7 +1564,8 @@ public final class MiGetTableDDLAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1456,7 +1573,8 @@ public final class MiGetTableDDLAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1484,7 +1602,7 @@ public final class MiGetTableDDLAd {
       return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1629,11 +1747,11 @@ public final class MiGetTableDDLAd {
      * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTableDDL_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1751,7 +1869,7 @@ public final class MiGetTableDDLAd {
         return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1998,6 +2116,81 @@ public final class MiGetTableDDLAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row other = (io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasColumnName() == other.hasColumnName());
+        if (hasColumnName()) {
+          result = result && getColumnName()
+              .equals(other.getColumnName());
+        }
+        result = result && (hasLength() == other.hasLength());
+        if (hasLength()) {
+          result = result && getLength()
+              .equals(other.getLength());
+        }
+        result = result && (hasDataType() == other.hasDataType());
+        if (hasDataType()) {
+          result = result && getDataType()
+              .equals(other.getDataType());
+        }
+        result = result && (hasPrecisionValue() == other.hasPrecisionValue());
+        if (hasPrecisionValue()) {
+          result = result && getPrecisionValue()
+              .equals(other.getPrecisionValue());
+        }
+        result = result && (hasScale() == other.hasScale());
+        if (hasScale()) {
+          result = result && getScale()
+              .equals(other.getScale());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasColumnName()) {
+          hash = (37 * hash) + COLUMN_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getColumnName().hashCode();
+        }
+        if (hasLength()) {
+          hash = (37 * hash) + LENGTH_FIELD_NUMBER;
+          hash = (53 * hash) + getLength().hashCode();
+        }
+        if (hasDataType()) {
+          hash = (37 * hash) + DATA_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getDataType().hashCode();
+        }
+        if (hasPrecisionValue()) {
+          hash = (37 * hash) + PRECISION_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getPrecisionValue().hashCode();
+        }
+        if (hasScale()) {
+          hash = (37 * hash) + SCALE_FIELD_NUMBER;
+          hash = (53 * hash) + getScale().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2021,39 +2214,39 @@ public final class MiGetTableDDLAd {
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2071,7 +2264,7 @@ public final class MiGetTableDDLAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2079,7 +2272,7 @@ public final class MiGetTableDDLAd {
        * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTableDDL_Ad.Response.Row)
           io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2087,7 +2280,7 @@ public final class MiGetTableDDLAd {
           return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2100,12 +2293,13 @@ public final class MiGetTableDDLAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2194,6 +2388,32 @@ public final class MiGetTableDDLAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row)other);
@@ -2276,7 +2496,7 @@ public final class MiGetTableDDLAd {
         }
 
         private io.dstore.Values.stringValue columnName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> columnNameBuilder_;
         /**
          * <pre>
@@ -2414,11 +2634,11 @@ public final class MiGetTableDDLAd {
          *
          * <code>optional .dstore.values.stringValue column_name = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getColumnNameFieldBuilder() {
           if (columnNameBuilder_ == null) {
-            columnNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            columnNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getColumnName(),
                     getParentForChildren(),
@@ -2429,7 +2649,7 @@ public final class MiGetTableDDLAd {
         }
 
         private io.dstore.Values.integerValue length_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
         /**
          * <pre>
@@ -2567,11 +2787,11 @@ public final class MiGetTableDDLAd {
          *
          * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLengthFieldBuilder() {
           if (lengthBuilder_ == null) {
-            lengthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            lengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLength(),
                     getParentForChildren(),
@@ -2582,7 +2802,7 @@ public final class MiGetTableDDLAd {
         }
 
         private io.dstore.Values.stringValue dataType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dataTypeBuilder_;
         /**
          * <pre>
@@ -2720,11 +2940,11 @@ public final class MiGetTableDDLAd {
          *
          * <code>optional .dstore.values.stringValue data_type = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDataTypeFieldBuilder() {
           if (dataTypeBuilder_ == null) {
-            dataTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            dataTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDataType(),
                     getParentForChildren(),
@@ -2735,7 +2955,7 @@ public final class MiGetTableDDLAd {
         }
 
         private io.dstore.Values.integerValue precisionValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
@@ -2873,11 +3093,11 @@ public final class MiGetTableDDLAd {
          *
          * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
-            precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
@@ -2888,7 +3108,7 @@ public final class MiGetTableDDLAd {
         }
 
         private io.dstore.Values.integerValue scale_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
         /**
          * <pre>
@@ -3026,11 +3246,11 @@ public final class MiGetTableDDLAd {
          *
          * <code>optional .dstore.values.integerValue scale = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getScaleFieldBuilder() {
           if (scaleBuilder_ == null) {
-            scaleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            scaleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getScale(),
                     getParentForChildren(),
@@ -3258,6 +3478,50 @@ public final class MiGetTableDDLAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetTableDDLAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetTableDDLAd.Response other = (io.dstore.engine.procedures.MiGetTableDDLAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3281,39 +3545,39 @@ public final class MiGetTableDDLAd {
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTableDDLAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -3331,7 +3595,7 @@ public final class MiGetTableDDLAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -3339,7 +3603,7 @@ public final class MiGetTableDDLAd {
      * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTableDDL_Ad.Response)
         io.dstore.engine.procedures.MiGetTableDDLAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -3347,7 +3611,7 @@ public final class MiGetTableDDLAd {
         return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTableDDLAd.internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3360,12 +3624,13 @@ public final class MiGetTableDDLAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -3445,6 +3710,32 @@ public final class MiGetTableDDLAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetTableDDLAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetTableDDLAd.Response)other);
@@ -3475,7 +3766,7 @@ public final class MiGetTableDDLAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -3501,7 +3792,7 @@ public final class MiGetTableDDLAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -3527,7 +3818,7 @@ public final class MiGetTableDDLAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -3570,7 +3861,7 @@ public final class MiGetTableDDLAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3786,11 +4077,11 @@ public final class MiGetTableDDLAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3810,7 +4101,7 @@ public final class MiGetTableDDLAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4026,11 +4317,11 @@ public final class MiGetTableDDLAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4050,7 +4341,7 @@ public final class MiGetTableDDLAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -4338,11 +4629,11 @@ public final class MiGetTableDDLAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row, io.dstore.engine.procedures.MiGetTableDDLAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTableDDLAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -4404,17 +4695,17 @@ public final class MiGetTableDDLAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -4473,19 +4764,19 @@ public final class MiGetTableDDLAd {
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor,
         new java.lang.String[] { "OnlyTableName", "OnlyTableNameNull", "DatabaseName", "DatabaseNameNull", "GetOnlyColumnDefAsResult", "GetOnlyColumnDefAsResultNull", "FullyQualifiedNameInOutput", "FullyQualifiedNameInOutputNull", });
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ColumnName", "Length", "DataType", "PrecisionValue", "Scale", });
     io.dstore.Values.getDescriptor();

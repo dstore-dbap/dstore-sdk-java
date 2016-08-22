@@ -6,7 +6,13 @@ package io.dstore.engine;
 public final class ProcedureMessage {
   private ProcedureMessage() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface MessageOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.message.Message)
@@ -36,11 +42,11 @@ public final class ProcedureMessage {
    * Protobuf type {@code dstore.engine.message.Message}
    */
   public  static final class Message extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.message.Message)
       MessageOrBuilder {
     // Use Message.newBuilder() to construct.
-    private Message(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Message(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Message() {
@@ -106,7 +112,7 @@ public final class ProcedureMessage {
       return io.dstore.engine.ProcedureMessage.internal_static_dstore_engine_message_Message_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.ProcedureMessage.internal_static_dstore_engine_message_Message_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -184,7 +190,7 @@ public final class ProcedureMessage {
         output.writeInt32(2, code_);
       }
       if (!getMessageBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 3, message_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, message_);
       }
     }
 
@@ -202,13 +208,51 @@ public final class ProcedureMessage {
           .computeInt32Size(2, code_);
       }
       if (!getMessageBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(3, message_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, message_);
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.ProcedureMessage.Message)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.ProcedureMessage.Message other = (io.dstore.engine.ProcedureMessage.Message) obj;
+
+      boolean result = true;
+      result = result && (getSeverity()
+          == other.getSeverity());
+      result = result && (getCode()
+          == other.getCode());
+      result = result && getMessage()
+          .equals(other.getMessage());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      hash = (37 * hash) + SEVERITY_FIELD_NUMBER;
+      hash = (53 * hash) + getSeverity();
+      hash = (37 * hash) + CODE_FIELD_NUMBER;
+      hash = (53 * hash) + getCode();
+      hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+      hash = (53 * hash) + getMessage().hashCode();
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.ProcedureMessage.Message parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -232,39 +276,39 @@ public final class ProcedureMessage {
     }
     public static io.dstore.engine.ProcedureMessage.Message parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.ProcedureMessage.Message parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.ProcedureMessage.Message parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.ProcedureMessage.Message parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.ProcedureMessage.Message parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.ProcedureMessage.Message parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -282,7 +326,7 @@ public final class ProcedureMessage {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -290,7 +334,7 @@ public final class ProcedureMessage {
      * Protobuf type {@code dstore.engine.message.Message}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.message.Message)
         io.dstore.engine.ProcedureMessage.MessageOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -298,7 +342,7 @@ public final class ProcedureMessage {
         return io.dstore.engine.ProcedureMessage.internal_static_dstore_engine_message_Message_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.ProcedureMessage.internal_static_dstore_engine_message_Message_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -311,12 +355,13 @@ public final class ProcedureMessage {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -356,6 +401,32 @@ public final class ProcedureMessage {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.ProcedureMessage.Message) {
           return mergeFrom((io.dstore.engine.ProcedureMessage.Message)other);
@@ -575,7 +646,7 @@ public final class ProcedureMessage {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_message_Message_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_message_Message_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -607,7 +678,7 @@ public final class ProcedureMessage {
     internal_static_dstore_engine_message_Message_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_message_Message_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_message_Message_descriptor,
         new java.lang.String[] { "Severity", "Code", "Message", });
   }

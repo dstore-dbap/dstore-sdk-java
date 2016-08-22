@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiDatatypeTestAd {
   private MiDatatypeTestAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_DatatypeTest_Ad.Parameters)
@@ -250,11 +256,11 @@ public final class MiDatatypeTestAd {
    * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_DatatypeTest_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -548,7 +554,7 @@ public final class MiDatatypeTestAd {
       return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1151,6 +1157,214 @@ public final class MiDatatypeTestAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiDatatypeTestAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiDatatypeTestAd.Parameters other = (io.dstore.engine.procedures.MiDatatypeTestAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasSetOutputParams() == other.hasSetOutputParams());
+      if (hasSetOutputParams()) {
+        result = result && getSetOutputParams()
+            .equals(other.getSetOutputParams());
+      }
+      result = result && (getSetOutputParamsNull()
+          == other.getSetOutputParamsNull());
+      result = result && (hasGetResultSet() == other.hasGetResultSet());
+      if (hasGetResultSet()) {
+        result = result && getGetResultSet()
+            .equals(other.getGetResultSet());
+      }
+      result = result && (getGetResultSetNull()
+          == other.getGetResultSetNull());
+      result = result && (hasTestBit() == other.hasTestBit());
+      if (hasTestBit()) {
+        result = result && getTestBit()
+            .equals(other.getTestBit());
+      }
+      result = result && (getTestBitNull()
+          == other.getTestBitNull());
+      result = result && (hasTestChar() == other.hasTestChar());
+      if (hasTestChar()) {
+        result = result && getTestChar()
+            .equals(other.getTestChar());
+      }
+      result = result && (getTestCharNull()
+          == other.getTestCharNull());
+      result = result && (hasTestDatetime() == other.hasTestDatetime());
+      if (hasTestDatetime()) {
+        result = result && getTestDatetime()
+            .equals(other.getTestDatetime());
+      }
+      result = result && (getTestDatetimeNull()
+          == other.getTestDatetimeNull());
+      result = result && (hasTestDecimal() == other.hasTestDecimal());
+      if (hasTestDecimal()) {
+        result = result && getTestDecimal()
+            .equals(other.getTestDecimal());
+      }
+      result = result && (getTestDecimalNull()
+          == other.getTestDecimalNull());
+      result = result && (hasTestImage() == other.hasTestImage());
+      if (hasTestImage()) {
+        result = result && getTestImage()
+            .equals(other.getTestImage());
+      }
+      result = result && (getTestImageNull()
+          == other.getTestImageNull());
+      result = result && (hasTestInteger() == other.hasTestInteger());
+      if (hasTestInteger()) {
+        result = result && getTestInteger()
+            .equals(other.getTestInteger());
+      }
+      result = result && (getTestIntegerNull()
+          == other.getTestIntegerNull());
+      result = result && (hasTestMoney() == other.hasTestMoney());
+      if (hasTestMoney()) {
+        result = result && getTestMoney()
+            .equals(other.getTestMoney());
+      }
+      result = result && (getTestMoneyNull()
+          == other.getTestMoneyNull());
+      result = result && (hasTestSmallint() == other.hasTestSmallint());
+      if (hasTestSmallint()) {
+        result = result && getTestSmallint()
+            .equals(other.getTestSmallint());
+      }
+      result = result && (getTestSmallintNull()
+          == other.getTestSmallintNull());
+      result = result && (hasTestText() == other.hasTestText());
+      if (hasTestText()) {
+        result = result && getTestText()
+            .equals(other.getTestText());
+      }
+      result = result && (getTestTextNull()
+          == other.getTestTextNull());
+      result = result && (hasTestTinyint() == other.hasTestTinyint());
+      if (hasTestTinyint()) {
+        result = result && getTestTinyint()
+            .equals(other.getTestTinyint());
+      }
+      result = result && (getTestTinyintNull()
+          == other.getTestTinyintNull());
+      result = result && (hasTestVarchar() == other.hasTestVarchar());
+      if (hasTestVarchar()) {
+        result = result && getTestVarchar()
+            .equals(other.getTestVarchar());
+      }
+      result = result && (getTestVarcharNull()
+          == other.getTestVarcharNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasSetOutputParams()) {
+        hash = (37 * hash) + SET_OUTPUT_PARAMS_FIELD_NUMBER;
+        hash = (53 * hash) + getSetOutputParams().hashCode();
+      }
+      hash = (37 * hash) + SET_OUTPUT_PARAMS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSetOutputParamsNull());
+      if (hasGetResultSet()) {
+        hash = (37 * hash) + GET_RESULT_SET_FIELD_NUMBER;
+        hash = (53 * hash) + getGetResultSet().hashCode();
+      }
+      hash = (37 * hash) + GET_RESULT_SET_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetResultSetNull());
+      if (hasTestBit()) {
+        hash = (37 * hash) + TEST_BIT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestBit().hashCode();
+      }
+      hash = (37 * hash) + TEST_BIT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestBitNull());
+      if (hasTestChar()) {
+        hash = (37 * hash) + TEST_CHAR_FIELD_NUMBER;
+        hash = (53 * hash) + getTestChar().hashCode();
+      }
+      hash = (37 * hash) + TEST_CHAR_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestCharNull());
+      if (hasTestDatetime()) {
+        hash = (37 * hash) + TEST_DATETIME_FIELD_NUMBER;
+        hash = (53 * hash) + getTestDatetime().hashCode();
+      }
+      hash = (37 * hash) + TEST_DATETIME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestDatetimeNull());
+      if (hasTestDecimal()) {
+        hash = (37 * hash) + TEST_DECIMAL_FIELD_NUMBER;
+        hash = (53 * hash) + getTestDecimal().hashCode();
+      }
+      hash = (37 * hash) + TEST_DECIMAL_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestDecimalNull());
+      if (hasTestImage()) {
+        hash = (37 * hash) + TEST_IMAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getTestImage().hashCode();
+      }
+      hash = (37 * hash) + TEST_IMAGE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestImageNull());
+      if (hasTestInteger()) {
+        hash = (37 * hash) + TEST_INTEGER_FIELD_NUMBER;
+        hash = (53 * hash) + getTestInteger().hashCode();
+      }
+      hash = (37 * hash) + TEST_INTEGER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestIntegerNull());
+      if (hasTestMoney()) {
+        hash = (37 * hash) + TEST_MONEY_FIELD_NUMBER;
+        hash = (53 * hash) + getTestMoney().hashCode();
+      }
+      hash = (37 * hash) + TEST_MONEY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestMoneyNull());
+      if (hasTestSmallint()) {
+        hash = (37 * hash) + TEST_SMALLINT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestSmallint().hashCode();
+      }
+      hash = (37 * hash) + TEST_SMALLINT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestSmallintNull());
+      if (hasTestText()) {
+        hash = (37 * hash) + TEST_TEXT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestText().hashCode();
+      }
+      hash = (37 * hash) + TEST_TEXT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestTextNull());
+      if (hasTestTinyint()) {
+        hash = (37 * hash) + TEST_TINYINT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestTinyint().hashCode();
+      }
+      hash = (37 * hash) + TEST_TINYINT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestTinyintNull());
+      if (hasTestVarchar()) {
+        hash = (37 * hash) + TEST_VARCHAR_FIELD_NUMBER;
+        hash = (53 * hash) + getTestVarchar().hashCode();
+      }
+      hash = (37 * hash) + TEST_VARCHAR_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTestVarcharNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1174,39 +1388,39 @@ public final class MiDatatypeTestAd {
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1224,7 +1438,7 @@ public final class MiDatatypeTestAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1232,7 +1446,7 @@ public final class MiDatatypeTestAd {
      * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_DatatypeTest_Ad.Parameters)
         io.dstore.engine.procedures.MiDatatypeTestAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1240,7 +1454,7 @@ public final class MiDatatypeTestAd {
         return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1253,12 +1467,13 @@ public final class MiDatatypeTestAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1471,6 +1686,32 @@ public final class MiDatatypeTestAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiDatatypeTestAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiDatatypeTestAd.Parameters)other);
@@ -1587,7 +1828,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.booleanValue setOutputParams_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> setOutputParamsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue set_output_params = 1;</code>
@@ -1689,11 +1930,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.booleanValue set_output_params = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSetOutputParamsFieldBuilder() {
         if (setOutputParamsBuilder_ == null) {
-          setOutputParamsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          setOutputParamsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSetOutputParams(),
                   getParentForChildren(),
@@ -1730,7 +1971,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.booleanValue getResultSet_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getResultSetBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_result_set = 2;</code>
@@ -1832,11 +2073,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.booleanValue get_result_set = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetResultSetFieldBuilder() {
         if (getResultSetBuilder_ == null) {
-          getResultSetBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getResultSetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetResultSet(),
                   getParentForChildren(),
@@ -1873,7 +2114,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.booleanValue testBit_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> testBitBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
@@ -1975,11 +2216,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.booleanValue test_bit = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getTestBitFieldBuilder() {
         if (testBitBuilder_ == null) {
-          testBitBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testBitBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getTestBit(),
                   getParentForChildren(),
@@ -2016,7 +2257,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.stringValue testChar_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharBuilder_;
       /**
        * <code>optional .dstore.values.stringValue test_char = 4;</code>
@@ -2118,11 +2359,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.stringValue test_char = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTestCharFieldBuilder() {
         if (testCharBuilder_ == null) {
-          testCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTestChar(),
                   getParentForChildren(),
@@ -2159,7 +2400,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.timestampValue testDatetime_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> testDatetimeBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
@@ -2261,11 +2502,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.timestampValue test_datetime = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getTestDatetimeFieldBuilder() {
         if (testDatetimeBuilder_ == null) {
-          testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getTestDatetime(),
                   getParentForChildren(),
@@ -2302,7 +2543,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.decimalValue testDecimal_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testDecimalBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
@@ -2404,11 +2645,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.decimalValue test_decimal = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTestDecimalFieldBuilder() {
         if (testDecimalBuilder_ == null) {
-          testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTestDecimal(),
                   getParentForChildren(),
@@ -2445,7 +2686,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.bytesValue testImage_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> testImageBuilder_;
       /**
        * <code>optional .dstore.values.bytesValue test_image = 7;</code>
@@ -2547,11 +2788,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.bytesValue test_image = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
           getTestImageFieldBuilder() {
         if (testImageBuilder_ == null) {
-          testImageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testImageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                   getTestImage(),
                   getParentForChildren(),
@@ -2588,7 +2829,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.integerValue testInteger_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testIntegerBuilder_;
       /**
        * <code>optional .dstore.values.integerValue test_integer = 8;</code>
@@ -2690,11 +2931,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.integerValue test_integer = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTestIntegerFieldBuilder() {
         if (testIntegerBuilder_ == null) {
-          testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTestInteger(),
                   getParentForChildren(),
@@ -2731,7 +2972,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.decimalValue testMoney_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testMoneyBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue test_money = 9;</code>
@@ -2833,11 +3074,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.decimalValue test_money = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTestMoneyFieldBuilder() {
         if (testMoneyBuilder_ == null) {
-          testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTestMoney(),
                   getParentForChildren(),
@@ -2874,7 +3115,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.integerValue testSmallint_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testSmallintBuilder_;
       /**
        * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
@@ -2976,11 +3217,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.integerValue test_smallint = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTestSmallintFieldBuilder() {
         if (testSmallintBuilder_ == null) {
-          testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTestSmallint(),
                   getParentForChildren(),
@@ -3017,7 +3258,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.stringValue testText_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextBuilder_;
       /**
        * <code>optional .dstore.values.stringValue test_text = 11;</code>
@@ -3119,11 +3360,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.stringValue test_text = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTestTextFieldBuilder() {
         if (testTextBuilder_ == null) {
-          testTextBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testTextBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTestText(),
                   getParentForChildren(),
@@ -3160,7 +3401,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.integerValue testTinyint_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTinyintBuilder_;
       /**
        * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
@@ -3262,11 +3503,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.integerValue test_tinyint = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTestTinyintFieldBuilder() {
         if (testTinyintBuilder_ == null) {
-          testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTestTinyint(),
                   getParentForChildren(),
@@ -3303,7 +3544,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.stringValue testVarchar_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharBuilder_;
       /**
        * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
@@ -3405,11 +3646,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.stringValue test_varchar = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTestVarcharFieldBuilder() {
         if (testVarcharBuilder_ == null) {
-          testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTestVarchar(),
                   getParentForChildren(),
@@ -3716,11 +3957,11 @@ public final class MiDatatypeTestAd {
    * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_DatatypeTest_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3759,7 +4000,8 @@ public final class MiDatatypeTestAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3767,7 +4009,8 @@ public final class MiDatatypeTestAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3775,7 +4018,8 @@ public final class MiDatatypeTestAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3946,7 +4190,7 @@ public final class MiDatatypeTestAd {
       return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -4691,11 +4935,11 @@ public final class MiDatatypeTestAd {
      * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_DatatypeTest_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -5125,7 +5369,7 @@ public final class MiDatatypeTestAd {
         return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -6332,6 +6576,297 @@ public final class MiDatatypeTestAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row other = (io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTestText() == other.hasTestText());
+        if (hasTestText()) {
+          result = result && getTestText()
+              .equals(other.getTestText());
+        }
+        result = result && (hasTestDecimalParamInput() == other.hasTestDecimalParamInput());
+        if (hasTestDecimalParamInput()) {
+          result = result && getTestDecimalParamInput()
+              .equals(other.getTestDecimalParamInput());
+        }
+        result = result && (hasTestDatetime() == other.hasTestDatetime());
+        if (hasTestDatetime()) {
+          result = result && getTestDatetime()
+              .equals(other.getTestDatetime());
+        }
+        result = result && (hasTestTextParamInputByteLength() == other.hasTestTextParamInputByteLength());
+        if (hasTestTextParamInputByteLength()) {
+          result = result && getTestTextParamInputByteLength()
+              .equals(other.getTestTextParamInputByteLength());
+        }
+        result = result && (hasTestTextParamInput() == other.hasTestTextParamInput());
+        if (hasTestTextParamInput()) {
+          result = result && getTestTextParamInput()
+              .equals(other.getTestTextParamInput());
+        }
+        result = result && (hasTestDecimal() == other.hasTestDecimal());
+        if (hasTestDecimal()) {
+          result = result && getTestDecimal()
+              .equals(other.getTestDecimal());
+        }
+        result = result && (hasTestSmallintParamInput() == other.hasTestSmallintParamInput());
+        if (hasTestSmallintParamInput()) {
+          result = result && getTestSmallintParamInput()
+              .equals(other.getTestSmallintParamInput());
+        }
+        result = result && (hasTestChar() == other.hasTestChar());
+        if (hasTestChar()) {
+          result = result && getTestChar()
+              .equals(other.getTestChar());
+        }
+        result = result && (hasTestTinyintParamInput() == other.hasTestTinyintParamInput());
+        if (hasTestTinyintParamInput()) {
+          result = result && getTestTinyintParamInput()
+              .equals(other.getTestTinyintParamInput());
+        }
+        result = result && (hasTestBit() == other.hasTestBit());
+        if (hasTestBit()) {
+          result = result && getTestBit()
+              .equals(other.getTestBit());
+        }
+        result = result && (hasTestInteger() == other.hasTestInteger());
+        if (hasTestInteger()) {
+          result = result && getTestInteger()
+              .equals(other.getTestInteger());
+        }
+        result = result && (hasTestTinyint() == other.hasTestTinyint());
+        if (hasTestTinyint()) {
+          result = result && getTestTinyint()
+              .equals(other.getTestTinyint());
+        }
+        result = result && (hasTestMoneyParamInput() == other.hasTestMoneyParamInput());
+        if (hasTestMoneyParamInput()) {
+          result = result && getTestMoneyParamInput()
+              .equals(other.getTestMoneyParamInput());
+        }
+        result = result && (hasTestImageParamInputByteLength() == other.hasTestImageParamInputByteLength());
+        if (hasTestImageParamInputByteLength()) {
+          result = result && getTestImageParamInputByteLength()
+              .equals(other.getTestImageParamInputByteLength());
+        }
+        result = result && (hasTestTextParamInputMD5() == other.hasTestTextParamInputMD5());
+        if (hasTestTextParamInputMD5()) {
+          result = result && getTestTextParamInputMD5()
+              .equals(other.getTestTextParamInputMD5());
+        }
+        result = result && (hasTestCharParamInput() == other.hasTestCharParamInput());
+        if (hasTestCharParamInput()) {
+          result = result && getTestCharParamInput()
+              .equals(other.getTestCharParamInput());
+        }
+        result = result && (hasTestSmallint() == other.hasTestSmallint());
+        if (hasTestSmallint()) {
+          result = result && getTestSmallint()
+              .equals(other.getTestSmallint());
+        }
+        result = result && (hasTestBitParamInput() == other.hasTestBitParamInput());
+        if (hasTestBitParamInput()) {
+          result = result && getTestBitParamInput()
+              .equals(other.getTestBitParamInput());
+        }
+        result = result && (hasTestImage() == other.hasTestImage());
+        if (hasTestImage()) {
+          result = result && getTestImage()
+              .equals(other.getTestImage());
+        }
+        result = result && (hasTestBigint() == other.hasTestBigint());
+        if (hasTestBigint()) {
+          result = result && getTestBigint()
+              .equals(other.getTestBigint());
+        }
+        result = result && (hasTestImageParamInputMD5() == other.hasTestImageParamInputMD5());
+        if (hasTestImageParamInputMD5()) {
+          result = result && getTestImageParamInputMD5()
+              .equals(other.getTestImageParamInputMD5());
+        }
+        result = result && (hasTestIntegerParamInput() == other.hasTestIntegerParamInput());
+        if (hasTestIntegerParamInput()) {
+          result = result && getTestIntegerParamInput()
+              .equals(other.getTestIntegerParamInput());
+        }
+        result = result && (hasTestSysname() == other.hasTestSysname());
+        if (hasTestSysname()) {
+          result = result && getTestSysname()
+              .equals(other.getTestSysname());
+        }
+        result = result && (hasTestVarcharParamInput() == other.hasTestVarcharParamInput());
+        if (hasTestVarcharParamInput()) {
+          result = result && getTestVarcharParamInput()
+              .equals(other.getTestVarcharParamInput());
+        }
+        result = result && (hasTestDatetimeParamInput() == other.hasTestDatetimeParamInput());
+        if (hasTestDatetimeParamInput()) {
+          result = result && getTestDatetimeParamInput()
+              .equals(other.getTestDatetimeParamInput());
+        }
+        result = result && (hasTestImageParamInput() == other.hasTestImageParamInput());
+        if (hasTestImageParamInput()) {
+          result = result && getTestImageParamInput()
+              .equals(other.getTestImageParamInput());
+        }
+        result = result && (hasTestMoney() == other.hasTestMoney());
+        if (hasTestMoney()) {
+          result = result && getTestMoney()
+              .equals(other.getTestMoney());
+        }
+        result = result && (hasTestVarchar() == other.hasTestVarchar());
+        if (hasTestVarchar()) {
+          result = result && getTestVarchar()
+              .equals(other.getTestVarchar());
+        }
+        result = result && (hasTestNumeric() == other.hasTestNumeric());
+        if (hasTestNumeric()) {
+          result = result && getTestNumeric()
+              .equals(other.getTestNumeric());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTestText()) {
+          hash = (37 * hash) + TEST_TEXT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestText().hashCode();
+        }
+        if (hasTestDecimalParamInput()) {
+          hash = (37 * hash) + TEST_DECIMAL_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestDecimalParamInput().hashCode();
+        }
+        if (hasTestDatetime()) {
+          hash = (37 * hash) + TEST_DATETIME_FIELD_NUMBER;
+          hash = (53 * hash) + getTestDatetime().hashCode();
+        }
+        if (hasTestTextParamInputByteLength()) {
+          hash = (37 * hash) + TEST_TEXT_PARAM_INPUT_BYTE_LENGTH_FIELD_NUMBER;
+          hash = (53 * hash) + getTestTextParamInputByteLength().hashCode();
+        }
+        if (hasTestTextParamInput()) {
+          hash = (37 * hash) + TEST_TEXT_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestTextParamInput().hashCode();
+        }
+        if (hasTestDecimal()) {
+          hash = (37 * hash) + TEST_DECIMAL_FIELD_NUMBER;
+          hash = (53 * hash) + getTestDecimal().hashCode();
+        }
+        if (hasTestSmallintParamInput()) {
+          hash = (37 * hash) + TEST_SMALLINT_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestSmallintParamInput().hashCode();
+        }
+        if (hasTestChar()) {
+          hash = (37 * hash) + TEST_CHAR_FIELD_NUMBER;
+          hash = (53 * hash) + getTestChar().hashCode();
+        }
+        if (hasTestTinyintParamInput()) {
+          hash = (37 * hash) + TEST_TINYINT_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestTinyintParamInput().hashCode();
+        }
+        if (hasTestBit()) {
+          hash = (37 * hash) + TEST_BIT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestBit().hashCode();
+        }
+        if (hasTestInteger()) {
+          hash = (37 * hash) + TEST_INTEGER_FIELD_NUMBER;
+          hash = (53 * hash) + getTestInteger().hashCode();
+        }
+        if (hasTestTinyint()) {
+          hash = (37 * hash) + TEST_TINYINT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestTinyint().hashCode();
+        }
+        if (hasTestMoneyParamInput()) {
+          hash = (37 * hash) + TEST_MONEY_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestMoneyParamInput().hashCode();
+        }
+        if (hasTestImageParamInputByteLength()) {
+          hash = (37 * hash) + TEST_IMAGE_PARAM_INPUT_BYTE_LENGTH_FIELD_NUMBER;
+          hash = (53 * hash) + getTestImageParamInputByteLength().hashCode();
+        }
+        if (hasTestTextParamInputMD5()) {
+          hash = (37 * hash) + TEST_TEXT_PARAM_INPUT_M_D5_FIELD_NUMBER;
+          hash = (53 * hash) + getTestTextParamInputMD5().hashCode();
+        }
+        if (hasTestCharParamInput()) {
+          hash = (37 * hash) + TEST_CHAR_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestCharParamInput().hashCode();
+        }
+        if (hasTestSmallint()) {
+          hash = (37 * hash) + TEST_SMALLINT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestSmallint().hashCode();
+        }
+        if (hasTestBitParamInput()) {
+          hash = (37 * hash) + TEST_BIT_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestBitParamInput().hashCode();
+        }
+        if (hasTestImage()) {
+          hash = (37 * hash) + TEST_IMAGE_FIELD_NUMBER;
+          hash = (53 * hash) + getTestImage().hashCode();
+        }
+        if (hasTestBigint()) {
+          hash = (37 * hash) + TEST_BIGINT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestBigint().hashCode();
+        }
+        if (hasTestImageParamInputMD5()) {
+          hash = (37 * hash) + TEST_IMAGE_PARAM_INPUT_M_D5_FIELD_NUMBER;
+          hash = (53 * hash) + getTestImageParamInputMD5().hashCode();
+        }
+        if (hasTestIntegerParamInput()) {
+          hash = (37 * hash) + TEST_INTEGER_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestIntegerParamInput().hashCode();
+        }
+        if (hasTestSysname()) {
+          hash = (37 * hash) + TEST_SYSNAME_FIELD_NUMBER;
+          hash = (53 * hash) + getTestSysname().hashCode();
+        }
+        if (hasTestVarcharParamInput()) {
+          hash = (37 * hash) + TEST_VARCHAR_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestVarcharParamInput().hashCode();
+        }
+        if (hasTestDatetimeParamInput()) {
+          hash = (37 * hash) + TEST_DATETIME_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestDatetimeParamInput().hashCode();
+        }
+        if (hasTestImageParamInput()) {
+          hash = (37 * hash) + TEST_IMAGE_PARAM_INPUT_FIELD_NUMBER;
+          hash = (53 * hash) + getTestImageParamInput().hashCode();
+        }
+        if (hasTestMoney()) {
+          hash = (37 * hash) + TEST_MONEY_FIELD_NUMBER;
+          hash = (53 * hash) + getTestMoney().hashCode();
+        }
+        if (hasTestVarchar()) {
+          hash = (37 * hash) + TEST_VARCHAR_FIELD_NUMBER;
+          hash = (53 * hash) + getTestVarchar().hashCode();
+        }
+        if (hasTestNumeric()) {
+          hash = (37 * hash) + TEST_NUMERIC_FIELD_NUMBER;
+          hash = (53 * hash) + getTestNumeric().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -6355,39 +6890,39 @@ public final class MiDatatypeTestAd {
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -6405,7 +6940,7 @@ public final class MiDatatypeTestAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -6413,7 +6948,7 @@ public final class MiDatatypeTestAd {
        * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_DatatypeTest_Ad.Response.Row)
           io.dstore.engine.procedures.MiDatatypeTestAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -6421,7 +6956,7 @@ public final class MiDatatypeTestAd {
           return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -6434,12 +6969,13 @@ public final class MiDatatypeTestAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -6792,6 +7328,32 @@ public final class MiDatatypeTestAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row)other);
@@ -6946,7 +7508,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testText_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextBuilder_;
         /**
          * <pre>
@@ -7084,11 +7646,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_text = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestTextFieldBuilder() {
           if (testTextBuilder_ == null) {
-            testTextBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testTextBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestText(),
                     getParentForChildren(),
@@ -7099,7 +7661,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testDecimalParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testDecimalParamInputBuilder_;
         /**
          * <pre>
@@ -7237,11 +7799,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_decimal_param_input = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestDecimalParamInputFieldBuilder() {
           if (testDecimalParamInputBuilder_ == null) {
-            testDecimalParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testDecimalParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestDecimalParamInput(),
                     getParentForChildren(),
@@ -7252,7 +7814,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.timestampValue testDatetime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> testDatetimeBuilder_;
         /**
          * <pre>
@@ -7390,11 +7952,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.timestampValue test_datetime = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getTestDatetimeFieldBuilder() {
           if (testDatetimeBuilder_ == null) {
-            testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getTestDatetime(),
                     getParentForChildren(),
@@ -7405,7 +7967,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.integerValue testTextParamInputByteLength_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTextParamInputByteLengthBuilder_;
         /**
          * <pre>
@@ -7543,11 +8105,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.integerValue test_text_param_input_byte_length = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTestTextParamInputByteLengthFieldBuilder() {
           if (testTextParamInputByteLengthBuilder_ == null) {
-            testTextParamInputByteLengthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testTextParamInputByteLengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTestTextParamInputByteLength(),
                     getParentForChildren(),
@@ -7558,7 +8120,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testTextParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextParamInputBuilder_;
         /**
          * <pre>
@@ -7696,11 +8258,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_text_param_input = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestTextParamInputFieldBuilder() {
           if (testTextParamInputBuilder_ == null) {
-            testTextParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testTextParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestTextParamInput(),
                     getParentForChildren(),
@@ -7711,7 +8273,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.decimalValue testDecimal_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testDecimalBuilder_;
         /**
          * <pre>
@@ -7849,11 +8411,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.decimalValue test_decimal = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTestDecimalFieldBuilder() {
           if (testDecimalBuilder_ == null) {
-            testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTestDecimal(),
                     getParentForChildren(),
@@ -7864,7 +8426,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testSmallintParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testSmallintParamInputBuilder_;
         /**
          * <pre>
@@ -8002,11 +8564,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_smallint_param_input = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestSmallintParamInputFieldBuilder() {
           if (testSmallintParamInputBuilder_ == null) {
-            testSmallintParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testSmallintParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestSmallintParamInput(),
                     getParentForChildren(),
@@ -8017,7 +8579,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testChar_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharBuilder_;
         /**
          * <pre>
@@ -8155,11 +8717,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_char = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestCharFieldBuilder() {
           if (testCharBuilder_ == null) {
-            testCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestChar(),
                     getParentForChildren(),
@@ -8170,7 +8732,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testTinyintParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTinyintParamInputBuilder_;
         /**
          * <pre>
@@ -8308,11 +8870,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_tinyint_param_input = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestTinyintParamInputFieldBuilder() {
           if (testTinyintParamInputBuilder_ == null) {
-            testTinyintParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testTinyintParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestTinyintParamInput(),
                     getParentForChildren(),
@@ -8323,7 +8885,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.booleanValue testBit_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> testBitBuilder_;
         /**
          * <pre>
@@ -8461,11 +9023,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.booleanValue test_bit = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getTestBitFieldBuilder() {
           if (testBitBuilder_ == null) {
-            testBitBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testBitBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getTestBit(),
                     getParentForChildren(),
@@ -8476,7 +9038,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.integerValue testInteger_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testIntegerBuilder_;
         /**
          * <pre>
@@ -8614,11 +9176,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.integerValue test_integer = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTestIntegerFieldBuilder() {
           if (testIntegerBuilder_ == null) {
-            testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTestInteger(),
                     getParentForChildren(),
@@ -8629,7 +9191,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.integerValue testTinyint_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTinyintBuilder_;
         /**
          * <pre>
@@ -8767,11 +9329,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.integerValue test_tinyint = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTestTinyintFieldBuilder() {
           if (testTinyintBuilder_ == null) {
-            testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTestTinyint(),
                     getParentForChildren(),
@@ -8782,7 +9344,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testMoneyParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testMoneyParamInputBuilder_;
         /**
          * <pre>
@@ -8920,11 +9482,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_money_param_input = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestMoneyParamInputFieldBuilder() {
           if (testMoneyParamInputBuilder_ == null) {
-            testMoneyParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testMoneyParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestMoneyParamInput(),
                     getParentForChildren(),
@@ -8935,7 +9497,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.integerValue testImageParamInputByteLength_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testImageParamInputByteLengthBuilder_;
         /**
          * <pre>
@@ -9073,11 +9635,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.integerValue test_image_param_input_byte_length = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTestImageParamInputByteLengthFieldBuilder() {
           if (testImageParamInputByteLengthBuilder_ == null) {
-            testImageParamInputByteLengthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testImageParamInputByteLengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTestImageParamInputByteLength(),
                     getParentForChildren(),
@@ -9088,7 +9650,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testTextParamInputMD5_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextParamInputMD5Builder_;
         /**
          * <pre>
@@ -9226,11 +9788,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_text_param_input_m_d5 = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestTextParamInputMD5FieldBuilder() {
           if (testTextParamInputMD5Builder_ == null) {
-            testTextParamInputMD5Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            testTextParamInputMD5Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestTextParamInputMD5(),
                     getParentForChildren(),
@@ -9241,7 +9803,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testCharParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharParamInputBuilder_;
         /**
          * <pre>
@@ -9379,11 +9941,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_char_param_input = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestCharParamInputFieldBuilder() {
           if (testCharParamInputBuilder_ == null) {
-            testCharParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testCharParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestCharParamInput(),
                     getParentForChildren(),
@@ -9394,7 +9956,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.integerValue testSmallint_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testSmallintBuilder_;
         /**
          * <pre>
@@ -9532,11 +10094,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.integerValue test_smallint = 10017;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTestSmallintFieldBuilder() {
           if (testSmallintBuilder_ == null) {
-            testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTestSmallint(),
                     getParentForChildren(),
@@ -9547,7 +10109,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testBitParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testBitParamInputBuilder_;
         /**
          * <pre>
@@ -9685,11 +10247,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_bit_param_input = 10018;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestBitParamInputFieldBuilder() {
           if (testBitParamInputBuilder_ == null) {
-            testBitParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testBitParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestBitParamInput(),
                     getParentForChildren(),
@@ -9700,7 +10262,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.bytesValue testImage_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> testImageBuilder_;
         /**
          * <pre>
@@ -9838,11 +10400,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.bytesValue test_image = 10019;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
             getTestImageFieldBuilder() {
           if (testImageBuilder_ == null) {
-            testImageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testImageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                     getTestImage(),
                     getParentForChildren(),
@@ -9853,7 +10415,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.longValue testBigint_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> testBigintBuilder_;
         /**
          * <pre>
@@ -9991,11 +10553,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.longValue test_bigint = 10020;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
             getTestBigintFieldBuilder() {
           if (testBigintBuilder_ == null) {
-            testBigintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testBigintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder>(
                     getTestBigint(),
                     getParentForChildren(),
@@ -10006,7 +10568,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testImageParamInputMD5_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testImageParamInputMD5Builder_;
         /**
          * <pre>
@@ -10144,11 +10706,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_image_param_input_m_d5 = 10021;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestImageParamInputMD5FieldBuilder() {
           if (testImageParamInputMD5Builder_ == null) {
-            testImageParamInputMD5Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            testImageParamInputMD5Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestImageParamInputMD5(),
                     getParentForChildren(),
@@ -10159,7 +10721,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testIntegerParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testIntegerParamInputBuilder_;
         /**
          * <pre>
@@ -10297,11 +10859,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_integer_param_input = 10022;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestIntegerParamInputFieldBuilder() {
           if (testIntegerParamInputBuilder_ == null) {
-            testIntegerParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testIntegerParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestIntegerParamInput(),
                     getParentForChildren(),
@@ -10312,7 +10874,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testSysname_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testSysnameBuilder_;
         /**
          * <pre>
@@ -10450,11 +11012,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_sysname = 10023;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestSysnameFieldBuilder() {
           if (testSysnameBuilder_ == null) {
-            testSysnameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testSysnameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestSysname(),
                     getParentForChildren(),
@@ -10465,7 +11027,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testVarcharParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharParamInputBuilder_;
         /**
          * <pre>
@@ -10603,11 +11165,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_varchar_param_input = 10024;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestVarcharParamInputFieldBuilder() {
           if (testVarcharParamInputBuilder_ == null) {
-            testVarcharParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testVarcharParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestVarcharParamInput(),
                     getParentForChildren(),
@@ -10618,7 +11180,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testDatetimeParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testDatetimeParamInputBuilder_;
         /**
          * <pre>
@@ -10756,11 +11318,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_datetime_param_input = 10025;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestDatetimeParamInputFieldBuilder() {
           if (testDatetimeParamInputBuilder_ == null) {
-            testDatetimeParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testDatetimeParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestDatetimeParamInput(),
                     getParentForChildren(),
@@ -10771,7 +11333,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testImageParamInput_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testImageParamInputBuilder_;
         /**
          * <pre>
@@ -10909,11 +11471,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_image_param_input = 10026;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestImageParamInputFieldBuilder() {
           if (testImageParamInputBuilder_ == null) {
-            testImageParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testImageParamInputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestImageParamInput(),
                     getParentForChildren(),
@@ -10924,7 +11486,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.decimalValue testMoney_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testMoneyBuilder_;
         /**
          * <pre>
@@ -11062,11 +11624,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.decimalValue test_money = 10027;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTestMoneyFieldBuilder() {
           if (testMoneyBuilder_ == null) {
-            testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTestMoney(),
                     getParentForChildren(),
@@ -11077,7 +11639,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.stringValue testVarchar_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharBuilder_;
         /**
          * <pre>
@@ -11215,11 +11777,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.stringValue test_varchar = 10028;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTestVarcharFieldBuilder() {
           if (testVarcharBuilder_ == null) {
-            testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTestVarchar(),
                     getParentForChildren(),
@@ -11230,7 +11792,7 @@ public final class MiDatatypeTestAd {
         }
 
         private io.dstore.Values.decimalValue testNumeric_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testNumericBuilder_;
         /**
          * <pre>
@@ -11368,11 +11930,11 @@ public final class MiDatatypeTestAd {
          *
          * <code>optional .dstore.values.decimalValue test_numeric = 10029;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTestNumericFieldBuilder() {
           if (testNumericBuilder_ == null) {
-            testNumericBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            testNumericBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTestNumeric(),
                     getParentForChildren(),
@@ -11889,6 +12451,149 @@ public final class MiDatatypeTestAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiDatatypeTestAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiDatatypeTestAd.Response other = (io.dstore.engine.procedures.MiDatatypeTestAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasTestBit() == other.hasTestBit());
+      if (hasTestBit()) {
+        result = result && getTestBit()
+            .equals(other.getTestBit());
+      }
+      result = result && (hasTestChar() == other.hasTestChar());
+      if (hasTestChar()) {
+        result = result && getTestChar()
+            .equals(other.getTestChar());
+      }
+      result = result && (hasTestDatetime() == other.hasTestDatetime());
+      if (hasTestDatetime()) {
+        result = result && getTestDatetime()
+            .equals(other.getTestDatetime());
+      }
+      result = result && (hasTestDecimal() == other.hasTestDecimal());
+      if (hasTestDecimal()) {
+        result = result && getTestDecimal()
+            .equals(other.getTestDecimal());
+      }
+      result = result && (hasTestImage() == other.hasTestImage());
+      if (hasTestImage()) {
+        result = result && getTestImage()
+            .equals(other.getTestImage());
+      }
+      result = result && (hasTestInteger() == other.hasTestInteger());
+      if (hasTestInteger()) {
+        result = result && getTestInteger()
+            .equals(other.getTestInteger());
+      }
+      result = result && (hasTestMoney() == other.hasTestMoney());
+      if (hasTestMoney()) {
+        result = result && getTestMoney()
+            .equals(other.getTestMoney());
+      }
+      result = result && (hasTestSmallint() == other.hasTestSmallint());
+      if (hasTestSmallint()) {
+        result = result && getTestSmallint()
+            .equals(other.getTestSmallint());
+      }
+      result = result && (hasTestText() == other.hasTestText());
+      if (hasTestText()) {
+        result = result && getTestText()
+            .equals(other.getTestText());
+      }
+      result = result && (hasTestTinyint() == other.hasTestTinyint());
+      if (hasTestTinyint()) {
+        result = result && getTestTinyint()
+            .equals(other.getTestTinyint());
+      }
+      result = result && (hasTestVarchar() == other.hasTestVarchar());
+      if (hasTestVarchar()) {
+        result = result && getTestVarchar()
+            .equals(other.getTestVarchar());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasTestBit()) {
+        hash = (37 * hash) + TEST_BIT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestBit().hashCode();
+      }
+      if (hasTestChar()) {
+        hash = (37 * hash) + TEST_CHAR_FIELD_NUMBER;
+        hash = (53 * hash) + getTestChar().hashCode();
+      }
+      if (hasTestDatetime()) {
+        hash = (37 * hash) + TEST_DATETIME_FIELD_NUMBER;
+        hash = (53 * hash) + getTestDatetime().hashCode();
+      }
+      if (hasTestDecimal()) {
+        hash = (37 * hash) + TEST_DECIMAL_FIELD_NUMBER;
+        hash = (53 * hash) + getTestDecimal().hashCode();
+      }
+      if (hasTestImage()) {
+        hash = (37 * hash) + TEST_IMAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getTestImage().hashCode();
+      }
+      if (hasTestInteger()) {
+        hash = (37 * hash) + TEST_INTEGER_FIELD_NUMBER;
+        hash = (53 * hash) + getTestInteger().hashCode();
+      }
+      if (hasTestMoney()) {
+        hash = (37 * hash) + TEST_MONEY_FIELD_NUMBER;
+        hash = (53 * hash) + getTestMoney().hashCode();
+      }
+      if (hasTestSmallint()) {
+        hash = (37 * hash) + TEST_SMALLINT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestSmallint().hashCode();
+      }
+      if (hasTestText()) {
+        hash = (37 * hash) + TEST_TEXT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestText().hashCode();
+      }
+      if (hasTestTinyint()) {
+        hash = (37 * hash) + TEST_TINYINT_FIELD_NUMBER;
+        hash = (53 * hash) + getTestTinyint().hashCode();
+      }
+      if (hasTestVarchar()) {
+        hash = (37 * hash) + TEST_VARCHAR_FIELD_NUMBER;
+        hash = (53 * hash) + getTestVarchar().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -11912,39 +12617,39 @@ public final class MiDatatypeTestAd {
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiDatatypeTestAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -11962,7 +12667,7 @@ public final class MiDatatypeTestAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -11970,7 +12675,7 @@ public final class MiDatatypeTestAd {
      * Protobuf type {@code dstore.engine.mi_DatatypeTest_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_DatatypeTest_Ad.Response)
         io.dstore.engine.procedures.MiDatatypeTestAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -11978,7 +12683,7 @@ public final class MiDatatypeTestAd {
         return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiDatatypeTestAd.internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -11991,12 +12696,13 @@ public final class MiDatatypeTestAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -12199,6 +12905,32 @@ public final class MiDatatypeTestAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiDatatypeTestAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiDatatypeTestAd.Response)other);
@@ -12229,7 +12961,7 @@ public final class MiDatatypeTestAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -12255,7 +12987,7 @@ public final class MiDatatypeTestAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -12281,7 +13013,7 @@ public final class MiDatatypeTestAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -12357,7 +13089,7 @@ public final class MiDatatypeTestAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -12573,11 +13305,11 @@ public final class MiDatatypeTestAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -12597,7 +13329,7 @@ public final class MiDatatypeTestAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -12813,11 +13545,11 @@ public final class MiDatatypeTestAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -12837,7 +13569,7 @@ public final class MiDatatypeTestAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row, io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row.Builder, io.dstore.engine.procedures.MiDatatypeTestAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -13053,11 +13785,11 @@ public final class MiDatatypeTestAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row, io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row.Builder, io.dstore.engine.procedures.MiDatatypeTestAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row, io.dstore.engine.procedures.MiDatatypeTestAd.Response.Row.Builder, io.dstore.engine.procedures.MiDatatypeTestAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -13069,7 +13801,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.booleanValue testBit_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> testBitBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue test_bit = 101;</code>
@@ -13171,11 +13903,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.booleanValue test_bit = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getTestBitFieldBuilder() {
         if (testBitBuilder_ == null) {
-          testBitBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testBitBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getTestBit(),
                   getParentForChildren(),
@@ -13186,7 +13918,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.stringValue testChar_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testCharBuilder_;
       /**
        * <code>optional .dstore.values.stringValue test_char = 102;</code>
@@ -13288,11 +14020,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.stringValue test_char = 102;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTestCharFieldBuilder() {
         if (testCharBuilder_ == null) {
-          testCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTestChar(),
                   getParentForChildren(),
@@ -13303,7 +14035,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.timestampValue testDatetime_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> testDatetimeBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue test_datetime = 103;</code>
@@ -13405,11 +14137,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.timestampValue test_datetime = 103;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getTestDatetimeFieldBuilder() {
         if (testDatetimeBuilder_ == null) {
-          testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testDatetimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getTestDatetime(),
                   getParentForChildren(),
@@ -13420,7 +14152,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.decimalValue testDecimal_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testDecimalBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue test_decimal = 104;</code>
@@ -13522,11 +14254,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.decimalValue test_decimal = 104;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTestDecimalFieldBuilder() {
         if (testDecimalBuilder_ == null) {
-          testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testDecimalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTestDecimal(),
                   getParentForChildren(),
@@ -13537,7 +14269,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.bytesValue testImage_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> testImageBuilder_;
       /**
        * <code>optional .dstore.values.bytesValue test_image = 105;</code>
@@ -13639,11 +14371,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.bytesValue test_image = 105;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
           getTestImageFieldBuilder() {
         if (testImageBuilder_ == null) {
-          testImageBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testImageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                   getTestImage(),
                   getParentForChildren(),
@@ -13654,7 +14386,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.integerValue testInteger_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testIntegerBuilder_;
       /**
        * <code>optional .dstore.values.integerValue test_integer = 106;</code>
@@ -13756,11 +14488,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.integerValue test_integer = 106;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTestIntegerFieldBuilder() {
         if (testIntegerBuilder_ == null) {
-          testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testIntegerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTestInteger(),
                   getParentForChildren(),
@@ -13771,7 +14503,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.decimalValue testMoney_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> testMoneyBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue test_money = 107;</code>
@@ -13873,11 +14605,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.decimalValue test_money = 107;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getTestMoneyFieldBuilder() {
         if (testMoneyBuilder_ == null) {
-          testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testMoneyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getTestMoney(),
                   getParentForChildren(),
@@ -13888,7 +14620,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.integerValue testSmallint_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testSmallintBuilder_;
       /**
        * <code>optional .dstore.values.integerValue test_smallint = 108;</code>
@@ -13990,11 +14722,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.integerValue test_smallint = 108;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTestSmallintFieldBuilder() {
         if (testSmallintBuilder_ == null) {
-          testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testSmallintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTestSmallint(),
                   getParentForChildren(),
@@ -14005,7 +14737,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.stringValue testText_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testTextBuilder_;
       /**
        * <code>optional .dstore.values.stringValue test_text = 109;</code>
@@ -14107,11 +14839,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.stringValue test_text = 109;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTestTextFieldBuilder() {
         if (testTextBuilder_ == null) {
-          testTextBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testTextBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTestText(),
                   getParentForChildren(),
@@ -14122,7 +14854,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.integerValue testTinyint_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> testTinyintBuilder_;
       /**
        * <code>optional .dstore.values.integerValue test_tinyint = 110;</code>
@@ -14224,11 +14956,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.integerValue test_tinyint = 110;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTestTinyintFieldBuilder() {
         if (testTinyintBuilder_ == null) {
-          testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testTinyintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTestTinyint(),
                   getParentForChildren(),
@@ -14239,7 +14971,7 @@ public final class MiDatatypeTestAd {
       }
 
       private io.dstore.Values.stringValue testVarchar_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> testVarcharBuilder_;
       /**
        * <code>optional .dstore.values.stringValue test_varchar = 111;</code>
@@ -14341,11 +15073,11 @@ public final class MiDatatypeTestAd {
       /**
        * <code>optional .dstore.values.stringValue test_varchar = 111;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getTestVarcharFieldBuilder() {
         if (testVarcharBuilder_ == null) {
-          testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          testVarcharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getTestVarchar(),
                   getParentForChildren(),
@@ -14406,17 +15138,17 @@ public final class MiDatatypeTestAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -14540,19 +15272,19 @@ public final class MiDatatypeTestAd {
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor,
         new java.lang.String[] { "SetOutputParams", "SetOutputParamsNull", "GetResultSet", "GetResultSetNull", "TestBit", "TestBitNull", "TestChar", "TestCharNull", "TestDatetime", "TestDatetimeNull", "TestDecimal", "TestDecimalNull", "TestImage", "TestImageNull", "TestInteger", "TestIntegerNull", "TestMoney", "TestMoneyNull", "TestSmallint", "TestSmallintNull", "TestText", "TestTextNull", "TestTinyint", "TestTinyintNull", "TestVarchar", "TestVarcharNull", });
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "TestBit", "TestChar", "TestDatetime", "TestDecimal", "TestImage", "TestInteger", "TestMoney", "TestSmallint", "TestText", "TestTinyint", "TestVarchar", });
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TestText", "TestDecimalParamInput", "TestDatetime", "TestTextParamInputByteLength", "TestTextParamInput", "TestDecimal", "TestSmallintParamInput", "TestChar", "TestTinyintParamInput", "TestBit", "TestInteger", "TestTinyint", "TestMoneyParamInput", "TestImageParamInputByteLength", "TestTextParamInputMD5", "TestCharParamInput", "TestSmallint", "TestBitParamInput", "TestImage", "TestBigint", "TestImageParamInputMD5", "TestIntegerParamInput", "TestSysname", "TestVarcharParamInput", "TestDatetimeParamInput", "TestImageParamInput", "TestMoney", "TestVarchar", "TestNumeric", });
     io.dstore.Values.getDescriptor();

@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImGetBinariesForValues {
   private ImGetBinariesForValues() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_GetBinariesForValues.Parameters)
@@ -142,11 +148,11 @@ public final class ImGetBinariesForValues {
    * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetBinariesForValues.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class ImGetBinariesForValues {
       return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class ImGetBinariesForValues {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImGetBinariesForValues.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImGetBinariesForValues.Parameters other = (io.dstore.engine.procedures.ImGetBinariesForValues.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasValueId() == other.hasValueId());
+      if (hasValueId()) {
+        result = result && getValueId()
+            .equals(other.getValueId());
+      }
+      result = result && (getValueIdNull()
+          == other.getValueIdNull());
+      result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+      if (hasNodeCharacteristicId()) {
+        result = result && getNodeCharacteristicId()
+            .equals(other.getNodeCharacteristicId());
+      }
+      result = result && (getNodeCharacteristicIdNull()
+          == other.getNodeCharacteristicIdNull());
+      result = result && (hasValue() == other.hasValue());
+      if (hasValue()) {
+        result = result && getValue()
+            .equals(other.getValue());
+      }
+      result = result && (getValueNull()
+          == other.getValueNull());
+      result = result && (hasValuesInAnyValues() == other.hasValuesInAnyValues());
+      if (hasValuesInAnyValues()) {
+        result = result && getValuesInAnyValues()
+            .equals(other.getValuesInAnyValues());
+      }
+      result = result && (getValuesInAnyValuesNull()
+          == other.getValuesInAnyValuesNull());
+      result = result && (hasIncludeBinaryCode() == other.hasIncludeBinaryCode());
+      if (hasIncludeBinaryCode()) {
+        result = result && getIncludeBinaryCode()
+            .equals(other.getIncludeBinaryCode());
+      }
+      result = result && (getIncludeBinaryCodeNull()
+          == other.getIncludeBinaryCodeNull());
+      result = result && (hasFilterByBinaryCharacValueId() == other.hasFilterByBinaryCharacValueId());
+      if (hasFilterByBinaryCharacValueId()) {
+        result = result && getFilterByBinaryCharacValueId()
+            .equals(other.getFilterByBinaryCharacValueId());
+      }
+      result = result && (getFilterByBinaryCharacValueIdNull()
+          == other.getFilterByBinaryCharacValueIdNull());
+      result = result && (hasBinaryCharacteristicId() == other.hasBinaryCharacteristicId());
+      if (hasBinaryCharacteristicId()) {
+        result = result && getBinaryCharacteristicId()
+            .equals(other.getBinaryCharacteristicId());
+      }
+      result = result && (getBinaryCharacteristicIdNull()
+          == other.getBinaryCharacteristicIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasValueId()) {
+        hash = (37 * hash) + VALUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getValueId().hashCode();
+      }
+      hash = (37 * hash) + VALUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueIdNull());
+      if (hasNodeCharacteristicId()) {
+        hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacteristicIdNull());
+      if (hasValue()) {
+        hash = (37 * hash) + VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + getValue().hashCode();
+      }
+      hash = (37 * hash) + VALUE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueNull());
+      if (hasValuesInAnyValues()) {
+        hash = (37 * hash) + VALUES_IN_ANY_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getValuesInAnyValues().hashCode();
+      }
+      hash = (37 * hash) + VALUES_IN_ANY_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValuesInAnyValuesNull());
+      if (hasIncludeBinaryCode()) {
+        hash = (37 * hash) + INCLUDE_BINARY_CODE_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeBinaryCode().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_BINARY_CODE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludeBinaryCodeNull());
+      if (hasFilterByBinaryCharacValueId()) {
+        hash = (37 * hash) + FILTER_BY_BINARY_CHARAC_VALUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getFilterByBinaryCharacValueId().hashCode();
+      }
+      hash = (37 * hash) + FILTER_BY_BINARY_CHARAC_VALUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFilterByBinaryCharacValueIdNull());
+      if (hasBinaryCharacteristicId()) {
+        hash = (37 * hash) + BINARY_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getBinaryCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + BINARY_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBinaryCharacteristicIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class ImGetBinariesForValues {
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class ImGetBinariesForValues {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class ImGetBinariesForValues {
      * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetBinariesForValues.Parameters)
         io.dstore.engine.procedures.ImGetBinariesForValues.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class ImGetBinariesForValues {
         return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class ImGetBinariesForValues {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class ImGetBinariesForValues {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImGetBinariesForValues.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImGetBinariesForValues.Parameters)other);
@@ -981,7 +1138,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.integerValue valueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue value_id = 1;</code>
@@ -1083,11 +1240,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.integerValue value_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getValueIdFieldBuilder() {
         if (valueIdBuilder_ == null) {
-          valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getValueId(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
@@ -1226,11 +1383,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.stringValue value_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
       /**
        * <code>optional .dstore.values.stringValue value = 3;</code>
@@ -1369,11 +1526,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.stringValue value = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
-          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.booleanValue valuesInAnyValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valuesInAnyValuesBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue values_in_any_values = 4;</code>
@@ -1512,11 +1669,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.booleanValue values_in_any_values = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getValuesInAnyValuesFieldBuilder() {
         if (valuesInAnyValuesBuilder_ == null) {
-          valuesInAnyValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valuesInAnyValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getValuesInAnyValues(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.integerValue includeBinaryCode_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> includeBinaryCodeBuilder_;
       /**
        * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
@@ -1655,11 +1812,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getIncludeBinaryCodeFieldBuilder() {
         if (includeBinaryCodeBuilder_ == null) {
-          includeBinaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includeBinaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getIncludeBinaryCode(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.integerValue filterByBinaryCharacValueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByBinaryCharacValueIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue filter_by_binary_charac_value_id = 6;</code>
@@ -1798,11 +1955,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.integerValue filter_by_binary_charac_value_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFilterByBinaryCharacValueIdFieldBuilder() {
         if (filterByBinaryCharacValueIdBuilder_ == null) {
-          filterByBinaryCharacValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          filterByBinaryCharacValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFilterByBinaryCharacValueId(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class ImGetBinariesForValues {
       }
 
       private io.dstore.Values.integerValue binaryCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue binary_characteristic_id = 7;</code>
@@ -1941,11 +2098,11 @@ public final class ImGetBinariesForValues {
       /**
        * <code>optional .dstore.values.integerValue binary_characteristic_id = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBinaryCharacteristicIdFieldBuilder() {
         if (binaryCharacteristicIdBuilder_ == null) {
-          binaryCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          binaryCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBinaryCharacteristicId(),
                   getParentForChildren(),
@@ -2129,11 +2286,11 @@ public final class ImGetBinariesForValues {
    * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetBinariesForValues.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2172,7 +2329,8 @@ public final class ImGetBinariesForValues {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2180,7 +2338,8 @@ public final class ImGetBinariesForValues {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2188,7 +2347,8 @@ public final class ImGetBinariesForValues {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2216,7 +2376,7 @@ public final class ImGetBinariesForValues {
       return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2436,11 +2596,11 @@ public final class ImGetBinariesForValues {
      * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetBinariesForValues.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2597,7 +2757,7 @@ public final class ImGetBinariesForValues {
         return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2964,6 +3124,108 @@ public final class ImGetBinariesForValues {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row other = (io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasBinaryValueId() == other.hasBinaryValueId());
+        if (hasBinaryValueId()) {
+          result = result && getBinaryValueId()
+              .equals(other.getBinaryValueId());
+        }
+        result = result && (hasBinaryCharacValue() == other.hasBinaryCharacValue());
+        if (hasBinaryCharacValue()) {
+          result = result && getBinaryCharacValue()
+              .equals(other.getBinaryCharacValue());
+        }
+        result = result && (hasBinaryCodeId() == other.hasBinaryCodeId());
+        if (hasBinaryCodeId()) {
+          result = result && getBinaryCodeId()
+              .equals(other.getBinaryCodeId());
+        }
+        result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+        if (hasNodeCharacteristicId()) {
+          result = result && getNodeCharacteristicId()
+              .equals(other.getNodeCharacteristicId());
+        }
+        result = result && (hasValue() == other.hasValue());
+        if (hasValue()) {
+          result = result && getValue()
+              .equals(other.getValue());
+        }
+        result = result && (hasValueId() == other.hasValueId());
+        if (hasValueId()) {
+          result = result && getValueId()
+              .equals(other.getValueId());
+        }
+        result = result && (hasThumbnailCode() == other.hasThumbnailCode());
+        if (hasThumbnailCode()) {
+          result = result && getThumbnailCode()
+              .equals(other.getThumbnailCode());
+        }
+        result = result && (hasBinaryCode() == other.hasBinaryCode());
+        if (hasBinaryCode()) {
+          result = result && getBinaryCode()
+              .equals(other.getBinaryCode());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasBinaryValueId()) {
+          hash = (37 * hash) + BINARY_VALUE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryValueId().hashCode();
+        }
+        if (hasBinaryCharacValue()) {
+          hash = (37 * hash) + BINARY_CHARAC_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryCharacValue().hashCode();
+        }
+        if (hasBinaryCodeId()) {
+          hash = (37 * hash) + BINARY_CODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryCodeId().hashCode();
+        }
+        if (hasNodeCharacteristicId()) {
+          hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+        }
+        if (hasValue()) {
+          hash = (37 * hash) + VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getValue().hashCode();
+        }
+        if (hasValueId()) {
+          hash = (37 * hash) + VALUE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getValueId().hashCode();
+        }
+        if (hasThumbnailCode()) {
+          hash = (37 * hash) + THUMBNAIL_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getThumbnailCode().hashCode();
+        }
+        if (hasBinaryCode()) {
+          hash = (37 * hash) + BINARY_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getBinaryCode().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2987,39 +3249,39 @@ public final class ImGetBinariesForValues {
       }
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3037,7 +3299,7 @@ public final class ImGetBinariesForValues {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3045,7 +3307,7 @@ public final class ImGetBinariesForValues {
        * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetBinariesForValues.Response.Row)
           io.dstore.engine.procedures.ImGetBinariesForValues.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3053,7 +3315,7 @@ public final class ImGetBinariesForValues {
           return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3066,12 +3328,13 @@ public final class ImGetBinariesForValues {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3193,6 +3456,32 @@ public final class ImGetBinariesForValues {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row)other);
@@ -3284,7 +3573,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.integerValue binaryValueId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryValueIdBuilder_;
         /**
          * <pre>
@@ -3422,11 +3711,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.integerValue binary_value_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryValueIdFieldBuilder() {
           if (binaryValueIdBuilder_ == null) {
-            binaryValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryValueId(),
                     getParentForChildren(),
@@ -3437,7 +3726,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.stringValue binaryCharacValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryCharacValueBuilder_;
         /**
          * <pre>
@@ -3575,11 +3864,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.stringValue binary_charac_value = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getBinaryCharacValueFieldBuilder() {
           if (binaryCharacValueBuilder_ == null) {
-            binaryCharacValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryCharacValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getBinaryCharacValue(),
                     getParentForChildren(),
@@ -3590,7 +3879,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.integerValue binaryCodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
@@ -3728,11 +4017,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
-            binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
@@ -3743,7 +4032,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -3881,11 +4170,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.integerValue node_characteristic_id = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
@@ -3896,7 +4185,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.stringValue value_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
@@ -4034,11 +4323,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.stringValue value = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
-            valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
@@ -4049,7 +4338,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.integerValue valueId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
@@ -4187,11 +4476,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.integerValue value_id = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
-            valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
@@ -4202,7 +4491,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.bytesValue thumbnailCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
          * <pre>
@@ -4340,11 +4629,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.bytesValue thumbnail_code = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
-            thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
@@ -4355,7 +4644,7 @@ public final class ImGetBinariesForValues {
         }
 
         private io.dstore.Values.bytesValue binaryCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
          * <pre>
@@ -4493,11 +4782,11 @@ public final class ImGetBinariesForValues {
          *
          * <code>optional .dstore.values.bytesValue binary_code = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
-            binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
@@ -4725,6 +5014,50 @@ public final class ImGetBinariesForValues {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImGetBinariesForValues.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImGetBinariesForValues.Response other = (io.dstore.engine.procedures.ImGetBinariesForValues.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4748,39 +5081,39 @@ public final class ImGetBinariesForValues {
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImGetBinariesForValues.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4798,7 +5131,7 @@ public final class ImGetBinariesForValues {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4806,7 +5139,7 @@ public final class ImGetBinariesForValues {
      * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_GetBinariesForValues.Response)
         io.dstore.engine.procedures.ImGetBinariesForValues.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4814,7 +5147,7 @@ public final class ImGetBinariesForValues {
         return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImGetBinariesForValues.internal_static_dstore_engine_im_GetBinariesForValues_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4827,12 +5160,13 @@ public final class ImGetBinariesForValues {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4912,6 +5246,32 @@ public final class ImGetBinariesForValues {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImGetBinariesForValues.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImGetBinariesForValues.Response)other);
@@ -4942,7 +5302,7 @@ public final class ImGetBinariesForValues {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4968,7 +5328,7 @@ public final class ImGetBinariesForValues {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4994,7 +5354,7 @@ public final class ImGetBinariesForValues {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5037,7 +5397,7 @@ public final class ImGetBinariesForValues {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5253,11 +5613,11 @@ public final class ImGetBinariesForValues {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5277,7 +5637,7 @@ public final class ImGetBinariesForValues {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5493,11 +5853,11 @@ public final class ImGetBinariesForValues {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5517,7 +5877,7 @@ public final class ImGetBinariesForValues {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row, io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row.Builder, io.dstore.engine.procedures.ImGetBinariesForValues.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5805,11 +6165,11 @@ public final class ImGetBinariesForValues {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row, io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row.Builder, io.dstore.engine.procedures.ImGetBinariesForValues.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row, io.dstore.engine.procedures.ImGetBinariesForValues.Response.Row.Builder, io.dstore.engine.procedures.ImGetBinariesForValues.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5871,17 +6231,17 @@ public final class ImGetBinariesForValues {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetBinariesForValues_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetBinariesForValues_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetBinariesForValues_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetBinariesForValues_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5951,19 +6311,19 @@ public final class ImGetBinariesForValues {
     internal_static_dstore_engine_im_GetBinariesForValues_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_GetBinariesForValues_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetBinariesForValues_Parameters_descriptor,
         new java.lang.String[] { "ValueId", "ValueIdNull", "NodeCharacteristicId", "NodeCharacteristicIdNull", "Value", "ValueNull", "ValuesInAnyValues", "ValuesInAnyValuesNull", "IncludeBinaryCode", "IncludeBinaryCodeNull", "FilterByBinaryCharacValueId", "FilterByBinaryCharacValueIdNull", "BinaryCharacteristicId", "BinaryCharacteristicIdNull", });
     internal_static_dstore_engine_im_GetBinariesForValues_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_GetBinariesForValues_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetBinariesForValues_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_descriptor =
       internal_static_dstore_engine_im_GetBinariesForValues_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetBinariesForValues_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryValueId", "BinaryCharacValue", "BinaryCodeId", "NodeCharacteristicId", "Value", "ValueId", "ThumbnailCode", "BinaryCode", });
     io.dstore.Values.getDescriptor();

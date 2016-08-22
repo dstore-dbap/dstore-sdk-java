@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetProcedureParameters {
   private MiGetProcedureParameters() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetProcedureParameters.Parameters)
@@ -70,11 +76,11 @@ public final class MiGetProcedureParameters {
    * Protobuf type {@code dstore.engine.mi_GetProcedureParameters.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetProcedureParameters.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -178,7 +184,7 @@ public final class MiGetProcedureParameters {
       return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -341,6 +347,74 @@ public final class MiGetProcedureParameters {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetProcedureParameters.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetProcedureParameters.Parameters other = (io.dstore.engine.procedures.MiGetProcedureParameters.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasProcedureName() == other.hasProcedureName());
+      if (hasProcedureName()) {
+        result = result && getProcedureName()
+            .equals(other.getProcedureName());
+      }
+      result = result && (getProcedureNameNull()
+          == other.getProcedureNameNull());
+      result = result && (hasParameterName() == other.hasParameterName());
+      if (hasParameterName()) {
+        result = result && getParameterName()
+            .equals(other.getParameterName());
+      }
+      result = result && (getParameterNameNull()
+          == other.getParameterNameNull());
+      result = result && (hasDatabaseName() == other.hasDatabaseName());
+      if (hasDatabaseName()) {
+        result = result && getDatabaseName()
+            .equals(other.getDatabaseName());
+      }
+      result = result && (getDatabaseNameNull()
+          == other.getDatabaseNameNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasProcedureName()) {
+        hash = (37 * hash) + PROCEDURE_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getProcedureName().hashCode();
+      }
+      hash = (37 * hash) + PROCEDURE_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getProcedureNameNull());
+      if (hasParameterName()) {
+        hash = (37 * hash) + PARAMETER_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getParameterName().hashCode();
+      }
+      hash = (37 * hash) + PARAMETER_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getParameterNameNull());
+      if (hasDatabaseName()) {
+        hash = (37 * hash) + DATABASE_NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getDatabaseName().hashCode();
+      }
+      hash = (37 * hash) + DATABASE_NAME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDatabaseNameNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -364,39 +438,39 @@ public final class MiGetProcedureParameters {
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -414,7 +488,7 @@ public final class MiGetProcedureParameters {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -422,7 +496,7 @@ public final class MiGetProcedureParameters {
      * Protobuf type {@code dstore.engine.mi_GetProcedureParameters.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetProcedureParameters.Parameters)
         io.dstore.engine.procedures.MiGetProcedureParameters.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -430,7 +504,7 @@ public final class MiGetProcedureParameters {
         return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -443,12 +517,13 @@ public final class MiGetProcedureParameters {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -521,6 +596,32 @@ public final class MiGetProcedureParameters {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetProcedureParameters.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetProcedureParameters.Parameters)other);
@@ -577,7 +678,7 @@ public final class MiGetProcedureParameters {
       }
 
       private io.dstore.Values.stringValue procedureName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
@@ -679,11 +780,11 @@ public final class MiGetProcedureParameters {
       /**
        * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getProcedureNameFieldBuilder() {
         if (procedureNameBuilder_ == null) {
-          procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getProcedureName(),
                   getParentForChildren(),
@@ -720,7 +821,7 @@ public final class MiGetProcedureParameters {
       }
 
       private io.dstore.Values.stringValue parameterName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
@@ -822,11 +923,11 @@ public final class MiGetProcedureParameters {
       /**
        * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getParameterNameFieldBuilder() {
         if (parameterNameBuilder_ == null) {
-          parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getParameterName(),
                   getParentForChildren(),
@@ -863,7 +964,7 @@ public final class MiGetProcedureParameters {
       }
 
       private io.dstore.Values.stringValue databaseName_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
       /**
        * <code>optional .dstore.values.stringValue database_name = 3;</code>
@@ -965,11 +1066,11 @@ public final class MiGetProcedureParameters {
       /**
        * <code>optional .dstore.values.stringValue database_name = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
-          databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
@@ -1153,11 +1254,11 @@ public final class MiGetProcedureParameters {
    * Protobuf type {@code dstore.engine.mi_GetProcedureParameters.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetProcedureParameters.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1196,7 +1297,8 @@ public final class MiGetProcedureParameters {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1204,7 +1306,8 @@ public final class MiGetProcedureParameters {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1212,7 +1315,8 @@ public final class MiGetProcedureParameters {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1240,7 +1344,7 @@ public final class MiGetProcedureParameters {
       return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1485,11 +1589,11 @@ public final class MiGetProcedureParameters {
      * Protobuf type {@code dstore.engine.mi_GetProcedureParameters.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetProcedureParameters.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1659,7 +1763,7 @@ public final class MiGetProcedureParameters {
         return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2066,6 +2170,117 @@ public final class MiGetProcedureParameters {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row other = (io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasIsOutputParameter() == other.hasIsOutputParameter());
+        if (hasIsOutputParameter()) {
+          result = result && getIsOutputParameter()
+              .equals(other.getIsOutputParameter());
+        }
+        result = result && (hasLength() == other.hasLength());
+        if (hasLength()) {
+          result = result && getLength()
+              .equals(other.getLength());
+        }
+        result = result && (hasJDBCScale() == other.hasJDBCScale());
+        if (hasJDBCScale()) {
+          result = result && getJDBCScale()
+              .equals(other.getJDBCScale());
+        }
+        result = result && (hasJDBCPrecision() == other.hasJDBCPrecision());
+        if (hasJDBCPrecision()) {
+          result = result && getJDBCPrecision()
+              .equals(other.getJDBCPrecision());
+        }
+        result = result && (hasPrecisionValue() == other.hasPrecisionValue());
+        if (hasPrecisionValue()) {
+          result = result && getPrecisionValue()
+              .equals(other.getPrecisionValue());
+        }
+        result = result && (hasParameterName() == other.hasParameterName());
+        if (hasParameterName()) {
+          result = result && getParameterName()
+              .equals(other.getParameterName());
+        }
+        result = result && (hasScale() == other.hasScale());
+        if (hasScale()) {
+          result = result && getScale()
+              .equals(other.getScale());
+        }
+        result = result && (hasJDBCDatatypeId() == other.hasJDBCDatatypeId());
+        if (hasJDBCDatatypeId()) {
+          result = result && getJDBCDatatypeId()
+              .equals(other.getJDBCDatatypeId());
+        }
+        result = result && (hasDatatype() == other.hasDatatype());
+        if (hasDatatype()) {
+          result = result && getDatatype()
+              .equals(other.getDatatype());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasIsOutputParameter()) {
+          hash = (37 * hash) + IS_OUTPUT_PARAMETER_FIELD_NUMBER;
+          hash = (53 * hash) + getIsOutputParameter().hashCode();
+        }
+        if (hasLength()) {
+          hash = (37 * hash) + LENGTH_FIELD_NUMBER;
+          hash = (53 * hash) + getLength().hashCode();
+        }
+        if (hasJDBCScale()) {
+          hash = (37 * hash) + J_D_B_C_SCALE_FIELD_NUMBER;
+          hash = (53 * hash) + getJDBCScale().hashCode();
+        }
+        if (hasJDBCPrecision()) {
+          hash = (37 * hash) + J_D_B_C_PRECISION_FIELD_NUMBER;
+          hash = (53 * hash) + getJDBCPrecision().hashCode();
+        }
+        if (hasPrecisionValue()) {
+          hash = (37 * hash) + PRECISION_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getPrecisionValue().hashCode();
+        }
+        if (hasParameterName()) {
+          hash = (37 * hash) + PARAMETER_NAME_FIELD_NUMBER;
+          hash = (53 * hash) + getParameterName().hashCode();
+        }
+        if (hasScale()) {
+          hash = (37 * hash) + SCALE_FIELD_NUMBER;
+          hash = (53 * hash) + getScale().hashCode();
+        }
+        if (hasJDBCDatatypeId()) {
+          hash = (37 * hash) + J_D_B_C_DATATYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getJDBCDatatypeId().hashCode();
+        }
+        if (hasDatatype()) {
+          hash = (37 * hash) + DATATYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getDatatype().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2089,39 +2304,39 @@ public final class MiGetProcedureParameters {
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2139,7 +2354,7 @@ public final class MiGetProcedureParameters {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2147,7 +2362,7 @@ public final class MiGetProcedureParameters {
        * Protobuf type {@code dstore.engine.mi_GetProcedureParameters.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetProcedureParameters.Response.Row)
           io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2155,7 +2370,7 @@ public final class MiGetProcedureParameters {
           return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2168,12 +2383,13 @@ public final class MiGetProcedureParameters {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2306,6 +2522,32 @@ public final class MiGetProcedureParameters {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row)other);
@@ -2400,7 +2642,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.booleanValue isOutputParameter_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isOutputParameterBuilder_;
         /**
          * <pre>
@@ -2538,11 +2780,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getIsOutputParameterFieldBuilder() {
           if (isOutputParameterBuilder_ == null) {
-            isOutputParameterBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            isOutputParameterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getIsOutputParameter(),
                     getParentForChildren(),
@@ -2553,7 +2795,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.integerValue length_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
         /**
          * <pre>
@@ -2691,11 +2933,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.integerValue length = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLengthFieldBuilder() {
           if (lengthBuilder_ == null) {
-            lengthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            lengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLength(),
                     getParentForChildren(),
@@ -2706,7 +2948,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.longValue jDBCScale_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> jDBCScaleBuilder_;
         /**
          * <pre>
@@ -2844,11 +3086,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.longValue j_d_b_c_scale = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
             getJDBCScaleFieldBuilder() {
           if (jDBCScaleBuilder_ == null) {
-            jDBCScaleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            jDBCScaleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder>(
                     getJDBCScale(),
                     getParentForChildren(),
@@ -2859,7 +3101,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.longValue jDBCPrecision_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> jDBCPrecisionBuilder_;
         /**
          * <pre>
@@ -2997,11 +3239,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.longValue j_d_b_c_precision = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder> 
             getJDBCPrecisionFieldBuilder() {
           if (jDBCPrecisionBuilder_ == null) {
-            jDBCPrecisionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            jDBCPrecisionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.longValue, io.dstore.Values.longValue.Builder, io.dstore.Values.longValueOrBuilder>(
                     getJDBCPrecision(),
                     getParentForChildren(),
@@ -3012,7 +3254,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.integerValue precisionValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
@@ -3150,11 +3392,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.integerValue precision_value = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
-            precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
@@ -3165,7 +3407,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.stringValue parameterName_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
         /**
          * <pre>
@@ -3303,11 +3545,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.stringValue parameter_name = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getParameterNameFieldBuilder() {
           if (parameterNameBuilder_ == null) {
-            parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getParameterName(),
                     getParentForChildren(),
@@ -3318,7 +3560,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.integerValue scale_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
         /**
          * <pre>
@@ -3456,11 +3698,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.integerValue scale = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getScaleFieldBuilder() {
           if (scaleBuilder_ == null) {
-            scaleBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            scaleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getScale(),
                     getParentForChildren(),
@@ -3471,7 +3713,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.integerValue jDBCDatatypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> jDBCDatatypeIdBuilder_;
         /**
          * <pre>
@@ -3609,11 +3851,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.integerValue j_d_b_c_datatype_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getJDBCDatatypeIdFieldBuilder() {
           if (jDBCDatatypeIdBuilder_ == null) {
-            jDBCDatatypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            jDBCDatatypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getJDBCDatatypeId(),
                     getParentForChildren(),
@@ -3624,7 +3866,7 @@ public final class MiGetProcedureParameters {
         }
 
         private io.dstore.Values.stringValue datatype_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> datatypeBuilder_;
         /**
          * <pre>
@@ -3762,11 +4004,11 @@ public final class MiGetProcedureParameters {
          *
          * <code>optional .dstore.values.stringValue datatype = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDatatypeFieldBuilder() {
           if (datatypeBuilder_ == null) {
-            datatypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            datatypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDatatype(),
                     getParentForChildren(),
@@ -3994,6 +4236,50 @@ public final class MiGetProcedureParameters {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetProcedureParameters.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetProcedureParameters.Response other = (io.dstore.engine.procedures.MiGetProcedureParameters.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4017,39 +4303,39 @@ public final class MiGetProcedureParameters {
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetProcedureParameters.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4067,7 +4353,7 @@ public final class MiGetProcedureParameters {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4075,7 +4361,7 @@ public final class MiGetProcedureParameters {
      * Protobuf type {@code dstore.engine.mi_GetProcedureParameters.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetProcedureParameters.Response)
         io.dstore.engine.procedures.MiGetProcedureParameters.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4083,7 +4369,7 @@ public final class MiGetProcedureParameters {
         return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetProcedureParameters.internal_static_dstore_engine_mi_GetProcedureParameters_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4096,12 +4382,13 @@ public final class MiGetProcedureParameters {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4181,6 +4468,32 @@ public final class MiGetProcedureParameters {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetProcedureParameters.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetProcedureParameters.Response)other);
@@ -4211,7 +4524,7 @@ public final class MiGetProcedureParameters {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4237,7 +4550,7 @@ public final class MiGetProcedureParameters {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4263,7 +4576,7 @@ public final class MiGetProcedureParameters {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4306,7 +4619,7 @@ public final class MiGetProcedureParameters {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4522,11 +4835,11 @@ public final class MiGetProcedureParameters {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4546,7 +4859,7 @@ public final class MiGetProcedureParameters {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4762,11 +5075,11 @@ public final class MiGetProcedureParameters {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4786,7 +5099,7 @@ public final class MiGetProcedureParameters {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder, io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5074,11 +5387,11 @@ public final class MiGetProcedureParameters {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder, io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row, io.dstore.engine.procedures.MiGetProcedureParameters.Response.Row.Builder, io.dstore.engine.procedures.MiGetProcedureParameters.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5140,17 +5453,17 @@ public final class MiGetProcedureParameters {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcedureParameters_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5212,19 +5525,19 @@ public final class MiGetProcedureParameters {
     internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetProcedureParameters_Parameters_descriptor,
         new java.lang.String[] { "ProcedureName", "ProcedureNameNull", "ParameterName", "ParameterNameNull", "DatabaseName", "DatabaseNameNull", });
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetProcedureParameters_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetProcedureParameters_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IsOutputParameter", "Length", "JDBCScale", "JDBCPrecision", "PrecisionValue", "ParameterName", "Scale", "JDBCDatatypeId", "Datatype", });
     io.dstore.Values.getDescriptor();

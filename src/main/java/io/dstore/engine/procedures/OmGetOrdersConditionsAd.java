@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetOrdersConditionsAd {
   private OmGetOrdersConditionsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetOrders_Conditions_Ad.Parameters)
@@ -556,11 +562,11 @@ public final class OmGetOrdersConditionsAd {
    * Protobuf type {@code dstore.engine.om_GetOrders_Conditions_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrders_Conditions_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -1178,7 +1184,7 @@ public final class OmGetOrdersConditionsAd {
       return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2529,6 +2535,452 @@ public final class OmGetOrdersConditionsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters other = (io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasOrderByColumn() == other.hasOrderByColumn());
+      if (hasOrderByColumn()) {
+        result = result && getOrderByColumn()
+            .equals(other.getOrderByColumn());
+      }
+      result = result && (getOrderByColumnNull()
+          == other.getOrderByColumnNull());
+      result = result && (hasCreateValidOrderInfos() == other.hasCreateValidOrderInfos());
+      if (hasCreateValidOrderInfos()) {
+        result = result && getCreateValidOrderInfos()
+            .equals(other.getCreateValidOrderInfos());
+      }
+      result = result && (getCreateValidOrderInfosNull()
+          == other.getCreateValidOrderInfosNull());
+      result = result && (hasBruttoSum() == other.hasBruttoSum());
+      if (hasBruttoSum()) {
+        result = result && getBruttoSum()
+            .equals(other.getBruttoSum());
+      }
+      result = result && (getBruttoSumNull()
+          == other.getBruttoSumNull());
+      result = result && (hasCurrencyId() == other.hasCurrencyId());
+      if (hasCurrencyId()) {
+        result = result && getCurrencyId()
+            .equals(other.getCurrencyId());
+      }
+      result = result && (getCurrencyIdNull()
+          == other.getCurrencyIdNull());
+      result = result && (hasQuantityForOneOrderContent() == other.hasQuantityForOneOrderContent());
+      if (hasQuantityForOneOrderContent()) {
+        result = result && getQuantityForOneOrderContent()
+            .equals(other.getQuantityForOneOrderContent());
+      }
+      result = result && (getQuantityForOneOrderContentNull()
+          == other.getQuantityForOneOrderContentNull());
+      result = result && (hasCombination() == other.hasCombination());
+      if (hasCombination()) {
+        result = result && getCombination()
+            .equals(other.getCombination());
+      }
+      result = result && (getCombinationNull()
+          == other.getCombinationNull());
+      result = result && (hasFromDate() == other.hasFromDate());
+      if (hasFromDate()) {
+        result = result && getFromDate()
+            .equals(other.getFromDate());
+      }
+      result = result && (getFromDateNull()
+          == other.getFromDateNull());
+      result = result && (hasToDate() == other.hasToDate());
+      if (hasToDate()) {
+        result = result && getToDate()
+            .equals(other.getToDate());
+      }
+      result = result && (getToDateNull()
+          == other.getToDateNull());
+      result = result && (hasOrderDesc() == other.hasOrderDesc());
+      if (hasOrderDesc()) {
+        result = result && getOrderDesc()
+            .equals(other.getOrderDesc());
+      }
+      result = result && (getOrderDescNull()
+          == other.getOrderDescNull());
+      result = result && (hasDateAndTimeFormat() == other.hasDateAndTimeFormat());
+      if (hasDateAndTimeFormat()) {
+        result = result && getDateAndTimeFormat()
+            .equals(other.getDateAndTimeFormat());
+      }
+      result = result && (getDateAndTimeFormatNull()
+          == other.getDateAndTimeFormatNull());
+      result = result && (hasIncludeTime() == other.hasIncludeTime());
+      if (hasIncludeTime()) {
+        result = result && getIncludeTime()
+            .equals(other.getIncludeTime());
+      }
+      result = result && (getIncludeTimeNull()
+          == other.getIncludeTimeNull());
+      result = result && (hasGetInfoForValidOrderContent() == other.hasGetInfoForValidOrderContent());
+      if (hasGetInfoForValidOrderContent()) {
+        result = result && getGetInfoForValidOrderContent()
+            .equals(other.getGetInfoForValidOrderContent());
+      }
+      result = result && (getGetInfoForValidOrderContentNull()
+          == other.getGetInfoForValidOrderContentNull());
+      result = result && (hasOrderStateList() == other.hasOrderStateList());
+      if (hasOrderStateList()) {
+        result = result && getOrderStateList()
+            .equals(other.getOrderStateList());
+      }
+      result = result && (getOrderStateListNull()
+          == other.getOrderStateListNull());
+      result = result && (hasSkipOHavingDifferentOStates() == other.hasSkipOHavingDifferentOStates());
+      if (hasSkipOHavingDifferentOStates()) {
+        result = result && getSkipOHavingDifferentOStates()
+            .equals(other.getSkipOHavingDifferentOStates());
+      }
+      result = result && (getSkipOHavingDifferentOStatesNull()
+          == other.getSkipOHavingDifferentOStatesNull());
+      result = result && (hasPaymentTypeIdList() == other.hasPaymentTypeIdList());
+      if (hasPaymentTypeIdList()) {
+        result = result && getPaymentTypeIdList()
+            .equals(other.getPaymentTypeIdList());
+      }
+      result = result && (getPaymentTypeIdListNull()
+          == other.getPaymentTypeIdListNull());
+      result = result && (hasShippingTypeIdList() == other.hasShippingTypeIdList());
+      if (hasShippingTypeIdList()) {
+        result = result && getShippingTypeIdList()
+            .equals(other.getShippingTypeIdList());
+      }
+      result = result && (getShippingTypeIdListNull()
+          == other.getShippingTypeIdListNull());
+      result = result && (hasShowPersonCharacteristics() == other.hasShowPersonCharacteristics());
+      if (hasShowPersonCharacteristics()) {
+        result = result && getShowPersonCharacteristics()
+            .equals(other.getShowPersonCharacteristics());
+      }
+      result = result && (getShowPersonCharacteristicsNull()
+          == other.getShowPersonCharacteristicsNull());
+      result = result && (hasConvertResultToCurrencyId() == other.hasConvertResultToCurrencyId());
+      if (hasConvertResultToCurrencyId()) {
+        result = result && getConvertResultToCurrencyId()
+            .equals(other.getConvertResultToCurrencyId());
+      }
+      result = result && (getConvertResultToCurrencyIdNull()
+          == other.getConvertResultToCurrencyIdNull());
+      result = result && (hasConvertResultToGivenCurrency() == other.hasConvertResultToGivenCurrency());
+      if (hasConvertResultToGivenCurrency()) {
+        result = result && getConvertResultToGivenCurrency()
+            .equals(other.getConvertResultToGivenCurrency());
+      }
+      result = result && (getConvertResultToGivenCurrencyNull()
+          == other.getConvertResultToGivenCurrencyNull());
+      result = result && (hasPurchaseOrder() == other.hasPurchaseOrder());
+      if (hasPurchaseOrder()) {
+        result = result && getPurchaseOrder()
+            .equals(other.getPurchaseOrder());
+      }
+      result = result && (getPurchaseOrderNull()
+          == other.getPurchaseOrderNull());
+      result = result && (hasInputNestLevelOInfoConds() == other.hasInputNestLevelOInfoConds());
+      if (hasInputNestLevelOInfoConds()) {
+        result = result && getInputNestLevelOInfoConds()
+            .equals(other.getInputNestLevelOInfoConds());
+      }
+      result = result && (getInputNestLevelOInfoCondsNull()
+          == other.getInputNestLevelOInfoCondsNull());
+      result = result && (hasValueSeparatorINOperator() == other.hasValueSeparatorINOperator());
+      if (hasValueSeparatorINOperator()) {
+        result = result && getValueSeparatorINOperator()
+            .equals(other.getValueSeparatorINOperator());
+      }
+      result = result && (getValueSeparatorINOperatorNull()
+          == other.getValueSeparatorINOperatorNull());
+      result = result && (hasCountry() == other.hasCountry());
+      if (hasCountry()) {
+        result = result && getCountry()
+            .equals(other.getCountry());
+      }
+      result = result && (getCountryNull()
+          == other.getCountryNull());
+      result = result && (hasLanguageId() == other.hasLanguageId());
+      if (hasLanguageId()) {
+        result = result && getLanguageId()
+            .equals(other.getLanguageId());
+      }
+      result = result && (getLanguageIdNull()
+          == other.getLanguageIdNull());
+      result = result && (hasInputNestLevelOConInfoConds() == other.hasInputNestLevelOConInfoConds());
+      if (hasInputNestLevelOConInfoConds()) {
+        result = result && getInputNestLevelOConInfoConds()
+            .equals(other.getInputNestLevelOConInfoConds());
+      }
+      result = result && (getInputNestLevelOConInfoCondsNull()
+          == other.getInputNestLevelOConInfoCondsNull());
+      result = result && (hasCondsMustBeFulfilledForOConId() == other.hasCondsMustBeFulfilledForOConId());
+      if (hasCondsMustBeFulfilledForOConId()) {
+        result = result && getCondsMustBeFulfilledForOConId()
+            .equals(other.getCondsMustBeFulfilledForOConId());
+      }
+      result = result && (getCondsMustBeFulfilledForOConIdNull()
+          == other.getCondsMustBeFulfilledForOConIdNull());
+      result = result && (hasFilterByNodeIdsInOneId() == other.hasFilterByNodeIdsInOneId());
+      if (hasFilterByNodeIdsInOneId()) {
+        result = result && getFilterByNodeIdsInOneId()
+            .equals(other.getFilterByNodeIdsInOneId());
+      }
+      result = result && (getFilterByNodeIdsInOneIdNull()
+          == other.getFilterByNodeIdsInOneIdNull());
+      result = result && (hasGetComputedSum() == other.hasGetComputedSum());
+      if (hasGetComputedSum()) {
+        result = result && getGetComputedSum()
+            .equals(other.getGetComputedSum());
+      }
+      result = result && (getGetComputedSumNull()
+          == other.getGetComputedSumNull());
+      result = result && (hasOnlyValidPosForComputedSum() == other.hasOnlyValidPosForComputedSum());
+      if (hasOnlyValidPosForComputedSum()) {
+        result = result && getOnlyValidPosForComputedSum()
+            .equals(other.getOnlyValidPosForComputedSum());
+      }
+      result = result && (getOnlyValidPosForComputedSumNull()
+          == other.getOnlyValidPosForComputedSumNull());
+      result = result && (hasOrderSurchIdsForComputedSum() == other.hasOrderSurchIdsForComputedSum());
+      if (hasOrderSurchIdsForComputedSum()) {
+        result = result && getOrderSurchIdsForComputedSum()
+            .equals(other.getOrderSurchIdsForComputedSum());
+      }
+      result = result && (getOrderSurchIdsForComputedSumNull()
+          == other.getOrderSurchIdsForComputedSumNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasOrderByColumn()) {
+        hash = (37 * hash) + ORDER_BY_COLUMN_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderByColumn().hashCode();
+      }
+      hash = (37 * hash) + ORDER_BY_COLUMN_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderByColumnNull());
+      if (hasCreateValidOrderInfos()) {
+        hash = (37 * hash) + CREATE_VALID_ORDER_INFOS_FIELD_NUMBER;
+        hash = (53 * hash) + getCreateValidOrderInfos().hashCode();
+      }
+      hash = (37 * hash) + CREATE_VALID_ORDER_INFOS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCreateValidOrderInfosNull());
+      if (hasBruttoSum()) {
+        hash = (37 * hash) + BRUTTO_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getBruttoSum().hashCode();
+      }
+      hash = (37 * hash) + BRUTTO_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBruttoSumNull());
+      if (hasCurrencyId()) {
+        hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCurrencyId().hashCode();
+      }
+      hash = (37 * hash) + CURRENCY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCurrencyIdNull());
+      if (hasQuantityForOneOrderContent()) {
+        hash = (37 * hash) + QUANTITY_FOR_ONE_ORDER_CONTENT_FIELD_NUMBER;
+        hash = (53 * hash) + getQuantityForOneOrderContent().hashCode();
+      }
+      hash = (37 * hash) + QUANTITY_FOR_ONE_ORDER_CONTENT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getQuantityForOneOrderContentNull());
+      if (hasCombination()) {
+        hash = (37 * hash) + COMBINATION_FIELD_NUMBER;
+        hash = (53 * hash) + getCombination().hashCode();
+      }
+      hash = (37 * hash) + COMBINATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCombinationNull());
+      if (hasFromDate()) {
+        hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromDate().hashCode();
+      }
+      hash = (37 * hash) + FROM_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromDateNull());
+      if (hasToDate()) {
+        hash = (37 * hash) + TO_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getToDate().hashCode();
+      }
+      hash = (37 * hash) + TO_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToDateNull());
+      if (hasOrderDesc()) {
+        hash = (37 * hash) + ORDER_DESC_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderDesc().hashCode();
+      }
+      hash = (37 * hash) + ORDER_DESC_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderDescNull());
+      if (hasDateAndTimeFormat()) {
+        hash = (37 * hash) + DATE_AND_TIME_FORMAT_FIELD_NUMBER;
+        hash = (53 * hash) + getDateAndTimeFormat().hashCode();
+      }
+      hash = (37 * hash) + DATE_AND_TIME_FORMAT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDateAndTimeFormatNull());
+      if (hasIncludeTime()) {
+        hash = (37 * hash) + INCLUDE_TIME_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeTime().hashCode();
+      }
+      hash = (37 * hash) + INCLUDE_TIME_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncludeTimeNull());
+      if (hasGetInfoForValidOrderContent()) {
+        hash = (37 * hash) + GET_INFO_FOR_VALID_ORDER_CONTENT_FIELD_NUMBER;
+        hash = (53 * hash) + getGetInfoForValidOrderContent().hashCode();
+      }
+      hash = (37 * hash) + GET_INFO_FOR_VALID_ORDER_CONTENT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetInfoForValidOrderContentNull());
+      if (hasOrderStateList()) {
+        hash = (37 * hash) + ORDER_STATE_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderStateList().hashCode();
+      }
+      hash = (37 * hash) + ORDER_STATE_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderStateListNull());
+      if (hasSkipOHavingDifferentOStates()) {
+        hash = (37 * hash) + SKIP_O_HAVING_DIFFERENT_O_STATES_FIELD_NUMBER;
+        hash = (53 * hash) + getSkipOHavingDifferentOStates().hashCode();
+      }
+      hash = (37 * hash) + SKIP_O_HAVING_DIFFERENT_O_STATES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSkipOHavingDifferentOStatesNull());
+      if (hasPaymentTypeIdList()) {
+        hash = (37 * hash) + PAYMENT_TYPE_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getPaymentTypeIdList().hashCode();
+      }
+      hash = (37 * hash) + PAYMENT_TYPE_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPaymentTypeIdListNull());
+      if (hasShippingTypeIdList()) {
+        hash = (37 * hash) + SHIPPING_TYPE_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getShippingTypeIdList().hashCode();
+      }
+      hash = (37 * hash) + SHIPPING_TYPE_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getShippingTypeIdListNull());
+      if (hasShowPersonCharacteristics()) {
+        hash = (37 * hash) + SHOW_PERSON_CHARACTERISTICS_FIELD_NUMBER;
+        hash = (53 * hash) + getShowPersonCharacteristics().hashCode();
+      }
+      hash = (37 * hash) + SHOW_PERSON_CHARACTERISTICS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getShowPersonCharacteristicsNull());
+      if (hasConvertResultToCurrencyId()) {
+        hash = (37 * hash) + CONVERT_RESULT_TO_CURRENCY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getConvertResultToCurrencyId().hashCode();
+      }
+      hash = (37 * hash) + CONVERT_RESULT_TO_CURRENCY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConvertResultToCurrencyIdNull());
+      if (hasConvertResultToGivenCurrency()) {
+        hash = (37 * hash) + CONVERT_RESULT_TO_GIVEN_CURRENCY_FIELD_NUMBER;
+        hash = (53 * hash) + getConvertResultToGivenCurrency().hashCode();
+      }
+      hash = (37 * hash) + CONVERT_RESULT_TO_GIVEN_CURRENCY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConvertResultToGivenCurrencyNull());
+      if (hasPurchaseOrder()) {
+        hash = (37 * hash) + PURCHASE_ORDER_FIELD_NUMBER;
+        hash = (53 * hash) + getPurchaseOrder().hashCode();
+      }
+      hash = (37 * hash) + PURCHASE_ORDER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPurchaseOrderNull());
+      if (hasInputNestLevelOInfoConds()) {
+        hash = (37 * hash) + INPUT_NEST_LEVEL_O_INFO_CONDS_FIELD_NUMBER;
+        hash = (53 * hash) + getInputNestLevelOInfoConds().hashCode();
+      }
+      hash = (37 * hash) + INPUT_NEST_LEVEL_O_INFO_CONDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInputNestLevelOInfoCondsNull());
+      if (hasValueSeparatorINOperator()) {
+        hash = (37 * hash) + VALUE_SEPARATOR_I_N_OPERATOR_FIELD_NUMBER;
+        hash = (53 * hash) + getValueSeparatorINOperator().hashCode();
+      }
+      hash = (37 * hash) + VALUE_SEPARATOR_I_N_OPERATOR_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueSeparatorINOperatorNull());
+      if (hasCountry()) {
+        hash = (37 * hash) + COUNTRY_FIELD_NUMBER;
+        hash = (53 * hash) + getCountry().hashCode();
+      }
+      hash = (37 * hash) + COUNTRY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCountryNull());
+      if (hasLanguageId()) {
+        hash = (37 * hash) + LANGUAGE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getLanguageId().hashCode();
+      }
+      hash = (37 * hash) + LANGUAGE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLanguageIdNull());
+      if (hasInputNestLevelOConInfoConds()) {
+        hash = (37 * hash) + INPUT_NEST_LEVEL_O_CON_INFO_CONDS_FIELD_NUMBER;
+        hash = (53 * hash) + getInputNestLevelOConInfoConds().hashCode();
+      }
+      hash = (37 * hash) + INPUT_NEST_LEVEL_O_CON_INFO_CONDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInputNestLevelOConInfoCondsNull());
+      if (hasCondsMustBeFulfilledForOConId()) {
+        hash = (37 * hash) + CONDS_MUST_BE_FULFILLED_FOR_O_CON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCondsMustBeFulfilledForOConId().hashCode();
+      }
+      hash = (37 * hash) + CONDS_MUST_BE_FULFILLED_FOR_O_CON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCondsMustBeFulfilledForOConIdNull());
+      if (hasFilterByNodeIdsInOneId()) {
+        hash = (37 * hash) + FILTER_BY_NODE_IDS_IN_ONE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getFilterByNodeIdsInOneId().hashCode();
+      }
+      hash = (37 * hash) + FILTER_BY_NODE_IDS_IN_ONE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFilterByNodeIdsInOneIdNull());
+      if (hasGetComputedSum()) {
+        hash = (37 * hash) + GET_COMPUTED_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getGetComputedSum().hashCode();
+      }
+      hash = (37 * hash) + GET_COMPUTED_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetComputedSumNull());
+      if (hasOnlyValidPosForComputedSum()) {
+        hash = (37 * hash) + ONLY_VALID_POS_FOR_COMPUTED_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyValidPosForComputedSum().hashCode();
+      }
+      hash = (37 * hash) + ONLY_VALID_POS_FOR_COMPUTED_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyValidPosForComputedSumNull());
+      if (hasOrderSurchIdsForComputedSum()) {
+        hash = (37 * hash) + ORDER_SURCH_IDS_FOR_COMPUTED_SUM_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderSurchIdsForComputedSum().hashCode();
+      }
+      hash = (37 * hash) + ORDER_SURCH_IDS_FOR_COMPUTED_SUM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderSurchIdsForComputedSumNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2552,39 +3004,39 @@ public final class OmGetOrdersConditionsAd {
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2602,7 +3054,7 @@ public final class OmGetOrdersConditionsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2610,7 +3062,7 @@ public final class OmGetOrdersConditionsAd {
      * Protobuf type {@code dstore.engine.om_GetOrders_Conditions_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetOrders_Conditions_Ad.Parameters)
         io.dstore.engine.procedures.OmGetOrdersConditionsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2618,7 +3070,7 @@ public final class OmGetOrdersConditionsAd {
         return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2631,12 +3083,13 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -3087,6 +3540,32 @@ public final class OmGetOrdersConditionsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetOrdersConditionsAd.Parameters)other);
@@ -3305,7 +3784,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue orderByColumn_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderByColumnBuilder_;
       /**
        * <code>optional .dstore.values.integerValue order_by_column = 1;</code>
@@ -3407,11 +3886,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue order_by_column = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderByColumnFieldBuilder() {
         if (orderByColumnBuilder_ == null) {
-          orderByColumnBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderByColumnBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderByColumn(),
                   getParentForChildren(),
@@ -3448,7 +3927,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue createValidOrderInfos_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> createValidOrderInfosBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue create_valid_order_infos = 2;</code>
@@ -3550,11 +4029,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue create_valid_order_infos = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCreateValidOrderInfosFieldBuilder() {
         if (createValidOrderInfosBuilder_ == null) {
-          createValidOrderInfosBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          createValidOrderInfosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCreateValidOrderInfos(),
                   getParentForChildren(),
@@ -3591,7 +4070,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue bruttoSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> bruttoSumBuilder_;
       /**
        * <code>optional .dstore.values.stringValue brutto_sum = 3;</code>
@@ -3693,11 +4172,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue brutto_sum = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getBruttoSumFieldBuilder() {
         if (bruttoSumBuilder_ == null) {
-          bruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          bruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getBruttoSum(),
                   getParentForChildren(),
@@ -3734,7 +4213,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue currencyId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue currency_id = 4;</code>
@@ -3836,11 +4315,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue currency_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
-          currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
@@ -3877,7 +4356,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue quantityForOneOrderContent_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> quantityForOneOrderContentBuilder_;
       /**
        * <code>optional .dstore.values.stringValue quantity_for_one_order_content = 5;</code>
@@ -3979,11 +4458,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue quantity_for_one_order_content = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getQuantityForOneOrderContentFieldBuilder() {
         if (quantityForOneOrderContentBuilder_ == null) {
-          quantityForOneOrderContentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          quantityForOneOrderContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getQuantityForOneOrderContent(),
                   getParentForChildren(),
@@ -4020,7 +4499,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue combination_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> combinationBuilder_;
       /**
        * <code>optional .dstore.values.stringValue combination = 6;</code>
@@ -4122,11 +4601,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue combination = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCombinationFieldBuilder() {
         if (combinationBuilder_ == null) {
-          combinationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          combinationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCombination(),
                   getParentForChildren(),
@@ -4163,7 +4642,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.timestampValue fromDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_date = 7;</code>
@@ -4265,11 +4744,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.timestampValue from_date = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
-          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
@@ -4306,7 +4785,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.timestampValue toDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_date = 8;</code>
@@ -4408,11 +4887,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.timestampValue to_date = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
-          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
@@ -4449,7 +4928,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue orderDesc_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderDescBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue order_desc = 9;</code>
@@ -4551,11 +5030,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue order_desc = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOrderDescFieldBuilder() {
         if (orderDescBuilder_ == null) {
-          orderDescBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderDescBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOrderDesc(),
                   getParentForChildren(),
@@ -4592,7 +5071,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue dateAndTimeFormat_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> dateAndTimeFormatBuilder_;
       /**
        * <code>optional .dstore.values.integerValue date_and_time_format = 10;</code>
@@ -4694,11 +5173,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue date_and_time_format = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDateAndTimeFormatFieldBuilder() {
         if (dateAndTimeFormatBuilder_ == null) {
-          dateAndTimeFormatBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          dateAndTimeFormatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDateAndTimeFormat(),
                   getParentForChildren(),
@@ -4735,7 +5214,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue includeTime_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeTimeBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue include_time = 11;</code>
@@ -4837,11 +5316,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue include_time = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncludeTimeFieldBuilder() {
         if (includeTimeBuilder_ == null) {
-          includeTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          includeTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncludeTime(),
                   getParentForChildren(),
@@ -4878,7 +5357,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue getInfoForValidOrderContent_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getInfoForValidOrderContentBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_info_for_valid_order_content = 12;</code>
@@ -4980,11 +5459,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue get_info_for_valid_order_content = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetInfoForValidOrderContentFieldBuilder() {
         if (getInfoForValidOrderContentBuilder_ == null) {
-          getInfoForValidOrderContentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getInfoForValidOrderContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetInfoForValidOrderContent(),
                   getParentForChildren(),
@@ -5021,7 +5500,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue orderStateList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue order_state_list = 13;</code>
@@ -5123,11 +5602,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue order_state_list = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderStateListFieldBuilder() {
         if (orderStateListBuilder_ == null) {
-          orderStateListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderStateListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderStateList(),
                   getParentForChildren(),
@@ -5164,7 +5643,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue skipOHavingDifferentOStates_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> skipOHavingDifferentOStatesBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue skip_o_having_different_o_states = 14;</code>
@@ -5266,11 +5745,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue skip_o_having_different_o_states = 14;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSkipOHavingDifferentOStatesFieldBuilder() {
         if (skipOHavingDifferentOStatesBuilder_ == null) {
-          skipOHavingDifferentOStatesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          skipOHavingDifferentOStatesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSkipOHavingDifferentOStates(),
                   getParentForChildren(),
@@ -5307,7 +5786,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue paymentTypeIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue payment_type_id_list = 15;</code>
@@ -5409,11 +5888,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue payment_type_id_list = 15;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPaymentTypeIdListFieldBuilder() {
         if (paymentTypeIdListBuilder_ == null) {
-          paymentTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          paymentTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPaymentTypeIdList(),
                   getParentForChildren(),
@@ -5450,7 +5929,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue shippingTypeIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> shippingTypeIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue shipping_type_id_list = 16;</code>
@@ -5552,11 +6031,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue shipping_type_id_list = 16;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getShippingTypeIdListFieldBuilder() {
         if (shippingTypeIdListBuilder_ == null) {
-          shippingTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          shippingTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getShippingTypeIdList(),
                   getParentForChildren(),
@@ -5593,7 +6072,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue showPersonCharacteristics_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> showPersonCharacteristicsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue show_person_characteristics = 17;</code>
@@ -5695,11 +6174,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue show_person_characteristics = 17;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getShowPersonCharacteristicsFieldBuilder() {
         if (showPersonCharacteristicsBuilder_ == null) {
-          showPersonCharacteristicsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          showPersonCharacteristicsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getShowPersonCharacteristics(),
                   getParentForChildren(),
@@ -5736,7 +6215,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue convertResultToCurrencyId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> convertResultToCurrencyIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue convert_result_to_currency_id = 18;</code>
@@ -5838,11 +6317,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue convert_result_to_currency_id = 18;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConvertResultToCurrencyIdFieldBuilder() {
         if (convertResultToCurrencyIdBuilder_ == null) {
-          convertResultToCurrencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          convertResultToCurrencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConvertResultToCurrencyId(),
                   getParentForChildren(),
@@ -5879,7 +6358,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue convertResultToGivenCurrency_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> convertResultToGivenCurrencyBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue convert_result_to_given_currency = 19;</code>
@@ -5981,11 +6460,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue convert_result_to_given_currency = 19;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getConvertResultToGivenCurrencyFieldBuilder() {
         if (convertResultToGivenCurrencyBuilder_ == null) {
-          convertResultToGivenCurrencyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          convertResultToGivenCurrencyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getConvertResultToGivenCurrency(),
                   getParentForChildren(),
@@ -6022,7 +6501,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue purchaseOrder_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> purchaseOrderBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue purchase_order = 20;</code>
@@ -6124,11 +6603,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue purchase_order = 20;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getPurchaseOrderFieldBuilder() {
         if (purchaseOrderBuilder_ == null) {
-          purchaseOrderBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          purchaseOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getPurchaseOrder(),
                   getParentForChildren(),
@@ -6165,7 +6644,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue inputNestLevelOInfoConds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inputNestLevelOInfoCondsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue input_nest_level_o_info_conds = 21;</code>
@@ -6267,11 +6746,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue input_nest_level_o_info_conds = 21;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInputNestLevelOInfoCondsFieldBuilder() {
         if (inputNestLevelOInfoCondsBuilder_ == null) {
-          inputNestLevelOInfoCondsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          inputNestLevelOInfoCondsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInputNestLevelOInfoConds(),
                   getParentForChildren(),
@@ -6308,7 +6787,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue valueSeparatorINOperator_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueSeparatorINOperatorBuilder_;
       /**
        * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 22;</code>
@@ -6410,11 +6889,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 22;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueSeparatorINOperatorFieldBuilder() {
         if (valueSeparatorINOperatorBuilder_ == null) {
-          valueSeparatorINOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueSeparatorINOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValueSeparatorINOperator(),
                   getParentForChildren(),
@@ -6451,7 +6930,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue country_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
        * <code>optional .dstore.values.stringValue country = 23;</code>
@@ -6553,11 +7032,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue country = 23;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
-          countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
@@ -6594,7 +7073,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue languageId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue language_id = 24;</code>
@@ -6696,11 +7175,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue language_id = 24;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
-          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
@@ -6737,7 +7216,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue inputNestLevelOConInfoConds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inputNestLevelOConInfoCondsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue input_nest_level_o_con_info_conds = 25;</code>
@@ -6839,11 +7318,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue input_nest_level_o_con_info_conds = 25;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInputNestLevelOConInfoCondsFieldBuilder() {
         if (inputNestLevelOConInfoCondsBuilder_ == null) {
-          inputNestLevelOConInfoCondsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          inputNestLevelOConInfoCondsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInputNestLevelOConInfoConds(),
                   getParentForChildren(),
@@ -6880,7 +7359,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue condsMustBeFulfilledForOConId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> condsMustBeFulfilledForOConIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue conds_must_be_fulfilled_for_o_con_id = 26;</code>
@@ -6982,11 +7461,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue conds_must_be_fulfilled_for_o_con_id = 26;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCondsMustBeFulfilledForOConIdFieldBuilder() {
         if (condsMustBeFulfilledForOConIdBuilder_ == null) {
-          condsMustBeFulfilledForOConIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          condsMustBeFulfilledForOConIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCondsMustBeFulfilledForOConId(),
                   getParentForChildren(),
@@ -7023,7 +7502,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.integerValue filterByNodeIdsInOneId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByNodeIdsInOneIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue filter_by_node_ids_in_one_id = 27;</code>
@@ -7125,11 +7604,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.integerValue filter_by_node_ids_in_one_id = 27;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFilterByNodeIdsInOneIdFieldBuilder() {
         if (filterByNodeIdsInOneIdBuilder_ == null) {
-          filterByNodeIdsInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          filterByNodeIdsInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFilterByNodeIdsInOneId(),
                   getParentForChildren(),
@@ -7166,7 +7645,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue getComputedSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getComputedSumBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_computed_sum = 28;</code>
@@ -7268,11 +7747,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue get_computed_sum = 28;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetComputedSumFieldBuilder() {
         if (getComputedSumBuilder_ == null) {
-          getComputedSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getComputedSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetComputedSum(),
                   getParentForChildren(),
@@ -7309,7 +7788,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.booleanValue onlyValidPosForComputedSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyValidPosForComputedSumBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue only_valid_pos_for_computed_sum = 29;</code>
@@ -7411,11 +7890,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.booleanValue only_valid_pos_for_computed_sum = 29;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOnlyValidPosForComputedSumFieldBuilder() {
         if (onlyValidPosForComputedSumBuilder_ == null) {
-          onlyValidPosForComputedSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyValidPosForComputedSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOnlyValidPosForComputedSum(),
                   getParentForChildren(),
@@ -7452,7 +7931,7 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private io.dstore.Values.stringValue orderSurchIdsForComputedSum_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderSurchIdsForComputedSumBuilder_;
       /**
        * <code>optional .dstore.values.stringValue order_surch_ids_for_computed_sum = 30;</code>
@@ -7554,11 +8033,11 @@ public final class OmGetOrdersConditionsAd {
       /**
        * <code>optional .dstore.values.stringValue order_surch_ids_for_computed_sum = 30;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderSurchIdsForComputedSumFieldBuilder() {
         if (orderSurchIdsForComputedSumBuilder_ == null) {
-          orderSurchIdsForComputedSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderSurchIdsForComputedSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderSurchIdsForComputedSum(),
                   getParentForChildren(),
@@ -7742,11 +8221,11 @@ public final class OmGetOrdersConditionsAd {
    * Protobuf type {@code dstore.engine.om_GetOrders_Conditions_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrders_Conditions_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -7785,7 +8264,8 @@ public final class OmGetOrdersConditionsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -7793,7 +8273,8 @@ public final class OmGetOrdersConditionsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -7801,7 +8282,8 @@ public final class OmGetOrdersConditionsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -7829,7 +8311,7 @@ public final class OmGetOrdersConditionsAd {
       return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -8974,11 +9456,11 @@ public final class OmGetOrdersConditionsAd {
      * Protobuf type {@code dstore.engine.om_GetOrders_Conditions_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrders_Conditions_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -9617,7 +10099,7 @@ public final class OmGetOrdersConditionsAd {
         return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -11464,6 +11946,441 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row other = (io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasOrderDateAndTime() == other.hasOrderDateAndTime());
+        if (hasOrderDateAndTime()) {
+          result = result && getOrderDateAndTime()
+              .equals(other.getOrderDateAndTime());
+        }
+        result = result && (hasPaymentCost() == other.hasPaymentCost());
+        if (hasPaymentCost()) {
+          result = result && getPaymentCost()
+              .equals(other.getPaymentCost());
+        }
+        result = result && (hasDeliveryDateAndTime() == other.hasDeliveryDateAndTime());
+        if (hasDeliveryDateAndTime()) {
+          result = result && getDeliveryDateAndTime()
+              .equals(other.getDeliveryDateAndTime());
+        }
+        result = result && (hasNetShippingCost() == other.hasNetShippingCost());
+        if (hasNetShippingCost()) {
+          result = result && getNetShippingCost()
+              .equals(other.getNetShippingCost());
+        }
+        result = result && (hasOrderNo() == other.hasOrderNo());
+        if (hasOrderNo()) {
+          result = result && getOrderNo()
+              .equals(other.getOrderNo());
+        }
+        result = result && (hasNettoSum() == other.hasNettoSum());
+        if (hasNettoSum()) {
+          result = result && getNettoSum()
+              .equals(other.getNettoSum());
+        }
+        result = result && (hasLastEditedByUserId() == other.hasLastEditedByUserId());
+        if (hasLastEditedByUserId()) {
+          result = result && getLastEditedByUserId()
+              .equals(other.getLastEditedByUserId());
+        }
+        result = result && (hasOrderId() == other.hasOrderId());
+        if (hasOrderId()) {
+          result = result && getOrderId()
+              .equals(other.getOrderId());
+        }
+        result = result && (hasBruttoSum() == other.hasBruttoSum());
+        if (hasBruttoSum()) {
+          result = result && getBruttoSum()
+              .equals(other.getBruttoSum());
+        }
+        result = result && (hasPreciseNetShippingCost() == other.hasPreciseNetShippingCost());
+        if (hasPreciseNetShippingCost()) {
+          result = result && getPreciseNetShippingCost()
+              .equals(other.getPreciseNetShippingCost());
+        }
+        result = result && (hasCharacVal2RestrByPattern() == other.hasCharacVal2RestrByPattern());
+        if (hasCharacVal2RestrByPattern()) {
+          result = result && getCharacVal2RestrByPattern()
+              .equals(other.getCharacVal2RestrByPattern());
+        }
+        result = result && (hasNetSum() == other.hasNetSum());
+        if (hasNetSum()) {
+          result = result && getNetSum()
+              .equals(other.getNetSum());
+        }
+        result = result && (hasValidContentNetSum() == other.hasValidContentNetSum());
+        if (hasValidContentNetSum()) {
+          result = result && getValidContentNetSum()
+              .equals(other.getValidContentNetSum());
+        }
+        result = result && (hasPreciseValidContentNetSum() == other.hasPreciseValidContentNetSum());
+        if (hasPreciseValidContentNetSum()) {
+          result = result && getPreciseValidContentNetSum()
+              .equals(other.getPreciseValidContentNetSum());
+        }
+        result = result && (hasPersonId() == other.hasPersonId());
+        if (hasPersonId()) {
+          result = result && getPersonId()
+              .equals(other.getPersonId());
+        }
+        result = result && (hasPaymentTypeDescription() == other.hasPaymentTypeDescription());
+        if (hasPaymentTypeDescription()) {
+          result = result && getPaymentTypeDescription()
+              .equals(other.getPaymentTypeDescription());
+        }
+        result = result && (hasValidContentBruttoSum() == other.hasValidContentBruttoSum());
+        if (hasValidContentBruttoSum()) {
+          result = result && getValidContentBruttoSum()
+              .equals(other.getValidContentBruttoSum());
+        }
+        result = result && (hasPreciseNetSum() == other.hasPreciseNetSum());
+        if (hasPreciseNetSum()) {
+          result = result && getPreciseNetSum()
+              .equals(other.getPreciseNetSum());
+        }
+        result = result && (hasPositionCount() == other.hasPositionCount());
+        if (hasPositionCount()) {
+          result = result && getPositionCount()
+              .equals(other.getPositionCount());
+        }
+        result = result && (hasOrderStateId() == other.hasOrderStateId());
+        if (hasOrderStateId()) {
+          result = result && getOrderStateId()
+              .equals(other.getOrderStateId());
+        }
+        result = result && (hasShippingTypeId() == other.hasShippingTypeId());
+        if (hasShippingTypeId()) {
+          result = result && getShippingTypeId()
+              .equals(other.getShippingTypeId());
+        }
+        result = result && (hasPersonTypeId() == other.hasPersonTypeId());
+        if (hasPersonTypeId()) {
+          result = result && getPersonTypeId()
+              .equals(other.getPersonTypeId());
+        }
+        result = result && (hasPreciseComputedGrossSum() == other.hasPreciseComputedGrossSum());
+        if (hasPreciseComputedGrossSum()) {
+          result = result && getPreciseComputedGrossSum()
+              .equals(other.getPreciseComputedGrossSum());
+        }
+        result = result && (hasHasValidContents() == other.hasHasValidContents());
+        if (hasHasValidContents()) {
+          result = result && getHasValidContents()
+              .equals(other.getHasValidContents());
+        }
+        result = result && (hasNetPaymentCost() == other.hasNetPaymentCost());
+        if (hasNetPaymentCost()) {
+          result = result && getNetPaymentCost()
+              .equals(other.getNetPaymentCost());
+        }
+        result = result && (hasDeliveryPersonId() == other.hasDeliveryPersonId());
+        if (hasDeliveryPersonId()) {
+          result = result && getDeliveryPersonId()
+              .equals(other.getDeliveryPersonId());
+        }
+        result = result && (hasShippingTypeDescription() == other.hasShippingTypeDescription());
+        if (hasShippingTypeDescription()) {
+          result = result && getShippingTypeDescription()
+              .equals(other.getShippingTypeDescription());
+        }
+        result = result && (hasGrossSum() == other.hasGrossSum());
+        if (hasGrossSum()) {
+          result = result && getGrossSum()
+              .equals(other.getGrossSum());
+        }
+        result = result && (hasUnitSymbol() == other.hasUnitSymbol());
+        if (hasUnitSymbol()) {
+          result = result && getUnitSymbol()
+              .equals(other.getUnitSymbol());
+        }
+        result = result && (hasPreciseNetPaymentCost() == other.hasPreciseNetPaymentCost());
+        if (hasPreciseNetPaymentCost()) {
+          result = result && getPreciseNetPaymentCost()
+              .equals(other.getPreciseNetPaymentCost());
+        }
+        result = result && (hasCustomerCharacteristicValue2() == other.hasCustomerCharacteristicValue2());
+        if (hasCustomerCharacteristicValue2()) {
+          result = result && getCustomerCharacteristicValue2()
+              .equals(other.getCustomerCharacteristicValue2());
+        }
+        result = result && (hasPublicDescription() == other.hasPublicDescription());
+        if (hasPublicDescription()) {
+          result = result && getPublicDescription()
+              .equals(other.getPublicDescription());
+        }
+        result = result && (hasCurrencyId() == other.hasCurrencyId());
+        if (hasCurrencyId()) {
+          result = result && getCurrencyId()
+              .equals(other.getCurrencyId());
+        }
+        result = result && (hasCustomerCharacteristicValue1() == other.hasCustomerCharacteristicValue1());
+        if (hasCustomerCharacteristicValue1()) {
+          result = result && getCustomerCharacteristicValue1()
+              .equals(other.getCustomerCharacteristicValue1());
+        }
+        result = result && (hasPreciseGrossSum() == other.hasPreciseGrossSum());
+        if (hasPreciseGrossSum()) {
+          result = result && getPreciseGrossSum()
+              .equals(other.getPreciseGrossSum());
+        }
+        result = result && (hasComputedGrossSum() == other.hasComputedGrossSum());
+        if (hasComputedGrossSum()) {
+          result = result && getComputedGrossSum()
+              .equals(other.getComputedGrossSum());
+        }
+        result = result && (hasValidContentNettoSum() == other.hasValidContentNettoSum());
+        if (hasValidContentNettoSum()) {
+          result = result && getValidContentNettoSum()
+              .equals(other.getValidContentNettoSum());
+        }
+        result = result && (hasShippingCost() == other.hasShippingCost());
+        if (hasShippingCost()) {
+          result = result && getShippingCost()
+              .equals(other.getShippingCost());
+        }
+        result = result && (hasCharacVal1RestrByPattern() == other.hasCharacVal1RestrByPattern());
+        if (hasCharacVal1RestrByPattern()) {
+          result = result && getCharacVal1RestrByPattern()
+              .equals(other.getCharacVal1RestrByPattern());
+        }
+        result = result && (hasPaymentTypeId() == other.hasPaymentTypeId());
+        if (hasPaymentTypeId()) {
+          result = result && getPaymentTypeId()
+              .equals(other.getPaymentTypeId());
+        }
+        result = result && (hasPreciseValidContentGrossSum() == other.hasPreciseValidContentGrossSum());
+        if (hasPreciseValidContentGrossSum()) {
+          result = result && getPreciseValidContentGrossSum()
+              .equals(other.getPreciseValidContentGrossSum());
+        }
+        result = result && (hasPreciseComputedNetSum() == other.hasPreciseComputedNetSum());
+        if (hasPreciseComputedNetSum()) {
+          result = result && getPreciseComputedNetSum()
+              .equals(other.getPreciseComputedNetSum());
+        }
+        result = result && (hasOrderState() == other.hasOrderState());
+        if (hasOrderState()) {
+          result = result && getOrderState()
+              .equals(other.getOrderState());
+        }
+        result = result && (hasComputedNetSum() == other.hasComputedNetSum());
+        if (hasComputedNetSum()) {
+          result = result && getComputedNetSum()
+              .equals(other.getComputedNetSum());
+        }
+        result = result && (hasValidContentGrossSum() == other.hasValidContentGrossSum());
+        if (hasValidContentGrossSum()) {
+          result = result && getValidContentGrossSum()
+              .equals(other.getValidContentGrossSum());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasOrderDateAndTime()) {
+          hash = (37 * hash) + ORDER_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderDateAndTime().hashCode();
+        }
+        if (hasPaymentCost()) {
+          hash = (37 * hash) + PAYMENT_COST_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentCost().hashCode();
+        }
+        if (hasDeliveryDateAndTime()) {
+          hash = (37 * hash) + DELIVERY_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getDeliveryDateAndTime().hashCode();
+        }
+        if (hasNetShippingCost()) {
+          hash = (37 * hash) + NET_SHIPPING_COST_FIELD_NUMBER;
+          hash = (53 * hash) + getNetShippingCost().hashCode();
+        }
+        if (hasOrderNo()) {
+          hash = (37 * hash) + ORDER_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderNo().hashCode();
+        }
+        if (hasNettoSum()) {
+          hash = (37 * hash) + NETTO_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getNettoSum().hashCode();
+        }
+        if (hasLastEditedByUserId()) {
+          hash = (37 * hash) + LAST_EDITED_BY_USER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getLastEditedByUserId().hashCode();
+        }
+        if (hasOrderId()) {
+          hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderId().hashCode();
+        }
+        if (hasBruttoSum()) {
+          hash = (37 * hash) + BRUTTO_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getBruttoSum().hashCode();
+        }
+        if (hasPreciseNetShippingCost()) {
+          hash = (37 * hash) + PRECISE_NET_SHIPPING_COST_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseNetShippingCost().hashCode();
+        }
+        if (hasCharacVal2RestrByPattern()) {
+          hash = (37 * hash) + CHARAC_VAL2_RESTR_BY_PATTERN_FIELD_NUMBER;
+          hash = (53 * hash) + getCharacVal2RestrByPattern().hashCode();
+        }
+        if (hasNetSum()) {
+          hash = (37 * hash) + NET_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getNetSum().hashCode();
+        }
+        if (hasValidContentNetSum()) {
+          hash = (37 * hash) + VALID_CONTENT_NET_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getValidContentNetSum().hashCode();
+        }
+        if (hasPreciseValidContentNetSum()) {
+          hash = (37 * hash) + PRECISE_VALID_CONTENT_NET_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseValidContentNetSum().hashCode();
+        }
+        if (hasPersonId()) {
+          hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonId().hashCode();
+        }
+        if (hasPaymentTypeDescription()) {
+          hash = (37 * hash) + PAYMENT_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentTypeDescription().hashCode();
+        }
+        if (hasValidContentBruttoSum()) {
+          hash = (37 * hash) + VALID_CONTENT_BRUTTO_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getValidContentBruttoSum().hashCode();
+        }
+        if (hasPreciseNetSum()) {
+          hash = (37 * hash) + PRECISE_NET_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseNetSum().hashCode();
+        }
+        if (hasPositionCount()) {
+          hash = (37 * hash) + POSITION_COUNT_FIELD_NUMBER;
+          hash = (53 * hash) + getPositionCount().hashCode();
+        }
+        if (hasOrderStateId()) {
+          hash = (37 * hash) + ORDER_STATE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderStateId().hashCode();
+        }
+        if (hasShippingTypeId()) {
+          hash = (37 * hash) + SHIPPING_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getShippingTypeId().hashCode();
+        }
+        if (hasPersonTypeId()) {
+          hash = (37 * hash) + PERSON_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonTypeId().hashCode();
+        }
+        if (hasPreciseComputedGrossSum()) {
+          hash = (37 * hash) + PRECISE_COMPUTED_GROSS_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseComputedGrossSum().hashCode();
+        }
+        if (hasHasValidContents()) {
+          hash = (37 * hash) + HAS_VALID_CONTENTS_FIELD_NUMBER;
+          hash = (53 * hash) + getHasValidContents().hashCode();
+        }
+        if (hasNetPaymentCost()) {
+          hash = (37 * hash) + NET_PAYMENT_COST_FIELD_NUMBER;
+          hash = (53 * hash) + getNetPaymentCost().hashCode();
+        }
+        if (hasDeliveryPersonId()) {
+          hash = (37 * hash) + DELIVERY_PERSON_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getDeliveryPersonId().hashCode();
+        }
+        if (hasShippingTypeDescription()) {
+          hash = (37 * hash) + SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getShippingTypeDescription().hashCode();
+        }
+        if (hasGrossSum()) {
+          hash = (37 * hash) + GROSS_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getGrossSum().hashCode();
+        }
+        if (hasUnitSymbol()) {
+          hash = (37 * hash) + UNIT_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitSymbol().hashCode();
+        }
+        if (hasPreciseNetPaymentCost()) {
+          hash = (37 * hash) + PRECISE_NET_PAYMENT_COST_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseNetPaymentCost().hashCode();
+        }
+        if (hasCustomerCharacteristicValue2()) {
+          hash = (37 * hash) + CUSTOMER_CHARACTERISTIC_VALUE2_FIELD_NUMBER;
+          hash = (53 * hash) + getCustomerCharacteristicValue2().hashCode();
+        }
+        if (hasPublicDescription()) {
+          hash = (37 * hash) + PUBLIC_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getPublicDescription().hashCode();
+        }
+        if (hasCurrencyId()) {
+          hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrencyId().hashCode();
+        }
+        if (hasCustomerCharacteristicValue1()) {
+          hash = (37 * hash) + CUSTOMER_CHARACTERISTIC_VALUE1_FIELD_NUMBER;
+          hash = (53 * hash) + getCustomerCharacteristicValue1().hashCode();
+        }
+        if (hasPreciseGrossSum()) {
+          hash = (37 * hash) + PRECISE_GROSS_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseGrossSum().hashCode();
+        }
+        if (hasComputedGrossSum()) {
+          hash = (37 * hash) + COMPUTED_GROSS_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getComputedGrossSum().hashCode();
+        }
+        if (hasValidContentNettoSum()) {
+          hash = (37 * hash) + VALID_CONTENT_NETTO_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getValidContentNettoSum().hashCode();
+        }
+        if (hasShippingCost()) {
+          hash = (37 * hash) + SHIPPING_COST_FIELD_NUMBER;
+          hash = (53 * hash) + getShippingCost().hashCode();
+        }
+        if (hasCharacVal1RestrByPattern()) {
+          hash = (37 * hash) + CHARAC_VAL1_RESTR_BY_PATTERN_FIELD_NUMBER;
+          hash = (53 * hash) + getCharacVal1RestrByPattern().hashCode();
+        }
+        if (hasPaymentTypeId()) {
+          hash = (37 * hash) + PAYMENT_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPaymentTypeId().hashCode();
+        }
+        if (hasPreciseValidContentGrossSum()) {
+          hash = (37 * hash) + PRECISE_VALID_CONTENT_GROSS_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseValidContentGrossSum().hashCode();
+        }
+        if (hasPreciseComputedNetSum()) {
+          hash = (37 * hash) + PRECISE_COMPUTED_NET_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getPreciseComputedNetSum().hashCode();
+        }
+        if (hasOrderState()) {
+          hash = (37 * hash) + ORDER_STATE_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderState().hashCode();
+        }
+        if (hasComputedNetSum()) {
+          hash = (37 * hash) + COMPUTED_NET_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getComputedNetSum().hashCode();
+        }
+        if (hasValidContentGrossSum()) {
+          hash = (37 * hash) + VALID_CONTENT_GROSS_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getValidContentGrossSum().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -11487,39 +12404,39 @@ public final class OmGetOrdersConditionsAd {
       }
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -11537,7 +12454,7 @@ public final class OmGetOrdersConditionsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -11545,7 +12462,7 @@ public final class OmGetOrdersConditionsAd {
        * Protobuf type {@code dstore.engine.om_GetOrders_Conditions_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetOrders_Conditions_Ad.Response.Row)
           io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -11553,7 +12470,7 @@ public final class OmGetOrdersConditionsAd {
           return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -11566,12 +12483,13 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -12100,6 +13018,32 @@ public final class OmGetOrdersConditionsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row)other);
@@ -12302,7 +13246,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue orderDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderDateAndTimeBuilder_;
         /**
          * <pre>
@@ -12440,11 +13384,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getOrderDateAndTimeFieldBuilder() {
           if (orderDateAndTimeBuilder_ == null) {
-            orderDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getOrderDateAndTime(),
                     getParentForChildren(),
@@ -12455,7 +13399,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue paymentCost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> paymentCostBuilder_;
         /**
          * <pre>
@@ -12593,11 +13537,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPaymentCostFieldBuilder() {
           if (paymentCostBuilder_ == null) {
-            paymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPaymentCost(),
                     getParentForChildren(),
@@ -12608,7 +13552,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue deliveryDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> deliveryDateAndTimeBuilder_;
         /**
          * <pre>
@@ -12746,11 +13690,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDeliveryDateAndTimeFieldBuilder() {
           if (deliveryDateAndTimeBuilder_ == null) {
-            deliveryDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            deliveryDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDeliveryDateAndTime(),
                     getParentForChildren(),
@@ -12761,7 +13705,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue netShippingCost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netShippingCostBuilder_;
         /**
          * <pre>
@@ -12899,11 +13843,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getNetShippingCostFieldBuilder() {
           if (netShippingCostBuilder_ == null) {
-            netShippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            netShippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getNetShippingCost(),
                     getParentForChildren(),
@@ -12914,7 +13858,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue orderNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderNoBuilder_;
         /**
          * <pre>
@@ -13052,11 +13996,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue order_no = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getOrderNoFieldBuilder() {
           if (orderNoBuilder_ == null) {
-            orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getOrderNo(),
                     getParentForChildren(),
@@ -13067,7 +14011,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue nettoSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoSumBuilder_;
         /**
          * <pre>
@@ -13205,11 +14149,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getNettoSumFieldBuilder() {
           if (nettoSumBuilder_ == null) {
-            nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getNettoSum(),
                     getParentForChildren(),
@@ -13220,7 +14164,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue lastEditedByUserId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastEditedByUserIdBuilder_;
         /**
          * <pre>
@@ -13358,11 +14302,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getLastEditedByUserIdFieldBuilder() {
           if (lastEditedByUserIdBuilder_ == null) {
-            lastEditedByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            lastEditedByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getLastEditedByUserId(),
                     getParentForChildren(),
@@ -13373,7 +14317,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue orderId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
          * <pre>
@@ -13511,11 +14455,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue order_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOrderIdFieldBuilder() {
           if (orderIdBuilder_ == null) {
-            orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOrderId(),
                     getParentForChildren(),
@@ -13526,7 +14470,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue bruttoSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoSumBuilder_;
         /**
          * <pre>
@@ -13664,11 +14608,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getBruttoSumFieldBuilder() {
           if (bruttoSumBuilder_ == null) {
-            bruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            bruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getBruttoSum(),
                     getParentForChildren(),
@@ -13679,7 +14623,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseNetShippingCost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetShippingCostBuilder_;
         /**
          * <pre>
@@ -13817,11 +14761,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseNetShippingCostFieldBuilder() {
           if (preciseNetShippingCostBuilder_ == null) {
-            preciseNetShippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseNetShippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseNetShippingCost(),
                     getParentForChildren(),
@@ -13832,7 +14776,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue characVal2RestrByPattern_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characVal2RestrByPatternBuilder_;
         /**
          * <pre>
@@ -13970,11 +14914,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacVal2RestrByPatternFieldBuilder() {
           if (characVal2RestrByPatternBuilder_ == null) {
-            characVal2RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            characVal2RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacVal2RestrByPattern(),
                     getParentForChildren(),
@@ -13985,7 +14929,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue netSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netSumBuilder_;
         /**
          * <pre>
@@ -14123,11 +15067,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getNetSumFieldBuilder() {
           if (netSumBuilder_ == null) {
-            netSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            netSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getNetSum(),
                     getParentForChildren(),
@@ -14138,7 +15082,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue validContentNetSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> validContentNetSumBuilder_;
         /**
          * <pre>
@@ -14276,11 +15220,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue valid_content_net_sum = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getValidContentNetSumFieldBuilder() {
           if (validContentNetSumBuilder_ == null) {
-            validContentNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            validContentNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getValidContentNetSum(),
                     getParentForChildren(),
@@ -14291,7 +15235,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseValidContentNetSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseValidContentNetSumBuilder_;
         /**
          * <pre>
@@ -14429,11 +15373,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_valid_content_net_sum = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseValidContentNetSumFieldBuilder() {
           if (preciseValidContentNetSumBuilder_ == null) {
-            preciseValidContentNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseValidContentNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseValidContentNetSum(),
                     getParentForChildren(),
@@ -14444,7 +15388,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue personId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
@@ -14582,11 +15526,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue person_id = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
-            personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
@@ -14597,7 +15541,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue paymentTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -14735,11 +15679,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue payment_type_description = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPaymentTypeDescriptionFieldBuilder() {
           if (paymentTypeDescriptionBuilder_ == null) {
-            paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPaymentTypeDescription(),
                     getParentForChildren(),
@@ -14750,7 +15694,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue validContentBruttoSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> validContentBruttoSumBuilder_;
         /**
          * <pre>
@@ -14888,11 +15832,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue valid_content_brutto_sum = 10017;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getValidContentBruttoSumFieldBuilder() {
           if (validContentBruttoSumBuilder_ == null) {
-            validContentBruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            validContentBruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getValidContentBruttoSum(),
                     getParentForChildren(),
@@ -14903,7 +15847,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseNetSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetSumBuilder_;
         /**
          * <pre>
@@ -15041,11 +15985,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_net_sum = 10018;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseNetSumFieldBuilder() {
           if (preciseNetSumBuilder_ == null) {
-            preciseNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseNetSum(),
                     getParentForChildren(),
@@ -15056,7 +16000,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue positionCount_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> positionCountBuilder_;
         /**
          * <pre>
@@ -15194,11 +16138,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue position_count = 10019;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPositionCountFieldBuilder() {
           if (positionCountBuilder_ == null) {
-            positionCountBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            positionCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPositionCount(),
                     getParentForChildren(),
@@ -15209,7 +16153,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue orderStateId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateIdBuilder_;
         /**
          * <pre>
@@ -15347,11 +16291,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue order_state_id = 10020;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOrderStateIdFieldBuilder() {
           if (orderStateIdBuilder_ == null) {
-            orderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOrderStateId(),
                     getParentForChildren(),
@@ -15362,7 +16306,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue shippingTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
         /**
          * <pre>
@@ -15500,11 +16444,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue shipping_type_id = 10021;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getShippingTypeIdFieldBuilder() {
           if (shippingTypeIdBuilder_ == null) {
-            shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getShippingTypeId(),
                     getParentForChildren(),
@@ -15515,7 +16459,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue personTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
         /**
          * <pre>
@@ -15653,11 +16597,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue person_type_id = 10022;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonTypeIdFieldBuilder() {
           if (personTypeIdBuilder_ == null) {
-            personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonTypeId(),
                     getParentForChildren(),
@@ -15668,7 +16612,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseComputedGrossSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseComputedGrossSumBuilder_;
         /**
          * <pre>
@@ -15806,11 +16750,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_computed_gross_sum = 10023;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseComputedGrossSumFieldBuilder() {
           if (preciseComputedGrossSumBuilder_ == null) {
-            preciseComputedGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseComputedGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseComputedGrossSum(),
                     getParentForChildren(),
@@ -15821,7 +16765,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.booleanValue hasValidContents_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hasValidContentsBuilder_;
         /**
          * <pre>
@@ -15959,11 +16903,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.booleanValue has_valid_contents = 10024;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getHasValidContentsFieldBuilder() {
           if (hasValidContentsBuilder_ == null) {
-            hasValidContentsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            hasValidContentsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getHasValidContents(),
                     getParentForChildren(),
@@ -15974,7 +16918,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue netPaymentCost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netPaymentCostBuilder_;
         /**
          * <pre>
@@ -16112,11 +17056,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue net_payment_cost = 10025;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getNetPaymentCostFieldBuilder() {
           if (netPaymentCostBuilder_ == null) {
-            netPaymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            netPaymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getNetPaymentCost(),
                     getParentForChildren(),
@@ -16127,7 +17071,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue deliveryPersonId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deliveryPersonIdBuilder_;
         /**
          * <pre>
@@ -16265,11 +17209,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue delivery_person_id = 10026;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getDeliveryPersonIdFieldBuilder() {
           if (deliveryPersonIdBuilder_ == null) {
-            deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getDeliveryPersonId(),
                     getParentForChildren(),
@@ -16280,7 +17224,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue shippingTypeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> shippingTypeDescriptionBuilder_;
         /**
          * <pre>
@@ -16418,11 +17362,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue shipping_type_description = 10027;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getShippingTypeDescriptionFieldBuilder() {
           if (shippingTypeDescriptionBuilder_ == null) {
-            shippingTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            shippingTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getShippingTypeDescription(),
                     getParentForChildren(),
@@ -16433,7 +17377,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue grossSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumBuilder_;
         /**
          * <pre>
@@ -16571,11 +17515,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue gross_sum = 10028;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getGrossSumFieldBuilder() {
           if (grossSumBuilder_ == null) {
-            grossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            grossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getGrossSum(),
                     getParentForChildren(),
@@ -16586,7 +17530,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue unitSymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
          * <pre>
@@ -16724,11 +17668,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue unit_symbol = 10029;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
-            unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
@@ -16739,7 +17683,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseNetPaymentCost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetPaymentCostBuilder_;
         /**
          * <pre>
@@ -16877,11 +17821,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10030;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseNetPaymentCostFieldBuilder() {
           if (preciseNetPaymentCostBuilder_ == null) {
-            preciseNetPaymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseNetPaymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseNetPaymentCost(),
                     getParentForChildren(),
@@ -16892,7 +17836,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue customerCharacteristicValue2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> customerCharacteristicValue2Builder_;
         /**
          * <pre>
@@ -17030,11 +17974,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10031;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCustomerCharacteristicValue2FieldBuilder() {
           if (customerCharacteristicValue2Builder_ == null) {
-            customerCharacteristicValue2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            customerCharacteristicValue2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCustomerCharacteristicValue2(),
                     getParentForChildren(),
@@ -17045,7 +17989,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue publicDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> publicDescriptionBuilder_;
         /**
          * <pre>
@@ -17183,11 +18127,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue public_description = 10032;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPublicDescriptionFieldBuilder() {
           if (publicDescriptionBuilder_ == null) {
-            publicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            publicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPublicDescription(),
                     getParentForChildren(),
@@ -17198,7 +18142,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue currencyId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
@@ -17336,11 +18280,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue currency_id = 10033;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
-            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
@@ -17351,7 +18295,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue customerCharacteristicValue1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> customerCharacteristicValue1Builder_;
         /**
          * <pre>
@@ -17489,11 +18433,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10034;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCustomerCharacteristicValue1FieldBuilder() {
           if (customerCharacteristicValue1Builder_ == null) {
-            customerCharacteristicValue1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            customerCharacteristicValue1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCustomerCharacteristicValue1(),
                     getParentForChildren(),
@@ -17504,7 +18448,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseGrossSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseGrossSumBuilder_;
         /**
          * <pre>
@@ -17642,11 +18586,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_gross_sum = 10035;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseGrossSumFieldBuilder() {
           if (preciseGrossSumBuilder_ == null) {
-            preciseGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseGrossSum(),
                     getParentForChildren(),
@@ -17657,7 +18601,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue computedGrossSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> computedGrossSumBuilder_;
         /**
          * <pre>
@@ -17795,11 +18739,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue computed_gross_sum = 10036;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getComputedGrossSumFieldBuilder() {
           if (computedGrossSumBuilder_ == null) {
-            computedGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            computedGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getComputedGrossSum(),
                     getParentForChildren(),
@@ -17810,7 +18754,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue validContentNettoSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> validContentNettoSumBuilder_;
         /**
          * <pre>
@@ -17948,11 +18892,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue valid_content_netto_sum = 10037;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getValidContentNettoSumFieldBuilder() {
           if (validContentNettoSumBuilder_ == null) {
-            validContentNettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            validContentNettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getValidContentNettoSum(),
                     getParentForChildren(),
@@ -17963,7 +18907,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue shippingCost_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> shippingCostBuilder_;
         /**
          * <pre>
@@ -18101,11 +19045,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue shipping_cost = 10038;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getShippingCostFieldBuilder() {
           if (shippingCostBuilder_ == null) {
-            shippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            shippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getShippingCost(),
                     getParentForChildren(),
@@ -18116,7 +19060,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue characVal1RestrByPattern_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characVal1RestrByPatternBuilder_;
         /**
          * <pre>
@@ -18254,11 +19198,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10039;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCharacVal1RestrByPatternFieldBuilder() {
           if (characVal1RestrByPatternBuilder_ == null) {
-            characVal1RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            characVal1RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCharacVal1RestrByPattern(),
                     getParentForChildren(),
@@ -18269,7 +19213,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.integerValue paymentTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
         /**
          * <pre>
@@ -18407,11 +19351,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.integerValue payment_type_id = 10040;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPaymentTypeIdFieldBuilder() {
           if (paymentTypeIdBuilder_ == null) {
-            paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPaymentTypeId(),
                     getParentForChildren(),
@@ -18422,7 +19366,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseValidContentGrossSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseValidContentGrossSumBuilder_;
         /**
          * <pre>
@@ -18560,11 +19504,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_valid_content_gross_sum = 10041;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseValidContentGrossSumFieldBuilder() {
           if (preciseValidContentGrossSumBuilder_ == null) {
-            preciseValidContentGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseValidContentGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseValidContentGrossSum(),
                     getParentForChildren(),
@@ -18575,7 +19519,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue preciseComputedNetSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseComputedNetSumBuilder_;
         /**
          * <pre>
@@ -18713,11 +19657,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue precise_computed_net_sum = 10042;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPreciseComputedNetSumFieldBuilder() {
           if (preciseComputedNetSumBuilder_ == null) {
-            preciseComputedNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            preciseComputedNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPreciseComputedNetSum(),
                     getParentForChildren(),
@@ -18728,7 +19672,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.stringValue orderState_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateBuilder_;
         /**
          * <pre>
@@ -18866,11 +19810,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.stringValue order_state = 10043;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getOrderStateFieldBuilder() {
           if (orderStateBuilder_ == null) {
-            orderStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getOrderState(),
                     getParentForChildren(),
@@ -18881,7 +19825,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue computedNetSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> computedNetSumBuilder_;
         /**
          * <pre>
@@ -19019,11 +19963,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue computed_net_sum = 10044;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getComputedNetSumFieldBuilder() {
           if (computedNetSumBuilder_ == null) {
-            computedNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            computedNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getComputedNetSum(),
                     getParentForChildren(),
@@ -19034,7 +19978,7 @@ public final class OmGetOrdersConditionsAd {
         }
 
         private io.dstore.Values.decimalValue validContentGrossSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> validContentGrossSumBuilder_;
         /**
          * <pre>
@@ -19172,11 +20116,11 @@ public final class OmGetOrdersConditionsAd {
          *
          * <code>optional .dstore.values.decimalValue valid_content_gross_sum = 10045;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getValidContentGrossSumFieldBuilder() {
           if (validContentGrossSumBuilder_ == null) {
-            validContentGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            validContentGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getValidContentGrossSum(),
                     getParentForChildren(),
@@ -19404,6 +20348,50 @@ public final class OmGetOrdersConditionsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response other = (io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -19427,39 +20415,39 @@ public final class OmGetOrdersConditionsAd {
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -19477,7 +20465,7 @@ public final class OmGetOrdersConditionsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -19485,7 +20473,7 @@ public final class OmGetOrdersConditionsAd {
      * Protobuf type {@code dstore.engine.om_GetOrders_Conditions_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetOrders_Conditions_Ad.Response)
         io.dstore.engine.procedures.OmGetOrdersConditionsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -19493,7 +20481,7 @@ public final class OmGetOrdersConditionsAd {
         return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetOrdersConditionsAd.internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -19506,12 +20494,13 @@ public final class OmGetOrdersConditionsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -19591,6 +20580,32 @@ public final class OmGetOrdersConditionsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response)other);
@@ -19621,7 +20636,7 @@ public final class OmGetOrdersConditionsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -19647,7 +20662,7 @@ public final class OmGetOrdersConditionsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -19673,7 +20688,7 @@ public final class OmGetOrdersConditionsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -19716,7 +20731,7 @@ public final class OmGetOrdersConditionsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -19932,11 +20947,11 @@ public final class OmGetOrdersConditionsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -19956,7 +20971,7 @@ public final class OmGetOrdersConditionsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -20172,11 +21187,11 @@ public final class OmGetOrdersConditionsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -20196,7 +21211,7 @@ public final class OmGetOrdersConditionsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row, io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -20484,11 +21499,11 @@ public final class OmGetOrdersConditionsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row, io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row, io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetOrdersConditionsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -20550,17 +21565,17 @@ public final class OmGetOrdersConditionsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -20742,19 +21757,19 @@ public final class OmGetOrdersConditionsAd {
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_descriptor,
         new java.lang.String[] { "OrderByColumn", "OrderByColumnNull", "CreateValidOrderInfos", "CreateValidOrderInfosNull", "BruttoSum", "BruttoSumNull", "CurrencyId", "CurrencyIdNull", "QuantityForOneOrderContent", "QuantityForOneOrderContentNull", "Combination", "CombinationNull", "FromDate", "FromDateNull", "ToDate", "ToDateNull", "OrderDesc", "OrderDescNull", "DateAndTimeFormat", "DateAndTimeFormatNull", "IncludeTime", "IncludeTimeNull", "GetInfoForValidOrderContent", "GetInfoForValidOrderContentNull", "OrderStateList", "OrderStateListNull", "SkipOHavingDifferentOStates", "SkipOHavingDifferentOStatesNull", "PaymentTypeIdList", "PaymentTypeIdListNull", "ShippingTypeIdList", "ShippingTypeIdListNull", "ShowPersonCharacteristics", "ShowPersonCharacteristicsNull", "ConvertResultToCurrencyId", "ConvertResultToCurrencyIdNull", "ConvertResultToGivenCurrency", "ConvertResultToGivenCurrencyNull", "PurchaseOrder", "PurchaseOrderNull", "InputNestLevelOInfoConds", "InputNestLevelOInfoCondsNull", "ValueSeparatorINOperator", "ValueSeparatorINOperatorNull", "Country", "CountryNull", "LanguageId", "LanguageIdNull", "InputNestLevelOConInfoConds", "InputNestLevelOConInfoCondsNull", "CondsMustBeFulfilledForOConId", "CondsMustBeFulfilledForOConIdNull", "FilterByNodeIdsInOneId", "FilterByNodeIdsInOneIdNull", "GetComputedSum", "GetComputedSumNull", "OnlyValidPosForComputedSum", "OnlyValidPosForComputedSumNull", "OrderSurchIdsForComputedSum", "OrderSurchIdsForComputedSumNull", });
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "OrderDateAndTime", "PaymentCost", "DeliveryDateAndTime", "NetShippingCost", "OrderNo", "NettoSum", "LastEditedByUserId", "OrderId", "BruttoSum", "PreciseNetShippingCost", "CharacVal2RestrByPattern", "NetSum", "ValidContentNetSum", "PreciseValidContentNetSum", "PersonId", "PaymentTypeDescription", "ValidContentBruttoSum", "PreciseNetSum", "PositionCount", "OrderStateId", "ShippingTypeId", "PersonTypeId", "PreciseComputedGrossSum", "HasValidContents", "NetPaymentCost", "DeliveryPersonId", "ShippingTypeDescription", "GrossSum", "UnitSymbol", "PreciseNetPaymentCost", "CustomerCharacteristicValue2", "PublicDescription", "CurrencyId", "CustomerCharacteristicValue1", "PreciseGrossSum", "ComputedGrossSum", "ValidContentNettoSum", "ShippingCost", "CharacVal1RestrByPattern", "PaymentTypeId", "PreciseValidContentGrossSum", "PreciseComputedNetSum", "OrderState", "ComputedNetSum", "ValidContentGrossSum", });
     io.dstore.Values.getDescriptor();

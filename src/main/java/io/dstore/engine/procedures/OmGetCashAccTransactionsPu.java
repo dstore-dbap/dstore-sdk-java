@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetCashAccTransactionsPu {
   private OmGetCashAccTransactionsPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetCashAccTransactions_Pu.Parameters)
@@ -142,11 +148,11 @@ public final class OmGetCashAccTransactionsPu {
    * Protobuf type {@code dstore.engine.om_GetCashAccTransactions_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCashAccTransactions_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class OmGetCashAccTransactionsPu {
       return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class OmGetCashAccTransactionsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters other = (io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPersonIdentificationValues() == other.hasPersonIdentificationValues());
+      if (hasPersonIdentificationValues()) {
+        result = result && getPersonIdentificationValues()
+            .equals(other.getPersonIdentificationValues());
+      }
+      result = result && (getPersonIdentificationValuesNull()
+          == other.getPersonIdentificationValuesNull());
+      result = result && (hasPersonTypeId() == other.hasPersonTypeId());
+      if (hasPersonTypeId()) {
+        result = result && getPersonTypeId()
+            .equals(other.getPersonTypeId());
+      }
+      result = result && (getPersonTypeIdNull()
+          == other.getPersonTypeIdNull());
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasCashAccountTypeId() == other.hasCashAccountTypeId());
+      if (hasCashAccountTypeId()) {
+        result = result && getCashAccountTypeId()
+            .equals(other.getCashAccountTypeId());
+      }
+      result = result && (getCashAccountTypeIdNull()
+          == other.getCashAccountTypeIdNull());
+      result = result && (hasSeparatorInIdentVals() == other.hasSeparatorInIdentVals());
+      if (hasSeparatorInIdentVals()) {
+        result = result && getSeparatorInIdentVals()
+            .equals(other.getSeparatorInIdentVals());
+      }
+      result = result && (getSeparatorInIdentValsNull()
+          == other.getSeparatorInIdentValsNull());
+      result = result && (hasAccountBalance() == other.hasAccountBalance());
+      if (hasAccountBalance()) {
+        result = result && getAccountBalance()
+            .equals(other.getAccountBalance());
+      }
+      result = result && (getAccountBalanceNull()
+          == other.getAccountBalanceNull());
+      result = result && (hasOnlyTransactionsSince() == other.hasOnlyTransactionsSince());
+      if (hasOnlyTransactionsSince()) {
+        result = result && getOnlyTransactionsSince()
+            .equals(other.getOnlyTransactionsSince());
+      }
+      result = result && (getOnlyTransactionsSinceNull()
+          == other.getOnlyTransactionsSinceNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPersonIdentificationValues()) {
+        hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonIdentificationValues().hashCode();
+      }
+      hash = (37 * hash) + PERSON_IDENTIFICATION_VALUES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdentificationValuesNull());
+      if (hasPersonTypeId()) {
+        hash = (37 * hash) + PERSON_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonTypeId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonTypeIdNull());
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasCashAccountTypeId()) {
+        hash = (37 * hash) + CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCashAccountTypeId().hashCode();
+      }
+      hash = (37 * hash) + CASH_ACCOUNT_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCashAccountTypeIdNull());
+      if (hasSeparatorInIdentVals()) {
+        hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER;
+        hash = (53 * hash) + getSeparatorInIdentVals().hashCode();
+      }
+      hash = (37 * hash) + SEPARATOR_IN_IDENT_VALS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSeparatorInIdentValsNull());
+      if (hasAccountBalance()) {
+        hash = (37 * hash) + ACCOUNT_BALANCE_FIELD_NUMBER;
+        hash = (53 * hash) + getAccountBalance().hashCode();
+      }
+      hash = (37 * hash) + ACCOUNT_BALANCE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAccountBalanceNull());
+      if (hasOnlyTransactionsSince()) {
+        hash = (37 * hash) + ONLY_TRANSACTIONS_SINCE_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyTransactionsSince().hashCode();
+      }
+      hash = (37 * hash) + ONLY_TRANSACTIONS_SINCE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyTransactionsSinceNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class OmGetCashAccTransactionsPu {
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class OmGetCashAccTransactionsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class OmGetCashAccTransactionsPu {
      * Protobuf type {@code dstore.engine.om_GetCashAccTransactions_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCashAccTransactions_Pu.Parameters)
         io.dstore.engine.procedures.OmGetCashAccTransactionsPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class OmGetCashAccTransactionsPu {
         return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class OmGetCashAccTransactionsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Parameters)other);
@@ -981,7 +1138,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.stringValue personIdentificationValues_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
@@ -1083,11 +1240,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
-          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.integerValue personTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
@@ -1226,11 +1383,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
-          personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 3;</code>
@@ -1369,11 +1526,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.integerValue cashAccountTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cashAccountTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue cash_account_type_id = 4;</code>
@@ -1512,11 +1669,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.integerValue cash_account_type_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCashAccountTypeIdFieldBuilder() {
         if (cashAccountTypeIdBuilder_ == null) {
-          cashAccountTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          cashAccountTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCashAccountTypeId(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.stringValue separatorInIdentVals_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
@@ -1655,11 +1812,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
-          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.decimalValue accountBalance_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> accountBalanceBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
@@ -1798,11 +1955,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.decimalValue account_balance = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getAccountBalanceFieldBuilder() {
         if (accountBalanceBuilder_ == null) {
-          accountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          accountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getAccountBalance(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.timestampValue onlyTransactionsSince_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> onlyTransactionsSinceBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
@@ -1941,11 +2098,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.timestampValue only_transactions_since = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getOnlyTransactionsSinceFieldBuilder() {
         if (onlyTransactionsSinceBuilder_ == null) {
-          onlyTransactionsSinceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyTransactionsSinceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getOnlyTransactionsSince(),
                   getParentForChildren(),
@@ -2122,11 +2279,11 @@ public final class OmGetCashAccTransactionsPu {
    * Protobuf type {@code dstore.engine.om_GetCashAccTransactions_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCashAccTransactions_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2165,7 +2322,8 @@ public final class OmGetCashAccTransactionsPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2173,7 +2331,8 @@ public final class OmGetCashAccTransactionsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2181,7 +2340,8 @@ public final class OmGetCashAccTransactionsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2222,7 +2382,7 @@ public final class OmGetCashAccTransactionsPu {
       return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2467,11 +2627,11 @@ public final class OmGetCashAccTransactionsPu {
      * Protobuf type {@code dstore.engine.om_GetCashAccTransactions_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCashAccTransactions_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2641,7 +2801,7 @@ public final class OmGetCashAccTransactionsPu {
         return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3048,6 +3208,117 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row other = (io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTransactionType() == other.hasTransactionType());
+        if (hasTransactionType()) {
+          result = result && getTransactionType()
+              .equals(other.getTransactionType());
+        }
+        result = result && (hasPersonId() == other.hasPersonId());
+        if (hasPersonId()) {
+          result = result && getPersonId()
+              .equals(other.getPersonId());
+        }
+        result = result && (hasTransactionDateAndTime() == other.hasTransactionDateAndTime());
+        if (hasTransactionDateAndTime()) {
+          result = result && getTransactionDateAndTime()
+              .equals(other.getTransactionDateAndTime());
+        }
+        result = result && (hasTransactionValue() == other.hasTransactionValue());
+        if (hasTransactionValue()) {
+          result = result && getTransactionValue()
+              .equals(other.getTransactionValue());
+        }
+        result = result && (hasTransactionComment() == other.hasTransactionComment());
+        if (hasTransactionComment()) {
+          result = result && getTransactionComment()
+              .equals(other.getTransactionComment());
+        }
+        result = result && (hasTransactionTypeId() == other.hasTransactionTypeId());
+        if (hasTransactionTypeId()) {
+          result = result && getTransactionTypeId()
+              .equals(other.getTransactionTypeId());
+        }
+        result = result && (hasCashAccountTypeId() == other.hasCashAccountTypeId());
+        if (hasCashAccountTypeId()) {
+          result = result && getCashAccountTypeId()
+              .equals(other.getCashAccountTypeId());
+        }
+        result = result && (hasSuspendedUntil() == other.hasSuspendedUntil());
+        if (hasSuspendedUntil()) {
+          result = result && getSuspendedUntil()
+              .equals(other.getSuspendedUntil());
+        }
+        result = result && (hasTransactionId() == other.hasTransactionId());
+        if (hasTransactionId()) {
+          result = result && getTransactionId()
+              .equals(other.getTransactionId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTransactionType()) {
+          hash = (37 * hash) + TRANSACTION_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getTransactionType().hashCode();
+        }
+        if (hasPersonId()) {
+          hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonId().hashCode();
+        }
+        if (hasTransactionDateAndTime()) {
+          hash = (37 * hash) + TRANSACTION_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getTransactionDateAndTime().hashCode();
+        }
+        if (hasTransactionValue()) {
+          hash = (37 * hash) + TRANSACTION_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getTransactionValue().hashCode();
+        }
+        if (hasTransactionComment()) {
+          hash = (37 * hash) + TRANSACTION_COMMENT_FIELD_NUMBER;
+          hash = (53 * hash) + getTransactionComment().hashCode();
+        }
+        if (hasTransactionTypeId()) {
+          hash = (37 * hash) + TRANSACTION_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTransactionTypeId().hashCode();
+        }
+        if (hasCashAccountTypeId()) {
+          hash = (37 * hash) + CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCashAccountTypeId().hashCode();
+        }
+        if (hasSuspendedUntil()) {
+          hash = (37 * hash) + SUSPENDED_UNTIL_FIELD_NUMBER;
+          hash = (53 * hash) + getSuspendedUntil().hashCode();
+        }
+        if (hasTransactionId()) {
+          hash = (37 * hash) + TRANSACTION_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTransactionId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3071,39 +3342,39 @@ public final class OmGetCashAccTransactionsPu {
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3121,7 +3392,7 @@ public final class OmGetCashAccTransactionsPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3129,7 +3400,7 @@ public final class OmGetCashAccTransactionsPu {
        * Protobuf type {@code dstore.engine.om_GetCashAccTransactions_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCashAccTransactions_Pu.Response.Row)
           io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3137,7 +3408,7 @@ public final class OmGetCashAccTransactionsPu {
           return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3150,12 +3421,13 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3288,6 +3560,32 @@ public final class OmGetCashAccTransactionsPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row)other);
@@ -3382,7 +3680,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.stringValue transactionType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> transactionTypeBuilder_;
         /**
          * <pre>
@@ -3520,11 +3818,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.stringValue transaction_type = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTransactionTypeFieldBuilder() {
           if (transactionTypeBuilder_ == null) {
-            transactionTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            transactionTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTransactionType(),
                     getParentForChildren(),
@@ -3535,7 +3833,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.integerValue personId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
@@ -3673,11 +3971,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.integerValue person_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
-            personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
@@ -3688,7 +3986,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.timestampValue transactionDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> transactionDateAndTimeBuilder_;
         /**
          * <pre>
@@ -3826,11 +4124,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.timestampValue transaction_date_and_time = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getTransactionDateAndTimeFieldBuilder() {
           if (transactionDateAndTimeBuilder_ == null) {
-            transactionDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            transactionDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getTransactionDateAndTime(),
                     getParentForChildren(),
@@ -3841,7 +4139,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.decimalValue transactionValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> transactionValueBuilder_;
         /**
          * <pre>
@@ -3979,11 +4277,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.decimalValue transaction_value = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getTransactionValueFieldBuilder() {
           if (transactionValueBuilder_ == null) {
-            transactionValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            transactionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getTransactionValue(),
                     getParentForChildren(),
@@ -3994,7 +4292,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.stringValue transactionComment_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> transactionCommentBuilder_;
         /**
          * <pre>
@@ -4132,11 +4430,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.stringValue transaction_comment = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getTransactionCommentFieldBuilder() {
           if (transactionCommentBuilder_ == null) {
-            transactionCommentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            transactionCommentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getTransactionComment(),
                     getParentForChildren(),
@@ -4147,7 +4445,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.integerValue transactionTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> transactionTypeIdBuilder_;
         /**
          * <pre>
@@ -4285,11 +4583,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.integerValue transaction_type_id = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTransactionTypeIdFieldBuilder() {
           if (transactionTypeIdBuilder_ == null) {
-            transactionTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            transactionTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTransactionTypeId(),
                     getParentForChildren(),
@@ -4300,7 +4598,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.integerValue cashAccountTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cashAccountTypeIdBuilder_;
         /**
          * <pre>
@@ -4438,11 +4736,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.integerValue cash_account_type_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCashAccountTypeIdFieldBuilder() {
           if (cashAccountTypeIdBuilder_ == null) {
-            cashAccountTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            cashAccountTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCashAccountTypeId(),
                     getParentForChildren(),
@@ -4453,7 +4751,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.timestampValue suspendedUntil_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> suspendedUntilBuilder_;
         /**
          * <pre>
@@ -4591,11 +4889,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.timestampValue suspended_until = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getSuspendedUntilFieldBuilder() {
           if (suspendedUntilBuilder_ == null) {
-            suspendedUntilBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            suspendedUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getSuspendedUntil(),
                     getParentForChildren(),
@@ -4606,7 +4904,7 @@ public final class OmGetCashAccTransactionsPu {
         }
 
         private io.dstore.Values.integerValue transactionId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> transactionIdBuilder_;
         /**
          * <pre>
@@ -4744,11 +5042,11 @@ public final class OmGetCashAccTransactionsPu {
          *
          * <code>optional .dstore.values.integerValue transaction_id = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTransactionIdFieldBuilder() {
           if (transactionIdBuilder_ == null) {
-            transactionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            transactionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTransactionId(),
                     getParentForChildren(),
@@ -4985,6 +5283,59 @@ public final class OmGetCashAccTransactionsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response other = (io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasAccountBalance() == other.hasAccountBalance());
+      if (hasAccountBalance()) {
+        result = result && getAccountBalance()
+            .equals(other.getAccountBalance());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasAccountBalance()) {
+        hash = (37 * hash) + ACCOUNT_BALANCE_FIELD_NUMBER;
+        hash = (53 * hash) + getAccountBalance().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5008,39 +5359,39 @@ public final class OmGetCashAccTransactionsPu {
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -5058,7 +5409,7 @@ public final class OmGetCashAccTransactionsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -5066,7 +5417,7 @@ public final class OmGetCashAccTransactionsPu {
      * Protobuf type {@code dstore.engine.om_GetCashAccTransactions_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCashAccTransactions_Pu.Response)
         io.dstore.engine.procedures.OmGetCashAccTransactionsPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -5074,7 +5425,7 @@ public final class OmGetCashAccTransactionsPu {
         return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCashAccTransactionsPu.internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5087,12 +5438,13 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -5185,6 +5537,32 @@ public final class OmGetCashAccTransactionsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response)other);
@@ -5215,7 +5593,7 @@ public final class OmGetCashAccTransactionsPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -5241,7 +5619,7 @@ public final class OmGetCashAccTransactionsPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -5267,7 +5645,7 @@ public final class OmGetCashAccTransactionsPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5313,7 +5691,7 @@ public final class OmGetCashAccTransactionsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5529,11 +5907,11 @@ public final class OmGetCashAccTransactionsPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5553,7 +5931,7 @@ public final class OmGetCashAccTransactionsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5769,11 +6147,11 @@ public final class OmGetCashAccTransactionsPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5793,7 +6171,7 @@ public final class OmGetCashAccTransactionsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row, io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -6009,11 +6387,11 @@ public final class OmGetCashAccTransactionsPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row, io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row, io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetCashAccTransactionsPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -6025,7 +6403,7 @@ public final class OmGetCashAccTransactionsPu {
       }
 
       private io.dstore.Values.decimalValue accountBalance_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> accountBalanceBuilder_;
       /**
        * <code>optional .dstore.values.decimalValue account_balance = 101;</code>
@@ -6127,11 +6505,11 @@ public final class OmGetCashAccTransactionsPu {
       /**
        * <code>optional .dstore.values.decimalValue account_balance = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
           getAccountBalanceFieldBuilder() {
         if (accountBalanceBuilder_ == null) {
-          accountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          accountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                   getAccountBalance(),
                   getParentForChildren(),
@@ -6192,17 +6570,17 @@ public final class OmGetCashAccTransactionsPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -6276,19 +6654,19 @@ public final class OmGetCashAccTransactionsPu {
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Parameters_descriptor,
         new java.lang.String[] { "PersonIdentificationValues", "PersonIdentificationValuesNull", "PersonTypeId", "PersonTypeIdNull", "UniqueId", "UniqueIdNull", "CashAccountTypeId", "CashAccountTypeIdNull", "SeparatorInIdentVals", "SeparatorInIdentValsNull", "AccountBalance", "AccountBalanceNull", "OnlyTransactionsSince", "OnlyTransactionsSinceNull", });
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "AccountBalance", });
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCashAccTransactions_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TransactionType", "PersonId", "TransactionDateAndTime", "TransactionValue", "TransactionComment", "TransactionTypeId", "CashAccountTypeId", "SuspendedUntil", "TransactionId", });
     io.dstore.Values.getDescriptor();

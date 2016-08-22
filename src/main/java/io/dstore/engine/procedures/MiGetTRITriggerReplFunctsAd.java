@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetTRITriggerReplFunctsAd {
   private MiGetTRITriggerReplFunctsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Parameters)
@@ -70,11 +76,11 @@ public final class MiGetTRITriggerReplFunctsAd {
    * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -178,7 +184,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -341,6 +347,74 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters other = (io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasTriggerId() == other.hasTriggerId());
+      if (hasTriggerId()) {
+        result = result && getTriggerId()
+            .equals(other.getTriggerId());
+      }
+      result = result && (getTriggerIdNull()
+          == other.getTriggerIdNull());
+      result = result && (hasFunctionDefinitionLIKE() == other.hasFunctionDefinitionLIKE());
+      if (hasFunctionDefinitionLIKE()) {
+        result = result && getFunctionDefinitionLIKE()
+            .equals(other.getFunctionDefinitionLIKE());
+      }
+      result = result && (getFunctionDefinitionLIKENull()
+          == other.getFunctionDefinitionLIKENull());
+      result = result && (hasReplacementFunction() == other.hasReplacementFunction());
+      if (hasReplacementFunction()) {
+        result = result && getReplacementFunction()
+            .equals(other.getReplacementFunction());
+      }
+      result = result && (getReplacementFunctionNull()
+          == other.getReplacementFunctionNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasTriggerId()) {
+        hash = (37 * hash) + TRIGGER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getTriggerId().hashCode();
+      }
+      hash = (37 * hash) + TRIGGER_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getTriggerIdNull());
+      if (hasFunctionDefinitionLIKE()) {
+        hash = (37 * hash) + FUNCTION_DEFINITION_L_I_K_E_FIELD_NUMBER;
+        hash = (53 * hash) + getFunctionDefinitionLIKE().hashCode();
+      }
+      hash = (37 * hash) + FUNCTION_DEFINITION_L_I_K_E_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFunctionDefinitionLIKENull());
+      if (hasReplacementFunction()) {
+        hash = (37 * hash) + REPLACEMENT_FUNCTION_FIELD_NUMBER;
+        hash = (53 * hash) + getReplacementFunction().hashCode();
+      }
+      hash = (37 * hash) + REPLACEMENT_FUNCTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getReplacementFunctionNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -364,39 +438,39 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -414,7 +488,7 @@ public final class MiGetTRITriggerReplFunctsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -422,7 +496,7 @@ public final class MiGetTRITriggerReplFunctsAd {
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Parameters)
         io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -430,7 +504,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -443,12 +517,13 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -521,6 +596,32 @@ public final class MiGetTRITriggerReplFunctsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Parameters)other);
@@ -577,7 +678,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       private io.dstore.Values.integerValue triggerId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
@@ -679,11 +780,11 @@ public final class MiGetTRITriggerReplFunctsAd {
       /**
        * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
-          triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
@@ -720,7 +821,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       private io.dstore.Values.stringValue functionDefinitionLIKE_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> functionDefinitionLIKEBuilder_;
       /**
        * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
@@ -822,11 +923,11 @@ public final class MiGetTRITriggerReplFunctsAd {
       /**
        * <code>optional .dstore.values.stringValue function_definition_l_i_k_e = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getFunctionDefinitionLIKEFieldBuilder() {
         if (functionDefinitionLIKEBuilder_ == null) {
-          functionDefinitionLIKEBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          functionDefinitionLIKEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getFunctionDefinitionLIKE(),
                   getParentForChildren(),
@@ -863,7 +964,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       private io.dstore.Values.stringValue replacementFunction_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> replacementFunctionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
@@ -965,11 +1066,11 @@ public final class MiGetTRITriggerReplFunctsAd {
       /**
        * <code>optional .dstore.values.stringValue replacement_function = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getReplacementFunctionFieldBuilder() {
         if (replacementFunctionBuilder_ == null) {
-          replacementFunctionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          replacementFunctionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getReplacementFunction(),
                   getParentForChildren(),
@@ -1153,11 +1254,11 @@ public final class MiGetTRITriggerReplFunctsAd {
    * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1196,7 +1297,8 @@ public final class MiGetTRITriggerReplFunctsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1204,7 +1306,8 @@ public final class MiGetTRITriggerReplFunctsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1212,7 +1315,8 @@ public final class MiGetTRITriggerReplFunctsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1240,7 +1344,7 @@ public final class MiGetTRITriggerReplFunctsAd {
       return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1335,11 +1439,11 @@ public final class MiGetTRITriggerReplFunctsAd {
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1431,7 +1535,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1598,6 +1702,63 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row other = (io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasDescription() == other.hasDescription());
+        if (hasDescription()) {
+          result = result && getDescription()
+              .equals(other.getDescription());
+        }
+        result = result && (hasFunctionDefinition() == other.hasFunctionDefinition());
+        if (hasFunctionDefinition()) {
+          result = result && getFunctionDefinition()
+              .equals(other.getFunctionDefinition());
+        }
+        result = result && (hasReplaceString() == other.hasReplaceString());
+        if (hasReplaceString()) {
+          result = result && getReplaceString()
+              .equals(other.getReplaceString());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasDescription()) {
+          hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getDescription().hashCode();
+        }
+        if (hasFunctionDefinition()) {
+          hash = (37 * hash) + FUNCTION_DEFINITION_FIELD_NUMBER;
+          hash = (53 * hash) + getFunctionDefinition().hashCode();
+        }
+        if (hasReplaceString()) {
+          hash = (37 * hash) + REPLACE_STRING_FIELD_NUMBER;
+          hash = (53 * hash) + getReplaceString().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1621,39 +1782,39 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -1671,7 +1832,7 @@ public final class MiGetTRITriggerReplFunctsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -1679,7 +1840,7 @@ public final class MiGetTRITriggerReplFunctsAd {
        * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response.Row)
           io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -1687,7 +1848,7 @@ public final class MiGetTRITriggerReplFunctsAd {
           return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -1700,12 +1861,13 @@ public final class MiGetTRITriggerReplFunctsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -1772,6 +1934,32 @@ public final class MiGetTRITriggerReplFunctsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row)other);
@@ -1848,7 +2036,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         }
 
         private io.dstore.Values.stringValue description_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
@@ -1986,11 +2174,11 @@ public final class MiGetTRITriggerReplFunctsAd {
          *
          * <code>optional .dstore.values.stringValue description = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
-            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
@@ -2001,7 +2189,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         }
 
         private io.dstore.Values.stringValue functionDefinition_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> functionDefinitionBuilder_;
         /**
          * <pre>
@@ -2139,11 +2327,11 @@ public final class MiGetTRITriggerReplFunctsAd {
          *
          * <code>optional .dstore.values.stringValue function_definition = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getFunctionDefinitionFieldBuilder() {
           if (functionDefinitionBuilder_ == null) {
-            functionDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            functionDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getFunctionDefinition(),
                     getParentForChildren(),
@@ -2154,7 +2342,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         }
 
         private io.dstore.Values.stringValue replaceString_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> replaceStringBuilder_;
         /**
          * <pre>
@@ -2292,11 +2480,11 @@ public final class MiGetTRITriggerReplFunctsAd {
          *
          * <code>optional .dstore.values.stringValue replace_string = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getReplaceStringFieldBuilder() {
           if (replaceStringBuilder_ == null) {
-            replaceStringBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            replaceStringBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getReplaceString(),
                     getParentForChildren(),
@@ -2524,6 +2712,50 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response other = (io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2547,39 +2779,39 @@ public final class MiGetTRITriggerReplFunctsAd {
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -2597,7 +2829,7 @@ public final class MiGetTRITriggerReplFunctsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -2605,7 +2837,7 @@ public final class MiGetTRITriggerReplFunctsAd {
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetTRITriggerReplFuncts_Ad.Response)
         io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -2613,7 +2845,7 @@ public final class MiGetTRITriggerReplFunctsAd {
         return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2626,12 +2858,13 @@ public final class MiGetTRITriggerReplFunctsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -2711,6 +2944,32 @@ public final class MiGetTRITriggerReplFunctsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response)other);
@@ -2741,7 +3000,7 @@ public final class MiGetTRITriggerReplFunctsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -2767,7 +3026,7 @@ public final class MiGetTRITriggerReplFunctsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -2793,7 +3052,7 @@ public final class MiGetTRITriggerReplFunctsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -2836,7 +3095,7 @@ public final class MiGetTRITriggerReplFunctsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -3052,11 +3311,11 @@ public final class MiGetTRITriggerReplFunctsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -3076,7 +3335,7 @@ public final class MiGetTRITriggerReplFunctsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -3292,11 +3551,11 @@ public final class MiGetTRITriggerReplFunctsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -3316,7 +3575,7 @@ public final class MiGetTRITriggerReplFunctsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row, io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -3604,11 +3863,11 @@ public final class MiGetTRITriggerReplFunctsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row, io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row, io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.Row.Builder, io.dstore.engine.procedures.MiGetTRITriggerReplFunctsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -3670,17 +3929,17 @@ public final class MiGetTRITriggerReplFunctsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -3735,19 +3994,19 @@ public final class MiGetTRITriggerReplFunctsAd {
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Parameters_descriptor,
         new java.lang.String[] { "TriggerId", "TriggerIdNull", "FunctionDefinitionLIKE", "FunctionDefinitionLIKENull", "ReplacementFunction", "ReplacementFunctionNull", });
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerReplFuncts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "FunctionDefinition", "ReplaceString", });
     io.dstore.Values.getDescriptor();

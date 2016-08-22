@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImModifyConditionPartsAd {
   private ImModifyConditionPartsAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_ModifyConditionParts_Ad.Parameters)
@@ -268,11 +274,11 @@ public final class ImModifyConditionPartsAd {
    * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyConditionParts_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -585,7 +591,7 @@ public final class ImModifyConditionPartsAd {
       return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1232,6 +1238,228 @@ public final class ImModifyConditionPartsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters other = (io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasConditionPartId() == other.hasConditionPartId());
+      if (hasConditionPartId()) {
+        result = result && getConditionPartId()
+            .equals(other.getConditionPartId());
+      }
+      result = result && (getConditionPartIdNull()
+          == other.getConditionPartIdNull());
+      result = result && (hasConditionPartDescription() == other.hasConditionPartDescription());
+      if (hasConditionPartDescription()) {
+        result = result && getConditionPartDescription()
+            .equals(other.getConditionPartDescription());
+      }
+      result = result && (getConditionPartDescriptionNull()
+          == other.getConditionPartDescriptionNull());
+      result = result && (hasLevelIds() == other.hasLevelIds());
+      if (hasLevelIds()) {
+        result = result && getLevelIds()
+            .equals(other.getLevelIds());
+      }
+      result = result && (getLevelIdsNull()
+          == other.getLevelIdsNull());
+      result = result && (hasDomainTreeNodeIds() == other.hasDomainTreeNodeIds());
+      if (hasDomainTreeNodeIds()) {
+        result = result && getDomainTreeNodeIds()
+            .equals(other.getDomainTreeNodeIds());
+      }
+      result = result && (getDomainTreeNodeIdsNull()
+          == other.getDomainTreeNodeIdsNull());
+      result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+      if (hasNodeCharacteristicId()) {
+        result = result && getNodeCharacteristicId()
+            .equals(other.getNodeCharacteristicId());
+      }
+      result = result && (getNodeCharacteristicIdNull()
+          == other.getNodeCharacteristicIdNull());
+      result = result && (hasOperator1() == other.hasOperator1());
+      if (hasOperator1()) {
+        result = result && getOperator1()
+            .equals(other.getOperator1());
+      }
+      result = result && (getOperator1Null()
+          == other.getOperator1Null());
+      result = result && (hasCondition1() == other.hasCondition1());
+      if (hasCondition1()) {
+        result = result && getCondition1()
+            .equals(other.getCondition1());
+      }
+      result = result && (getCondition1Null()
+          == other.getCondition1Null());
+      result = result && (hasOperator2() == other.hasOperator2());
+      if (hasOperator2()) {
+        result = result && getOperator2()
+            .equals(other.getOperator2());
+      }
+      result = result && (getOperator2Null()
+          == other.getOperator2Null());
+      result = result && (hasCondition2() == other.hasCondition2());
+      if (hasCondition2()) {
+        result = result && getCondition2()
+            .equals(other.getCondition2());
+      }
+      result = result && (getCondition2Null()
+          == other.getCondition2Null());
+      result = result && (hasInheritDepth() == other.hasInheritDepth());
+      if (hasInheritDepth()) {
+        result = result && getInheritDepth()
+            .equals(other.getInheritDepth());
+      }
+      result = result && (getInheritDepthNull()
+          == other.getInheritDepthNull());
+      result = result && (hasRecursiveEvaluation() == other.hasRecursiveEvaluation());
+      if (hasRecursiveEvaluation()) {
+        result = result && getRecursiveEvaluation()
+            .equals(other.getRecursiveEvaluation());
+      }
+      result = result && (getRecursiveEvaluationNull()
+          == other.getRecursiveEvaluationNull());
+      result = result && (hasDeleteConditionPart() == other.hasDeleteConditionPart());
+      if (hasDeleteConditionPart()) {
+        result = result && getDeleteConditionPart()
+            .equals(other.getDeleteConditionPart());
+      }
+      result = result && (getDeleteConditionPartNull()
+          == other.getDeleteConditionPartNull());
+      result = result && (hasCountry() == other.hasCountry());
+      if (hasCountry()) {
+        result = result && getCountry()
+            .equals(other.getCountry());
+      }
+      result = result && (getCountryNull()
+          == other.getCountryNull());
+      result = result && (hasConditionPartIdWithSameConfig() == other.hasConditionPartIdWithSameConfig());
+      if (hasConditionPartIdWithSameConfig()) {
+        result = result && getConditionPartIdWithSameConfig()
+            .equals(other.getConditionPartIdWithSameConfig());
+      }
+      result = result && (getConditionPartIdWithSameConfigNull()
+          == other.getConditionPartIdWithSameConfigNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasConditionPartId()) {
+        hash = (37 * hash) + CONDITION_PART_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionPartId().hashCode();
+      }
+      hash = (37 * hash) + CONDITION_PART_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConditionPartIdNull());
+      if (hasConditionPartDescription()) {
+        hash = (37 * hash) + CONDITION_PART_DESCRIPTION_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionPartDescription().hashCode();
+      }
+      hash = (37 * hash) + CONDITION_PART_DESCRIPTION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConditionPartDescriptionNull());
+      if (hasLevelIds()) {
+        hash = (37 * hash) + LEVEL_IDS_FIELD_NUMBER;
+        hash = (53 * hash) + getLevelIds().hashCode();
+      }
+      hash = (37 * hash) + LEVEL_IDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getLevelIdsNull());
+      if (hasDomainTreeNodeIds()) {
+        hash = (37 * hash) + DOMAIN_TREE_NODE_IDS_FIELD_NUMBER;
+        hash = (53 * hash) + getDomainTreeNodeIds().hashCode();
+      }
+      hash = (37 * hash) + DOMAIN_TREE_NODE_IDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDomainTreeNodeIdsNull());
+      if (hasNodeCharacteristicId()) {
+        hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacteristicIdNull());
+      if (hasOperator1()) {
+        hash = (37 * hash) + OPERATOR1_FIELD_NUMBER;
+        hash = (53 * hash) + getOperator1().hashCode();
+      }
+      hash = (37 * hash) + OPERATOR1_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOperator1Null());
+      if (hasCondition1()) {
+        hash = (37 * hash) + CONDITION1_FIELD_NUMBER;
+        hash = (53 * hash) + getCondition1().hashCode();
+      }
+      hash = (37 * hash) + CONDITION1_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCondition1Null());
+      if (hasOperator2()) {
+        hash = (37 * hash) + OPERATOR2_FIELD_NUMBER;
+        hash = (53 * hash) + getOperator2().hashCode();
+      }
+      hash = (37 * hash) + OPERATOR2_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOperator2Null());
+      if (hasCondition2()) {
+        hash = (37 * hash) + CONDITION2_FIELD_NUMBER;
+        hash = (53 * hash) + getCondition2().hashCode();
+      }
+      hash = (37 * hash) + CONDITION2_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCondition2Null());
+      if (hasInheritDepth()) {
+        hash = (37 * hash) + INHERIT_DEPTH_FIELD_NUMBER;
+        hash = (53 * hash) + getInheritDepth().hashCode();
+      }
+      hash = (37 * hash) + INHERIT_DEPTH_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInheritDepthNull());
+      if (hasRecursiveEvaluation()) {
+        hash = (37 * hash) + RECURSIVE_EVALUATION_FIELD_NUMBER;
+        hash = (53 * hash) + getRecursiveEvaluation().hashCode();
+      }
+      hash = (37 * hash) + RECURSIVE_EVALUATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRecursiveEvaluationNull());
+      if (hasDeleteConditionPart()) {
+        hash = (37 * hash) + DELETE_CONDITION_PART_FIELD_NUMBER;
+        hash = (53 * hash) + getDeleteConditionPart().hashCode();
+      }
+      hash = (37 * hash) + DELETE_CONDITION_PART_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeleteConditionPartNull());
+      if (hasCountry()) {
+        hash = (37 * hash) + COUNTRY_FIELD_NUMBER;
+        hash = (53 * hash) + getCountry().hashCode();
+      }
+      hash = (37 * hash) + COUNTRY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCountryNull());
+      if (hasConditionPartIdWithSameConfig()) {
+        hash = (37 * hash) + CONDITION_PART_ID_WITH_SAME_CONFIG_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionPartIdWithSameConfig().hashCode();
+      }
+      hash = (37 * hash) + CONDITION_PART_ID_WITH_SAME_CONFIG_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getConditionPartIdWithSameConfigNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1255,39 +1483,39 @@ public final class ImModifyConditionPartsAd {
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1305,7 +1533,7 @@ public final class ImModifyConditionPartsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1313,7 +1541,7 @@ public final class ImModifyConditionPartsAd {
      * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_ModifyConditionParts_Ad.Parameters)
         io.dstore.engine.procedures.ImModifyConditionPartsAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1321,7 +1549,7 @@ public final class ImModifyConditionPartsAd {
         return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1334,12 +1562,13 @@ public final class ImModifyConditionPartsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1566,6 +1795,32 @@ public final class ImModifyConditionPartsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImModifyConditionPartsAd.Parameters)other);
@@ -1688,7 +1943,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue conditionPartId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
@@ -1790,11 +2045,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionPartIdFieldBuilder() {
         if (conditionPartIdBuilder_ == null) {
-          conditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionPartId(),
                   getParentForChildren(),
@@ -1831,7 +2086,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue conditionPartDescription_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionPartDescriptionBuilder_;
       /**
        * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
@@ -1933,11 +2188,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getConditionPartDescriptionFieldBuilder() {
         if (conditionPartDescriptionBuilder_ == null) {
-          conditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getConditionPartDescription(),
                   getParentForChildren(),
@@ -1974,7 +2229,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue levelIds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> levelIdsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue level_ids = 3;</code>
@@ -2076,11 +2331,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue level_ids = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getLevelIdsFieldBuilder() {
         if (levelIdsBuilder_ == null) {
-          levelIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          levelIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getLevelIds(),
                   getParentForChildren(),
@@ -2117,7 +2372,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue domainTreeNodeIds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> domainTreeNodeIdsBuilder_;
       /**
        * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
@@ -2219,11 +2474,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getDomainTreeNodeIdsFieldBuilder() {
         if (domainTreeNodeIdsBuilder_ == null) {
-          domainTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          domainTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getDomainTreeNodeIds(),
                   getParentForChildren(),
@@ -2260,7 +2515,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
@@ -2362,11 +2617,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
@@ -2403,7 +2658,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue operator1_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator1Builder_;
       /**
        * <code>optional .dstore.values.stringValue operator1 = 6;</code>
@@ -2505,11 +2760,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue operator1 = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOperator1FieldBuilder() {
         if (operator1Builder_ == null) {
-          operator1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          operator1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOperator1(),
                   getParentForChildren(),
@@ -2546,7 +2801,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue condition1_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition1Builder_;
       /**
        * <code>optional .dstore.values.stringValue condition1 = 7;</code>
@@ -2648,11 +2903,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue condition1 = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCondition1FieldBuilder() {
         if (condition1Builder_ == null) {
-          condition1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          condition1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCondition1(),
                   getParentForChildren(),
@@ -2689,7 +2944,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue operator2_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator2Builder_;
       /**
        * <code>optional .dstore.values.stringValue operator2 = 8;</code>
@@ -2791,11 +3046,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue operator2 = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOperator2FieldBuilder() {
         if (operator2Builder_ == null) {
-          operator2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          operator2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOperator2(),
                   getParentForChildren(),
@@ -2832,7 +3087,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue condition2_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition2Builder_;
       /**
        * <code>optional .dstore.values.stringValue condition2 = 9;</code>
@@ -2934,11 +3189,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue condition2 = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCondition2FieldBuilder() {
         if (condition2Builder_ == null) {
-          condition2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+          condition2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCondition2(),
                   getParentForChildren(),
@@ -2975,7 +3230,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue inheritDepth_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritDepthBuilder_;
       /**
        * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
@@ -3077,11 +3332,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInheritDepthFieldBuilder() {
         if (inheritDepthBuilder_ == null) {
-          inheritDepthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          inheritDepthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInheritDepth(),
                   getParentForChildren(),
@@ -3118,7 +3373,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue recursiveEvaluation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> recursiveEvaluationBuilder_;
       /**
        * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
@@ -3220,11 +3475,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRecursiveEvaluationFieldBuilder() {
         if (recursiveEvaluationBuilder_ == null) {
-          recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRecursiveEvaluation(),
                   getParentForChildren(),
@@ -3261,7 +3516,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.booleanValue deleteConditionPart_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteConditionPartBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
@@ -3363,11 +3618,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getDeleteConditionPartFieldBuilder() {
         if (deleteConditionPartBuilder_ == null) {
-          deleteConditionPartBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deleteConditionPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getDeleteConditionPart(),
                   getParentForChildren(),
@@ -3404,7 +3659,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.stringValue country_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
        * <code>optional .dstore.values.stringValue country = 13;</code>
@@ -3506,11 +3761,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.stringValue country = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
-          countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
@@ -3547,7 +3802,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue conditionPartIdWithSameConfig_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdWithSameConfigBuilder_;
       /**
        * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
@@ -3649,11 +3904,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionPartIdWithSameConfigFieldBuilder() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
-          conditionPartIdWithSameConfigBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionPartIdWithSameConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionPartIdWithSameConfig(),
                   getParentForChildren(),
@@ -3843,11 +4098,11 @@ public final class ImModifyConditionPartsAd {
    * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyConditionParts_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3886,7 +4141,8 @@ public final class ImModifyConditionPartsAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3894,7 +4150,8 @@ public final class ImModifyConditionPartsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3902,7 +4159,8 @@ public final class ImModifyConditionPartsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3956,7 +4214,7 @@ public final class ImModifyConditionPartsAd {
       return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3976,11 +4234,11 @@ public final class ImModifyConditionPartsAd {
      * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyConditionParts_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4033,7 +4291,7 @@ public final class ImModifyConditionPartsAd {
         return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4080,6 +4338,36 @@ public final class ImModifyConditionPartsAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row other = (io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4103,39 +4391,39 @@ public final class ImModifyConditionPartsAd {
       }
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -4153,7 +4441,7 @@ public final class ImModifyConditionPartsAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -4161,7 +4449,7 @@ public final class ImModifyConditionPartsAd {
        * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_ModifyConditionParts_Ad.Response.Row)
           io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -4169,7 +4457,7 @@ public final class ImModifyConditionPartsAd {
           return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -4182,12 +4470,13 @@ public final class ImModifyConditionPartsAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -4221,6 +4510,32 @@ public final class ImModifyConditionPartsAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row)other);
@@ -4542,6 +4857,68 @@ public final class ImModifyConditionPartsAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImModifyConditionPartsAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImModifyConditionPartsAd.Response other = (io.dstore.engine.procedures.ImModifyConditionPartsAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasConditionPartId() == other.hasConditionPartId());
+      if (hasConditionPartId()) {
+        result = result && getConditionPartId()
+            .equals(other.getConditionPartId());
+      }
+      result = result && (hasConditionPartIdWithSameConfig() == other.hasConditionPartIdWithSameConfig());
+      if (hasConditionPartIdWithSameConfig()) {
+        result = result && getConditionPartIdWithSameConfig()
+            .equals(other.getConditionPartIdWithSameConfig());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasConditionPartId()) {
+        hash = (37 * hash) + CONDITION_PART_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionPartId().hashCode();
+      }
+      if (hasConditionPartIdWithSameConfig()) {
+        hash = (37 * hash) + CONDITION_PART_ID_WITH_SAME_CONFIG_FIELD_NUMBER;
+        hash = (53 * hash) + getConditionPartIdWithSameConfig().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4565,39 +4942,39 @@ public final class ImModifyConditionPartsAd {
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyConditionPartsAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4615,7 +4992,7 @@ public final class ImModifyConditionPartsAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4623,7 +5000,7 @@ public final class ImModifyConditionPartsAd {
      * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_ModifyConditionParts_Ad.Response)
         io.dstore.engine.procedures.ImModifyConditionPartsAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4631,7 +5008,7 @@ public final class ImModifyConditionPartsAd {
         return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImModifyConditionPartsAd.internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4644,12 +5021,13 @@ public final class ImModifyConditionPartsAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4753,6 +5131,32 @@ public final class ImModifyConditionPartsAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImModifyConditionPartsAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImModifyConditionPartsAd.Response)other);
@@ -4783,7 +5187,7 @@ public final class ImModifyConditionPartsAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4809,7 +5213,7 @@ public final class ImModifyConditionPartsAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4835,7 +5239,7 @@ public final class ImModifyConditionPartsAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4884,7 +5288,7 @@ public final class ImModifyConditionPartsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5100,11 +5504,11 @@ public final class ImModifyConditionPartsAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5124,7 +5528,7 @@ public final class ImModifyConditionPartsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5340,11 +5744,11 @@ public final class ImModifyConditionPartsAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5364,7 +5768,7 @@ public final class ImModifyConditionPartsAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row, io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row.Builder, io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5580,11 +5984,11 @@ public final class ImModifyConditionPartsAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row, io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row.Builder, io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row, io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.Row.Builder, io.dstore.engine.procedures.ImModifyConditionPartsAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5596,7 +6000,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue conditionPartId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
@@ -5698,11 +6102,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionPartIdFieldBuilder() {
         if (conditionPartIdBuilder_ == null) {
-          conditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionPartId(),
                   getParentForChildren(),
@@ -5713,7 +6117,7 @@ public final class ImModifyConditionPartsAd {
       }
 
       private io.dstore.Values.integerValue conditionPartIdWithSameConfig_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdWithSameConfigBuilder_;
       /**
        * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
@@ -5815,11 +6219,11 @@ public final class ImModifyConditionPartsAd {
       /**
        * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getConditionPartIdWithSameConfigFieldBuilder() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
-          conditionPartIdWithSameConfigBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          conditionPartIdWithSameConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getConditionPartIdWithSameConfig(),
                   getParentForChildren(),
@@ -5880,17 +6284,17 @@ public final class ImModifyConditionPartsAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5967,19 +6371,19 @@ public final class ImModifyConditionPartsAd {
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_descriptor,
         new java.lang.String[] { "ConditionPartId", "ConditionPartIdNull", "ConditionPartDescription", "ConditionPartDescriptionNull", "LevelIds", "LevelIdsNull", "DomainTreeNodeIds", "DomainTreeNodeIdsNull", "NodeCharacteristicId", "NodeCharacteristicIdNull", "Operator1", "Operator1Null", "Condition1", "Condition1Null", "Operator2", "Operator2Null", "Condition2", "Condition2Null", "InheritDepth", "InheritDepthNull", "RecursiveEvaluation", "RecursiveEvaluationNull", "DeleteConditionPart", "DeleteConditionPartNull", "Country", "CountryNull", "ConditionPartIdWithSameConfig", "ConditionPartIdWithSameConfigNull", });
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "ConditionPartId", "ConditionPartIdWithSameConfig", });
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();

@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmCreateNewBillAd {
   private OmCreateNewBillAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_CreateNewBill_Ad.Parameters)
@@ -250,11 +256,11 @@ public final class OmCreateNewBillAd {
    * Protobuf type {@code dstore.engine.om_CreateNewBill_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateNewBill_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -548,7 +554,7 @@ public final class OmCreateNewBillAd {
       return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1151,6 +1157,214 @@ public final class OmCreateNewBillAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmCreateNewBillAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmCreateNewBillAd.Parameters other = (io.dstore.engine.procedures.OmCreateNewBillAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasIncorrectInformationExists() == other.hasIncorrectInformationExists());
+      if (hasIncorrectInformationExists()) {
+        result = result && getIncorrectInformationExists()
+            .equals(other.getIncorrectInformationExists());
+      }
+      result = result && (getIncorrectInformationExistsNull()
+          == other.getIncorrectInformationExistsNull());
+      result = result && (hasResult() == other.hasResult());
+      if (hasResult()) {
+        result = result && getResult()
+            .equals(other.getResult());
+      }
+      result = result && (getResultNull()
+          == other.getResultNull());
+      result = result && (hasOrderId() == other.hasOrderId());
+      if (hasOrderId()) {
+        result = result && getOrderId()
+            .equals(other.getOrderId());
+      }
+      result = result && (getOrderIdNull()
+          == other.getOrderIdNull());
+      result = result && (hasRecipientPersonId() == other.hasRecipientPersonId());
+      if (hasRecipientPersonId()) {
+        result = result && getRecipientPersonId()
+            .equals(other.getRecipientPersonId());
+      }
+      result = result && (getRecipientPersonIdNull()
+          == other.getRecipientPersonIdNull());
+      result = result && (hasDrawerPersonId() == other.hasDrawerPersonId());
+      if (hasDrawerPersonId()) {
+        result = result && getDrawerPersonId()
+            .equals(other.getDrawerPersonId());
+      }
+      result = result && (getDrawerPersonIdNull()
+          == other.getDrawerPersonIdNull());
+      result = result && (hasCurrencyId() == other.hasCurrencyId());
+      if (hasCurrencyId()) {
+        result = result && getCurrencyId()
+            .equals(other.getCurrencyId());
+      }
+      result = result && (getCurrencyIdNull()
+          == other.getCurrencyIdNull());
+      result = result && (hasGeneratedBillId() == other.hasGeneratedBillId());
+      if (hasGeneratedBillId()) {
+        result = result && getGeneratedBillId()
+            .equals(other.getGeneratedBillId());
+      }
+      result = result && (getGeneratedBillIdNull()
+          == other.getGeneratedBillIdNull());
+      result = result && (hasAddBillInformation() == other.hasAddBillInformation());
+      if (hasAddBillInformation()) {
+        result = result && getAddBillInformation()
+            .equals(other.getAddBillInformation());
+      }
+      result = result && (getAddBillInformationNull()
+          == other.getAddBillInformationNull());
+      result = result && (hasAddBillContentInformation() == other.hasAddBillContentInformation());
+      if (hasAddBillContentInformation()) {
+        result = result && getAddBillContentInformation()
+            .equals(other.getAddBillContentInformation());
+      }
+      result = result && (getAddBillContentInformationNull()
+          == other.getAddBillContentInformationNull());
+      result = result && (hasOtherBillContent() == other.hasOtherBillContent());
+      if (hasOtherBillContent()) {
+        result = result && getOtherBillContent()
+            .equals(other.getOtherBillContent());
+      }
+      result = result && (getOtherBillContentNull()
+          == other.getOtherBillContentNull());
+      result = result && (hasAddOtherContentInformation() == other.hasAddOtherContentInformation());
+      if (hasAddOtherContentInformation()) {
+        result = result && getAddOtherContentInformation()
+            .equals(other.getAddOtherContentInformation());
+      }
+      result = result && (getAddOtherContentInformationNull()
+          == other.getAddOtherContentInformationNull());
+      result = result && (hasGetIncorrectInformation() == other.hasGetIncorrectInformation());
+      if (hasGetIncorrectInformation()) {
+        result = result && getGetIncorrectInformation()
+            .equals(other.getGetIncorrectInformation());
+      }
+      result = result && (getGetIncorrectInformationNull()
+          == other.getGetIncorrectInformationNull());
+      result = result && (hasCountry() == other.hasCountry());
+      if (hasCountry()) {
+        result = result && getCountry()
+            .equals(other.getCountry());
+      }
+      result = result && (getCountryNull()
+          == other.getCountryNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasIncorrectInformationExists()) {
+        hash = (37 * hash) + INCORRECT_INFORMATION_EXISTS_FIELD_NUMBER;
+        hash = (53 * hash) + getIncorrectInformationExists().hashCode();
+      }
+      hash = (37 * hash) + INCORRECT_INFORMATION_EXISTS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIncorrectInformationExistsNull());
+      if (hasResult()) {
+        hash = (37 * hash) + RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getResult().hashCode();
+      }
+      hash = (37 * hash) + RESULT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getResultNull());
+      if (hasOrderId()) {
+        hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderId().hashCode();
+      }
+      hash = (37 * hash) + ORDER_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderIdNull());
+      if (hasRecipientPersonId()) {
+        hash = (37 * hash) + RECIPIENT_PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRecipientPersonId().hashCode();
+      }
+      hash = (37 * hash) + RECIPIENT_PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRecipientPersonIdNull());
+      if (hasDrawerPersonId()) {
+        hash = (37 * hash) + DRAWER_PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getDrawerPersonId().hashCode();
+      }
+      hash = (37 * hash) + DRAWER_PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDrawerPersonIdNull());
+      if (hasCurrencyId()) {
+        hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getCurrencyId().hashCode();
+      }
+      hash = (37 * hash) + CURRENCY_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCurrencyIdNull());
+      if (hasGeneratedBillId()) {
+        hash = (37 * hash) + GENERATED_BILL_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getGeneratedBillId().hashCode();
+      }
+      hash = (37 * hash) + GENERATED_BILL_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGeneratedBillIdNull());
+      if (hasAddBillInformation()) {
+        hash = (37 * hash) + ADD_BILL_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getAddBillInformation().hashCode();
+      }
+      hash = (37 * hash) + ADD_BILL_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAddBillInformationNull());
+      if (hasAddBillContentInformation()) {
+        hash = (37 * hash) + ADD_BILL_CONTENT_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getAddBillContentInformation().hashCode();
+      }
+      hash = (37 * hash) + ADD_BILL_CONTENT_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAddBillContentInformationNull());
+      if (hasOtherBillContent()) {
+        hash = (37 * hash) + OTHER_BILL_CONTENT_FIELD_NUMBER;
+        hash = (53 * hash) + getOtherBillContent().hashCode();
+      }
+      hash = (37 * hash) + OTHER_BILL_CONTENT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOtherBillContentNull());
+      if (hasAddOtherContentInformation()) {
+        hash = (37 * hash) + ADD_OTHER_CONTENT_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getAddOtherContentInformation().hashCode();
+      }
+      hash = (37 * hash) + ADD_OTHER_CONTENT_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAddOtherContentInformationNull());
+      if (hasGetIncorrectInformation()) {
+        hash = (37 * hash) + GET_INCORRECT_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getGetIncorrectInformation().hashCode();
+      }
+      hash = (37 * hash) + GET_INCORRECT_INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetIncorrectInformationNull());
+      if (hasCountry()) {
+        hash = (37 * hash) + COUNTRY_FIELD_NUMBER;
+        hash = (53 * hash) + getCountry().hashCode();
+      }
+      hash = (37 * hash) + COUNTRY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCountryNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1174,39 +1388,39 @@ public final class OmCreateNewBillAd {
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -1224,7 +1438,7 @@ public final class OmCreateNewBillAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1232,7 +1446,7 @@ public final class OmCreateNewBillAd {
      * Protobuf type {@code dstore.engine.om_CreateNewBill_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_CreateNewBill_Ad.Parameters)
         io.dstore.engine.procedures.OmCreateNewBillAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -1240,7 +1454,7 @@ public final class OmCreateNewBillAd {
         return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1253,12 +1467,13 @@ public final class OmCreateNewBillAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1471,6 +1686,32 @@ public final class OmCreateNewBillAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmCreateNewBillAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmCreateNewBillAd.Parameters)other);
@@ -1587,7 +1828,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.booleanValue incorrectInformationExists_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> incorrectInformationExistsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue incorrect_information_exists = 1;</code>
@@ -1689,11 +1930,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.booleanValue incorrect_information_exists = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getIncorrectInformationExistsFieldBuilder() {
         if (incorrectInformationExistsBuilder_ == null) {
-          incorrectInformationExistsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          incorrectInformationExistsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getIncorrectInformationExists(),
                   getParentForChildren(),
@@ -1730,7 +1971,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue result_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultBuilder_;
       /**
        * <code>optional .dstore.values.integerValue result = 2;</code>
@@ -1832,11 +2073,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue result = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
-          resultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getResult(),
                   getParentForChildren(),
@@ -1873,7 +2114,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue orderId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue order_id = 3;</code>
@@ -1975,11 +2216,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue order_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOrderIdFieldBuilder() {
         if (orderIdBuilder_ == null) {
-          orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOrderId(),
                   getParentForChildren(),
@@ -2016,7 +2257,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue recipientPersonId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> recipientPersonIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue recipient_person_id = 4;</code>
@@ -2118,11 +2359,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue recipient_person_id = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRecipientPersonIdFieldBuilder() {
         if (recipientPersonIdBuilder_ == null) {
-          recipientPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          recipientPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRecipientPersonId(),
                   getParentForChildren(),
@@ -2159,7 +2400,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue drawerPersonId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> drawerPersonIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue drawer_person_id = 5;</code>
@@ -2261,11 +2502,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue drawer_person_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDrawerPersonIdFieldBuilder() {
         if (drawerPersonIdBuilder_ == null) {
-          drawerPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          drawerPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDrawerPersonId(),
                   getParentForChildren(),
@@ -2302,7 +2543,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue currencyId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue currency_id = 6;</code>
@@ -2404,11 +2645,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue currency_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
-          currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
@@ -2445,7 +2686,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue generatedBillId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> generatedBillIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue generated_bill_id = 7;</code>
@@ -2547,11 +2788,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue generated_bill_id = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGeneratedBillIdFieldBuilder() {
         if (generatedBillIdBuilder_ == null) {
-          generatedBillIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          generatedBillIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGeneratedBillId(),
                   getParentForChildren(),
@@ -2588,7 +2829,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.booleanValue addBillInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> addBillInformationBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue add_bill_information = 8;</code>
@@ -2690,11 +2931,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.booleanValue add_bill_information = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAddBillInformationFieldBuilder() {
         if (addBillInformationBuilder_ == null) {
-          addBillInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          addBillInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAddBillInformation(),
                   getParentForChildren(),
@@ -2731,7 +2972,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.booleanValue addBillContentInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> addBillContentInformationBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue add_bill_content_information = 9;</code>
@@ -2833,11 +3074,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.booleanValue add_bill_content_information = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAddBillContentInformationFieldBuilder() {
         if (addBillContentInformationBuilder_ == null) {
-          addBillContentInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          addBillContentInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAddBillContentInformation(),
                   getParentForChildren(),
@@ -2874,7 +3115,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.booleanValue otherBillContent_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> otherBillContentBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue other_bill_content = 10;</code>
@@ -2976,11 +3217,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.booleanValue other_bill_content = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOtherBillContentFieldBuilder() {
         if (otherBillContentBuilder_ == null) {
-          otherBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          otherBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOtherBillContent(),
                   getParentForChildren(),
@@ -3017,7 +3258,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.booleanValue addOtherContentInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> addOtherContentInformationBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue add_other_content_information = 11;</code>
@@ -3119,11 +3360,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.booleanValue add_other_content_information = 11;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getAddOtherContentInformationFieldBuilder() {
         if (addOtherContentInformationBuilder_ == null) {
-          addOtherContentInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          addOtherContentInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getAddOtherContentInformation(),
                   getParentForChildren(),
@@ -3160,7 +3401,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.booleanValue getIncorrectInformation_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getIncorrectInformationBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_incorrect_information = 12;</code>
@@ -3262,11 +3503,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.booleanValue get_incorrect_information = 12;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetIncorrectInformationFieldBuilder() {
         if (getIncorrectInformationBuilder_ == null) {
-          getIncorrectInformationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getIncorrectInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetIncorrectInformation(),
                   getParentForChildren(),
@@ -3303,7 +3544,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.stringValue country_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
       /**
        * <code>optional .dstore.values.stringValue country = 13;</code>
@@ -3405,11 +3646,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.stringValue country = 13;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
-          countryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
@@ -3586,11 +3827,11 @@ public final class OmCreateNewBillAd {
    * Protobuf type {@code dstore.engine.om_CreateNewBill_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateNewBill_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3629,7 +3870,8 @@ public final class OmCreateNewBillAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -3637,7 +3879,8 @@ public final class OmCreateNewBillAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3645,7 +3888,8 @@ public final class OmCreateNewBillAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3686,7 +3930,7 @@ public final class OmCreateNewBillAd {
       return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3806,11 +4050,11 @@ public final class OmCreateNewBillAd {
      * Protobuf type {@code dstore.engine.om_CreateNewBill_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateNewBill_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3915,7 +4159,7 @@ public final class OmCreateNewBillAd {
         return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4122,6 +4366,72 @@ public final class OmCreateNewBillAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row other = (io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasTableId() == other.hasTableId());
+        if (hasTableId()) {
+          result = result && getTableId()
+              .equals(other.getTableId());
+        }
+        result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+        if (hasInformationTypeId()) {
+          result = result && getInformationTypeId()
+              .equals(other.getInformationTypeId());
+        }
+        result = result && (hasTableKeyId() == other.hasTableKeyId());
+        if (hasTableKeyId()) {
+          result = result && getTableKeyId()
+              .equals(other.getTableKeyId());
+        }
+        result = result && (hasErrorCode() == other.hasErrorCode());
+        if (hasErrorCode()) {
+          result = result && getErrorCode()
+              .equals(other.getErrorCode());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasTableId()) {
+          hash = (37 * hash) + TABLE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTableId().hashCode();
+        }
+        if (hasInformationTypeId()) {
+          hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getInformationTypeId().hashCode();
+        }
+        if (hasTableKeyId()) {
+          hash = (37 * hash) + TABLE_KEY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTableKeyId().hashCode();
+        }
+        if (hasErrorCode()) {
+          hash = (37 * hash) + ERROR_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getErrorCode().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4145,39 +4455,39 @@ public final class OmCreateNewBillAd {
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -4195,7 +4505,7 @@ public final class OmCreateNewBillAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -4203,7 +4513,7 @@ public final class OmCreateNewBillAd {
        * Protobuf type {@code dstore.engine.om_CreateNewBill_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_CreateNewBill_Ad.Response.Row)
           io.dstore.engine.procedures.OmCreateNewBillAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -4211,7 +4521,7 @@ public final class OmCreateNewBillAd {
           return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -4224,12 +4534,13 @@ public final class OmCreateNewBillAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -4307,6 +4618,32 @@ public final class OmCreateNewBillAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row)other);
@@ -4386,7 +4723,7 @@ public final class OmCreateNewBillAd {
         }
 
         private io.dstore.Values.integerValue tableId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
         /**
          * <pre>
@@ -4524,11 +4861,11 @@ public final class OmCreateNewBillAd {
          *
          * <code>optional .dstore.values.integerValue table_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableIdFieldBuilder() {
           if (tableIdBuilder_ == null) {
-            tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableId(),
                     getParentForChildren(),
@@ -4539,7 +4876,7 @@ public final class OmCreateNewBillAd {
         }
 
         private io.dstore.Values.integerValue informationTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
@@ -4677,11 +5014,11 @@ public final class OmCreateNewBillAd {
          *
          * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
-            informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
@@ -4692,7 +5029,7 @@ public final class OmCreateNewBillAd {
         }
 
         private io.dstore.Values.integerValue tableKeyId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableKeyIdBuilder_;
         /**
          * <pre>
@@ -4830,11 +5167,11 @@ public final class OmCreateNewBillAd {
          *
          * <code>optional .dstore.values.integerValue table_key_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTableKeyIdFieldBuilder() {
           if (tableKeyIdBuilder_ == null) {
-            tableKeyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            tableKeyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTableKeyId(),
                     getParentForChildren(),
@@ -4845,7 +5182,7 @@ public final class OmCreateNewBillAd {
         }
 
         private io.dstore.Values.integerValue errorCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
          * <pre>
@@ -4983,11 +5320,11 @@ public final class OmCreateNewBillAd {
          *
          * <code>optional .dstore.values.integerValue error_code = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
-            errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
@@ -5224,6 +5561,59 @@ public final class OmCreateNewBillAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmCreateNewBillAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmCreateNewBillAd.Response other = (io.dstore.engine.procedures.OmCreateNewBillAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasGeneratedBillId() == other.hasGeneratedBillId());
+      if (hasGeneratedBillId()) {
+        result = result && getGeneratedBillId()
+            .equals(other.getGeneratedBillId());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasGeneratedBillId()) {
+        hash = (37 * hash) + GENERATED_BILL_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getGeneratedBillId().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5247,39 +5637,39 @@ public final class OmCreateNewBillAd {
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmCreateNewBillAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -5297,7 +5687,7 @@ public final class OmCreateNewBillAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -5305,7 +5695,7 @@ public final class OmCreateNewBillAd {
      * Protobuf type {@code dstore.engine.om_CreateNewBill_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_CreateNewBill_Ad.Response)
         io.dstore.engine.procedures.OmCreateNewBillAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -5313,7 +5703,7 @@ public final class OmCreateNewBillAd {
         return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmCreateNewBillAd.internal_static_dstore_engine_om_CreateNewBill_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -5326,12 +5716,13 @@ public final class OmCreateNewBillAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -5424,6 +5815,32 @@ public final class OmCreateNewBillAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmCreateNewBillAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmCreateNewBillAd.Response)other);
@@ -5454,7 +5871,7 @@ public final class OmCreateNewBillAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -5480,7 +5897,7 @@ public final class OmCreateNewBillAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -5506,7 +5923,7 @@ public final class OmCreateNewBillAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -5552,7 +5969,7 @@ public final class OmCreateNewBillAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5768,11 +6185,11 @@ public final class OmCreateNewBillAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5792,7 +6209,7 @@ public final class OmCreateNewBillAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -6008,11 +6425,11 @@ public final class OmCreateNewBillAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -6032,7 +6449,7 @@ public final class OmCreateNewBillAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row, io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row.Builder, io.dstore.engine.procedures.OmCreateNewBillAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -6248,11 +6665,11 @@ public final class OmCreateNewBillAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row, io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row.Builder, io.dstore.engine.procedures.OmCreateNewBillAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row, io.dstore.engine.procedures.OmCreateNewBillAd.Response.Row.Builder, io.dstore.engine.procedures.OmCreateNewBillAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -6264,7 +6681,7 @@ public final class OmCreateNewBillAd {
       }
 
       private io.dstore.Values.integerValue generatedBillId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> generatedBillIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue generated_bill_id = 101;</code>
@@ -6366,11 +6783,11 @@ public final class OmCreateNewBillAd {
       /**
        * <code>optional .dstore.values.integerValue generated_bill_id = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getGeneratedBillIdFieldBuilder() {
         if (generatedBillIdBuilder_ == null) {
-          generatedBillIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          generatedBillIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getGeneratedBillId(),
                   getParentForChildren(),
@@ -6431,17 +6848,17 @@ public final class OmCreateNewBillAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_CreateNewBill_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -6520,19 +6937,19 @@ public final class OmCreateNewBillAd {
     internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_CreateNewBill_Ad_Parameters_descriptor,
         new java.lang.String[] { "IncorrectInformationExists", "IncorrectInformationExistsNull", "Result", "ResultNull", "OrderId", "OrderIdNull", "RecipientPersonId", "RecipientPersonIdNull", "DrawerPersonId", "DrawerPersonIdNull", "CurrencyId", "CurrencyIdNull", "GeneratedBillId", "GeneratedBillIdNull", "AddBillInformation", "AddBillInformationNull", "AddBillContentInformation", "AddBillContentInformationNull", "OtherBillContent", "OtherBillContentNull", "AddOtherContentInformation", "AddOtherContentInformationNull", "GetIncorrectInformation", "GetIncorrectInformationNull", "Country", "CountryNull", });
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "GeneratedBillId", });
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_CreateNewBill_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_CreateNewBill_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableId", "InformationTypeId", "TableKeyId", "ErrorCode", });
     io.dstore.Values.getDescriptor();

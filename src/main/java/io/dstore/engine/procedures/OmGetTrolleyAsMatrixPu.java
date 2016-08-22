@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetTrolleyAsMatrixPu {
   private OmGetTrolleyAsMatrixPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetTrolleyAsMatrix_Pu.Parameters)
@@ -196,11 +202,11 @@ public final class OmGetTrolleyAsMatrixPu {
    * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -437,7 +443,7 @@ public final class OmGetTrolleyAsMatrixPu {
       return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -908,6 +914,172 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters other = (io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasPersonId() == other.hasPersonId());
+      if (hasPersonId()) {
+        result = result && getPersonId()
+            .equals(other.getPersonId());
+      }
+      result = result && (getPersonIdNull()
+          == other.getPersonIdNull());
+      result = result && (hasCalculatePrices() == other.hasCalculatePrices());
+      if (hasCalculatePrices()) {
+        result = result && getCalculatePrices()
+            .equals(other.getCalculatePrices());
+      }
+      result = result && (getCalculatePricesNull()
+          == other.getCalculatePricesNull());
+      result = result && (hasCheckAvailability() == other.hasCheckAvailability());
+      if (hasCheckAvailability()) {
+        result = result && getCheckAvailability()
+            .equals(other.getCheckAvailability());
+      }
+      result = result && (getCheckAvailabilityNull()
+          == other.getCheckAvailabilityNull());
+      result = result && (hasPriceNodeCharacteristicId() == other.hasPriceNodeCharacteristicId());
+      if (hasPriceNodeCharacteristicId()) {
+        result = result && getPriceNodeCharacteristicId()
+            .equals(other.getPriceNodeCharacteristicId());
+      }
+      result = result && (getPriceNodeCharacteristicIdNull()
+          == other.getPriceNodeCharacteristicIdNull());
+      result = result && (hasRepairEntriesWithSameNodeId() == other.hasRepairEntriesWithSameNodeId());
+      if (hasRepairEntriesWithSameNodeId()) {
+        result = result && getRepairEntriesWithSameNodeId()
+            .equals(other.getRepairEntriesWithSameNodeId());
+      }
+      result = result && (getRepairEntriesWithSameNodeIdNull()
+          == other.getRepairEntriesWithSameNodeIdNull());
+      result = result && (hasDeliveryPersonId() == other.hasDeliveryPersonId());
+      if (hasDeliveryPersonId()) {
+        result = result && getDeliveryPersonId()
+            .equals(other.getDeliveryPersonId());
+      }
+      result = result && (getDeliveryPersonIdNull()
+          == other.getDeliveryPersonIdNull());
+      result = result && (hasOutputIntoTrolleySurchInterf() == other.hasOutputIntoTrolleySurchInterf());
+      if (hasOutputIntoTrolleySurchInterf()) {
+        result = result && getOutputIntoTrolleySurchInterf()
+            .equals(other.getOutputIntoTrolleySurchInterf());
+      }
+      result = result && (getOutputIntoTrolleySurchInterfNull()
+          == other.getOutputIntoTrolleySurchInterfNull());
+      result = result && (hasPaymentTypeId() == other.hasPaymentTypeId());
+      if (hasPaymentTypeId()) {
+        result = result && getPaymentTypeId()
+            .equals(other.getPaymentTypeId());
+      }
+      result = result && (getPaymentTypeIdNull()
+          == other.getPaymentTypeIdNull());
+      result = result && (hasShippingTypeId() == other.hasShippingTypeId());
+      if (hasShippingTypeId()) {
+        result = result && getShippingTypeId()
+            .equals(other.getShippingTypeId());
+      }
+      result = result && (getShippingTypeIdNull()
+          == other.getShippingTypeIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasPersonId()) {
+        hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPersonId().hashCode();
+      }
+      hash = (37 * hash) + PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPersonIdNull());
+      if (hasCalculatePrices()) {
+        hash = (37 * hash) + CALCULATE_PRICES_FIELD_NUMBER;
+        hash = (53 * hash) + getCalculatePrices().hashCode();
+      }
+      hash = (37 * hash) + CALCULATE_PRICES_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCalculatePricesNull());
+      if (hasCheckAvailability()) {
+        hash = (37 * hash) + CHECK_AVAILABILITY_FIELD_NUMBER;
+        hash = (53 * hash) + getCheckAvailability().hashCode();
+      }
+      hash = (37 * hash) + CHECK_AVAILABILITY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCheckAvailabilityNull());
+      if (hasPriceNodeCharacteristicId()) {
+        hash = (37 * hash) + PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPriceNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + PRICE_NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPriceNodeCharacteristicIdNull());
+      if (hasRepairEntriesWithSameNodeId()) {
+        hash = (37 * hash) + REPAIR_ENTRIES_WITH_SAME_NODE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRepairEntriesWithSameNodeId().hashCode();
+      }
+      hash = (37 * hash) + REPAIR_ENTRIES_WITH_SAME_NODE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRepairEntriesWithSameNodeIdNull());
+      if (hasDeliveryPersonId()) {
+        hash = (37 * hash) + DELIVERY_PERSON_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getDeliveryPersonId().hashCode();
+      }
+      hash = (37 * hash) + DELIVERY_PERSON_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeliveryPersonIdNull());
+      if (hasOutputIntoTrolleySurchInterf()) {
+        hash = (37 * hash) + OUTPUT_INTO_TROLLEY_SURCH_INTERF_FIELD_NUMBER;
+        hash = (53 * hash) + getOutputIntoTrolleySurchInterf().hashCode();
+      }
+      hash = (37 * hash) + OUTPUT_INTO_TROLLEY_SURCH_INTERF_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOutputIntoTrolleySurchInterfNull());
+      if (hasPaymentTypeId()) {
+        hash = (37 * hash) + PAYMENT_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getPaymentTypeId().hashCode();
+      }
+      hash = (37 * hash) + PAYMENT_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPaymentTypeIdNull());
+      if (hasShippingTypeId()) {
+        hash = (37 * hash) + SHIPPING_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getShippingTypeId().hashCode();
+      }
+      hash = (37 * hash) + SHIPPING_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getShippingTypeIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -931,39 +1103,39 @@ public final class OmGetTrolleyAsMatrixPu {
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -981,7 +1153,7 @@ public final class OmGetTrolleyAsMatrixPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -989,7 +1161,7 @@ public final class OmGetTrolleyAsMatrixPu {
      * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Parameters)
         io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -997,7 +1169,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1010,12 +1182,13 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1186,6 +1359,32 @@ public final class OmGetTrolleyAsMatrixPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Parameters)other);
@@ -1284,7 +1483,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
@@ -1386,11 +1585,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -1427,7 +1626,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue personId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue person_id = 2;</code>
@@ -1529,11 +1728,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue person_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
-          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
@@ -1570,7 +1769,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue calculatePrices_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> calculatePricesBuilder_;
       /**
        * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
@@ -1672,11 +1871,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getCalculatePricesFieldBuilder() {
         if (calculatePricesBuilder_ == null) {
-          calculatePricesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          calculatePricesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getCalculatePrices(),
                   getParentForChildren(),
@@ -1713,7 +1912,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.booleanValue checkAvailability_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkAvailabilityBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
@@ -1815,11 +2014,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getCheckAvailabilityFieldBuilder() {
         if (checkAvailabilityBuilder_ == null) {
-          checkAvailabilityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          checkAvailabilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getCheckAvailability(),
                   getParentForChildren(),
@@ -1856,7 +2055,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
@@ -1958,11 +2157,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPriceNodeCharacteristicIdFieldBuilder() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
-          priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPriceNodeCharacteristicId(),
                   getParentForChildren(),
@@ -1999,7 +2198,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue repairEntriesWithSameNodeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> repairEntriesWithSameNodeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
@@ -2101,11 +2300,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getRepairEntriesWithSameNodeIdFieldBuilder() {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
-          repairEntriesWithSameNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          repairEntriesWithSameNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getRepairEntriesWithSameNodeId(),
                   getParentForChildren(),
@@ -2142,7 +2341,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue deliveryPersonId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deliveryPersonIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
@@ -2244,11 +2443,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeliveryPersonIdFieldBuilder() {
         if (deliveryPersonIdBuilder_ == null) {
-          deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeliveryPersonId(),
                   getParentForChildren(),
@@ -2285,7 +2484,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.booleanValue outputIntoTrolleySurchInterf_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> outputIntoTrolleySurchInterfBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
@@ -2387,11 +2586,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOutputIntoTrolleySurchInterfFieldBuilder() {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
-          outputIntoTrolleySurchInterfBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          outputIntoTrolleySurchInterfBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOutputIntoTrolleySurchInterf(),
                   getParentForChildren(),
@@ -2428,7 +2627,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue paymentTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
@@ -2530,11 +2729,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getPaymentTypeIdFieldBuilder() {
         if (paymentTypeIdBuilder_ == null) {
-          paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getPaymentTypeId(),
                   getParentForChildren(),
@@ -2571,7 +2770,7 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private io.dstore.Values.integerValue shippingTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
@@ -2673,11 +2872,11 @@ public final class OmGetTrolleyAsMatrixPu {
       /**
        * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getShippingTypeIdFieldBuilder() {
         if (shippingTypeIdBuilder_ == null) {
-          shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getShippingTypeId(),
                   getParentForChildren(),
@@ -2861,11 +3060,11 @@ public final class OmGetTrolleyAsMatrixPu {
    * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2904,7 +3103,8 @@ public final class OmGetTrolleyAsMatrixPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2912,7 +3112,8 @@ public final class OmGetTrolleyAsMatrixPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2920,7 +3121,8 @@ public final class OmGetTrolleyAsMatrixPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2948,7 +3150,7 @@ public final class OmGetTrolleyAsMatrixPu {
       return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3443,11 +3645,11 @@ public final class OmGetTrolleyAsMatrixPu {
      * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3747,7 +3949,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4554,6 +4756,207 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row other = (io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasVariantTreeNodeId() == other.hasVariantTreeNodeId());
+        if (hasVariantTreeNodeId()) {
+          result = result && getVariantTreeNodeId()
+              .equals(other.getVariantTreeNodeId());
+        }
+        result = result && (hasProductTreeNodeId() == other.hasProductTreeNodeId());
+        if (hasProductTreeNodeId()) {
+          result = result && getProductTreeNodeId()
+              .equals(other.getProductTreeNodeId());
+        }
+        result = result && (hasPriceNodeCharacteristicId() == other.hasPriceNodeCharacteristicId());
+        if (hasPriceNodeCharacteristicId()) {
+          result = result && getPriceNodeCharacteristicId()
+              .equals(other.getPriceNodeCharacteristicId());
+        }
+        result = result && (hasSurchargeGeneratedByCampIds() == other.hasSurchargeGeneratedByCampIds());
+        if (hasSurchargeGeneratedByCampIds()) {
+          result = result && getSurchargeGeneratedByCampIds()
+              .equals(other.getSurchargeGeneratedByCampIds());
+        }
+        result = result && (hasYAxisValueIds() == other.hasYAxisValueIds());
+        if (hasYAxisValueIds()) {
+          result = result && getYAxisValueIds()
+              .equals(other.getYAxisValueIds());
+        }
+        result = result && (hasInputDateAndTime() == other.hasInputDateAndTime());
+        if (hasInputDateAndTime()) {
+          result = result && getInputDateAndTime()
+              .equals(other.getInputDateAndTime());
+        }
+        result = result && (hasUnitNettoPrice() == other.hasUnitNettoPrice());
+        if (hasUnitNettoPrice()) {
+          result = result && getUnitNettoPrice()
+              .equals(other.getUnitNettoPrice());
+        }
+        result = result && (hasAbsoluteUnitNettoSurcharge() == other.hasAbsoluteUnitNettoSurcharge());
+        if (hasAbsoluteUnitNettoSurcharge()) {
+          result = result && getAbsoluteUnitNettoSurcharge()
+              .equals(other.getAbsoluteUnitNettoSurcharge());
+        }
+        result = result && (hasQuantity() == other.hasQuantity());
+        if (hasQuantity()) {
+          result = result && getQuantity()
+              .equals(other.getQuantity());
+        }
+        result = result && (hasUnitSymbol() == other.hasUnitSymbol());
+        if (hasUnitSymbol()) {
+          result = result && getUnitSymbol()
+              .equals(other.getUnitSymbol());
+        }
+        result = result && (hasRemoved() == other.hasRemoved());
+        if (hasRemoved()) {
+          result = result && getRemoved()
+              .equals(other.getRemoved());
+        }
+        result = result && (hasUnitBruttoPrice() == other.hasUnitBruttoPrice());
+        if (hasUnitBruttoPrice()) {
+          result = result && getUnitBruttoPrice()
+              .equals(other.getUnitBruttoPrice());
+        }
+        result = result && (hasYAxisValues() == other.hasYAxisValues());
+        if (hasYAxisValues()) {
+          result = result && getYAxisValues()
+              .equals(other.getYAxisValues());
+        }
+        result = result && (hasSurchargeReason() == other.hasSurchargeReason());
+        if (hasSurchargeReason()) {
+          result = result && getSurchargeReason()
+              .equals(other.getSurchargeReason());
+        }
+        result = result && (hasXAxisValue() == other.hasXAxisValue());
+        if (hasXAxisValue()) {
+          result = result && getXAxisValue()
+              .equals(other.getXAxisValue());
+        }
+        result = result && (hasAbsoluteUnitBruttoSurcharge() == other.hasAbsoluteUnitBruttoSurcharge());
+        if (hasAbsoluteUnitBruttoSurcharge()) {
+          result = result && getAbsoluteUnitBruttoSurcharge()
+              .equals(other.getAbsoluteUnitBruttoSurcharge());
+        }
+        result = result && (hasProductDescription() == other.hasProductDescription());
+        if (hasProductDescription()) {
+          result = result && getProductDescription()
+              .equals(other.getProductDescription());
+        }
+        result = result && (hasXAxisValueId() == other.hasXAxisValueId());
+        if (hasXAxisValueId()) {
+          result = result && getXAxisValueId()
+              .equals(other.getXAxisValueId());
+        }
+        result = result && (hasRelativeSurcharge() == other.hasRelativeSurcharge());
+        if (hasRelativeSurcharge()) {
+          result = result && getRelativeSurcharge()
+              .equals(other.getRelativeSurcharge());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasVariantTreeNodeId()) {
+          hash = (37 * hash) + VARIANT_TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getVariantTreeNodeId().hashCode();
+        }
+        if (hasProductTreeNodeId()) {
+          hash = (37 * hash) + PRODUCT_TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getProductTreeNodeId().hashCode();
+        }
+        if (hasPriceNodeCharacteristicId()) {
+          hash = (37 * hash) + PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPriceNodeCharacteristicId().hashCode();
+        }
+        if (hasSurchargeGeneratedByCampIds()) {
+          hash = (37 * hash) + SURCHARGE_GENERATED_BY_CAMP_IDS_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeGeneratedByCampIds().hashCode();
+        }
+        if (hasYAxisValueIds()) {
+          hash = (37 * hash) + Y_AXIS_VALUE_IDS_FIELD_NUMBER;
+          hash = (53 * hash) + getYAxisValueIds().hashCode();
+        }
+        if (hasInputDateAndTime()) {
+          hash = (37 * hash) + INPUT_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getInputDateAndTime().hashCode();
+        }
+        if (hasUnitNettoPrice()) {
+          hash = (37 * hash) + UNIT_NETTO_PRICE_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitNettoPrice().hashCode();
+        }
+        if (hasAbsoluteUnitNettoSurcharge()) {
+          hash = (37 * hash) + ABSOLUTE_UNIT_NETTO_SURCHARGE_FIELD_NUMBER;
+          hash = (53 * hash) + getAbsoluteUnitNettoSurcharge().hashCode();
+        }
+        if (hasQuantity()) {
+          hash = (37 * hash) + QUANTITY_FIELD_NUMBER;
+          hash = (53 * hash) + getQuantity().hashCode();
+        }
+        if (hasUnitSymbol()) {
+          hash = (37 * hash) + UNIT_SYMBOL_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitSymbol().hashCode();
+        }
+        if (hasRemoved()) {
+          hash = (37 * hash) + REMOVED_FIELD_NUMBER;
+          hash = (53 * hash) + getRemoved().hashCode();
+        }
+        if (hasUnitBruttoPrice()) {
+          hash = (37 * hash) + UNIT_BRUTTO_PRICE_FIELD_NUMBER;
+          hash = (53 * hash) + getUnitBruttoPrice().hashCode();
+        }
+        if (hasYAxisValues()) {
+          hash = (37 * hash) + Y_AXIS_VALUES_FIELD_NUMBER;
+          hash = (53 * hash) + getYAxisValues().hashCode();
+        }
+        if (hasSurchargeReason()) {
+          hash = (37 * hash) + SURCHARGE_REASON_FIELD_NUMBER;
+          hash = (53 * hash) + getSurchargeReason().hashCode();
+        }
+        if (hasXAxisValue()) {
+          hash = (37 * hash) + X_AXIS_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getXAxisValue().hashCode();
+        }
+        if (hasAbsoluteUnitBruttoSurcharge()) {
+          hash = (37 * hash) + ABSOLUTE_UNIT_BRUTTO_SURCHARGE_FIELD_NUMBER;
+          hash = (53 * hash) + getAbsoluteUnitBruttoSurcharge().hashCode();
+        }
+        if (hasProductDescription()) {
+          hash = (37 * hash) + PRODUCT_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getProductDescription().hashCode();
+        }
+        if (hasXAxisValueId()) {
+          hash = (37 * hash) + X_AXIS_VALUE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getXAxisValueId().hashCode();
+        }
+        if (hasRelativeSurcharge()) {
+          hash = (37 * hash) + RELATIVE_SURCHARGE_FIELD_NUMBER;
+          hash = (53 * hash) + getRelativeSurcharge().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4577,39 +4980,39 @@ public final class OmGetTrolleyAsMatrixPu {
       }
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -4627,7 +5030,7 @@ public final class OmGetTrolleyAsMatrixPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -4635,7 +5038,7 @@ public final class OmGetTrolleyAsMatrixPu {
        * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Response.Row)
           io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -4643,7 +5046,7 @@ public final class OmGetTrolleyAsMatrixPu {
           return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -4656,12 +5059,13 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -4904,6 +5308,32 @@ public final class OmGetTrolleyAsMatrixPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row)other);
@@ -5028,7 +5458,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.integerValue variantTreeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> variantTreeNodeIdBuilder_;
         /**
          * <pre>
@@ -5166,11 +5596,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVariantTreeNodeIdFieldBuilder() {
           if (variantTreeNodeIdBuilder_ == null) {
-            variantTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            variantTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVariantTreeNodeId(),
                     getParentForChildren(),
@@ -5181,7 +5611,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.integerValue productTreeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> productTreeNodeIdBuilder_;
         /**
          * <pre>
@@ -5319,11 +5749,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getProductTreeNodeIdFieldBuilder() {
           if (productTreeNodeIdBuilder_ == null) {
-            productTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            productTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getProductTreeNodeId(),
                     getParentForChildren(),
@@ -5334,7 +5764,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -5472,11 +5902,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPriceNodeCharacteristicIdFieldBuilder() {
           if (priceNodeCharacteristicIdBuilder_ == null) {
-            priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPriceNodeCharacteristicId(),
                     getParentForChildren(),
@@ -5487,7 +5917,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue surchargeGeneratedByCampIds_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeGeneratedByCampIdsBuilder_;
         /**
          * <pre>
@@ -5625,11 +6055,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeGeneratedByCampIdsFieldBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
-            surchargeGeneratedByCampIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeGeneratedByCampIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeGeneratedByCampIds(),
                     getParentForChildren(),
@@ -5640,7 +6070,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue yAxisValueIds_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> yAxisValueIdsBuilder_;
         /**
          * <pre>
@@ -5778,11 +6208,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getYAxisValueIdsFieldBuilder() {
           if (yAxisValueIdsBuilder_ == null) {
-            yAxisValueIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            yAxisValueIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getYAxisValueIds(),
                     getParentForChildren(),
@@ -5793,7 +6223,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.timestampValue inputDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> inputDateAndTimeBuilder_;
         /**
          * <pre>
@@ -5931,11 +6361,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getInputDateAndTimeFieldBuilder() {
           if (inputDateAndTimeBuilder_ == null) {
-            inputDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            inputDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getInputDateAndTime(),
                     getParentForChildren(),
@@ -5946,7 +6376,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.decimalValue unitNettoPrice_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitNettoPriceBuilder_;
         /**
          * <pre>
@@ -6084,11 +6514,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getUnitNettoPriceFieldBuilder() {
           if (unitNettoPriceBuilder_ == null) {
-            unitNettoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitNettoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getUnitNettoPrice(),
                     getParentForChildren(),
@@ -6099,7 +6529,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.decimalValue absoluteUnitNettoSurcharge_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> absoluteUnitNettoSurchargeBuilder_;
         /**
          * <pre>
@@ -6237,11 +6667,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getAbsoluteUnitNettoSurchargeFieldBuilder() {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
-            absoluteUnitNettoSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            absoluteUnitNettoSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getAbsoluteUnitNettoSurcharge(),
                     getParentForChildren(),
@@ -6252,7 +6682,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.integerValue quantity_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
         /**
          * <pre>
@@ -6390,11 +6820,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.integerValue quantity = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getQuantityFieldBuilder() {
           if (quantityBuilder_ == null) {
-            quantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getQuantity(),
                     getParentForChildren(),
@@ -6405,7 +6835,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue unitSymbol_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
         /**
          * <pre>
@@ -6543,11 +6973,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
-            unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
@@ -6558,7 +6988,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.integerValue removed_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> removedBuilder_;
         /**
          * <pre>
@@ -6696,11 +7126,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.integerValue removed = 10011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRemovedFieldBuilder() {
           if (removedBuilder_ == null) {
-            removedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            removedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRemoved(),
                     getParentForChildren(),
@@ -6711,7 +7141,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.decimalValue unitBruttoPrice_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitBruttoPriceBuilder_;
         /**
          * <pre>
@@ -6849,11 +7279,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getUnitBruttoPriceFieldBuilder() {
           if (unitBruttoPriceBuilder_ == null) {
-            unitBruttoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            unitBruttoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getUnitBruttoPrice(),
                     getParentForChildren(),
@@ -6864,7 +7294,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue yAxisValues_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> yAxisValuesBuilder_;
         /**
          * <pre>
@@ -7002,11 +7432,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getYAxisValuesFieldBuilder() {
           if (yAxisValuesBuilder_ == null) {
-            yAxisValuesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            yAxisValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getYAxisValues(),
                     getParentForChildren(),
@@ -7017,7 +7447,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue surchargeReason_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeReasonBuilder_;
         /**
          * <pre>
@@ -7155,11 +7585,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getSurchargeReasonFieldBuilder() {
           if (surchargeReasonBuilder_ == null) {
-            surchargeReasonBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            surchargeReasonBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getSurchargeReason(),
                     getParentForChildren(),
@@ -7170,7 +7600,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue xAxisValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> xAxisValueBuilder_;
         /**
          * <pre>
@@ -7308,11 +7738,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getXAxisValueFieldBuilder() {
           if (xAxisValueBuilder_ == null) {
-            xAxisValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            xAxisValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getXAxisValue(),
                     getParentForChildren(),
@@ -7323,7 +7753,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.decimalValue absoluteUnitBruttoSurcharge_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> absoluteUnitBruttoSurchargeBuilder_;
         /**
          * <pre>
@@ -7461,11 +7891,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getAbsoluteUnitBruttoSurchargeFieldBuilder() {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
-            absoluteUnitBruttoSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            absoluteUnitBruttoSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getAbsoluteUnitBruttoSurcharge(),
                     getParentForChildren(),
@@ -7476,7 +7906,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.stringValue productDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> productDescriptionBuilder_;
         /**
          * <pre>
@@ -7614,11 +8044,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.stringValue product_description = 10017;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getProductDescriptionFieldBuilder() {
           if (productDescriptionBuilder_ == null) {
-            productDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            productDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getProductDescription(),
                     getParentForChildren(),
@@ -7629,7 +8059,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.integerValue xAxisValueId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> xAxisValueIdBuilder_;
         /**
          * <pre>
@@ -7767,11 +8197,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getXAxisValueIdFieldBuilder() {
           if (xAxisValueIdBuilder_ == null) {
-            xAxisValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            xAxisValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getXAxisValueId(),
                     getParentForChildren(),
@@ -7782,7 +8212,7 @@ public final class OmGetTrolleyAsMatrixPu {
         }
 
         private io.dstore.Values.decimalValue relativeSurcharge_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeSurchargeBuilder_;
         /**
          * <pre>
@@ -7920,11 +8350,11 @@ public final class OmGetTrolleyAsMatrixPu {
          *
          * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getRelativeSurchargeFieldBuilder() {
           if (relativeSurchargeBuilder_ == null) {
-            relativeSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            relativeSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getRelativeSurcharge(),
                     getParentForChildren(),
@@ -8152,6 +8582,50 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response other = (io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -8175,39 +8649,39 @@ public final class OmGetTrolleyAsMatrixPu {
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -8225,7 +8699,7 @@ public final class OmGetTrolleyAsMatrixPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -8233,7 +8707,7 @@ public final class OmGetTrolleyAsMatrixPu {
      * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Response)
         io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -8241,7 +8715,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -8254,12 +8728,13 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -8339,6 +8814,32 @@ public final class OmGetTrolleyAsMatrixPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response)other);
@@ -8369,7 +8870,7 @@ public final class OmGetTrolleyAsMatrixPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -8395,7 +8896,7 @@ public final class OmGetTrolleyAsMatrixPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -8421,7 +8922,7 @@ public final class OmGetTrolleyAsMatrixPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -8464,7 +8965,7 @@ public final class OmGetTrolleyAsMatrixPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -8680,11 +9181,11 @@ public final class OmGetTrolleyAsMatrixPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -8704,7 +9205,7 @@ public final class OmGetTrolleyAsMatrixPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -8920,11 +9421,11 @@ public final class OmGetTrolleyAsMatrixPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -8944,7 +9445,7 @@ public final class OmGetTrolleyAsMatrixPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row, io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -9232,11 +9733,11 @@ public final class OmGetTrolleyAsMatrixPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row, io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row, io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetTrolleyAsMatrixPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -9298,17 +9799,17 @@ public final class OmGetTrolleyAsMatrixPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -9403,19 +9904,19 @@ public final class OmGetTrolleyAsMatrixPu {
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_descriptor,
         new java.lang.String[] { "UniqueId", "UniqueIdNull", "PersonId", "PersonIdNull", "CalculatePrices", "CalculatePricesNull", "CheckAvailability", "CheckAvailabilityNull", "PriceNodeCharacteristicId", "PriceNodeCharacteristicIdNull", "RepairEntriesWithSameNodeId", "RepairEntriesWithSameNodeIdNull", "DeliveryPersonId", "DeliveryPersonIdNull", "OutputIntoTrolleySurchInterf", "OutputIntoTrolleySurchInterfNull", "PaymentTypeId", "PaymentTypeIdNull", "ShippingTypeId", "ShippingTypeIdNull", });
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VariantTreeNodeId", "ProductTreeNodeId", "PriceNodeCharacteristicId", "SurchargeGeneratedByCampIds", "YAxisValueIds", "InputDateAndTime", "UnitNettoPrice", "AbsoluteUnitNettoSurcharge", "Quantity", "UnitSymbol", "Removed", "UnitBruttoPrice", "YAxisValues", "SurchargeReason", "XAxisValue", "AbsoluteUnitBruttoSurcharge", "ProductDescription", "XAxisValueId", "RelativeSurcharge", });
     io.dstore.Values.getDescriptor();

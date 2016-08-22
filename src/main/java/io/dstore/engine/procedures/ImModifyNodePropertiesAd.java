@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class ImModifyNodePropertiesAd {
   private ImModifyNodePropertiesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.im_ModifyNodeProperties_Ad.Parameters)
@@ -196,11 +202,11 @@ public final class ImModifyNodePropertiesAd {
    * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyNodeProperties_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -437,7 +443,7 @@ public final class ImModifyNodePropertiesAd {
       return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -908,6 +914,172 @@ public final class ImModifyNodePropertiesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters other = (io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasResult() == other.hasResult());
+      if (hasResult()) {
+        result = result && getResult()
+            .equals(other.getResult());
+      }
+      result = result && (getResultNull()
+          == other.getResultNull());
+      result = result && (hasNodeIdList() == other.hasNodeIdList());
+      if (hasNodeIdList()) {
+        result = result && getNodeIdList()
+            .equals(other.getNodeIdList());
+      }
+      result = result && (getNodeIdListNull()
+          == other.getNodeIdListNull());
+      result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+      if (hasNodeCharacteristicId()) {
+        result = result && getNodeCharacteristicId()
+            .equals(other.getNodeCharacteristicId());
+      }
+      result = result && (getNodeCharacteristicIdNull()
+          == other.getNodeCharacteristicIdNull());
+      result = result && (hasValue() == other.hasValue());
+      if (hasValue()) {
+        result = result && getValue()
+            .equals(other.getValue());
+      }
+      result = result && (getValueNull()
+          == other.getValueNull());
+      result = result && (hasValidFrom() == other.hasValidFrom());
+      if (hasValidFrom()) {
+        result = result && getValidFrom()
+            .equals(other.getValidFrom());
+      }
+      result = result && (getValidFromNull()
+          == other.getValidFromNull());
+      result = result && (hasValidTo() == other.hasValidTo());
+      if (hasValidTo()) {
+        result = result && getValidTo()
+            .equals(other.getValidTo());
+      }
+      result = result && (getValidToNull()
+          == other.getValidToNull());
+      result = result && (hasNewValueId() == other.hasNewValueId());
+      if (hasNewValueId()) {
+        result = result && getNewValueId()
+            .equals(other.getNewValueId());
+      }
+      result = result && (getNewValueIdNull()
+          == other.getNewValueIdNull());
+      result = result && (hasDeleteValueId() == other.hasDeleteValueId());
+      if (hasDeleteValueId()) {
+        result = result && getDeleteValueId()
+            .equals(other.getDeleteValueId());
+      }
+      result = result && (getDeleteValueIdNull()
+          == other.getDeleteValueIdNull());
+      result = result && (hasValueIdForPredefinedCharac() == other.hasValueIdForPredefinedCharac());
+      if (hasValueIdForPredefinedCharac()) {
+        result = result && getValueIdForPredefinedCharac()
+            .equals(other.getValueIdForPredefinedCharac());
+      }
+      result = result && (getValueIdForPredefinedCharacNull()
+          == other.getValueIdForPredefinedCharacNull());
+      result = result && (hasUseDataFromdstoreifin() == other.hasUseDataFromdstoreifin());
+      if (hasUseDataFromdstoreifin()) {
+        result = result && getUseDataFromdstoreifin()
+            .equals(other.getUseDataFromdstoreifin());
+      }
+      result = result && (getUseDataFromdstoreifinNull()
+          == other.getUseDataFromdstoreifinNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasResult()) {
+        hash = (37 * hash) + RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getResult().hashCode();
+      }
+      hash = (37 * hash) + RESULT_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getResultNull());
+      if (hasNodeIdList()) {
+        hash = (37 * hash) + NODE_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeIdList().hashCode();
+      }
+      hash = (37 * hash) + NODE_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeIdListNull());
+      if (hasNodeCharacteristicId()) {
+        hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+      }
+      hash = (37 * hash) + NODE_CHARACTERISTIC_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNodeCharacteristicIdNull());
+      if (hasValue()) {
+        hash = (37 * hash) + VALUE_FIELD_NUMBER;
+        hash = (53 * hash) + getValue().hashCode();
+      }
+      hash = (37 * hash) + VALUE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueNull());
+      if (hasValidFrom()) {
+        hash = (37 * hash) + VALID_FROM_FIELD_NUMBER;
+        hash = (53 * hash) + getValidFrom().hashCode();
+      }
+      hash = (37 * hash) + VALID_FROM_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValidFromNull());
+      if (hasValidTo()) {
+        hash = (37 * hash) + VALID_TO_FIELD_NUMBER;
+        hash = (53 * hash) + getValidTo().hashCode();
+      }
+      hash = (37 * hash) + VALID_TO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValidToNull());
+      if (hasNewValueId()) {
+        hash = (37 * hash) + NEW_VALUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNewValueId().hashCode();
+      }
+      hash = (37 * hash) + NEW_VALUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNewValueIdNull());
+      if (hasDeleteValueId()) {
+        hash = (37 * hash) + DELETE_VALUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getDeleteValueId().hashCode();
+      }
+      hash = (37 * hash) + DELETE_VALUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getDeleteValueIdNull());
+      if (hasValueIdForPredefinedCharac()) {
+        hash = (37 * hash) + VALUE_ID_FOR_PREDEFINED_CHARAC_FIELD_NUMBER;
+        hash = (53 * hash) + getValueIdForPredefinedCharac().hashCode();
+      }
+      hash = (37 * hash) + VALUE_ID_FOR_PREDEFINED_CHARAC_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getValueIdForPredefinedCharacNull());
+      if (hasUseDataFromdstoreifin()) {
+        hash = (37 * hash) + USE_DATA_FROMDSTOREIFIN_FIELD_NUMBER;
+        hash = (53 * hash) + getUseDataFromdstoreifin().hashCode();
+      }
+      hash = (37 * hash) + USE_DATA_FROMDSTOREIFIN_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUseDataFromdstoreifinNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -931,39 +1103,39 @@ public final class ImModifyNodePropertiesAd {
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -981,7 +1153,7 @@ public final class ImModifyNodePropertiesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -989,7 +1161,7 @@ public final class ImModifyNodePropertiesAd {
      * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_ModifyNodeProperties_Ad.Parameters)
         io.dstore.engine.procedures.ImModifyNodePropertiesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -997,7 +1169,7 @@ public final class ImModifyNodePropertiesAd {
         return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -1010,12 +1182,13 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -1186,6 +1359,32 @@ public final class ImModifyNodePropertiesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.ImModifyNodePropertiesAd.Parameters)other);
@@ -1284,7 +1483,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.integerValue result_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultBuilder_;
       /**
        * <code>optional .dstore.values.integerValue result = 1;</code>
@@ -1386,11 +1585,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.integerValue result = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
-          resultBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getResult(),
                   getParentForChildren(),
@@ -1427,7 +1626,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.stringValue nodeIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
@@ -1529,11 +1728,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.stringValue node_id_list = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getNodeIdListFieldBuilder() {
         if (nodeIdListBuilder_ == null) {
-          nodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getNodeIdList(),
                   getParentForChildren(),
@@ -1570,7 +1769,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
@@ -1672,11 +1871,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.integerValue node_characteristic_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
@@ -1713,7 +1912,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.stringValue value_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
       /**
        * <code>optional .dstore.values.stringValue value = 4;</code>
@@ -1815,11 +2014,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.stringValue value = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
-          valueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
@@ -1856,7 +2055,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.timestampValue validFrom_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
@@ -1958,11 +2157,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidFromFieldBuilder() {
         if (validFromBuilder_ == null) {
-          validFromBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          validFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidFrom(),
                   getParentForChildren(),
@@ -1999,7 +2198,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.timestampValue validTo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
@@ -2101,11 +2300,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getValidToFieldBuilder() {
         if (validToBuilder_ == null) {
-          validToBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          validToBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getValidTo(),
                   getParentForChildren(),
@@ -2142,7 +2341,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.integerValue newValueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
@@ -2244,11 +2443,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.integerValue new_value_id = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNewValueIdFieldBuilder() {
         if (newValueIdBuilder_ == null) {
-          newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNewValueId(),
                   getParentForChildren(),
@@ -2285,7 +2484,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.integerValue deleteValueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteValueIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
@@ -2387,11 +2586,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.integerValue delete_value_id = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getDeleteValueIdFieldBuilder() {
         if (deleteValueIdBuilder_ == null) {
-          deleteValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          deleteValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getDeleteValueId(),
                   getParentForChildren(),
@@ -2428,7 +2627,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.booleanValue valueIdForPredefinedCharac_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueIdForPredefinedCharacBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
@@ -2530,11 +2729,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.booleanValue value_id_for_predefined_charac = 9;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getValueIdForPredefinedCharacFieldBuilder() {
         if (valueIdForPredefinedCharacBuilder_ == null) {
-          valueIdForPredefinedCharacBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          valueIdForPredefinedCharacBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getValueIdForPredefinedCharac(),
                   getParentForChildren(),
@@ -2571,7 +2770,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.booleanValue useDataFromdstoreifin_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> useDataFromdstoreifinBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
@@ -2673,11 +2872,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.booleanValue use_data_fromdstoreifin = 10;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getUseDataFromdstoreifinFieldBuilder() {
         if (useDataFromdstoreifinBuilder_ == null) {
-          useDataFromdstoreifinBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          useDataFromdstoreifinBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getUseDataFromdstoreifin(),
                   getParentForChildren(),
@@ -2854,11 +3053,11 @@ public final class ImModifyNodePropertiesAd {
    * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyNodeProperties_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2897,7 +3096,8 @@ public final class ImModifyNodePropertiesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2905,7 +3105,8 @@ public final class ImModifyNodePropertiesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2913,7 +3114,8 @@ public final class ImModifyNodePropertiesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2954,7 +3156,7 @@ public final class ImModifyNodePropertiesAd {
       return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -3049,11 +3251,11 @@ public final class ImModifyNodePropertiesAd {
      * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyNodeProperties_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3145,7 +3347,7 @@ public final class ImModifyNodePropertiesAd {
         return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3312,6 +3514,63 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row other = (io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+        if (hasNodeCharacteristicId()) {
+          result = result && getNodeCharacteristicId()
+              .equals(other.getNodeCharacteristicId());
+        }
+        result = result && (hasErrorCode() == other.hasErrorCode());
+        if (hasErrorCode()) {
+          result = result && getErrorCode()
+              .equals(other.getErrorCode());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasNodeCharacteristicId()) {
+          hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+        }
+        if (hasErrorCode()) {
+          hash = (37 * hash) + ERROR_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getErrorCode().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3335,39 +3594,39 @@ public final class ImModifyNodePropertiesAd {
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3385,7 +3644,7 @@ public final class ImModifyNodePropertiesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3393,7 +3652,7 @@ public final class ImModifyNodePropertiesAd {
        * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.im_ModifyNodeProperties_Ad.Response.Row)
           io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3401,7 +3660,7 @@ public final class ImModifyNodePropertiesAd {
           return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3414,12 +3673,13 @@ public final class ImModifyNodePropertiesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3486,6 +3746,32 @@ public final class ImModifyNodePropertiesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row)other);
@@ -3562,7 +3848,7 @@ public final class ImModifyNodePropertiesAd {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -3700,11 +3986,11 @@ public final class ImModifyNodePropertiesAd {
          *
          * <code>optional .dstore.values.integerValue node_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -3715,7 +4001,7 @@ public final class ImModifyNodePropertiesAd {
         }
 
         private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -3853,11 +4139,11 @@ public final class ImModifyNodePropertiesAd {
          *
          * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
@@ -3868,7 +4154,7 @@ public final class ImModifyNodePropertiesAd {
         }
 
         private io.dstore.Values.integerValue errorCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
         /**
          * <pre>
@@ -4006,11 +4292,11 @@ public final class ImModifyNodePropertiesAd {
          *
          * <code>optional .dstore.values.integerValue error_code = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
-            errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
@@ -4247,6 +4533,59 @@ public final class ImModifyNodePropertiesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response other = (io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      result = result && (hasNewValueId() == other.hasNewValueId());
+      if (hasNewValueId()) {
+        result = result && getNewValueId()
+            .equals(other.getNewValueId());
+      }
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      if (hasNewValueId()) {
+        hash = (37 * hash) + NEW_VALUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getNewValueId().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4270,39 +4609,39 @@ public final class ImModifyNodePropertiesAd {
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4320,7 +4659,7 @@ public final class ImModifyNodePropertiesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4328,7 +4667,7 @@ public final class ImModifyNodePropertiesAd {
      * Protobuf type {@code dstore.engine.im_ModifyNodeProperties_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.im_ModifyNodeProperties_Ad.Response)
         io.dstore.engine.procedures.ImModifyNodePropertiesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4336,7 +4675,7 @@ public final class ImModifyNodePropertiesAd {
         return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.ImModifyNodePropertiesAd.internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4349,12 +4688,13 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4447,6 +4787,32 @@ public final class ImModifyNodePropertiesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response)other);
@@ -4477,7 +4843,7 @@ public final class ImModifyNodePropertiesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4503,7 +4869,7 @@ public final class ImModifyNodePropertiesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4529,7 +4895,7 @@ public final class ImModifyNodePropertiesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4575,7 +4941,7 @@ public final class ImModifyNodePropertiesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4791,11 +5157,11 @@ public final class ImModifyNodePropertiesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4815,7 +5181,7 @@ public final class ImModifyNodePropertiesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5031,11 +5397,11 @@ public final class ImModifyNodePropertiesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5055,7 +5421,7 @@ public final class ImModifyNodePropertiesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row, io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row.Builder, io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5271,11 +5637,11 @@ public final class ImModifyNodePropertiesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row, io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row.Builder, io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row, io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.Row.Builder, io.dstore.engine.procedures.ImModifyNodePropertiesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5287,7 +5653,7 @@ public final class ImModifyNodePropertiesAd {
       }
 
       private io.dstore.Values.integerValue newValueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
@@ -5389,11 +5755,11 @@ public final class ImModifyNodePropertiesAd {
       /**
        * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNewValueIdFieldBuilder() {
         if (newValueIdBuilder_ == null) {
-          newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNewValueId(),
                   getParentForChildren(),
@@ -5454,17 +5820,17 @@ public final class ImModifyNodePropertiesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5534,19 +5900,19 @@ public final class ImModifyNodePropertiesAd {
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Parameters_descriptor,
         new java.lang.String[] { "Result", "ResultNull", "NodeIdList", "NodeIdListNull", "NodeCharacteristicId", "NodeCharacteristicIdNull", "Value", "ValueNull", "ValidFrom", "ValidFromNull", "ValidTo", "ValidToNull", "NewValueId", "NewValueIdNull", "DeleteValueId", "DeleteValueIdNull", "ValueIdForPredefinedCharac", "ValueIdForPredefinedCharacNull", "UseDataFromdstoreifin", "UseDataFromdstoreifinNull", });
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", "NewValueId", });
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyNodeProperties_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "NodeId", "NodeCharacteristicId", "ErrorCode", });
     io.dstore.Values.getDescriptor();

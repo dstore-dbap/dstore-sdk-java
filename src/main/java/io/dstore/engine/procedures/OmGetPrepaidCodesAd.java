@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetPrepaidCodesAd {
   private OmGetPrepaidCodesAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetPrepaidCodes_Ad.Parameters)
@@ -106,11 +112,11 @@ public final class OmGetPrepaidCodesAd {
    * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPrepaidCodes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -252,7 +258,7 @@ public final class OmGetPrepaidCodesAd {
       return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -503,6 +509,102 @@ public final class OmGetPrepaidCodesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters other = (io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasPrepaidCode() == other.hasPrepaidCode());
+      if (hasPrepaidCode()) {
+        result = result && getPrepaidCode()
+            .equals(other.getPrepaidCode());
+      }
+      result = result && (getPrepaidCodeNull()
+          == other.getPrepaidCodeNull());
+      result = result && (hasFromCodeValidUntil() == other.hasFromCodeValidUntil());
+      if (hasFromCodeValidUntil()) {
+        result = result && getFromCodeValidUntil()
+            .equals(other.getFromCodeValidUntil());
+      }
+      result = result && (getFromCodeValidUntilNull()
+          == other.getFromCodeValidUntilNull());
+      result = result && (hasToCodeValidUntil() == other.hasToCodeValidUntil());
+      if (hasToCodeValidUntil()) {
+        result = result && getToCodeValidUntil()
+            .equals(other.getToCodeValidUntil());
+      }
+      result = result && (getToCodeValidUntilNull()
+          == other.getToCodeValidUntilNull());
+      result = result && (hasFilterByUseState() == other.hasFilterByUseState());
+      if (hasFilterByUseState()) {
+        result = result && getFilterByUseState()
+            .equals(other.getFilterByUseState());
+      }
+      result = result && (getFilterByUseStateNull()
+          == other.getFilterByUseStateNull());
+      result = result && (hasOrderBy() == other.hasOrderBy());
+      if (hasOrderBy()) {
+        result = result && getOrderBy()
+            .equals(other.getOrderBy());
+      }
+      result = result && (getOrderByNull()
+          == other.getOrderByNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasPrepaidCode()) {
+        hash = (37 * hash) + PREPAID_CODE_FIELD_NUMBER;
+        hash = (53 * hash) + getPrepaidCode().hashCode();
+      }
+      hash = (37 * hash) + PREPAID_CODE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPrepaidCodeNull());
+      if (hasFromCodeValidUntil()) {
+        hash = (37 * hash) + FROM_CODE_VALID_UNTIL_FIELD_NUMBER;
+        hash = (53 * hash) + getFromCodeValidUntil().hashCode();
+      }
+      hash = (37 * hash) + FROM_CODE_VALID_UNTIL_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromCodeValidUntilNull());
+      if (hasToCodeValidUntil()) {
+        hash = (37 * hash) + TO_CODE_VALID_UNTIL_FIELD_NUMBER;
+        hash = (53 * hash) + getToCodeValidUntil().hashCode();
+      }
+      hash = (37 * hash) + TO_CODE_VALID_UNTIL_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToCodeValidUntilNull());
+      if (hasFilterByUseState()) {
+        hash = (37 * hash) + FILTER_BY_USE_STATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFilterByUseState().hashCode();
+      }
+      hash = (37 * hash) + FILTER_BY_USE_STATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFilterByUseStateNull());
+      if (hasOrderBy()) {
+        hash = (37 * hash) + ORDER_BY_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderBy().hashCode();
+      }
+      hash = (37 * hash) + ORDER_BY_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderByNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -526,39 +628,39 @@ public final class OmGetPrepaidCodesAd {
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -576,7 +678,7 @@ public final class OmGetPrepaidCodesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -584,7 +686,7 @@ public final class OmGetPrepaidCodesAd {
      * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPrepaidCodes_Ad.Parameters)
         io.dstore.engine.procedures.OmGetPrepaidCodesAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -592,7 +694,7 @@ public final class OmGetPrepaidCodesAd {
         return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -605,12 +707,13 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -711,6 +814,32 @@ public final class OmGetPrepaidCodesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetPrepaidCodesAd.Parameters)other);
@@ -779,7 +908,7 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private io.dstore.Values.stringValue prepaidCode_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prepaidCodeBuilder_;
       /**
        * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
@@ -881,11 +1010,11 @@ public final class OmGetPrepaidCodesAd {
       /**
        * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getPrepaidCodeFieldBuilder() {
         if (prepaidCodeBuilder_ == null) {
-          prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getPrepaidCode(),
                   getParentForChildren(),
@@ -922,7 +1051,7 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private io.dstore.Values.timestampValue fromCodeValidUntil_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromCodeValidUntilBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
@@ -1024,11 +1153,11 @@ public final class OmGetPrepaidCodesAd {
       /**
        * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromCodeValidUntilFieldBuilder() {
         if (fromCodeValidUntilBuilder_ == null) {
-          fromCodeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromCodeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromCodeValidUntil(),
                   getParentForChildren(),
@@ -1065,7 +1194,7 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private io.dstore.Values.timestampValue toCodeValidUntil_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toCodeValidUntilBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
@@ -1167,11 +1296,11 @@ public final class OmGetPrepaidCodesAd {
       /**
        * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToCodeValidUntilFieldBuilder() {
         if (toCodeValidUntilBuilder_ == null) {
-          toCodeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toCodeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToCodeValidUntil(),
                   getParentForChildren(),
@@ -1208,7 +1337,7 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private io.dstore.Values.integerValue filterByUseState_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByUseStateBuilder_;
       /**
        * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
@@ -1310,11 +1439,11 @@ public final class OmGetPrepaidCodesAd {
       /**
        * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getFilterByUseStateFieldBuilder() {
         if (filterByUseStateBuilder_ == null) {
-          filterByUseStateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          filterByUseStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getFilterByUseState(),
                   getParentForChildren(),
@@ -1351,7 +1480,7 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private io.dstore.Values.stringValue orderBy_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderByBuilder_;
       /**
        * <code>optional .dstore.values.stringValue order_by = 5;</code>
@@ -1453,11 +1582,11 @@ public final class OmGetPrepaidCodesAd {
       /**
        * <code>optional .dstore.values.stringValue order_by = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getOrderByFieldBuilder() {
         if (orderByBuilder_ == null) {
-          orderByBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderByBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getOrderBy(),
                   getParentForChildren(),
@@ -1641,11 +1770,11 @@ public final class OmGetPrepaidCodesAd {
    * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPrepaidCodes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1684,7 +1813,8 @@ public final class OmGetPrepaidCodesAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1692,7 +1822,8 @@ public final class OmGetPrepaidCodesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1700,7 +1831,8 @@ public final class OmGetPrepaidCodesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1728,7 +1860,7 @@ public final class OmGetPrepaidCodesAd {
       return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -1948,11 +2080,11 @@ public final class OmGetPrepaidCodesAd {
      * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPrepaidCodes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2109,7 +2241,7 @@ public final class OmGetPrepaidCodesAd {
         return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2476,6 +2608,108 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row other = (io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasGeneratedByOrderId() == other.hasGeneratedByOrderId());
+        if (hasGeneratedByOrderId()) {
+          result = result && getGeneratedByOrderId()
+              .equals(other.getGeneratedByOrderId());
+        }
+        result = result && (hasGeneratedAtDateAndTime() == other.hasGeneratedAtDateAndTime());
+        if (hasGeneratedAtDateAndTime()) {
+          result = result && getGeneratedAtDateAndTime()
+              .equals(other.getGeneratedAtDateAndTime());
+        }
+        result = result && (hasUsedForTransactionId() == other.hasUsedForTransactionId());
+        if (hasUsedForTransactionId()) {
+          result = result && getUsedForTransactionId()
+              .equals(other.getUsedForTransactionId());
+        }
+        result = result && (hasCodeAlreadyUsed() == other.hasCodeAlreadyUsed());
+        if (hasCodeAlreadyUsed()) {
+          result = result && getCodeAlreadyUsed()
+              .equals(other.getCodeAlreadyUsed());
+        }
+        result = result && (hasPrepaidCode() == other.hasPrepaidCode());
+        if (hasPrepaidCode()) {
+          result = result && getPrepaidCode()
+              .equals(other.getPrepaidCode());
+        }
+        result = result && (hasPrepaidValue() == other.hasPrepaidValue());
+        if (hasPrepaidValue()) {
+          result = result && getPrepaidValue()
+              .equals(other.getPrepaidValue());
+        }
+        result = result && (hasCodeValidUntil() == other.hasCodeValidUntil());
+        if (hasCodeValidUntil()) {
+          result = result && getCodeValidUntil()
+              .equals(other.getCodeValidUntil());
+        }
+        result = result && (hasCurrencyId() == other.hasCurrencyId());
+        if (hasCurrencyId()) {
+          result = result && getCurrencyId()
+              .equals(other.getCurrencyId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasGeneratedByOrderId()) {
+          hash = (37 * hash) + GENERATED_BY_ORDER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getGeneratedByOrderId().hashCode();
+        }
+        if (hasGeneratedAtDateAndTime()) {
+          hash = (37 * hash) + GENERATED_AT_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getGeneratedAtDateAndTime().hashCode();
+        }
+        if (hasUsedForTransactionId()) {
+          hash = (37 * hash) + USED_FOR_TRANSACTION_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getUsedForTransactionId().hashCode();
+        }
+        if (hasCodeAlreadyUsed()) {
+          hash = (37 * hash) + CODE_ALREADY_USED_FIELD_NUMBER;
+          hash = (53 * hash) + getCodeAlreadyUsed().hashCode();
+        }
+        if (hasPrepaidCode()) {
+          hash = (37 * hash) + PREPAID_CODE_FIELD_NUMBER;
+          hash = (53 * hash) + getPrepaidCode().hashCode();
+        }
+        if (hasPrepaidValue()) {
+          hash = (37 * hash) + PREPAID_VALUE_FIELD_NUMBER;
+          hash = (53 * hash) + getPrepaidValue().hashCode();
+        }
+        if (hasCodeValidUntil()) {
+          hash = (37 * hash) + CODE_VALID_UNTIL_FIELD_NUMBER;
+          hash = (53 * hash) + getCodeValidUntil().hashCode();
+        }
+        if (hasCurrencyId()) {
+          hash = (37 * hash) + CURRENCY_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getCurrencyId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2499,39 +2733,39 @@ public final class OmGetPrepaidCodesAd {
       }
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2549,7 +2783,7 @@ public final class OmGetPrepaidCodesAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2557,7 +2791,7 @@ public final class OmGetPrepaidCodesAd {
        * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPrepaidCodes_Ad.Response.Row)
           io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2565,7 +2799,7 @@ public final class OmGetPrepaidCodesAd {
           return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2578,12 +2812,13 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2705,6 +2940,32 @@ public final class OmGetPrepaidCodesAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row)other);
@@ -2796,7 +3057,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.integerValue generatedByOrderId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> generatedByOrderIdBuilder_;
         /**
          * <pre>
@@ -2934,11 +3195,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getGeneratedByOrderIdFieldBuilder() {
           if (generatedByOrderIdBuilder_ == null) {
-            generatedByOrderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            generatedByOrderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getGeneratedByOrderId(),
                     getParentForChildren(),
@@ -2949,7 +3210,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.timestampValue generatedAtDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> generatedAtDateAndTimeBuilder_;
         /**
          * <pre>
@@ -3087,11 +3348,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getGeneratedAtDateAndTimeFieldBuilder() {
           if (generatedAtDateAndTimeBuilder_ == null) {
-            generatedAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            generatedAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getGeneratedAtDateAndTime(),
                     getParentForChildren(),
@@ -3102,7 +3363,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.integerValue usedForTransactionId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedForTransactionIdBuilder_;
         /**
          * <pre>
@@ -3240,11 +3501,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getUsedForTransactionIdFieldBuilder() {
           if (usedForTransactionIdBuilder_ == null) {
-            usedForTransactionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            usedForTransactionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getUsedForTransactionId(),
                     getParentForChildren(),
@@ -3255,7 +3516,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.booleanValue codeAlreadyUsed_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> codeAlreadyUsedBuilder_;
         /**
          * <pre>
@@ -3393,11 +3654,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getCodeAlreadyUsedFieldBuilder() {
           if (codeAlreadyUsedBuilder_ == null) {
-            codeAlreadyUsedBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            codeAlreadyUsedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getCodeAlreadyUsed(),
                     getParentForChildren(),
@@ -3408,7 +3669,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.stringValue prepaidCode_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prepaidCodeBuilder_;
         /**
          * <pre>
@@ -3546,11 +3807,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getPrepaidCodeFieldBuilder() {
           if (prepaidCodeBuilder_ == null) {
-            prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getPrepaidCode(),
                     getParentForChildren(),
@@ -3561,7 +3822,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.decimalValue prepaidValue_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> prepaidValueBuilder_;
         /**
          * <pre>
@@ -3699,11 +3960,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getPrepaidValueFieldBuilder() {
           if (prepaidValueBuilder_ == null) {
-            prepaidValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            prepaidValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getPrepaidValue(),
                     getParentForChildren(),
@@ -3714,7 +3975,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.timestampValue codeValidUntil_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> codeValidUntilBuilder_;
         /**
          * <pre>
@@ -3852,11 +4113,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getCodeValidUntilFieldBuilder() {
           if (codeValidUntilBuilder_ == null) {
-            codeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            codeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getCodeValidUntil(),
                     getParentForChildren(),
@@ -3867,7 +4128,7 @@ public final class OmGetPrepaidCodesAd {
         }
 
         private io.dstore.Values.integerValue currencyId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
@@ -4005,11 +4266,11 @@ public final class OmGetPrepaidCodesAd {
          *
          * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
-            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
@@ -4237,6 +4498,50 @@ public final class OmGetPrepaidCodesAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response other = (io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4260,39 +4565,39 @@ public final class OmGetPrepaidCodesAd {
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4310,7 +4615,7 @@ public final class OmGetPrepaidCodesAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4318,7 +4623,7 @@ public final class OmGetPrepaidCodesAd {
      * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetPrepaidCodes_Ad.Response)
         io.dstore.engine.procedures.OmGetPrepaidCodesAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4326,7 +4631,7 @@ public final class OmGetPrepaidCodesAd {
         return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetPrepaidCodesAd.internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4339,12 +4644,13 @@ public final class OmGetPrepaidCodesAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4424,6 +4730,32 @@ public final class OmGetPrepaidCodesAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response)other);
@@ -4454,7 +4786,7 @@ public final class OmGetPrepaidCodesAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4480,7 +4812,7 @@ public final class OmGetPrepaidCodesAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4506,7 +4838,7 @@ public final class OmGetPrepaidCodesAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4549,7 +4881,7 @@ public final class OmGetPrepaidCodesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4765,11 +5097,11 @@ public final class OmGetPrepaidCodesAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4789,7 +5121,7 @@ public final class OmGetPrepaidCodesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5005,11 +5337,11 @@ public final class OmGetPrepaidCodesAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5029,7 +5361,7 @@ public final class OmGetPrepaidCodesAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row, io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5317,11 +5649,11 @@ public final class OmGetPrepaidCodesAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row, io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row, io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.Row.Builder, io.dstore.engine.procedures.OmGetPrepaidCodesAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5383,17 +5715,17 @@ public final class OmGetPrepaidCodesAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5459,19 +5791,19 @@ public final class OmGetPrepaidCodesAd {
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_descriptor,
         new java.lang.String[] { "PrepaidCode", "PrepaidCodeNull", "FromCodeValidUntil", "FromCodeValidUntilNull", "ToCodeValidUntil", "ToCodeValidUntilNull", "FilterByUseState", "FilterByUseStateNull", "OrderBy", "OrderByNull", });
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "GeneratedByOrderId", "GeneratedAtDateAndTime", "UsedForTransactionId", "CodeAlreadyUsed", "PrepaidCode", "PrepaidValue", "CodeValidUntil", "CurrencyId", });
     io.dstore.Values.getDescriptor();

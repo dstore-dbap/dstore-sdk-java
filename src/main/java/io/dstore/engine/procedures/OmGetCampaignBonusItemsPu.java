@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class OmGetCampaignBonusItemsPu {
   private OmGetCampaignBonusItemsPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.om_GetCampaignBonusItems_Pu.Parameters)
@@ -142,11 +148,11 @@ public final class OmGetCampaignBonusItemsPu {
    * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignBonusItems_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -326,7 +332,7 @@ public final class OmGetCampaignBonusItemsPu {
       return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -665,6 +671,130 @@ public final class OmGetCampaignBonusItemsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters other = (io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasBenefitId() == other.hasBenefitId());
+      if (hasBenefitId()) {
+        result = result && getBenefitId()
+            .equals(other.getBenefitId());
+      }
+      result = result && (getBenefitIdNull()
+          == other.getBenefitIdNull());
+      result = result && (hasOnlyDefinition() == other.hasOnlyDefinition());
+      if (hasOnlyDefinition()) {
+        result = result && getOnlyDefinition()
+            .equals(other.getOnlyDefinition());
+      }
+      result = result && (getOnlyDefinitionNull()
+          == other.getOnlyDefinitionNull());
+      result = result && (hasSortByCharacteristicIdList() == other.hasSortByCharacteristicIdList());
+      if (hasSortByCharacteristicIdList()) {
+        result = result && getSortByCharacteristicIdList()
+            .equals(other.getSortByCharacteristicIdList());
+      }
+      result = result && (getSortByCharacteristicIdListNull()
+          == other.getSortByCharacteristicIdListNull());
+      result = result && (hasSortOptionList() == other.hasSortOptionList());
+      if (hasSortOptionList()) {
+        result = result && getSortOptionList()
+            .equals(other.getSortOptionList());
+      }
+      result = result && (getSortOptionListNull()
+          == other.getSortOptionListNull());
+      result = result && (hasInheritDepthOptionList() == other.hasInheritDepthOptionList());
+      if (hasInheritDepthOptionList()) {
+        result = result && getInheritDepthOptionList()
+            .equals(other.getInheritDepthOptionList());
+      }
+      result = result && (getInheritDepthOptionListNull()
+          == other.getInheritDepthOptionListNull());
+      result = result && (hasRecursiveEvaluationOptionList() == other.hasRecursiveEvaluationOptionList());
+      if (hasRecursiveEvaluationOptionList()) {
+        result = result && getRecursiveEvaluationOptionList()
+            .equals(other.getRecursiveEvaluationOptionList());
+      }
+      result = result && (getRecursiveEvaluationOptionListNull()
+          == other.getRecursiveEvaluationOptionListNull());
+      result = result && (hasGetValuesForSortByCharacs() == other.hasGetValuesForSortByCharacs());
+      if (hasGetValuesForSortByCharacs()) {
+        result = result && getGetValuesForSortByCharacs()
+            .equals(other.getGetValuesForSortByCharacs());
+      }
+      result = result && (getGetValuesForSortByCharacsNull()
+          == other.getGetValuesForSortByCharacsNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasBenefitId()) {
+        hash = (37 * hash) + BENEFIT_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getBenefitId().hashCode();
+      }
+      hash = (37 * hash) + BENEFIT_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBenefitIdNull());
+      if (hasOnlyDefinition()) {
+        hash = (37 * hash) + ONLY_DEFINITION_FIELD_NUMBER;
+        hash = (53 * hash) + getOnlyDefinition().hashCode();
+      }
+      hash = (37 * hash) + ONLY_DEFINITION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOnlyDefinitionNull());
+      if (hasSortByCharacteristicIdList()) {
+        hash = (37 * hash) + SORT_BY_CHARACTERISTIC_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getSortByCharacteristicIdList().hashCode();
+      }
+      hash = (37 * hash) + SORT_BY_CHARACTERISTIC_ID_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortByCharacteristicIdListNull());
+      if (hasSortOptionList()) {
+        hash = (37 * hash) + SORT_OPTION_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getSortOptionList().hashCode();
+      }
+      hash = (37 * hash) + SORT_OPTION_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortOptionListNull());
+      if (hasInheritDepthOptionList()) {
+        hash = (37 * hash) + INHERIT_DEPTH_OPTION_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getInheritDepthOptionList().hashCode();
+      }
+      hash = (37 * hash) + INHERIT_DEPTH_OPTION_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInheritDepthOptionListNull());
+      if (hasRecursiveEvaluationOptionList()) {
+        hash = (37 * hash) + RECURSIVE_EVALUATION_OPTION_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getRecursiveEvaluationOptionList().hashCode();
+      }
+      hash = (37 * hash) + RECURSIVE_EVALUATION_OPTION_LIST_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getRecursiveEvaluationOptionListNull());
+      if (hasGetValuesForSortByCharacs()) {
+        hash = (37 * hash) + GET_VALUES_FOR_SORT_BY_CHARACS_FIELD_NUMBER;
+        hash = (53 * hash) + getGetValuesForSortByCharacs().hashCode();
+      }
+      hash = (37 * hash) + GET_VALUES_FOR_SORT_BY_CHARACS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGetValuesForSortByCharacsNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -688,39 +818,39 @@ public final class OmGetCampaignBonusItemsPu {
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -738,7 +868,7 @@ public final class OmGetCampaignBonusItemsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -746,7 +876,7 @@ public final class OmGetCampaignBonusItemsPu {
      * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCampaignBonusItems_Pu.Parameters)
         io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -754,7 +884,7 @@ public final class OmGetCampaignBonusItemsPu {
         return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -767,12 +897,13 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -901,6 +1032,32 @@ public final class OmGetCampaignBonusItemsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Parameters)other);
@@ -981,7 +1138,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.integerValue benefitId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
@@ -1083,11 +1240,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getBenefitIdFieldBuilder() {
         if (benefitIdBuilder_ == null) {
-          benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getBenefitId(),
                   getParentForChildren(),
@@ -1124,7 +1281,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.integerValue onlyDefinition_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlyDefinitionBuilder_;
       /**
        * <code>optional .dstore.values.integerValue only_definition = 2;</code>
@@ -1226,11 +1383,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.integerValue only_definition = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getOnlyDefinitionFieldBuilder() {
         if (onlyDefinitionBuilder_ == null) {
-          onlyDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          onlyDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getOnlyDefinition(),
                   getParentForChildren(),
@@ -1267,7 +1424,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.stringValue sortByCharacteristicIdList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sortByCharacteristicIdListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 3;</code>
@@ -1369,11 +1526,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.stringValue sort_by_characteristic_id_list = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSortByCharacteristicIdListFieldBuilder() {
         if (sortByCharacteristicIdListBuilder_ == null) {
-          sortByCharacteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortByCharacteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSortByCharacteristicIdList(),
                   getParentForChildren(),
@@ -1410,7 +1567,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.stringValue sortOptionList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sortOptionListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue sort_option_list = 4;</code>
@@ -1512,11 +1669,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.stringValue sort_option_list = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getSortOptionListFieldBuilder() {
         if (sortOptionListBuilder_ == null) {
-          sortOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getSortOptionList(),
                   getParentForChildren(),
@@ -1553,7 +1710,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.stringValue inheritDepthOptionList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> inheritDepthOptionListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue inherit_depth_option_list = 5;</code>
@@ -1655,11 +1812,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.stringValue inherit_depth_option_list = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInheritDepthOptionListFieldBuilder() {
         if (inheritDepthOptionListBuilder_ == null) {
-          inheritDepthOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          inheritDepthOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInheritDepthOptionList(),
                   getParentForChildren(),
@@ -1696,7 +1853,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.stringValue recursiveEvaluationOptionList_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> recursiveEvaluationOptionListBuilder_;
       /**
        * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 6;</code>
@@ -1798,11 +1955,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.stringValue recursive_evaluation_option_list = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getRecursiveEvaluationOptionListFieldBuilder() {
         if (recursiveEvaluationOptionListBuilder_ == null) {
-          recursiveEvaluationOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          recursiveEvaluationOptionListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getRecursiveEvaluationOptionList(),
                   getParentForChildren(),
@@ -1839,7 +1996,7 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private io.dstore.Values.booleanValue getValuesForSortByCharacs_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getValuesForSortByCharacsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 7;</code>
@@ -1941,11 +2098,11 @@ public final class OmGetCampaignBonusItemsPu {
       /**
        * <code>optional .dstore.values.booleanValue get_values_for_sort_by_characs = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getGetValuesForSortByCharacsFieldBuilder() {
         if (getValuesForSortByCharacsBuilder_ == null) {
-          getValuesForSortByCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getValuesForSortByCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getGetValuesForSortByCharacs(),
                   getParentForChildren(),
@@ -2129,11 +2286,11 @@ public final class OmGetCampaignBonusItemsPu {
    * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignBonusItems_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2172,7 +2329,8 @@ public final class OmGetCampaignBonusItemsPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2180,7 +2338,8 @@ public final class OmGetCampaignBonusItemsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2188,7 +2347,8 @@ public final class OmGetCampaignBonusItemsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2216,7 +2376,7 @@ public final class OmGetCampaignBonusItemsPu {
       return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2961,11 +3121,11 @@ public final class OmGetCampaignBonusItemsPu {
      * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignBonusItems_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3395,7 +3555,7 @@ public final class OmGetCampaignBonusItemsPu {
         return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4602,6 +4762,297 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row other = (io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasNodeDescription() == other.hasNodeDescription());
+        if (hasNodeDescription()) {
+          result = result && getNodeDescription()
+              .equals(other.getNodeDescription());
+        }
+        result = result && (hasValue2() == other.hasValue2());
+        if (hasValue2()) {
+          result = result && getValue2()
+              .equals(other.getValue2());
+        }
+        result = result && (hasValue3() == other.hasValue3());
+        if (hasValue3()) {
+          result = result && getValue3()
+              .equals(other.getValue3());
+        }
+        result = result && (hasValue1() == other.hasValue1());
+        if (hasValue1()) {
+          result = result && getValue1()
+              .equals(other.getValue1());
+        }
+        result = result && (hasItemSetId() == other.hasItemSetId());
+        if (hasItemSetId()) {
+          result = result && getItemSetId()
+              .equals(other.getItemSetId());
+        }
+        result = result && (hasNodeId() == other.hasNodeId());
+        if (hasNodeId()) {
+          result = result && getNodeId()
+              .equals(other.getNodeId());
+        }
+        result = result && (hasTreeNodeId() == other.hasTreeNodeId());
+        if (hasTreeNodeId()) {
+          result = result && getTreeNodeId()
+              .equals(other.getTreeNodeId());
+        }
+        result = result && (hasBonusFromOneSetOnly() == other.hasBonusFromOneSetOnly());
+        if (hasBonusFromOneSetOnly()) {
+          result = result && getBonusFromOneSetOnly()
+              .equals(other.getBonusFromOneSetOnly());
+        }
+        result = result && (hasMaxQuantity() == other.hasMaxQuantity());
+        if (hasMaxQuantity()) {
+          result = result && getMaxQuantity()
+              .equals(other.getMaxQuantity());
+        }
+        result = result && (hasItemConditionId() == other.hasItemConditionId());
+        if (hasItemConditionId()) {
+          result = result && getItemConditionId()
+              .equals(other.getItemConditionId());
+        }
+        result = result && (hasItemConditionDescription() == other.hasItemConditionDescription());
+        if (hasItemConditionDescription()) {
+          result = result && getItemConditionDescription()
+              .equals(other.getItemConditionDescription());
+        }
+        result = result && (hasSortNo() == other.hasSortNo());
+        if (hasSortNo()) {
+          result = result && getSortNo()
+              .equals(other.getSortNo());
+        }
+        result = result && (hasItemGroupSortNo() == other.hasItemGroupSortNo());
+        if (hasItemGroupSortNo()) {
+          result = result && getItemGroupSortNo()
+              .equals(other.getItemGroupSortNo());
+        }
+        result = result && (hasOperator1() == other.hasOperator1());
+        if (hasOperator1()) {
+          result = result && getOperator1()
+              .equals(other.getOperator1());
+        }
+        result = result && (hasCondition1() == other.hasCondition1());
+        if (hasCondition1()) {
+          result = result && getCondition1()
+              .equals(other.getCondition1());
+        }
+        result = result && (hasCondition2() == other.hasCondition2());
+        if (hasCondition2()) {
+          result = result && getCondition2()
+              .equals(other.getCondition2());
+        }
+        result = result && (hasOperator2() == other.hasOperator2());
+        if (hasOperator2()) {
+          result = result && getOperator2()
+              .equals(other.getOperator2());
+        }
+        result = result && (hasItemConditionGroupDescription() == other.hasItemConditionGroupDescription());
+        if (hasItemConditionGroupDescription()) {
+          result = result && getItemConditionGroupDescription()
+              .equals(other.getItemConditionGroupDescription());
+        }
+        result = result && (hasCombinePartsWithANDOperator() == other.hasCombinePartsWithANDOperator());
+        if (hasCombinePartsWithANDOperator()) {
+          result = result && getCombinePartsWithANDOperator()
+              .equals(other.getCombinePartsWithANDOperator());
+        }
+        result = result && (hasRecursiveEvaluation() == other.hasRecursiveEvaluation());
+        if (hasRecursiveEvaluation()) {
+          result = result && getRecursiveEvaluation()
+              .equals(other.getRecursiveEvaluation());
+        }
+        result = result && (hasItemPartSortNo() == other.hasItemPartSortNo());
+        if (hasItemPartSortNo()) {
+          result = result && getItemPartSortNo()
+              .equals(other.getItemPartSortNo());
+        }
+        result = result && (hasDomainTreeNodeIds() == other.hasDomainTreeNodeIds());
+        if (hasDomainTreeNodeIds()) {
+          result = result && getDomainTreeNodeIds()
+              .equals(other.getDomainTreeNodeIds());
+        }
+        result = result && (hasNodeCharacteristicId() == other.hasNodeCharacteristicId());
+        if (hasNodeCharacteristicId()) {
+          result = result && getNodeCharacteristicId()
+              .equals(other.getNodeCharacteristicId());
+        }
+        result = result && (hasItemConditionPartId() == other.hasItemConditionPartId());
+        if (hasItemConditionPartId()) {
+          result = result && getItemConditionPartId()
+              .equals(other.getItemConditionPartId());
+        }
+        result = result && (hasCombineGroupsWithANDOperator() == other.hasCombineGroupsWithANDOperator());
+        if (hasCombineGroupsWithANDOperator()) {
+          result = result && getCombineGroupsWithANDOperator()
+              .equals(other.getCombineGroupsWithANDOperator());
+        }
+        result = result && (hasItemConditionPartDescription() == other.hasItemConditionPartDescription());
+        if (hasItemConditionPartDescription()) {
+          result = result && getItemConditionPartDescription()
+              .equals(other.getItemConditionPartDescription());
+        }
+        result = result && (hasLevelIds() == other.hasLevelIds());
+        if (hasLevelIds()) {
+          result = result && getLevelIds()
+              .equals(other.getLevelIds());
+        }
+        result = result && (hasItemConditionGroupId() == other.hasItemConditionGroupId());
+        if (hasItemConditionGroupId()) {
+          result = result && getItemConditionGroupId()
+              .equals(other.getItemConditionGroupId());
+        }
+        result = result && (hasInheritDepth() == other.hasInheritDepth());
+        if (hasInheritDepth()) {
+          result = result && getInheritDepth()
+              .equals(other.getInheritDepth());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasNodeDescription()) {
+          hash = (37 * hash) + NODE_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeDescription().hashCode();
+        }
+        if (hasValue2()) {
+          hash = (37 * hash) + VALUE2_FIELD_NUMBER;
+          hash = (53 * hash) + getValue2().hashCode();
+        }
+        if (hasValue3()) {
+          hash = (37 * hash) + VALUE3_FIELD_NUMBER;
+          hash = (53 * hash) + getValue3().hashCode();
+        }
+        if (hasValue1()) {
+          hash = (37 * hash) + VALUE1_FIELD_NUMBER;
+          hash = (53 * hash) + getValue1().hashCode();
+        }
+        if (hasItemSetId()) {
+          hash = (37 * hash) + ITEM_SET_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getItemSetId().hashCode();
+        }
+        if (hasNodeId()) {
+          hash = (37 * hash) + NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeId().hashCode();
+        }
+        if (hasTreeNodeId()) {
+          hash = (37 * hash) + TREE_NODE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getTreeNodeId().hashCode();
+        }
+        if (hasBonusFromOneSetOnly()) {
+          hash = (37 * hash) + BONUS_FROM_ONE_SET_ONLY_FIELD_NUMBER;
+          hash = (53 * hash) + getBonusFromOneSetOnly().hashCode();
+        }
+        if (hasMaxQuantity()) {
+          hash = (37 * hash) + MAX_QUANTITY_FIELD_NUMBER;
+          hash = (53 * hash) + getMaxQuantity().hashCode();
+        }
+        if (hasItemConditionId()) {
+          hash = (37 * hash) + ITEM_CONDITION_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getItemConditionId().hashCode();
+        }
+        if (hasItemConditionDescription()) {
+          hash = (37 * hash) + ITEM_CONDITION_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getItemConditionDescription().hashCode();
+        }
+        if (hasSortNo()) {
+          hash = (37 * hash) + SORT_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getSortNo().hashCode();
+        }
+        if (hasItemGroupSortNo()) {
+          hash = (37 * hash) + ITEM_GROUP_SORT_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getItemGroupSortNo().hashCode();
+        }
+        if (hasOperator1()) {
+          hash = (37 * hash) + OPERATOR1_FIELD_NUMBER;
+          hash = (53 * hash) + getOperator1().hashCode();
+        }
+        if (hasCondition1()) {
+          hash = (37 * hash) + CONDITION1_FIELD_NUMBER;
+          hash = (53 * hash) + getCondition1().hashCode();
+        }
+        if (hasCondition2()) {
+          hash = (37 * hash) + CONDITION2_FIELD_NUMBER;
+          hash = (53 * hash) + getCondition2().hashCode();
+        }
+        if (hasOperator2()) {
+          hash = (37 * hash) + OPERATOR2_FIELD_NUMBER;
+          hash = (53 * hash) + getOperator2().hashCode();
+        }
+        if (hasItemConditionGroupDescription()) {
+          hash = (37 * hash) + ITEM_CONDITION_GROUP_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getItemConditionGroupDescription().hashCode();
+        }
+        if (hasCombinePartsWithANDOperator()) {
+          hash = (37 * hash) + COMBINE_PARTS_WITH_A_N_D_OPERATOR_FIELD_NUMBER;
+          hash = (53 * hash) + getCombinePartsWithANDOperator().hashCode();
+        }
+        if (hasRecursiveEvaluation()) {
+          hash = (37 * hash) + RECURSIVE_EVALUATION_FIELD_NUMBER;
+          hash = (53 * hash) + getRecursiveEvaluation().hashCode();
+        }
+        if (hasItemPartSortNo()) {
+          hash = (37 * hash) + ITEM_PART_SORT_NO_FIELD_NUMBER;
+          hash = (53 * hash) + getItemPartSortNo().hashCode();
+        }
+        if (hasDomainTreeNodeIds()) {
+          hash = (37 * hash) + DOMAIN_TREE_NODE_IDS_FIELD_NUMBER;
+          hash = (53 * hash) + getDomainTreeNodeIds().hashCode();
+        }
+        if (hasNodeCharacteristicId()) {
+          hash = (37 * hash) + NODE_CHARACTERISTIC_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getNodeCharacteristicId().hashCode();
+        }
+        if (hasItemConditionPartId()) {
+          hash = (37 * hash) + ITEM_CONDITION_PART_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getItemConditionPartId().hashCode();
+        }
+        if (hasCombineGroupsWithANDOperator()) {
+          hash = (37 * hash) + COMBINE_GROUPS_WITH_A_N_D_OPERATOR_FIELD_NUMBER;
+          hash = (53 * hash) + getCombineGroupsWithANDOperator().hashCode();
+        }
+        if (hasItemConditionPartDescription()) {
+          hash = (37 * hash) + ITEM_CONDITION_PART_DESCRIPTION_FIELD_NUMBER;
+          hash = (53 * hash) + getItemConditionPartDescription().hashCode();
+        }
+        if (hasLevelIds()) {
+          hash = (37 * hash) + LEVEL_IDS_FIELD_NUMBER;
+          hash = (53 * hash) + getLevelIds().hashCode();
+        }
+        if (hasItemConditionGroupId()) {
+          hash = (37 * hash) + ITEM_CONDITION_GROUP_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getItemConditionGroupId().hashCode();
+        }
+        if (hasInheritDepth()) {
+          hash = (37 * hash) + INHERIT_DEPTH_FIELD_NUMBER;
+          hash = (53 * hash) + getInheritDepth().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4625,39 +5076,39 @@ public final class OmGetCampaignBonusItemsPu {
       }
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -4675,7 +5126,7 @@ public final class OmGetCampaignBonusItemsPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -4683,7 +5134,7 @@ public final class OmGetCampaignBonusItemsPu {
        * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCampaignBonusItems_Pu.Response.Row)
           io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -4691,7 +5142,7 @@ public final class OmGetCampaignBonusItemsPu {
           return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -4704,12 +5155,13 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -5062,6 +5514,32 @@ public final class OmGetCampaignBonusItemsPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row)other);
@@ -5216,7 +5694,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue nodeDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
@@ -5354,11 +5832,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue node_description = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
-            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
@@ -5369,7 +5847,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue value2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
         /**
          * <pre>
@@ -5507,11 +5985,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue value2 = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
-            value2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            value2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
@@ -5522,7 +6000,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue value3_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
         /**
          * <pre>
@@ -5660,11 +6138,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue value3 = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
-            value3Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            value3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
@@ -5675,7 +6153,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue value1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
         /**
          * <pre>
@@ -5813,11 +6291,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue value1 = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
-            value1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            value1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
@@ -5828,7 +6306,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue itemSetId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemSetIdBuilder_;
         /**
          * <pre>
@@ -5966,11 +6444,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue item_set_id = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getItemSetIdFieldBuilder() {
           if (itemSetIdBuilder_ == null) {
-            itemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getItemSetId(),
                     getParentForChildren(),
@@ -5981,7 +6459,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue nodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
@@ -6119,11 +6597,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue node_id = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
-            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
@@ -6134,7 +6612,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue treeNodeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
@@ -6272,11 +6750,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
-            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
@@ -6287,7 +6765,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.booleanValue bonusFromOneSetOnly_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bonusFromOneSetOnlyBuilder_;
         /**
          * <pre>
@@ -6425,11 +6903,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getBonusFromOneSetOnlyFieldBuilder() {
           if (bonusFromOneSetOnlyBuilder_ == null) {
-            bonusFromOneSetOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            bonusFromOneSetOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getBonusFromOneSetOnly(),
                     getParentForChildren(),
@@ -6440,7 +6918,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue maxQuantity_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxQuantityBuilder_;
         /**
          * <pre>
@@ -6578,11 +7056,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue max_quantity = 10009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getMaxQuantityFieldBuilder() {
           if (maxQuantityBuilder_ == null) {
-            maxQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            maxQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getMaxQuantity(),
                     getParentForChildren(),
@@ -6593,7 +7071,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue itemConditionId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
         /**
          * <pre>
@@ -6731,11 +7209,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getItemConditionIdFieldBuilder() {
           if (itemConditionIdBuilder_ == null) {
-            itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getItemConditionId(),
                     getParentForChildren(),
@@ -6746,7 +7224,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue itemConditionDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemConditionDescriptionBuilder_;
         /**
          * <pre>
@@ -6884,11 +7362,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue item_condition_description = 20005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getItemConditionDescriptionFieldBuilder() {
           if (itemConditionDescriptionBuilder_ == null) {
-            itemConditionDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemConditionDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getItemConditionDescription(),
                     getParentForChildren(),
@@ -6899,7 +7377,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue sortNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
@@ -7037,11 +7515,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue sort_no = 20006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
-            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
@@ -7052,7 +7530,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue itemGroupSortNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemGroupSortNoBuilder_;
         /**
          * <pre>
@@ -7190,11 +7668,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue item_group_sort_no = 30001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getItemGroupSortNoFieldBuilder() {
           if (itemGroupSortNoBuilder_ == null) {
-            itemGroupSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemGroupSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getItemGroupSortNo(),
                     getParentForChildren(),
@@ -7205,7 +7683,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue operator1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator1Builder_;
         /**
          * <pre>
@@ -7343,11 +7821,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue operator1 = 30002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getOperator1FieldBuilder() {
           if (operator1Builder_ == null) {
-            operator1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            operator1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getOperator1(),
                     getParentForChildren(),
@@ -7358,7 +7836,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue condition1_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition1Builder_;
         /**
          * <pre>
@@ -7496,11 +7974,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue condition1 = 30003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCondition1FieldBuilder() {
           if (condition1Builder_ == null) {
-            condition1Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            condition1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCondition1(),
                     getParentForChildren(),
@@ -7511,7 +7989,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue condition2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition2Builder_;
         /**
          * <pre>
@@ -7649,11 +8127,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue condition2 = 30004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getCondition2FieldBuilder() {
           if (condition2Builder_ == null) {
-            condition2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            condition2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getCondition2(),
                     getParentForChildren(),
@@ -7664,7 +8142,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue operator2_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator2Builder_;
         /**
          * <pre>
@@ -7802,11 +8280,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue operator2 = 30005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getOperator2FieldBuilder() {
           if (operator2Builder_ == null) {
-            operator2Builder_ = new com.google.protobuf.SingleFieldBuilder<
+            operator2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getOperator2(),
                     getParentForChildren(),
@@ -7817,7 +8295,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue itemConditionGroupDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemConditionGroupDescriptionBuilder_;
         /**
          * <pre>
@@ -7955,11 +8433,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue item_condition_group_description = 30006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getItemConditionGroupDescriptionFieldBuilder() {
           if (itemConditionGroupDescriptionBuilder_ == null) {
-            itemConditionGroupDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemConditionGroupDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getItemConditionGroupDescription(),
                     getParentForChildren(),
@@ -7970,7 +8448,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.booleanValue combinePartsWithANDOperator_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> combinePartsWithANDOperatorBuilder_;
         /**
          * <pre>
@@ -8108,11 +8586,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 30007;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getCombinePartsWithANDOperatorFieldBuilder() {
           if (combinePartsWithANDOperatorBuilder_ == null) {
-            combinePartsWithANDOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            combinePartsWithANDOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getCombinePartsWithANDOperator(),
                     getParentForChildren(),
@@ -8123,7 +8601,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue recursiveEvaluation_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> recursiveEvaluationBuilder_;
         /**
          * <pre>
@@ -8261,11 +8739,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue recursive_evaluation = 30008;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getRecursiveEvaluationFieldBuilder() {
           if (recursiveEvaluationBuilder_ == null) {
-            recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getRecursiveEvaluation(),
                     getParentForChildren(),
@@ -8276,7 +8754,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue itemPartSortNo_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemPartSortNoBuilder_;
         /**
          * <pre>
@@ -8414,11 +8892,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue item_part_sort_no = 30009;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getItemPartSortNoFieldBuilder() {
           if (itemPartSortNoBuilder_ == null) {
-            itemPartSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemPartSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getItemPartSortNo(),
                     getParentForChildren(),
@@ -8429,7 +8907,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue domainTreeNodeIds_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> domainTreeNodeIdsBuilder_;
         /**
          * <pre>
@@ -8567,11 +9045,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue domain_tree_node_ids = 30011;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getDomainTreeNodeIdsFieldBuilder() {
           if (domainTreeNodeIdsBuilder_ == null) {
-            domainTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            domainTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getDomainTreeNodeIds(),
                     getParentForChildren(),
@@ -8582,7 +9060,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
@@ -8720,11 +9198,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue node_characteristic_id = 30012;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
@@ -8735,7 +9213,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue itemConditionPartId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionPartIdBuilder_;
         /**
          * <pre>
@@ -8873,11 +9351,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue item_condition_part_id = 30013;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getItemConditionPartIdFieldBuilder() {
           if (itemConditionPartIdBuilder_ == null) {
-            itemConditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemConditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getItemConditionPartId(),
                     getParentForChildren(),
@@ -8888,7 +9366,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.booleanValue combineGroupsWithANDOperator_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> combineGroupsWithANDOperatorBuilder_;
         /**
          * <pre>
@@ -9026,11 +9504,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.booleanValue combine_groups_with_a_n_d_operator = 30017;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
             getCombineGroupsWithANDOperatorFieldBuilder() {
           if (combineGroupsWithANDOperatorBuilder_ == null) {
-            combineGroupsWithANDOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            combineGroupsWithANDOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                     getCombineGroupsWithANDOperator(),
                     getParentForChildren(),
@@ -9041,7 +9519,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue itemConditionPartDescription_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemConditionPartDescriptionBuilder_;
         /**
          * <pre>
@@ -9179,11 +9657,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue item_condition_part_description = 30018;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getItemConditionPartDescriptionFieldBuilder() {
           if (itemConditionPartDescriptionBuilder_ == null) {
-            itemConditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemConditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getItemConditionPartDescription(),
                     getParentForChildren(),
@@ -9194,7 +9672,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.stringValue levelIds_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> levelIdsBuilder_;
         /**
          * <pre>
@@ -9332,11 +9810,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.stringValue level_ids = 30019;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getLevelIdsFieldBuilder() {
           if (levelIdsBuilder_ == null) {
-            levelIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            levelIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getLevelIds(),
                     getParentForChildren(),
@@ -9347,7 +9825,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue itemConditionGroupId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionGroupIdBuilder_;
         /**
          * <pre>
@@ -9485,11 +9963,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue item_condition_group_id = 30020;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getItemConditionGroupIdFieldBuilder() {
           if (itemConditionGroupIdBuilder_ == null) {
-            itemConditionGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            itemConditionGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getItemConditionGroupId(),
                     getParentForChildren(),
@@ -9500,7 +9978,7 @@ public final class OmGetCampaignBonusItemsPu {
         }
 
         private io.dstore.Values.integerValue inheritDepth_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritDepthBuilder_;
         /**
          * <pre>
@@ -9638,11 +10116,11 @@ public final class OmGetCampaignBonusItemsPu {
          *
          * <code>optional .dstore.values.integerValue inherit_depth = 30023;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInheritDepthFieldBuilder() {
           if (inheritDepthBuilder_ == null) {
-            inheritDepthBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            inheritDepthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInheritDepth(),
                     getParentForChildren(),
@@ -9870,6 +10348,50 @@ public final class OmGetCampaignBonusItemsPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response other = (io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -9893,39 +10415,39 @@ public final class OmGetCampaignBonusItemsPu {
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -9943,7 +10465,7 @@ public final class OmGetCampaignBonusItemsPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -9951,7 +10473,7 @@ public final class OmGetCampaignBonusItemsPu {
      * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.om_GetCampaignBonusItems_Pu.Response)
         io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -9959,7 +10481,7 @@ public final class OmGetCampaignBonusItemsPu {
         return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -9972,12 +10494,13 @@ public final class OmGetCampaignBonusItemsPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -10057,6 +10580,32 @@ public final class OmGetCampaignBonusItemsPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response)other);
@@ -10087,7 +10636,7 @@ public final class OmGetCampaignBonusItemsPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -10113,7 +10662,7 @@ public final class OmGetCampaignBonusItemsPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -10139,7 +10688,7 @@ public final class OmGetCampaignBonusItemsPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -10182,7 +10731,7 @@ public final class OmGetCampaignBonusItemsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -10398,11 +10947,11 @@ public final class OmGetCampaignBonusItemsPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -10422,7 +10971,7 @@ public final class OmGetCampaignBonusItemsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -10638,11 +11187,11 @@ public final class OmGetCampaignBonusItemsPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -10662,7 +11211,7 @@ public final class OmGetCampaignBonusItemsPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row, io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -10950,11 +11499,11 @@ public final class OmGetCampaignBonusItemsPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row, io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row, io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.Row.Builder, io.dstore.engine.procedures.OmGetCampaignBonusItemsPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -11016,17 +11565,17 @@ public final class OmGetCampaignBonusItemsPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -11129,19 +11678,19 @@ public final class OmGetCampaignBonusItemsPu {
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Parameters_descriptor,
         new java.lang.String[] { "BenefitId", "BenefitIdNull", "OnlyDefinition", "OnlyDefinitionNull", "SortByCharacteristicIdList", "SortByCharacteristicIdListNull", "SortOptionList", "SortOptionListNull", "InheritDepthOptionList", "InheritDepthOptionListNull", "RecursiveEvaluationOptionList", "RecursiveEvaluationOptionListNull", "GetValuesForSortByCharacs", "GetValuesForSortByCharacsNull", });
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignBonusItems_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "NodeDescription", "Value2", "Value3", "Value1", "ItemSetId", "NodeId", "TreeNodeId", "BonusFromOneSetOnly", "MaxQuantity", "ItemConditionId", "ItemConditionDescription", "SortNo", "ItemGroupSortNo", "Operator1", "Condition1", "Condition2", "Operator2", "ItemConditionGroupDescription", "CombinePartsWithANDOperator", "RecursiveEvaluation", "ItemPartSortNo", "DomainTreeNodeIds", "NodeCharacteristicId", "ItemConditionPartId", "CombineGroupsWithANDOperator", "ItemConditionPartDescription", "LevelIds", "ItemConditionGroupId", "InheritDepth", });
     io.dstore.Values.getDescriptor();

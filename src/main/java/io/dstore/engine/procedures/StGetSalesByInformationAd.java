@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class StGetSalesByInformationAd {
   private StGetSalesByInformationAd() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.st_GetSales_ByInformation_Ad.Parameters)
@@ -160,11 +166,11 @@ public final class StGetSalesByInformationAd {
    * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetSales_ByInformation_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -363,7 +369,7 @@ public final class StGetSalesByInformationAd {
       return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -746,6 +752,144 @@ public final class StGetSalesByInformationAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters other = (io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasFromDate() == other.hasFromDate());
+      if (hasFromDate()) {
+        result = result && getFromDate()
+            .equals(other.getFromDate());
+      }
+      result = result && (getFromDateNull()
+          == other.getFromDateNull());
+      result = result && (hasToDate() == other.hasToDate());
+      if (hasToDate()) {
+        result = result && getToDate()
+            .equals(other.getToDate());
+      }
+      result = result && (getToDateNull()
+          == other.getToDateNull());
+      result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+      if (hasInformationTypeId()) {
+        result = result && getInformationTypeId()
+            .equals(other.getInformationTypeId());
+      }
+      result = result && (getInformationTypeIdNull()
+          == other.getInformationTypeIdNull());
+      result = result && (hasInformationIsValidInHours() == other.hasInformationIsValidInHours());
+      if (hasInformationIsValidInHours()) {
+        result = result && getInformationIsValidInHours()
+            .equals(other.getInformationIsValidInHours());
+      }
+      result = result && (getInformationIsValidInHoursNull()
+          == other.getInformationIsValidInHoursNull());
+      result = result && (hasSelectAffectedOrderIds() == other.hasSelectAffectedOrderIds());
+      if (hasSelectAffectedOrderIds()) {
+        result = result && getSelectAffectedOrderIds()
+            .equals(other.getSelectAffectedOrderIds());
+      }
+      result = result && (getSelectAffectedOrderIdsNull()
+          == other.getSelectAffectedOrderIdsNull());
+      result = result && (hasOrderDesc() == other.hasOrderDesc());
+      if (hasOrderDesc()) {
+        result = result && getOrderDesc()
+            .equals(other.getOrderDesc());
+      }
+      result = result && (getOrderDescNull()
+          == other.getOrderDescNull());
+      result = result && (hasInformation() == other.hasInformation());
+      if (hasInformation()) {
+        result = result && getInformation()
+            .equals(other.getInformation());
+      }
+      result = result && (getInformationNull()
+          == other.getInformationNull());
+      result = result && (hasPurchaseOrder() == other.hasPurchaseOrder());
+      if (hasPurchaseOrder()) {
+        result = result && getPurchaseOrder()
+            .equals(other.getPurchaseOrder());
+      }
+      result = result && (getPurchaseOrderNull()
+          == other.getPurchaseOrderNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasFromDate()) {
+        hash = (37 * hash) + FROM_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getFromDate().hashCode();
+      }
+      hash = (37 * hash) + FROM_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getFromDateNull());
+      if (hasToDate()) {
+        hash = (37 * hash) + TO_DATE_FIELD_NUMBER;
+        hash = (53 * hash) + getToDate().hashCode();
+      }
+      hash = (37 * hash) + TO_DATE_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getToDateNull());
+      if (hasInformationTypeId()) {
+        hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getInformationTypeId().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationTypeIdNull());
+      if (hasInformationIsValidInHours()) {
+        hash = (37 * hash) + INFORMATION_IS_VALID_IN_HOURS_FIELD_NUMBER;
+        hash = (53 * hash) + getInformationIsValidInHours().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_IS_VALID_IN_HOURS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationIsValidInHoursNull());
+      if (hasSelectAffectedOrderIds()) {
+        hash = (37 * hash) + SELECT_AFFECTED_ORDER_IDS_FIELD_NUMBER;
+        hash = (53 * hash) + getSelectAffectedOrderIds().hashCode();
+      }
+      hash = (37 * hash) + SELECT_AFFECTED_ORDER_IDS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSelectAffectedOrderIdsNull());
+      if (hasOrderDesc()) {
+        hash = (37 * hash) + ORDER_DESC_FIELD_NUMBER;
+        hash = (53 * hash) + getOrderDesc().hashCode();
+      }
+      hash = (37 * hash) + ORDER_DESC_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOrderDescNull());
+      if (hasInformation()) {
+        hash = (37 * hash) + INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getInformation().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationNull());
+      if (hasPurchaseOrder()) {
+        hash = (37 * hash) + PURCHASE_ORDER_FIELD_NUMBER;
+        hash = (53 * hash) + getPurchaseOrder().hashCode();
+      }
+      hash = (37 * hash) + PURCHASE_ORDER_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPurchaseOrderNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -769,39 +913,39 @@ public final class StGetSalesByInformationAd {
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -819,7 +963,7 @@ public final class StGetSalesByInformationAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -827,7 +971,7 @@ public final class StGetSalesByInformationAd {
      * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetSales_ByInformation_Ad.Parameters)
         io.dstore.engine.procedures.StGetSalesByInformationAd.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -835,7 +979,7 @@ public final class StGetSalesByInformationAd {
         return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -848,12 +992,13 @@ public final class StGetSalesByInformationAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -996,6 +1141,32 @@ public final class StGetSalesByInformationAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.StGetSalesByInformationAd.Parameters)other);
@@ -1082,7 +1253,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.timestampValue fromDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue from_date = 1;</code>
@@ -1184,11 +1355,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.timestampValue from_date = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
-          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
@@ -1225,7 +1396,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.timestampValue toDate_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
       /**
        * <code>optional .dstore.values.timestampValue to_date = 2;</code>
@@ -1327,11 +1498,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.timestampValue to_date = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
-          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
@@ -1368,7 +1539,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.integerValue informationTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
@@ -1470,11 +1641,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
-          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
@@ -1511,7 +1682,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.integerValue informationIsValidInHours_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationIsValidInHoursBuilder_;
       /**
        * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
@@ -1613,11 +1784,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationIsValidInHoursFieldBuilder() {
         if (informationIsValidInHoursBuilder_ == null) {
-          informationIsValidInHoursBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationIsValidInHoursBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationIsValidInHours(),
                   getParentForChildren(),
@@ -1654,7 +1825,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.booleanValue selectAffectedOrderIds_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectAffectedOrderIdsBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
@@ -1756,11 +1927,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSelectAffectedOrderIdsFieldBuilder() {
         if (selectAffectedOrderIdsBuilder_ == null) {
-          selectAffectedOrderIdsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          selectAffectedOrderIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSelectAffectedOrderIds(),
                   getParentForChildren(),
@@ -1797,7 +1968,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.booleanValue orderDesc_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderDescBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
@@ -1899,11 +2070,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getOrderDescFieldBuilder() {
         if (orderDescBuilder_ == null) {
-          orderDescBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          orderDescBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getOrderDesc(),
                   getParentForChildren(),
@@ -1940,7 +2111,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.stringValue information_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
       /**
        * <code>optional .dstore.values.stringValue information = 7;</code>
@@ -2042,11 +2213,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.stringValue information = 7;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getInformationFieldBuilder() {
         if (informationBuilder_ == null) {
-          informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getInformation(),
                   getParentForChildren(),
@@ -2083,7 +2254,7 @@ public final class StGetSalesByInformationAd {
       }
 
       private io.dstore.Values.booleanValue purchaseOrder_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> purchaseOrderBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
@@ -2185,11 +2356,11 @@ public final class StGetSalesByInformationAd {
       /**
        * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getPurchaseOrderFieldBuilder() {
         if (purchaseOrderBuilder_ == null) {
-          purchaseOrderBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          purchaseOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getPurchaseOrder(),
                   getParentForChildren(),
@@ -2373,11 +2544,11 @@ public final class StGetSalesByInformationAd {
    * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetSales_ByInformation_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2416,7 +2587,8 @@ public final class StGetSalesByInformationAd {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -2424,7 +2596,8 @@ public final class StGetSalesByInformationAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2432,7 +2605,8 @@ public final class StGetSalesByInformationAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2460,7 +2634,7 @@ public final class StGetSalesByInformationAd {
       return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2630,11 +2804,11 @@ public final class StGetSalesByInformationAd {
      * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetSales_ByInformation_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2765,7 +2939,7 @@ public final class StGetSalesByInformationAd {
         return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -3052,6 +3226,90 @@ public final class StGetSalesByInformationAd {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row other = (io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasInformation() == other.hasInformation());
+        if (hasInformation()) {
+          result = result && getInformation()
+              .equals(other.getInformation());
+        }
+        result = result && (hasNettoOrderSales() == other.hasNettoOrderSales());
+        if (hasNettoOrderSales()) {
+          result = result && getNettoOrderSales()
+              .equals(other.getNettoOrderSales());
+        }
+        result = result && (hasOrderDateAndTime() == other.hasOrderDateAndTime());
+        if (hasOrderDateAndTime()) {
+          result = result && getOrderDateAndTime()
+              .equals(other.getOrderDateAndTime());
+        }
+        result = result && (hasPersonId() == other.hasPersonId());
+        if (hasPersonId()) {
+          result = result && getPersonId()
+              .equals(other.getPersonId());
+        }
+        result = result && (hasNettoSum() == other.hasNettoSum());
+        if (hasNettoSum()) {
+          result = result && getNettoSum()
+              .equals(other.getNettoSum());
+        }
+        result = result && (hasOrderId() == other.hasOrderId());
+        if (hasOrderId()) {
+          result = result && getOrderId()
+              .equals(other.getOrderId());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasInformation()) {
+          hash = (37 * hash) + INFORMATION_FIELD_NUMBER;
+          hash = (53 * hash) + getInformation().hashCode();
+        }
+        if (hasNettoOrderSales()) {
+          hash = (37 * hash) + NETTO_ORDER_SALES_FIELD_NUMBER;
+          hash = (53 * hash) + getNettoOrderSales().hashCode();
+        }
+        if (hasOrderDateAndTime()) {
+          hash = (37 * hash) + ORDER_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderDateAndTime().hashCode();
+        }
+        if (hasPersonId()) {
+          hash = (37 * hash) + PERSON_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getPersonId().hashCode();
+        }
+        if (hasNettoSum()) {
+          hash = (37 * hash) + NETTO_SUM_FIELD_NUMBER;
+          hash = (53 * hash) + getNettoSum().hashCode();
+        }
+        if (hasOrderId()) {
+          hash = (37 * hash) + ORDER_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getOrderId().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -3075,39 +3333,39 @@ public final class StGetSalesByInformationAd {
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -3125,7 +3383,7 @@ public final class StGetSalesByInformationAd {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -3133,7 +3391,7 @@ public final class StGetSalesByInformationAd {
        * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetSales_ByInformation_Ad.Response.Row)
           io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -3141,7 +3399,7 @@ public final class StGetSalesByInformationAd {
           return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -3154,12 +3412,13 @@ public final class StGetSalesByInformationAd {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -3259,6 +3518,32 @@ public final class StGetSalesByInformationAd {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row)other);
@@ -3344,7 +3629,7 @@ public final class StGetSalesByInformationAd {
         }
 
         private io.dstore.Values.stringValue information_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
         /**
          * <pre>
@@ -3482,11 +3767,11 @@ public final class StGetSalesByInformationAd {
          *
          * <code>optional .dstore.values.stringValue information = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
-            informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
@@ -3497,7 +3782,7 @@ public final class StGetSalesByInformationAd {
         }
 
         private io.dstore.Values.decimalValue nettoOrderSales_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoOrderSalesBuilder_;
         /**
          * <pre>
@@ -3635,11 +3920,11 @@ public final class StGetSalesByInformationAd {
          *
          * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getNettoOrderSalesFieldBuilder() {
           if (nettoOrderSalesBuilder_ == null) {
-            nettoOrderSalesBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nettoOrderSalesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getNettoOrderSales(),
                     getParentForChildren(),
@@ -3650,7 +3935,7 @@ public final class StGetSalesByInformationAd {
         }
 
         private io.dstore.Values.timestampValue orderDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> orderDateAndTimeBuilder_;
         /**
          * <pre>
@@ -3788,11 +4073,11 @@ public final class StGetSalesByInformationAd {
          *
          * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getOrderDateAndTimeFieldBuilder() {
           if (orderDateAndTimeBuilder_ == null) {
-            orderDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getOrderDateAndTime(),
                     getParentForChildren(),
@@ -3803,7 +4088,7 @@ public final class StGetSalesByInformationAd {
         }
 
         private io.dstore.Values.integerValue personId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
@@ -3941,11 +4226,11 @@ public final class StGetSalesByInformationAd {
          *
          * <code>optional .dstore.values.integerValue person_id = 20002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
-            personIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
@@ -3956,7 +4241,7 @@ public final class StGetSalesByInformationAd {
         }
 
         private io.dstore.Values.decimalValue nettoSum_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoSumBuilder_;
         /**
          * <pre>
@@ -4094,11 +4379,11 @@ public final class StGetSalesByInformationAd {
          *
          * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
             getNettoSumFieldBuilder() {
           if (nettoSumBuilder_ == null) {
-            nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
                     getNettoSum(),
                     getParentForChildren(),
@@ -4109,7 +4394,7 @@ public final class StGetSalesByInformationAd {
         }
 
         private io.dstore.Values.integerValue orderId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
         /**
          * <pre>
@@ -4247,11 +4532,11 @@ public final class StGetSalesByInformationAd {
          *
          * <code>optional .dstore.values.integerValue order_id = 20005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getOrderIdFieldBuilder() {
           if (orderIdBuilder_ == null) {
-            orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getOrderId(),
                     getParentForChildren(),
@@ -4479,6 +4764,50 @@ public final class StGetSalesByInformationAd {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.StGetSalesByInformationAd.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.StGetSalesByInformationAd.Response other = (io.dstore.engine.procedures.StGetSalesByInformationAd.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4502,39 +4831,39 @@ public final class StGetSalesByInformationAd {
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.StGetSalesByInformationAd.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4552,7 +4881,7 @@ public final class StGetSalesByInformationAd {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4560,7 +4889,7 @@ public final class StGetSalesByInformationAd {
      * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.st_GetSales_ByInformation_Ad.Response)
         io.dstore.engine.procedures.StGetSalesByInformationAd.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4568,7 +4897,7 @@ public final class StGetSalesByInformationAd {
         return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.StGetSalesByInformationAd.internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4581,12 +4910,13 @@ public final class StGetSalesByInformationAd {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4666,6 +4996,32 @@ public final class StGetSalesByInformationAd {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.StGetSalesByInformationAd.Response) {
           return mergeFrom((io.dstore.engine.procedures.StGetSalesByInformationAd.Response)other);
@@ -4696,7 +5052,7 @@ public final class StGetSalesByInformationAd {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4722,7 +5078,7 @@ public final class StGetSalesByInformationAd {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4748,7 +5104,7 @@ public final class StGetSalesByInformationAd {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4791,7 +5147,7 @@ public final class StGetSalesByInformationAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -5007,11 +5363,11 @@ public final class StGetSalesByInformationAd {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -5031,7 +5387,7 @@ public final class StGetSalesByInformationAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -5247,11 +5603,11 @@ public final class StGetSalesByInformationAd {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -5271,7 +5627,7 @@ public final class StGetSalesByInformationAd {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5559,11 +5915,11 @@ public final class StGetSalesByInformationAd {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.Row.Builder, io.dstore.engine.procedures.StGetSalesByInformationAd.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5625,17 +5981,17 @@ public final class StGetSalesByInformationAd {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5704,19 +6060,19 @@ public final class StGetSalesByInformationAd {
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor,
         new java.lang.String[] { "FromDate", "FromDateNull", "ToDate", "ToDateNull", "InformationTypeId", "InformationTypeIdNull", "InformationIsValidInHours", "InformationIsValidInHoursNull", "SelectAffectedOrderIds", "SelectAffectedOrderIdsNull", "OrderDesc", "OrderDescNull", "Information", "InformationNull", "PurchaseOrder", "PurchaseOrderNull", });
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Information", "NettoOrderSales", "OrderDateAndTime", "PersonId", "NettoSum", "OrderId", });
     io.dstore.Values.getDescriptor();

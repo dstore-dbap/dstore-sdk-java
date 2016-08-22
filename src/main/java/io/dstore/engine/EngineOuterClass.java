@@ -6,7 +6,13 @@ package io.dstore.engine;
 public final class EngineOuterClass {
   private EngineOuterClass() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
 
   public static com.google.protobuf.Descriptors.FileDescriptor

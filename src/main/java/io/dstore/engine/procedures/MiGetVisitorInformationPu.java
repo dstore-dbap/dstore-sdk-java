@@ -6,7 +6,13 @@ package io.dstore.engine.procedures;
 public final class MiGetVisitorInformationPu {
   private MiGetVisitorInformationPu() {}
   public static void registerAllExtensions(
+      com.google.protobuf.ExtensionRegistryLite registry) {
+  }
+
+  public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
+    registerAllExtensions(
+        (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ParametersOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.engine.mi_GetVisitorInformation_Pu.Parameters)
@@ -124,11 +130,11 @@ public final class MiGetVisitorInformationPu {
    * Protobuf type {@code dstore.engine.mi_GetVisitorInformation_Pu.Parameters}
    */
   public  static final class Parameters extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetVisitorInformation_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Parameters(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -289,7 +295,7 @@ public final class MiGetVisitorInformationPu {
       return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -584,6 +590,116 @@ public final class MiGetVisitorInformationPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters other = (io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters) obj;
+
+      boolean result = true;
+      result = result && (hasUniqueId() == other.hasUniqueId());
+      if (hasUniqueId()) {
+        result = result && getUniqueId()
+            .equals(other.getUniqueId());
+      }
+      result = result && (getUniqueIdNull()
+          == other.getUniqueIdNull());
+      result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+      if (hasInformationTypeId()) {
+        result = result && getInformationTypeId()
+            .equals(other.getInformationTypeId());
+      }
+      result = result && (getInformationTypeIdNull()
+          == other.getInformationTypeIdNull());
+      result = result && (hasStartAtRowNo() == other.hasStartAtRowNo());
+      if (hasStartAtRowNo()) {
+        result = result && getStartAtRowNo()
+            .equals(other.getStartAtRowNo());
+      }
+      result = result && (getStartAtRowNoNull()
+          == other.getStartAtRowNoNull());
+      result = result && (hasNumberOfRows() == other.hasNumberOfRows());
+      if (hasNumberOfRows()) {
+        result = result && getNumberOfRows()
+            .equals(other.getNumberOfRows());
+      }
+      result = result && (getNumberOfRowsNull()
+          == other.getNumberOfRowsNull());
+      result = result && (hasSortDesc() == other.hasSortDesc());
+      if (hasSortDesc()) {
+        result = result && getSortDesc()
+            .equals(other.getSortDesc());
+      }
+      result = result && (getSortDescNull()
+          == other.getSortDescNull());
+      result = result && (hasSortByInformationTypeId() == other.hasSortByInformationTypeId());
+      if (hasSortByInformationTypeId()) {
+        result = result && getSortByInformationTypeId()
+            .equals(other.getSortByInformationTypeId());
+      }
+      result = result && (getSortByInformationTypeIdNull()
+          == other.getSortByInformationTypeIdNull());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (hasUniqueId()) {
+        hash = (37 * hash) + UNIQUE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getUniqueId().hashCode();
+      }
+      hash = (37 * hash) + UNIQUE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getUniqueIdNull());
+      if (hasInformationTypeId()) {
+        hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getInformationTypeId().hashCode();
+      }
+      hash = (37 * hash) + INFORMATION_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getInformationTypeIdNull());
+      if (hasStartAtRowNo()) {
+        hash = (37 * hash) + START_AT_ROW_NO_FIELD_NUMBER;
+        hash = (53 * hash) + getStartAtRowNo().hashCode();
+      }
+      hash = (37 * hash) + START_AT_ROW_NO_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getStartAtRowNoNull());
+      if (hasNumberOfRows()) {
+        hash = (37 * hash) + NUMBER_OF_ROWS_FIELD_NUMBER;
+        hash = (53 * hash) + getNumberOfRows().hashCode();
+      }
+      hash = (37 * hash) + NUMBER_OF_ROWS_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNumberOfRowsNull());
+      if (hasSortDesc()) {
+        hash = (37 * hash) + SORT_DESC_FIELD_NUMBER;
+        hash = (53 * hash) + getSortDesc().hashCode();
+      }
+      hash = (37 * hash) + SORT_DESC_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortDescNull());
+      if (hasSortByInformationTypeId()) {
+        hash = (37 * hash) + SORT_BY_INFORMATION_TYPE_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getSortByInformationTypeId().hashCode();
+      }
+      hash = (37 * hash) + SORT_BY_INFORMATION_TYPE_ID_NULL_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getSortByInformationTypeIdNull());
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -607,39 +723,39 @@ public final class MiGetVisitorInformationPu {
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -657,7 +773,7 @@ public final class MiGetVisitorInformationPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -665,7 +781,7 @@ public final class MiGetVisitorInformationPu {
      * Protobuf type {@code dstore.engine.mi_GetVisitorInformation_Pu.Parameters}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetVisitorInformation_Pu.Parameters)
         io.dstore.engine.procedures.MiGetVisitorInformationPu.ParametersOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -673,7 +789,7 @@ public final class MiGetVisitorInformationPu {
         return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -686,12 +802,13 @@ public final class MiGetVisitorInformationPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
         }
       }
       public Builder clear() {
@@ -806,6 +923,32 @@ public final class MiGetVisitorInformationPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters) {
           return mergeFrom((io.dstore.engine.procedures.MiGetVisitorInformationPu.Parameters)other);
@@ -880,7 +1023,7 @@ public final class MiGetVisitorInformationPu {
       }
 
       private io.dstore.Values.stringValue uniqueId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
@@ -982,11 +1125,11 @@ public final class MiGetVisitorInformationPu {
       /**
        * <code>optional .dstore.values.stringValue unique_id = 1;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
-          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
@@ -1023,7 +1166,7 @@ public final class MiGetVisitorInformationPu {
       }
 
       private io.dstore.Values.integerValue informationTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
@@ -1125,11 +1268,11 @@ public final class MiGetVisitorInformationPu {
       /**
        * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
-          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
@@ -1166,7 +1309,7 @@ public final class MiGetVisitorInformationPu {
       }
 
       private io.dstore.Values.integerValue startAtRowNo_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> startAtRowNoBuilder_;
       /**
        * <code>optional .dstore.values.integerValue start_at_row_no = 3;</code>
@@ -1268,11 +1411,11 @@ public final class MiGetVisitorInformationPu {
       /**
        * <code>optional .dstore.values.integerValue start_at_row_no = 3;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getStartAtRowNoFieldBuilder() {
         if (startAtRowNoBuilder_ == null) {
-          startAtRowNoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          startAtRowNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getStartAtRowNo(),
                   getParentForChildren(),
@@ -1309,7 +1452,7 @@ public final class MiGetVisitorInformationPu {
       }
 
       private io.dstore.Values.integerValue numberOfRows_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfRowsBuilder_;
       /**
        * <code>optional .dstore.values.integerValue number_of_rows = 4;</code>
@@ -1411,11 +1554,11 @@ public final class MiGetVisitorInformationPu {
       /**
        * <code>optional .dstore.values.integerValue number_of_rows = 4;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
           getNumberOfRowsFieldBuilder() {
         if (numberOfRowsBuilder_ == null) {
-          numberOfRowsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          numberOfRowsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                   getNumberOfRows(),
                   getParentForChildren(),
@@ -1452,7 +1595,7 @@ public final class MiGetVisitorInformationPu {
       }
 
       private io.dstore.Values.booleanValue sortDesc_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> sortDescBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue sort_desc = 5;</code>
@@ -1554,11 +1697,11 @@ public final class MiGetVisitorInformationPu {
       /**
        * <code>optional .dstore.values.booleanValue sort_desc = 5;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSortDescFieldBuilder() {
         if (sortDescBuilder_ == null) {
-          sortDescBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortDescBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSortDesc(),
                   getParentForChildren(),
@@ -1595,7 +1738,7 @@ public final class MiGetVisitorInformationPu {
       }
 
       private io.dstore.Values.booleanValue sortByInformationTypeId_ = null;
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> sortByInformationTypeIdBuilder_;
       /**
        * <code>optional .dstore.values.booleanValue sort_by_information_type_id = 6;</code>
@@ -1697,11 +1840,11 @@ public final class MiGetVisitorInformationPu {
       /**
        * <code>optional .dstore.values.booleanValue sort_by_information_type_id = 6;</code>
        */
-      private com.google.protobuf.SingleFieldBuilder<
+      private com.google.protobuf.SingleFieldBuilderV3<
           io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
           getSortByInformationTypeIdFieldBuilder() {
         if (sortByInformationTypeIdBuilder_ == null) {
-          sortByInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          sortByInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
                   getSortByInformationTypeId(),
                   getParentForChildren(),
@@ -1885,11 +2028,11 @@ public final class MiGetVisitorInformationPu {
    * Protobuf type {@code dstore.engine.mi_GetVisitorInformation_Pu.Response}
    */
   public  static final class Response extends
-      com.google.protobuf.GeneratedMessage implements
+      com.google.protobuf.GeneratedMessageV3 implements
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetVisitorInformation_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+    private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1928,7 +2071,8 @@ public final class MiGetVisitorInformationPu {
                 metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              metaInformation_.add(
+                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -1936,7 +2080,8 @@ public final class MiGetVisitorInformationPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+              message_.add(
+                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1944,7 +2089,8 @@ public final class MiGetVisitorInformationPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row.parser(), extensionRegistry));
+              row_.add(
+                  input.readMessage(io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1972,7 +2118,7 @@ public final class MiGetVisitorInformationPu {
       return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_descriptor;
     }
 
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
@@ -2142,11 +2288,11 @@ public final class MiGetVisitorInformationPu {
      * Protobuf type {@code dstore.engine.mi_GetVisitorInformation_Pu.Response.Row}
      */
     public  static final class Row extends
-        com.google.protobuf.GeneratedMessage implements
+        com.google.protobuf.GeneratedMessageV3 implements
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetVisitorInformation_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      private Row(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2277,7 +2423,7 @@ public final class MiGetVisitorInformationPu {
         return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -2564,6 +2710,90 @@ public final class MiGetVisitorInformationPu {
       }
 
       private static final long serialVersionUID = 0L;
+      @java.lang.Override
+      public boolean equals(final java.lang.Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row)) {
+          return super.equals(obj);
+        }
+        io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row other = (io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row) obj;
+
+        boolean result = true;
+        result = result && (getRowId()
+            == other.getRowId());
+        result = result && (hasInfoDateAndTime() == other.hasInfoDateAndTime());
+        if (hasInfoDateAndTime()) {
+          result = result && getInfoDateAndTime()
+              .equals(other.getInfoDateAndTime());
+        }
+        result = result && (hasVisitorId() == other.hasVisitorId());
+        if (hasVisitorId()) {
+          result = result && getVisitorId()
+              .equals(other.getVisitorId());
+        }
+        result = result && (hasInformationTypeId() == other.hasInformationTypeId());
+        if (hasInformationTypeId()) {
+          result = result && getInformationTypeId()
+              .equals(other.getInformationTypeId());
+        }
+        result = result && (hasInformationType() == other.hasInformationType());
+        if (hasInformationType()) {
+          result = result && getInformationType()
+              .equals(other.getInformationType());
+        }
+        result = result && (hasInformation() == other.hasInformation());
+        if (hasInformation()) {
+          result = result && getInformation()
+              .equals(other.getInformation());
+        }
+        result = result && (hasInfoDateAndTimeChar() == other.hasInfoDateAndTimeChar());
+        if (hasInfoDateAndTimeChar()) {
+          result = result && getInfoDateAndTimeChar()
+              .equals(other.getInfoDateAndTimeChar());
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptorForType().hashCode();
+        hash = (37 * hash) + ROW_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getRowId();
+        if (hasInfoDateAndTime()) {
+          hash = (37 * hash) + INFO_DATE_AND_TIME_FIELD_NUMBER;
+          hash = (53 * hash) + getInfoDateAndTime().hashCode();
+        }
+        if (hasVisitorId()) {
+          hash = (37 * hash) + VISITOR_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getVisitorId().hashCode();
+        }
+        if (hasInformationTypeId()) {
+          hash = (37 * hash) + INFORMATION_TYPE_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getInformationTypeId().hashCode();
+        }
+        if (hasInformationType()) {
+          hash = (37 * hash) + INFORMATION_TYPE_FIELD_NUMBER;
+          hash = (53 * hash) + getInformationType().hashCode();
+        }
+        if (hasInformation()) {
+          hash = (37 * hash) + INFORMATION_FIELD_NUMBER;
+          hash = (53 * hash) + getInformation().hashCode();
+        }
+        if (hasInfoDateAndTimeChar()) {
+          hash = (37 * hash) + INFO_DATE_AND_TIME_CHAR_FIELD_NUMBER;
+          hash = (53 * hash) + getInfoDateAndTimeChar().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
@@ -2587,39 +2817,39 @@ public final class MiGetVisitorInformationPu {
       }
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
       public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        return com.google.protobuf.GeneratedMessage
+        return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
@@ -2637,7 +2867,7 @@ public final class MiGetVisitorInformationPu {
 
       @java.lang.Override
       protected Builder newBuilderForType(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         Builder builder = new Builder(parent);
         return builder;
       }
@@ -2645,7 +2875,7 @@ public final class MiGetVisitorInformationPu {
        * Protobuf type {@code dstore.engine.mi_GetVisitorInformation_Pu.Response.Row}
        */
       public static final class Builder extends
-          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetVisitorInformation_Pu.Response.Row)
           io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.RowOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
@@ -2653,7 +2883,7 @@ public final class MiGetVisitorInformationPu {
           return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_descriptor;
         }
 
-        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
           return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
@@ -2666,12 +2896,13 @@ public final class MiGetVisitorInformationPu {
         }
 
         private Builder(
-            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+            com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
           super(parent);
           maybeForceBuilderInitialization();
         }
         private void maybeForceBuilderInitialization() {
-          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
           }
         }
         public Builder clear() {
@@ -2771,6 +3002,32 @@ public final class MiGetVisitorInformationPu {
           return result;
         }
 
+        public Builder clone() {
+          return (Builder) super.clone();
+        }
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.setField(field, value);
+        }
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return (Builder) super.clearField(field);
+        }
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return (Builder) super.clearOneof(oneof);
+        }
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return (Builder) super.setRepeatedField(field, index, value);
+        }
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return (Builder) super.addRepeatedField(field, value);
+        }
         public Builder mergeFrom(com.google.protobuf.Message other) {
           if (other instanceof io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row) {
             return mergeFrom((io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row)other);
@@ -2856,7 +3113,7 @@ public final class MiGetVisitorInformationPu {
         }
 
         private io.dstore.Values.timestampValue infoDateAndTime_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> infoDateAndTimeBuilder_;
         /**
          * <pre>
@@ -2994,11 +3251,11 @@ public final class MiGetVisitorInformationPu {
          *
          * <code>optional .dstore.values.timestampValue info_date_and_time = 10001;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
             getInfoDateAndTimeFieldBuilder() {
           if (infoDateAndTimeBuilder_ == null) {
-            infoDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            infoDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
                     getInfoDateAndTime(),
                     getParentForChildren(),
@@ -3009,7 +3266,7 @@ public final class MiGetVisitorInformationPu {
         }
 
         private io.dstore.Values.integerValue visitorId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
         /**
          * <pre>
@@ -3147,11 +3404,11 @@ public final class MiGetVisitorInformationPu {
          *
          * <code>optional .dstore.values.integerValue visitor_id = 10002;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getVisitorIdFieldBuilder() {
           if (visitorIdBuilder_ == null) {
-            visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getVisitorId(),
                     getParentForChildren(),
@@ -3162,7 +3419,7 @@ public final class MiGetVisitorInformationPu {
         }
 
         private io.dstore.Values.integerValue informationTypeId_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
@@ -3300,11 +3557,11 @@ public final class MiGetVisitorInformationPu {
          *
          * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
-            informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
@@ -3315,7 +3572,7 @@ public final class MiGetVisitorInformationPu {
         }
 
         private io.dstore.Values.stringValue informationType_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
         /**
          * <pre>
@@ -3453,11 +3710,11 @@ public final class MiGetVisitorInformationPu {
          *
          * <code>optional .dstore.values.stringValue information_type = 10004;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInformationTypeFieldBuilder() {
           if (informationTypeBuilder_ == null) {
-            informationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            informationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInformationType(),
                     getParentForChildren(),
@@ -3468,7 +3725,7 @@ public final class MiGetVisitorInformationPu {
         }
 
         private io.dstore.Values.stringValue information_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
         /**
          * <pre>
@@ -3606,11 +3863,11 @@ public final class MiGetVisitorInformationPu {
          *
          * <code>optional .dstore.values.stringValue information = 10005;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
-            informationBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
@@ -3621,7 +3878,7 @@ public final class MiGetVisitorInformationPu {
         }
 
         private io.dstore.Values.stringValue infoDateAndTimeChar_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> infoDateAndTimeCharBuilder_;
         /**
          * <pre>
@@ -3759,11 +4016,11 @@ public final class MiGetVisitorInformationPu {
          *
          * <code>optional .dstore.values.stringValue info_date_and_time_char = 10006;</code>
          */
-        private com.google.protobuf.SingleFieldBuilder<
+        private com.google.protobuf.SingleFieldBuilderV3<
             io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
             getInfoDateAndTimeCharFieldBuilder() {
           if (infoDateAndTimeCharBuilder_ == null) {
-            infoDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+            infoDateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
                 io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
                     getInfoDateAndTimeChar(),
                     getParentForChildren(),
@@ -3991,6 +4248,50 @@ public final class MiGetVisitorInformationPu {
     }
 
     private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof io.dstore.engine.procedures.MiGetVisitorInformationPu.Response)) {
+        return super.equals(obj);
+      }
+      io.dstore.engine.procedures.MiGetVisitorInformationPu.Response other = (io.dstore.engine.procedures.MiGetVisitorInformationPu.Response) obj;
+
+      boolean result = true;
+      result = result && getMetaInformationList()
+          .equals(other.getMetaInformationList());
+      result = result && getMessageList()
+          .equals(other.getMessageList());
+      result = result && getRowList()
+          .equals(other.getRowList());
+      return result;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptorForType().hashCode();
+      if (getMetaInformationCount() > 0) {
+        hash = (37 * hash) + META_INFORMATION_FIELD_NUMBER;
+        hash = (53 * hash) + getMetaInformationList().hashCode();
+      }
+      if (getMessageCount() > 0) {
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessageList().hashCode();
+      }
+      if (getRowCount() > 0) {
+        hash = (37 * hash) + ROW_FIELD_NUMBER;
+        hash = (53 * hash) + getRowList().hashCode();
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -4014,39 +4315,39 @@ public final class MiGetVisitorInformationPu {
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
     public static io.dstore.engine.procedures.MiGetVisitorInformationPu.Response parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessage
+      return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
@@ -4064,7 +4365,7 @@ public final class MiGetVisitorInformationPu {
 
     @java.lang.Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -4072,7 +4373,7 @@ public final class MiGetVisitorInformationPu {
      * Protobuf type {@code dstore.engine.mi_GetVisitorInformation_Pu.Response}
      */
     public static final class Builder extends
-        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.mi_GetVisitorInformation_Pu.Response)
         io.dstore.engine.procedures.MiGetVisitorInformationPu.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
@@ -4080,7 +4381,7 @@ public final class MiGetVisitorInformationPu {
         return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_descriptor;
       }
 
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.procedures.MiGetVisitorInformationPu.internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
@@ -4093,12 +4394,13 @@ public final class MiGetVisitorInformationPu {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
       private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
           getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
@@ -4178,6 +4480,32 @@ public final class MiGetVisitorInformationPu {
         return result;
       }
 
+      public Builder clone() {
+        return (Builder) super.clone();
+      }
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.setField(field, value);
+      }
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return (Builder) super.clearField(field);
+      }
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return (Builder) super.clearOneof(oneof);
+      }
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, Object value) {
+        return (Builder) super.setRepeatedField(field, index, value);
+      }
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          Object value) {
+        return (Builder) super.addRepeatedField(field, value);
+      }
       public Builder mergeFrom(com.google.protobuf.Message other) {
         if (other instanceof io.dstore.engine.procedures.MiGetVisitorInformationPu.Response) {
           return mergeFrom((io.dstore.engine.procedures.MiGetVisitorInformationPu.Response)other);
@@ -4208,7 +4536,7 @@ public final class MiGetVisitorInformationPu {
               metaInformation_ = other.metaInformation_;
               bitField0_ = (bitField0_ & ~0x00000001);
               metaInformationBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMetaInformationFieldBuilder() : null;
             } else {
               metaInformationBuilder_.addAllMessages(other.metaInformation_);
@@ -4234,7 +4562,7 @@ public final class MiGetVisitorInformationPu {
               message_ = other.message_;
               bitField0_ = (bitField0_ & ~0x00000002);
               messageBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
             } else {
               messageBuilder_.addAllMessages(other.message_);
@@ -4260,7 +4588,7 @@ public final class MiGetVisitorInformationPu {
               row_ = other.row_;
               bitField0_ = (bitField0_ & ~0x00000004);
               rowBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
             } else {
               rowBuilder_.addAllMessages(other.row_);
@@ -4303,7 +4631,7 @@ public final class MiGetVisitorInformationPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
@@ -4519,11 +4847,11 @@ public final class MiGetVisitorInformationPu {
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
-          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
@@ -4543,7 +4871,7 @@ public final class MiGetVisitorInformationPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
 
       /**
@@ -4759,11 +5087,11 @@ public final class MiGetVisitorInformationPu {
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
-          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
@@ -4783,7 +5111,7 @@ public final class MiGetVisitorInformationPu {
          }
       }
 
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row, io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.RowOrBuilder> rowBuilder_;
 
       /**
@@ -5071,11 +5399,11 @@ public final class MiGetVisitorInformationPu {
            getRowBuilderList() {
         return getRowFieldBuilder().getBuilderList();
       }
-      private com.google.protobuf.RepeatedFieldBuilder<
+      private com.google.protobuf.RepeatedFieldBuilderV3<
           io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row, io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.RowOrBuilder> 
           getRowFieldBuilder() {
         if (rowBuilder_ == null) {
-          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+          rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row, io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.Row.Builder, io.dstore.engine.procedures.MiGetVisitorInformationPu.Response.RowOrBuilder>(
                   row_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
@@ -5137,17 +5465,17 @@ public final class MiGetVisitorInformationPu {
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_descriptor;
   private static final 
-    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
@@ -5212,19 +5540,19 @@ public final class MiGetVisitorInformationPu {
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Parameters_descriptor,
         new java.lang.String[] { "UniqueId", "UniqueIdNull", "InformationTypeId", "InformationTypeIdNull", "StartAtRowNo", "StartAtRowNoNull", "NumberOfRows", "NumberOfRowsNull", "SortDesc", "SortDescNull", "SortByInformationTypeId", "SortByInformationTypeIdNull", });
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_descriptor,
         new java.lang.String[] { "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_descriptor =
       internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetVisitorInformation_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "InfoDateAndTime", "VisitorId", "InformationTypeId", "InformationType", "Information", "InfoDateAndTimeChar", });
     io.dstore.Values.getDescriptor();
