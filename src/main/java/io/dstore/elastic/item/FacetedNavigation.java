@@ -160,6 +160,44 @@ public final class FacetedNavigation {
     int getSize();
 
     /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    java.util.List<java.lang.String>
+        getIncludeFieldPatternList();
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    int getIncludeFieldPatternCount();
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    java.lang.String getIncludeFieldPattern(int index);
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    com.google.protobuf.ByteString
+        getIncludeFieldPatternBytes(int index);
+
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    java.util.List<java.lang.String>
+        getExcludeFieldPatternList();
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    int getExcludeFieldPatternCount();
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    java.lang.String getExcludeFieldPattern(int index);
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    com.google.protobuf.ByteString
+        getExcludeFieldPatternBytes(int index);
+
+    /**
      * <code>repeated .dstore.elastic.Sort sort = 20;</code>
      */
     java.util.List<io.dstore.elastic.Elastic.Sort> 
@@ -201,6 +239,8 @@ public final class FacetedNavigation {
       onlyMatchingVariants_ = false;
       from_ = 0;
       size_ = 0;
+      includeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      excludeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
       sort_ = java.util.Collections.emptyList();
     }
 
@@ -297,10 +337,28 @@ public final class FacetedNavigation {
               size_ = input.readInt32();
               break;
             }
-            case 162: {
+            case 122: {
+              java.lang.String s = input.readStringRequireUtf8();
               if (!((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
-                sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>();
+                includeFieldPattern_ = new com.google.protobuf.LazyStringArrayList();
                 mutable_bitField0_ |= 0x00000100;
+              }
+              includeFieldPattern_.add(s);
+              break;
+            }
+            case 130: {
+              java.lang.String s = input.readStringRequireUtf8();
+              if (!((mutable_bitField0_ & 0x00000200) == 0x00000200)) {
+                excludeFieldPattern_ = new com.google.protobuf.LazyStringArrayList();
+                mutable_bitField0_ |= 0x00000200;
+              }
+              excludeFieldPattern_.add(s);
+              break;
+            }
+            case 162: {
+              if (!((mutable_bitField0_ & 0x00000400) == 0x00000400)) {
+                sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>();
+                mutable_bitField0_ |= 0x00000400;
               }
               sort_.add(
                   input.readMessage(io.dstore.elastic.Elastic.Sort.parser(), extensionRegistry));
@@ -324,6 +382,12 @@ public final class FacetedNavigation {
           dateRangeFacet_ = java.util.Collections.unmodifiableList(dateRangeFacet_);
         }
         if (((mutable_bitField0_ & 0x00000100) == 0x00000100)) {
+          includeFieldPattern_ = includeFieldPattern_.getUnmodifiableView();
+        }
+        if (((mutable_bitField0_ & 0x00000200) == 0x00000200)) {
+          excludeFieldPattern_ = excludeFieldPattern_.getUnmodifiableView();
+        }
+        if (((mutable_bitField0_ & 0x00000400) == 0x00000400)) {
           sort_ = java.util.Collections.unmodifiableList(sort_);
         }
         makeExtensionsImmutable();
@@ -3539,6 +3603,64 @@ public final class FacetedNavigation {
       return size_;
     }
 
+    public static final int INCLUDE_FIELD_PATTERN_FIELD_NUMBER = 15;
+    private com.google.protobuf.LazyStringList includeFieldPattern_;
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    public com.google.protobuf.ProtocolStringList
+        getIncludeFieldPatternList() {
+      return includeFieldPattern_;
+    }
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    public int getIncludeFieldPatternCount() {
+      return includeFieldPattern_.size();
+    }
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    public java.lang.String getIncludeFieldPattern(int index) {
+      return includeFieldPattern_.get(index);
+    }
+    /**
+     * <code>repeated string include_field_pattern = 15;</code>
+     */
+    public com.google.protobuf.ByteString
+        getIncludeFieldPatternBytes(int index) {
+      return includeFieldPattern_.getByteString(index);
+    }
+
+    public static final int EXCLUDE_FIELD_PATTERN_FIELD_NUMBER = 16;
+    private com.google.protobuf.LazyStringList excludeFieldPattern_;
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    public com.google.protobuf.ProtocolStringList
+        getExcludeFieldPatternList() {
+      return excludeFieldPattern_;
+    }
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    public int getExcludeFieldPatternCount() {
+      return excludeFieldPattern_.size();
+    }
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    public java.lang.String getExcludeFieldPattern(int index) {
+      return excludeFieldPattern_.get(index);
+    }
+    /**
+     * <code>repeated string exclude_field_pattern = 16;</code>
+     */
+    public com.google.protobuf.ByteString
+        getExcludeFieldPatternBytes(int index) {
+      return excludeFieldPattern_.getByteString(index);
+    }
+
     public static final int SORT_FIELD_NUMBER = 20;
     private java.util.List<io.dstore.elastic.Elastic.Sort> sort_;
     /**
@@ -3610,6 +3732,12 @@ public final class FacetedNavigation {
       if (size_ != 0) {
         output.writeInt32(11, size_);
       }
+      for (int i = 0; i < includeFieldPattern_.size(); i++) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, includeFieldPattern_.getRaw(i));
+      }
+      for (int i = 0; i < excludeFieldPattern_.size(); i++) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 16, excludeFieldPattern_.getRaw(i));
+      }
       for (int i = 0; i < sort_.size(); i++) {
         output.writeMessage(20, sort_.get(i));
       }
@@ -3651,6 +3779,22 @@ public final class FacetedNavigation {
       if (size_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(11, size_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < includeFieldPattern_.size(); i++) {
+          dataSize += computeStringSizeNoTag(includeFieldPattern_.getRaw(i));
+        }
+        size += dataSize;
+        size += 1 * getIncludeFieldPatternList().size();
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < excludeFieldPattern_.size(); i++) {
+          dataSize += computeStringSizeNoTag(excludeFieldPattern_.getRaw(i));
+        }
+        size += dataSize;
+        size += 2 * getExcludeFieldPatternList().size();
       }
       for (int i = 0; i < sort_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -3694,6 +3838,10 @@ public final class FacetedNavigation {
           == other.getFrom());
       result = result && (getSize()
           == other.getSize());
+      result = result && getIncludeFieldPatternList()
+          .equals(other.getIncludeFieldPatternList());
+      result = result && getExcludeFieldPatternList()
+          .equals(other.getExcludeFieldPatternList());
       result = result && getSortList()
           .equals(other.getSortList());
       return result;
@@ -3733,6 +3881,14 @@ public final class FacetedNavigation {
       hash = (53 * hash) + getFrom();
       hash = (37 * hash) + SIZE_FIELD_NUMBER;
       hash = (53 * hash) + getSize();
+      if (getIncludeFieldPatternCount() > 0) {
+        hash = (37 * hash) + INCLUDE_FIELD_PATTERN_FIELD_NUMBER;
+        hash = (53 * hash) + getIncludeFieldPatternList().hashCode();
+      }
+      if (getExcludeFieldPatternCount() > 0) {
+        hash = (37 * hash) + EXCLUDE_FIELD_PATTERN_FIELD_NUMBER;
+        hash = (53 * hash) + getExcludeFieldPatternList().hashCode();
+      }
       if (getSortCount() > 0) {
         hash = (37 * hash) + SORT_FIELD_NUMBER;
         hash = (53 * hash) + getSortList().hashCode();
@@ -3895,9 +4051,13 @@ public final class FacetedNavigation {
 
         size_ = 0;
 
+        includeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        bitField0_ = (bitField0_ & ~0x00000100);
+        excludeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        bitField0_ = (bitField0_ & ~0x00000200);
         if (sortBuilder_ == null) {
           sort_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000100);
+          bitField0_ = (bitField0_ & ~0x00000400);
         } else {
           sortBuilder_.clear();
         }
@@ -3965,10 +4125,20 @@ public final class FacetedNavigation {
         result.onlyMatchingVariants_ = onlyMatchingVariants_;
         result.from_ = from_;
         result.size_ = size_;
+        if (((bitField0_ & 0x00000100) == 0x00000100)) {
+          includeFieldPattern_ = includeFieldPattern_.getUnmodifiableView();
+          bitField0_ = (bitField0_ & ~0x00000100);
+        }
+        result.includeFieldPattern_ = includeFieldPattern_;
+        if (((bitField0_ & 0x00000200) == 0x00000200)) {
+          excludeFieldPattern_ = excludeFieldPattern_.getUnmodifiableView();
+          bitField0_ = (bitField0_ & ~0x00000200);
+        }
+        result.excludeFieldPattern_ = excludeFieldPattern_;
         if (sortBuilder_ == null) {
-          if (((bitField0_ & 0x00000100) == 0x00000100)) {
+          if (((bitField0_ & 0x00000400) == 0x00000400)) {
             sort_ = java.util.Collections.unmodifiableList(sort_);
-            bitField0_ = (bitField0_ & ~0x00000100);
+            bitField0_ = (bitField0_ & ~0x00000400);
           }
           result.sort_ = sort_;
         } else {
@@ -4109,11 +4279,31 @@ public final class FacetedNavigation {
         if (other.getSize() != 0) {
           setSize(other.getSize());
         }
+        if (!other.includeFieldPattern_.isEmpty()) {
+          if (includeFieldPattern_.isEmpty()) {
+            includeFieldPattern_ = other.includeFieldPattern_;
+            bitField0_ = (bitField0_ & ~0x00000100);
+          } else {
+            ensureIncludeFieldPatternIsMutable();
+            includeFieldPattern_.addAll(other.includeFieldPattern_);
+          }
+          onChanged();
+        }
+        if (!other.excludeFieldPattern_.isEmpty()) {
+          if (excludeFieldPattern_.isEmpty()) {
+            excludeFieldPattern_ = other.excludeFieldPattern_;
+            bitField0_ = (bitField0_ & ~0x00000200);
+          } else {
+            ensureExcludeFieldPatternIsMutable();
+            excludeFieldPattern_.addAll(other.excludeFieldPattern_);
+          }
+          onChanged();
+        }
         if (sortBuilder_ == null) {
           if (!other.sort_.isEmpty()) {
             if (sort_.isEmpty()) {
               sort_ = other.sort_;
-              bitField0_ = (bitField0_ & ~0x00000100);
+              bitField0_ = (bitField0_ & ~0x00000400);
             } else {
               ensureSortIsMutable();
               sort_.addAll(other.sort_);
@@ -4126,7 +4316,7 @@ public final class FacetedNavigation {
               sortBuilder_.dispose();
               sortBuilder_ = null;
               sort_ = other.sort_;
-              bitField0_ = (bitField0_ & ~0x00000100);
+              bitField0_ = (bitField0_ & ~0x00000400);
               sortBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getSortFieldBuilder() : null;
@@ -5278,12 +5468,200 @@ public final class FacetedNavigation {
         return this;
       }
 
+      private com.google.protobuf.LazyStringList includeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      private void ensureIncludeFieldPatternIsMutable() {
+        if (!((bitField0_ & 0x00000100) == 0x00000100)) {
+          includeFieldPattern_ = new com.google.protobuf.LazyStringArrayList(includeFieldPattern_);
+          bitField0_ |= 0x00000100;
+         }
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public com.google.protobuf.ProtocolStringList
+          getIncludeFieldPatternList() {
+        return includeFieldPattern_.getUnmodifiableView();
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public int getIncludeFieldPatternCount() {
+        return includeFieldPattern_.size();
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public java.lang.String getIncludeFieldPattern(int index) {
+        return includeFieldPattern_.get(index);
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public com.google.protobuf.ByteString
+          getIncludeFieldPatternBytes(int index) {
+        return includeFieldPattern_.getByteString(index);
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public Builder setIncludeFieldPattern(
+          int index, java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureIncludeFieldPatternIsMutable();
+        includeFieldPattern_.set(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public Builder addIncludeFieldPattern(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureIncludeFieldPatternIsMutable();
+        includeFieldPattern_.add(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public Builder addAllIncludeFieldPattern(
+          java.lang.Iterable<java.lang.String> values) {
+        ensureIncludeFieldPatternIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, includeFieldPattern_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public Builder clearIncludeFieldPattern() {
+        includeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        bitField0_ = (bitField0_ & ~0x00000100);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string include_field_pattern = 15;</code>
+       */
+      public Builder addIncludeFieldPatternBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        ensureIncludeFieldPatternIsMutable();
+        includeFieldPattern_.add(value);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.LazyStringList excludeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      private void ensureExcludeFieldPatternIsMutable() {
+        if (!((bitField0_ & 0x00000200) == 0x00000200)) {
+          excludeFieldPattern_ = new com.google.protobuf.LazyStringArrayList(excludeFieldPattern_);
+          bitField0_ |= 0x00000200;
+         }
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public com.google.protobuf.ProtocolStringList
+          getExcludeFieldPatternList() {
+        return excludeFieldPattern_.getUnmodifiableView();
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public int getExcludeFieldPatternCount() {
+        return excludeFieldPattern_.size();
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public java.lang.String getExcludeFieldPattern(int index) {
+        return excludeFieldPattern_.get(index);
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public com.google.protobuf.ByteString
+          getExcludeFieldPatternBytes(int index) {
+        return excludeFieldPattern_.getByteString(index);
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public Builder setExcludeFieldPattern(
+          int index, java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureExcludeFieldPatternIsMutable();
+        excludeFieldPattern_.set(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public Builder addExcludeFieldPattern(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureExcludeFieldPatternIsMutable();
+        excludeFieldPattern_.add(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public Builder addAllExcludeFieldPattern(
+          java.lang.Iterable<java.lang.String> values) {
+        ensureExcludeFieldPatternIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, excludeFieldPattern_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public Builder clearExcludeFieldPattern() {
+        excludeFieldPattern_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        bitField0_ = (bitField0_ & ~0x00000200);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string exclude_field_pattern = 16;</code>
+       */
+      public Builder addExcludeFieldPatternBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        ensureExcludeFieldPatternIsMutable();
+        excludeFieldPattern_.add(value);
+        onChanged();
+        return this;
+      }
+
       private java.util.List<io.dstore.elastic.Elastic.Sort> sort_ =
         java.util.Collections.emptyList();
       private void ensureSortIsMutable() {
-        if (!((bitField0_ & 0x00000100) == 0x00000100)) {
+        if (!((bitField0_ & 0x00000400) == 0x00000400)) {
           sort_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Sort>(sort_);
-          bitField0_ |= 0x00000100;
+          bitField0_ |= 0x00000400;
          }
       }
 
@@ -5433,7 +5811,7 @@ public final class FacetedNavigation {
       public Builder clearSort() {
         if (sortBuilder_ == null) {
           sort_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000100);
+          bitField0_ = (bitField0_ & ~0x00000400);
           onChanged();
         } else {
           sortBuilder_.clear();
@@ -5510,7 +5888,7 @@ public final class FacetedNavigation {
           sortBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.dstore.elastic.Elastic.Sort, io.dstore.elastic.Elastic.Sort.Builder, io.dstore.elastic.Elastic.SortOrBuilder>(
                   sort_,
-                  ((bitField0_ & 0x00000100) == 0x00000100),
+                  ((bitField0_ & 0x00000400) == 0x00000400),
                   getParentForChildren(),
                   isClean());
           sort_ = null;
@@ -6913,7 +7291,7 @@ public final class FacetedNavigation {
       "\n+dstore/elastic/item/facetednavigation." +
       "proto\022 dstore.elastic.facetednavigation\032" +
       "\034dstore/elastic/elastic.proto\032\036dstore/el" +
-      "astic/item/item.proto\"\363\006\n\007Request\022-\n\nbas" +
+      "astic/item/item.proto\"\261\007\n\007Request\022-\n\nbas" +
       "e_query\030\001 \001(\0132\031.dstore.elastic.BoolQuery" +
       "\022-\n\npost_query\030\002 \001(\0132\031.dstore.elastic.Bo" +
       "olQuery\022>\n\005facet\030\003 \003(\0132/.dstore.elastic." +
@@ -6923,25 +7301,27 @@ public final class FacetedNavigation {
       "_facet\030\006 \003(\01324.dstore.elastic.facetednav" +
       "igation.Request.RangeFacet\022\034\n\024onlyMatchi" +
       "ngVariants\030\007 \001(\010\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013" +
-      " \001(\005\022\"\n\004sort\030\024 \003(\0132\024.dstore.elastic.Sort" +
-      "\032F\n\nRangeFacet\022\022\n\nfield_name\030\001 \001(\t\022$\n\005ra" +
-      "nge\030\002 \003(\0132\025.dstore.elastic.Range\032\210\003\n\005Fac" +
-      "et\022\022\n\nfield_name\030\001 \001(\t\022R\n\014sort_no_sort\030\002" +
-      " \001(\0132:.dstore.elastic.facetednavigation." +
-      "Request.Facet.SortNoSortH\000\022O\n\nfield_sort" +
-      "\030\003 \001(\01329.dstore.elastic.facetednavigatio",
-      "n.Request.Facet.FieldSortH\000\032<\n\nSortNoSor" +
-      "t\022.\n\nsort_order\030\001 \001(\0162\032.dstore.elastic.S" +
-      "ort.Order\032}\n\tFieldSort\022\022\n\nfield_name\030\001 \001" +
-      "(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstore.elastic." +
-      "Sort.Order\022,\n\tsort_mode\030\003 \001(\0162\031.dstore.e" +
-      "lastic.Sort.ModeB\t\n\007sort_by\"\220\001\n\010Response" +
-      "\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003 \003(\0132\031.dst" +
-      "ore.elastic.item.Item\022)\n\005facet\030\004 \003(\0132\032.d" +
-      "store.elastic.item.Facet\022\034\n\024elastic_quer" +
-      "y_string\030\005 \001(\tB\\\n\026io.dstore.elastic.item",
-      "B\021FacetedNavigationZ/gosdk.dstore.de/ela" +
-      "stic/item/faceted_navigationb\006proto3"
+      " \001(\005\022\035\n\025include_field_pattern\030\017 \003(\t\022\035\n\025e" +
+      "xclude_field_pattern\030\020 \003(\t\022\"\n\004sort\030\024 \003(\013" +
+      "2\024.dstore.elastic.Sort\032F\n\nRangeFacet\022\022\n\n" +
+      "field_name\030\001 \001(\t\022$\n\005range\030\002 \003(\0132\025.dstore" +
+      ".elastic.Range\032\210\003\n\005Facet\022\022\n\nfield_name\030\001" +
+      " \001(\t\022R\n\014sort_no_sort\030\002 \001(\0132:.dstore.elas" +
+      "tic.facetednavigation.Request.Facet.Sort",
+      "NoSortH\000\022O\n\nfield_sort\030\003 \001(\01329.dstore.el" +
+      "astic.facetednavigation.Request.Facet.Fi" +
+      "eldSortH\000\032<\n\nSortNoSort\022.\n\nsort_order\030\001 " +
+      "\001(\0162\032.dstore.elastic.Sort.Order\032}\n\tField" +
+      "Sort\022\022\n\nfield_name\030\001 \001(\t\022.\n\nsort_order\030\002" +
+      " \001(\0162\032.dstore.elastic.Sort.Order\022,\n\tsort" +
+      "_mode\030\003 \001(\0162\031.dstore.elastic.Sort.ModeB\t" +
+      "\n\007sort_by\"\220\001\n\010Response\022\022\n\ntotal_hits\030\002 \001" +
+      "(\005\022\'\n\004item\030\003 \003(\0132\031.dstore.elastic.item.I" +
+      "tem\022)\n\005facet\030\004 \003(\0132\032.dstore.elastic.item",
+      ".Facet\022\034\n\024elastic_query_string\030\005 \001(\tB\\\n\026" +
+      "io.dstore.elastic.itemB\021FacetedNavigatio" +
+      "nZ/gosdk.dstore.de/elastic/item/faceted_" +
+      "navigationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -6962,7 +7342,7 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_descriptor,
-        new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "RangeFacet", "DateRangeFacet", "OnlyMatchingVariants", "From", "Size", "Sort", });
+        new java.lang.String[] { "BaseQuery", "PostQuery", "Facet", "RangeFacet", "DateRangeFacet", "OnlyMatchingVariants", "From", "Size", "IncludeFieldPattern", "ExcludeFieldPattern", "Sort", });
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_descriptor =
       internal_static_dstore_elastic_facetednavigation_Request_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_facetednavigation_Request_RangeFacet_fieldAccessorTable = new
