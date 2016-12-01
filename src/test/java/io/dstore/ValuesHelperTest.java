@@ -1,7 +1,8 @@
 package io.dstore;
 
-import com.google.protobuf.util.TimeUtil;
+import com.google.protobuf.util.Timestamps;
 import io.dstore.helper.ValuesHelper;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.math.BigDecimal;
@@ -14,29 +15,29 @@ public class ValuesHelperTest {
 
     @Test
     public void testInteger() {
-        assert ValuesHelper.value(1).getValue() == 1;
+        Assert.assertEquals(ValuesHelper.value(1).getValue(),1);
     }
 
     @Test
     public void testString() {
-        assert ValuesHelper.value("abc").getValue().equals("abc");
+        Assert.assertEquals(ValuesHelper.value("abc").getValue(),"abc");
     }
 
     @Test
     public void testDecimal() {
         BigDecimal test = new BigDecimal("2345.5623");
-        assert new BigDecimal(ValuesHelper.value(test).getValue()).equals(new BigDecimal("2345.5623"));
+        Assert.assertEquals(new BigDecimal(ValuesHelper.value(test).getValue()),new BigDecimal("2345.5623"));
     }
 
     @Test
     public void testConvertToObject() {
-        assert (Boolean)ValuesHelper.convertToObject(Values.Value.newBuilder().setBooleanValue(ValuesHelper.value(true))) ;
+        Assert.assertTrue((Boolean)ValuesHelper.convertToObject(Values.Value.newBuilder().setBooleanValue(ValuesHelper.value(true)))) ;
     }
 
     @Test
     public void testTimestamp() {
         Date now = new Date();
-        assert TimeUtil.toMillis(ValuesHelper.value(now).getValue()) == now.getTime();
+        Assert.assertEquals(Timestamps.toMillis(ValuesHelper.value(now).getValue()),now.getTime());
     }
 
 }

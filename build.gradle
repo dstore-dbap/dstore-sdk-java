@@ -65,7 +65,6 @@ signing {
 dependencies {
     compile "io.grpc:grpc-stub:${grpcJavaVersion}"
     compile "io.grpc:grpc-protobuf:${grpcJavaVersion}"
-    compile "io.grpc:grpc-auth:${grpcJavaVersion}"
     compile "io.grpc:grpc-netty:${grpcJavaVersion}"
     compile "io.grpc:grpc-grpclb:${grpcJavaVersion}"
     compile "com.google.protobuf:protobuf-java-util:${protobufVersion}"
