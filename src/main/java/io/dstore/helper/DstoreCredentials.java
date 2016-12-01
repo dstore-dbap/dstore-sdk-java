@@ -16,7 +16,7 @@ public class DstoreCredentials implements CallCredentials {
     }
 
     public DstoreCredentials(String accessToken) {
-        metadata.put(DstoreMetadata.accessToken,accessToken);
+        metadata.put(DstoreMetadata.ACCESS_TOKEN_KEY,accessToken);
     }
 
     public DstoreCredentials(String username, String password) {
@@ -24,9 +24,9 @@ public class DstoreCredentials implements CallCredentials {
     }
 
     public DstoreCredentials(String accessToken, String username, String password) {
-        metadata.put(DstoreMetadata.accessToken,accessToken);
-        metadata.put(DstoreMetadata.username,username);
-        metadata.put(DstoreMetadata.password,password);
+        metadata.put(DstoreMetadata.ACCESS_TOKEN_KEY,accessToken);
+        metadata.put(DstoreMetadata.USERNAME_KEY,username);
+        metadata.put(DstoreMetadata.PASSWORD_KEY,password);
     }
 
     @Override
