@@ -18,7 +18,7 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 0.14.0)",
+    value = "by gRPC proto compiler (version 1.0.2)",
     comments = "Source: dstore/engine/engine.proto")
 public class EngineGrpc {
 
@@ -27,7 +27,7 @@ public class EngineGrpc {
   public static final String SERVICE_NAME = "dstore.engine.Engine";
 
   // Static method descriptors that strictly reflect the proto.
-  @io.grpc.ExperimentalApi
+  @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<io.dstore.engine.Procedure.Call,
       io.dstore.engine.Procedure.Response> METHOD_EXEC_PROCEDURE =
       io.grpc.MethodDescriptor.create(
@@ -36,7 +36,7 @@ public class EngineGrpc {
               "dstore.engine.Engine", "execProcedure"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
-  @io.grpc.ExperimentalApi
+  @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<io.dstore.engine.Procedure.Call,
       io.dstore.engine.Procedure.Response> METHOD_EXEC_BATCH =
       io.grpc.MethodDescriptor.create(
@@ -45,7 +45,7 @@ public class EngineGrpc {
               "dstore.engine.Engine", "execBatch"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
-  @io.grpc.ExperimentalApi
+  @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<io.dstore.Values.stringValue,
       io.dstore.Values.stringValue> METHOD_CREATE_UNIQUE_ID =
       io.grpc.MethodDescriptor.create(
@@ -54,7 +54,7 @@ public class EngineGrpc {
               "dstore.engine.Engine", "createUniqueID"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()));
-  @io.grpc.ExperimentalApi
+  @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<io.dstore.Values.stringValue,
       io.dstore.Values.booleanValue> METHOD_IS_VALID_UNIQUE_ID =
       io.grpc.MethodDescriptor.create(
@@ -89,96 +89,73 @@ public class EngineGrpc {
 
   /**
    */
-  public static interface Engine {
+  public static abstract class EngineImplBase implements io.grpc.BindableService {
 
     /**
      */
-    public void execProcedure(io.dstore.engine.Procedure.Call request,
-        io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
-
-    /**
-     */
-    public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
-        io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
-
-    /**
-     */
-    public void createUniqueID(io.dstore.Values.stringValue request,
-        io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver);
-
-    /**
-     */
-    public void isValidUniqueID(io.dstore.Values.stringValue request,
-        io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver);
-  }
-
-  @io.grpc.ExperimentalApi
-  public static abstract class AbstractEngine implements Engine, io.grpc.BindableService {
-
-    @java.lang.Override
     public void execProcedure(io.dstore.engine.Procedure.Call request,
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_EXEC_PROCEDURE, responseObserver);
     }
 
-    @java.lang.Override
+    /**
+     */
     public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
       return asyncUnimplementedStreamingCall(METHOD_EXEC_BATCH, responseObserver);
     }
 
-    @java.lang.Override
+    /**
+     */
     public void createUniqueID(io.dstore.Values.stringValue request,
         io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_CREATE_UNIQUE_ID, responseObserver);
     }
 
-    @java.lang.Override
+    /**
+     */
     public void isValidUniqueID(io.dstore.Values.stringValue request,
         io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_IS_VALID_UNIQUE_ID, responseObserver);
     }
 
     @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
-      return EngineGrpc.bindService(this);
+      return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
+          .addMethod(
+            METHOD_EXEC_PROCEDURE,
+            asyncServerStreamingCall(
+              new MethodHandlers<
+                io.dstore.engine.Procedure.Call,
+                io.dstore.engine.Procedure.Response>(
+                  this, METHODID_EXEC_PROCEDURE)))
+          .addMethod(
+            METHOD_EXEC_BATCH,
+            asyncBidiStreamingCall(
+              new MethodHandlers<
+                io.dstore.engine.Procedure.Call,
+                io.dstore.engine.Procedure.Response>(
+                  this, METHODID_EXEC_BATCH)))
+          .addMethod(
+            METHOD_CREATE_UNIQUE_ID,
+            asyncUnaryCall(
+              new MethodHandlers<
+                io.dstore.Values.stringValue,
+                io.dstore.Values.stringValue>(
+                  this, METHODID_CREATE_UNIQUE_ID)))
+          .addMethod(
+            METHOD_IS_VALID_UNIQUE_ID,
+            asyncUnaryCall(
+              new MethodHandlers<
+                io.dstore.Values.stringValue,
+                io.dstore.Values.booleanValue>(
+                  this, METHODID_IS_VALID_UNIQUE_ID)))
+          .build();
     }
   }
 
   /**
    */
-  public static interface EngineBlockingClient {
-
-    /**
-     */
-    public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
-        io.dstore.engine.Procedure.Call request);
-
-    /**
-     */
-    public io.dstore.Values.stringValue createUniqueID(io.dstore.Values.stringValue request);
-
-    /**
-     */
-    public io.dstore.Values.booleanValue isValidUniqueID(io.dstore.Values.stringValue request);
-  }
-
-  /**
-   */
-  public static interface EngineFutureClient {
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.stringValue> createUniqueID(
-        io.dstore.Values.stringValue request);
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.booleanValue> isValidUniqueID(
-        io.dstore.Values.stringValue request);
-  }
-
-  public static class EngineStub extends io.grpc.stub.AbstractStub<EngineStub>
-      implements Engine {
+  public static final class EngineStub extends io.grpc.stub.AbstractStub<EngineStub> {
     private EngineStub(io.grpc.Channel channel) {
       super(channel);
     }
@@ -194,28 +171,32 @@ public class EngineGrpc {
       return new EngineStub(channel, callOptions);
     }
 
-    @java.lang.Override
+    /**
+     */
     public void execProcedure(io.dstore.engine.Procedure.Call request,
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
       asyncServerStreamingCall(
           getChannel().newCall(METHOD_EXEC_PROCEDURE, getCallOptions()), request, responseObserver);
     }
 
-    @java.lang.Override
+    /**
+     */
     public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
       return asyncBidiStreamingCall(
           getChannel().newCall(METHOD_EXEC_BATCH, getCallOptions()), responseObserver);
     }
 
-    @java.lang.Override
+    /**
+     */
     public void createUniqueID(io.dstore.Values.stringValue request,
         io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(METHOD_CREATE_UNIQUE_ID, getCallOptions()), request, responseObserver);
     }
 
-    @java.lang.Override
+    /**
+     */
     public void isValidUniqueID(io.dstore.Values.stringValue request,
         io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver) {
       asyncUnaryCall(
@@ -223,8 +204,9 @@ public class EngineGrpc {
     }
   }
 
-  public static class EngineBlockingStub extends io.grpc.stub.AbstractStub<EngineBlockingStub>
-      implements EngineBlockingClient {
+  /**
+   */
+  public static final class EngineBlockingStub extends io.grpc.stub.AbstractStub<EngineBlockingStub> {
     private EngineBlockingStub(io.grpc.Channel channel) {
       super(channel);
     }
@@ -240,28 +222,32 @@ public class EngineGrpc {
       return new EngineBlockingStub(channel, callOptions);
     }
 
-    @java.lang.Override
+    /**
+     */
     public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
         io.dstore.engine.Procedure.Call request) {
       return blockingServerStreamingCall(
           getChannel(), METHOD_EXEC_PROCEDURE, getCallOptions(), request);
     }
 
-    @java.lang.Override
+    /**
+     */
     public io.dstore.Values.stringValue createUniqueID(io.dstore.Values.stringValue request) {
       return blockingUnaryCall(
           getChannel(), METHOD_CREATE_UNIQUE_ID, getCallOptions(), request);
     }
 
-    @java.lang.Override
+    /**
+     */
     public io.dstore.Values.booleanValue isValidUniqueID(io.dstore.Values.stringValue request) {
       return blockingUnaryCall(
           getChannel(), METHOD_IS_VALID_UNIQUE_ID, getCallOptions(), request);
     }
   }
 
-  public static class EngineFutureStub extends io.grpc.stub.AbstractStub<EngineFutureStub>
-      implements EngineFutureClient {
+  /**
+   */
+  public static final class EngineFutureStub extends io.grpc.stub.AbstractStub<EngineFutureStub> {
     private EngineFutureStub(io.grpc.Channel channel) {
       super(channel);
     }
@@ -277,14 +263,16 @@ public class EngineGrpc {
       return new EngineFutureStub(channel, callOptions);
     }
 
-    @java.lang.Override
+    /**
+     */
     public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.stringValue> createUniqueID(
         io.dstore.Values.stringValue request) {
       return futureUnaryCall(
           getChannel().newCall(METHOD_CREATE_UNIQUE_ID, getCallOptions()), request);
     }
 
-    @java.lang.Override
+    /**
+     */
     public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.booleanValue> isValidUniqueID(
         io.dstore.Values.stringValue request) {
       return futureUnaryCall(
@@ -302,10 +290,10 @@ public class EngineGrpc {
       io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.BidiStreamingMethod<Req, Resp> {
-    private final Engine serviceImpl;
+    private final EngineImplBase serviceImpl;
     private final int methodId;
 
-    public MethodHandlers(Engine serviceImpl, int methodId) {
+    public MethodHandlers(EngineImplBase serviceImpl, int methodId) {
       this.serviceImpl = serviceImpl;
       this.methodId = methodId;
     }
@@ -345,37 +333,12 @@ public class EngineGrpc {
     }
   }
 
-  public static io.grpc.ServerServiceDefinition bindService(
-      final Engine serviceImpl) {
-    return io.grpc.ServerServiceDefinition.builder(SERVICE_NAME)
-        .addMethod(
-          METHOD_EXEC_PROCEDURE,
-          asyncServerStreamingCall(
-            new MethodHandlers<
-              io.dstore.engine.Procedure.Call,
-              io.dstore.engine.Procedure.Response>(
-                serviceImpl, METHODID_EXEC_PROCEDURE)))
-        .addMethod(
-          METHOD_EXEC_BATCH,
-          asyncBidiStreamingCall(
-            new MethodHandlers<
-              io.dstore.engine.Procedure.Call,
-              io.dstore.engine.Procedure.Response>(
-                serviceImpl, METHODID_EXEC_BATCH)))
-        .addMethod(
-          METHOD_CREATE_UNIQUE_ID,
-          asyncUnaryCall(
-            new MethodHandlers<
-              io.dstore.Values.stringValue,
-              io.dstore.Values.stringValue>(
-                serviceImpl, METHODID_CREATE_UNIQUE_ID)))
-        .addMethod(
-          METHOD_IS_VALID_UNIQUE_ID,
-          asyncUnaryCall(
-            new MethodHandlers<
-              io.dstore.Values.stringValue,
-              io.dstore.Values.booleanValue>(
-                serviceImpl, METHODID_IS_VALID_UNIQUE_ID)))
-        .build();
+  public static io.grpc.ServiceDescriptor getServiceDescriptor() {
+    return new io.grpc.ServiceDescriptor(SERVICE_NAME,
+        METHOD_EXEC_PROCEDURE,
+        METHOD_EXEC_BATCH,
+        METHOD_CREATE_UNIQUE_ID,
+        METHOD_IS_VALID_UNIQUE_ID);
   }
+
 }
