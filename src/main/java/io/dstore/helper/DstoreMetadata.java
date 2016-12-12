@@ -15,6 +15,6 @@ public class DstoreMetadata {
             io.grpc.Metadata.Key.of("dstore-password", io.grpc.Metadata.ASCII_STRING_MARSHALLER);
 
     public static final io.grpc.Metadata.Key<String> ACCESS_TOKEN_KEY =
-            io.grpc.Metadata.Key.of("dstore-accesskey", io.grpc.Metadata.ASCII_STRING_MARSHALLER);
+            io.grpc.Metadata.Key.of("dstore-accesstoken", io.grpc.Metadata.ASCII_STRING_MARSHALLER);
 
 }
