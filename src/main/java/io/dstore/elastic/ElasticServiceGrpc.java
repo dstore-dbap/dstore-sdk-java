@@ -28,14 +28,14 @@ public class ElasticServiceGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
-  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.FacetedNavigation.Request,
-      io.dstore.elastic.item.FacetedNavigation.Response> METHOD_FACETED_NAVIGATION =
+  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.Get.Request,
+      io.dstore.elastic.item.Get.Response> METHOD_ITEM_GET =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
-              "dstore.elastic.ElasticService", "facetedNavigation"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.FacetedNavigation.Request.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.FacetedNavigation.Response.getDefaultInstance()));
+              "dstore.elastic.ElasticService", "itemGet"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Get.Request.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Get.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.Suggest.Request,
       io.dstore.elastic.item.Suggest.Response> METHOD_ITEM_SUGGEST =
@@ -75,9 +75,9 @@ public class ElasticServiceGrpc {
 
     /**
      */
-    public void facetedNavigation(io.dstore.elastic.item.FacetedNavigation.Request request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver) {
-      asyncUnimplementedUnaryCall(METHOD_FACETED_NAVIGATION, responseObserver);
+    public void itemGet(io.dstore.elastic.item.Get.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.Get.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ITEM_GET, responseObserver);
     }
 
     /**
@@ -90,12 +90,12 @@ public class ElasticServiceGrpc {
     @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
-            METHOD_FACETED_NAVIGATION,
+            METHOD_ITEM_GET,
             asyncServerStreamingCall(
               new MethodHandlers<
-                io.dstore.elastic.item.FacetedNavigation.Request,
-                io.dstore.elastic.item.FacetedNavigation.Response>(
-                  this, METHODID_FACETED_NAVIGATION)))
+                io.dstore.elastic.item.Get.Request,
+                io.dstore.elastic.item.Get.Response>(
+                  this, METHODID_ITEM_GET)))
           .addMethod(
             METHOD_ITEM_SUGGEST,
             asyncUnaryCall(
@@ -127,10 +127,10 @@ public class ElasticServiceGrpc {
 
     /**
      */
-    public void facetedNavigation(io.dstore.elastic.item.FacetedNavigation.Request request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver) {
+    public void itemGet(io.dstore.elastic.item.Get.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.Get.Response> responseObserver) {
       asyncServerStreamingCall(
-          getChannel().newCall(METHOD_FACETED_NAVIGATION, getCallOptions()), request, responseObserver);
+          getChannel().newCall(METHOD_ITEM_GET, getCallOptions()), request, responseObserver);
     }
 
     /**
@@ -162,10 +162,10 @@ public class ElasticServiceGrpc {
 
     /**
      */
-    public java.util.Iterator<io.dstore.elastic.item.FacetedNavigation.Response> facetedNavigation(
-        io.dstore.elastic.item.FacetedNavigation.Request request) {
+    public java.util.Iterator<io.dstore.elastic.item.Get.Response> itemGet(
+        io.dstore.elastic.item.Get.Request request) {
       return blockingServerStreamingCall(
-          getChannel(), METHOD_FACETED_NAVIGATION, getCallOptions(), request);
+          getChannel(), METHOD_ITEM_GET, getCallOptions(), request);
     }
 
     /**
@@ -203,7 +203,7 @@ public class ElasticServiceGrpc {
     }
   }
 
-  private static final int METHODID_FACETED_NAVIGATION = 0;
+  private static final int METHODID_ITEM_GET = 0;
   private static final int METHODID_ITEM_SUGGEST = 1;
 
   private static class MethodHandlers<Req, Resp> implements
@@ -223,9 +223,9 @@ public class ElasticServiceGrpc {
     @java.lang.SuppressWarnings("unchecked")
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
-        case METHODID_FACETED_NAVIGATION:
-          serviceImpl.facetedNavigation((io.dstore.elastic.item.FacetedNavigation.Request) request,
-              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response>) responseObserver);
+        case METHODID_ITEM_GET:
+          serviceImpl.itemGet((io.dstore.elastic.item.Get.Request) request,
+              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.Get.Response>) responseObserver);
           break;
         case METHODID_ITEM_SUGGEST:
           serviceImpl.itemSuggest((io.dstore.elastic.item.Suggest.Request) request,
@@ -249,7 +249,7 @@ public class ElasticServiceGrpc {
 
   public static io.grpc.ServiceDescriptor getServiceDescriptor() {
     return new io.grpc.ServiceDescriptor(SERVICE_NAME,
-        METHOD_FACETED_NAVIGATION,
+        METHOD_ITEM_GET,
         METHOD_ITEM_SUGGEST);
   }
 

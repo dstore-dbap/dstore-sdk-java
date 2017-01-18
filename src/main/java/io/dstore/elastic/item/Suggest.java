@@ -15,7 +15,7 @@ public final class Suggest {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface RequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dstore.elastic.suggest.Request)
+      // @@protoc_insertion_point(interface_extends:dstore.elastic.item.suggest.Request)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -62,7 +62,7 @@ public final class Suggest {
      *
      * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
-    io.dstore.elastic.Elastic.BoolQuery getBaseQuery();
+    io.dstore.elastic.BoolQuery getBaseQuery();
     /**
      * <pre>
      * Used to filter the suggestions
@@ -70,7 +70,7 @@ public final class Suggest {
      *
      * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
-    io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder();
+    io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder();
 
     /**
      * <code>optional int32 max_items = 5;</code>
@@ -93,11 +93,11 @@ public final class Suggest {
     boolean getUseAndOperator();
   }
   /**
-   * Protobuf type {@code dstore.elastic.suggest.Request}
+   * Protobuf type {@code dstore.elastic.item.suggest.Request}
    */
   public  static final class Request extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:dstore.elastic.suggest.Request)
+      // @@protoc_insertion_point(message_implements:dstore.elastic.item.suggest.Request)
       RequestOrBuilder {
     // Use Request.newBuilder() to construct.
     private Request(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -153,11 +153,11 @@ public final class Suggest {
               break;
             }
             case 26: {
-              io.dstore.elastic.Elastic.BoolQuery.Builder subBuilder = null;
+              io.dstore.elastic.BoolQuery.Builder subBuilder = null;
               if (baseQuery_ != null) {
                 subBuilder = baseQuery_.toBuilder();
               }
-              baseQuery_ = input.readMessage(io.dstore.elastic.Elastic.BoolQuery.parser(), extensionRegistry);
+              baseQuery_ = input.readMessage(io.dstore.elastic.BoolQuery.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(baseQuery_);
                 baseQuery_ = subBuilder.buildPartial();
@@ -201,12 +201,12 @@ public final class Suggest {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_descriptor;
+      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Request_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_fieldAccessorTable
+      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Request_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.item.Suggest.Request.class, io.dstore.elastic.item.Suggest.Request.Builder.class);
     }
@@ -276,7 +276,7 @@ public final class Suggest {
     }
 
     public static final int BASE_QUERY_FIELD_NUMBER = 3;
-    private io.dstore.elastic.Elastic.BoolQuery baseQuery_;
+    private io.dstore.elastic.BoolQuery baseQuery_;
     /**
      * <pre>
      * Used to filter the suggestions
@@ -294,8 +294,8 @@ public final class Suggest {
      *
      * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
-    public io.dstore.elastic.Elastic.BoolQuery getBaseQuery() {
-      return baseQuery_ == null ? io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance() : baseQuery_;
+    public io.dstore.elastic.BoolQuery getBaseQuery() {
+      return baseQuery_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : baseQuery_;
     }
     /**
      * <pre>
@@ -304,7 +304,7 @@ public final class Suggest {
      *
      * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
      */
-    public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
+    public io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
       return getBaseQuery();
     }
 
@@ -561,20 +561,20 @@ public final class Suggest {
       return builder;
     }
     /**
-     * Protobuf type {@code dstore.elastic.suggest.Request}
+     * Protobuf type {@code dstore.elastic.item.suggest.Request}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:dstore.elastic.suggest.Request)
+        // @@protoc_insertion_point(builder_implements:dstore.elastic.item.suggest.Request)
         io.dstore.elastic.item.Suggest.RequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_descriptor;
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Request_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_fieldAccessorTable
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Request_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.item.Suggest.Request.class, io.dstore.elastic.item.Suggest.Request.Builder.class);
       }
@@ -619,7 +619,7 @@ public final class Suggest {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Request_descriptor;
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Request_descriptor;
       }
 
       public io.dstore.elastic.item.Suggest.Request getDefaultInstanceForType() {
@@ -914,9 +914,9 @@ public final class Suggest {
         return this;
       }
 
-      private io.dstore.elastic.Elastic.BoolQuery baseQuery_ = null;
+      private io.dstore.elastic.BoolQuery baseQuery_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> baseQueryBuilder_;
+          io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> baseQueryBuilder_;
       /**
        * <pre>
        * Used to filter the suggestions
@@ -934,9 +934,9 @@ public final class Suggest {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
-      public io.dstore.elastic.Elastic.BoolQuery getBaseQuery() {
+      public io.dstore.elastic.BoolQuery getBaseQuery() {
         if (baseQueryBuilder_ == null) {
-          return baseQuery_ == null ? io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance() : baseQuery_;
+          return baseQuery_ == null ? io.dstore.elastic.BoolQuery.getDefaultInstance() : baseQuery_;
         } else {
           return baseQueryBuilder_.getMessage();
         }
@@ -948,7 +948,7 @@ public final class Suggest {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
-      public Builder setBaseQuery(io.dstore.elastic.Elastic.BoolQuery value) {
+      public Builder setBaseQuery(io.dstore.elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -969,7 +969,7 @@ public final class Suggest {
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       public Builder setBaseQuery(
-          io.dstore.elastic.Elastic.BoolQuery.Builder builderForValue) {
+          io.dstore.elastic.BoolQuery.Builder builderForValue) {
         if (baseQueryBuilder_ == null) {
           baseQuery_ = builderForValue.build();
           onChanged();
@@ -986,11 +986,11 @@ public final class Suggest {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
-      public Builder mergeBaseQuery(io.dstore.elastic.Elastic.BoolQuery value) {
+      public Builder mergeBaseQuery(io.dstore.elastic.BoolQuery value) {
         if (baseQueryBuilder_ == null) {
           if (baseQuery_ != null) {
             baseQuery_ =
-              io.dstore.elastic.Elastic.BoolQuery.newBuilder(baseQuery_).mergeFrom(value).buildPartial();
+              io.dstore.elastic.BoolQuery.newBuilder(baseQuery_).mergeFrom(value).buildPartial();
           } else {
             baseQuery_ = value;
           }
@@ -1026,7 +1026,7 @@ public final class Suggest {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
-      public io.dstore.elastic.Elastic.BoolQuery.Builder getBaseQueryBuilder() {
+      public io.dstore.elastic.BoolQuery.Builder getBaseQueryBuilder() {
         
         onChanged();
         return getBaseQueryFieldBuilder().getBuilder();
@@ -1038,12 +1038,12 @@ public final class Suggest {
        *
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
-      public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
+      public io.dstore.elastic.BoolQueryOrBuilder getBaseQueryOrBuilder() {
         if (baseQueryBuilder_ != null) {
           return baseQueryBuilder_.getMessageOrBuilder();
         } else {
           return baseQuery_ == null ?
-              io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance() : baseQuery_;
+              io.dstore.elastic.BoolQuery.getDefaultInstance() : baseQuery_;
         }
       }
       /**
@@ -1054,11 +1054,11 @@ public final class Suggest {
        * <code>optional .dstore.elastic.BoolQuery base_query = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
+          io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder> 
           getBaseQueryFieldBuilder() {
         if (baseQueryBuilder_ == null) {
           baseQueryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder>(
+              io.dstore.elastic.BoolQuery, io.dstore.elastic.BoolQuery.Builder, io.dstore.elastic.BoolQueryOrBuilder>(
                   getBaseQuery(),
                   getParentForChildren(),
                   isClean());
@@ -1181,10 +1181,10 @@ public final class Suggest {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:dstore.elastic.suggest.Request)
+      // @@protoc_insertion_point(builder_scope:dstore.elastic.item.suggest.Request)
     }
 
-    // @@protoc_insertion_point(class_scope:dstore.elastic.suggest.Request)
+    // @@protoc_insertion_point(class_scope:dstore.elastic.item.suggest.Request)
     private static final io.dstore.elastic.item.Suggest.Request DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new io.dstore.elastic.item.Suggest.Request();
@@ -1220,55 +1220,55 @@ public final class Suggest {
   }
 
   public interface ResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dstore.elastic.suggest.Response)
+      // @@protoc_insertion_point(interface_extends:dstore.elastic.item.suggest.Response)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> 
         getSuggestionList();
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     io.dstore.elastic.item.Suggest.Response.Suggestion getSuggestion(int index);
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     int getSuggestionCount();
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     java.util.List<? extends io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder> 
         getSuggestionOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder getSuggestionOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    java.util.List<io.dstore.elastic.item.ElasticItem.Item> 
+    java.util.List<io.dstore.elastic.item.Item> 
         getMatchingItemList();
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    io.dstore.elastic.item.ElasticItem.Item getMatchingItem(int index);
+    io.dstore.elastic.item.Item getMatchingItem(int index);
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
     int getMatchingItemCount();
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    java.util.List<? extends io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
+    java.util.List<? extends io.dstore.elastic.item.ItemOrBuilder> 
         getMatchingItemOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    io.dstore.elastic.item.ElasticItem.ItemOrBuilder getMatchingItemOrBuilder(
+    io.dstore.elastic.item.ItemOrBuilder getMatchingItemOrBuilder(
         int index);
 
     /**
@@ -1282,11 +1282,11 @@ public final class Suggest {
         getElasticQueryStringBytes();
   }
   /**
-   * Protobuf type {@code dstore.elastic.suggest.Response}
+   * Protobuf type {@code dstore.elastic.item.suggest.Response}
    */
   public  static final class Response extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:dstore.elastic.suggest.Response)
+      // @@protoc_insertion_point(message_implements:dstore.elastic.item.suggest.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
     private Response(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -1334,11 +1334,11 @@ public final class Suggest {
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>();
+                matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.Item>();
                 mutable_bitField0_ |= 0x00000002;
               }
               matchingItem_.add(
-                  input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.elastic.item.Item.parser(), extensionRegistry));
               break;
             }
             case 42: {
@@ -1366,18 +1366,18 @@ public final class Suggest {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_descriptor;
+      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_fieldAccessorTable
+      return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.item.Suggest.Response.class, io.dstore.elastic.item.Suggest.Response.Builder.class);
     }
 
     public interface SuggestionOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:dstore.elastic.suggest.Response.Suggestion)
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.item.suggest.Response.Suggestion)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -1406,11 +1406,11 @@ public final class Suggest {
           getValueBytes();
     }
     /**
-     * Protobuf type {@code dstore.elastic.suggest.Response.Suggestion}
+     * Protobuf type {@code dstore.elastic.item.suggest.Response.Suggestion}
      */
     public  static final class Suggestion extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:dstore.elastic.suggest.Response.Suggestion)
+        // @@protoc_insertion_point(message_implements:dstore.elastic.item.suggest.Response.Suggestion)
         SuggestionOrBuilder {
       // Use Suggestion.newBuilder() to construct.
       private Suggestion(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -1477,12 +1477,12 @@ public final class Suggest {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_Suggestion_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_Suggestion_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.item.Suggest.Response.Suggestion.class, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder.class);
       }
@@ -1723,20 +1723,20 @@ public final class Suggest {
         return builder;
       }
       /**
-       * Protobuf type {@code dstore.elastic.suggest.Response.Suggestion}
+       * Protobuf type {@code dstore.elastic.item.suggest.Response.Suggestion}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:dstore.elastic.suggest.Response.Suggestion)
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.item.suggest.Response.Suggestion)
           io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
+          return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_Suggestion_descriptor;
         }
 
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable
+          return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_Suggestion_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
                   io.dstore.elastic.item.Suggest.Response.Suggestion.class, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder.class);
         }
@@ -1769,7 +1769,7 @@ public final class Suggest {
 
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
+          return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_Suggestion_descriptor;
         }
 
         public io.dstore.elastic.item.Suggest.Response.Suggestion getDefaultInstanceForType() {
@@ -2041,10 +2041,10 @@ public final class Suggest {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:dstore.elastic.suggest.Response.Suggestion)
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.item.suggest.Response.Suggestion)
       }
 
-      // @@protoc_insertion_point(class_scope:dstore.elastic.suggest.Response.Suggestion)
+      // @@protoc_insertion_point(class_scope:dstore.elastic.item.suggest.Response.Suggestion)
       private static final io.dstore.elastic.item.Suggest.Response.Suggestion DEFAULT_INSTANCE;
       static {
         DEFAULT_INSTANCE = new io.dstore.elastic.item.Suggest.Response.Suggestion();
@@ -2083,32 +2083,32 @@ public final class Suggest {
     public static final int SUGGESTION_FIELD_NUMBER = 2;
     private java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> suggestion_;
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     public java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> getSuggestionList() {
       return suggestion_;
     }
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     public java.util.List<? extends io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder> 
         getSuggestionOrBuilderList() {
       return suggestion_;
     }
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     public int getSuggestionCount() {
       return suggestion_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     public io.dstore.elastic.item.Suggest.Response.Suggestion getSuggestion(int index) {
       return suggestion_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+     * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
      */
     public io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder getSuggestionOrBuilder(
         int index) {
@@ -2116,36 +2116,36 @@ public final class Suggest {
     }
 
     public static final int MATCHING_ITEM_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.elastic.item.ElasticItem.Item> matchingItem_;
+    private java.util.List<io.dstore.elastic.item.Item> matchingItem_;
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    public java.util.List<io.dstore.elastic.item.ElasticItem.Item> getMatchingItemList() {
+    public java.util.List<io.dstore.elastic.item.Item> getMatchingItemList() {
       return matchingItem_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    public java.util.List<? extends io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
+    public java.util.List<? extends io.dstore.elastic.item.ItemOrBuilder> 
         getMatchingItemOrBuilderList() {
       return matchingItem_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
     public int getMatchingItemCount() {
       return matchingItem_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    public io.dstore.elastic.item.ElasticItem.Item getMatchingItem(int index) {
+    public io.dstore.elastic.item.Item getMatchingItem(int index) {
       return matchingItem_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+     * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
      */
-    public io.dstore.elastic.item.ElasticItem.ItemOrBuilder getMatchingItemOrBuilder(
+    public io.dstore.elastic.item.ItemOrBuilder getMatchingItemOrBuilder(
         int index) {
       return matchingItem_.get(index);
     }
@@ -2348,20 +2348,20 @@ public final class Suggest {
       return builder;
     }
     /**
-     * Protobuf type {@code dstore.elastic.suggest.Response}
+     * Protobuf type {@code dstore.elastic.item.suggest.Response}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:dstore.elastic.suggest.Response)
+        // @@protoc_insertion_point(builder_implements:dstore.elastic.item.suggest.Response)
         io.dstore.elastic.item.Suggest.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_descriptor;
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_fieldAccessorTable
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.item.Suggest.Response.class, io.dstore.elastic.item.Suggest.Response.Builder.class);
       }
@@ -2404,7 +2404,7 @@ public final class Suggest {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_suggest_Response_descriptor;
+        return io.dstore.elastic.item.Suggest.internal_static_dstore_elastic_item_suggest_Response_descriptor;
       }
 
       public io.dstore.elastic.item.Suggest.Response getDefaultInstanceForType() {
@@ -2580,7 +2580,7 @@ public final class Suggest {
           io.dstore.elastic.item.Suggest.Response.Suggestion, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder, io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder> suggestionBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion> getSuggestionList() {
         if (suggestionBuilder_ == null) {
@@ -2590,7 +2590,7 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public int getSuggestionCount() {
         if (suggestionBuilder_ == null) {
@@ -2600,7 +2600,7 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public io.dstore.elastic.item.Suggest.Response.Suggestion getSuggestion(int index) {
         if (suggestionBuilder_ == null) {
@@ -2610,7 +2610,7 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder setSuggestion(
           int index, io.dstore.elastic.item.Suggest.Response.Suggestion value) {
@@ -2627,7 +2627,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder setSuggestion(
           int index, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder builderForValue) {
@@ -2641,7 +2641,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder addSuggestion(io.dstore.elastic.item.Suggest.Response.Suggestion value) {
         if (suggestionBuilder_ == null) {
@@ -2657,7 +2657,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder addSuggestion(
           int index, io.dstore.elastic.item.Suggest.Response.Suggestion value) {
@@ -2674,7 +2674,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder addSuggestion(
           io.dstore.elastic.item.Suggest.Response.Suggestion.Builder builderForValue) {
@@ -2688,7 +2688,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder addSuggestion(
           int index, io.dstore.elastic.item.Suggest.Response.Suggestion.Builder builderForValue) {
@@ -2702,7 +2702,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder addAllSuggestion(
           java.lang.Iterable<? extends io.dstore.elastic.item.Suggest.Response.Suggestion> values) {
@@ -2717,7 +2717,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder clearSuggestion() {
         if (suggestionBuilder_ == null) {
@@ -2730,7 +2730,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public Builder removeSuggestion(int index) {
         if (suggestionBuilder_ == null) {
@@ -2743,14 +2743,14 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public io.dstore.elastic.item.Suggest.Response.Suggestion.Builder getSuggestionBuilder(
           int index) {
         return getSuggestionFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder getSuggestionOrBuilder(
           int index) {
@@ -2760,7 +2760,7 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public java.util.List<? extends io.dstore.elastic.item.Suggest.Response.SuggestionOrBuilder> 
            getSuggestionOrBuilderList() {
@@ -2771,14 +2771,14 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public io.dstore.elastic.item.Suggest.Response.Suggestion.Builder addSuggestionBuilder() {
         return getSuggestionFieldBuilder().addBuilder(
             io.dstore.elastic.item.Suggest.Response.Suggestion.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public io.dstore.elastic.item.Suggest.Response.Suggestion.Builder addSuggestionBuilder(
           int index) {
@@ -2786,7 +2786,7 @@ public final class Suggest {
             index, io.dstore.elastic.item.Suggest.Response.Suggestion.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.suggest.Response.Suggestion suggestion = 2;</code>
+       * <code>repeated .dstore.elastic.item.suggest.Response.Suggestion suggestion = 2;</code>
        */
       public java.util.List<io.dstore.elastic.item.Suggest.Response.Suggestion.Builder> 
            getSuggestionBuilderList() {
@@ -2807,22 +2807,22 @@ public final class Suggest {
         return suggestionBuilder_;
       }
 
-      private java.util.List<io.dstore.elastic.item.ElasticItem.Item> matchingItem_ =
+      private java.util.List<io.dstore.elastic.item.Item> matchingItem_ =
         java.util.Collections.emptyList();
       private void ensureMatchingItemIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>(matchingItem_);
+          matchingItem_ = new java.util.ArrayList<io.dstore.elastic.item.Item>(matchingItem_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> matchingItemBuilder_;
+          io.dstore.elastic.item.Item, io.dstore.elastic.item.Item.Builder, io.dstore.elastic.item.ItemOrBuilder> matchingItemBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public java.util.List<io.dstore.elastic.item.ElasticItem.Item> getMatchingItemList() {
+      public java.util.List<io.dstore.elastic.item.Item> getMatchingItemList() {
         if (matchingItemBuilder_ == null) {
           return java.util.Collections.unmodifiableList(matchingItem_);
         } else {
@@ -2830,7 +2830,7 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public int getMatchingItemCount() {
         if (matchingItemBuilder_ == null) {
@@ -2840,9 +2840,9 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Item getMatchingItem(int index) {
+      public io.dstore.elastic.item.Item getMatchingItem(int index) {
         if (matchingItemBuilder_ == null) {
           return matchingItem_.get(index);
         } else {
@@ -2850,10 +2850,10 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder setMatchingItem(
-          int index, io.dstore.elastic.item.ElasticItem.Item value) {
+          int index, io.dstore.elastic.item.Item value) {
         if (matchingItemBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2867,10 +2867,10 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder setMatchingItem(
-          int index, io.dstore.elastic.item.ElasticItem.Item.Builder builderForValue) {
+          int index, io.dstore.elastic.item.Item.Builder builderForValue) {
         if (matchingItemBuilder_ == null) {
           ensureMatchingItemIsMutable();
           matchingItem_.set(index, builderForValue.build());
@@ -2881,9 +2881,9 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public Builder addMatchingItem(io.dstore.elastic.item.ElasticItem.Item value) {
+      public Builder addMatchingItem(io.dstore.elastic.item.Item value) {
         if (matchingItemBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2897,10 +2897,10 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder addMatchingItem(
-          int index, io.dstore.elastic.item.ElasticItem.Item value) {
+          int index, io.dstore.elastic.item.Item value) {
         if (matchingItemBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2914,10 +2914,10 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder addMatchingItem(
-          io.dstore.elastic.item.ElasticItem.Item.Builder builderForValue) {
+          io.dstore.elastic.item.Item.Builder builderForValue) {
         if (matchingItemBuilder_ == null) {
           ensureMatchingItemIsMutable();
           matchingItem_.add(builderForValue.build());
@@ -2928,10 +2928,10 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder addMatchingItem(
-          int index, io.dstore.elastic.item.ElasticItem.Item.Builder builderForValue) {
+          int index, io.dstore.elastic.item.Item.Builder builderForValue) {
         if (matchingItemBuilder_ == null) {
           ensureMatchingItemIsMutable();
           matchingItem_.add(index, builderForValue.build());
@@ -2942,10 +2942,10 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder addAllMatchingItem(
-          java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Item> values) {
+          java.lang.Iterable<? extends io.dstore.elastic.item.Item> values) {
         if (matchingItemBuilder_ == null) {
           ensureMatchingItemIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2957,7 +2957,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder clearMatchingItem() {
         if (matchingItemBuilder_ == null) {
@@ -2970,7 +2970,7 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
       public Builder removeMatchingItem(int index) {
         if (matchingItemBuilder_ == null) {
@@ -2983,16 +2983,16 @@ public final class Suggest {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Item.Builder getMatchingItemBuilder(
+      public io.dstore.elastic.item.Item.Builder getMatchingItemBuilder(
           int index) {
         return getMatchingItemFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.ItemOrBuilder getMatchingItemOrBuilder(
+      public io.dstore.elastic.item.ItemOrBuilder getMatchingItemOrBuilder(
           int index) {
         if (matchingItemBuilder_ == null) {
           return matchingItem_.get(index);  } else {
@@ -3000,9 +3000,9 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public java.util.List<? extends io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
+      public java.util.List<? extends io.dstore.elastic.item.ItemOrBuilder> 
            getMatchingItemOrBuilderList() {
         if (matchingItemBuilder_ != null) {
           return matchingItemBuilder_.getMessageOrBuilderList();
@@ -3011,33 +3011,33 @@ public final class Suggest {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Item.Builder addMatchingItemBuilder() {
+      public io.dstore.elastic.item.Item.Builder addMatchingItemBuilder() {
         return getMatchingItemFieldBuilder().addBuilder(
-            io.dstore.elastic.item.ElasticItem.Item.getDefaultInstance());
+            io.dstore.elastic.item.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Item.Builder addMatchingItemBuilder(
+      public io.dstore.elastic.item.Item.Builder addMatchingItemBuilder(
           int index) {
         return getMatchingItemFieldBuilder().addBuilder(
-            index, io.dstore.elastic.item.ElasticItem.Item.getDefaultInstance());
+            index, io.dstore.elastic.item.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item matching_item = 3;</code>
+       * <code>repeated .dstore.elastic.item.item.Item matching_item = 3;</code>
        */
-      public java.util.List<io.dstore.elastic.item.ElasticItem.Item.Builder> 
+      public java.util.List<io.dstore.elastic.item.Item.Builder> 
            getMatchingItemBuilderList() {
         return getMatchingItemFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
+          io.dstore.elastic.item.Item, io.dstore.elastic.item.Item.Builder, io.dstore.elastic.item.ItemOrBuilder> 
           getMatchingItemFieldBuilder() {
         if (matchingItemBuilder_ == null) {
           matchingItemBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder>(
+              io.dstore.elastic.item.Item, io.dstore.elastic.item.Item.Builder, io.dstore.elastic.item.ItemOrBuilder>(
                   matchingItem_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -3126,10 +3126,10 @@ public final class Suggest {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:dstore.elastic.suggest.Response)
+      // @@protoc_insertion_point(builder_scope:dstore.elastic.item.suggest.Response)
     }
 
-    // @@protoc_insertion_point(class_scope:dstore.elastic.suggest.Response)
+    // @@protoc_insertion_point(class_scope:dstore.elastic.item.suggest.Response)
     private static final io.dstore.elastic.item.Suggest.Response DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new io.dstore.elastic.item.Suggest.Response();
@@ -3165,20 +3165,20 @@ public final class Suggest {
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_suggest_Request_descriptor;
+    internal_static_dstore_elastic_item_suggest_Request_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_dstore_elastic_suggest_Request_fieldAccessorTable;
+      internal_static_dstore_elastic_item_suggest_Request_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_suggest_Response_descriptor;
+    internal_static_dstore_elastic_item_suggest_Response_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_dstore_elastic_suggest_Response_fieldAccessorTable;
+      internal_static_dstore_elastic_item_suggest_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor;
+    internal_static_dstore_elastic_item_suggest_Response_Suggestion_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable;
+      internal_static_dstore_elastic_item_suggest_Response_Suggestion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -3188,21 +3188,22 @@ public final class Suggest {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!dstore/elastic/item/suggest.proto\022\026dst" +
-      "ore.elastic.suggest\032\034dstore/elastic/elas" +
-      "tic.proto\032\036dstore/elastic/item/item.prot" +
-      "o\"\255\001\n\007Request\022\r\n\005input\030\001 \001(\t\022\022\n\nfield_na" +
-      "me\030\002 \003(\t\022-\n\nbase_query\030\003 \001(\0132\031.dstore.el" +
-      "astic.BoolQuery\022\021\n\tmax_items\030\005 \001(\005\022\024\n\014ma" +
-      "x_suggests\030\006 \001(\005\022\r\n\005fuzzy\030\007 \001(\010\022\030\n\020use_a" +
-      "nd_operator\030\010 \001(\010\"\333\001\n\010Response\022?\n\nsugges" +
-      "tion\030\002 \003(\0132+.dstore.elastic.suggest.Resp" +
-      "onse.Suggestion\0220\n\rmatching_item\030\003 \003(\0132\031",
-      ".dstore.elastic.item.Item\022\034\n\024elastic_que" +
-      "ry_string\030\005 \001(\t\032>\n\nSuggestion\022\022\n\nfield_n" +
-      "ame\030\001 \001(\t\022\r\n\005count\030\002 \001(\005\022\r\n\005value\030\003 \001(\tB" +
-      "G\n\026io.dstore.elastic.itemB\007SuggestZ$gosd" +
-      "k.dstore.de/elastic/item/suggestb\006proto3"
+      "\n!dstore/elastic/item/suggest.proto\022\033dst" +
+      "ore.elastic.item.suggest\032\034dstore/elastic" +
+      "/elastic.proto\032\036dstore/elastic/item/item" +
+      ".proto\"\255\001\n\007Request\022\r\n\005input\030\001 \001(\t\022\022\n\nfie" +
+      "ld_name\030\002 \003(\t\022-\n\nbase_query\030\003 \001(\0132\031.dsto" +
+      "re.elastic.BoolQuery\022\021\n\tmax_items\030\005 \001(\005\022" +
+      "\024\n\014max_suggests\030\006 \001(\005\022\r\n\005fuzzy\030\007 \001(\010\022\030\n\020" +
+      "use_and_operator\030\010 \001(\010\"\345\001\n\010Response\022D\n\ns" +
+      "uggestion\030\002 \003(\01320.dstore.elastic.item.su" +
+      "ggest.Response.Suggestion\0225\n\rmatching_it",
+      "em\030\003 \003(\0132\036.dstore.elastic.item.item.Item" +
+      "\022\034\n\024elastic_query_string\030\005 \001(\t\032>\n\nSugges" +
+      "tion\022\022\n\nfield_name\030\001 \001(\t\022\r\n\005count\030\002 \001(\005\022" +
+      "\r\n\005value\030\003 \001(\tBG\n\026io.dstore.elastic.item" +
+      "B\007SuggestZ$gosdk.dstore.de/elastic/item/" +
+      "suggestb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3216,28 +3217,28 @@ public final class Suggest {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.Elastic.getDescriptor(),
-          io.dstore.elastic.item.ElasticItem.getDescriptor(),
+          io.dstore.elastic.item.ItemOuterClass.getDescriptor(),
         }, assigner);
-    internal_static_dstore_elastic_suggest_Request_descriptor =
+    internal_static_dstore_elastic_item_suggest_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_dstore_elastic_suggest_Request_fieldAccessorTable = new
+    internal_static_dstore_elastic_item_suggest_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_dstore_elastic_suggest_Request_descriptor,
+        internal_static_dstore_elastic_item_suggest_Request_descriptor,
         new java.lang.String[] { "Input", "FieldName", "BaseQuery", "MaxItems", "MaxSuggests", "Fuzzy", "UseAndOperator", });
-    internal_static_dstore_elastic_suggest_Response_descriptor =
+    internal_static_dstore_elastic_item_suggest_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_dstore_elastic_suggest_Response_fieldAccessorTable = new
+    internal_static_dstore_elastic_item_suggest_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_dstore_elastic_suggest_Response_descriptor,
+        internal_static_dstore_elastic_item_suggest_Response_descriptor,
         new java.lang.String[] { "Suggestion", "MatchingItem", "ElasticQueryString", });
-    internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor =
-      internal_static_dstore_elastic_suggest_Response_descriptor.getNestedTypes().get(0);
-    internal_static_dstore_elastic_suggest_Response_Suggestion_fieldAccessorTable = new
+    internal_static_dstore_elastic_item_suggest_Response_Suggestion_descriptor =
+      internal_static_dstore_elastic_item_suggest_Response_descriptor.getNestedTypes().get(0);
+    internal_static_dstore_elastic_item_suggest_Response_Suggestion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_dstore_elastic_suggest_Response_Suggestion_descriptor,
+        internal_static_dstore_elastic_item_suggest_Response_Suggestion_descriptor,
         new java.lang.String[] { "FieldName", "Count", "Value", });
     io.dstore.elastic.Elastic.getDescriptor();
-    io.dstore.elastic.item.ElasticItem.getDescriptor();
+    io.dstore.elastic.item.ItemOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

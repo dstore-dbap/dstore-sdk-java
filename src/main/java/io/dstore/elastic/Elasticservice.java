@@ -24,16 +24,15 @@ public final class Elasticservice {
   static {
     java.lang.String[] descriptorData = {
       "\n#dstore/elastic/elasticservice.proto\022\016d" +
-      "store.elastic\032+dstore/elastic/item/facet" +
-      "ednavigation.proto\032!dstore/elastic/item/" +
-      "suggest.proto2\324\001\n\016ElasticService\022n\n\021face" +
-      "tedNavigation\022).dstore.elastic.facetedna" +
-      "vigation.Request\032*.dstore.elastic.facete" +
-      "dnavigation.Response\"\0000\001\022R\n\013itemSuggest\022" +
-      "\037.dstore.elastic.suggest.Request\032 .dstor" +
-      "e.elastic.suggest.Response\"\000B<\n\021io.dstor" +
-      "e.elasticZ\'gosdk.dstore.de/elastic/elast",
-      "ic_serviceb\006proto3"
+      "store.elastic\032\035dstore/elastic/item/get.p" +
+      "roto\032!dstore/elastic/item/suggest.proto2" +
+      "\302\001\n\016ElasticService\022R\n\007itemGet\022 .dstore.e" +
+      "lastic.item.get.Request\032!.dstore.elastic" +
+      ".item.get.Response\"\0000\001\022\\\n\013itemSuggest\022$." +
+      "dstore.elastic.item.suggest.Request\032%.ds" +
+      "tore.elastic.item.suggest.Response\"\000B<\n\021" +
+      "io.dstore.elasticZ\'gosdk.dstore.de/elast" +
+      "ic/elastic_serviceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -46,10 +45,10 @@ public final class Elasticservice {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.elastic.item.FacetedNavigation.getDescriptor(),
+          io.dstore.elastic.item.Get.getDescriptor(),
           io.dstore.elastic.item.Suggest.getDescriptor(),
         }, assigner);
-    io.dstore.elastic.item.FacetedNavigation.getDescriptor();
+    io.dstore.elastic.item.Get.getDescriptor();
     io.dstore.elastic.item.Suggest.getDescriptor();
   }
 
