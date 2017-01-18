@@ -20,11 +20,11 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.0.2)",
     comments = "Source: dstore/elastic/elasticservice.proto")
-public class ElasticServiceGrpc {
+public class ElasticGrpc {
 
-  private ElasticServiceGrpc() {}
+  private ElasticGrpc() {}
 
-  public static final String SERVICE_NAME = "dstore.elastic.ElasticService";
+  public static final String SERVICE_NAME = "dstore.elastic.Elastic";
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
@@ -33,7 +33,7 @@ public class ElasticServiceGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
-              "dstore.elastic.ElasticService", "itemGet"),
+              "dstore.elastic.Elastic", "itemGet"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Get.Request.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Get.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
@@ -42,36 +42,36 @@ public class ElasticServiceGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.UNARY,
           generateFullMethodName(
-              "dstore.elastic.ElasticService", "itemSuggest"),
+              "dstore.elastic.Elastic", "itemSuggest"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Suggest.Request.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Suggest.Response.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
    */
-  public static ElasticServiceStub newStub(io.grpc.Channel channel) {
-    return new ElasticServiceStub(channel);
+  public static ElasticStub newStub(io.grpc.Channel channel) {
+    return new ElasticStub(channel);
   }
 
   /**
    * Creates a new blocking-style stub that supports unary and streaming output calls on the service
    */
-  public static ElasticServiceBlockingStub newBlockingStub(
+  public static ElasticBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
-    return new ElasticServiceBlockingStub(channel);
+    return new ElasticBlockingStub(channel);
   }
 
   /**
    * Creates a new ListenableFuture-style stub that supports unary and streaming output calls on the service
    */
-  public static ElasticServiceFutureStub newFutureStub(
+  public static ElasticFutureStub newFutureStub(
       io.grpc.Channel channel) {
-    return new ElasticServiceFutureStub(channel);
+    return new ElasticFutureStub(channel);
   }
 
   /**
    */
-  public static abstract class ElasticServiceImplBase implements io.grpc.BindableService {
+  public static abstract class ElasticImplBase implements io.grpc.BindableService {
 
     /**
      */
@@ -109,20 +109,20 @@ public class ElasticServiceGrpc {
 
   /**
    */
-  public static final class ElasticServiceStub extends io.grpc.stub.AbstractStub<ElasticServiceStub> {
-    private ElasticServiceStub(io.grpc.Channel channel) {
+  public static final class ElasticStub extends io.grpc.stub.AbstractStub<ElasticStub> {
+    private ElasticStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ElasticServiceStub(io.grpc.Channel channel,
+    private ElasticStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ElasticServiceStub build(io.grpc.Channel channel,
+    protected ElasticStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ElasticServiceStub(channel, callOptions);
+      return new ElasticStub(channel, callOptions);
     }
 
     /**
@@ -144,20 +144,20 @@ public class ElasticServiceGrpc {
 
   /**
    */
-  public static final class ElasticServiceBlockingStub extends io.grpc.stub.AbstractStub<ElasticServiceBlockingStub> {
-    private ElasticServiceBlockingStub(io.grpc.Channel channel) {
+  public static final class ElasticBlockingStub extends io.grpc.stub.AbstractStub<ElasticBlockingStub> {
+    private ElasticBlockingStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ElasticServiceBlockingStub(io.grpc.Channel channel,
+    private ElasticBlockingStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ElasticServiceBlockingStub build(io.grpc.Channel channel,
+    protected ElasticBlockingStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ElasticServiceBlockingStub(channel, callOptions);
+      return new ElasticBlockingStub(channel, callOptions);
     }
 
     /**
@@ -178,20 +178,20 @@ public class ElasticServiceGrpc {
 
   /**
    */
-  public static final class ElasticServiceFutureStub extends io.grpc.stub.AbstractStub<ElasticServiceFutureStub> {
-    private ElasticServiceFutureStub(io.grpc.Channel channel) {
+  public static final class ElasticFutureStub extends io.grpc.stub.AbstractStub<ElasticFutureStub> {
+    private ElasticFutureStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ElasticServiceFutureStub(io.grpc.Channel channel,
+    private ElasticFutureStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ElasticServiceFutureStub build(io.grpc.Channel channel,
+    protected ElasticFutureStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ElasticServiceFutureStub(channel, callOptions);
+      return new ElasticFutureStub(channel, callOptions);
     }
 
     /**
@@ -211,10 +211,10 @@ public class ElasticServiceGrpc {
       io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.BidiStreamingMethod<Req, Resp> {
-    private final ElasticServiceImplBase serviceImpl;
+    private final ElasticImplBase serviceImpl;
     private final int methodId;
 
-    public MethodHandlers(ElasticServiceImplBase serviceImpl, int methodId) {
+    public MethodHandlers(ElasticImplBase serviceImpl, int methodId) {
       this.serviceImpl = serviceImpl;
       this.methodId = methodId;
     }
