@@ -3,8 +3,8 @@
 
 package io.dstore.engine.procedures;
 
-public final class EngineProcService {
-  private EngineProcService() {}
+public final class EngineProcServiceOuterClass {
+  private EngineProcServiceOuterClass() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
   }
@@ -3697,9 +3697,9 @@ public final class EngineProcService {
       "ts_Ad.Response\"\0000\001\022~\n\026st_UpdateStatistic" +
       "s_Ad\0220.dstore.engine.st_UpdateStatistics" +
       "_Ad.Parameters\032..dstore.engine.st_Update" +
-      "Statistics_Ad.Response\"\0000\001B7\n\033io.dstore." +
-      "engine.proceduresZ\030dstore/engine/procedu" +
-      "resb\006proto3"
+      "Statistics_Ad.Response\"\0000\001BT\n\033io.dstore." +
+      "engine.proceduresB\033EngineProcServiceOute" +
+      "rClassZ\030dstore/engine/proceduresb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
