@@ -28,23 +28,23 @@ public class ElasticGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
-  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.Get.Request,
-      io.dstore.elastic.item.Get.Response> METHOD_ITEM_GET =
+  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.ItemGet.Request,
+      io.dstore.elastic.item.ItemGet.Response> METHOD_ITEM_GET =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "dstore.elastic.Elastic", "itemGet"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Get.Request.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Get.Response.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemGet.Request.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemGet.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
-  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.Suggest.Request,
-      io.dstore.elastic.item.Suggest.Response> METHOD_ITEM_SUGGEST =
+  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.ItemSuggest.Request,
+      io.dstore.elastic.item.ItemSuggest.Response> METHOD_ITEM_SUGGEST =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.UNARY,
           generateFullMethodName(
               "dstore.elastic.Elastic", "itemSuggest"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Suggest.Request.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.Suggest.Response.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemSuggest.Request.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemSuggest.Response.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -75,15 +75,15 @@ public class ElasticGrpc {
 
     /**
      */
-    public void itemGet(io.dstore.elastic.item.Get.Request request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.item.Get.Response> responseObserver) {
+    public void itemGet(io.dstore.elastic.item.ItemGet.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemGet.Response> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_ITEM_GET, responseObserver);
     }
 
     /**
      */
-    public void itemSuggest(io.dstore.elastic.item.Suggest.Request request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.item.Suggest.Response> responseObserver) {
+    public void itemSuggest(io.dstore.elastic.item.ItemSuggest.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemSuggest.Response> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_ITEM_SUGGEST, responseObserver);
     }
 
@@ -93,15 +93,15 @@ public class ElasticGrpc {
             METHOD_ITEM_GET,
             asyncServerStreamingCall(
               new MethodHandlers<
-                io.dstore.elastic.item.Get.Request,
-                io.dstore.elastic.item.Get.Response>(
+                io.dstore.elastic.item.ItemGet.Request,
+                io.dstore.elastic.item.ItemGet.Response>(
                   this, METHODID_ITEM_GET)))
           .addMethod(
             METHOD_ITEM_SUGGEST,
             asyncUnaryCall(
               new MethodHandlers<
-                io.dstore.elastic.item.Suggest.Request,
-                io.dstore.elastic.item.Suggest.Response>(
+                io.dstore.elastic.item.ItemSuggest.Request,
+                io.dstore.elastic.item.ItemSuggest.Response>(
                   this, METHODID_ITEM_SUGGEST)))
           .build();
     }
@@ -127,16 +127,16 @@ public class ElasticGrpc {
 
     /**
      */
-    public void itemGet(io.dstore.elastic.item.Get.Request request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.item.Get.Response> responseObserver) {
+    public void itemGet(io.dstore.elastic.item.ItemGet.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemGet.Response> responseObserver) {
       asyncServerStreamingCall(
           getChannel().newCall(METHOD_ITEM_GET, getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void itemSuggest(io.dstore.elastic.item.Suggest.Request request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.item.Suggest.Response> responseObserver) {
+    public void itemSuggest(io.dstore.elastic.item.ItemSuggest.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemSuggest.Response> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(METHOD_ITEM_SUGGEST, getCallOptions()), request, responseObserver);
     }
@@ -162,15 +162,15 @@ public class ElasticGrpc {
 
     /**
      */
-    public java.util.Iterator<io.dstore.elastic.item.Get.Response> itemGet(
-        io.dstore.elastic.item.Get.Request request) {
+    public java.util.Iterator<io.dstore.elastic.item.ItemGet.Response> itemGet(
+        io.dstore.elastic.item.ItemGet.Request request) {
       return blockingServerStreamingCall(
           getChannel(), METHOD_ITEM_GET, getCallOptions(), request);
     }
 
     /**
      */
-    public io.dstore.elastic.item.Suggest.Response itemSuggest(io.dstore.elastic.item.Suggest.Request request) {
+    public io.dstore.elastic.item.ItemSuggest.Response itemSuggest(io.dstore.elastic.item.ItemSuggest.Request request) {
       return blockingUnaryCall(
           getChannel(), METHOD_ITEM_SUGGEST, getCallOptions(), request);
     }
@@ -196,8 +196,8 @@ public class ElasticGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<io.dstore.elastic.item.Suggest.Response> itemSuggest(
-        io.dstore.elastic.item.Suggest.Request request) {
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.elastic.item.ItemSuggest.Response> itemSuggest(
+        io.dstore.elastic.item.ItemSuggest.Request request) {
       return futureUnaryCall(
           getChannel().newCall(METHOD_ITEM_SUGGEST, getCallOptions()), request);
     }
@@ -224,12 +224,12 @@ public class ElasticGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_ITEM_GET:
-          serviceImpl.itemGet((io.dstore.elastic.item.Get.Request) request,
-              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.Get.Response>) responseObserver);
+          serviceImpl.itemGet((io.dstore.elastic.item.ItemGet.Request) request,
+              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemGet.Response>) responseObserver);
           break;
         case METHODID_ITEM_SUGGEST:
-          serviceImpl.itemSuggest((io.dstore.elastic.item.Suggest.Request) request,
-              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.Suggest.Response>) responseObserver);
+          serviceImpl.itemSuggest((io.dstore.elastic.item.ItemSuggest.Request) request,
+              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemSuggest.Response>) responseObserver);
           break;
         default:
           throw new AssertionError();
