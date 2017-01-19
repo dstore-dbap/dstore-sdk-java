@@ -87,12 +87,12 @@ public  final class Sort extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_descriptor;
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_fieldAccessorTable
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             io.dstore.elastic.Sort.class, io.dstore.elastic.Sort.Builder.class);
   }
@@ -482,12 +482,12 @@ public  final class Sort extends
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Sort.ScoreSort.class, io.dstore.elastic.Sort.ScoreSort.Builder.class);
     }
@@ -628,12 +628,12 @@ public  final class Sort extends
         io.dstore.elastic.Sort.ScoreSortOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.Sort.ScoreSort.class, io.dstore.elastic.Sort.ScoreSort.Builder.class);
       }
@@ -660,7 +660,7 @@ public  final class Sort extends
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
       }
 
       public io.dstore.elastic.Sort.ScoreSort getDefaultInstanceForType() {
@@ -970,12 +970,12 @@ public  final class Sort extends
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Sort.FieldSort.class, io.dstore.elastic.Sort.FieldSort.Builder.class);
     }
@@ -1307,12 +1307,12 @@ public  final class Sort extends
         io.dstore.elastic.Sort.FieldSortOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.Sort.FieldSort.class, io.dstore.elastic.Sort.FieldSort.Builder.class);
       }
@@ -1354,7 +1354,7 @@ public  final class Sort extends
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
       }
 
       public io.dstore.elastic.Sort.FieldSort getDefaultInstanceForType() {
@@ -2314,12 +2314,12 @@ public  final class Sort extends
       io.dstore.elastic.SortOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Sort.class, io.dstore.elastic.Sort.Builder.class);
     }
@@ -2348,7 +2348,7 @@ public  final class Sort extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Sort_descriptor;
     }
 
     public io.dstore.elastic.Sort getDefaultInstanceForType() {

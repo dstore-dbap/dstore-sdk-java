@@ -643,51 +643,51 @@ public final class MiGetApplicationsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -778,20 +778,20 @@ public final class MiGetApplicationsPu {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1519,71 +1519,71 @@ public final class MiGetApplicationsPu {
     }
 
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -2062,22 +2062,22 @@ public final class MiGetApplicationsPu {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -2085,7 +2085,7 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -2095,9 +2095,9 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -2105,10 +2105,10 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2122,10 +2122,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -2136,9 +2136,9 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2152,10 +2152,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2169,10 +2169,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -2183,10 +2183,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -2197,10 +2197,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2212,7 +2212,7 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -2225,7 +2225,7 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -2238,16 +2238,16 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -2255,9 +2255,9 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -2266,33 +2266,33 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -2302,22 +2302,22 @@ public final class MiGetApplicationsPu {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -2325,7 +2325,7 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -2335,9 +2335,9 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -2345,10 +2345,10 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2362,10 +2362,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -2376,9 +2376,9 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2392,10 +2392,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2409,10 +2409,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -2423,10 +2423,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -2437,10 +2437,10 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2452,7 +2452,7 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -2465,7 +2465,7 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -2478,16 +2478,16 @@ public final class MiGetApplicationsPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -2495,9 +2495,9 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -2506,33 +2506,33 @@ public final class MiGetApplicationsPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -2928,21 +2928,19 @@ public final class MiGetApplicationsPu {
     java.lang.String[] descriptorData = {
       "\n4dstore/engine/procedures/mi_GetApplica" +
       "tions_Pu.proto\022#dstore.engine.mi_GetAppl" +
-      "ications_Pu\032\023dstore/values.proto\032\033dstore" +
-      "/engine/message.proto\032#dstore/engine/met" +
-      "ainformation.proto\"b\n\nParameters\0224\n\020appl" +
-      "ication_name\030\001 \001(\0132\032.dstore.values.strin" +
-      "gValue\022\036\n\025application_name_null\030\351\007 \001(\010\"\223" +
-      "\002\n\010Response\022H\n\020meta_information\030\002 \003(\0132.." +
-      "dstore.engine.metainformation.MetaInform" +
-      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m",
-      "essage.Message\022>\n\003row\030\004 \003(\01321.dstore.eng" +
-      "ine.mi_GetApplications_Pu.Response.Row\032L" +
-      "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\016application_id" +
-      "\030\221N \001(\0132\033.dstore.values.integerValueBV\n\033" +
-      "io.dstore.engine.proceduresZ7gosdk.dstor" +
-      "e.de/engine/procedures/mi_GetApplication" +
-      "s_Pub\006proto3"
+      "ications_Pu\032\023dstore/values.proto\032\032dstore" +
+      "/engine/engine.proto\"b\n\nParameters\0224\n\020ap" +
+      "plication_name\030\001 \001(\0132\032.dstore.values.str" +
+      "ingValue\022\036\n\025application_name_null\030\351\007 \001(\010" +
+      "\"\373\001\n\010Response\0228\n\020meta_information\030\002 \003(\0132" +
+      "\036.dstore.engine.MetaInformation\022\'\n\007messa" +
+      "ge\030\003 \003(\0132\026.dstore.engine.Message\022>\n\003row\030" +
+      "\004 \003(\01321.dstore.engine.mi_GetApplications",
+      "_Pu.Response.Row\032L\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
+      "\0224\n\016application_id\030\221N \001(\0132\033.dstore.value" +
+      "s.integerValueBV\n\033io.dstore.engine.proce" +
+      "duresZ7gosdk.dstore.de/engine/procedures" +
+      "/mi_GetApplications_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2956,8 +2954,7 @@ public final class MiGetApplicationsPu {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetApplications_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2978,8 +2975,7 @@ public final class MiGetApplicationsPu {
         internal_static_dstore_engine_mi_GetApplications_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ApplicationId", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

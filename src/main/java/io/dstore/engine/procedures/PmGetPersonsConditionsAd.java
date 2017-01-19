@@ -4772,51 +4772,51 @@ public final class PmGetPersonsConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -4900,20 +4900,20 @@ public final class PmGetPersonsConditionsAd {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -6417,71 +6417,71 @@ public final class PmGetPersonsConditionsAd {
 
     private int bitField0_;
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -6993,22 +6993,22 @@ public final class PmGetPersonsConditionsAd {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -7016,7 +7016,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -7026,9 +7026,9 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -7036,10 +7036,10 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7053,10 +7053,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -7067,9 +7067,9 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7083,10 +7083,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7100,10 +7100,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -7114,10 +7114,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -7128,10 +7128,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -7143,7 +7143,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -7156,7 +7156,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -7169,16 +7169,16 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -7186,9 +7186,9 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -7197,33 +7197,33 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -7233,22 +7233,22 @@ public final class PmGetPersonsConditionsAd {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -7256,7 +7256,7 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -7266,9 +7266,9 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -7276,10 +7276,10 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7293,10 +7293,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -7307,9 +7307,9 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7323,10 +7323,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7340,10 +7340,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -7354,10 +7354,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -7368,10 +7368,10 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -7383,7 +7383,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -7396,7 +7396,7 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -7409,16 +7409,16 @@ public final class PmGetPersonsConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -7426,9 +7426,9 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -7437,33 +7437,33 @@ public final class PmGetPersonsConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -7905,58 +7905,56 @@ public final class PmGetPersonsConditionsAd {
       "\n:dstore/engine/procedures/pm_GetPersons" +
       "_Conditions_Ad.proto\022)dstore.engine.pm_G" +
       "etPersons_Conditions_Ad\032\023dstore/values.p" +
-      "roto\032\033dstore/engine/message.proto\032#dstor" +
-      "e/engine/metainformation.proto\"\204\013\n\nParam" +
-      "eters\0220\n\013sort_order1\030\001 \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\031\n\020sort_order1_null\030\351\007 \001" +
-      "(\010\0220\n\013sort_order2\030\002 \001(\0132\033.dstore.values." +
-      "booleanValue\022\031\n\020sort_order2_null\030\352\007 \001(\010\022" +
-      "0\n\013sort_order3\030\003 \001(\0132\033.dstore.values.boo",
-      "leanValue\022\031\n\020sort_order3_null\030\353\007 \001(\010\022=\n\031" +
-      "output_characteristic_ids\030\004 \001(\0132\032.dstore" +
-      ".values.stringValue\022\'\n\036output_characteri" +
-      "stic_ids_null\030\354\007 \001(\010\022*\n\005count\030\005 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\023\n\ncount_null\030\355" +
-      "\007 \001(\010\0223\n\016person_type_id\030\006 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\034\n\023person_type_id_nul" +
-      "l\030\356\007 \001(\010\022/\n\013last_values\030\007 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022\031\n\020last_values_null\030\357\007" +
-      " \001(\010\0223\n\016last_person_id\030\010 \001(\0132\033.dstore.va",
-      "lues.integerValue\022\034\n\023last_person_id_null" +
-      "\030\360\007 \001(\010\022)\n\004next\030\t \001(\0132\033.dstore.values.bo" +
-      "oleanValue\022\022\n\tnext_null\030\361\007 \001(\010\022/\n\nrow_nu" +
-      "mber\030\n \001(\0132\033.dstore.values.integerValue\022" +
-      "\030\n\017row_number_null\030\362\007 \001(\010\022-\n\010group_id\030\013 " +
-      "\001(\0132\033.dstore.values.integerValue\022\026\n\rgrou" +
-      "p_id_null\030\363\007 \001(\010\022:\n\026characteristic_id_li" +
-      "st\030\014 \001(\0132\032.dstore.values.stringValue\022$\n\033" +
-      "characteristic_id_list_null\030\364\007 \001(\010\0222\n\016co" +
-      "ndition_list\030\r \001(\0132\032.dstore.values.strin",
-      "gValue\022\034\n\023condition_list_null\030\365\007 \001(\010\022+\n\007" +
-      "country\030\016 \001(\0132\032.dstore.values.stringValu" +
-      "e\022\025\n\014country_null\030\366\007 \001(\010\0227\n\022output_into_" +
-      "one_id\030\017 \001(\0132\033.dstore.values.integerValu" +
-      "e\022 \n\027output_into_one_id_null\030\367\007 \001(\010\022<\n\030s" +
-      "eparator_in_last_values\030\020 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022&\n\035separator_in_last_v" +
-      "alues_null\030\370\007 \001(\010\022?\n\033separator_in_condit" +
-      "ion_list\030\021 \001(\0132\032.dstore.values.stringVal" +
-      "ue\022)\n separator_in_condition_list_null\030\371",
-      "\007 \001(\010\"\313\003\n\010Response\022H\n\020meta_information\030\002" +
-      " \003(\0132..dstore.engine.metainformation.Met" +
-      "aInformation\022/\n\007message\030\003 \003(\0132\036.dstore.e" +
-      "ngine.message.Message\022D\n\003row\030\004 \003(\01327.dst" +
-      "ore.engine.pm_GetPersons_Conditions_Ad.R" +
-      "esponse.Row\022*\n\005count\030e \001(\0132\033.dstore.valu" +
-      "es.integerValue\032\321\001\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
-      "\022/\n\tperson_id\030\221N \001(\0132\033.dstore.values.int" +
-      "egerValue\022,\n\006value1\030\242\234\001 \001(\0132\032.dstore.val" +
-      "ues.stringValue\022,\n\006value2\030\263\352\001 \001(\0132\032.dsto",
-      "re.values.stringValue\022,\n\006value3\030\302\270\002 \001(\0132" +
-      "\032.dstore.values.stringValueB\\\n\033io.dstore" +
-      ".engine.proceduresZ=gosdk.dstore.de/engi" +
-      "ne/procedures/pm_GetPersons_Conditions_A" +
-      "db\006proto3"
+      "roto\032\032dstore/engine/engine.proto\"\204\013\n\nPar" +
+      "ameters\0220\n\013sort_order1\030\001 \001(\0132\033.dstore.va" +
+      "lues.booleanValue\022\031\n\020sort_order1_null\030\351\007" +
+      " \001(\010\0220\n\013sort_order2\030\002 \001(\0132\033.dstore.value" +
+      "s.booleanValue\022\031\n\020sort_order2_null\030\352\007 \001(" +
+      "\010\0220\n\013sort_order3\030\003 \001(\0132\033.dstore.values.b" +
+      "ooleanValue\022\031\n\020sort_order3_null\030\353\007 \001(\010\022=",
+      "\n\031output_characteristic_ids\030\004 \001(\0132\032.dsto" +
+      "re.values.stringValue\022\'\n\036output_characte" +
+      "ristic_ids_null\030\354\007 \001(\010\022*\n\005count\030\005 \001(\0132\033." +
+      "dstore.values.integerValue\022\023\n\ncount_null" +
+      "\030\355\007 \001(\010\0223\n\016person_type_id\030\006 \001(\0132\033.dstore" +
+      ".values.integerValue\022\034\n\023person_type_id_n" +
+      "ull\030\356\007 \001(\010\022/\n\013last_values\030\007 \001(\0132\032.dstore" +
+      ".values.stringValue\022\031\n\020last_values_null\030" +
+      "\357\007 \001(\010\0223\n\016last_person_id\030\010 \001(\0132\033.dstore." +
+      "values.integerValue\022\034\n\023last_person_id_nu",
+      "ll\030\360\007 \001(\010\022)\n\004next\030\t \001(\0132\033.dstore.values." +
+      "booleanValue\022\022\n\tnext_null\030\361\007 \001(\010\022/\n\nrow_" +
+      "number\030\n \001(\0132\033.dstore.values.integerValu" +
+      "e\022\030\n\017row_number_null\030\362\007 \001(\010\022-\n\010group_id\030" +
+      "\013 \001(\0132\033.dstore.values.integerValue\022\026\n\rgr" +
+      "oup_id_null\030\363\007 \001(\010\022:\n\026characteristic_id_" +
+      "list\030\014 \001(\0132\032.dstore.values.stringValue\022$" +
+      "\n\033characteristic_id_list_null\030\364\007 \001(\010\0222\n\016" +
+      "condition_list\030\r \001(\0132\032.dstore.values.str" +
+      "ingValue\022\034\n\023condition_list_null\030\365\007 \001(\010\022+",
+      "\n\007country\030\016 \001(\0132\032.dstore.values.stringVa" +
+      "lue\022\025\n\014country_null\030\366\007 \001(\010\0227\n\022output_int" +
+      "o_one_id\030\017 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022 \n\027output_into_one_id_null\030\367\007 \001(\010\022<\n" +
+      "\030separator_in_last_values\030\020 \001(\0132\032.dstore" +
+      ".values.stringValue\022&\n\035separator_in_last" +
+      "_values_null\030\370\007 \001(\010\022?\n\033separator_in_cond" +
+      "ition_list\030\021 \001(\0132\032.dstore.values.stringV" +
+      "alue\022)\n separator_in_condition_list_null" +
+      "\030\371\007 \001(\010\"\263\003\n\010Response\0228\n\020meta_information",
+      "\030\002 \003(\0132\036.dstore.engine.MetaInformation\022\'" +
+      "\n\007message\030\003 \003(\0132\026.dstore.engine.Message\022" +
+      "D\n\003row\030\004 \003(\01327.dstore.engine.pm_GetPerso" +
+      "ns_Conditions_Ad.Response.Row\022*\n\005count\030e" +
+      " \001(\0132\033.dstore.values.integerValue\032\321\001\n\003Ro" +
+      "w\022\017\n\006row_id\030\220N \001(\005\022/\n\tperson_id\030\221N \001(\0132\033" +
+      ".dstore.values.integerValue\022,\n\006value1\030\242\234" +
+      "\001 \001(\0132\032.dstore.values.stringValue\022,\n\006val" +
+      "ue2\030\263\352\001 \001(\0132\032.dstore.values.stringValue\022" +
+      ",\n\006value3\030\302\270\002 \001(\0132\032.dstore.values.string",
+      "ValueB\\\n\033io.dstore.engine.proceduresZ=go" +
+      "sdk.dstore.de/engine/procedures/pm_GetPe" +
+      "rsons_Conditions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -7970,8 +7968,7 @@ public final class PmGetPersonsConditionsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetPersons_Conditions_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -7992,8 +7989,7 @@ public final class PmGetPersonsConditionsAd {
         internal_static_dstore_engine_pm_GetPersons_Conditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonId", "Value1", "Value2", "Value3", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

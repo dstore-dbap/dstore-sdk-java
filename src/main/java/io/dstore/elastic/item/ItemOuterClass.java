@@ -68,7 +68,7 @@ public final class ItemOuterClass {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.elastic.Elastic.getDescriptor(),
+          io.dstore.elastic.ElasticOuterClass.getDescriptor(),
           io.dstore.Values.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_item_item_Item_descriptor =
@@ -89,7 +89,7 @@ public final class ItemOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_item_item_Item_Node_FieldsEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    io.dstore.elastic.Elastic.getDescriptor();
+    io.dstore.elastic.ElasticOuterClass.getDescriptor();
     io.dstore.Values.getDescriptor();
   }
 

@@ -8126,51 +8126,51 @@ public final class OmGetOrdersConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -8261,20 +8261,20 @@ public final class OmGetOrdersConditionsAd {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -20179,71 +20179,71 @@ public final class OmGetOrdersConditionsAd {
     }
 
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -20722,22 +20722,22 @@ public final class OmGetOrdersConditionsAd {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -20745,7 +20745,7 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -20755,9 +20755,9 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -20765,10 +20765,10 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -20782,10 +20782,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -20796,9 +20796,9 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -20812,10 +20812,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -20829,10 +20829,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -20843,10 +20843,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -20857,10 +20857,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -20872,7 +20872,7 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -20885,7 +20885,7 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -20898,16 +20898,16 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -20915,9 +20915,9 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -20926,33 +20926,33 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -20962,22 +20962,22 @@ public final class OmGetOrdersConditionsAd {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -20985,7 +20985,7 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -20995,9 +20995,9 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -21005,10 +21005,10 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -21022,10 +21022,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -21036,9 +21036,9 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -21052,10 +21052,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -21069,10 +21069,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -21083,10 +21083,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -21097,10 +21097,10 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -21112,7 +21112,7 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -21125,7 +21125,7 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -21138,16 +21138,16 @@ public final class OmGetOrdersConditionsAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -21155,9 +21155,9 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -21166,33 +21166,33 @@ public final class OmGetOrdersConditionsAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -21589,155 +21589,153 @@ public final class OmGetOrdersConditionsAd {
       "\n9dstore/engine/procedures/om_GetOrders_" +
       "Conditions_Ad.proto\022(dstore.engine.om_Ge" +
       "tOrders_Conditions_Ad\032\023dstore/values.pro" +
-      "to\032\033dstore/engine/message.proto\032#dstore/" +
-      "engine/metainformation.proto\"\353\026\n\nParamet" +
-      "ers\0224\n\017order_by_column\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\035\n\024order_by_column_nul" +
-      "l\030\351\007 \001(\010\022=\n\030create_valid_order_infos\030\002 \001" +
-      "(\0132\033.dstore.values.booleanValue\022&\n\035creat" +
-      "e_valid_order_infos_null\030\352\007 \001(\010\022.\n\nbrutt",
-      "o_sum\030\003 \001(\0132\032.dstore.values.stringValue\022" +
-      "\030\n\017brutto_sum_null\030\353\007 \001(\010\0220\n\013currency_id" +
-      "\030\004 \001(\0132\033.dstore.values.integerValue\022\031\n\020c" +
-      "urrency_id_null\030\354\007 \001(\010\022B\n\036quantity_for_o" +
-      "ne_order_content\030\005 \001(\0132\032.dstore.values.s" +
-      "tringValue\022,\n#quantity_for_one_order_con" +
-      "tent_null\030\355\007 \001(\010\022/\n\013combination\030\006 \001(\0132\032." +
-      "dstore.values.stringValue\022\031\n\020combination" +
-      "_null\030\356\007 \001(\010\0220\n\tfrom_date\030\007 \001(\0132\035.dstore" +
-      ".values.timestampValue\022\027\n\016from_date_null",
-      "\030\357\007 \001(\010\022.\n\007to_date\030\010 \001(\0132\035.dstore.values" +
-      ".timestampValue\022\025\n\014to_date_null\030\360\007 \001(\010\022/" +
-      "\n\norder_desc\030\t \001(\0132\033.dstore.values.boole" +
-      "anValue\022\030\n\017order_desc_null\030\361\007 \001(\010\0229\n\024dat" +
-      "e_and_time_format\030\n \001(\0132\033.dstore.values." +
-      "integerValue\022\"\n\031date_and_time_format_nul" +
-      "l\030\362\007 \001(\010\0221\n\014include_time\030\013 \001(\0132\033.dstore." +
-      "values.booleanValue\022\032\n\021include_time_null" +
-      "\030\363\007 \001(\010\022E\n get_info_for_valid_order_cont" +
-      "ent\030\014 \001(\0132\033.dstore.values.booleanValue\022.",
-      "\n%get_info_for_valid_order_content_null\030" +
-      "\364\007 \001(\010\0224\n\020order_state_list\030\r \001(\0132\032.dstor" +
-      "e.values.stringValue\022\036\n\025order_state_list" +
-      "_null\030\365\007 \001(\010\022E\n skip_o_having_different_" +
-      "o_states\030\016 \001(\0132\033.dstore.values.booleanVa" +
-      "lue\022.\n%skip_o_having_different_o_states_" +
-      "null\030\366\007 \001(\010\0228\n\024payment_type_id_list\030\017 \001(" +
-      "\0132\032.dstore.values.stringValue\022\"\n\031payment" +
-      "_type_id_list_null\030\367\007 \001(\010\0229\n\025shipping_ty" +
-      "pe_id_list\030\020 \001(\0132\032.dstore.values.stringV",
-      "alue\022#\n\032shipping_type_id_list_null\030\370\007 \001(" +
-      "\010\022@\n\033show_person_characteristics\030\021 \001(\0132\033" +
-      ".dstore.values.booleanValue\022)\n show_pers" +
-      "on_characteristics_null\030\371\007 \001(\010\022B\n\035conver" +
-      "t_result_to_currency_id\030\022 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022+\n\"convert_result_to_" +
-      "currency_id_null\030\372\007 \001(\010\022E\n convert_resul" +
-      "t_to_given_currency\030\023 \001(\0132\033.dstore.value" +
-      "s.booleanValue\022.\n%convert_result_to_give" +
-      "n_currency_null\030\373\007 \001(\010\0223\n\016purchase_order",
-      "\030\024 \001(\0132\033.dstore.values.booleanValue\022\034\n\023p" +
-      "urchase_order_null\030\374\007 \001(\010\022B\n\035input_nest_" +
-      "level_o_info_conds\030\025 \001(\0132\033.dstore.values" +
-      ".integerValue\022+\n\"input_nest_level_o_info" +
-      "_conds_null\030\375\007 \001(\010\022@\n\034value_separator_i_" +
-      "n_operator\030\026 \001(\0132\032.dstore.values.stringV" +
-      "alue\022*\n!value_separator_i_n_operator_nul" +
-      "l\030\376\007 \001(\010\022+\n\007country\030\027 \001(\0132\032.dstore.value" +
-      "s.stringValue\022\025\n\014country_null\030\377\007 \001(\010\0220\n\013" +
-      "language_id\030\030 \001(\0132\033.dstore.values.intege",
-      "rValue\022\031\n\020language_id_null\030\200\010 \001(\010\022F\n!inp" +
-      "ut_nest_level_o_con_info_conds\030\031 \001(\0132\033.d" +
-      "store.values.integerValue\022/\n&input_nest_" +
-      "level_o_con_info_conds_null\030\201\010 \001(\010\022I\n$co" +
-      "nds_must_be_fulfilled_for_o_con_id\030\032 \001(\013" +
-      "2\033.dstore.values.booleanValue\0222\n)conds_m" +
-      "ust_be_fulfilled_for_o_con_id_null\030\202\010 \001(" +
-      "\010\022A\n\034filter_by_node_ids_in_one_id\030\033 \001(\0132" +
-      "\033.dstore.values.integerValue\022*\n!filter_b" +
-      "y_node_ids_in_one_id_null\030\203\010 \001(\010\0225\n\020get_",
-      "computed_sum\030\034 \001(\0132\033.dstore.values.boole" +
-      "anValue\022\036\n\025get_computed_sum_null\030\204\010 \001(\010\022" +
-      "D\n\037only_valid_pos_for_computed_sum\030\035 \001(\013" +
-      "2\033.dstore.values.booleanValue\022-\n$only_va" +
-      "lid_pos_for_computed_sum_null\030\205\010 \001(\010\022D\n " +
-      "order_surch_ids_for_computed_sum\030\036 \001(\0132\032" +
-      ".dstore.values.stringValue\022.\n%order_surc" +
-      "h_ids_for_computed_sum_null\030\206\010 \001(\010\"\225\026\n\010R" +
-      "esponse\022H\n\020meta_information\030\002 \003(\0132..dsto" +
-      "re.engine.metainformation.MetaInformatio",
-      "n\022/\n\007message\030\003 \003(\0132\036.dstore.engine.messa" +
-      "ge.Message\022C\n\003row\030\004 \003(\01326.dstore.engine." +
-      "om_GetOrders_Conditions_Ad.Response.Row\032" +
-      "\310\024\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\023order_date_a" +
-      "nd_time\030\221N \001(\0132\032.dstore.values.stringVal" +
-      "ue\0222\n\014payment_cost\030\222N \001(\0132\033.dstore.value" +
-      "s.decimalValue\022;\n\026delivery_date_and_time" +
-      "\030\223N \001(\0132\032.dstore.values.stringValue\0227\n\021n" +
-      "et_shipping_cost\030\224N \001(\0132\033.dstore.values." +
-      "decimalValue\022-\n\010order_no\030\225N \001(\0132\032.dstore",
-      ".values.stringValue\022/\n\tnetto_sum\030\226N \001(\0132" +
-      "\033.dstore.values.decimalValue\022<\n\026last_edi" +
-      "ted_by_user_id\030\227N \001(\0132\033.dstore.values.in" +
-      "tegerValue\022.\n\010order_id\030\230N \001(\0132\033.dstore.v" +
-      "alues.integerValue\0220\n\nbrutto_sum\030\231N \001(\0132" +
-      "\033.dstore.values.decimalValue\022?\n\031precise_" +
-      "net_shipping_cost\030\232N \001(\0132\033.dstore.values" +
-      ".decimalValue\022A\n\034charac_val2_restr_by_pa" +
-      "ttern\030\233N \001(\0132\032.dstore.values.stringValue" +
-      "\022-\n\007net_sum\030\234N \001(\0132\033.dstore.values.decim",
-      "alValue\022;\n\025valid_content_net_sum\030\235N \001(\0132" +
-      "\033.dstore.values.decimalValue\022C\n\035precise_" +
-      "valid_content_net_sum\030\236N \001(\0132\033.dstore.va" +
-      "lues.decimalValue\022/\n\tperson_id\030\237N \001(\0132\033." +
-      "dstore.values.integerValue\022=\n\030payment_ty" +
-      "pe_description\030\240N \001(\0132\032.dstore.values.st" +
-      "ringValue\022>\n\030valid_content_brutto_sum\030\241N" +
-      " \001(\0132\033.dstore.values.decimalValue\0225\n\017pre" +
-      "cise_net_sum\030\242N \001(\0132\033.dstore.values.deci" +
-      "malValue\0224\n\016position_count\030\243N \001(\0132\033.dsto",
-      "re.values.integerValue\0224\n\016order_state_id" +
-      "\030\244N \001(\0132\033.dstore.values.integerValue\0226\n\020" +
-      "shipping_type_id\030\245N \001(\0132\033.dstore.values." +
-      "integerValue\0224\n\016person_type_id\030\246N \001(\0132\033." +
-      "dstore.values.integerValue\022@\n\032precise_co" +
-      "mputed_gross_sum\030\247N \001(\0132\033.dstore.values." +
-      "decimalValue\0228\n\022has_valid_contents\030\250N \001(" +
-      "\0132\033.dstore.values.booleanValue\0226\n\020net_pa" +
-      "yment_cost\030\251N \001(\0132\033.dstore.values.decima" +
-      "lValue\0228\n\022delivery_person_id\030\252N \001(\0132\033.ds",
-      "tore.values.integerValue\022>\n\031shipping_typ" +
-      "e_description\030\253N \001(\0132\032.dstore.values.str" +
-      "ingValue\022/\n\tgross_sum\030\254N \001(\0132\033.dstore.va" +
-      "lues.decimalValue\0220\n\013unit_symbol\030\255N \001(\0132" +
-      "\032.dstore.values.stringValue\022>\n\030precise_n" +
-      "et_payment_cost\030\256N \001(\0132\033.dstore.values.d" +
-      "ecimalValue\022C\n\036customer_characteristic_v" +
-      "alue2\030\257N \001(\0132\032.dstore.values.stringValue" +
-      "\0227\n\022public_description\030\260N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0221\n\013currency_id\030\261N \001(\0132",
-      "\033.dstore.values.integerValue\022C\n\036customer" +
-      "_characteristic_value1\030\262N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0227\n\021precise_gross_sum\030\263" +
-      "N \001(\0132\033.dstore.values.decimalValue\0228\n\022co" +
-      "mputed_gross_sum\030\264N \001(\0132\033.dstore.values." +
-      "decimalValue\022=\n\027valid_content_netto_sum\030" +
-      "\265N \001(\0132\033.dstore.values.decimalValue\0223\n\rs" +
-      "hipping_cost\030\266N \001(\0132\033.dstore.values.deci" +
-      "malValue\022A\n\034charac_val1_restr_by_pattern" +
-      "\030\267N \001(\0132\032.dstore.values.stringValue\0225\n\017p",
-      "ayment_type_id\030\270N \001(\0132\033.dstore.values.in" +
-      "tegerValue\022E\n\037precise_valid_content_gros" +
-      "s_sum\030\271N \001(\0132\033.dstore.values.decimalValu" +
-      "e\022>\n\030precise_computed_net_sum\030\272N \001(\0132\033.d" +
-      "store.values.decimalValue\0220\n\013order_state" +
-      "\030\273N \001(\0132\032.dstore.values.stringValue\0226\n\020c" +
-      "omputed_net_sum\030\274N \001(\0132\033.dstore.values.d" +
-      "ecimalValue\022=\n\027valid_content_gross_sum\030\275" +
-      "N \001(\0132\033.dstore.values.decimalValueB[\n\033io" +
-      ".dstore.engine.proceduresZ<gosdk.dstore.",
-      "de/engine/procedures/om_GetOrders_Condit" +
-      "ions_Adb\006proto3"
+      "to\032\032dstore/engine/engine.proto\"\353\026\n\nParam" +
+      "eters\0224\n\017order_by_column\030\001 \001(\0132\033.dstore." +
+      "values.integerValue\022\035\n\024order_by_column_n" +
+      "ull\030\351\007 \001(\010\022=\n\030create_valid_order_infos\030\002" +
+      " \001(\0132\033.dstore.values.booleanValue\022&\n\035cre" +
+      "ate_valid_order_infos_null\030\352\007 \001(\010\022.\n\nbru" +
+      "tto_sum\030\003 \001(\0132\032.dstore.values.stringValu",
+      "e\022\030\n\017brutto_sum_null\030\353\007 \001(\010\0220\n\013currency_" +
+      "id\030\004 \001(\0132\033.dstore.values.integerValue\022\031\n" +
+      "\020currency_id_null\030\354\007 \001(\010\022B\n\036quantity_for" +
+      "_one_order_content\030\005 \001(\0132\032.dstore.values" +
+      ".stringValue\022,\n#quantity_for_one_order_c" +
+      "ontent_null\030\355\007 \001(\010\022/\n\013combination\030\006 \001(\0132" +
+      "\032.dstore.values.stringValue\022\031\n\020combinati" +
+      "on_null\030\356\007 \001(\010\0220\n\tfrom_date\030\007 \001(\0132\035.dsto" +
+      "re.values.timestampValue\022\027\n\016from_date_nu" +
+      "ll\030\357\007 \001(\010\022.\n\007to_date\030\010 \001(\0132\035.dstore.valu",
+      "es.timestampValue\022\025\n\014to_date_null\030\360\007 \001(\010" +
+      "\022/\n\norder_desc\030\t \001(\0132\033.dstore.values.boo" +
+      "leanValue\022\030\n\017order_desc_null\030\361\007 \001(\010\0229\n\024d" +
+      "ate_and_time_format\030\n \001(\0132\033.dstore.value" +
+      "s.integerValue\022\"\n\031date_and_time_format_n" +
+      "ull\030\362\007 \001(\010\0221\n\014include_time\030\013 \001(\0132\033.dstor" +
+      "e.values.booleanValue\022\032\n\021include_time_nu" +
+      "ll\030\363\007 \001(\010\022E\n get_info_for_valid_order_co" +
+      "ntent\030\014 \001(\0132\033.dstore.values.booleanValue" +
+      "\022.\n%get_info_for_valid_order_content_nul",
+      "l\030\364\007 \001(\010\0224\n\020order_state_list\030\r \001(\0132\032.dst" +
+      "ore.values.stringValue\022\036\n\025order_state_li" +
+      "st_null\030\365\007 \001(\010\022E\n skip_o_having_differen" +
+      "t_o_states\030\016 \001(\0132\033.dstore.values.boolean" +
+      "Value\022.\n%skip_o_having_different_o_state" +
+      "s_null\030\366\007 \001(\010\0228\n\024payment_type_id_list\030\017 " +
+      "\001(\0132\032.dstore.values.stringValue\022\"\n\031payme" +
+      "nt_type_id_list_null\030\367\007 \001(\010\0229\n\025shipping_" +
+      "type_id_list\030\020 \001(\0132\032.dstore.values.strin" +
+      "gValue\022#\n\032shipping_type_id_list_null\030\370\007 ",
+      "\001(\010\022@\n\033show_person_characteristics\030\021 \001(\013" +
+      "2\033.dstore.values.booleanValue\022)\n show_pe" +
+      "rson_characteristics_null\030\371\007 \001(\010\022B\n\035conv" +
+      "ert_result_to_currency_id\030\022 \001(\0132\033.dstore" +
+      ".values.integerValue\022+\n\"convert_result_t" +
+      "o_currency_id_null\030\372\007 \001(\010\022E\n convert_res" +
+      "ult_to_given_currency\030\023 \001(\0132\033.dstore.val" +
+      "ues.booleanValue\022.\n%convert_result_to_gi" +
+      "ven_currency_null\030\373\007 \001(\010\0223\n\016purchase_ord" +
+      "er\030\024 \001(\0132\033.dstore.values.booleanValue\022\034\n",
+      "\023purchase_order_null\030\374\007 \001(\010\022B\n\035input_nes" +
+      "t_level_o_info_conds\030\025 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022+\n\"input_nest_level_o_in" +
+      "fo_conds_null\030\375\007 \001(\010\022@\n\034value_separator_" +
+      "i_n_operator\030\026 \001(\0132\032.dstore.values.strin" +
+      "gValue\022*\n!value_separator_i_n_operator_n" +
+      "ull\030\376\007 \001(\010\022+\n\007country\030\027 \001(\0132\032.dstore.val" +
+      "ues.stringValue\022\025\n\014country_null\030\377\007 \001(\010\0220" +
+      "\n\013language_id\030\030 \001(\0132\033.dstore.values.inte" +
+      "gerValue\022\031\n\020language_id_null\030\200\010 \001(\010\022F\n!i",
+      "nput_nest_level_o_con_info_conds\030\031 \001(\0132\033" +
+      ".dstore.values.integerValue\022/\n&input_nes" +
+      "t_level_o_con_info_conds_null\030\201\010 \001(\010\022I\n$" +
+      "conds_must_be_fulfilled_for_o_con_id\030\032 \001" +
+      "(\0132\033.dstore.values.booleanValue\0222\n)conds" +
+      "_must_be_fulfilled_for_o_con_id_null\030\202\010 " +
+      "\001(\010\022A\n\034filter_by_node_ids_in_one_id\030\033 \001(" +
+      "\0132\033.dstore.values.integerValue\022*\n!filter" +
+      "_by_node_ids_in_one_id_null\030\203\010 \001(\010\0225\n\020ge" +
+      "t_computed_sum\030\034 \001(\0132\033.dstore.values.boo",
+      "leanValue\022\036\n\025get_computed_sum_null\030\204\010 \001(" +
+      "\010\022D\n\037only_valid_pos_for_computed_sum\030\035 \001" +
+      "(\0132\033.dstore.values.booleanValue\022-\n$only_" +
+      "valid_pos_for_computed_sum_null\030\205\010 \001(\010\022D" +
+      "\n order_surch_ids_for_computed_sum\030\036 \001(\013" +
+      "2\032.dstore.values.stringValue\022.\n%order_su" +
+      "rch_ids_for_computed_sum_null\030\206\010 \001(\010\"\375\025\n" +
+      "\010Response\0228\n\020meta_information\030\002 \003(\0132\036.ds" +
+      "tore.engine.MetaInformation\022\'\n\007message\030\003" +
+      " \003(\0132\026.dstore.engine.Message\022C\n\003row\030\004 \003(",
+      "\01326.dstore.engine.om_GetOrders_Condition" +
+      "s_Ad.Response.Row\032\310\024\n\003Row\022\017\n\006row_id\030\220N \001" +
+      "(\005\0228\n\023order_date_and_time\030\221N \001(\0132\032.dstor" +
+      "e.values.stringValue\0222\n\014payment_cost\030\222N " +
+      "\001(\0132\033.dstore.values.decimalValue\022;\n\026deli" +
+      "very_date_and_time\030\223N \001(\0132\032.dstore.value" +
+      "s.stringValue\0227\n\021net_shipping_cost\030\224N \001(" +
+      "\0132\033.dstore.values.decimalValue\022-\n\010order_" +
+      "no\030\225N \001(\0132\032.dstore.values.stringValue\022/\n" +
+      "\tnetto_sum\030\226N \001(\0132\033.dstore.values.decima",
+      "lValue\022<\n\026last_edited_by_user_id\030\227N \001(\0132" +
+      "\033.dstore.values.integerValue\022.\n\010order_id" +
+      "\030\230N \001(\0132\033.dstore.values.integerValue\0220\n\n" +
+      "brutto_sum\030\231N \001(\0132\033.dstore.values.decima" +
+      "lValue\022?\n\031precise_net_shipping_cost\030\232N \001" +
+      "(\0132\033.dstore.values.decimalValue\022A\n\034chara" +
+      "c_val2_restr_by_pattern\030\233N \001(\0132\032.dstore." +
+      "values.stringValue\022-\n\007net_sum\030\234N \001(\0132\033.d" +
+      "store.values.decimalValue\022;\n\025valid_conte" +
+      "nt_net_sum\030\235N \001(\0132\033.dstore.values.decima",
+      "lValue\022C\n\035precise_valid_content_net_sum\030" +
+      "\236N \001(\0132\033.dstore.values.decimalValue\022/\n\tp" +
+      "erson_id\030\237N \001(\0132\033.dstore.values.integerV" +
+      "alue\022=\n\030payment_type_description\030\240N \001(\0132" +
+      "\032.dstore.values.stringValue\022>\n\030valid_con" +
+      "tent_brutto_sum\030\241N \001(\0132\033.dstore.values.d" +
+      "ecimalValue\0225\n\017precise_net_sum\030\242N \001(\0132\033." +
+      "dstore.values.decimalValue\0224\n\016position_c" +
+      "ount\030\243N \001(\0132\033.dstore.values.integerValue" +
+      "\0224\n\016order_state_id\030\244N \001(\0132\033.dstore.value",
+      "s.integerValue\0226\n\020shipping_type_id\030\245N \001(" +
+      "\0132\033.dstore.values.integerValue\0224\n\016person" +
+      "_type_id\030\246N \001(\0132\033.dstore.values.integerV" +
+      "alue\022@\n\032precise_computed_gross_sum\030\247N \001(" +
+      "\0132\033.dstore.values.decimalValue\0228\n\022has_va" +
+      "lid_contents\030\250N \001(\0132\033.dstore.values.bool" +
+      "eanValue\0226\n\020net_payment_cost\030\251N \001(\0132\033.ds" +
+      "tore.values.decimalValue\0228\n\022delivery_per" +
+      "son_id\030\252N \001(\0132\033.dstore.values.integerVal" +
+      "ue\022>\n\031shipping_type_description\030\253N \001(\0132\032",
+      ".dstore.values.stringValue\022/\n\tgross_sum\030" +
+      "\254N \001(\0132\033.dstore.values.decimalValue\0220\n\013u" +
+      "nit_symbol\030\255N \001(\0132\032.dstore.values.string" +
+      "Value\022>\n\030precise_net_payment_cost\030\256N \001(\013" +
+      "2\033.dstore.values.decimalValue\022C\n\036custome" +
+      "r_characteristic_value2\030\257N \001(\0132\032.dstore." +
+      "values.stringValue\0227\n\022public_description" +
+      "\030\260N \001(\0132\032.dstore.values.stringValue\0221\n\013c" +
+      "urrency_id\030\261N \001(\0132\033.dstore.values.intege" +
+      "rValue\022C\n\036customer_characteristic_value1",
+      "\030\262N \001(\0132\032.dstore.values.stringValue\0227\n\021p" +
+      "recise_gross_sum\030\263N \001(\0132\033.dstore.values." +
+      "decimalValue\0228\n\022computed_gross_sum\030\264N \001(" +
+      "\0132\033.dstore.values.decimalValue\022=\n\027valid_" +
+      "content_netto_sum\030\265N \001(\0132\033.dstore.values" +
+      ".decimalValue\0223\n\rshipping_cost\030\266N \001(\0132\033." +
+      "dstore.values.decimalValue\022A\n\034charac_val" +
+      "1_restr_by_pattern\030\267N \001(\0132\032.dstore.value" +
+      "s.stringValue\0225\n\017payment_type_id\030\270N \001(\0132" +
+      "\033.dstore.values.integerValue\022E\n\037precise_",
+      "valid_content_gross_sum\030\271N \001(\0132\033.dstore." +
+      "values.decimalValue\022>\n\030precise_computed_" +
+      "net_sum\030\272N \001(\0132\033.dstore.values.decimalVa" +
+      "lue\0220\n\013order_state\030\273N \001(\0132\032.dstore.value" +
+      "s.stringValue\0226\n\020computed_net_sum\030\274N \001(\013" +
+      "2\033.dstore.values.decimalValue\022=\n\027valid_c" +
+      "ontent_gross_sum\030\275N \001(\0132\033.dstore.values." +
+      "decimalValueB[\n\033io.dstore.engine.procedu" +
+      "resZ<gosdk.dstore.de/engine/procedures/o" +
+      "m_GetOrders_Conditions_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -21751,8 +21749,7 @@ public final class OmGetOrdersConditionsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -21773,8 +21770,7 @@ public final class OmGetOrdersConditionsAd {
         internal_static_dstore_engine_om_GetOrders_Conditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "OrderDateAndTime", "PaymentCost", "DeliveryDateAndTime", "NetShippingCost", "OrderNo", "NettoSum", "LastEditedByUserId", "OrderId", "BruttoSum", "PreciseNetShippingCost", "CharacVal2RestrByPattern", "NetSum", "ValidContentNetSum", "PreciseValidContentNetSum", "PersonId", "PaymentTypeDescription", "ValidContentBruttoSum", "PreciseNetSum", "PositionCount", "OrderStateId", "ShippingTypeId", "PersonTypeId", "PreciseComputedGrossSum", "HasValidContents", "NetPaymentCost", "DeliveryPersonId", "ShippingTypeDescription", "GrossSum", "UnitSymbol", "PreciseNetPaymentCost", "CustomerCharacteristicValue2", "PublicDescription", "CurrencyId", "CustomerCharacteristicValue1", "PreciseGrossSum", "ComputedGrossSum", "ValidContentNettoSum", "ShippingCost", "CharacVal1RestrByPattern", "PaymentTypeId", "PreciseValidContentGrossSum", "PreciseComputedNetSum", "OrderState", "ComputedNetSum", "ValidContentGrossSum", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

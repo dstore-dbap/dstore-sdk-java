@@ -125,12 +125,12 @@ public  final class Query extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_descriptor;
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_fieldAccessorTable
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             io.dstore.elastic.Query.class, io.dstore.elastic.Query.Builder.class);
   }
@@ -255,12 +255,12 @@ public  final class Query extends
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Terms_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Terms_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Terms_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Terms_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Query.Terms.class, io.dstore.elastic.Query.Terms.Builder.class);
     }
@@ -517,12 +517,12 @@ public  final class Query extends
         io.dstore.elastic.Query.TermsOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Terms_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Terms_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Terms_fieldAccessorTable
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Terms_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.Query.Terms.class, io.dstore.elastic.Query.Terms.Builder.class);
       }
@@ -555,7 +555,7 @@ public  final class Query extends
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Terms_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Terms_descriptor;
       }
 
       public io.dstore.elastic.Query.Terms getDefaultInstanceForType() {
@@ -989,12 +989,12 @@ public  final class Query extends
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Type_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Type_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Type_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Type_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Query.Type.class, io.dstore.elastic.Query.Type.Builder.class);
     }
@@ -1179,12 +1179,12 @@ public  final class Query extends
         io.dstore.elastic.Query.TypeOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Type_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Type_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Type_fieldAccessorTable
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Type_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.Query.Type.class, io.dstore.elastic.Query.Type.Builder.class);
       }
@@ -1213,7 +1213,7 @@ public  final class Query extends
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Type_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Type_descriptor;
       }
 
       public io.dstore.elastic.Query.Type getDefaultInstanceForType() {
@@ -1560,12 +1560,12 @@ public  final class Query extends
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Range_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Range_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Range_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Range_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Query.Range.class, io.dstore.elastic.Query.Range.Builder.class);
     }
@@ -1926,12 +1926,12 @@ public  final class Query extends
         io.dstore.elastic.Query.RangeOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Range_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Range_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Range_fieldAccessorTable
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Range_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.Query.Range.class, io.dstore.elastic.Query.Range.Builder.class);
       }
@@ -1968,7 +1968,7 @@ public  final class Query extends
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_Range_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_Range_descriptor;
       }
 
       public io.dstore.elastic.Query.Range getDefaultInstanceForType() {
@@ -2611,12 +2611,12 @@ public  final class Query extends
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Query.SimpleQueryString.class, io.dstore.elastic.Query.SimpleQueryString.Builder.class);
     }
@@ -2921,12 +2921,12 @@ public  final class Query extends
         io.dstore.elastic.Query.SimpleQueryStringOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 io.dstore.elastic.Query.SimpleQueryString.class, io.dstore.elastic.Query.SimpleQueryString.Builder.class);
       }
@@ -2961,7 +2961,7 @@ public  final class Query extends
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+        return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
       }
 
       public io.dstore.elastic.Query.SimpleQueryString getDefaultInstanceForType() {
@@ -3810,12 +3810,12 @@ public  final class Query extends
       io.dstore.elastic.QueryOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Query.class, io.dstore.elastic.Query.Builder.class);
     }
@@ -3844,7 +3844,7 @@ public  final class Query extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Query_descriptor;
     }
 
     public io.dstore.elastic.Query getDefaultInstanceForType() {

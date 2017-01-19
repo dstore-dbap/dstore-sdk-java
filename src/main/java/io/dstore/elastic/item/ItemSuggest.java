@@ -3216,7 +3216,7 @@ public final class ItemSuggest {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.elastic.Elastic.getDescriptor(),
+          io.dstore.elastic.ElasticOuterClass.getDescriptor(),
           io.dstore.elastic.item.ItemOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_item_item_suggest_Request_descriptor =
@@ -3237,7 +3237,7 @@ public final class ItemSuggest {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_item_item_suggest_Response_Suggestion_descriptor,
         new java.lang.String[] { "FieldName", "Count", "Value", });
-    io.dstore.elastic.Elastic.getDescriptor();
+    io.dstore.elastic.ElasticOuterClass.getDescriptor();
     io.dstore.elastic.item.ItemOuterClass.getDescriptor();
   }
 

@@ -3481,51 +3481,51 @@ public final class ImGetNodeProperties {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -3616,20 +3616,20 @@ public final class ImGetNodeProperties {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -8675,71 +8675,71 @@ public final class ImGetNodeProperties {
     }
 
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -9218,22 +9218,22 @@ public final class ImGetNodeProperties {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -9241,7 +9241,7 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -9251,9 +9251,9 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -9261,10 +9261,10 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9278,10 +9278,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -9292,9 +9292,9 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9308,10 +9308,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9325,10 +9325,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -9339,10 +9339,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -9353,10 +9353,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -9368,7 +9368,7 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -9381,7 +9381,7 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -9394,16 +9394,16 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -9411,9 +9411,9 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -9422,33 +9422,33 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -9458,22 +9458,22 @@ public final class ImGetNodeProperties {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -9481,7 +9481,7 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -9491,9 +9491,9 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -9501,10 +9501,10 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9518,10 +9518,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -9532,9 +9532,9 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9548,10 +9548,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9565,10 +9565,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -9579,10 +9579,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -9593,10 +9593,10 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -9608,7 +9608,7 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -9621,7 +9621,7 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -9634,16 +9634,16 @@ public final class ImGetNodeProperties {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -9651,9 +9651,9 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -9662,33 +9662,33 @@ public final class ImGetNodeProperties {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -10084,68 +10084,66 @@ public final class ImGetNodeProperties {
     java.lang.String[] descriptorData = {
       "\n3dstore/engine/procedures/im_GetNodePro" +
       "perties.proto\022\"dstore.engine.im_GetNodeP" +
-      "roperties\032\023dstore/values.proto\032\033dstore/e" +
-      "ngine/message.proto\032#dstore/engine/metai" +
-      "nformation.proto\"\276\010\n\nParameters\022-\n\tnode_" +
-      "list\030\001 \001(\0132\032.dstore.values.stringValue\022\027" +
-      "\n\016node_list_null\030\351\007 \001(\010\0222\n\rtree_node_ids" +
-      "\030\002 \001(\0132\033.dstore.values.booleanValue\022\033\n\022t" +
-      "ree_node_ids_null\030\352\007 \001(\010\0220\n\013language_id\030" +
-      "\003 \001(\0132\033.dstore.values.integerValue\022\031\n\020la",
-      "nguage_id_null\030\353\007 \001(\010\0222\n\rinherit_depth\030\004" +
-      " \001(\0132\033.dstore.values.integerValue\022\033\n\022inh" +
-      "erit_depth_null\030\354\007 \001(\010\0229\n\024recursive_eval" +
-      "uation\030\005 \001(\0132\033.dstore.values.integerValu" +
-      "e\022\"\n\031recursive_evaluation_null\030\355\007 \001(\010\022:\n" +
-      "\026characteristic_id_list\030\006 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022$\n\033characteristic_id_l" +
-      "ist_null\030\356\007 \001(\010\0221\n\014use_distinct\030\007 \001(\0132\033." +
-      "dstore.values.booleanValue\022\032\n\021use_distin" +
-      "ct_null\030\357\007 \001(\010\022/\n\013date_format\030\010 \001(\0132\032.ds",
-      "tore.values.stringValue\022\031\n\020date_format_n" +
-      "ull\030\360\007 \001(\010\022?\n\032include_inherits_from_info" +
-      "\030\t \001(\0132\033.dstore.values.booleanValue\022(\n\037i" +
-      "nclude_inherits_from_info_null\030\361\007 \001(\010\022D\n" +
-      "\037language_id_for_charac_descript\030\n \001(\0132\033" +
-      ".dstore.values.integerValue\022-\n$language_" +
-      "id_for_charac_descript_null\030\362\007 \001(\010\0220\n\013ch" +
-      "eck_nodes\030\013 \001(\0132\033.dstore.values.integerV" +
-      "alue\022\031\n\020check_nodes_null\030\363\007 \001(\010\022B\n\036get_d" +
-      "etails_for_charac_id_list\030\014 \001(\0132\032.dstore",
-      ".values.stringValue\022,\n#get_details_for_c" +
-      "harac_id_list_null\030\364\007 \001(\010\"\206\t\n\010Response\022H" +
-      "\n\020meta_information\030\002 \003(\0132..dstore.engine" +
-      ".metainformation.MetaInformation\022/\n\007mess" +
-      "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
-      "e\022=\n\003row\030\004 \003(\01320.dstore.engine.im_GetNod" +
-      "eProperties.Response.Row\032\277\007\n\003Row\022\017\n\006row_" +
-      "id\030\220N \001(\005\022,\n\006active\030\221N \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022,\n\007details\030\222N \001(\0132\032.dsto" +
-      "re.values.stringValue\022-\n\007unit_id\030\223N \001(\0132",
-      "\033.dstore.values.integerValue\022?\n\032characte" +
-      "ristic_description\030\224N \001(\0132\032.dstore.value" +
-      "s.stringValue\0222\n\014tree_node_id\030\225N \001(\0132\033.d" +
-      "store.values.integerValue\022-\n\007node_id\030\226N " +
-      "\001(\0132\033.dstore.values.integerValue\022*\n\005valu" +
-      "e\030\227N \001(\0132\032.dstore.values.stringValue\0227\n\021" +
-      "characteristic_id\030\230N \001(\0132\033.dstore.values" +
-      ".integerValue\022.\n\010value_id\030\231N \001(\0132\033.dstor" +
-      "e.values.integerValue\0220\n\013unit_symbol\030\232N " +
-      "\001(\0132\032.dstore.values.stringValue\022-\n\007delet",
-      "ed\030\233N \001(\0132\033.dstore.values.booleanValue\022-" +
-      "\n\007sort_no\030\234N \001(\0132\033.dstore.values.integer" +
-      "Value\0223\n\rvalid_to_char\030\262\352\001 \001(\0132\032.dstore." +
-      "values.stringValue\022A\n\032inherits_from_tree" +
-      "_node_id\030\272\352\001 \001(\0132\033.dstore.values.integer" +
-      "Value\0221\n\010valid_to\030\273\352\001 \001(\0132\035.dstore.value" +
-      "s.timestampValue\0223\n\nvalid_from\030\277\352\001 \001(\0132\035" +
-      ".dstore.values.timestampValue\022<\n\025inherit" +
-      "s_from_node_id\030\301\352\001 \001(\0132\033.dstore.values.i" +
-      "ntegerValue\0225\n\017valid_from_char\030\302\352\001 \001(\0132\032",
-      ".dstore.values.stringValueBU\n\033io.dstore." +
-      "engine.proceduresZ6gosdk.dstore.de/engin" +
-      "e/procedures/im_GetNodePropertiesb\006proto" +
-      "3"
+      "roperties\032\023dstore/values.proto\032\032dstore/e" +
+      "ngine/engine.proto\"\276\010\n\nParameters\022-\n\tnod" +
+      "e_list\030\001 \001(\0132\032.dstore.values.stringValue" +
+      "\022\027\n\016node_list_null\030\351\007 \001(\010\0222\n\rtree_node_i" +
+      "ds\030\002 \001(\0132\033.dstore.values.booleanValue\022\033\n" +
+      "\022tree_node_ids_null\030\352\007 \001(\010\0220\n\013language_i" +
+      "d\030\003 \001(\0132\033.dstore.values.integerValue\022\031\n\020" +
+      "language_id_null\030\353\007 \001(\010\0222\n\rinherit_depth",
+      "\030\004 \001(\0132\033.dstore.values.integerValue\022\033\n\022i" +
+      "nherit_depth_null\030\354\007 \001(\010\0229\n\024recursive_ev" +
+      "aluation\030\005 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022\"\n\031recursive_evaluation_null\030\355\007 \001(\010\022" +
+      ":\n\026characteristic_id_list\030\006 \001(\0132\032.dstore" +
+      ".values.stringValue\022$\n\033characteristic_id" +
+      "_list_null\030\356\007 \001(\010\0221\n\014use_distinct\030\007 \001(\0132" +
+      "\033.dstore.values.booleanValue\022\032\n\021use_dist" +
+      "inct_null\030\357\007 \001(\010\022/\n\013date_format\030\010 \001(\0132\032." +
+      "dstore.values.stringValue\022\031\n\020date_format",
+      "_null\030\360\007 \001(\010\022?\n\032include_inherits_from_in" +
+      "fo\030\t \001(\0132\033.dstore.values.booleanValue\022(\n" +
+      "\037include_inherits_from_info_null\030\361\007 \001(\010\022" +
+      "D\n\037language_id_for_charac_descript\030\n \001(\013" +
+      "2\033.dstore.values.integerValue\022-\n$languag" +
+      "e_id_for_charac_descript_null\030\362\007 \001(\010\0220\n\013" +
+      "check_nodes\030\013 \001(\0132\033.dstore.values.intege" +
+      "rValue\022\031\n\020check_nodes_null\030\363\007 \001(\010\022B\n\036get" +
+      "_details_for_charac_id_list\030\014 \001(\0132\032.dsto" +
+      "re.values.stringValue\022,\n#get_details_for",
+      "_charac_id_list_null\030\364\007 \001(\010\"\356\010\n\010Response" +
+      "\0228\n\020meta_information\030\002 \003(\0132\036.dstore.engi" +
+      "ne.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.ds" +
+      "tore.engine.Message\022=\n\003row\030\004 \003(\01320.dstor" +
+      "e.engine.im_GetNodeProperties.Response.R" +
+      "ow\032\277\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022,\n\006active\030\221N" +
+      " \001(\0132\033.dstore.values.booleanValue\022,\n\007det" +
+      "ails\030\222N \001(\0132\032.dstore.values.stringValue\022" +
+      "-\n\007unit_id\030\223N \001(\0132\033.dstore.values.intege" +
+      "rValue\022?\n\032characteristic_description\030\224N ",
+      "\001(\0132\032.dstore.values.stringValue\0222\n\014tree_" +
+      "node_id\030\225N \001(\0132\033.dstore.values.integerVa" +
+      "lue\022-\n\007node_id\030\226N \001(\0132\033.dstore.values.in" +
+      "tegerValue\022*\n\005value\030\227N \001(\0132\032.dstore.valu" +
+      "es.stringValue\0227\n\021characteristic_id\030\230N \001" +
+      "(\0132\033.dstore.values.integerValue\022.\n\010value" +
+      "_id\030\231N \001(\0132\033.dstore.values.integerValue\022" +
+      "0\n\013unit_symbol\030\232N \001(\0132\032.dstore.values.st" +
+      "ringValue\022-\n\007deleted\030\233N \001(\0132\033.dstore.val" +
+      "ues.booleanValue\022-\n\007sort_no\030\234N \001(\0132\033.dst",
+      "ore.values.integerValue\0223\n\rvalid_to_char" +
+      "\030\262\352\001 \001(\0132\032.dstore.values.stringValue\022A\n\032" +
+      "inherits_from_tree_node_id\030\272\352\001 \001(\0132\033.dst" +
+      "ore.values.integerValue\0221\n\010valid_to\030\273\352\001 " +
+      "\001(\0132\035.dstore.values.timestampValue\0223\n\nva" +
+      "lid_from\030\277\352\001 \001(\0132\035.dstore.values.timesta" +
+      "mpValue\022<\n\025inherits_from_node_id\030\301\352\001 \001(\013" +
+      "2\033.dstore.values.integerValue\0225\n\017valid_f" +
+      "rom_char\030\302\352\001 \001(\0132\032.dstore.values.stringV" +
+      "alueBU\n\033io.dstore.engine.proceduresZ6gos",
+      "dk.dstore.de/engine/procedures/im_GetNod" +
+      "ePropertiesb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -10159,8 +10157,7 @@ public final class ImGetNodeProperties {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNodeProperties_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -10181,8 +10178,7 @@ public final class ImGetNodeProperties {
         internal_static_dstore_engine_im_GetNodeProperties_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Active", "Details", "UnitId", "CharacteristicDescription", "TreeNodeId", "NodeId", "Value", "CharacteristicId", "ValueId", "UnitSymbol", "Deleted", "SortNo", "ValidToChar", "InheritsFromTreeNodeId", "ValidTo", "ValidFrom", "InheritsFromNodeId", "ValidFromChar", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

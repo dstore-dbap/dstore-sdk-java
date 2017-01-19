@@ -19,7 +19,7 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
  */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.0.2)",
-    comments = "Source: dstore/elastic/elasticservice.proto")
+    comments = "Source: dstore/elastic/elastic_service.proto")
 public class ElasticGrpc {
 
   private ElasticGrpc() {}

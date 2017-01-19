@@ -9340,7 +9340,7 @@ public final class ItemGet {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.elastic.Elastic.getDescriptor(),
+          io.dstore.elastic.ElasticOuterClass.getDescriptor(),
           io.dstore.elastic.item.ItemOuterClass.getDescriptor(),
           io.dstore.Values.getDescriptor(),
         }, assigner);
@@ -9392,7 +9392,7 @@ public final class ItemGet {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_item_item_get_Response_Facet_FacetValue_descriptor,
         new java.lang.String[] { "Value", "TotalItemCount", "MatchingItemCount", "Active", "MinValue", "MaxValue", });
-    io.dstore.elastic.Elastic.getDescriptor();
+    io.dstore.elastic.ElasticOuterClass.getDescriptor();
     io.dstore.elastic.item.ItemOuterClass.getDescriptor();
     io.dstore.Values.getDescriptor();
   }

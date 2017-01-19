@@ -7352,51 +7352,51 @@ public final class OmCreateSimpleCampItemCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -7519,20 +7519,20 @@ public final class OmCreateSimpleCampItemCondAd {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -8059,71 +8059,71 @@ public final class OmCreateSimpleCampItemCondAd {
 
     private int bitField0_;
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -8788,22 +8788,22 @@ public final class OmCreateSimpleCampItemCondAd {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -8811,7 +8811,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -8821,9 +8821,9 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -8831,10 +8831,10 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8848,10 +8848,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -8862,9 +8862,9 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8878,10 +8878,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -8895,10 +8895,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -8909,10 +8909,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -8923,10 +8923,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -8938,7 +8938,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -8951,7 +8951,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -8964,16 +8964,16 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -8981,9 +8981,9 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -8992,33 +8992,33 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -9028,22 +9028,22 @@ public final class OmCreateSimpleCampItemCondAd {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -9051,7 +9051,7 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -9061,9 +9061,9 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -9071,10 +9071,10 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9088,10 +9088,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -9102,9 +9102,9 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9118,10 +9118,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9135,10 +9135,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -9149,10 +9149,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -9163,10 +9163,10 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -9178,7 +9178,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -9191,7 +9191,7 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -9204,16 +9204,16 @@ public final class OmCreateSimpleCampItemCondAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -9221,9 +9221,9 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -9232,33 +9232,33 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -10051,83 +10051,82 @@ public final class OmCreateSimpleCampItemCondAd {
       "\n=dstore/engine/procedures/om_CreateSimp" +
       "leCampItemCond_Ad.proto\022,dstore.engine.o" +
       "m_CreateSimpleCampItemCond_Ad\032\023dstore/va" +
-      "lues.proto\032\033dstore/engine/message.proto\032" +
-      "#dstore/engine/metainformation.proto\"\200\023\n" +
-      "\nParameters\0220\n\013campaign_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\031\n\020campaign_id_nul" +
-      "l\030\351\007 \001(\010\0229\n\025condition_description\030\002 \001(\0132" +
-      "\032.dstore.values.stringValue\022#\n\032condition" +
-      "_description_null\030\352\007 \001(\010\0221\n\014condition_id",
-      "\030\003 \001(\0132\033.dstore.values.integerValue\022\032\n\021c" +
-      "ondition_id_null\030\353\007 \001(\010\0226\n\021item_conditio" +
-      "n_id\030\004 \001(\0132\033.dstore.values.integerValue\022" +
-      "\037\n\026item_condition_id_null\030\354\007 \001(\010\022<\n\027item" +
-      "_condition_group_id\030\005 \001(\0132\033.dstore.value" +
-      "s.integerValue\022%\n\034item_condition_group_i" +
-      "d_null\030\355\007 \001(\010\022;\n\026item_condition_part_id\030" +
-      "\006 \001(\0132\033.dstore.values.integerValue\022$\n\033it" +
-      "em_condition_part_id_null\030\356\007 \001(\010\022-\n\tleve" +
-      "l_ids\030\007 \001(\0132\032.dstore.values.stringValue\022",
-      "\027\n\016level_ids_null\030\357\007 \001(\010\0228\n\024domain_tree_" +
-      "node_ids\030\010 \001(\0132\032.dstore.values.stringVal" +
-      "ue\022\"\n\031domain_tree_node_ids_null\030\360\007 \001(\010\022;" +
-      "\n\026node_characteristic_id\030\t \001(\0132\033.dstore." +
-      "values.integerValue\022$\n\033node_characterist" +
-      "ic_id_null\030\361\007 \001(\010\022-\n\toperator1\030\n \001(\0132\032.d" +
-      "store.values.stringValue\022\027\n\016operator1_nu" +
-      "ll\030\362\007 \001(\010\022.\n\ncondition1\030\013 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022\030\n\017condition1_null\030\363\007 " +
-      "\001(\010\022-\n\toperator2\030\014 \001(\0132\032.dstore.values.s",
-      "tringValue\022\027\n\016operator2_null\030\364\007 \001(\010\022.\n\nc" +
-      "ondition2\030\r \001(\0132\032.dstore.values.stringVa" +
-      "lue\022\030\n\017condition2_null\030\365\007 \001(\010\0222\n\rinherit" +
-      "_depth\030\016 \001(\0132\033.dstore.values.integerValu" +
-      "e\022\033\n\022inherit_depth_null\030\366\007 \001(\010\0229\n\024recurs" +
-      "ive_evaluation\030\017 \001(\0132\033.dstore.values.int" +
-      "egerValue\022\"\n\031recursive_evaluation_null\030\367" +
-      "\007 \001(\010\022+\n\007country\030\020 \001(\0132\032.dstore.values.s" +
-      "tringValue\022\025\n\014country_null\030\370\007 \001(\010\022B\n\036ext" +
-      "ended_condition_description\030\021 \001(\0132\032.dsto",
-      "re.values.stringValue\022,\n#extended_condit" +
-      "ion_description_null\030\371\007 \001(\010\0228\n\023min_numbe" +
-      "r_of_items\030\022 \001(\0132\033.dstore.values.integer" +
-      "Value\022!\n\030min_number_of_items_null\030\372\007 \001(\010" +
-      "\0228\n\023max_number_of_items\030\023 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022!\n\030max_number_of_item" +
-      "s_null\030\373\007 \001(\010\0222\n\rfrom_quantity\030\024 \001(\0132\033.d" +
-      "store.values.integerValue\022\033\n\022from_quanti" +
-      "ty_null\030\374\007 \001(\010\0220\n\013to_quantity\030\025 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\031\n\020to_quantity_",
-      "null\030\375\007 \001(\010\022:\n\025from_item_basic_price\030\026 \001" +
-      "(\0132\033.dstore.values.decimalValue\022#\n\032from_" +
-      "item_basic_price_null\030\376\007 \001(\010\0228\n\023to_item_" +
-      "basic_price\030\027 \001(\0132\033.dstore.values.decima" +
-      "lValue\022!\n\030to_item_basic_price_null\030\377\007 \001(" +
-      "\010\0229\n\024from_basic_price_sum\030\030 \001(\0132\033.dstore" +
-      ".values.decimalValue\022\"\n\031from_basic_price" +
-      "_sum_null\030\200\010 \001(\010\0227\n\022to_basic_price_sum\030\031" +
-      " \001(\0132\033.dstore.values.decimalValue\022 \n\027to_" +
-      "basic_price_sum_null\030\201\010 \001(\010\022G\n\"combine_g",
-      "roups_with_a_n_d_operator\030\032 \001(\0132\033.dstore" +
-      ".values.booleanValue\0220\n\'combine_groups_w" +
-      "ith_a_n_d_operator_null\030\202\010 \001(\010\022F\n!combin" +
-      "e_parts_with_a_n_d_operator\030\033 \001(\0132\033.dsto" +
-      "re.values.booleanValue\022/\n&combine_parts_" +
-      "with_a_n_d_operator_null\030\203\010 \001(\010\"\314\003\n\010Resp" +
-      "onse\022H\n\020meta_information\030\002 \003(\0132..dstore." +
-      "engine.metainformation.MetaInformation\022/" +
-      "\n\007message\030\003 \003(\0132\036.dstore.engine.message." +
-      "Message\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_",
-      "CreateSimpleCampItemCond_Ad.Response.Row" +
-      "\0221\n\014condition_id\030e \001(\0132\033.dstore.values.i" +
-      "ntegerValue\0226\n\021item_condition_id\030f \001(\0132\033" +
-      ".dstore.values.integerValue\022<\n\027item_cond" +
-      "ition_group_id\030g \001(\0132\033.dstore.values.int" +
-      "egerValue\022;\n\026item_condition_part_id\030h \001(" +
-      "\0132\033.dstore.values.integerValue\032\026\n\003Row\022\017\n" +
-      "\006row_id\030\220N \001(\005B_\n\033io.dstore.engine.proce" +
-      "duresZ@gosdk.dstore.de/engine/procedures" +
-      "/om_CreateSimpleCampItemCond_Adb\006proto3"
+      "lues.proto\032\032dstore/engine/engine.proto\"\200" +
+      "\023\n\nParameters\0220\n\013campaign_id\030\001 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\031\n\020campaign_id_n" +
+      "ull\030\351\007 \001(\010\0229\n\025condition_description\030\002 \001(" +
+      "\0132\032.dstore.values.stringValue\022#\n\032conditi" +
+      "on_description_null\030\352\007 \001(\010\0221\n\014condition_" +
+      "id\030\003 \001(\0132\033.dstore.values.integerValue\022\032\n",
+      "\021condition_id_null\030\353\007 \001(\010\0226\n\021item_condit" +
+      "ion_id\030\004 \001(\0132\033.dstore.values.integerValu" +
+      "e\022\037\n\026item_condition_id_null\030\354\007 \001(\010\022<\n\027it" +
+      "em_condition_group_id\030\005 \001(\0132\033.dstore.val" +
+      "ues.integerValue\022%\n\034item_condition_group" +
+      "_id_null\030\355\007 \001(\010\022;\n\026item_condition_part_i" +
+      "d\030\006 \001(\0132\033.dstore.values.integerValue\022$\n\033" +
+      "item_condition_part_id_null\030\356\007 \001(\010\022-\n\tle" +
+      "vel_ids\030\007 \001(\0132\032.dstore.values.stringValu" +
+      "e\022\027\n\016level_ids_null\030\357\007 \001(\010\0228\n\024domain_tre",
+      "e_node_ids\030\010 \001(\0132\032.dstore.values.stringV" +
+      "alue\022\"\n\031domain_tree_node_ids_null\030\360\007 \001(\010" +
+      "\022;\n\026node_characteristic_id\030\t \001(\0132\033.dstor" +
+      "e.values.integerValue\022$\n\033node_characteri" +
+      "stic_id_null\030\361\007 \001(\010\022-\n\toperator1\030\n \001(\0132\032" +
+      ".dstore.values.stringValue\022\027\n\016operator1_" +
+      "null\030\362\007 \001(\010\022.\n\ncondition1\030\013 \001(\0132\032.dstore" +
+      ".values.stringValue\022\030\n\017condition1_null\030\363" +
+      "\007 \001(\010\022-\n\toperator2\030\014 \001(\0132\032.dstore.values" +
+      ".stringValue\022\027\n\016operator2_null\030\364\007 \001(\010\022.\n",
+      "\ncondition2\030\r \001(\0132\032.dstore.values.string" +
+      "Value\022\030\n\017condition2_null\030\365\007 \001(\010\0222\n\rinher" +
+      "it_depth\030\016 \001(\0132\033.dstore.values.integerVa" +
+      "lue\022\033\n\022inherit_depth_null\030\366\007 \001(\010\0229\n\024recu" +
+      "rsive_evaluation\030\017 \001(\0132\033.dstore.values.i" +
+      "ntegerValue\022\"\n\031recursive_evaluation_null" +
+      "\030\367\007 \001(\010\022+\n\007country\030\020 \001(\0132\032.dstore.values" +
+      ".stringValue\022\025\n\014country_null\030\370\007 \001(\010\022B\n\036e" +
+      "xtended_condition_description\030\021 \001(\0132\032.ds" +
+      "tore.values.stringValue\022,\n#extended_cond",
+      "ition_description_null\030\371\007 \001(\010\0228\n\023min_num" +
+      "ber_of_items\030\022 \001(\0132\033.dstore.values.integ" +
+      "erValue\022!\n\030min_number_of_items_null\030\372\007 \001" +
+      "(\010\0228\n\023max_number_of_items\030\023 \001(\0132\033.dstore" +
+      ".values.integerValue\022!\n\030max_number_of_it" +
+      "ems_null\030\373\007 \001(\010\0222\n\rfrom_quantity\030\024 \001(\0132\033" +
+      ".dstore.values.integerValue\022\033\n\022from_quan" +
+      "tity_null\030\374\007 \001(\010\0220\n\013to_quantity\030\025 \001(\0132\033." +
+      "dstore.values.integerValue\022\031\n\020to_quantit" +
+      "y_null\030\375\007 \001(\010\022:\n\025from_item_basic_price\030\026",
+      " \001(\0132\033.dstore.values.decimalValue\022#\n\032fro" +
+      "m_item_basic_price_null\030\376\007 \001(\010\0228\n\023to_ite" +
+      "m_basic_price\030\027 \001(\0132\033.dstore.values.deci" +
+      "malValue\022!\n\030to_item_basic_price_null\030\377\007 " +
+      "\001(\010\0229\n\024from_basic_price_sum\030\030 \001(\0132\033.dsto" +
+      "re.values.decimalValue\022\"\n\031from_basic_pri" +
+      "ce_sum_null\030\200\010 \001(\010\0227\n\022to_basic_price_sum" +
+      "\030\031 \001(\0132\033.dstore.values.decimalValue\022 \n\027t" +
+      "o_basic_price_sum_null\030\201\010 \001(\010\022G\n\"combine" +
+      "_groups_with_a_n_d_operator\030\032 \001(\0132\033.dsto",
+      "re.values.booleanValue\0220\n\'combine_groups" +
+      "_with_a_n_d_operator_null\030\202\010 \001(\010\022F\n!comb" +
+      "ine_parts_with_a_n_d_operator\030\033 \001(\0132\033.ds" +
+      "tore.values.booleanValue\022/\n&combine_part" +
+      "s_with_a_n_d_operator_null\030\203\010 \001(\010\"\264\003\n\010Re" +
+      "sponse\0228\n\020meta_information\030\002 \003(\0132\036.dstor" +
+      "e.engine.MetaInformation\022\'\n\007message\030\003 \003(" +
+      "\0132\026.dstore.engine.Message\022G\n\003row\030\004 \003(\0132:" +
+      ".dstore.engine.om_CreateSimpleCampItemCo" +
+      "nd_Ad.Response.Row\0221\n\014condition_id\030e \001(\013",
+      "2\033.dstore.values.integerValue\0226\n\021item_co" +
+      "ndition_id\030f \001(\0132\033.dstore.values.integer" +
+      "Value\022<\n\027item_condition_group_id\030g \001(\0132\033" +
+      ".dstore.values.integerValue\022;\n\026item_cond" +
+      "ition_part_id\030h \001(\0132\033.dstore.values.inte" +
+      "gerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B_\n\033io.d" +
+      "store.engine.proceduresZ@gosdk.dstore.de" +
+      "/engine/procedures/om_CreateSimpleCampIt" +
+      "emCond_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -10141,8 +10140,7 @@ public final class OmCreateSimpleCampItemCondAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_CreateSimpleCampItemCond_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -10163,8 +10161,7 @@ public final class OmCreateSimpleCampItemCondAd {
         internal_static_dstore_engine_om_CreateSimpleCampItemCond_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

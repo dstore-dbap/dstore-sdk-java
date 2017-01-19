@@ -120,12 +120,12 @@ public  final class BoolQuery extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_descriptor;
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_BoolQuery_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_fieldAccessorTable
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_BoolQuery_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             io.dstore.elastic.BoolQuery.class, io.dstore.elastic.BoolQuery.Builder.class);
   }
@@ -526,12 +526,12 @@ public  final class BoolQuery extends
       io.dstore.elastic.BoolQueryOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_BoolQuery_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_BoolQuery_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.BoolQuery.class, io.dstore.elastic.BoolQuery.Builder.class);
     }
@@ -590,7 +590,7 @@ public  final class BoolQuery extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_BoolQuery_descriptor;
     }
 
     public io.dstore.elastic.BoolQuery getDefaultInstanceForType() {

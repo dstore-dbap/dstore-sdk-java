@@ -3739,51 +3739,51 @@ public final class MiDatatypeTestAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -3997,20 +3997,20 @@ public final class MiDatatypeTestAd {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -11994,71 +11994,71 @@ public final class MiDatatypeTestAd {
 
     private int bitField0_;
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -13080,22 +13080,22 @@ public final class MiDatatypeTestAd {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -13103,7 +13103,7 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -13113,9 +13113,9 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -13123,10 +13123,10 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13140,10 +13140,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -13154,9 +13154,9 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13170,10 +13170,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13187,10 +13187,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -13201,10 +13201,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -13215,10 +13215,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -13230,7 +13230,7 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -13243,7 +13243,7 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -13256,16 +13256,16 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -13273,9 +13273,9 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -13284,33 +13284,33 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -13320,22 +13320,22 @@ public final class MiDatatypeTestAd {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -13343,7 +13343,7 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -13353,9 +13353,9 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -13363,10 +13363,10 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13380,10 +13380,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -13394,9 +13394,9 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13410,10 +13410,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13427,10 +13427,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -13441,10 +13441,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -13455,10 +13455,10 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -13470,7 +13470,7 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -13483,7 +13483,7 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -13496,16 +13496,16 @@ public final class MiDatatypeTestAd {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -13513,9 +13513,9 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -13524,33 +13524,33 @@ public final class MiDatatypeTestAd {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -15161,98 +15161,96 @@ public final class MiDatatypeTestAd {
     java.lang.String[] descriptorData = {
       "\n1dstore/engine/procedures/mi_DatatypeTe" +
       "st_Ad.proto\022 dstore.engine.mi_DatatypeTe" +
-      "st_Ad\032\023dstore/values.proto\032\033dstore/engin" +
-      "e/message.proto\032#dstore/engine/metainfor" +
-      "mation.proto\"\202\010\n\nParameters\0226\n\021set_outpu" +
-      "t_params\030\001 \001(\0132\033.dstore.values.booleanVa" +
-      "lue\022\037\n\026set_output_params_null\030\351\007 \001(\010\0223\n\016" +
-      "get_result_set\030\002 \001(\0132\033.dstore.values.boo" +
-      "leanValue\022\034\n\023get_result_set_null\030\352\007 \001(\010\022" +
-      "-\n\010test_bit\030\003 \001(\0132\033.dstore.values.boolea",
-      "nValue\022\026\n\rtest_bit_null\030\353\007 \001(\010\022-\n\ttest_c" +
-      "har\030\004 \001(\0132\032.dstore.values.stringValue\022\027\n" +
-      "\016test_char_null\030\354\007 \001(\010\0224\n\rtest_datetime\030" +
-      "\005 \001(\0132\035.dstore.values.timestampValue\022\033\n\022" +
-      "test_datetime_null\030\355\007 \001(\010\0221\n\014test_decima" +
-      "l\030\006 \001(\0132\033.dstore.values.decimalValue\022\032\n\021" +
-      "test_decimal_null\030\356\007 \001(\010\022-\n\ntest_image\030\007" +
-      " \001(\0132\031.dstore.values.bytesValue\022\030\n\017test_" +
-      "image_null\030\357\007 \001(\010\0221\n\014test_integer\030\010 \001(\0132" +
-      "\033.dstore.values.integerValue\022\032\n\021test_int",
-      "eger_null\030\360\007 \001(\010\022/\n\ntest_money\030\t \001(\0132\033.d" +
-      "store.values.decimalValue\022\030\n\017test_money_" +
-      "null\030\361\007 \001(\010\0222\n\rtest_smallint\030\n \001(\0132\033.dst" +
-      "ore.values.integerValue\022\033\n\022test_smallint" +
-      "_null\030\362\007 \001(\010\022-\n\ttest_text\030\013 \001(\0132\032.dstore" +
-      ".values.stringValue\022\027\n\016test_text_null\030\363\007" +
-      " \001(\010\0221\n\014test_tinyint\030\014 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\032\n\021test_tinyint_null\030\364\007 " +
-      "\001(\010\0220\n\014test_varchar\030\r \001(\0132\032.dstore.value" +
-      "s.stringValue\022\032\n\021test_varchar_null\030\365\007 \001(",
-      "\010\"\200\023\n\010Response\022H\n\020meta_information\030\002 \003(\013" +
-      "2..dstore.engine.metainformation.MetaInf" +
-      "ormation\022/\n\007message\030\003 \003(\0132\036.dstore.engin" +
-      "e.message.Message\022;\n\003row\030\004 \003(\0132..dstore." +
-      "engine.mi_DatatypeTest_Ad.Response.Row\022-" +
-      "\n\010test_bit\030e \001(\0132\033.dstore.values.boolean" +
-      "Value\022-\n\ttest_char\030f \001(\0132\032.dstore.values" +
-      ".stringValue\0224\n\rtest_datetime\030g \001(\0132\035.ds" +
-      "tore.values.timestampValue\0221\n\014test_decim" +
-      "al\030h \001(\0132\033.dstore.values.decimalValue\022-\n",
-      "\ntest_image\030i \001(\0132\031.dstore.values.bytesV" +
-      "alue\0221\n\014test_integer\030j \001(\0132\033.dstore.valu" +
-      "es.integerValue\022/\n\ntest_money\030k \001(\0132\033.ds" +
-      "tore.values.decimalValue\0222\n\rtest_smallin" +
-      "t\030l \001(\0132\033.dstore.values.integerValue\022-\n\t" +
-      "test_text\030m \001(\0132\032.dstore.values.stringVa" +
-      "lue\0221\n\014test_tinyint\030n \001(\0132\033.dstore.value" +
-      "s.integerValue\0220\n\014test_varchar\030o \001(\0132\032.d" +
-      "store.values.stringValue\032\231\r\n\003Row\022\017\n\006row_" +
-      "id\030\220N \001(\005\022.\n\ttest_text\030\221N \001(\0132\032.dstore.v",
-      "alues.stringValue\022=\n\030test_decimal_param_" +
-      "input\030\222N \001(\0132\032.dstore.values.stringValue" +
-      "\0225\n\rtest_datetime\030\223N \001(\0132\035.dstore.values" +
-      ".timestampValue\022G\n!test_text_param_input" +
-      "_byte_length\030\224N \001(\0132\033.dstore.values.inte" +
-      "gerValue\022:\n\025test_text_param_input\030\225N \001(\013" +
-      "2\032.dstore.values.stringValue\0222\n\014test_dec" +
-      "imal\030\226N \001(\0132\033.dstore.values.decimalValue" +
-      "\022>\n\031test_smallint_param_input\030\227N \001(\0132\032.d" +
-      "store.values.stringValue\022.\n\ttest_char\030\230N",
-      " \001(\0132\032.dstore.values.stringValue\022=\n\030test" +
-      "_tinyint_param_input\030\231N \001(\0132\032.dstore.val" +
-      "ues.stringValue\022.\n\010test_bit\030\232N \001(\0132\033.dst" +
-      "ore.values.booleanValue\0222\n\014test_integer\030" +
-      "\233N \001(\0132\033.dstore.values.integerValue\0222\n\014t" +
-      "est_tinyint\030\234N \001(\0132\033.dstore.values.integ" +
-      "erValue\022;\n\026test_money_param_input\030\235N \001(\013" +
-      "2\032.dstore.values.stringValue\022H\n\"test_ima" +
-      "ge_param_input_byte_length\030\236N \001(\0132\033.dsto" +
-      "re.values.integerValue\022?\n\032test_text_para",
-      "m_input_m_d5\030\237N \001(\0132\032.dstore.values.stri" +
-      "ngValue\022:\n\025test_char_param_input\030\240N \001(\0132" +
-      "\032.dstore.values.stringValue\0223\n\rtest_smal" +
-      "lint\030\241N \001(\0132\033.dstore.values.integerValue" +
-      "\0229\n\024test_bit_param_input\030\242N \001(\0132\032.dstore" +
-      ".values.stringValue\022.\n\ntest_image\030\243N \001(\013" +
-      "2\031.dstore.values.bytesValue\022.\n\013test_bigi" +
-      "nt\030\244N \001(\0132\030.dstore.values.longValue\022@\n\033t" +
-      "est_image_param_input_m_d5\030\245N \001(\0132\032.dsto" +
-      "re.values.stringValue\022=\n\030test_integer_pa",
-      "ram_input\030\246N \001(\0132\032.dstore.values.stringV" +
-      "alue\0221\n\014test_sysname\030\247N \001(\0132\032.dstore.val" +
-      "ues.stringValue\022=\n\030test_varchar_param_in" +
-      "put\030\250N \001(\0132\032.dstore.values.stringValue\022>" +
-      "\n\031test_datetime_param_input\030\251N \001(\0132\032.dst" +
-      "ore.values.stringValue\022;\n\026test_image_par" +
-      "am_input\030\252N \001(\0132\032.dstore.values.stringVa" +
-      "lue\0220\n\ntest_money\030\253N \001(\0132\033.dstore.values" +
-      ".decimalValue\0221\n\014test_varchar\030\254N \001(\0132\032.d" +
-      "store.values.stringValue\0222\n\014test_numeric",
-      "\030\255N \001(\0132\033.dstore.values.decimalValueBS\n\033" +
-      "io.dstore.engine.proceduresZ4gosdk.dstor" +
-      "e.de/engine/procedures/mi_DatatypeTest_A" +
-      "db\006proto3"
+      "st_Ad\032\023dstore/values.proto\032\032dstore/engin" +
+      "e/engine.proto\"\202\010\n\nParameters\0226\n\021set_out" +
+      "put_params\030\001 \001(\0132\033.dstore.values.boolean" +
+      "Value\022\037\n\026set_output_params_null\030\351\007 \001(\010\0223" +
+      "\n\016get_result_set\030\002 \001(\0132\033.dstore.values.b" +
+      "ooleanValue\022\034\n\023get_result_set_null\030\352\007 \001(" +
+      "\010\022-\n\010test_bit\030\003 \001(\0132\033.dstore.values.bool" +
+      "eanValue\022\026\n\rtest_bit_null\030\353\007 \001(\010\022-\n\ttest",
+      "_char\030\004 \001(\0132\032.dstore.values.stringValue\022" +
+      "\027\n\016test_char_null\030\354\007 \001(\010\0224\n\rtest_datetim" +
+      "e\030\005 \001(\0132\035.dstore.values.timestampValue\022\033" +
+      "\n\022test_datetime_null\030\355\007 \001(\010\0221\n\014test_deci" +
+      "mal\030\006 \001(\0132\033.dstore.values.decimalValue\022\032" +
+      "\n\021test_decimal_null\030\356\007 \001(\010\022-\n\ntest_image" +
+      "\030\007 \001(\0132\031.dstore.values.bytesValue\022\030\n\017tes" +
+      "t_image_null\030\357\007 \001(\010\0221\n\014test_integer\030\010 \001(" +
+      "\0132\033.dstore.values.integerValue\022\032\n\021test_i" +
+      "nteger_null\030\360\007 \001(\010\022/\n\ntest_money\030\t \001(\0132\033",
+      ".dstore.values.decimalValue\022\030\n\017test_mone" +
+      "y_null\030\361\007 \001(\010\0222\n\rtest_smallint\030\n \001(\0132\033.d" +
+      "store.values.integerValue\022\033\n\022test_smalli" +
+      "nt_null\030\362\007 \001(\010\022-\n\ttest_text\030\013 \001(\0132\032.dsto" +
+      "re.values.stringValue\022\027\n\016test_text_null\030" +
+      "\363\007 \001(\010\0221\n\014test_tinyint\030\014 \001(\0132\033.dstore.va" +
+      "lues.integerValue\022\032\n\021test_tinyint_null\030\364" +
+      "\007 \001(\010\0220\n\014test_varchar\030\r \001(\0132\032.dstore.val" +
+      "ues.stringValue\022\032\n\021test_varchar_null\030\365\007 " +
+      "\001(\010\"\350\022\n\010Response\0228\n\020meta_information\030\002 \003",
+      "(\0132\036.dstore.engine.MetaInformation\022\'\n\007me" +
+      "ssage\030\003 \003(\0132\026.dstore.engine.Message\022;\n\003r" +
+      "ow\030\004 \003(\0132..dstore.engine.mi_DatatypeTest" +
+      "_Ad.Response.Row\022-\n\010test_bit\030e \001(\0132\033.dst" +
+      "ore.values.booleanValue\022-\n\ttest_char\030f \001" +
+      "(\0132\032.dstore.values.stringValue\0224\n\rtest_d" +
+      "atetime\030g \001(\0132\035.dstore.values.timestampV" +
+      "alue\0221\n\014test_decimal\030h \001(\0132\033.dstore.valu" +
+      "es.decimalValue\022-\n\ntest_image\030i \001(\0132\031.ds" +
+      "tore.values.bytesValue\0221\n\014test_integer\030j",
+      " \001(\0132\033.dstore.values.integerValue\022/\n\ntes" +
+      "t_money\030k \001(\0132\033.dstore.values.decimalVal" +
+      "ue\0222\n\rtest_smallint\030l \001(\0132\033.dstore.value" +
+      "s.integerValue\022-\n\ttest_text\030m \001(\0132\032.dsto" +
+      "re.values.stringValue\0221\n\014test_tinyint\030n " +
+      "\001(\0132\033.dstore.values.integerValue\0220\n\014test" +
+      "_varchar\030o \001(\0132\032.dstore.values.stringVal" +
+      "ue\032\231\r\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n\ttest_text" +
+      "\030\221N \001(\0132\032.dstore.values.stringValue\022=\n\030t" +
+      "est_decimal_param_input\030\222N \001(\0132\032.dstore.",
+      "values.stringValue\0225\n\rtest_datetime\030\223N \001" +
+      "(\0132\035.dstore.values.timestampValue\022G\n!tes" +
+      "t_text_param_input_byte_length\030\224N \001(\0132\033." +
+      "dstore.values.integerValue\022:\n\025test_text_" +
+      "param_input\030\225N \001(\0132\032.dstore.values.strin" +
+      "gValue\0222\n\014test_decimal\030\226N \001(\0132\033.dstore.v" +
+      "alues.decimalValue\022>\n\031test_smallint_para" +
+      "m_input\030\227N \001(\0132\032.dstore.values.stringVal" +
+      "ue\022.\n\ttest_char\030\230N \001(\0132\032.dstore.values.s" +
+      "tringValue\022=\n\030test_tinyint_param_input\030\231",
+      "N \001(\0132\032.dstore.values.stringValue\022.\n\010tes" +
+      "t_bit\030\232N \001(\0132\033.dstore.values.booleanValu" +
+      "e\0222\n\014test_integer\030\233N \001(\0132\033.dstore.values" +
+      ".integerValue\0222\n\014test_tinyint\030\234N \001(\0132\033.d" +
+      "store.values.integerValue\022;\n\026test_money_" +
+      "param_input\030\235N \001(\0132\032.dstore.values.strin" +
+      "gValue\022H\n\"test_image_param_input_byte_le" +
+      "ngth\030\236N \001(\0132\033.dstore.values.integerValue" +
+      "\022?\n\032test_text_param_input_m_d5\030\237N \001(\0132\032." +
+      "dstore.values.stringValue\022:\n\025test_char_p",
+      "aram_input\030\240N \001(\0132\032.dstore.values.string" +
+      "Value\0223\n\rtest_smallint\030\241N \001(\0132\033.dstore.v" +
+      "alues.integerValue\0229\n\024test_bit_param_inp" +
+      "ut\030\242N \001(\0132\032.dstore.values.stringValue\022.\n" +
+      "\ntest_image\030\243N \001(\0132\031.dstore.values.bytes" +
+      "Value\022.\n\013test_bigint\030\244N \001(\0132\030.dstore.val" +
+      "ues.longValue\022@\n\033test_image_param_input_" +
+      "m_d5\030\245N \001(\0132\032.dstore.values.stringValue\022" +
+      "=\n\030test_integer_param_input\030\246N \001(\0132\032.dst" +
+      "ore.values.stringValue\0221\n\014test_sysname\030\247",
+      "N \001(\0132\032.dstore.values.stringValue\022=\n\030tes" +
+      "t_varchar_param_input\030\250N \001(\0132\032.dstore.va" +
+      "lues.stringValue\022>\n\031test_datetime_param_" +
+      "input\030\251N \001(\0132\032.dstore.values.stringValue" +
+      "\022;\n\026test_image_param_input\030\252N \001(\0132\032.dsto" +
+      "re.values.stringValue\0220\n\ntest_money\030\253N \001" +
+      "(\0132\033.dstore.values.decimalValue\0221\n\014test_" +
+      "varchar\030\254N \001(\0132\032.dstore.values.stringVal" +
+      "ue\0222\n\014test_numeric\030\255N \001(\0132\033.dstore.value" +
+      "s.decimalValueBS\n\033io.dstore.engine.proce",
+      "duresZ4gosdk.dstore.de/engine/procedures" +
+      "/mi_DatatypeTest_Adb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -15266,8 +15264,7 @@ public final class MiDatatypeTestAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_DatatypeTest_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -15288,8 +15285,7 @@ public final class MiDatatypeTestAd {
         internal_static_dstore_engine_mi_DatatypeTest_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TestText", "TestDecimalParamInput", "TestDatetime", "TestTextParamInputByteLength", "TestTextParamInput", "TestDecimal", "TestSmallintParamInput", "TestChar", "TestTinyintParamInput", "TestBit", "TestInteger", "TestTinyint", "TestMoneyParamInput", "TestImageParamInputByteLength", "TestTextParamInputMD5", "TestCharParamInput", "TestSmallint", "TestBitParamInput", "TestImage", "TestBigint", "TestImageParamInputMD5", "TestIntegerParamInput", "TestSysname", "TestVarcharParamInput", "TestDatetimeParamInput", "TestImageParamInput", "TestMoney", "TestVarchar", "TestNumeric", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

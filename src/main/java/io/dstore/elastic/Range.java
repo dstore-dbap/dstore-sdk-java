@@ -69,12 +69,12 @@ public  final class Range extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_descriptor;
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Range_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_fieldAccessorTable
+    return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Range_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             io.dstore.elastic.Range.class, io.dstore.elastic.Range.Builder.class);
   }
@@ -303,12 +303,12 @@ public  final class Range extends
       io.dstore.elastic.RangeOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Range_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_fieldAccessorTable
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Range_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               io.dstore.elastic.Range.class, io.dstore.elastic.Range.Builder.class);
     }
@@ -339,7 +339,7 @@ public  final class Range extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Range_descriptor;
+      return io.dstore.elastic.ElasticOuterClass.internal_static_dstore_elastic_Range_descriptor;
     }
 
     public io.dstore.elastic.Range getDefaultInstanceForType() {

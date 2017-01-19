@@ -3739,51 +3739,51 @@ public final class OmGetPricesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+    java.util.List<io.dstore.engine.MetaInformation> 
         getMetaInformationList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    io.dstore.engine.MetaInformation getMetaInformation(int index);
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     int getMetaInformationCount();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<io.dstore.engine.ProcedureMessage.Message> 
+    java.util.List<io.dstore.engine.Message> 
         getMessageList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.Message getMessage(int index);
+    io.dstore.engine.Message getMessage(int index);
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     int getMessageCount();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList();
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index);
 
     /**
@@ -3874,20 +3874,20 @@ public final class OmGetPricesPu {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>();
                 mutable_bitField0_ |= 0x00000001;
               }
               metaInformation_.add(
-                  input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.MetaInformation.parser(), extensionRegistry));
               break;
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                message_ = new java.util.ArrayList<io.dstore.engine.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
               message_.add(
-                  input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
+                  input.readMessage(io.dstore.engine.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -13252,71 +13252,71 @@ public final class OmGetPricesPu {
     }
 
     public static final int META_INFORMATION_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    private java.util.List<io.dstore.engine.MetaInformation> metaInformation_;
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+    public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
         getMetaInformationOrBuilderList() {
       return metaInformation_;
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
     public int getMetaInformationCount() {
       return metaInformation_.size();
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+    public io.dstore.engine.MetaInformation getMetaInformation(int index) {
       return metaInformation_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
      */
-    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+    public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
         int index) {
       return metaInformation_.get(index);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
+    private java.util.List<io.dstore.engine.Message> message_;
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+    public java.util.List<io.dstore.engine.Message> getMessageList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+    public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
         getMessageOrBuilderList() {
       return message_;
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
     public int getMessageCount() {
       return message_.size();
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+    public io.dstore.engine.Message getMessage(int index) {
       return message_.get(index);
     }
     /**
-     * <code>repeated .dstore.engine.message.Message message = 3;</code>
+     * <code>repeated .dstore.engine.Message message = 3;</code>
      */
-    public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+    public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
         int index) {
       return message_.get(index);
     }
@@ -13795,22 +13795,22 @@ public final class OmGetPricesPu {
       }
       private int bitField0_;
 
-      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+      private java.util.List<io.dstore.engine.MetaInformation> metaInformation_ =
         java.util.Collections.emptyList();
       private void ensureMetaInformationIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.MetaInformation>(metaInformation_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> metaInformationBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      public java.util.List<io.dstore.engine.MetaInformation> getMetaInformationList() {
         if (metaInformationBuilder_ == null) {
           return java.util.Collections.unmodifiableList(metaInformation_);
         } else {
@@ -13818,7 +13818,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public int getMetaInformationCount() {
         if (metaInformationBuilder_ == null) {
@@ -13828,9 +13828,9 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      public io.dstore.engine.MetaInformation getMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);
         } else {
@@ -13838,10 +13838,10 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13855,10 +13855,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder setMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.set(index, builderForValue.build());
@@ -13869,9 +13869,9 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+      public Builder addMetaInformation(io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13885,10 +13885,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+          int index, io.dstore.engine.MetaInformation value) {
         if (metaInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13902,10 +13902,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(builderForValue.build());
@@ -13916,10 +13916,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addMetaInformation(
-          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+          int index, io.dstore.engine.MetaInformation.Builder builderForValue) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           metaInformation_.add(index, builderForValue.build());
@@ -13930,10 +13930,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder addAllMetaInformation(
-          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+          java.lang.Iterable<? extends io.dstore.engine.MetaInformation> values) {
         if (metaInformationBuilder_ == null) {
           ensureMetaInformationIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -13945,7 +13945,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder clearMetaInformation() {
         if (metaInformationBuilder_ == null) {
@@ -13958,7 +13958,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
       public Builder removeMetaInformation(int index) {
         if (metaInformationBuilder_ == null) {
@@ -13971,16 +13971,16 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder getMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+      public io.dstore.engine.MetaInformationOrBuilder getMetaInformationOrBuilder(
           int index) {
         if (metaInformationBuilder_ == null) {
           return metaInformation_.get(index);  } else {
@@ -13988,9 +13988,9 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MetaInformationOrBuilder> 
            getMetaInformationOrBuilderList() {
         if (metaInformationBuilder_ != null) {
           return metaInformationBuilder_.getMessageOrBuilderList();
@@ -13999,33 +13999,33 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder() {
         return getMetaInformationFieldBuilder().addBuilder(
-            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+      public io.dstore.engine.MetaInformation.Builder addMetaInformationBuilder(
           int index) {
         return getMetaInformationFieldBuilder().addBuilder(
-            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+            index, io.dstore.engine.MetaInformation.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       * <code>repeated .dstore.engine.MetaInformation meta_information = 2;</code>
        */
-      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+      public java.util.List<io.dstore.engine.MetaInformation.Builder> 
            getMetaInformationBuilderList() {
         return getMetaInformationFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder> 
           getMetaInformationFieldBuilder() {
         if (metaInformationBuilder_ == null) {
           metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+              io.dstore.engine.MetaInformation, io.dstore.engine.MetaInformation.Builder, io.dstore.engine.MetaInformationOrBuilder>(
                   metaInformation_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -14035,22 +14035,22 @@ public final class OmGetPricesPu {
         return metaInformationBuilder_;
       }
 
-      private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
+      private java.util.List<io.dstore.engine.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
+          message_ = new java.util.ArrayList<io.dstore.engine.Message>(message_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> messageBuilder_;
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> messageBuilder_;
 
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message> getMessageList() {
+      public java.util.List<io.dstore.engine.Message> getMessageList() {
         if (messageBuilder_ == null) {
           return java.util.Collections.unmodifiableList(message_);
         } else {
@@ -14058,7 +14058,7 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public int getMessageCount() {
         if (messageBuilder_ == null) {
@@ -14068,9 +14068,9 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message getMessage(int index) {
+      public io.dstore.engine.Message getMessage(int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);
         } else {
@@ -14078,10 +14078,10 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -14095,10 +14095,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder setMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.set(index, builderForValue.build());
@@ -14109,9 +14109,9 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public Builder addMessage(io.dstore.engine.ProcedureMessage.Message value) {
+      public Builder addMessage(io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -14125,10 +14125,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message value) {
+          int index, io.dstore.engine.Message value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -14142,10 +14142,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(builderForValue.build());
@@ -14156,10 +14156,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addMessage(
-          int index, io.dstore.engine.ProcedureMessage.Message.Builder builderForValue) {
+          int index, io.dstore.engine.Message.Builder builderForValue) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           message_.add(index, builderForValue.build());
@@ -14170,10 +14170,10 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder addAllMessage(
-          java.lang.Iterable<? extends io.dstore.engine.ProcedureMessage.Message> values) {
+          java.lang.Iterable<? extends io.dstore.engine.Message> values) {
         if (messageBuilder_ == null) {
           ensureMessageIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -14185,7 +14185,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -14198,7 +14198,7 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
       public Builder removeMessage(int index) {
         if (messageBuilder_ == null) {
@@ -14211,16 +14211,16 @@ public final class OmGetPricesPu {
         return this;
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder getMessageBuilder(
+      public io.dstore.engine.Message.Builder getMessageBuilder(
           int index) {
         return getMessageFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.MessageOrBuilder getMessageOrBuilder(
+      public io.dstore.engine.MessageOrBuilder getMessageOrBuilder(
           int index) {
         if (messageBuilder_ == null) {
           return message_.get(index);  } else {
@@ -14228,9 +14228,9 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<? extends io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+      public java.util.List<? extends io.dstore.engine.MessageOrBuilder> 
            getMessageOrBuilderList() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilderList();
@@ -14239,33 +14239,33 @@ public final class OmGetPricesPu {
         }
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder() {
+      public io.dstore.engine.Message.Builder addMessageBuilder() {
         return getMessageFieldBuilder().addBuilder(
-            io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public io.dstore.engine.ProcedureMessage.Message.Builder addMessageBuilder(
+      public io.dstore.engine.Message.Builder addMessageBuilder(
           int index) {
         return getMessageFieldBuilder().addBuilder(
-            index, io.dstore.engine.ProcedureMessage.Message.getDefaultInstance());
+            index, io.dstore.engine.Message.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.engine.message.Message message = 3;</code>
+       * <code>repeated .dstore.engine.Message message = 3;</code>
        */
-      public java.util.List<io.dstore.engine.ProcedureMessage.Message.Builder> 
+      public java.util.List<io.dstore.engine.Message.Builder> 
            getMessageBuilderList() {
         return getMessageFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder> 
+          io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
+              io.dstore.engine.Message, io.dstore.engine.Message.Builder, io.dstore.engine.MessageOrBuilder>(
                   message_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -14661,99 +14661,98 @@ public final class OmGetPricesPu {
     java.lang.String[] descriptorData = {
       "\n.dstore/engine/procedures/om_GetPrices_" +
       "Pu.proto\022\035dstore.engine.om_GetPrices_Pu\032" +
-      "\023dstore/values.proto\032\033dstore/engine/mess" +
-      "age.proto\032#dstore/engine/metainformation" +
-      ".proto\"\352\010\n\nParameters\022,\n\010node_ids\030\001 \001(\0132" +
-      "\032.dstore.values.stringValue\022\026\n\rnode_ids_" +
-      "null\030\351\007 \001(\010\022.\n\nquantities\030\002 \001(\0132\032.dstore" +
-      ".values.stringValue\022\030\n\017quantities_null\030\352" +
-      "\007 \001(\010\022.\n\tperson_id\030\003 \001(\0132\033.dstore.values" +
-      ".integerValue\022\027\n\016person_id_null\030\353\007 \001(\010\0220",
-      "\n\013currency_id\030\004 \001(\0132\033.dstore.values.inte" +
-      "gerValue\022\031\n\020currency_id_null\030\354\007 \001(\010\0224\n\017i" +
-      "s_tree_node_id\030\005 \001(\0132\033.dstore.values.boo" +
-      "leanValue\022\035\n\024is_tree_node_id_null\030\355\007 \001(\010" +
-      "\022A\n\034price_node_characteristic_id\030\006 \001(\0132\033" +
-      ".dstore.values.integerValue\022*\n!price_nod" +
-      "e_characteristic_id_null\030\356\007 \001(\010\0220\n\013compu" +
-      "te_sum\030\007 \001(\0132\033.dstore.values.booleanValu" +
-      "e\022\031\n\020compute_sum_null\030\357\007 \001(\010\022-\n\tunique_i" +
-      "d\030\010 \001(\0132\032.dstore.values.stringValue\022\027\n\016u",
-      "nique_id_null\030\360\007 \001(\010\022>\n\031get_additional_p" +
-      "rice_info\030\t \001(\0132\033.dstore.values.booleanV" +
-      "alue\022\'\n\036get_additional_price_info_null\030\361" +
-      "\007 \001(\010\0227\n\022delivery_person_id\030\n \001(\0132\033.dsto" +
-      "re.values.integerValue\022 \n\027delivery_perso" +
-      "n_id_null\030\362\007 \001(\010\022A\n\034get_price_per_single" +
-      "_node_id\030\013 \001(\0132\033.dstore.values.booleanVa" +
-      "lue\022*\n!get_price_per_single_node_id_null" +
-      "\030\363\007 \001(\010\0224\n\017payment_type_id\030\014 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\035\n\024payment_type_id",
-      "_null\030\364\007 \001(\010\0225\n\020shipping_type_id\030\r \001(\0132\033" +
-      ".dstore.values.integerValue\022\036\n\025shipping_" +
-      "type_id_null\030\365\007 \001(\010\"\341\022\n\010Response\022H\n\020meta" +
-      "_information\030\002 \003(\0132..dstore.engine.metai" +
-      "nformation.MetaInformation\022/\n\007message\030\003 " +
-      "\003(\0132\036.dstore.engine.message.Message\0228\n\003r" +
-      "ow\030\004 \003(\0132+.dstore.engine.om_GetPrices_Pu" +
-      ".Response.Row\032\237\021\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227" +
-      "\n\021total_netto_price\030\221N \001(\0132\033.dstore.valu" +
-      "es.decimalValue\022F\n precise_abs_unit_gros",
-      "s_surcharge\030\222N \001(\0132\033.dstore.values.decim" +
-      "alValue\022B\n\034price_node_characteristic_id\030" +
-      "\223N \001(\0132\033.dstore.values.integerValue\022C\n\035a" +
-      "bsolute_unit_netto_surcharge\030\224N \001(\0132\033.ds" +
-      "tore.values.decimalValue\0226\n\020unit_gross_p" +
-      "rice\030\225N \001(\0132\033.dstore.values.decimalValue" +
-      "\022B\n\034absolute_total_net_surcharge\030\226N \001(\0132" +
-      "\033.dstore.values.decimalValue\022D\n\036absolute" +
-      "_total_gross_surcharge\030\227N \001(\0132\033.dstore.v" +
-      "alues.decimalValue\0227\n\021unit_brutto_price\030",
-      "\230N \001(\0132\033.dstore.values.decimalValue\022>\n\030p" +
-      "recise_unit_gross_price\030\231N \001(\0132\033.dstore." +
-      "values.decimalValue\0224\n\016unit_net_price\030\232N" +
-      " \001(\0132\033.dstore.values.decimalValue\0228\n\022tot" +
-      "al_brutto_price\030\233N \001(\0132\033.dstore.values.d" +
-      "ecimalValue\022D\n\036precise_abs_unit_net_surc" +
-      "harge\030\234N \001(\0132\033.dstore.values.decimalValu" +
-      "e\0225\n\020surcharge_reason\030\235N \001(\0132\032.dstore.va" +
-      "lues.stringValue\022-\n\007node_id\030\236N \001(\0132\033.dst" +
-      "ore.values.integerValue\0222\n\014tree_node_id\030",
-      "\237N \001(\0132\033.dstore.values.integerValue\022D\n\036a" +
-      "bsolute_total_netto_surcharge\030\240N \001(\0132\033.d" +
-      "store.values.decimalValue\0228\n\022relative_su" +
-      "rcharge\030\241N \001(\0132\033.dstore.values.decimalVa" +
-      "lue\022E\n\037absolute_total_brutto_surcharge\030\242" +
-      "N \001(\0132\033.dstore.values.decimalValue\022D\n\037su" +
-      "rcharge_generated_by_camp_ids\030\243N \001(\0132\032.d" +
-      "store.values.stringValue\022?\n\031precise_tota" +
-      "l_gross_price\030\244N \001(\0132\033.dstore.values.dec" +
-      "imalValue\0226\n\020unit_netto_price\030\245N \001(\0132\033.d",
-      "store.values.decimalValue\0226\n\020taxes_multi" +
-      "plier\030\246N \001(\0132\033.dstore.values.decimalValu" +
-      "e\022G\n!precise_abs_total_gross_surcharge\030\247" +
-      "N \001(\0132\033.dstore.values.decimalValue\022E\n\037pr" +
-      "ecise_abs_total_net_surcharge\030\250N \001(\0132\033.d" +
-      "store.values.decimalValue\0225\n\017total_net_p" +
-      "rice\030\251N \001(\0132\033.dstore.values.decimalValue" +
-      "\022.\n\010quantity\030\252N \001(\0132\033.dstore.values.inte" +
-      "gerValue\022I\n$quantity_per_bundle_item_set" +
-      "_id_list\030\253N \001(\0132\032.dstore.values.stringVa",
-      "lue\0225\n\017surcharge_value\030\254N \001(\0132\033.dstore.v" +
-      "alues.decimalValue\022A\n\033absolute_unit_net_" +
-      "surcharge\030\255N \001(\0132\033.dstore.values.decimal" +
-      "Value\022D\n\036absolute_unit_brutto_surcharge\030" +
-      "\256N \001(\0132\033.dstore.values.decimalValue\022C\n\035a" +
-      "bsolute_unit_gross_surcharge\030\257N \001(\0132\033.ds" +
-      "tore.values.decimalValue\022=\n\027precise_tota" +
-      "l_net_price\030\260N \001(\0132\033.dstore.values.decim" +
-      "alValue\0227\n\021surcharge_type_id\030\261N \001(\0132\033.ds" +
-      "tore.values.integerValue\022<\n\026precise_unit",
-      "_net_price\030\262N \001(\0132\033.dstore.values.decima" +
-      "lValue\0227\n\021total_gross_price\030\263N \001(\0132\033.dst" +
-      "ore.values.decimalValueBP\n\033io.dstore.eng" +
-      "ine.proceduresZ1gosdk.dstore.de/engine/p" +
-      "rocedures/om_GetPrices_Pub\006proto3"
+      "\023dstore/values.proto\032\032dstore/engine/engi" +
+      "ne.proto\"\352\010\n\nParameters\022,\n\010node_ids\030\001 \001(" +
+      "\0132\032.dstore.values.stringValue\022\026\n\rnode_id" +
+      "s_null\030\351\007 \001(\010\022.\n\nquantities\030\002 \001(\0132\032.dsto" +
+      "re.values.stringValue\022\030\n\017quantities_null" +
+      "\030\352\007 \001(\010\022.\n\tperson_id\030\003 \001(\0132\033.dstore.valu" +
+      "es.integerValue\022\027\n\016person_id_null\030\353\007 \001(\010" +
+      "\0220\n\013currency_id\030\004 \001(\0132\033.dstore.values.in",
+      "tegerValue\022\031\n\020currency_id_null\030\354\007 \001(\010\0224\n" +
+      "\017is_tree_node_id\030\005 \001(\0132\033.dstore.values.b" +
+      "ooleanValue\022\035\n\024is_tree_node_id_null\030\355\007 \001" +
+      "(\010\022A\n\034price_node_characteristic_id\030\006 \001(\013" +
+      "2\033.dstore.values.integerValue\022*\n!price_n" +
+      "ode_characteristic_id_null\030\356\007 \001(\010\0220\n\013com" +
+      "pute_sum\030\007 \001(\0132\033.dstore.values.booleanVa" +
+      "lue\022\031\n\020compute_sum_null\030\357\007 \001(\010\022-\n\tunique" +
+      "_id\030\010 \001(\0132\032.dstore.values.stringValue\022\027\n" +
+      "\016unique_id_null\030\360\007 \001(\010\022>\n\031get_additional",
+      "_price_info\030\t \001(\0132\033.dstore.values.boolea" +
+      "nValue\022\'\n\036get_additional_price_info_null" +
+      "\030\361\007 \001(\010\0227\n\022delivery_person_id\030\n \001(\0132\033.ds" +
+      "tore.values.integerValue\022 \n\027delivery_per" +
+      "son_id_null\030\362\007 \001(\010\022A\n\034get_price_per_sing" +
+      "le_node_id\030\013 \001(\0132\033.dstore.values.boolean" +
+      "Value\022*\n!get_price_per_single_node_id_nu" +
+      "ll\030\363\007 \001(\010\0224\n\017payment_type_id\030\014 \001(\0132\033.dst" +
+      "ore.values.integerValue\022\035\n\024payment_type_" +
+      "id_null\030\364\007 \001(\010\0225\n\020shipping_type_id\030\r \001(\013",
+      "2\033.dstore.values.integerValue\022\036\n\025shippin" +
+      "g_type_id_null\030\365\007 \001(\010\"\311\022\n\010Response\0228\n\020me" +
+      "ta_information\030\002 \003(\0132\036.dstore.engine.Met" +
+      "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
+      "ngine.Message\0228\n\003row\030\004 \003(\0132+.dstore.engi" +
+      "ne.om_GetPrices_Pu.Response.Row\032\237\021\n\003Row\022" +
+      "\017\n\006row_id\030\220N \001(\005\0227\n\021total_netto_price\030\221N" +
+      " \001(\0132\033.dstore.values.decimalValue\022F\n pre" +
+      "cise_abs_unit_gross_surcharge\030\222N \001(\0132\033.d" +
+      "store.values.decimalValue\022B\n\034price_node_",
+      "characteristic_id\030\223N \001(\0132\033.dstore.values" +
+      ".integerValue\022C\n\035absolute_unit_netto_sur" +
+      "charge\030\224N \001(\0132\033.dstore.values.decimalVal" +
+      "ue\0226\n\020unit_gross_price\030\225N \001(\0132\033.dstore.v" +
+      "alues.decimalValue\022B\n\034absolute_total_net" +
+      "_surcharge\030\226N \001(\0132\033.dstore.values.decima" +
+      "lValue\022D\n\036absolute_total_gross_surcharge" +
+      "\030\227N \001(\0132\033.dstore.values.decimalValue\0227\n\021" +
+      "unit_brutto_price\030\230N \001(\0132\033.dstore.values" +
+      ".decimalValue\022>\n\030precise_unit_gross_pric",
+      "e\030\231N \001(\0132\033.dstore.values.decimalValue\0224\n" +
+      "\016unit_net_price\030\232N \001(\0132\033.dstore.values.d" +
+      "ecimalValue\0228\n\022total_brutto_price\030\233N \001(\013" +
+      "2\033.dstore.values.decimalValue\022D\n\036precise" +
+      "_abs_unit_net_surcharge\030\234N \001(\0132\033.dstore." +
+      "values.decimalValue\0225\n\020surcharge_reason\030" +
+      "\235N \001(\0132\032.dstore.values.stringValue\022-\n\007no" +
+      "de_id\030\236N \001(\0132\033.dstore.values.integerValu" +
+      "e\0222\n\014tree_node_id\030\237N \001(\0132\033.dstore.values" +
+      ".integerValue\022D\n\036absolute_total_netto_su",
+      "rcharge\030\240N \001(\0132\033.dstore.values.decimalVa" +
+      "lue\0228\n\022relative_surcharge\030\241N \001(\0132\033.dstor" +
+      "e.values.decimalValue\022E\n\037absolute_total_" +
+      "brutto_surcharge\030\242N \001(\0132\033.dstore.values." +
+      "decimalValue\022D\n\037surcharge_generated_by_c" +
+      "amp_ids\030\243N \001(\0132\032.dstore.values.stringVal" +
+      "ue\022?\n\031precise_total_gross_price\030\244N \001(\0132\033" +
+      ".dstore.values.decimalValue\0226\n\020unit_nett" +
+      "o_price\030\245N \001(\0132\033.dstore.values.decimalVa" +
+      "lue\0226\n\020taxes_multiplier\030\246N \001(\0132\033.dstore.",
+      "values.decimalValue\022G\n!precise_abs_total" +
+      "_gross_surcharge\030\247N \001(\0132\033.dstore.values." +
+      "decimalValue\022E\n\037precise_abs_total_net_su" +
+      "rcharge\030\250N \001(\0132\033.dstore.values.decimalVa" +
+      "lue\0225\n\017total_net_price\030\251N \001(\0132\033.dstore.v" +
+      "alues.decimalValue\022.\n\010quantity\030\252N \001(\0132\033." +
+      "dstore.values.integerValue\022I\n$quantity_p" +
+      "er_bundle_item_set_id_list\030\253N \001(\0132\032.dsto" +
+      "re.values.stringValue\0225\n\017surcharge_value" +
+      "\030\254N \001(\0132\033.dstore.values.decimalValue\022A\n\033",
+      "absolute_unit_net_surcharge\030\255N \001(\0132\033.dst" +
+      "ore.values.decimalValue\022D\n\036absolute_unit" +
+      "_brutto_surcharge\030\256N \001(\0132\033.dstore.values" +
+      ".decimalValue\022C\n\035absolute_unit_gross_sur" +
+      "charge\030\257N \001(\0132\033.dstore.values.decimalVal" +
+      "ue\022=\n\027precise_total_net_price\030\260N \001(\0132\033.d" +
+      "store.values.decimalValue\0227\n\021surcharge_t" +
+      "ype_id\030\261N \001(\0132\033.dstore.values.integerVal" +
+      "ue\022<\n\026precise_unit_net_price\030\262N \001(\0132\033.ds" +
+      "tore.values.decimalValue\0227\n\021total_gross_",
+      "price\030\263N \001(\0132\033.dstore.values.decimalValu" +
+      "eBP\n\033io.dstore.engine.proceduresZ1gosdk." +
+      "dstore.de/engine/procedures/om_GetPrices" +
+      "_Pub\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -14767,8 +14766,7 @@ public final class OmGetPricesPu {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.Values.getDescriptor(),
-          io.dstore.engine.ProcedureMessage.getDescriptor(),
-          io.dstore.engine.EngineMetaInformation.getDescriptor(),
+          io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPrices_Pu_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -14789,8 +14787,7 @@ public final class OmGetPricesPu {
         internal_static_dstore_engine_om_GetPrices_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TotalNettoPrice", "PreciseAbsUnitGrossSurcharge", "PriceNodeCharacteristicId", "AbsoluteUnitNettoSurcharge", "UnitGrossPrice", "AbsoluteTotalNetSurcharge", "AbsoluteTotalGrossSurcharge", "UnitBruttoPrice", "PreciseUnitGrossPrice", "UnitNetPrice", "TotalBruttoPrice", "PreciseAbsUnitNetSurcharge", "SurchargeReason", "NodeId", "TreeNodeId", "AbsoluteTotalNettoSurcharge", "RelativeSurcharge", "AbsoluteTotalBruttoSurcharge", "SurchargeGeneratedByCampIds", "PreciseTotalGrossPrice", "UnitNettoPrice", "TaxesMultiplier", "PreciseAbsTotalGrossSurcharge", "PreciseAbsTotalNetSurcharge", "TotalNetPrice", "Quantity", "QuantityPerBundleItemSetIdList", "SurchargeValue", "AbsoluteUnitNetSurcharge", "AbsoluteUnitBruttoSurcharge", "AbsoluteUnitGrossSurcharge", "PreciseTotalNetPrice", "SurchargeTypeId", "PreciseUnitNetPrice", "TotalGrossPrice", });
     io.dstore.Values.getDescriptor();
-    io.dstore.engine.ProcedureMessage.getDescriptor();
-    io.dstore.engine.EngineMetaInformation.getDescriptor();
+    io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
