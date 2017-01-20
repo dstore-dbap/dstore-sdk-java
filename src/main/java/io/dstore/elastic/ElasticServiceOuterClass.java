@@ -26,14 +26,15 @@ public final class ElasticServiceOuterClass {
       "\n$dstore/elastic/elastic_service.proto\022\016" +
       "dstore.elastic\032\"dstore/elastic/item/item" +
       "_get.proto\032&dstore/elastic/item/item_sug" +
-      "gest.proto2\317\001\n\007Elastic\022\\\n\007itemGet\022%.dsto" +
-      "re.elastic.item.item_get.Request\032&.dstor" +
-      "e.elastic.item.item_get.Response\"\0000\001\022f\n\013" +
-      "itemSuggest\022).dstore.elastic.item.item_s" +
-      "uggest.Request\032*.dstore.elastic.item.ite" +
-      "m_suggest.Response\"\000BV\n\021io.dstore.elasti" +
-      "cB\030ElasticServiceOuterClassZ\'gosdk.dstor",
-      "e.de/elastic/elastic_serviceb\006proto3"
+      "gest.proto\032%dstore/elastic/item/item_exp" +
+      "ort.proto2\317\001\n\007Elastic\022\\\n\007itemGet\022%.dstor" +
+      "e.elastic.item.item_get.Request\032&.dstore" +
+      ".elastic.item.item_get.Response\"\0000\001\022f\n\013i" +
+      "temSuggest\022).dstore.elastic.item.item_su" +
+      "ggest.Request\032*.dstore.elastic.item.item" +
+      "_suggest.Response\"\000BV\n\021io.dstore.elastic",
+      "B\030ElasticServiceOuterClassZ\'gosdk.dstore" +
+      ".de/elastic/elastic_serviceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -48,9 +49,11 @@ public final class ElasticServiceOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.item.ItemGet.getDescriptor(),
           io.dstore.elastic.item.ItemSuggest.getDescriptor(),
+          io.dstore.elastic.item.ItemExport.getDescriptor(),
         }, assigner);
     io.dstore.elastic.item.ItemGet.getDescriptor();
     io.dstore.elastic.item.ItemSuggest.getDescriptor();
+    io.dstore.elastic.item.ItemExport.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -141,7 +141,7 @@ public final class ItemGet {
         int index);
 
     /**
-     * <code>optional bool onlyMatchingVariants = 7;</code>
+     * <code>optional bool only_matching_variants = 7;</code>
      */
     boolean getOnlyMatchingVariants();
 
@@ -3572,10 +3572,10 @@ public final class ItemGet {
       return dateRangeFacet_.get(index);
     }
 
-    public static final int ONLYMATCHINGVARIANTS_FIELD_NUMBER = 7;
+    public static final int ONLY_MATCHING_VARIANTS_FIELD_NUMBER = 7;
     private boolean onlyMatchingVariants_;
     /**
-     * <code>optional bool onlyMatchingVariants = 7;</code>
+     * <code>optional bool only_matching_variants = 7;</code>
      */
     public boolean getOnlyMatchingVariants() {
       return onlyMatchingVariants_;
@@ -3874,7 +3874,7 @@ public final class ItemGet {
         hash = (37 * hash) + DATE_RANGE_FACET_FIELD_NUMBER;
         hash = (53 * hash) + getDateRangeFacetList().hashCode();
       }
-      hash = (37 * hash) + ONLYMATCHINGVARIANTS_FIELD_NUMBER;
+      hash = (37 * hash) + ONLY_MATCHING_VARIANTS_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getOnlyMatchingVariants());
       hash = (37 * hash) + FROM_FIELD_NUMBER;
@@ -5380,13 +5380,13 @@ public final class ItemGet {
 
       private boolean onlyMatchingVariants_ ;
       /**
-       * <code>optional bool onlyMatchingVariants = 7;</code>
+       * <code>optional bool only_matching_variants = 7;</code>
        */
       public boolean getOnlyMatchingVariants() {
         return onlyMatchingVariants_;
       }
       /**
-       * <code>optional bool onlyMatchingVariants = 7;</code>
+       * <code>optional bool only_matching_variants = 7;</code>
        */
       public Builder setOnlyMatchingVariants(boolean value) {
         
@@ -5395,7 +5395,7 @@ public final class ItemGet {
         return this;
       }
       /**
-       * <code>optional bool onlyMatchingVariants = 7;</code>
+       * <code>optional bool only_matching_variants = 7;</code>
        */
       public Builder clearOnlyMatchingVariants() {
         
@@ -9290,7 +9290,7 @@ public final class ItemGet {
       "\n\"dstore/elastic/item/item_get.proto\022\034ds" +
       "tore.elastic.item.item_get\032\034dstore/elast" +
       "ic/elastic.proto\032\036dstore/elastic/item/it" +
-      "em.proto\032\023dstore/values.proto\"\235\007\n\007Reques" +
+      "em.proto\032\023dstore/values.proto\"\237\007\n\007Reques" +
       "t\022-\n\nbase_query\030\001 \001(\0132\031.dstore.elastic.B" +
       "oolQuery\022-\n\npost_query\030\002 \001(\0132\031.dstore.el" +
       "astic.BoolQuery\022:\n\005facet\030\003 \003(\0132+.dstore." +
@@ -9298,36 +9298,36 @@ public final class ItemGet {
       "ange_facet\030\005 \003(\01320.dstore.elastic.item.i" +
       "tem_get.Request.RangeFacet\022J\n\020date_range",
       "_facet\030\006 \003(\01320.dstore.elastic.item.item_" +
-      "get.Request.RangeFacet\022\034\n\024onlyMatchingVa" +
-      "riants\030\007 \001(\010\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001(\005" +
-      "\022\035\n\025include_field_pattern\030\017 \003(\t\022\035\n\025exclu" +
-      "de_field_pattern\030\020 \003(\t\022\"\n\004sort\030\024 \003(\0132\024.d" +
-      "store.elastic.Sort\032F\n\nRangeFacet\022\022\n\nfiel" +
-      "d_name\030\001 \001(\t\022$\n\005range\030\002 \003(\0132\025.dstore.ela" +
-      "stic.Range\032\200\003\n\005Facet\022\022\n\nfield_name\030\001 \001(\t" +
-      "\022N\n\014sort_no_sort\030\002 \001(\01326.dstore.elastic." +
-      "item.item_get.Request.Facet.SortNoSortH\000",
-      "\022K\n\nfield_sort\030\003 \001(\01325.dstore.elastic.it" +
-      "em.item_get.Request.Facet.FieldSortH\000\032<\n" +
-      "\nSortNoSort\022.\n\nsort_order\030\001 \001(\0162\032.dstore" +
-      ".elastic.Sort.Order\032}\n\tFieldSort\022\022\n\nfiel" +
-      "d_name\030\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dstor" +
-      "e.elastic.Sort.Order\022,\n\tsort_mode\030\003 \001(\0162" +
-      "\031.dstore.elastic.Sort.ModeB\t\n\007sort_by\"\332\003" +
-      "\n\010Response\022\022\n\ntotal_hits\030\002 \001(\005\022,\n\004item\030\003" +
-      " \003(\0132\036.dstore.elastic.item.item.Item\022;\n\005" +
-      "facet\030\004 \003(\0132,.dstore.elastic.item.item_g",
-      "et.Response.Facet\022\034\n\024elastic_query_strin" +
-      "g\030\005 \001(\t\032\260\002\n\005Facet\022\022\n\nfield_name\030\001 \001(\t\022L\n" +
-      "\013facet_value\030\002 \003(\01327.dstore.elastic.item" +
-      ".item_get.Response.Facet.FacetValue\022\022\n\nr" +
-      "ange_from\030\n \001(\001\022\020\n\010range_to\030\013 \001(\001\032\236\001\n\nFa" +
-      "cetValue\022#\n\005value\030\001 \001(\0132\024.dstore.values." +
-      "Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023match" +
-      "ing_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010\022\021\n\t" +
-      "min_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001B:\n\026io" +
-      ".dstore.elastic.itemZ gosdk.dstore.de/el",
-      "astic/item/getb\006proto3"
+      "get.Request.RangeFacet\022\036\n\026only_matching_" +
+      "variants\030\007 \001(\010\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001" +
+      "(\005\022\035\n\025include_field_pattern\030\017 \003(\t\022\035\n\025exc" +
+      "lude_field_pattern\030\020 \003(\t\022\"\n\004sort\030\024 \003(\0132\024" +
+      ".dstore.elastic.Sort\032F\n\nRangeFacet\022\022\n\nfi" +
+      "eld_name\030\001 \001(\t\022$\n\005range\030\002 \003(\0132\025.dstore.e" +
+      "lastic.Range\032\200\003\n\005Facet\022\022\n\nfield_name\030\001 \001" +
+      "(\t\022N\n\014sort_no_sort\030\002 \001(\01326.dstore.elasti" +
+      "c.item.item_get.Request.Facet.SortNoSort",
+      "H\000\022K\n\nfield_sort\030\003 \001(\01325.dstore.elastic." +
+      "item.item_get.Request.Facet.FieldSortH\000\032" +
+      "<\n\nSortNoSort\022.\n\nsort_order\030\001 \001(\0162\032.dsto" +
+      "re.elastic.Sort.Order\032}\n\tFieldSort\022\022\n\nfi" +
+      "eld_name\030\001 \001(\t\022.\n\nsort_order\030\002 \001(\0162\032.dst" +
+      "ore.elastic.Sort.Order\022,\n\tsort_mode\030\003 \001(" +
+      "\0162\031.dstore.elastic.Sort.ModeB\t\n\007sort_by\"" +
+      "\332\003\n\010Response\022\022\n\ntotal_hits\030\002 \001(\005\022,\n\004item" +
+      "\030\003 \003(\0132\036.dstore.elastic.item.item.Item\022;" +
+      "\n\005facet\030\004 \003(\0132,.dstore.elastic.item.item",
+      "_get.Response.Facet\022\034\n\024elastic_query_str" +
+      "ing\030\005 \001(\t\032\260\002\n\005Facet\022\022\n\nfield_name\030\001 \001(\t\022" +
+      "L\n\013facet_value\030\002 \003(\01327.dstore.elastic.it" +
+      "em.item_get.Response.Facet.FacetValue\022\022\n" +
+      "\nrange_from\030\n \001(\001\022\020\n\010range_to\030\013 \001(\001\032\236\001\n\n" +
+      "FacetValue\022#\n\005value\030\001 \001(\0132\024.dstore.value" +
+      "s.Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n\023mat" +
+      "ching_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001(\010\022\021" +
+      "\n\tmin_value\030\005 \001(\001\022\021\n\tmax_value\030\006 \001(\001B:\n\026" +
+      "io.dstore.elastic.itemZ gosdk.dstore.de/",
+      "elastic/item/getb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
